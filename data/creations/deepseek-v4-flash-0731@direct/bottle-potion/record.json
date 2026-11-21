@@ -1,0 +1,29 @@
+{
+ "config": "deepseek-v4-flash-0731@direct",
+ "task": "bottle-potion",
+ "ok": false,
+ "error": "unparseable",
+ "termination": "format",
+ "frames": 0,
+ "colors": null,
+ "parse": {
+  "ok": false,
+  "reason": "frames 0/1",
+  "palette_size": 12
+ },
+ "max_tokens": 131072,
+ "time_limit_s": 3600.0,
+ "finish_reason": "stop",
+ "prompt_tokens": 1795,
+ "completion_tokens": 85240,
+ "reasoning_tokens": 49816,
+ "seconds": 1460.7,
+ "calls_usage": [
+  [
+   1795,
+   0,
+   85240,
+   49816
+  ]
+ ]
+}

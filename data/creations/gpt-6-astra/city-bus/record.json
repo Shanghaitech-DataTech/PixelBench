@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra",
+ "task": "city-bus",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "67a4f7981c6112b422117bbce0db436d201c829fea86fd10e505c93ec0cff22f"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 34,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 36413,
+ "cached_tokens": 35584,
+ "completion_tokens": 1419,
+ "reasoning_tokens": 12,
+ "seconds": 77.9,
+ "llm_seconds": 76.1,
+ "tool_seconds": 1.2,
+ "calls_usage": [
+  [
+   11138,
+   10752,
+   1365,
+   0
+  ],
+  [
+   12518,
+   12416,
+   18,
+   0
+  ],
+  [
+   12757,
+   12416,
+   36,
+   12
+  ]
+ ]
+}

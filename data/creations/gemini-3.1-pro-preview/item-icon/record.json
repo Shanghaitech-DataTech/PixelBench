@@ -1,0 +1,42 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "item-icon",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0001",
+  "source_hashes": {
+   "main.py": "9a66203549c01e0c2f62e12e2829aaef2cb1037a374c303e6c892c103aa9886d"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 17,
+ "writes": 1,
+ "model_rounds": 1,
+ "llm_calls": 1,
+ "retries": 0,
+ "prompt_tokens": 7550,
+ "cached_tokens": 0,
+ "completion_tokens": 2179,
+ "reasoning_tokens": 27309,
+ "seconds": 272.9,
+ "llm_seconds": 271.7,
+ "tool_seconds": 0.6,
+ "calls_usage": [
+  [
+   7550,
+   0,
+   29488,
+   27309
+  ]
+ ]
+}

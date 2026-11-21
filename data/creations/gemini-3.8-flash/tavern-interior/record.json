@@ -1,0 +1,120 @@
+{
+ "config": "gemini-3.8-flash",
+ "task": "tavern-interior",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "5cb7722d67098d9fa1c60c900a85638819a06f6a2983609b6023fbbc74e835ea"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 57,
+ "writes": 6,
+ "model_rounds": 14,
+ "llm_calls": 14,
+ "retries": 0,
+ "prompt_tokens": 611869,
+ "cached_tokens": 510963,
+ "completion_tokens": 54605,
+ "reasoning_tokens": 0,
+ "seconds": 531.9,
+ "llm_seconds": 525.8,
+ "tool_seconds": 4.5,
+ "calls_usage": [
+  [
+   7683,
+   0,
+   127,
+   0
+  ],
+  [
+   7827,
+   5636,
+   3250,
+   0
+  ],
+  [
+   11095,
+   7839,
+   33,
+   0
+  ],
+  [
+   12260,
+   9048,
+   13116,
+   0
+  ],
+  [
+   25394,
+   12303,
+   34,
+   0
+  ],
+  [
+   26673,
+   23338,
+   16417,
+   0
+  ],
+  [
+   43108,
+   26714,
+   34,
+   0
+  ],
+  [
+   44389,
+   41048,
+   13094,
+   0
+  ],
+  [
+   57501,
+   44416,
+   35,
+   0
+  ],
+  [
+   58781,
+   55440,
+   13104,
+   0
+  ],
+  [
+   71903,
+   58806,
+   34,
+   0
+  ],
+  [
+   73183,
+   69841,
+   12190,
+   0
+  ],
+  [
+   85391,
+   73205,
+   35,
+   0
+  ],
+  [
+   86681,
+   83329,
+   388,
+   0
+  ]
+ ]
+}

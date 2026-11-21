@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra",
+ "task": "university-laboratory-workbench",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "dfe32790cc4ffa067c6f050a6cc47f0e464f25a86a467b5ae794885a5be001bf"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 43,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 38495,
+ "cached_tokens": 35072,
+ "completion_tokens": 2730,
+ "reasoning_tokens": 289,
+ "seconds": 124.1,
+ "llm_seconds": 121.9,
+ "tool_seconds": 1.5,
+ "calls_usage": [
+  [
+   11143,
+   10752,
+   2567,
+   236
+  ],
+  [
+   13489,
+   11008,
+   18,
+   0
+  ],
+  [
+   13863,
+   13312,
+   145,
+   53
+  ]
+ ]
+}

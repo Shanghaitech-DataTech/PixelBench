@@ -1,0 +1,66 @@
+{
+ "config": "kimi-k3",
+ "task": "skeleton-grunt",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "b5f92e156790812d6e838211110be61a9a1dbccb86067aa515578c328c26604b"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 13,
+ "writes": 2,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 43023,
+ "cached_tokens": 40063,
+ "completion_tokens": 20305,
+ "reasoning_tokens": 18887,
+ "seconds": 570.7,
+ "llm_seconds": 568.5,
+ "tool_seconds": 1.7,
+ "calls_usage": [
+  [
+   7223,
+   6912,
+   16519,
+   15521
+  ],
+  [
+   8252,
+   7168,
+   55,
+   3
+  ],
+  [
+   8843,
+   8192,
+   3446,
+   3262
+  ],
+  [
+   9057,
+   8831,
+   52,
+   0
+  ],
+  [
+   9648,
+   8960,
+   233,
+   101
+  ]
+ ]
+}

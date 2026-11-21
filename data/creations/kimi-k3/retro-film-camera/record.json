@@ -1,0 +1,72 @@
+{
+ "config": "kimi-k3",
+ "task": "retro-film-camera",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "f07e63f3b99a4eb4ee0a71158c1d8b4240fc5b643c0cce3215e10ab3b92ee3f6"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 22,
+ "writes": 3,
+ "model_rounds": 6,
+ "llm_calls": 6,
+ "retries": 0,
+ "prompt_tokens": 53565,
+ "cached_tokens": 43118,
+ "completion_tokens": 12983,
+ "reasoning_tokens": 11373,
+ "seconds": 306.5,
+ "llm_seconds": 303.6,
+ "tool_seconds": 1.7,
+ "calls_usage": [
+  [
+   7223,
+   0,
+   9861,
+   8693
+  ],
+  [
+   8425,
+   7168,
+   49,
+   0
+  ],
+  [
+   9001,
+   8192,
+   2812,
+   2660
+  ],
+  [
+   9186,
+   8989,
+   64,
+   0
+  ],
+  [
+   9792,
+   8989,
+   133,
+   20
+  ],
+  [
+   9938,
+   9780,
+   64,
+   0
+  ]
+ ]
+}

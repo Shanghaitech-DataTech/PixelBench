@@ -1,0 +1,66 @@
+{
+ "config": "deepseek-v4-pro",
+ "task": "city-bus",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "7c80fc36a2238e73e716fb53343b69b272421a6ab30dce0779d9e43af656c5bb"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 17,
+ "writes": 2,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 143962,
+ "cached_tokens": 141696,
+ "completion_tokens": 33597,
+ "reasoning_tokens": 31166,
+ "seconds": 412.8,
+ "llm_seconds": 410.6,
+ "tool_seconds": 1.7,
+ "calls_usage": [
+  [
+   7680,
+   7424,
+   18232,
+   17112
+  ],
+  [
+   25928,
+   25856,
+   64,
+   4
+  ],
+  [
+   26907,
+   25984,
+   14312,
+   13192
+  ],
+  [
+   41235,
+   41216,
+   63,
+   3
+  ],
+  [
+   42212,
+   41216,
+   926,
+   855
+  ]
+ ]
+}

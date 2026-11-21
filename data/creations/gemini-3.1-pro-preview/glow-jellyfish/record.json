@@ -1,0 +1,48 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "glow-jellyfish",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0001",
+  "source_hashes": {
+   "main.py": "13fc53575f3b1b1fc4a667978f14389705a2e79fe209206ede726e83ef058fcc"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 6,
+ "writes": 1,
+ "model_rounds": 2,
+ "llm_calls": 2,
+ "retries": 0,
+ "prompt_tokens": 36872,
+ "cached_tokens": 0,
+ "completion_tokens": 394,
+ "reasoning_tokens": 21421,
+ "seconds": 217.0,
+ "llm_seconds": 212.0,
+ "tool_seconds": 0.6,
+ "calls_usage": [
+  [
+   7548,
+   0,
+   21774,
+   21400
+  ],
+  [
+   29324,
+   0,
+   41,
+   21
+  ]
+ ]
+}

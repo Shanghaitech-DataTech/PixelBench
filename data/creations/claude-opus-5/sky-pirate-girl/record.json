@@ -1,0 +1,114 @@
+{
+ "config": "claude-opus-5",
+ "task": "sky-pirate-girl",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "09634f820c5aa84a790713fc84d0de4c9131818e1fd4f30eb9de6e16f4d81d33"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 39,
+ "writes": 8,
+ "model_rounds": 13,
+ "llm_calls": 13,
+ "retries": 0,
+ "prompt_tokens": 228740,
+ "cached_tokens": 197086,
+ "completion_tokens": 9375,
+ "reasoning_tokens": 0,
+ "seconds": 519.2,
+ "llm_seconds": 513.9,
+ "tool_seconds": 3.6,
+ "calls_usage": [
+  [
+   7843,
+   0,
+   3140,
+   0
+  ],
+  [
+   11141,
+   8799,
+   7,
+   0
+  ],
+  [
+   11684,
+   9013,
+   2980,
+   0
+  ],
+  [
+   15624,
+   12930,
+   66,
+   0
+  ],
+  [
+   15707,
+   12909,
+   7,
+   0
+  ],
+  [
+   16247,
+   13102,
+   2565,
+   0
+  ],
+  [
+   20439,
+   17340,
+   7,
+   0
+  ],
+  [
+   21163,
+   17465,
+   223,
+   0
+  ],
+  [
+   21369,
+   21128,
+   65,
+   0
+  ],
+  [
+   21486,
+   21100,
+   149,
+   0
+  ],
+  [
+   21729,
+   21099,
+   106,
+   0
+  ],
+  [
+   21843,
+   21022,
+   7,
+   0
+  ],
+  [
+   22465,
+   21179,
+   53,
+   0
+  ]
+ ]
+}

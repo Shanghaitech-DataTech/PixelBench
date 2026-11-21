@@ -1,0 +1,16 @@
+{
+  "id": "red-roofed-forge-house",
+  "task_type": "agentic_creation",
+  "prompt": "pixel art, 128x128 resolution, isometric building, red tiled roof, furnace glow, wooden sign, stacked barrels, small chimney, clean 45-degree geometry, no perspective distortion, strategy game tileset, RTS game style",
+  "width": 128,
+  "height": 128,
+  "constraints": {
+    "max_colors": 86,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 25,
+    "max_code_seconds": 120
+  }
+}

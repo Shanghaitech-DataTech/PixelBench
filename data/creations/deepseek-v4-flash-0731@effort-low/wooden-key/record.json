@@ -1,0 +1,66 @@
+{
+ "config": "deepseek-v4-flash-0731@effort-low",
+ "task": "wooden-key",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "5d26e56ee87a82ca25a387936aa2d7bac9f1db2a0d71416f4c91c9dc1be5fe4c"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 6,
+ "writes": 3,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 41323,
+ "cached_tokens": 0,
+ "completion_tokens": 6799,
+ "reasoning_tokens": 5946,
+ "seconds": 172.5,
+ "llm_seconds": 169.2,
+ "tool_seconds": 1.0,
+ "calls_usage": [
+  [
+   7577,
+   0,
+   6068,
+   5592
+  ],
+  [
+   8068,
+   0,
+   45,
+   0
+  ],
+  [
+   8399,
+   0,
+   522,
+   354
+  ],
+  [
+   8581,
+   0,
+   103,
+   0
+  ],
+  [
+   8698,
+   0,
+   61,
+   0
+  ]
+ ]
+}

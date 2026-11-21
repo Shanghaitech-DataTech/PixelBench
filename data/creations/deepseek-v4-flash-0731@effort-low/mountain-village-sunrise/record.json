@@ -1,0 +1,84 @@
+{
+ "config": "deepseek-v4-flash-0731@effort-low",
+ "task": "mountain-village-sunrise",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "4f71305b29f112395f7a6e1b0686d3ede43e8bbb2b6df77c0f0aa63f902f1a37"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 43,
+ "writes": 3,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 0,
+ "prompt_tokens": 87764,
+ "cached_tokens": 0,
+ "completion_tokens": 13563,
+ "reasoning_tokens": 8017,
+ "seconds": 327.8,
+ "llm_seconds": 324.0,
+ "tool_seconds": 3.1,
+ "calls_usage": [
+  [
+   7598,
+   0,
+   4582,
+   4553
+  ],
+  [
+   7640,
+   0,
+   5385,
+   2558
+  ],
+  [
+   10482,
+   0,
+   45,
+   0
+  ],
+  [
+   10863,
+   0,
+   284,
+   18
+  ],
+  [
+   11143,
+   0,
+   45,
+   0
+  ],
+  [
+   11779,
+   0,
+   2748,
+   547
+  ],
+  [
+   13995,
+   0,
+   45,
+   0
+  ],
+  [
+   14264,
+   0,
+   429,
+   341
+  ]
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra",
+ "task": "usb-flash-drive",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "ac9b4461eb862d85272d52cbeb2a59ed8c8260cc548840d62c5df22a6379762a"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 9,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 35717,
+ "cached_tokens": 34688,
+ "completion_tokens": 1061,
+ "reasoning_tokens": 12,
+ "seconds": 55.9,
+ "llm_seconds": 54.0,
+ "tool_seconds": 1.3,
+ "calls_usage": [
+  [
+   11129,
+   10752,
+   963,
+   0
+  ],
+  [
+   12107,
+   11904,
+   18,
+   0
+  ],
+  [
+   12481,
+   12032,
+   80,
+   12
+  ]
+ ]
+}

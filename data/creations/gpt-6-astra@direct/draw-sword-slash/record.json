@@ -1,0 +1,61 @@
+{
+ "config": "gpt-6-astra@direct",
+ "task": "draw-sword-slash",
+ "ok": true,
+ "error": null,
+ "termination": "answered",
+ "frames": 2,
+ "colors": 19,
+ "parse": {
+  "ok": true,
+  "diags": [
+   {
+    "declared": [
+     62,
+     72
+    ],
+    "size": [
+     62,
+     72
+    ],
+    "rows": 72,
+    "rows_wrong_length": 0,
+    "rows_beyond_tolerance": 0,
+    "rows_missing": 0,
+    "rows_extra": 0,
+    "undeclared_pixels": 0
+   },
+   {
+    "declared": [
+     62,
+     72
+    ],
+    "size": [
+     62,
+     72
+    ],
+    "rows": 72,
+    "rows_wrong_length": 4,
+    "rows_beyond_tolerance": 0,
+    "rows_missing": 0,
+    "rows_extra": 0,
+    "undeclared_pixels": 0
+   }
+  ]
+ },
+ "max_tokens": 131072,
+ "time_limit_s": 3600.0,
+ "finish_reason": "stop",
+ "prompt_tokens": 5848,
+ "completion_tokens": 6354,
+ "reasoning_tokens": 4041,
+ "seconds": 217.4,
+ "calls_usage": [
+  [
+   5848,
+   4224,
+   6354,
+   4041
+  ]
+ ]
+}

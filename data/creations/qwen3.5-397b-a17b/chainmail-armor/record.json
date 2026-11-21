@@ -1,0 +1,90 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "chainmail-armor",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "1c6901337d6368380b858783792a19185b00e19f6a34646204240e55699eaa99"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 7,
+ "writes": 4,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 102098,
+ "cached_tokens": 0,
+ "completion_tokens": 4547,
+ "reasoning_tokens": 434,
+ "seconds": 103.2,
+ "llm_seconds": 97.9,
+ "tool_seconds": 2.6,
+ "calls_usage": [
+  [
+   7745,
+   0,
+   1079,
+   277
+  ],
+  [
+   8566,
+   0,
+   58,
+   18
+  ],
+  [
+   9369,
+   0,
+   1136,
+   0
+  ],
+  [
+   10524,
+   0,
+   50,
+   10
+  ],
+  [
+   11344,
+   0,
+   1126,
+   119
+  ],
+  [
+   12370,
+   0,
+   40,
+   0
+  ],
+  [
+   13191,
+   0,
+   914,
+   0
+  ],
+  [
+   14124,
+   0,
+   50,
+   10
+  ],
+  [
+   14865,
+   0,
+   94,
+   0
+  ]
+ ]
+}

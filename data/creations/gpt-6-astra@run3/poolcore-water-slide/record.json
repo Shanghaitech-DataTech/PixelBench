@@ -1,0 +1,96 @@
+{
+ "config": "gpt-6-astra@run3",
+ "task": "poolcore-water-slide",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "6d632d7454ee58fb725ee52feec91a5daa5a5844c937bf491feca1d79af41162"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 48,
+ "writes": 7,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 6,
+ "prompt_tokens": 169856,
+ "cached_tokens": 147523,
+ "completion_tokens": 14264,
+ "reasoning_tokens": 8277,
+ "seconds": 660.6,
+ "llm_seconds": 579.5,
+ "tool_seconds": 4.3,
+ "calls_usage": [
+  [
+   11539,
+   10022,
+   9670,
+   4452
+  ],
+  [
+   16772,
+   10252,
+   18,
+   0
+  ],
+  [
+   17146,
+   11136,
+   1175,
+   1034
+  ],
+  [
+   17299,
+   16896,
+   1120,
+   1031
+  ],
+  [
+   17400,
+   15436,
+   489,
+   448
+  ],
+  [
+   17453,
+   15436,
+   734,
+   516
+  ],
+  [
+   17683,
+   17280,
+   428,
+   408
+  ],
+  [
+   18057,
+   17408,
+   455,
+   328
+  ],
+  [
+   18201,
+   17414,
+   153,
+   60
+  ],
+  [
+   18306,
+   16243,
+   22,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "config": "kimi-k3",
+ "task": "motorcycle",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "8e3a643fd97b2bac6f3886ef77077ed145025ebae42ce3eb51a13535f59efb9a"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 20,
+ "writes": 4,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 1,
+ "prompt_tokens": 82899,
+ "cached_tokens": 75735,
+ "completion_tokens": 30076,
+ "reasoning_tokens": 25706,
+ "seconds": 928.4,
+ "llm_seconds": 889.6,
+ "tool_seconds": 3.0,
+ "calls_usage": [
+  [
+   7269,
+   6912,
+   9402,
+   9344
+  ],
+  [
+   7357,
+   7168,
+   11997,
+   10208
+  ],
+  [
+   9177,
+   7168,
+   52,
+   0
+  ],
+  [
+   9669,
+   8960,
+   5751,
+   3965
+  ],
+  [
+   11486,
+   9657,
+   52,
+   0
+  ],
+  [
+   12074,
+   11264,
+   2334,
+   1820
+  ],
+  [
+   12641,
+   12062,
+   52,
+   0
+  ],
+  [
+   13226,
+   12544,
+   436,
+   369
+  ]
+ ]
+}

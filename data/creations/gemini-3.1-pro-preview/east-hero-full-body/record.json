@@ -1,0 +1,42 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "east-hero-full-body",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0001",
+  "source_hashes": {
+   "main.py": "fbdfabf95a01186a8dc580ef1a8bb1f7e8b172bfa5cd71f85f8be56bfd0063f9"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 66,
+ "writes": 1,
+ "model_rounds": 1,
+ "llm_calls": 1,
+ "retries": 0,
+ "prompt_tokens": 7601,
+ "cached_tokens": 0,
+ "completion_tokens": 3692,
+ "reasoning_tokens": 32660,
+ "seconds": 307.3,
+ "llm_seconds": 302.8,
+ "tool_seconds": 3.2,
+ "calls_usage": [
+  [
+   7601,
+   0,
+   36352,
+   32660
+  ]
+ ]
+}

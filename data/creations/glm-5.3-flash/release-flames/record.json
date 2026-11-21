@@ -1,0 +1,137 @@
+{
+ "config": "glm-5.3-flash",
+ "task": "release-flames",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0014",
+  "source_hashes": {
+   "inspect.py": "342e6ef8eac5bcc413ae89aaba4b3cf4b956962a7bb1a2559cd148b1c0ab5841",
+   "main.py": "4ac498e5d7af41b3bf79dcc2cc7d8fb3f451f737bf07de7573c83d054699cf5f",
+   "probe.py": "0bc85e18857abccdb5bb45208157ce68e721f3e801a2d30d830fcd9e3023d2e9",
+   "probe2.py": "c26dcd670d512b7e6ae844458e7e040ec0a401590070e9b1c5fd456d97d29bec",
+   "probe3.py": "eb44ef389edb9012b7850f86f06b49594a9a06bbb9f897474db57da46134aa92",
+   "probe4.py": "aabb5601f4a8ef444a0d3073df69dcb4490e19f6f91fbfcf976ebf0fb1d47d6e"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 16,
+ "writes": 13,
+ "model_rounds": 16,
+ "llm_calls": 16,
+ "retries": 0,
+ "prompt_tokens": 307959,
+ "cached_tokens": 0,
+ "completion_tokens": 204304,
+ "reasoning_tokens": 195518,
+ "seconds": 2760.3,
+ "llm_seconds": 2751.6,
+ "tool_seconds": 8.0,
+ "calls_usage": [
+  [
+   7537,
+   0,
+   61,
+   10
+  ],
+  [
+   8033,
+   0,
+   53,
+   7
+  ],
+  [
+   9286,
+   0,
+   39301,
+   37798
+  ],
+  [
+   13073,
+   0,
+   53806,
+   52413
+  ],
+  [
+   16239,
+   0,
+   14072,
+   13408
+  ],
+  [
+   17237,
+   0,
+   5761,
+   5533
+  ],
+  [
+   18078,
+   0,
+   221,
+   0
+  ],
+  [
+   18680,
+   0,
+   30864,
+   29333
+  ],
+  [
+   21041,
+   0,
+   36094,
+   35449
+  ],
+  [
+   22583,
+   0,
+   11305,
+   10686
+  ],
+  [
+   23783,
+   0,
+   74,
+   0
+  ],
+  [
+   23865,
+   0,
+   13,
+   0
+  ],
+  [
+   25162,
+   0,
+   6799,
+   5274
+  ],
+  [
+   27399,
+   0,
+   5580,
+   5374
+  ],
+  [
+   27612,
+   0,
+   12,
+   0
+  ],
+  [
+   28351,
+   0,
+   288,
+   233
+  ]
+ ]
+}

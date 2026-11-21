@@ -1,0 +1,90 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "flag-wave",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 3,
+  "actual_count": 3,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "cd1e81deecb7315d38b214f1cef36477985fea146e0dd11be7e5a409e938e667"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 3,
+ "colors": 6,
+ "writes": 4,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 107980,
+ "cached_tokens": 25644,
+ "completion_tokens": 769,
+ "reasoning_tokens": 25345,
+ "seconds": 362.5,
+ "llm_seconds": 358.9,
+ "tool_seconds": 2.4,
+ "calls_usage": [
+  [
+   7786,
+   0,
+   157,
+   107
+  ],
+  [
+   7945,
+   5942,
+   33,
+   13
+  ],
+  [
+   8971,
+   0,
+   206,
+   135
+  ],
+  [
+   9179,
+   0,
+   20,
+   0
+  ],
+  [
+   9215,
+   5922,
+   18,
+   0
+  ],
+  [
+   9336,
+   0,
+   77,
+   23
+  ],
+  [
+   9415,
+   5900,
+   20,
+   0
+  ],
+  [
+   10336,
+   7880,
+   25459,
+   24963
+  ],
+  [
+   35797,
+   0,
+   124,
+   104
+  ]
+ ]
+}

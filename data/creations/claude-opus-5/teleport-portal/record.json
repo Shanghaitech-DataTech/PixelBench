@@ -1,0 +1,54 @@
+{
+ "config": "claude-opus-5",
+ "task": "teleport-portal",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "b3e7e32431cd034cc93d4e84580774ceb9c0610eec91aa6a14f87bef4cfb3c5c"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 19,
+ "writes": 2,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 27747,
+ "cached_tokens": 25822,
+ "completion_tokens": 1121,
+ "reasoning_tokens": 0,
+ "seconds": 91.5,
+ "llm_seconds": 89.4,
+ "tool_seconds": 1.5,
+ "calls_usage": [
+  [
+   7834,
+   7563,
+   804,
+   0
+  ],
+  [
+   9891,
+   8392,
+   245,
+   0
+  ],
+  [
+   10022,
+   9867,
+   72,
+   0
+  ]
+ ]
+}

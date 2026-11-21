@@ -1,0 +1,66 @@
+{
+ "config": "gpt-6-astra@run2",
+ "task": "mountain-village-sunrise",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "1d22c23a14e740a54c231380df854b671493fcac3cae1fcd4f33356ad6d800d8"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 78,
+ "writes": 3,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 69329,
+ "cached_tokens": 64512,
+ "completion_tokens": 3395,
+ "reasoning_tokens": 128,
+ "seconds": 241.4,
+ "llm_seconds": 234.9,
+ "tool_seconds": 2.3,
+ "calls_usage": [
+  [
+   11136,
+   10752,
+   2912,
+   0
+  ],
+  [
+   14063,
+   10752,
+   18,
+   0
+  ],
+  [
+   14510,
+   13952,
+   375,
+   128
+  ],
+  [
+   14769,
+   14336,
+   68,
+   0
+  ],
+  [
+   14851,
+   14720,
+   22,
+   0
+  ]
+ ]
+}

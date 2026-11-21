@@ -1,0 +1,162 @@
+{
+ "config": "glm-5.3-flash@effort-low",
+ "task": "elf-archer-attack",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0010",
+  "source_hashes": {
+   "inspect.py": "1f80f5ba8d76d350ce8f6484ee229c6f39440f87dc329cb2486f64a27e3c73d3",
+   "inspect2.py": "499d5b42adecacf05793c86fe19f7c20762587cdbdf8e3908453e4053e152557",
+   "inspect3.py": "ffafbe2a169568fda345e37112038badf9b3202c3aca41d21fbb29086509ab95",
+   "inspect4.py": "3faf20f45928b0cb73fda02c6f58eecd8397c5b79283449768273d3d346183c8",
+   "inspect5.py": "e9a1120ceeab95353103ee8faa129731e7349ea1f1c67bd30a9569038bf3bee2",
+   "inspect6.py": "aaef46bc79b2e1f95df76a86a59f9a93e19133dc94ec4b8576bdb9faa02160ae",
+   "main.py": "2f5033dbbdf871806ea2fb35106d513241222422b98c1594645d6f9a35a43daa"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 45,
+ "writes": 10,
+ "model_rounds": 20,
+ "llm_calls": 20,
+ "retries": 0,
+ "prompt_tokens": 265725,
+ "cached_tokens": 0,
+ "completion_tokens": 4097,
+ "reasoning_tokens": 1998,
+ "seconds": 101.4,
+ "llm_seconds": 95.1,
+ "tool_seconds": 5.5,
+ "calls_usage": [
+  [
+   7532,
+   0,
+   30,
+   0
+  ],
+  [
+   7570,
+   0,
+   12,
+   0
+  ],
+  [
+   9183,
+   0,
+   659,
+   577
+  ],
+  [
+   9274,
+   0,
+   13,
+   0
+  ],
+  [
+   11204,
+   0,
+   1483,
+   1421
+  ],
+  [
+   11275,
+   0,
+   13,
+   0
+  ],
+  [
+   12884,
+   0,
+   679,
+   0
+  ],
+  [
+   13571,
+   0,
+   12,
+   0
+  ],
+  [
+   13698,
+   0,
+   40,
+   0
+  ],
+  [
+   13747,
+   0,
+   13,
+   0
+  ],
+  [
+   14222,
+   0,
+   37,
+   0
+  ],
+  [
+   14267,
+   0,
+   13,
+   0
+  ],
+  [
+   15128,
+   0,
+   125,
+   0
+  ],
+  [
+   15262,
+   0,
+   13,
+   0
+  ],
+  [
+   15358,
+   0,
+   117,
+   0
+  ],
+  [
+   15484,
+   0,
+   13,
+   0
+  ],
+  [
+   15795,
+   0,
+   708,
+   0
+  ],
+  [
+   16511,
+   0,
+   18,
+   0
+  ],
+  [
+   16836,
+   0,
+   81,
+   0
+  ],
+  [
+   16924,
+   0,
+   18,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "sunken-shipwreck",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "b9c5b7b55fe119906cfc9e74eaae55fb821b5617ea37bfed9a1132867d326be6"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 33,
+ "writes": 2,
+ "model_rounds": 2,
+ "llm_calls": 2,
+ "retries": 0,
+ "prompt_tokens": 22823,
+ "cached_tokens": 0,
+ "completion_tokens": 4160,
+ "reasoning_tokens": 6327,
+ "seconds": 106.3,
+ "llm_seconds": 102.4,
+ "tool_seconds": 1.1,
+ "calls_usage": [
+  [
+   7554,
+   0,
+   7688,
+   5492
+  ],
+  [
+   15269,
+   0,
+   2799,
+   835
+  ]
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "config": "gpt-6-astra@direct",
+ "task": "house-turn-2view",
+ "ok": true,
+ "error": null,
+ "termination": "answered",
+ "frames": 2,
+ "colors": 14,
+ "parse": {
+  "ok": true,
+  "diags": [
+   {
+    "declared": [
+     56,
+     72
+    ],
+    "size": [
+     56,
+     72
+    ],
+    "rows": 72,
+    "rows_wrong_length": 12,
+    "rows_beyond_tolerance": 0,
+    "rows_missing": 0,
+    "rows_extra": 0,
+    "undeclared_pixels": 2
+   },
+   {
+    "declared": [
+     56,
+     72
+    ],
+    "size": [
+     56,
+     72
+    ],
+    "rows": 72,
+    "rows_wrong_length": 21,
+    "rows_beyond_tolerance": 0,
+    "rows_missing": 0,
+    "rows_extra": 0,
+    "undeclared_pixels": 0
+   }
+  ]
+ },
+ "max_tokens": 131072,
+ "time_limit_s": 3600.0,
+ "finish_reason": "stop",
+ "prompt_tokens": 10319,
+ "completion_tokens": 8677,
+ "reasoning_tokens": 5819,
+ "seconds": 345.7,
+ "calls_usage": [
+  [
+   10319,
+   4224,
+   8677,
+   5819
+  ]
+ ]
+}

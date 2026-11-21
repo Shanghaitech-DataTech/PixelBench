@@ -1,0 +1,126 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "farm-chicken",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0008",
+  "source_hashes": {
+   "main.py": "c49f526c48f583d8cf671f5c5029bb0d4e34cc406f75d3190bd6c4e0d328cde7"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 17,
+ "writes": 7,
+ "model_rounds": 15,
+ "llm_calls": 15,
+ "retries": 0,
+ "prompt_tokens": 337250,
+ "cached_tokens": 0,
+ "completion_tokens": 28371,
+ "reasoning_tokens": 368,
+ "seconds": 689.4,
+ "llm_seconds": 684.4,
+ "tool_seconds": 4.3,
+ "calls_usage": [
+  [
+   7756,
+   0,
+   1768,
+   240
+  ],
+  [
+   9303,
+   0,
+   46,
+   18
+  ],
+  [
+   10092,
+   0,
+   3590,
+   0
+  ],
+  [
+   13701,
+   0,
+   38,
+   10
+  ],
+  [
+   13849,
+   0,
+   3334,
+   0
+  ],
+  [
+   17202,
+   0,
+   28,
+   0
+  ],
+  [
+   17858,
+   0,
+   4256,
+   0
+  ],
+  [
+   22133,
+   0,
+   40,
+   12
+  ],
+  [
+   22816,
+   0,
+   4790,
+   52
+  ],
+  [
+   27573,
+   0,
+   28,
+   0
+  ],
+  [
+   28259,
+   0,
+   5120,
+   0
+  ],
+  [
+   33398,
+   0,
+   28,
+   0
+  ],
+  [
+   34088,
+   0,
+   5159,
+   0
+  ],
+  [
+   39266,
+   0,
+   64,
+   36
+  ],
+  [
+   39956,
+   0,
+   82,
+   0
+  ]
+ ]
+}

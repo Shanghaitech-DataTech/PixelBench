@@ -1,0 +1,128 @@
+{
+ "config": "glm-5.3-flash",
+ "task": "melting-icecream",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "analyze.py": "a33a65c5eeabe4f649366c1feb762565850d2e1bf9754aad17e422f8e7c11a79",
+   "check.py": "347efd80789be7f0e57bdc3dabff8ad6265a04d572ea1d1b71c840fdadd8865c",
+   "main.py": "31462e137f5717b83a634c3f336ba2d98738d0d15056aa2033c941f67ac1b133"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 65,
+ "writes": 7,
+ "model_rounds": 15,
+ "llm_calls": 15,
+ "retries": 0,
+ "prompt_tokens": 332460,
+ "cached_tokens": 0,
+ "completion_tokens": 92332,
+ "reasoning_tokens": 88970,
+ "seconds": 1234.3,
+ "llm_seconds": 1228.8,
+ "tool_seconds": 3.9,
+ "calls_usage": [
+  [
+   7373,
+   0,
+   33,
+   17
+  ],
+  [
+   7484,
+   0,
+   71,
+   20
+  ],
+  [
+   7543,
+   0,
+   12,
+   0
+  ],
+  [
+   19520,
+   0,
+   83,
+   38
+  ],
+  [
+   19573,
+   0,
+   12,
+   0
+  ],
+  [
+   21505,
+   0,
+   11976,
+   11792
+  ],
+  [
+   21697,
+   0,
+   12,
+   0
+  ],
+  [
+   22198,
+   0,
+   29876,
+   28837
+  ],
+  [
+   23245,
+   0,
+   12,
+   0
+  ],
+  [
+   26485,
+   0,
+   47216,
+   45542
+  ],
+  [
+   28167,
+   0,
+   12,
+   0
+  ],
+  [
+   31540,
+   0,
+   2741,
+   2602
+  ],
+  [
+   31687,
+   0,
+   12,
+   0
+  ],
+  [
+   32156,
+   0,
+   246,
+   122
+  ],
+  [
+   32287,
+   0,
+   18,
+   0
+  ]
+ ]
+}

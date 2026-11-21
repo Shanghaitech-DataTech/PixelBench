@@ -1,0 +1,48 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "ancient-treant-boss",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0001",
+  "source_hashes": {
+   "main.py": "822e0be8b74ec9a6ba10907b0aee45e1499d2f1b3fc5f632950ecae965832c63"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 36,
+ "writes": 1,
+ "model_rounds": 2,
+ "llm_calls": 2,
+ "retries": 0,
+ "prompt_tokens": 44737,
+ "cached_tokens": 0,
+ "completion_tokens": 3857,
+ "reasoning_tokens": 25735,
+ "seconds": 264.2,
+ "llm_seconds": 258.9,
+ "tool_seconds": 3.8,
+ "calls_usage": [
+  [
+   7593,
+   0,
+   29549,
+   25712
+  ],
+  [
+   37144,
+   0,
+   43,
+   23
+  ]
+ ]
+}

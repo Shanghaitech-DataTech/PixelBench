@@ -1,0 +1,156 @@
+{
+ "config": "glm-5.3-flash",
+ "task": "leather-spellbook",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0010",
+  "source_hashes": {
+   "main.py": "0a10563557584e0201c8aa9a729da4ad679dd2055e53d512ae614c7fa4eb0b5e"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 9,
+ "writes": 9,
+ "model_rounds": 20,
+ "llm_calls": 20,
+ "retries": 0,
+ "prompt_tokens": 292813,
+ "cached_tokens": 0,
+ "completion_tokens": 225809,
+ "reasoning_tokens": 215332,
+ "seconds": 3012.4,
+ "llm_seconds": 3006.6,
+ "tool_seconds": 5.1,
+ "calls_usage": [
+  [
+   7293,
+   0,
+   26653,
+   26617
+  ],
+  [
+   7426,
+   0,
+   35311,
+   34133
+  ],
+  [
+   8612,
+   0,
+   12,
+   0
+  ],
+  [
+   9203,
+   0,
+   3078,
+   2580
+  ],
+  [
+   9708,
+   0,
+   12,
+   0
+  ],
+  [
+   10226,
+   0,
+   345,
+   36
+  ],
+  [
+   10542,
+   0,
+   12,
+   0
+  ],
+  [
+   11583,
+   0,
+   9318,
+   8393
+  ],
+  [
+   12515,
+   0,
+   12,
+   0
+  ],
+  [
+   13581,
+   0,
+   104393,
+   103031
+  ],
+  [
+   14949,
+   0,
+   12,
+   0
+  ],
+  [
+   15360,
+   0,
+   15977,
+   13987
+  ],
+  [
+   17358,
+   0,
+   12,
+   0
+  ],
+  [
+   17669,
+   0,
+   2026,
+   368
+  ],
+  [
+   19334,
+   0,
+   12,
+   0
+  ],
+  [
+   19645,
+   0,
+   14218,
+   12512
+  ],
+  [
+   21359,
+   0,
+   12,
+   0
+  ],
+  [
+   21829,
+   0,
+   13326,
+   13088
+  ],
+  [
+   22074,
+   0,
+   12,
+   0
+  ],
+  [
+   22547,
+   0,
+   1056,
+   587
+  ]
+ ]
+}

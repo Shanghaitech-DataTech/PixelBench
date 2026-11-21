@@ -1,0 +1,54 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "sky-pirate-girl",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "dfea207cdf36291094ad7a0ce0a81b8a46b9ffe0a7f1b4adb5b88a8fe91ef35a"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 29,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 32975,
+ "cached_tokens": 0,
+ "completion_tokens": 5118,
+ "reasoning_tokens": 261,
+ "seconds": 121.7,
+ "llm_seconds": 119.9,
+ "tool_seconds": 1.2,
+ "calls_usage": [
+  [
+   7764,
+   0,
+   4980,
+   242
+  ],
+  [
+   12521,
+   0,
+   59,
+   19
+  ],
+  [
+   12690,
+   0,
+   79,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "config": "claude-opus-5",
+ "task": "character-emotion-set",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "7bea1726ae344f9fe42818af3e5d81396d4f47eabdacb43b24c6a898ef3dcf15"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 16,
+ "writes": 7,
+ "model_rounds": 12,
+ "llm_calls": 12,
+ "retries": 0,
+ "prompt_tokens": 149567,
+ "cached_tokens": 140619,
+ "completion_tokens": 4909,
+ "reasoning_tokens": 0,
+ "seconds": 315.2,
+ "llm_seconds": 311.2,
+ "tool_seconds": 3.3,
+ "calls_usage": [
+  [
+   7855,
+   7557,
+   2721,
+   0
+  ],
+  [
+   9629,
+   8242,
+   7,
+   0
+  ],
+  [
+   10159,
+   8482,
+   1255,
+   0
+  ],
+  [
+   12120,
+   10824,
+   7,
+   0
+  ],
+  [
+   12649,
+   11054,
+   261,
+   0
+  ],
+  [
+   12815,
+   12629,
+   100,
+   0
+  ],
+  [
+   12972,
+   12626,
+   7,
+   0
+  ],
+  [
+   13501,
+   12873,
+   353,
+   0
+  ],
+  [
+   13970,
+   13597,
+   7,
+   0
+  ],
+  [
+   14499,
+   13837,
+   133,
+   0
+  ],
+  [
+   14673,
+   14477,
+   46,
+   0
+  ],
+  [
+   14725,
+   14421,
+   12,
+   0
+  ]
+ ]
+}

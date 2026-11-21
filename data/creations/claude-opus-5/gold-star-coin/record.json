@@ -1,0 +1,78 @@
+{
+ "config": "claude-opus-5",
+ "task": "gold-star-coin",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "99fc4598d62c50bd229f033c67aa32155732309d11d31e344af2a67fb3e4a516"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 6,
+ "writes": 4,
+ "model_rounds": 7,
+ "llm_calls": 7,
+ "retries": 0,
+ "prompt_tokens": 73377,
+ "cached_tokens": 69313,
+ "completion_tokens": 1808,
+ "reasoning_tokens": 0,
+ "seconds": 145.8,
+ "llm_seconds": 142.8,
+ "tool_seconds": 2.4,
+ "calls_usage": [
+  [
+   7820,
+   7571,
+   725,
+   0
+  ],
+  [
+   9286,
+   8182,
+   584,
+   0
+  ],
+  [
+   10150,
+   9557,
+   7,
+   0
+  ],
+  [
+   10898,
+   9871,
+   336,
+   0
+  ],
+  [
+   11197,
+   10943,
+   7,
+   0
+  ],
+  [
+   11945,
+   11255,
+   137,
+   0
+  ],
+  [
+   12081,
+   11934,
+   12,
+   0
+  ]
+ ]
+}

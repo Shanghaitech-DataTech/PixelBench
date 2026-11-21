@@ -1,0 +1,96 @@
+{
+ "config": "kimi-k3",
+ "task": "female-elf-archer",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "f2ec36d064afca65fcafeb170d6a18e3e39325e17c2571fd445b879cef792eae"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 27,
+ "writes": 6,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 1,
+ "prompt_tokens": 127446,
+ "cached_tokens": 118390,
+ "completion_tokens": 26512,
+ "reasoning_tokens": 20290,
+ "seconds": 1019.4,
+ "llm_seconds": 558.5,
+ "tool_seconds": 3.3,
+ "calls_usage": [
+  [
+   7233,
+   7168,
+   16308,
+   13763
+  ],
+  [
+   9812,
+   7168,
+   57,
+   8
+  ],
+  [
+   10387,
+   9728,
+   4601,
+   2311
+  ],
+  [
+   12711,
+   10375,
+   49,
+   0
+  ],
+  [
+   13285,
+   12544,
+   3868,
+   3381
+  ],
+  [
+   13828,
+   13273,
+   49,
+   0
+  ],
+  [
+   14401,
+   13824,
+   1161,
+   827
+  ],
+  [
+   14768,
+   14389,
+   49,
+   0
+  ],
+  [
+   15341,
+   14592,
+   306,
+   0
+  ],
+  [
+   15680,
+   15329,
+   64,
+   0
+  ]
+ ]
+}

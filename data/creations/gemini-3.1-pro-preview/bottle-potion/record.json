@@ -1,0 +1,84 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "bottle-potion",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "fd152e53b3276a51de007558b981196a1d27530c77376f8d45042e70726d72ba"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 19,
+ "writes": 4,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 0,
+ "prompt_tokens": 136218,
+ "cached_tokens": 28145,
+ "completion_tokens": 3471,
+ "reasoning_tokens": 5133,
+ "seconds": 104.6,
+ "llm_seconds": 101.5,
+ "tool_seconds": 2.3,
+ "calls_usage": [
+  [
+   7634,
+   0,
+   343,
+   226
+  ],
+  [
+   7979,
+   0,
+   36,
+   16
+  ],
+  [
+   16756,
+   0,
+   2842,
+   1903
+  ],
+  [
+   19600,
+   0,
+   36,
+   16
+  ],
+  [
+   18592,
+   6033,
+   1646,
+   500
+  ],
+  [
+   20240,
+   4022,
+   20,
+   0
+  ],
+  [
+   20877,
+   18090,
+   3661,
+   2472
+  ],
+  [
+   24540,
+   0,
+   20,
+   0
+  ]
+ ]
+}

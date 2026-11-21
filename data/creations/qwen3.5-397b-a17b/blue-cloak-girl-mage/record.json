@@ -1,0 +1,54 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "blue-cloak-girl-mage",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "6c0548a53a54b95f23801ff0a8049ef0d08f84b5d36e42befe7b574a6b4b9bef"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 25,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 29264,
+ "cached_tokens": 0,
+ "completion_tokens": 2786,
+ "reasoning_tokens": 577,
+ "seconds": 61.4,
+ "llm_seconds": 57.5,
+ "tool_seconds": 1.2,
+ "calls_usage": [
+  [
+   7769,
+   0,
+   2434,
+   303
+  ],
+  [
+   9919,
+   0,
+   58,
+   18
+  ],
+  [
+   11576,
+   0,
+   294,
+   256
+  ]
+ ]
+}

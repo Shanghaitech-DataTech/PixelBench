@@ -1,0 +1,175 @@
+{
+ "config": "gemini-3.8-flash",
+ "task": "rts-factory-icon",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0011",
+  "source_hashes": {
+   "inspect_grid.py": "5bbbbaaaf1287ed3286335147f72e950f99b4d145495380a33e103ed33578aeb",
+   "main.py": "3b3927c5041fd1ef8ca4e72abaebdd0d0fff748c969f96a20ad377fa90c8e02f"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 53,
+ "writes": 11,
+ "model_rounds": 23,
+ "llm_calls": 23,
+ "retries": 0,
+ "prompt_tokens": 823664,
+ "cached_tokens": 719065,
+ "completion_tokens": 41790,
+ "reasoning_tokens": 0,
+ "seconds": 503.3,
+ "llm_seconds": 496.3,
+ "tool_seconds": 6.2,
+ "calls_usage": [
+  [
+   7676,
+   0,
+   226,
+   0
+  ],
+  [
+   7919,
+   5629,
+   84,
+   0
+  ],
+  [
+   8021,
+   5879,
+   32,
+   0
+  ],
+  [
+   9185,
+   5983,
+   3236,
+   0
+  ],
+  [
+   12439,
+   9201,
+   40,
+   0
+  ],
+  [
+   13611,
+   10397,
+   3843,
+   0
+  ],
+  [
+   17472,
+   13630,
+   4825,
+   0
+  ],
+  [
+   22315,
+   17493,
+   30,
+   0
+  ],
+  [
+   23477,
+   20266,
+   8271,
+   0
+  ],
+  [
+   31766,
+   23513,
+   31,
+   0
+  ],
+  [
+   32203,
+   29720,
+   410,
+   0
+  ],
+  [
+   32630,
+   30157,
+   34,
+   0
+  ],
+  [
+   33797,
+   30579,
+   9269,
+   0
+  ],
+  [
+   43084,
+   33835,
+   33,
+   0
+  ],
+  [
+   44371,
+   41031,
+   687,
+   0
+  ],
+  [
+   45078,
+   42326,
+   32,
+   0
+  ],
+  [
+   45618,
+   43032,
+   9016,
+   0
+  ],
+  [
+   54652,
+   45653,
+   33,
+   0
+  ],
+  [
+   55938,
+   52597,
+   9100,
+   0
+  ],
+  [
+   65056,
+   55970,
+   31,
+   0
+  ],
+  [
+   66339,
+   63001,
+   8506,
+   0
+  ],
+  [
+   74863,
+   66366,
+   30,
+   0
+  ],
+  [
+   76154,
+   72807,
+   418,
+   0
+  ]
+ ]
+}

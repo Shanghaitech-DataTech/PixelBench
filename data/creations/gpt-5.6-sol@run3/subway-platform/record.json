@@ -1,0 +1,72 @@
+{
+ "config": "gpt-5.6-sol@run3",
+ "task": "subway-platform",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "104f85c997745874a6b97b8abf0e83f5e9e88da1d3fbb24f691c1460f6909acd"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 59,
+ "writes": 4,
+ "model_rounds": 6,
+ "llm_calls": 6,
+ "retries": 2,
+ "prompt_tokens": 86130,
+ "cached_tokens": 81024,
+ "completion_tokens": 3808,
+ "reasoning_tokens": 378,
+ "seconds": 135.5,
+ "llm_seconds": 116.5,
+ "tool_seconds": 2.2,
+ "calls_usage": [
+  [
+   11405,
+   11008,
+   2889,
+   87
+  ],
+  [
+   14220,
+   11264,
+   33,
+   9
+  ],
+  [
+   14667,
+   14080,
+   607,
+   246
+  ],
+  [
+   15040,
+   14464,
+   144,
+   0
+  ],
+  [
+   15210,
+   15104,
+   22,
+   0
+  ],
+  [
+   15588,
+   15104,
+   113,
+   36
+  ]
+ ]
+}

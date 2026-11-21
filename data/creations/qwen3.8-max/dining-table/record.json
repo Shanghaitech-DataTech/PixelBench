@@ -1,0 +1,132 @@
+{
+ "config": "qwen3.8-max",
+ "task": "dining-table",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "main.py": "315803b6b4e8496b77f7d1cb4dc050697233e9a34d9e6e974611fa78188ae6ec"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 29,
+ "writes": 9,
+ "model_rounds": 16,
+ "llm_calls": 16,
+ "retries": 1,
+ "prompt_tokens": 285848,
+ "cached_tokens": 257920,
+ "completion_tokens": 97974,
+ "reasoning_tokens": 85162,
+ "seconds": 2060.5,
+ "llm_seconds": 2045.2,
+ "tool_seconds": 4.0,
+ "calls_usage": [
+  [
+   7808,
+   7168,
+   52718,
+   52678
+  ],
+  [
+   7866,
+   7168,
+   18528,
+   15454
+  ],
+  [
+   10959,
+   7168,
+   3673,
+   602
+  ],
+  [
+   14049,
+   10880,
+   223,
+   195
+  ],
+  [
+   14578,
+   7168,
+   9035,
+   5764
+  ],
+  [
+   17867,
+   14336,
+   1948,
+   1919
+  ],
+  [
+   18433,
+   17408,
+   3350,
+   2474
+  ],
+  [
+   19327,
+   18432,
+   1388,
+   139
+  ],
+  [
+   20593,
+   18432,
+   1404,
+   1251
+  ],
+  [
+   20763,
+   20480,
+   197,
+   168
+  ],
+  [
+   21329,
+   20736,
+   1812,
+   1563
+  ],
+  [
+   21596,
+   20736,
+   50,
+   21
+  ],
+  [
+   22162,
+   21504,
+   1424,
+   1197
+  ],
+  [
+   22406,
+   21888,
+   1288,
+   938
+  ],
+  [
+   22773,
+   21888,
+   634,
+   605
+  ],
+  [
+   23339,
+   22528,
+   302,
+   194
+  ]
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "config": "claude-opus-5",
+ "task": "cyberpunk-alley",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "52ce183ba60854a0911a9691558c6f1099f7d2541b70efe94146d35a23e06013"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 85,
+ "writes": 2,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 74273,
+ "cached_tokens": 66847,
+ "completion_tokens": 8165,
+ "reasoning_tokens": 0,
+ "seconds": 748.1,
+ "llm_seconds": 743.4,
+ "tool_seconds": 2.9,
+ "calls_usage": [
+  [
+   7843,
+   7059,
+   4501,
+   0
+  ],
+  [
+   13102,
+   11792,
+   7,
+   0
+  ],
+  [
+   14121,
+   12709,
+   3500,
+   0
+  ],
+  [
+   19294,
+   17365,
+   7,
+   0
+  ],
+  [
+   19913,
+   17922,
+   150,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "config": "deepseek-v4-flash-0731@direct",
+ "task": "mountain-village-sunrise",
+ "ok": false,
+ "error": "unparseable",
+ "termination": "format",
+ "frames": 0,
+ "colors": null,
+ "parse": {
+  "ok": false,
+  "reason": "frames 0/1",
+  "palette_size": 32
+ },
+ "max_tokens": 131072,
+ "time_limit_s": 3600.0,
+ "finish_reason": "stop",
+ "prompt_tokens": 485,
+ "completion_tokens": 86639,
+ "reasoning_tokens": 47494,
+ "seconds": 996.5,
+ "calls_usage": [
+  [
+   485,
+   0,
+   86639,
+   47494
+  ]
+ ]
+}

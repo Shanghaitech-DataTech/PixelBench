@@ -1,0 +1,32 @@
+f1 = new_canvas(43,28,name='frame_1')
+f1.blit(input_canvas,8,6)
+f2 = new_canvas(43,28,name='frame_2')
+a='#1d181e'; b='#7784a2'; c='#b572b1'; d='#432f53'; e='#5f5f7b'; h='#5c436f'
+wing=new_canvas(43,28,name='wing_work')
+# Raised leading edge and scalloped flight membrane.
+wing.poly([(0,0),(4,1),(9,3),(12,5),(15,8),(17,12),(17,17),(15,15),(13,15),(12,12),(10,11),(8,13),(7,10),(5,8),(3,8),(2,10),(1,7),(0,3)],a)
+wing.poly([(1,1),(5,2),(9,4),(12,6),(14,8),(16,12),(16,15),(14,14),(13,11),(10,10),(8,11),(7,8),(5,7),(3,7),(2,8),(1,4)],d)
+# Bright spar sweeps toward the shoulder.
+wing.line(2,2,6,3,c)
+wing.line(7,3,10,5,c)
+wing.line(10,5,13,8,c)
+wing.line(13,8,16,13,c)
+# Three folded web sections with cool internal facets.
+wing.poly([(2,3),(6,4),(10,6),(5,6),(3,6),(2,7)],h)
+wing.poly([(6,5),(10,6),(13,9),(10,8),(8,10),(7,7)],h)
+wing.poly([(11,7),(14,10),(16,14),(14,13),(13,10)],h)
+wing.line(2,3,3,5,e)
+wing.line(5,4,7,5,e)
+wing.line(7,5,8,7,e)
+wing.line(8,8,8,9,e)
+wing.line(11,7,12,8,e)
+wing.line(13,9,14,11,e)
+wing.set(15,12,e)
+f2.blit(wing,0,0)
+wing.mirror('h')
+f2.blit(wing,0,0)
+# Keep the original face, torso, and feet pixel for pixel.
+input_canvas.select(9,0,9,16).copy_to(17,6,f2,mode='over')
+view(f1,scale=10)
+view(f2,scale=10)
+finish([f1,f2])

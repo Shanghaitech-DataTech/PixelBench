@@ -1,0 +1,84 @@
+{
+ "config": "deepseek-v4-flash-0731@run3",
+ "task": "minecraft-stone-material",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "087b2ae078bd53b1ead25b9db9f22d053c0bfc9ce5b1f7f205d4dd3664c9dce2"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 9,
+ "writes": 3,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 0,
+ "prompt_tokens": 73654,
+ "cached_tokens": 0,
+ "completion_tokens": 10595,
+ "reasoning_tokens": 8982,
+ "seconds": 188.2,
+ "llm_seconds": 183.9,
+ "tool_seconds": 2.6,
+ "calls_usage": [
+  [
+   7670,
+   0,
+   5418,
+   4348
+  ],
+  [
+   8755,
+   0,
+   54,
+   9
+  ],
+  [
+   8928,
+   0,
+   95,
+   43
+  ],
+  [
+   9108,
+   0,
+   124,
+   59
+  ],
+  [
+   9301,
+   0,
+   196,
+   82
+  ],
+  [
+   9429,
+   0,
+   45,
+   0
+  ],
+  [
+   10144,
+   0,
+   4602,
+   4441
+  ],
+  [
+   10319,
+   0,
+   61,
+   0
+  ]
+ ]
+}

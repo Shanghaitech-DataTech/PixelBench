@@ -1,0 +1,132 @@
+{
+ "config": "glm-5.3-flash",
+ "task": "city-bus",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "main.py": "62b3766999788f35223d828bed5a425862100cb5ad3da530d0cd128b04d59677"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 20,
+ "writes": 8,
+ "model_rounds": 16,
+ "llm_calls": 16,
+ "retries": 0,
+ "prompt_tokens": 214281,
+ "cached_tokens": 0,
+ "completion_tokens": 107329,
+ "reasoning_tokens": 102456,
+ "seconds": 1436.5,
+ "llm_seconds": 1430.6,
+ "tool_seconds": 3.0,
+ "calls_usage": [
+  [
+   7296,
+   0,
+   13009,
+   12979
+  ],
+  [
+   7421,
+   0,
+   30381,
+   28914
+  ],
+  [
+   8896,
+   0,
+   12,
+   0
+  ],
+  [
+   9839,
+   0,
+   30049,
+   28655
+  ],
+  [
+   11241,
+   0,
+   12,
+   0
+  ],
+  [
+   12179,
+   0,
+   20413,
+   19000
+  ],
+  [
+   13600,
+   0,
+   12,
+   0
+  ],
+  [
+   14151,
+   0,
+   1388,
+   1290
+  ],
+  [
+   14256,
+   0,
+   12,
+   0
+  ],
+  [
+   15187,
+   0,
+   11481,
+   11378
+  ],
+  [
+   15297,
+   0,
+   60,
+   0
+  ],
+  [
+   15373,
+   0,
+   13,
+   0
+  ],
+  [
+   16799,
+   0,
+   219,
+   103
+  ],
+  [
+   16922,
+   0,
+   12,
+   0
+  ],
+  [
+   17858,
+   0,
+   238,
+   137
+  ],
+  [
+   17966,
+   0,
+   18,
+   0
+  ]
+ ]
+}

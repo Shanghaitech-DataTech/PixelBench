@@ -1,0 +1,42 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "skill-icon-set",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0001",
+  "source_hashes": {
+   "main.py": "7c30442122335adf7f8bd4ec47cdf80863d6a0bebe8273ee4fb81a27f854cf49"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 17,
+ "writes": 1,
+ "model_rounds": 1,
+ "llm_calls": 1,
+ "retries": 0,
+ "prompt_tokens": 7566,
+ "cached_tokens": 0,
+ "completion_tokens": 2709,
+ "reasoning_tokens": 27648,
+ "seconds": 258.0,
+ "llm_seconds": 256.7,
+ "tool_seconds": 0.6,
+ "calls_usage": [
+  [
+   7566,
+   0,
+   30357,
+   27648
+  ]
+ ]
+}

@@ -1,0 +1,176 @@
+{
+ "config": "gemini-3.8-flash",
+ "task": "poolcore-water-slide",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0012",
+  "source_hashes": {
+   "check_stats.py": "e8fe1d72c7087393357f8c5a3a91b50c29bd7af17d585109643c64bec71c0608",
+   "main.py": "38179be87a4cef0415545e1a896df3e4da7c6b57c7fb14c6e176e97421394d8a",
+   "test_slide.py": "fd09ece7df10e6e4fcdc0b889a0f8b91a261ea533516e3f232c6ca99a32ae19f"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 58,
+ "writes": 10,
+ "model_rounds": 23,
+ "llm_calls": 23,
+ "retries": 0,
+ "prompt_tokens": 1002264,
+ "cached_tokens": 891208,
+ "completion_tokens": 48434,
+ "reasoning_tokens": 0,
+ "seconds": 598.8,
+ "llm_seconds": 587.0,
+ "tool_seconds": 10.8,
+ "calls_usage": [
+  [
+   7745,
+   0,
+   171,
+   0
+  ],
+  [
+   7933,
+   5698,
+   1800,
+   0
+  ],
+  [
+   9751,
+   7412,
+   29,
+   0
+  ],
+  [
+   10912,
+   7707,
+   4513,
+   0
+  ],
+  [
+   15443,
+   10931,
+   40,
+   0
+  ],
+  [
+   16615,
+   13396,
+   6400,
+   0
+  ],
+  [
+   23033,
+   16642,
+   34,
+   0
+  ],
+  [
+   24199,
+   20982,
+   10181,
+   0
+  ],
+  [
+   34398,
+   24238,
+   35,
+   0
+  ],
+  [
+   35565,
+   32343,
+   9309,
+   0
+  ],
+  [
+   44892,
+   35596,
+   33,
+   0
+  ],
+  [
+   46058,
+   42836,
+   1733,
+   0
+  ],
+  [
+   47811,
+   44964,
+   38,
+   0
+  ],
+  [
+   49212,
+   45757,
+   2239,
+   0
+  ],
+  [
+   51471,
+   49213,
+   36,
+   0
+  ],
+  [
+   52717,
+   49416,
+   9288,
+   0
+  ],
+  [
+   62023,
+   52750,
+   32,
+   0
+  ],
+  [
+   63197,
+   59967,
+   9168,
+   0
+  ],
+  [
+   72383,
+   63227,
+   32,
+   0
+  ],
+  [
+   73557,
+   70326,
+   9530,
+   0
+  ],
+  [
+   83105,
+   73586,
+   32,
+   0
+  ],
+  [
+   84279,
+   81047,
+   337,
+   0
+  ],
+  [
+   85965,
+   83174,
+   75,
+   0
+  ]
+ ]
+}

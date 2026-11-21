@@ -1,0 +1,120 @@
+{
+ "config": "claude-opus-5",
+ "task": "minecraft-stone-material",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "47dc87e2f5a00280a36a859b14af875025232acd097c6684ea6bba06c70f9f5b"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 8,
+ "writes": 7,
+ "model_rounds": 14,
+ "llm_calls": 14,
+ "retries": 0,
+ "prompt_tokens": 205129,
+ "cached_tokens": 190731,
+ "completion_tokens": 5589,
+ "reasoning_tokens": 0,
+ "seconds": 261.9,
+ "llm_seconds": 256.6,
+ "tool_seconds": 4.6,
+ "calls_usage": [
+  [
+   7829,
+   7562,
+   1073,
+   0
+  ],
+  [
+   9210,
+   7946,
+   7,
+   0
+  ],
+  [
+   10109,
+   8426,
+   1013,
+   0
+  ],
+  [
+   11468,
+   10447,
+   7,
+   0
+  ],
+  [
+   12361,
+   10925,
+   1093,
+   0
+  ],
+  [
+   13819,
+   12644,
+   7,
+   0
+  ],
+  [
+   14718,
+   13108,
+   1113,
+   0
+  ],
+  [
+   15497,
+   14807,
+   7,
+   0
+  ],
+  [
+   16386,
+   15270,
+   880,
+   0
+  ],
+  [
+   17650,
+   16628,
+   7,
+   0
+  ],
+  [
+   18538,
+   17067,
+   156,
+   0
+  ],
+  [
+   18729,
+   18509,
+   186,
+   0
+  ],
+  [
+   18963,
+   18473,
+   7,
+   0
+  ],
+  [
+   19852,
+   18919,
+   33,
+   0
+  ]
+ ]
+}

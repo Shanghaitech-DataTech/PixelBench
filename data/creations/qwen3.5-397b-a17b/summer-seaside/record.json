@@ -1,0 +1,78 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "summer-seaside",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "6a745d563c0ec315ab61801cde0d44f523a5d9000d5b7dd89c2e053c8baaf68b"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 26,
+ "writes": 3,
+ "model_rounds": 7,
+ "llm_calls": 7,
+ "retries": 0,
+ "prompt_tokens": 85092,
+ "cached_tokens": 0,
+ "completion_tokens": 4059,
+ "reasoning_tokens": 378,
+ "seconds": 100.1,
+ "llm_seconds": 97.3,
+ "tool_seconds": 2.1,
+ "calls_usage": [
+  [
+   7802,
+   0,
+   3042,
+   360
+  ],
+  [
+   10503,
+   0,
+   58,
+   18
+  ],
+  [
+   10773,
+   0,
+   86,
+   0
+  ],
+  [
+   13516,
+   0,
+   138,
+   0
+  ],
+  [
+   13672,
+   0,
+   588,
+   0
+  ],
+  [
+   14278,
+   0,
+   40,
+   0
+  ],
+  [
+   14548,
+   0,
+   107,
+   0
+  ]
+ ]
+}

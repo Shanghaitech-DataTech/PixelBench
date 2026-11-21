@@ -1,0 +1,66 @@
+{
+ "config": "gpt-6-astra@no-vision",
+ "task": "bunny-hop",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "4c52565060281ecfb01fea1ad680261f4f79ae071d15f4678531eb71cc970daf"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 8,
+ "writes": 2,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 77469,
+ "cached_tokens": 62464,
+ "completion_tokens": 2218,
+ "reasoning_tokens": 1092,
+ "seconds": 94.5,
+ "llm_seconds": 92.1,
+ "tool_seconds": 1.7,
+ "calls_usage": [
+  [
+   11446,
+   0,
+   78,
+   0
+  ],
+  [
+   11539,
+   11392,
+   18,
+   0
+  ],
+  [
+   12277,
+   11392,
+   1959,
+   1034
+  ],
+  [
+   13215,
+   12160,
+   18,
+   0
+  ],
+  [
+   28992,
+   27520,
+   145,
+   58
+  ]
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "config": "claude-opus-5",
+ "task": "swordsman-walk-animation",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "ed6cce2b29e3429352d4132440f9f9819a4d27addc64a72fa1f2eaa5cf2982e1"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 24,
+ "writes": 5,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 133490,
+ "cached_tokens": 111129,
+ "completion_tokens": 6559,
+ "reasoning_tokens": 0,
+ "seconds": 365.1,
+ "llm_seconds": 360.9,
+ "tool_seconds": 2.8,
+ "calls_usage": [
+  [
+   7855,
+   0,
+   2370,
+   0
+  ],
+  [
+   10539,
+   8575,
+   7,
+   0
+  ],
+  [
+   11273,
+   8875,
+   1843,
+   0
+  ],
+  [
+   14036,
+   12086,
+   7,
+   0
+  ],
+  [
+   14769,
+   12372,
+   2047,
+   0
+  ],
+  [
+   17845,
+   15491,
+   7,
+   0
+  ],
+  [
+   18963,
+   15976,
+   187,
+   0
+  ],
+  [
+   19058,
+   18908,
+   79,
+   0
+  ],
+  [
+   19152,
+   18846,
+   12,
+   0
+  ]
+ ]
+}

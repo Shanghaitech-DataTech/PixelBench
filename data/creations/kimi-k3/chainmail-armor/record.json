@@ -1,0 +1,84 @@
+{
+ "config": "kimi-k3",
+ "task": "chainmail-armor",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "ef0d48cac4f57676df74fac5eafd62ec9853004cb58409ed76df03dd9358c712"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 6,
+ "writes": 3,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 1,
+ "prompt_tokens": 71569,
+ "cached_tokens": 67179,
+ "completion_tokens": 14315,
+ "reasoning_tokens": 12228,
+ "seconds": 557.8,
+ "llm_seconds": 257.6,
+ "tool_seconds": 2.3,
+ "calls_usage": [
+  [
+   7216,
+   7168,
+   7467,
+   7417
+  ],
+  [
+   7299,
+   7168,
+   2603,
+   1813
+  ],
+  [
+   8123,
+   7168,
+   49,
+   0
+  ],
+  [
+   8615,
+   7936,
+   2125,
+   1318
+  ],
+  [
+   9456,
+   8603,
+   49,
+   0
+  ],
+  [
+   9948,
+   9216,
+   1801,
+   1572
+  ],
+  [
+   10210,
+   9936,
+   49,
+   0
+  ],
+  [
+   10702,
+   9984,
+   172,
+   108
+  ]
+ ]
+}

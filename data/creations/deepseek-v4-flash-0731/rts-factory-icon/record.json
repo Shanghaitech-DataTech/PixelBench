@@ -1,0 +1,66 @@
+{
+ "config": "deepseek-v4-flash-0731",
+ "task": "rts-factory-icon",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "5ce2070bbcea7773136975a1bbf8cdcd0d69d893096cf8a6065e7f8c534fbcf8"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 22,
+ "writes": 2,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 46023,
+ "cached_tokens": 0,
+ "completion_tokens": 19311,
+ "reasoning_tokens": 17001,
+ "seconds": 257.7,
+ "llm_seconds": 255.5,
+ "tool_seconds": 1.6,
+ "calls_usage": [
+  [
+   7676,
+   0,
+   10448,
+   9414
+  ],
+  [
+   8725,
+   0,
+   57,
+   12
+  ],
+  [
+   8903,
+   0,
+   1080,
+   18
+  ],
+  [
+   9980,
+   0,
+   45,
+   0
+  ],
+  [
+   10739,
+   0,
+   7681,
+   7557
+  ]
+ ]
+}

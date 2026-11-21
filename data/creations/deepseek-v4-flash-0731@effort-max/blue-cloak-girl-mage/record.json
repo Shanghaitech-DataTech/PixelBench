@@ -1,0 +1,90 @@
+{
+ "config": "deepseek-v4-flash-0731@effort-max",
+ "task": "blue-cloak-girl-mage",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "c06a83f1b20131f8a7401fc7550ec0a4f2e52a904a93dfb68d015c5c98e3053c"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 35,
+ "writes": 7,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 124458,
+ "cached_tokens": 0,
+ "completion_tokens": 59858,
+ "reasoning_tokens": 54184,
+ "seconds": 1303.3,
+ "llm_seconds": 1299.9,
+ "tool_seconds": 2.8,
+ "calls_usage": [
+  [
+   7702,
+   0,
+   35067,
+   32335
+  ],
+  [
+   10449,
+   0,
+   52,
+   7
+  ],
+  [
+   11564,
+   0,
+   9694,
+   7515
+  ],
+  [
+   13790,
+   0,
+   45,
+   0
+  ],
+  [
+   14931,
+   0,
+   5819,
+   5651
+  ],
+  [
+   15113,
+   0,
+   45,
+   0
+  ],
+  [
+   16445,
+   0,
+   8535,
+   8249
+  ],
+  [
+   16745,
+   0,
+   45,
+   0
+  ],
+  [
+   17719,
+   0,
+   556,
+   427
+  ]
+ ]
+}

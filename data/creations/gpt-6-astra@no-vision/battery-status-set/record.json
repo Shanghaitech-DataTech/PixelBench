@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@no-vision",
+ "task": "battery-status-set",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "5b0e4c44140ae295004707aea6388c821e2ae9d0fecd436b89f93ea9512c0b4e"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 18,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 35794,
+ "cached_tokens": 22912,
+ "completion_tokens": 1462,
+ "reasoning_tokens": 527,
+ "seconds": 63.7,
+ "llm_seconds": 61.8,
+ "tool_seconds": 1.4,
+ "calls_usage": [
+  [
+   11128,
+   0,
+   1411,
+   518
+  ],
+  [
+   12036,
+   11008,
+   18,
+   0
+  ],
+  [
+   12630,
+   11904,
+   33,
+   9
+  ]
+ ]
+}

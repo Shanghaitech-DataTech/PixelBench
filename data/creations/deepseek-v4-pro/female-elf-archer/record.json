@@ -1,0 +1,96 @@
+{
+ "config": "deepseek-v4-pro",
+ "task": "female-elf-archer",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "9be3acf3de5001f32ec4bc5601ce81a62e70ee4a204c210ac3b0607f4287d4ca"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 24,
+ "writes": 5,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 0,
+ "prompt_tokens": 677685,
+ "cached_tokens": 671104,
+ "completion_tokens": 93069,
+ "reasoning_tokens": 87503,
+ "seconds": 1067.6,
+ "llm_seconds": 1064.1,
+ "tool_seconds": 2.8,
+ "calls_usage": [
+  [
+   7681,
+   7424,
+   13471,
+   11144
+  ],
+  [
+   21168,
+   21120,
+   66,
+   6
+  ],
+  [
+   22547,
+   21120,
+   45467,
+   43251
+  ],
+  [
+   68030,
+   67968,
+   60,
+   0
+  ],
+  [
+   69533,
+   67968,
+   22507,
+   22208
+  ],
+  [
+   92055,
+   92032,
+   284,
+   4
+  ],
+  [
+   92354,
+   92288,
+   65,
+   5
+  ],
+  [
+   93886,
+   92416,
+   10512,
+   10368
+  ],
+  [
+   104413,
+   104320,
+   126,
+   66
+  ],
+  [
+   106018,
+   104448,
+   511,
+   451
+  ]
+ ]
+}

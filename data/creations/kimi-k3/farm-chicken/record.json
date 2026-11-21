@@ -1,0 +1,126 @@
+{
+ "config": "kimi-k3",
+ "task": "farm-chicken",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "0f7eea5d52fb2506b62ef7ceb5958032c4b231bddb51c6819e055a5aac54b59e"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 8,
+ "writes": 8,
+ "model_rounds": 15,
+ "llm_calls": 15,
+ "retries": 0,
+ "prompt_tokens": 156420,
+ "cached_tokens": 149368,
+ "completion_tokens": 22861,
+ "reasoning_tokens": 20006,
+ "seconds": 739.7,
+ "llm_seconds": 735.1,
+ "tool_seconds": 4.0,
+ "calls_usage": [
+  [
+   7228,
+   6912,
+   12896,
+   12114
+  ],
+  [
+   8041,
+   7168,
+   59,
+   7
+  ],
+  [
+   8533,
+   7936,
+   1661,
+   1397
+  ],
+  [
+   8827,
+   8521,
+   163,
+   0
+  ],
+  [
+   9020,
+   8704,
+   52,
+   0
+  ],
+  [
+   9512,
+   8960,
+   2187,
+   1677
+  ],
+  [
+   10052,
+   9500,
+   52,
+   0
+  ],
+  [
+   10544,
+   9984,
+   1232,
+   1021
+  ],
+  [
+   10785,
+   10532,
+   52,
+   0
+  ],
+  [
+   11277,
+   10752,
+   441,
+   264
+  ],
+  [
+   11484,
+   11265,
+   52,
+   0
+  ],
+  [
+   12281,
+   11265,
+   3345,
+   3085
+  ],
+  [
+   12571,
+   12269,
+   52,
+   0
+  ],
+  [
+   13063,
+   12544,
+   550,
+   441
+  ],
+  [
+   13202,
+   13056,
+   67,
+   0
+  ]
+ ]
+}

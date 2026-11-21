@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@no-vision",
+ "task": "glow-jellyfish",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "e20168878650c84aa8d8db4117aad77ed2816a0c28554f291eb38be860bb6d9b"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 12,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 23152,
+ "cached_tokens": 7680,
+ "completion_tokens": 4637,
+ "reasoning_tokens": 3783,
+ "seconds": 144.2,
+ "llm_seconds": 142.5,
+ "tool_seconds": 1.1,
+ "calls_usage": [
+  [
+   7013,
+   0,
+   4252,
+   3440
+  ],
+  [
+   7838,
+   0,
+   18,
+   0
+  ],
+  [
+   8301,
+   7680,
+   367,
+   343
+  ]
+ ]
+}

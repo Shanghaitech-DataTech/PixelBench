@@ -1,0 +1,102 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "minecraft-dirt-material",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "main.py": "da0729917692055dccbc8e58437d407d39aee6815757728a0f84d8cb8bca00c3"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 8,
+ "writes": 5,
+ "model_rounds": 11,
+ "llm_calls": 11,
+ "retries": 0,
+ "prompt_tokens": 153668,
+ "cached_tokens": 57776,
+ "completion_tokens": 6103,
+ "reasoning_tokens": 9880,
+ "seconds": 198.4,
+ "llm_seconds": 194.0,
+ "tool_seconds": 3.8,
+ "calls_usage": [
+  [
+   7549,
+   0,
+   2285,
+   1659
+  ],
+  [
+   9836,
+   0,
+   45,
+   25
+  ],
+  [
+   9314,
+   3968,
+   5057,
+   3788
+  ],
+  [
+   14368,
+   0,
+   20,
+   0
+  ],
+  [
+   11726,
+   5962,
+   2586,
+   1227
+  ],
+  [
+   14309,
+   0,
+   20,
+   0
+  ],
+  [
+   14228,
+   0,
+   2354,
+   970
+  ],
+  [
+   16579,
+   9972,
+   20,
+   0
+  ],
+  [
+   16755,
+   13942,
+   3009,
+   1664
+  ],
+  [
+   19761,
+   7988,
+   20,
+   0
+  ],
+  [
+   19243,
+   15944,
+   567,
+   547
+  ]
+ ]
+}

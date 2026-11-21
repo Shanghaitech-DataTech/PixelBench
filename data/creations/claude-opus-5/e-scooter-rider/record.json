@@ -1,0 +1,151 @@
+{
+ "config": "claude-opus-5",
+ "task": "e-scooter-rider",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0009",
+  "source_hashes": {
+   "inspect.py": "9e3f74c6e17fae5e52ffd991b0fff0f71f9a34cf78a7a63df9914a5ce959affc",
+   "main.py": "989a69f94f352e80b8b9472b2f933636c2b284a42cb756e9bac9478a56493a0d"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 26,
+ "writes": 11,
+ "model_rounds": 19,
+ "llm_calls": 19,
+ "retries": 0,
+ "prompt_tokens": 281807,
+ "cached_tokens": 258857,
+ "completion_tokens": 5902,
+ "reasoning_tokens": 0,
+ "seconds": 415.8,
+ "llm_seconds": 409.9,
+ "tool_seconds": 5.2,
+ "calls_usage": [
+  [
+   7838,
+   0,
+   518,
+   0
+  ],
+  [
+   9105,
+   8114,
+   1137,
+   0
+  ],
+  [
+   10505,
+   9637,
+   7,
+   0
+  ],
+  [
+   10941,
+   9845,
+   1197,
+   0
+  ],
+  [
+   12491,
+   11481,
+   7,
+   0
+  ],
+  [
+   12926,
+   11676,
+   1189,
+   0
+  ],
+  [
+   14612,
+   13438,
+   7,
+   0
+  ],
+  [
+   15048,
+   13623,
+   375,
+   0
+  ],
+  [
+   15573,
+   15136,
+   193,
+   0
+  ],
+  [
+   15881,
+   15171,
+   7,
+   0
+  ],
+  [
+   16316,
+   15357,
+   202,
+   0
+  ],
+  [
+   16400,
+   16270,
+   8,
+   0
+  ],
+  [
+   16825,
+   16169,
+   442,
+   0
+  ],
+  [
+   17061,
+   16151,
+   215,
+   0
+  ],
+  [
+   17409,
+   16198,
+   7,
+   0
+  ],
+  [
+   17844,
+   16378,
+   297,
+   0
+  ],
+  [
+   18021,
+   17810,
+   7,
+   0
+  ],
+  [
+   18457,
+   18000,
+   75,
+   0
+  ],
+  [
+   18554,
+   18403,
+   12,
+   0
+  ]
+ ]
+}

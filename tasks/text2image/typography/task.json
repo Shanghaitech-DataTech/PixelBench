@@ -1,0 +1,16 @@
+{
+  "id": "typography",
+  "task_type": "agentic_creation",
+  "prompt": "Create a pixel-art game title screen featuring the words “PIXEL QUEST”. Design clear, readable pixel lettering, using letter size, spacing, and arrangement to establish a strong visual hierarchy. You may add outlines, shadows, or small decorative elements, while keeping the lettering as the main focus.",
+  "width": 64,
+  "height": 64,
+  "constraints": {
+    "max_colors": 86,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 25,
+    "max_code_seconds": 120
+  }
+}

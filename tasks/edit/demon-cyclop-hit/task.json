@@ -1,0 +1,23 @@
+{
+  "id": "demon-cyclop-hit",
+  "task_type": "edit",
+  "prompt": "3 frames. Frame 1 keeps the original picture content (the canvas may be changed); frame 2 shows the monster being hit: the foot on the left of the image (the monster's right foot) lifts off the ground, the whole body leans back, its single eye rolls upward and the mouth opens - the recoil pose; frame 3 shows the blow landing, with a red filter added over the whole monster to show the impact.",
+  "width": 37,
+  "height": 33,
+  "constraints": {
+    "max_colors": null,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 15,
+    "max_code_seconds": 120
+  },
+  "input_size": {
+    "width": 37,
+    "height": 33
+  },
+  "output_size": "agent_defined",
+  "num_frames": 3,
+  "frames_visible": false
+}

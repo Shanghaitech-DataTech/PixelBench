@@ -1,0 +1,90 @@
+{
+ "config": "glm-5.3-flash@effort-low",
+ "task": "demon-cyclop-hit",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 3,
+  "actual_count": 3,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "218d8e57498bc87db84feb1ff0a56abd0959da787fc22db37fe5c70334965be6"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 3,
+ "colors": 18,
+ "writes": 3,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 77970,
+ "cached_tokens": 0,
+ "completion_tokens": 4563,
+ "reasoning_tokens": 3863,
+ "seconds": 102.4,
+ "llm_seconds": 99.1,
+ "tool_seconds": 2.7,
+ "calls_usage": [
+  [
+   7570,
+   0,
+   12,
+   0
+  ],
+  [
+   7670,
+   0,
+   38,
+   0
+  ],
+  [
+   7716,
+   0,
+   12,
+   0
+  ],
+  [
+   8391,
+   0,
+   4360,
+   3843
+  ],
+  [
+   8916,
+   0,
+   12,
+   0
+  ],
+  [
+   9228,
+   0,
+   87,
+   20
+  ],
+  [
+   9302,
+   0,
+   12,
+   0
+  ],
+  [
+   9493,
+   0,
+   12,
+   0
+  ],
+  [
+   9684,
+   0,
+   18,
+   0
+  ]
+ ]
+}

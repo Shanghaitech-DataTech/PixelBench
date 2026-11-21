@@ -1,0 +1,72 @@
+{
+ "config": "claude-opus-5",
+ "task": "green-pear",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "cf69499bd8f9fd05da8aaaf72551f69133a95c471fa9b8f99cc56c2a03d522d4"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 7,
+ "writes": 4,
+ "model_rounds": 6,
+ "llm_calls": 6,
+ "retries": 0,
+ "prompt_tokens": 57941,
+ "cached_tokens": 47249,
+ "completion_tokens": 1619,
+ "reasoning_tokens": 0,
+ "seconds": 98.9,
+ "llm_seconds": 95.2,
+ "tool_seconds": 2.3,
+ "calls_usage": [
+  [
+   7812,
+   0,
+   809,
+   0
+  ],
+  [
+   8795,
+   8003,
+   518,
+   0
+  ],
+  [
+   9720,
+   9192,
+   7,
+   0
+  ],
+  [
+   10155,
+   9410,
+   233,
+   0
+  ],
+  [
+   10512,
+   10213,
+   7,
+   0
+  ],
+  [
+   10947,
+   10431,
+   45,
+   0
+  ]
+ ]
+}

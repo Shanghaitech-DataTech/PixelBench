@@ -1,0 +1,96 @@
+{
+ "config": "claude-opus-5",
+ "task": "usb-flash-drive",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0010",
+  "source_hashes": {
+   "main.py": "4cf81df50426b421af3a7410642bb089f13e3c2029c83ec04aaee0242522dbec"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 16,
+ "writes": 10,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 0,
+ "prompt_tokens": 135849,
+ "cached_tokens": 128074,
+ "completion_tokens": 5304,
+ "reasoning_tokens": 0,
+ "seconds": 315.2,
+ "llm_seconds": 308.7,
+ "tool_seconds": 5.9,
+ "calls_usage": [
+  [
+   7829,
+   7562,
+   1040,
+   0
+  ],
+  [
+   9172,
+   8061,
+   857,
+   0
+  ],
+  [
+   10830,
+   9772,
+   863,
+   0
+  ],
+  [
+   12447,
+   11360,
+   904,
+   0
+  ],
+  [
+   14147,
+   12944,
+   260,
+   0
+  ],
+  [
+   14884,
+   14348,
+   66,
+   0
+  ],
+  [
+   15323,
+   15090,
+   269,
+   0
+  ],
+  [
+   16035,
+   15550,
+   95,
+   0
+  ],
+  [
+   16806,
+   16253,
+   805,
+   0
+  ],
+  [
+   18376,
+   17134,
+   145,
+   0
+  ]
+ ]
+}

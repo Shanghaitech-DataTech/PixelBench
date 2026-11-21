@@ -1,0 +1,16 @@
+{
+  "id": "seamless-carpet-pattern",
+  "task_type": "agentic_creation",
+  "prompt": "pixel art, 32x32 resolution, seamless carpet pattern, warm geometric motifs, diamonds with floral border, woven texture, seamless tiling in all directions, left right edges connect exactly",
+  "width": 32,
+  "height": 32,
+  "constraints": {
+    "max_colors": 86,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 25,
+    "max_code_seconds": 120
+  }
+}

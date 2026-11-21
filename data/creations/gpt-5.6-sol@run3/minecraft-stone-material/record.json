@@ -1,0 +1,60 @@
+{
+ "config": "gpt-5.6-sol@run3",
+ "task": "minecraft-stone-material",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "1dd421beec5444bbec976cbb1ebd191af0fea97d2f8e5dc33fa8fe58640c92a5"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 9,
+ "writes": 1,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 48450,
+ "cached_tokens": 44672,
+ "completion_tokens": 1837,
+ "reasoning_tokens": 483,
+ "seconds": 63.8,
+ "llm_seconds": 61.7,
+ "tool_seconds": 1.2,
+ "calls_usage": [
+  [
+   11394,
+   11008,
+   88,
+   15
+  ],
+  [
+   11479,
+   11264,
+   1504,
+   329
+  ],
+  [
+   12667,
+   11392,
+   22,
+   0
+  ],
+  [
+   12910,
+   11008,
+   223,
+   139
+  ]
+ ]
+}

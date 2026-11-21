@@ -1,0 +1,102 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "e-scooter-rider",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "main.py": "238fe4d2a0733639091cc39caa98550540d2995ff155a1464830833c08b3b1b1"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 14,
+ "writes": 5,
+ "model_rounds": 11,
+ "llm_calls": 11,
+ "retries": 0,
+ "prompt_tokens": 133605,
+ "cached_tokens": 0,
+ "completion_tokens": 6430,
+ "reasoning_tokens": 557,
+ "seconds": 152.8,
+ "llm_seconds": 149.4,
+ "tool_seconds": 2.9,
+ "calls_usage": [
+  [
+   7759,
+   0,
+   1588,
+   347
+  ],
+  [
+   9019,
+   0,
+   45,
+   17
+  ],
+  [
+   9514,
+   0,
+   285,
+   0
+  ],
+  [
+   9817,
+   0,
+   28,
+   0
+  ],
+  [
+   10579,
+   0,
+   1555,
+   109
+  ],
+  [
+   12044,
+   0,
+   38,
+   10
+  ],
+  [
+   12784,
+   0,
+   1341,
+   74
+  ],
+  [
+   14070,
+   0,
+   28,
+   0
+  ],
+  [
+   14823,
+   0,
+   1376,
+   0
+  ],
+  [
+   16218,
+   0,
+   28,
+   0
+  ],
+  [
+   16978,
+   0,
+   118,
+   0
+  ]
+ ]
+}

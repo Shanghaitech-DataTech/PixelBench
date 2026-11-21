@@ -1,0 +1,90 @@
+{
+ "config": "kimi-k3",
+ "task": "fast-food-combo",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "24c5e19284628a8380effb735de4cb05ab5fc36148b97931f4af013a599f61eb"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 45,
+ "writes": 8,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 1,
+ "prompt_tokens": 115504,
+ "cached_tokens": 106028,
+ "completion_tokens": 57691,
+ "reasoning_tokens": 50746,
+ "seconds": 2565.5,
+ "llm_seconds": 1637.3,
+ "tool_seconds": 3.5,
+ "calls_usage": [
+  [
+   7262,
+   7168,
+   41719,
+   38657
+  ],
+  [
+   10355,
+   7168,
+   52,
+   0
+  ],
+  [
+   10847,
+   10240,
+   8193,
+   6432
+  ],
+  [
+   12707,
+   10835,
+   52,
+   0
+  ],
+  [
+   13199,
+   12544,
+   3184,
+   1959
+  ],
+  [
+   14454,
+   13187,
+   52,
+   0
+  ],
+  [
+   14946,
+   14336,
+   3166,
+   2544
+  ],
+  [
+   15621,
+   14934,
+   52,
+   0
+  ],
+  [
+   16113,
+   15616,
+   1221,
+   1154
+  ]
+ ]
+}

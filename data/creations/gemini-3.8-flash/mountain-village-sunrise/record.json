@@ -1,0 +1,157 @@
+{
+ "config": "gemini-3.8-flash",
+ "task": "mountain-village-sunrise",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0010",
+  "source_hashes": {
+   "check_stats.py": "f7623a1a54312b33d8e678c5be4a5dc62c72f6b7d5e8e5d728a64409f4ac4141",
+   "main.py": "ff81c41ff32ae683fa674c98f56e805ec065ce8a85b3334a284363c2143caf77"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 58,
+ "writes": 9,
+ "model_rounds": 20,
+ "llm_calls": 20,
+ "retries": 0,
+ "prompt_tokens": 1358255,
+ "cached_tokens": 850079,
+ "completion_tokens": 85481,
+ "reasoning_tokens": 35064,
+ "seconds": 926.6,
+ "llm_seconds": 912.5,
+ "tool_seconds": 9.4,
+ "calls_usage": [
+  [
+   7558,
+   0,
+   148,
+   138
+  ],
+  [
+   7715,
+   5539,
+   1246,
+   1161
+  ],
+  [
+   8963,
+   5718,
+   37,
+   17
+  ],
+  [
+   10126,
+   0,
+   24835,
+   12615
+  ],
+  [
+   34963,
+   9109,
+   45,
+   25
+  ],
+  [
+   36211,
+   32905,
+   1206,
+   1157
+  ],
+  [
+   37421,
+   35109,
+   33,
+   11
+  ],
+  [
+   37528,
+   8111,
+   17561,
+   4432
+  ],
+  [
+   55091,
+   37496,
+   39,
+   19
+  ],
+  [
+   56576,
+   53031,
+   16150,
+   3931
+  ],
+  [
+   72728,
+   56650,
+   39,
+   19
+  ],
+  [
+   74212,
+   70664,
+   15318,
+   3558
+  ],
+  [
+   89532,
+   74273,
+   39,
+   19
+  ],
+  [
+   91014,
+   0,
+   16036,
+   4103
+  ],
+  [
+   107052,
+   89564,
+   39,
+   19
+  ],
+  [
+   108534,
+   0,
+   14097,
+   2121
+  ],
+  [
+   122633,
+   107070,
+   39,
+   19
+  ],
+  [
+   124115,
+   36662,
+   13319,
+   1421
+  ],
+  [
+   137436,
+   105951,
+   45,
+   25
+  ],
+  [
+   138847,
+   122227,
+   274,
+   254
+  ]
+ ]
+}

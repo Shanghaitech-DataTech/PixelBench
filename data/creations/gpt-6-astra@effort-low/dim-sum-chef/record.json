@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@effort-low",
+ "task": "dim-sum-chef",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "300fcf46f45ba52d4662805d08474c19f2aadc955df0598a8f3e01ab81fa60b1"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 25,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 36495,
+ "cached_tokens": 35456,
+ "completion_tokens": 1383,
+ "reasoning_tokens": 0,
+ "seconds": 67.5,
+ "llm_seconds": 65.5,
+ "tool_seconds": 1.4,
+ "calls_usage": [
+  [
+   11135,
+   10752,
+   1343,
+   0
+  ],
+  [
+   12493,
+   12288,
+   18,
+   0
+  ],
+  [
+   12867,
+   12416,
+   22,
+   0
+  ]
+ ]
+}

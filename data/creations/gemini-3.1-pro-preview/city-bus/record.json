@@ -1,0 +1,48 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "city-bus",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0001",
+  "source_hashes": {
+   "main.py": "c3c87013c9f4ee77afc2c348a825b8696e28161df86ea8166e69d246928d6938"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 19,
+ "writes": 1,
+ "model_rounds": 2,
+ "llm_calls": 2,
+ "retries": 0,
+ "prompt_tokens": 37110,
+ "cached_tokens": 0,
+ "completion_tokens": 1403,
+ "reasoning_tokens": 20627,
+ "seconds": 231.6,
+ "llm_seconds": 226.9,
+ "tool_seconds": 0.5,
+ "calls_usage": [
+  [
+   7558,
+   0,
+   21992,
+   20609
+  ],
+  [
+   29552,
+   0,
+   38,
+   18
+  ]
+ ]
+}

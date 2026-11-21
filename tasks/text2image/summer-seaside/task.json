@@ -1,0 +1,16 @@
+{
+  "id": "summer-seaside",
+  "task_type": "agentic_creation",
+  "prompt": "pixel art, 128x128 resolution, summer seaside beach scene, clear blue sky with soft white clouds, bright sun, sea layered from teal near shore to deep blue at the horizon, white foam waves rolling onto golden sand, red-and-white striped beach umbrella, striped towel and flip-flops, small white sailboat far out, two gulls flying, bright fresh summer mood, strong daylight",
+  "width": 128,
+  "height": 128,
+  "constraints": {
+    "max_colors": 86,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 25,
+    "max_code_seconds": 120
+  }
+}

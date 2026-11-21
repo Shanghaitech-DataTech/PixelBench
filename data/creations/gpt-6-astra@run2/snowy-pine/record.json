@@ -1,0 +1,90 @@
+{
+ "config": "gpt-6-astra@run2",
+ "task": "snowy-pine",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "cb7d0346ae108d058287d02eff7a5a77af63fa893880ee543f9f76d5ae6e4864"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 12,
+ "writes": 4,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 10,
+ "prompt_tokens": 110544,
+ "cached_tokens": 91648,
+ "completion_tokens": 1192,
+ "reasoning_tokens": 428,
+ "seconds": 475.0,
+ "llm_seconds": 266.7,
+ "tool_seconds": 4.4,
+ "calls_usage": [
+  [
+   11210,
+   10752,
+   55,
+   0
+  ],
+  [
+   11280,
+   11136,
+   18,
+   0
+  ],
+  [
+   11551,
+   0,
+   68,
+   16
+  ],
+  [
+   11616,
+   11392,
+   18,
+   0
+  ],
+  [
+   12369,
+   11136,
+   326,
+   187
+  ],
+  [
+   12521,
+   11520,
+   18,
+   0
+  ],
+  [
+   12931,
+   12160,
+   545,
+   161
+  ],
+  [
+   13328,
+   12800,
+   18,
+   0
+  ],
+  [
+   13738,
+   10752,
+   126,
+   64
+  ]
+ ]
+}

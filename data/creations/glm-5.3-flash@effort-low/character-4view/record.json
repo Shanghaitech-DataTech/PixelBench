@@ -1,0 +1,54 @@
+{
+ "config": "glm-5.3-flash@effort-low",
+ "task": "character-4view",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "da02c188a24495a7ec26b53428e83ddb5222b522ced0b06d200998251a34fe25"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 8,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 25104,
+ "cached_tokens": 0,
+ "completion_tokens": 3485,
+ "reasoning_tokens": 1898,
+ "seconds": 80.6,
+ "llm_seconds": 78.8,
+ "tool_seconds": 1.2,
+ "calls_usage": [
+  [
+   7308,
+   0,
+   3384,
+   1868
+  ],
+  [
+   8832,
+   0,
+   12,
+   0
+  ],
+  [
+   8964,
+   0,
+   89,
+   30
+  ]
+ ]
+}

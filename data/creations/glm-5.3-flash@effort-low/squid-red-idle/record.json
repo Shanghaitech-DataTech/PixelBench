@@ -1,0 +1,78 @@
+{
+ "config": "glm-5.3-flash@effort-low",
+ "task": "squid-red-idle",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 3,
+  "actual_count": 3,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "a2a91d04e5f311db175aa6825d2b08a52979825491590ad9fcc9e82aee830caa"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 3,
+ "colors": 8,
+ "writes": 3,
+ "model_rounds": 7,
+ "llm_calls": 7,
+ "retries": 0,
+ "prompt_tokens": 57247,
+ "cached_tokens": 0,
+ "completion_tokens": 587,
+ "reasoning_tokens": 297,
+ "seconds": 16.4,
+ "llm_seconds": 14.0,
+ "tool_seconds": 1.7,
+ "calls_usage": [
+  [
+   7527,
+   0,
+   12,
+   0
+  ],
+  [
+   7628,
+   0,
+   29,
+   0
+  ],
+  [
+   7665,
+   0,
+   12,
+   0
+  ],
+  [
+   7789,
+   0,
+   78,
+   0
+  ],
+  [
+   7875,
+   0,
+   12,
+   0
+  ],
+  [
+   9313,
+   0,
+   426,
+   297
+  ],
+  [
+   9450,
+   0,
+   18,
+   0
+  ]
+ ]
+}

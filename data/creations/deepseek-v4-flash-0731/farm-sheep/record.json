@@ -1,0 +1,126 @@
+{
+ "config": "deepseek-v4-flash-0731",
+ "task": "farm-sheep",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "main.py": "3ee573f392fdec137aa2b025354beaa2cca9bff361a5f62d51900be3b1955b93"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 13,
+ "writes": 9,
+ "model_rounds": 15,
+ "llm_calls": 15,
+ "retries": 0,
+ "prompt_tokens": 194161,
+ "cached_tokens": 0,
+ "completion_tokens": 36048,
+ "reasoning_tokens": 31741,
+ "seconds": 490.8,
+ "llm_seconds": 486.7,
+ "tool_seconds": 3.4,
+ "calls_usage": [
+  [
+   7686,
+   0,
+   6757,
+   5910
+  ],
+  [
+   8548,
+   0,
+   45,
+   0
+  ],
+  [
+   9202,
+   0,
+   10812,
+   9931
+  ],
+  [
+   10098,
+   0,
+   45,
+   0
+  ],
+  [
+   10836,
+   0,
+   7895,
+   6955
+  ],
+  [
+   11791,
+   0,
+   45,
+   0
+  ],
+  [
+   12462,
+   0,
+   1990,
+   1849
+  ],
+  [
+   12617,
+   0,
+   45,
+   0
+  ],
+  [
+   14085,
+   0,
+   6050,
+   5648
+  ],
+  [
+   14522,
+   0,
+   46,
+   0
+  ],
+  [
+   15442,
+   0,
+   275,
+   95
+  ],
+  [
+   15646,
+   0,
+   473,
+   117
+  ],
+  [
+   16016,
+   0,
+   45,
+   0
+  ],
+  [
+   17484,
+   0,
+   1464,
+   1236
+  ],
+  [
+   17726,
+   0,
+   61,
+   0
+  ]
+ ]
+}

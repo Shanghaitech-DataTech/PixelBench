@@ -1,0 +1,108 @@
+{
+ "config": "deepseek-v4-pro",
+ "task": "e-scooter-rider",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "7185dc864177d3d21d68de058772ad9b60eab6db4c562e87cf4e87aae89c7492"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 15,
+ "writes": 6,
+ "model_rounds": 12,
+ "llm_calls": 12,
+ "retries": 0,
+ "prompt_tokens": 333958,
+ "cached_tokens": 330752,
+ "completion_tokens": 27787,
+ "reasoning_tokens": 24174,
+ "seconds": 393.2,
+ "llm_seconds": 390.1,
+ "tool_seconds": 2.6,
+ "calls_usage": [
+  [
+   7678,
+   7424,
+   12215,
+   12172
+  ],
+  [
+   19907,
+   19840,
+   1196,
+   10
+  ],
+  [
+   21119,
+   20992,
+   44,
+   0
+  ],
+  [
+   21696,
+   21120,
+   6227,
+   4884
+  ],
+  [
+   27939,
+   27904,
+   44,
+   0
+  ],
+  [
+   28575,
+   27904,
+   3766,
+   3603
+  ],
+  [
+   32356,
+   32256,
+   243,
+   0
+  ],
+  [
+   32614,
+   32512,
+   44,
+   0
+  ],
+  [
+   33235,
+   32640,
+   1966,
+   1703
+  ],
+  [
+   35216,
+   35200,
+   44,
+   0
+  ],
+  [
+   35838,
+   35200,
+   1932,
+   1796
+  ],
+  [
+   37785,
+   37760,
+   66,
+   6
+  ]
+ ]
+}

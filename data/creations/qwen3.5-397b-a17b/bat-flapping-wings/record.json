@@ -1,0 +1,126 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "bat-flapping-wings",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "0bd21e19b7ca3a10ad75c722868a12a4627ff9d0197bac8599874e1d12c4a070"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 9,
+ "writes": 7,
+ "model_rounds": 15,
+ "llm_calls": 15,
+ "retries": 0,
+ "prompt_tokens": 210124,
+ "cached_tokens": 0,
+ "completion_tokens": 11941,
+ "reasoning_tokens": 2159,
+ "seconds": 270.7,
+ "llm_seconds": 265.7,
+ "tool_seconds": 3.7,
+ "calls_usage": [
+  [
+   7985,
+   0,
+   90,
+   62
+  ],
+  [
+   8137,
+   0,
+   164,
+   32
+  ],
+  [
+   8288,
+   0,
+   28,
+   0
+  ],
+  [
+   8941,
+   0,
+   2514,
+   630
+  ],
+  [
+   10844,
+   0,
+   55,
+   27
+  ],
+  [
+   11339,
+   0,
+   1625,
+   46
+  ],
+  [
+   12937,
+   0,
+   38,
+   10
+  ],
+  [
+   13167,
+   0,
+   1530,
+   93
+  ],
+  [
+   14623,
+   0,
+   45,
+   17
+  ],
+  [
+   15721,
+   0,
+   1836,
+   316
+  ],
+  [
+   17260,
+   0,
+   1934,
+   399
+  ],
+  [
+   18814,
+   0,
+   40,
+   12
+  ],
+  [
+   19489,
+   0,
+   1631,
+   221
+  ],
+  [
+   20918,
+   0,
+   38,
+   10
+  ],
+  [
+   21661,
+   0,
+   373,
+   284
+  ]
+ ]
+}

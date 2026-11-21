@@ -1,0 +1,90 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "farm-sheep",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "73e8960137baa6ab3200f49f2cc4a9631c30d82573de720586890a024c497ffc"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 13,
+ "writes": 4,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 111363,
+ "cached_tokens": 0,
+ "completion_tokens": 6768,
+ "reasoning_tokens": 406,
+ "seconds": 167.4,
+ "llm_seconds": 164.2,
+ "tool_seconds": 2.7,
+ "calls_usage": [
+  [
+   7767,
+   0,
+   1536,
+   242
+  ],
+  [
+   9080,
+   0,
+   43,
+   15
+  ],
+  [
+   9725,
+   0,
+   1732,
+   127
+  ],
+  [
+   11349,
+   0,
+   40,
+   12
+  ],
+  [
+   12078,
+   0,
+   1626,
+   0
+  ],
+  [
+   13723,
+   0,
+   38,
+   10
+  ],
+  [
+   14532,
+   0,
+   1636,
+   0
+  ],
+  [
+   16187,
+   0,
+   28,
+   0
+  ],
+  [
+   16922,
+   0,
+   89,
+   0
+  ]
+ ]
+}

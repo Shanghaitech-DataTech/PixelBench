@@ -1,0 +1,16 @@
+{
+  "id": "arcane-instrument-giant",
+  "task_type": "agentic_creation",
+  "prompt": "pixel art, 256x256 resolution, huge complex arcane instrument, massive brass astrolabe-orrery with concentric engraved rings, orbiting crystal spheres, glowing runes along the rings, central radiant core, intricate gears and alchemical dials, floating over a stone pedestal in a dark hall, extremely detailed machinery, dramatic lighting, dark outline",
+  "width": 256,
+  "height": 256,
+  "constraints": {
+    "max_colors": 140,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 25,
+    "max_code_seconds": 120
+  }
+}

@@ -1,0 +1,166 @@
+{
+ "config": "gemini-3.8-flash",
+ "task": "release-flames",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0010",
+  "source_hashes": {
+   "inspect_char.py": "ed9577c4fdd0318f6ab318484999ffecd7afa18472903609ed75955f361c56b4",
+   "main.py": "3728f60d4b5bdf22fbf5341692e13491cf29802edfd38147eb7bf3c69b37e4c5",
+   "zoom_body.py": "77f4dbd93137b226a22016d3edf4676d5401b599b4bb5fbc5425e63dbcae9389",
+   "zoom_head.py": "486a62203cda974e65a3221e76d33db7e0f342c8fbe024daf5529e2d7f905eaa",
+   "zoom_torso.py": "a9018537aed7e65b243e89234ce5a9377b4fff428493e15b240e8c807d351eab"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 17,
+ "writes": 10,
+ "model_rounds": 21,
+ "llm_calls": 21,
+ "retries": 0,
+ "prompt_tokens": 854690,
+ "cached_tokens": 714359,
+ "completion_tokens": 76331,
+ "reasoning_tokens": 0,
+ "seconds": 703.8,
+ "llm_seconds": 696.8,
+ "tool_seconds": 6.2,
+ "calls_usage": [
+  [
+   7922,
+   0,
+   166,
+   0
+  ],
+  [
+   8105,
+   5874,
+   86,
+   0
+  ],
+  [
+   8209,
+   6064,
+   31,
+   0
+  ],
+  [
+   10107,
+   7398,
+   1259,
+   0
+  ],
+  [
+   11386,
+   9010,
+   32,
+   0
+  ],
+  [
+   12999,
+   10106,
+   3313,
+   0
+  ],
+  [
+   16332,
+   13014,
+   32,
+   0
+  ],
+  [
+   18927,
+   16340,
+   4670,
+   0
+  ],
+  [
+   23617,
+   18945,
+   32,
+   0
+  ],
+  [
+   24140,
+   21572,
+   204,
+   0
+  ],
+  [
+   24365,
+   22095,
+   34,
+   0
+  ],
+  [
+   25011,
+   22323,
+   7894,
+   0
+  ],
+  [
+   32923,
+   25045,
+   32,
+   0
+  ],
+  [
+   34079,
+   30870,
+   19460,
+   0
+  ],
+  [
+   53557,
+   34147,
+   32,
+   0
+  ],
+  [
+   55793,
+   53542,
+   21433,
+   0
+  ],
+  [
+   77244,
+   55851,
+   34,
+   0
+  ],
+  [
+   79482,
+   77228,
+   22070,
+   0
+  ],
+  [
+   101570,
+   79533,
+   32,
+   0
+  ],
+  [
+   103806,
+   101553,
+   21292,
+   0
+  ],
+  [
+   125116,
+   103849,
+   105,
+   0
+  ]
+ ]
+}

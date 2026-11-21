@@ -1,0 +1,90 @@
+{
+ "config": "kimi-k3",
+ "task": "demon-cyclop-hit",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 3,
+  "actual_count": 3,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "bd4c77e090b95b04df3445683628a6264dde82d8b558c8dabf31b0dfd115e0bc"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 3,
+ "colors": 20,
+ "writes": 3,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 85834,
+ "cached_tokens": 79167,
+ "completion_tokens": 20611,
+ "reasoning_tokens": 18147,
+ "seconds": 596.6,
+ "llm_seconds": 593.5,
+ "tool_seconds": 2.5,
+ "calls_usage": [
+  [
+   7508,
+   6912,
+   67,
+   15
+  ],
+  [
+   7663,
+   7424,
+   53,
+   16
+  ],
+  [
+   7730,
+   7424,
+   125,
+   36
+  ],
+  [
+   7850,
+   7680,
+   52,
+   0
+  ],
+  [
+   8924,
+   7680,
+   18370,
+   17310
+  ],
+  [
+   10015,
+   8912,
+   52,
+   0
+  ],
+  [
+   11131,
+   9984,
+   1571,
+   568
+  ],
+  [
+   12165,
+   11119,
+   52,
+   0
+  ],
+  [
+   12848,
+   12032,
+   269,
+   202
+  ]
+ ]
+}

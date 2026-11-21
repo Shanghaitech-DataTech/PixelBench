@@ -1,0 +1,26 @@
+{
+  "name": "astra-pixel-art",
+  "version": "0.6.0",
+  "source": "Vendored Astra Pixel Art 0.6.0 explicit-canvas revision; no external Skill installation required.",
+  "files": {
+    "FUSION-PIXEL-OFL-1.1.txt": "bc518cf64b8032c07690f33cc270c35c179255a6ac8efa7c165ebae7e8f76a63",
+    "__init__.py": "8ea3eb508647ad6c813b842e321cb6905299c55c0d1786061a4f5e49319617d7",
+    "canvas.py": "dc81c84135a4265dab6c75fa113c799245769b3b34f75a13e7f87ad5d68643d6",
+    "documents.py": "235a161b529a477bc1736ea72bbce1b8681320b86f374c7bf86f63e7f6552e80",
+    "font5x7.py": "6a546ca4dced2d65d908d96eb11567f1ac264a1cfc761b86e727d09b5b96d467",
+    "fontfusion.py": "964c0d6c1d25c55eb9ceed2eb17343ebc995027589e42e4677a304d4d039f24a",
+    "fontfusion10.bin": "896a520d9e51a6a1bcd9ed91f39abd82702290ebd543b323e3e886ee84776368",
+    "fontfusion12.bin": "ec642dd3699bc67558a27212f3a94ef4fc43bb90f00167e2e3637a7c878b1227",
+    "fontfusion8.bin": "baee97f539931fbcf63406fc699df41a269e6d09dc5690a42cd8e4e025529509",
+    "pathdata.py": "3be6596068c1bead738a3e0072e50c40461c51e37ff5bd14ecfb9fc53d158b6c",
+    "png.py": "70f6271aaea63a0c31489b8619888ddb9f8230ae347eb38207dfeaadfbb1c311",
+    "selection.py": "7ad766003e0ffa4fb1ed6949625b28b072aaaf033c19ccde4b541c420b8649a8",
+    "session.py": "f5299b7a3bc71cfc74ce6eb55c3d66b7e67b325cd82273bd4c374710eb1eb773",
+    "vision.py": "2739d1ed0b3daafadfff394833fd03289f41cf9b51fa1076278ff024ddde07d5",
+    "api.md": "b395016ea45232129281d52e1372e47cb60ada84a93e53ce98a03b1d52e2e985"
+  },
+  "base_version": "0.5.0",
+  "local_patches": [
+    "Non-blocking host clipping diagnostics for drawing, blit, shift and selection paste."
+  ]
+}

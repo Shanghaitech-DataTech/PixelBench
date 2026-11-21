@@ -1,0 +1,84 @@
+{
+ "config": "claude-opus-5",
+ "task": "wooden-key",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "f64f117beb8a03d5b579efcc2bb2b1221e6477b1d4d806fcce92afddc3e87b69"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 6,
+ "writes": 8,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 6,
+ "prompt_tokens": 86677,
+ "cached_tokens": 69434,
+ "completion_tokens": 3359,
+ "reasoning_tokens": 0,
+ "seconds": 907.7,
+ "llm_seconds": 351.0,
+ "tool_seconds": 4.0,
+ "calls_usage": [
+  [
+   7814,
+   7569,
+   1342,
+   0
+  ],
+  [
+   8594,
+   7649,
+   54,
+   0
+  ],
+  [
+   9336,
+   7907,
+   574,
+   0
+  ],
+  [
+   10373,
+   9669,
+   512,
+   0
+  ],
+  [
+   11424,
+   10698,
+   552,
+   0
+  ],
+  [
+   12471,
+   0,
+   214,
+   0
+  ],
+  [
+   13270,
+   12738,
+   99,
+   0
+  ],
+  [
+   13395,
+   13204,
+   12,
+   0
+  ]
+ ]
+}

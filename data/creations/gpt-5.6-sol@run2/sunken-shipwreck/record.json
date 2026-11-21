@@ -1,0 +1,60 @@
+{
+ "config": "gpt-5.6-sol@run2",
+ "task": "sunken-shipwreck",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "79793d2f17c523864da9654965a59e5e5c7113e5034528748da438a4b67ad05c"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 35,
+ "writes": 1,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 52223,
+ "cached_tokens": 48256,
+ "completion_tokens": 3375,
+ "reasoning_tokens": 257,
+ "seconds": 97.2,
+ "llm_seconds": 94.8,
+ "tool_seconds": 1.5,
+ "calls_usage": [
+  [
+   11407,
+   11264,
+   95,
+   16
+  ],
+  [
+   11498,
+   11264,
+   3051,
+   127
+  ],
+  [
+   14435,
+   11392,
+   22,
+   0
+  ],
+  [
+   14883,
+   14336,
+   207,
+   114
+  ]
+ ]
+}

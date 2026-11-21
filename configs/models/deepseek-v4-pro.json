@@ -1,0 +1,12 @@
+{
+  "id": "deepseek-v4-pro",
+  "display_name": "DeepSeek V4 Pro",
+  "reported_level": "high",
+  "vision": false,
+  "llm": {
+    "model": "deepseek-v4-pro",
+    "api_format": "completions",
+    "stream": false,
+    "temperature": 0.7
+  }
+}

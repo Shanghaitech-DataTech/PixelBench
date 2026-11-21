@@ -1,0 +1,48 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "fast-food-combo",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0001",
+  "source_hashes": {
+   "main.py": "1979cf4501f74522aa23fd8fff00d003f8bb335811569a41ffba80411352b29c"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 27,
+ "writes": 1,
+ "model_rounds": 2,
+ "llm_calls": 2,
+ "retries": 0,
+ "prompt_tokens": 46614,
+ "cached_tokens": 0,
+ "completion_tokens": 3184,
+ "reasoning_tokens": 28294,
+ "seconds": 283.5,
+ "llm_seconds": 282.1,
+ "tool_seconds": 0.8,
+ "calls_usage": [
+  [
+   7587,
+   0,
+   31438,
+   28274
+  ],
+  [
+   39027,
+   0,
+   40,
+   20
+  ]
+ ]
+}

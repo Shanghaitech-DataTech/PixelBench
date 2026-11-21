@@ -1,0 +1,60 @@
+{
+ "config": "gpt-5.6-sol",
+ "task": "offshore-wind-turbine-maintenance",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "2fd15ed283cdbfea3c632cdcb4a2b78230ba83ee41a9c080d32d49c898519b2f"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 27,
+ "writes": 1,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 51018,
+ "cached_tokens": 47360,
+ "completion_tokens": 3042,
+ "reasoning_tokens": 482,
+ "seconds": 70.7,
+ "llm_seconds": 68.9,
+ "tool_seconds": 1.2,
+ "calls_usage": [
+  [
+   11406,
+   11008,
+   103,
+   21
+  ],
+  [
+   11500,
+   11264,
+   2567,
+   213
+  ],
+  [
+   13867,
+   11392,
+   22,
+   0
+  ],
+  [
+   14245,
+   13696,
+   350,
+   248
+  ]
+ ]
+}

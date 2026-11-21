@@ -1,0 +1,66 @@
+{
+ "config": "gpt-5.6-sol@run2",
+ "task": "house-turn-2view",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "2752275764409f82a42edcd3a0ba74840bdbf06e245fbfb84331637e678de17f"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 18,
+ "writes": 2,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 4,
+ "prompt_tokens": 84259,
+ "cached_tokens": 72960,
+ "completion_tokens": 4156,
+ "reasoning_tokens": 910,
+ "seconds": 166.3,
+ "llm_seconds": 119.0,
+ "tool_seconds": 4.0,
+ "calls_usage": [
+  [
+   11682,
+   11008,
+   132,
+   16
+  ],
+  [
+   11811,
+   11520,
+   18,
+   0
+  ],
+  [
+   18028,
+   11648,
+   3720,
+   725
+  ],
+  [
+   21028,
+   17792,
+   18,
+   0
+  ],
+  [
+   21710,
+   20992,
+   268,
+   169
+  ]
+ ]
+}

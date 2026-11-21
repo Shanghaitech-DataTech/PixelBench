@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@no-vision",
+ "task": "swordsman-walk-animation",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "e20cf488d013d5ba8e2469b8bb417bd2fe9ce982b2e3fd74fd1eabb345295f25"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 27,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 57446,
+ "cached_tokens": 51328,
+ "completion_tokens": 6149,
+ "reasoning_tokens": 1018,
+ "seconds": 91.1,
+ "llm_seconds": 89.3,
+ "tool_seconds": 1.2,
+ "calls_usage": [
+  [
+   11247,
+   10880,
+   5960,
+   933
+  ],
+  [
+   14055,
+   11136,
+   22,
+   0
+  ],
+  [
+   32144,
+   29312,
+   167,
+   85
+  ]
+ ]
+}

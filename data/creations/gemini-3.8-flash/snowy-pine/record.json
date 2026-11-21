@@ -1,0 +1,241 @@
+{
+ "config": "gemini-3.8-flash",
+ "task": "snowy-pine",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0016",
+  "source_hashes": {
+   "analyze_tree.py": "8c243a5461ecdea0c190137444be4331fc363c9756c5858cb2aa14996e63567a",
+   "check_env.py": "ffeba8a60894677917bb3c1ef485ee17d3dbdda112ade8553dd2ff192057fe2c",
+   "inspect_details.py": "96ebe2bcaee347ac3b14ed0c21e5a1c643cd2059506b4716a825dc1e72d203d7",
+   "inspect_pb.py": "08be9b36634a11b4234c51b6cdf664925f9cfdc6fa8b34c8fe24495045c60265",
+   "inspect_prelude.py": "d209e24d710b66d248df1e51737f393f44d336d71c9c2483c976bcfdb6a5f305",
+   "inspect_task.py": "fcfaed1efb1f039efb0d0e66726d51edae3b30928c4655c72b94633741abedeb",
+   "inspect_tasks.py": "21f9dafe6ce8814eaeeff4925755c1e050b1ae4c278e9f064bf921a8ce2d894b",
+   "inspect_tasks2.py": "3b69551971e3ef3a72f606ecb9a115048e982f4ae7d9881e57a6456383f5c307",
+   "main.py": "4c20fa4aa7b74782e427104faeef052c32929d65f3dfb6719fac54017c9c9ba5",
+   "search_files.py": "ce774856594505d26e4b4b2101ec05f33326bb4f7f7bf8f20fdbbe93815f47fb"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 10,
+ "writes": 15,
+ "model_rounds": 32,
+ "llm_calls": 32,
+ "retries": 0,
+ "prompt_tokens": 1367005,
+ "cached_tokens": 520154,
+ "completion_tokens": 10274,
+ "reasoning_tokens": 15148,
+ "seconds": 496.6,
+ "llm_seconds": 483.0,
+ "tool_seconds": 12.6,
+ "calls_usage": [
+  [
+   7632,
+   0,
+   104,
+   94
+  ],
+  [
+   7745,
+   0,
+   149,
+   93
+  ],
+  [
+   7896,
+   0,
+   35,
+   15
+  ],
+  [
+   9575,
+   0,
+   642,
+   482
+  ],
+  [
+   10221,
+   0,
+   32,
+   10
+  ],
+  [
+   10428,
+   0,
+   181,
+   42
+  ],
+  [
+   10613,
+   7942,
+   32,
+   10
+  ],
+  [
+   11938,
+   0,
+   383,
+   179
+  ],
+  [
+   12325,
+   0,
+   32,
+   10
+  ],
+  [
+   12587,
+   0,
+   195,
+   16
+  ],
+  [
+   12787,
+   0,
+   34,
+   11
+  ],
+  [
+   47537,
+   10402,
+   1034,
+   612
+  ],
+  [
+   48175,
+   0,
+   32,
+   10
+  ],
+  [
+   48223,
+   0,
+   885,
+   569
+  ],
+  [
+   49112,
+   0,
+   32,
+   10
+  ],
+  [
+   51478,
+   47480,
+   1158,
+   995
+  ],
+  [
+   52640,
+   49436,
+   32,
+   10
+  ],
+  [
+   52922,
+   0,
+   164,
+   26
+  ],
+  [
+   53090,
+   0,
+   32,
+   10
+  ],
+  [
+   53138,
+   0,
+   107,
+   19
+  ],
+  [
+   53250,
+   48529,
+   34,
+   11
+  ],
+  [
+   53527,
+   51355,
+   5215,
+   3510
+  ],
+  [
+   58744,
+   53564,
+   38,
+   18
+  ],
+  [
+   59986,
+   8087,
+   6003,
+   3965
+  ],
+  [
+   65991,
+   0,
+   45,
+   25
+  ],
+  [
+   66991,
+   64743,
+   320,
+   211
+  ],
+  [
+   67308,
+   58735,
+   39,
+   19
+  ],
+  [
+   68489,
+   0,
+   4632,
+   2639
+  ],
+  [
+   73274,
+   0,
+   148,
+   128
+  ],
+  [
+   73787,
+   0,
+   3408,
+   1194
+  ],
+  [
+   77197,
+   67309,
+   49,
+   29
+  ],
+  [
+   78399,
+   52572,
+   196,
+   176
+  ]
+ ],
+ "paths_neutralized": [
+  "inspect_tasks.py",
+  "search_files.py"
+ ]
+}

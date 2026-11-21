@@ -1,0 +1,84 @@
+{
+ "config": "gpt-5.6-sol@run2",
+ "task": "draw-sword-slash",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "2410fefa3eee5ad5fc05371103bb48cfc9afdb35af05602ede6251cd55d32fef"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 28,
+ "writes": 4,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 0,
+ "prompt_tokens": 171182,
+ "cached_tokens": 155392,
+ "completion_tokens": 3241,
+ "reasoning_tokens": 1028,
+ "seconds": 120.0,
+ "llm_seconds": 115.6,
+ "tool_seconds": 3.4,
+ "calls_usage": [
+  [
+   11681,
+   11008,
+   108,
+   0
+  ],
+  [
+   11804,
+   11648,
+   18,
+   0
+  ],
+  [
+   22433,
+   11648,
+   1670,
+   452
+  ],
+  [
+   23663,
+   22272,
+   37,
+   17
+  ],
+  [
+   24676,
+   23552,
+   854,
+   516
+  ],
+  [
+   25026,
+   24576,
+   403,
+   0
+  ],
+  [
+   25443,
+   25344,
+   18,
+   0
+  ],
+  [
+   26456,
+   25344,
+   133,
+   43
+  ]
+ ]
+}

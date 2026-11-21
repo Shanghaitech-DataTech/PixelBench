@@ -1,0 +1,15 @@
+{
+  "id": "gemini-3.1-pro-preview",
+  "display_name": "Gemini 3.1 Pro Preview",
+  "reported_level": "high",
+  "vision": true,
+  "llm": {
+    "model": "gemini-3.1-pro-preview",
+    "api_format": "completions",
+    "stream": false,
+    "temperature": 0.7,
+    "extra_body": {
+      "reasoning_effort": "high"
+    }
+  }
+}

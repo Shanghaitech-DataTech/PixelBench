@@ -1,0 +1,66 @@
+{
+ "config": "gpt-5.6-sol@run3",
+ "task": "rts-factory-icon",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "188a78d7a4132d510bad716383f87c71332f7752d59459395042d9a957248bb3"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 14,
+ "writes": 2,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 6,
+ "prompt_tokens": 62951,
+ "cached_tokens": 47488,
+ "completion_tokens": 1666,
+ "reasoning_tokens": 166,
+ "seconds": 372.6,
+ "llm_seconds": 206.5,
+ "tool_seconds": 2.0,
+ "calls_usage": [
+  [
+   11400,
+   11008,
+   1339,
+   51
+  ],
+  [
+   12701,
+   11264,
+   32,
+   8
+  ],
+  [
+   12756,
+   12544,
+   111,
+   21
+  ],
+  [
+   12858,
+   0,
+   22,
+   0
+  ],
+  [
+   13236,
+   12672,
+   162,
+   86
+  ]
+ ]
+}

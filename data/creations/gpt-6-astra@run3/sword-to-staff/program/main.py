@@ -1,0 +1,21 @@
+output = input_canvas.copy(name='output')
+# Remove the sword's guard, grip end and blade against the white background.
+output.rect(40,38,7,3,1)
+output.rect(42,41,3,15,1)
+# A dark-edged, gently bent wooden staff with a knotted crown.
+output.poly([(43,55),(43,25),(42,22),(42,18),(43,16),(46,15),(48,17),(48,20),(46,23),(45,26),(45,55)],2)
+output.line(43,55,45,55,2)
+output.poly([(44,54),(44,25),(43,22),(43,18),(44,17),(46,16),(47,18),(47,20),(45,23),(44,27)],3)
+output.line(44,26,44,53,3)
+output.line(44,18,44,21,7)
+output.line(45,17,46,17,7)
+output.set(46,20,5)
+output.set(44,28,5)
+output.set(44,44,5)
+output.set(44,50,7)
+# Preserve the original fist in front of the shaft and close its lower edge.
+input_canvas.select(40,35,5,3).copy_to(40,35,output)
+output.line(40,38,44,38,2)
+output.set(43,37,7)
+view(output, scale=8)
+finish(output)

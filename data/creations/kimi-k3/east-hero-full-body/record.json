@@ -1,0 +1,78 @@
+{
+ "config": "kimi-k3",
+ "task": "east-hero-full-body",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "1fbd23d9feb74c5e9115d90836ddb4cd2176760b4188a5fbfb4f92948ce9a462"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 75,
+ "writes": 5,
+ "model_rounds": 7,
+ "llm_calls": 7,
+ "retries": 0,
+ "prompt_tokens": 92163,
+ "cached_tokens": 81822,
+ "completion_tokens": 34188,
+ "reasoning_tokens": 26787,
+ "seconds": 740.5,
+ "llm_seconds": 731.0,
+ "tool_seconds": 8.2,
+ "calls_usage": [
+  [
+   7271,
+   6912,
+   23922,
+   20492
+  ],
+  [
+   10742,
+   7168,
+   48,
+   6
+  ],
+  [
+   11366,
+   10496,
+   6862,
+   3500
+  ],
+  [
+   14769,
+   11354,
+   45,
+   3
+  ],
+  [
+   15440,
+   14592,
+   3074,
+   2648
+  ],
+  [
+   15952,
+   15428,
+   45,
+   3
+  ],
+  [
+   16623,
+   15872,
+   192,
+   135
+  ]
+ ]
+}

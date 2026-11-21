@@ -1,0 +1,66 @@
+{
+ "config": "gpt-6-astra",
+ "task": "summer-seaside",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "1935e19e27a6b171856bef37ca446c52d0e4dfe87c7dd8d7fdd00719dda4cbb6"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 64,
+ "writes": 3,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 2,
+ "prompt_tokens": 68241,
+ "cached_tokens": 56320,
+ "completion_tokens": 2936,
+ "reasoning_tokens": 28,
+ "seconds": 507.1,
+ "llm_seconds": 333.3,
+ "tool_seconds": 1.8,
+ "calls_usage": [
+  [
+   11175,
+   0,
+   2644,
+   0
+  ],
+  [
+   13834,
+   13696,
+   18,
+   0
+  ],
+  [
+   14277,
+   14080,
+   167,
+   28
+  ],
+  [
+   14428,
+   14080,
+   85,
+   0
+  ],
+  [
+   14527,
+   14464,
+   22,
+   0
+  ]
+ ]
+}

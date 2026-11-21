@@ -1,0 +1,108 @@
+{
+ "config": "glm-5.3-flash",
+ "task": "character-emotion-set",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "250eb6b72de6b3f471bb647cbec9b5478aa3a08cfc9630ed90f75559735f522d"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 16,
+ "writes": 5,
+ "model_rounds": 12,
+ "llm_calls": 12,
+ "retries": 0,
+ "prompt_tokens": 191855,
+ "cached_tokens": 0,
+ "completion_tokens": 80015,
+ "reasoning_tokens": 71993,
+ "seconds": 1068.5,
+ "llm_seconds": 1061.5,
+ "tool_seconds": 4.1,
+ "calls_usage": [
+  [
+   7310,
+   0,
+   59983,
+   57953
+  ],
+  [
+   9348,
+   0,
+   29,
+   11
+  ],
+  [
+   11591,
+   0,
+   14297,
+   12313
+  ],
+  [
+   13583,
+   0,
+   18,
+   0
+  ],
+  [
+   14939,
+   0,
+   868,
+   828
+  ],
+  [
+   16317,
+   0,
+   2530,
+   0
+  ],
+  [
+   18855,
+   0,
+   18,
+   0
+  ],
+  [
+   19279,
+   0,
+   127,
+   33
+  ],
+  [
+   19380,
+   0,
+   18,
+   0
+  ],
+  [
+   19646,
+   0,
+   1563,
+   563
+  ],
+  [
+   20653,
+   0,
+   18,
+   0
+  ],
+  [
+   20954,
+   0,
+   546,
+   292
+  ]
+ ]
+}

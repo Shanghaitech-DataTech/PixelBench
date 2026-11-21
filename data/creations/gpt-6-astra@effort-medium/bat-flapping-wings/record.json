@@ -1,0 +1,66 @@
+{
+ "config": "gpt-6-astra@effort-medium",
+ "task": "bat-flapping-wings",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "a4fa3a5ca5f83ce6c3710c6bb04f085ad079f5f908149a9731629bd0327c250f"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 9,
+ "writes": 2,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 61299,
+ "cached_tokens": 58240,
+ "completion_tokens": 950,
+ "reasoning_tokens": 170,
+ "seconds": 67.4,
+ "llm_seconds": 65.3,
+ "tool_seconds": 1.6,
+ "calls_usage": [
+  [
+   11361,
+   10752,
+   77,
+   0
+  ],
+  [
+   11453,
+   11264,
+   18,
+   0
+  ],
+  [
+   12255,
+   11392,
+   815,
+   170
+  ],
+  [
+   12913,
+   12032,
+   18,
+   0
+  ],
+  [
+   13317,
+   12800,
+   22,
+   0
+  ]
+ ]
+}

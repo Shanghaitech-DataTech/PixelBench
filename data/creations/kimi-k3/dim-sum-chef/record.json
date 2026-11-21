@@ -1,0 +1,60 @@
+{
+ "config": "kimi-k3",
+ "task": "dim-sum-chef",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "6b82e47891f4c003b645c608d99ad2d43ecf4bb4b5394974a5609f1a232722d8"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 21,
+ "writes": 1,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 34026,
+ "cached_tokens": 30720,
+ "completion_tokens": 30829,
+ "reasoning_tokens": 28724,
+ "seconds": 574.9,
+ "llm_seconds": 573.2,
+ "tool_seconds": 1.2,
+ "calls_usage": [
+  [
+   7228,
+   6912,
+   19019,
+   18941
+  ],
+  [
+   7438,
+   7168,
+   10409,
+   8495
+  ],
+  [
+   9386,
+   7424,
+   49,
+   0
+  ],
+  [
+   9974,
+   9216,
+   1352,
+   1288
+  ]
+ ]
+}

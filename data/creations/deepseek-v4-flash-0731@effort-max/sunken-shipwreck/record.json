@@ -1,0 +1,115 @@
+{
+ "config": "deepseek-v4-flash-0731@effort-max",
+ "task": "sunken-shipwreck",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "inspect.py": "a1406a20bd0e599ee3cd17b6f78d391ffe6d0efbcb574f556f1fea936f215fb1",
+   "main.py": "41b7f5ad6ab0f25fe5c458ccbdea95f3170ed640e9b7329b189d28ca3102767c"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 60,
+ "writes": 7,
+ "model_rounds": 13,
+ "llm_calls": 13,
+ "retries": 0,
+ "prompt_tokens": 241109,
+ "cached_tokens": 0,
+ "completion_tokens": 56954,
+ "reasoning_tokens": 42926,
+ "seconds": 1413.4,
+ "llm_seconds": 1408.9,
+ "tool_seconds": 3.8,
+ "calls_usage": [
+  [
+   7695,
+   0,
+   37413,
+   34449
+  ],
+  [
+   10674,
+   0,
+   55,
+   10
+  ],
+  [
+   10935,
+   0,
+   5681,
+   2215
+  ],
+  [
+   14416,
+   0,
+   45,
+   0
+  ],
+  [
+   15059,
+   0,
+   4028,
+   512
+  ],
+  [
+   18590,
+   0,
+   45,
+   0
+  ],
+  [
+   19210,
+   0,
+   6283,
+   2903
+  ],
+  [
+   22605,
+   0,
+   45,
+   0
+  ],
+  [
+   22795,
+   0,
+   194,
+   94
+  ],
+  [
+   22910,
+   0,
+   899,
+   743
+  ],
+  [
+   23080,
+   0,
+   45,
+   0
+  ],
+  [
+   26483,
+   0,
+   2160,
+   2000
+  ],
+  [
+   26657,
+   0,
+   61,
+   0
+  ]
+ ]
+}

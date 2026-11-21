@@ -1,0 +1,84 @@
+{
+ "config": "deepseek-v4-flash-0731",
+ "task": "farm-chicken",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "59af9aef32a9be72095f507b3006ff76cfcd9c577e9d2cfb443c772eaa3993e3"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 11,
+ "writes": 4,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 0,
+ "prompt_tokens": 78152,
+ "cached_tokens": 0,
+ "completion_tokens": 18125,
+ "reasoning_tokens": 16083,
+ "seconds": 242.7,
+ "llm_seconds": 240.0,
+ "tool_seconds": 2.1,
+ "calls_usage": [
+  [
+   7675,
+   0,
+   5479,
+   4882
+  ],
+  [
+   8287,
+   0,
+   45,
+   0
+  ],
+  [
+   8963,
+   0,
+   8848,
+   8172
+  ],
+  [
+   9654,
+   0,
+   45,
+   0
+  ],
+  [
+   10380,
+   0,
+   1772,
+   1502
+  ],
+  [
+   10664,
+   0,
+   228,
+   0
+  ],
+  [
+   10906,
+   0,
+   45,
+   0
+  ],
+  [
+   11623,
+   0,
+   1663,
+   1527
+  ]
+ ]
+}

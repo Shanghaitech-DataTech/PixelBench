@@ -1,0 +1,45 @@
+{
+ "config": "gpt-6-astra@direct",
+ "task": "open-pocket-watch",
+ "ok": true,
+ "error": null,
+ "termination": "answered",
+ "frames": 1,
+ "colors": 19,
+ "parse": {
+  "ok": true,
+  "diags": [
+   {
+    "declared": [
+     64,
+     64
+    ],
+    "size": [
+     64,
+     64
+    ],
+    "rows": 64,
+    "rows_wrong_length": 3,
+    "rows_beyond_tolerance": 0,
+    "rows_missing": 0,
+    "rows_extra": 0,
+    "undeclared_pixels": 1
+   }
+  ]
+ },
+ "max_tokens": 131072,
+ "time_limit_s": 3600.0,
+ "finish_reason": "stop",
+ "prompt_tokens": 4526,
+ "completion_tokens": 7776,
+ "reasoning_tokens": 5775,
+ "seconds": 347.6,
+ "calls_usage": [
+  [
+   4526,
+   4352,
+   7776,
+   5775
+  ]
+ ]
+}

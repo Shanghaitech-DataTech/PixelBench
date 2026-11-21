@@ -1,0 +1,66 @@
+{
+ "config": "gpt-5.6-sol",
+ "task": "motorcycle-road",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "ec55990733a3e240ba5737861887cfb96118c08665708ec9abe5c583da6ef451"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 32,
+ "writes": 2,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 66587,
+ "cached_tokens": 61952,
+ "completion_tokens": 2269,
+ "reasoning_tokens": 492,
+ "seconds": 62.1,
+ "llm_seconds": 59.5,
+ "tool_seconds": 2.0,
+ "calls_usage": [
+  [
+   11473,
+   11008,
+   130,
+   20
+  ],
+  [
+   11596,
+   11392,
+   22,
+   0
+  ],
+  [
+   13319,
+   11520,
+   1957,
+   412
+  ],
+  [
+   14877,
+   13184,
+   22,
+   0
+  ],
+  [
+   15322,
+   14848,
+   138,
+   60
+  ]
+ ]
+}

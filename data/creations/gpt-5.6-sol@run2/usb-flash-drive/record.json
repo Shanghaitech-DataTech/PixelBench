@@ -1,0 +1,54 @@
+{
+ "config": "gpt-5.6-sol@run2",
+ "task": "usb-flash-drive",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "5b16d357abfa534ecece7f93d974aac82e044fab10c4591820d489750c0f5cca"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 13,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 37041,
+ "cached_tokens": 33536,
+ "completion_tokens": 1506,
+ "reasoning_tokens": 163,
+ "seconds": 55.7,
+ "llm_seconds": 53.5,
+ "tool_seconds": 1.3,
+ "calls_usage": [
+  [
+   11395,
+   11008,
+   1305,
+   79
+  ],
+  [
+   12634,
+   11264,
+   22,
+   0
+  ],
+  [
+   13012,
+   11264,
+   179,
+   84
+  ]
+ ]
+}

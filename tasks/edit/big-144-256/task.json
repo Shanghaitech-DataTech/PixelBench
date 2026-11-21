@@ -1,0 +1,23 @@
+{
+  "id": "big-144-256",
+  "task_type": "edit",
+  "prompt": "Let a layer of vines cover part of the tower's walls. Add a cloaked mage holding a glowing staff at the archway entrance of the tower; he is walking into the tower (facing away from the viewer, heading through the archway).",
+  "width": 144,
+  "height": 256,
+  "constraints": {
+    "max_colors": null,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 15,
+    "max_code_seconds": 120
+  },
+  "input_size": {
+    "width": 144,
+    "height": 256
+  },
+  "output_size": "agent_defined",
+  "num_frames": 1,
+  "frames_visible": false
+}

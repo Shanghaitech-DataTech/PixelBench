@@ -1,0 +1,90 @@
+{
+ "config": "gpt-6-astra@effort-xhigh",
+ "task": "magic-forest-cottage",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "4d1f13469902b6e9c86f3f6328a1a3633e5c44b01d4b77efdc0aa6cd4dcb381a"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 52,
+ "writes": 5,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 2,
+ "prompt_tokens": 178815,
+ "cached_tokens": 166912,
+ "completion_tokens": 11554,
+ "reasoning_tokens": 2077,
+ "seconds": 528.1,
+ "llm_seconds": 509.6,
+ "tool_seconds": 3.7,
+ "calls_usage": [
+  [
+   11169,
+   10752,
+   9196,
+   1036
+  ],
+  [
+   19344,
+   11008,
+   18,
+   0
+  ],
+  [
+   19787,
+   19200,
+   1506,
+   516
+  ],
+  [
+   20789,
+   19584,
+   134,
+   114
+  ],
+  [
+   21232,
+   20736,
+   488,
+   395
+  ],
+  [
+   21337,
+   21120,
+   100,
+   0
+  ],
+  [
+   21451,
+   21376,
+   22,
+   0
+  ],
+  [
+   21821,
+   21376,
+   68,
+   16
+  ],
+  [
+   21885,
+   21760,
+   22,
+   0
+  ]
+ ]
+}

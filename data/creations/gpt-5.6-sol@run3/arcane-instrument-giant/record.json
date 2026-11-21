@@ -1,0 +1,72 @@
+{
+ "config": "gpt-5.6-sol@run3",
+ "task": "arcane-instrument-giant",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "c2b1b62b5b793f9120e8cf21bd0c1f315c9ea6bcc6431061d819d63d5318a53c"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 25,
+ "writes": 2,
+ "model_rounds": 6,
+ "llm_calls": 6,
+ "retries": 0,
+ "prompt_tokens": 85034,
+ "cached_tokens": 79744,
+ "completion_tokens": 4538,
+ "reasoning_tokens": 448,
+ "seconds": 147.6,
+ "llm_seconds": 132.7,
+ "tool_seconds": 9.0,
+ "calls_usage": [
+  [
+   11438,
+   11264,
+   111,
+   20
+  ],
+  [
+   11541,
+   11264,
+   4008,
+   235
+  ],
+  [
+   15327,
+   11392,
+   22,
+   0
+  ],
+  [
+   15382,
+   15232,
+   109,
+   19
+  ],
+  [
+   15484,
+   15232,
+   22,
+   0
+  ],
+  [
+   15862,
+   15360,
+   266,
+   174
+  ]
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "mushroomling",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0001",
+  "source_hashes": {
+   "main.py": "e709cb2c824c8f6c2117a3755e12bc689b0550ae6c22553433b4b7f57f5863dd"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 5,
+ "writes": 1,
+ "model_rounds": 2,
+ "llm_calls": 2,
+ "retries": 0,
+ "prompt_tokens": 41780,
+ "cached_tokens": 0,
+ "completion_tokens": 1357,
+ "reasoning_tokens": 25350,
+ "seconds": 238.8,
+ "llm_seconds": 237.6,
+ "tool_seconds": 0.6,
+ "calls_usage": [
+  [
+   7556,
+   0,
+   26666,
+   25329
+  ],
+  [
+   34224,
+   0,
+   41,
+   21
+  ]
+ ]
+}

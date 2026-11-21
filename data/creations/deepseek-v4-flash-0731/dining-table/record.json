@@ -1,0 +1,96 @@
+{
+ "config": "deepseek-v4-flash-0731",
+ "task": "dining-table",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "4484b7131fb99f223e4ae223cb58279599849eb4dcfb00dc601e02e3996bad57"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 30,
+ "writes": 4,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 0,
+ "prompt_tokens": 113638,
+ "cached_tokens": 0,
+ "completion_tokens": 44263,
+ "reasoning_tokens": 39854,
+ "seconds": 588.6,
+ "llm_seconds": 585.0,
+ "tool_seconds": 2.9,
+ "calls_usage": [
+  [
+   7681,
+   0,
+   19076,
+   19047
+  ],
+  [
+   7723,
+   0,
+   12936,
+   11031
+  ],
+  [
+   9643,
+   0,
+   102,
+   57
+  ],
+  [
+   9835,
+   0,
+   211,
+   51
+  ],
+  [
+   10010,
+   0,
+   90,
+   45
+  ],
+  [
+   10742,
+   0,
+   1870,
+   62
+  ],
+  [
+   12565,
+   0,
+   45,
+   0
+  ],
+  [
+   14170,
+   0,
+   3746,
+   3555
+  ],
+  [
+   14375,
+   0,
+   45,
+   0
+  ],
+  [
+   16894,
+   0,
+   6142,
+   6006
+  ]
+ ]
+}

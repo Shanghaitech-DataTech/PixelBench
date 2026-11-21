@@ -1,0 +1,42 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "poolcore-water-slide",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0001",
+  "source_hashes": {
+   "main.py": "8369760839f961dd0c4aa455d1a0d00ed0c5b7571aa0809d3f3d3ff232d570b4"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 30,
+ "writes": 1,
+ "model_rounds": 1,
+ "llm_calls": 1,
+ "retries": 0,
+ "prompt_tokens": 7623,
+ "cached_tokens": 0,
+ "completion_tokens": 3754,
+ "reasoning_tokens": 30908,
+ "seconds": 333.6,
+ "llm_seconds": 331.9,
+ "tool_seconds": 1.0,
+ "calls_usage": [
+  [
+   7623,
+   0,
+   34662,
+   30908
+  ]
+ ]
+}

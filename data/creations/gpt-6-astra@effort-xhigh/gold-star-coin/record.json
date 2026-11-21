@@ -1,0 +1,66 @@
+{
+ "config": "gpt-6-astra@effort-xhigh",
+ "task": "gold-star-coin",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "0ad990e72ecf117cd1f27b17a34b707601986f380655b50b2a818ee1bb2617bb"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 7,
+ "writes": 2,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 60446,
+ "cached_tokens": 57600,
+ "completion_tokens": 2460,
+ "reasoning_tokens": 1165,
+ "seconds": 128.6,
+ "llm_seconds": 125.8,
+ "tool_seconds": 1.4,
+ "calls_usage": [
+  [
+   11120,
+   10752,
+   1224,
+   518
+  ],
+  [
+   11841,
+   10752,
+   18,
+   0
+  ],
+  [
+   12080,
+   11776,
+   954,
+   464
+  ],
+  [
+   12583,
+   11904,
+   38,
+   18
+  ],
+  [
+   12822,
+   12416,
+   226,
+   165
+  ]
+ ]
+}

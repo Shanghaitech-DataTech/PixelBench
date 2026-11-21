@@ -1,0 +1,16 @@
+{
+  "id": "item-icon",
+  "task_type": "agentic_creation",
+  "prompt": "pixel art, 32x32 resolution, inventory icon, ancient golden compass, blue crystal center, top-down view, thick dark outline, centered composition, game UI icon",
+  "width": 32,
+  "height": 32,
+  "constraints": {
+    "max_colors": 86,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 25,
+    "max_code_seconds": 120
+  }
+}

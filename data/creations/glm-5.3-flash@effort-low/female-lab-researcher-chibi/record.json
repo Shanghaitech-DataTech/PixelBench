@@ -1,0 +1,60 @@
+{
+ "config": "glm-5.3-flash@effort-low",
+ "task": "female-lab-researcher-chibi",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "474160c4a458e9dee99d0daef082f978515d0b2213aa891dab239df6e0e3937b"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 10,
+ "writes": 2,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 33223,
+ "cached_tokens": 0,
+ "completion_tokens": 1759,
+ "reasoning_tokens": 122,
+ "seconds": 46.5,
+ "llm_seconds": 44.9,
+ "tool_seconds": 1.1,
+ "calls_usage": [
+  [
+   7293,
+   0,
+   903,
+   63
+  ],
+  [
+   8141,
+   0,
+   12,
+   0
+  ],
+  [
+   8507,
+   0,
+   826,
+   59
+  ],
+  [
+   9282,
+   0,
+   18,
+   0
+  ]
+ ]
+}

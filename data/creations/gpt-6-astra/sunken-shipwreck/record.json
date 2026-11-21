@@ -1,0 +1,60 @@
+{
+ "config": "gpt-6-astra",
+ "task": "sunken-shipwreck",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "16882341b9dbec7bc65b34bf59f2cef23168b06f8d3eddbf3d25dccc66424fa6"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 64,
+ "writes": 2,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 53302,
+ "cached_tokens": 51840,
+ "completion_tokens": 2948,
+ "reasoning_tokens": 115,
+ "seconds": 131.5,
+ "llm_seconds": 129.2,
+ "tool_seconds": 1.7,
+ "calls_usage": [
+  [
+   11141,
+   10752,
+   2570,
+   0
+  ],
+  [
+   13726,
+   13568,
+   18,
+   0
+  ],
+  [
+   14100,
+   13568,
+   338,
+   115
+  ],
+  [
+   14335,
+   13952,
+   22,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "config": "claude-opus-5",
+ "task": "motorcycle-road",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "627dae080dc0f5dbf8f63ee3af6846a144a9c59da5b8db4d82235a9914f38772"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 49,
+ "writes": 8,
+ "model_rounds": 15,
+ "llm_calls": 15,
+ "retries": 0,
+ "prompt_tokens": 190280,
+ "cached_tokens": 175131,
+ "completion_tokens": 4749,
+ "reasoning_tokens": 0,
+ "seconds": 273.5,
+ "llm_seconds": 268.2,
+ "tool_seconds": 4.6,
+ "calls_usage": [
+  [
+   7917,
+   7537,
+   48,
+   0
+  ],
+  [
+   7977,
+   7511,
+   7,
+   0
+  ],
+  [
+   8510,
+   7794,
+   217,
+   0
+  ],
+  [
+   8589,
+   8485,
+   7,
+   0
+  ],
+  [
+   9621,
+   8810,
+   336,
+   0
+  ],
+  [
+   9748,
+   8792,
+   7,
+   0
+  ],
+  [
+   10262,
+   9046,
+   1771,
+   0
+  ],
+  [
+   12746,
+   11066,
+   7,
+   0
+  ],
+  [
+   13435,
+   11251,
+   1672,
+   0
+  ],
+  [
+   15931,
+   14122,
+   7,
+   0
+  ],
+  [
+   16441,
+   14274,
+   335,
+   0
+  ],
+  [
+   16888,
+   16556,
+   98,
+   0
+  ],
+  [
+   17080,
+   16575,
+   163,
+   0
+  ],
+  [
+   17313,
+   16577,
+   7,
+   0
+  ],
+  [
+   17822,
+   16735,
+   67,
+   0
+  ]
+ ]
+}

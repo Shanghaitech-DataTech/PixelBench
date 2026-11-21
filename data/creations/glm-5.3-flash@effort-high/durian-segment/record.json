@@ -1,0 +1,181 @@
+{
+ "config": "glm-5.3-flash@effort-high",
+ "task": "durian-segment",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0011",
+  "source_hashes": {
+   "analyze.py": "5aa3c1a5fd218f2a2441ad3d0f07960f4dfa1f97a9030bec96f0fe5dce014605",
+   "analyze2.py": "cac43458da3a57f4854d31ea7e8be515a8136a2072fd57b2ae4178bca90ba945",
+   "analyze3.py": "bcafce5e9d7b4137b239350cfbb764117061ff78e129f9a0e8f2ca5953646734",
+   "analyze4.py": "7d84bb9c99ed3c901cf4c89f779cfbfa6d9b05ea8220b8e72fb61ffde05cd8e5",
+   "analyze5.py": "11ba88fb2b064dadef6a5d2c7ed0cb5a0eb4f22c730dbccbdf8f61eb224cdfeb",
+   "check.py": "be85ae11338ae99b7d715b02da2eeef254e3f1b2c1e0ff050f16a912d2a6351e",
+   "main.py": "478fae15dc57e81ed6a43e3cd17f720f64ad8200f64e926feecedfbf8be0de05",
+   "view.py": "dc8887ccf47ca3d1b9c96010f76a3dc4652536f7b61920c03c577d1def83579c"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 10,
+ "writes": 11,
+ "model_rounds": 23,
+ "llm_calls": 23,
+ "retries": 0,
+ "prompt_tokens": 294156,
+ "cached_tokens": 0,
+ "completion_tokens": 22482,
+ "reasoning_tokens": 19537,
+ "seconds": 523.1,
+ "llm_seconds": 515.5,
+ "tool_seconds": 6.3,
+ "calls_usage": [
+  [
+   7383,
+   0,
+   24,
+   8
+  ],
+  [
+   7493,
+   0,
+   30,
+   0
+  ],
+  [
+   7531,
+   0,
+   12,
+   0
+  ],
+  [
+   9055,
+   0,
+   2836,
+   2534
+  ],
+  [
+   9365,
+   0,
+   12,
+   0
+  ],
+  [
+   10393,
+   0,
+   1013,
+   831
+  ],
+  [
+   10584,
+   0,
+   13,
+   0
+  ],
+  [
+   11746,
+   0,
+   199,
+   0
+  ],
+  [
+   11954,
+   0,
+   13,
+   0
+  ],
+  [
+   12772,
+   0,
+   215,
+   0
+  ],
+  [
+   12996,
+   0,
+   13,
+   0
+  ],
+  [
+   13144,
+   0,
+   337,
+   0
+  ],
+  [
+   13490,
+   0,
+   13,
+   0
+  ],
+  [
+   13808,
+   0,
+   11016,
+   10657
+  ],
+  [
+   14175,
+   0,
+   12,
+   0
+  ],
+  [
+   14429,
+   0,
+   3056,
+   2730
+  ],
+  [
+   14763,
+   0,
+   12,
+   0
+  ],
+  [
+   15231,
+   0,
+   369,
+   28
+  ],
+  [
+   15580,
+   0,
+   12,
+   0
+  ],
+  [
+   16762,
+   0,
+   1774,
+   1631
+  ],
+  [
+   16913,
+   0,
+   12,
+   0
+  ],
+  [
+   17114,
+   0,
+   1471,
+   1118
+  ],
+  [
+   17475,
+   0,
+   18,
+   0
+  ]
+ ]
+}

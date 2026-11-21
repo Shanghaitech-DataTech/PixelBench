@@ -1,0 +1,66 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "red-roofed-forge-house",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "0649c40b3b8f1e3d271a51db24771da3a1a3f9b04e2815258d3ca7381b9c4151"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 25,
+ "writes": 2,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 70801,
+ "cached_tokens": 0,
+ "completion_tokens": 8106,
+ "reasoning_tokens": 520,
+ "seconds": 194.9,
+ "llm_seconds": 192.0,
+ "tool_seconds": 2.1,
+ "calls_usage": [
+  [
+   7775,
+   0,
+   4153,
+   502
+  ],
+  [
+   11445,
+   0,
+   46,
+   18
+  ],
+  [
+   13910,
+   0,
+   3705,
+   0
+  ],
+  [
+   17634,
+   0,
+   28,
+   0
+  ],
+  [
+   20037,
+   0,
+   174,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "config": "deepseek-v4-pro",
+ "task": "sunken-shipwreck",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "efaac156b6c046530f056006e044ae1e6f5a7d28ebec5123b87407ad8987fa89"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 32,
+ "writes": 5,
+ "model_rounds": 7,
+ "llm_calls": 7,
+ "retries": 0,
+ "prompt_tokens": 212653,
+ "cached_tokens": 203776,
+ "completion_tokens": 31284,
+ "reasoning_tokens": 27288,
+ "seconds": 428.1,
+ "llm_seconds": 424.7,
+ "tool_seconds": 2.7,
+ "calls_usage": [
+  [
+   7682,
+   7424,
+   18659,
+   15725
+  ],
+  [
+   26357,
+   26240,
+   64,
+   4
+  ],
+  [
+   29144,
+   26368,
+   3391,
+   3111
+  ],
+  [
+   32561,
+   32512,
+   67,
+   7
+  ],
+  [
+   35362,
+   32512,
+   4024,
+   3482
+  ],
+  [
+   39412,
+   39296,
+   65,
+   5
+  ],
+  [
+   42135,
+   39424,
+   5014,
+   4954
+  ]
+ ]
+}

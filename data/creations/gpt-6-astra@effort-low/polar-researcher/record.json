@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@effort-low",
+ "task": "polar-researcher",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "1f789c324a05d6603c85f3438478c80cbc39a4d56152e5e91a371bf013006e96"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 18,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 36441,
+ "cached_tokens": 35328,
+ "completion_tokens": 1353,
+ "reasoning_tokens": 0,
+ "seconds": 84.3,
+ "llm_seconds": 82.3,
+ "tool_seconds": 1.4,
+ "calls_usage": [
+  [
+   11137,
+   10752,
+   1313,
+   0
+  ],
+  [
+   12465,
+   12288,
+   18,
+   0
+  ],
+  [
+   12839,
+   12288,
+   22,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "config": "gemini-3.8-flash",
+ "task": "arcane-instrument-giant",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0009",
+  "source_hashes": {
+   "generator.py": "b42b3490462ad673b4172518e07644f07b41947ba34fc75455cbde2deb728f35",
+   "main.py": "9a5ef0b8a3b071c624cef5c7b578e19fdc57dbe45bc4bc7523f449f521937efc",
+   "test_env.py": "fd9927e82709b0508e77bff75661e9c7f08545d942fe5866182cce19347a395d",
+   "test_speed.py": "6531a96d7ea550e347516ce9bf899cdc9af634037252bd8b056edc32794b74f3"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 73,
+ "writes": 13,
+ "model_rounds": 24,
+ "llm_calls": 24,
+ "retries": 0,
+ "prompt_tokens": 1008902,
+ "cached_tokens": 892641,
+ "completion_tokens": 41304,
+ "reasoning_tokens": 0,
+ "seconds": 525.1,
+ "llm_seconds": 508.5,
+ "tool_seconds": 15.1,
+ "calls_usage": [
+  [
+   7711,
+   0,
+   154,
+   0
+  ],
+  [
+   7882,
+   5664,
+   1211,
+   0
+  ],
+  [
+   9113,
+   5848,
+   36,
+   0
+  ],
+  [
+   9184,
+   7072,
+   1604,
+   0
+  ],
+  [
+   10806,
+   7404,
+   291,
+   0
+  ],
+  [
+   11117,
+   8768,
+   33,
+   0
+  ],
+  [
+   11198,
+   9078,
+   5336,
+   0
+  ],
+  [
+   16551,
+   11228,
+   17268,
+   0
+  ],
+  [
+   33837,
+   16609,
+   38,
+   0
+  ],
+  [
+   34293,
+   31787,
+   135,
+   0
+  ],
+  [
+   34445,
+   32242,
+   32,
+   0
+  ],
+  [
+   35695,
+   32390,
+   16018,
+   0
+  ],
+  [
+   51731,
+   35742,
+   36,
+   0
+  ],
+  [
+   52249,
+   49680,
+   98,
+   0
+  ],
+  [
+   52364,
+   50196,
+   31,
+   0
+  ],
+  [
+   53619,
+   50306,
+   4995,
+   0
+  ],
+  [
+   58631,
+   53629,
+   1635,
+   0
+  ],
+  [
+   60283,
+   56585,
+   2229,
+   0
+  ],
+  [
+   62529,
+   60281,
+   36,
+   0
+  ],
+  [
+   63789,
+   60472,
+   659,
+   0
+  ],
+  [
+   80315,
+   63837,
+   2479,
+   0
+  ],
+  [
+   82811,
+   80313,
+   42,
+   0
+  ],
+  [
+   84085,
+   81476,
+   562,
+   0
+  ],
+  [
+   84664,
+   82034,
+   39,
+   0
+  ]
+ ]
+}

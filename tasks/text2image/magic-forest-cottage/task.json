@@ -1,0 +1,16 @@
+{
+  "id": "magic-forest-cottage",
+  "task_type": "agentic_creation",
+  "prompt": "pixel art, 128x128 resolution, magic forest cottage, deep purple night sky, full moon, mist, old wood-and-stone cottage, steep mossy roof, warm orange window light, stone well, wooden winch, stone-slab path, twisted ancient trees, dark red brown purple leaves, fairy-tale mood, warm-cold contrast",
+  "width": 128,
+  "height": 128,
+  "constraints": {
+    "max_colors": 86,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 25,
+    "max_code_seconds": 120
+  }
+}

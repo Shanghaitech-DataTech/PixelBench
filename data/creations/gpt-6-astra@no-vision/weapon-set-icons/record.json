@@ -1,0 +1,60 @@
+{
+ "config": "gpt-6-astra@no-vision",
+ "task": "weapon-set-icons",
+ "ok": true,
+ "error": null,
+ "termination": "final_text",
+ "submission": {
+  "source": "recovered",
+  "reason": "successful_preview",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": false,
+  "run_id": "run_0001",
+  "source_hashes": {
+   "main.py": "9e62c00eea6ef14588faa23ab3f1a91d49b4df40a8a04ea9b32b9986498360e6"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 11,
+ "writes": 1,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 52839,
+ "cached_tokens": 44672,
+ "completion_tokens": 4379,
+ "reasoning_tokens": 3341,
+ "seconds": 69.3,
+ "llm_seconds": 68.0,
+ "tool_seconds": 0.6,
+ "calls_usage": [
+  [
+   12468,
+   10496,
+   933,
+   862
+  ],
+  [
+   12523,
+   10624,
+   2155,
+   1353
+  ],
+  [
+   13309,
+   11264,
+   467,
+   451
+  ],
+  [
+   14539,
+   12288,
+   824,
+   675
+  ]
+ ]
+}

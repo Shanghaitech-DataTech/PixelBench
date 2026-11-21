@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@effort-low",
+ "task": "blue-cloak-girl-mage",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "5025a6714baed5c5d5dbc890a7d1481910647d654909f63bf1875dd4f6cac98d"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 23,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 37028,
+ "cached_tokens": 34176,
+ "completion_tokens": 1633,
+ "reasoning_tokens": 0,
+ "seconds": 76.9,
+ "llm_seconds": 74.9,
+ "tool_seconds": 1.4,
+ "calls_usage": [
+  [
+   11146,
+   10752,
+   1593,
+   0
+  ],
+  [
+   12754,
+   10752,
+   18,
+   0
+  ],
+  [
+   13128,
+   12672,
+   22,
+   0
+  ]
+ ]
+}

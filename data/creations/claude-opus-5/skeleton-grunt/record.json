@@ -1,0 +1,132 @@
+{
+ "config": "claude-opus-5",
+ "task": "skeleton-grunt",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0008",
+  "source_hashes": {
+   "main.py": "065e60ca580018fca6af90f0ae1075ef334f67bba5dfde72e8840cb15f87b362"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 17,
+ "writes": 8,
+ "model_rounds": 16,
+ "llm_calls": 16,
+ "retries": 0,
+ "prompt_tokens": 246633,
+ "cached_tokens": 230180,
+ "completion_tokens": 6430,
+ "reasoning_tokens": 0,
+ "seconds": 303.2,
+ "llm_seconds": 277.1,
+ "tool_seconds": 4.8,
+ "calls_usage": [
+  [
+   7830,
+   7561,
+   956,
+   0
+  ],
+  [
+   9324,
+   8133,
+   7,
+   0
+  ],
+  [
+   9759,
+   8339,
+   1260,
+   0
+  ],
+  [
+   11638,
+   10379,
+   7,
+   0
+  ],
+  [
+   12074,
+   10576,
+   1557,
+   0
+  ],
+  [
+   14259,
+   12596,
+   7,
+   0
+  ],
+  [
+   14695,
+   12779,
+   1525,
+   0
+  ],
+  [
+   16848,
+   15145,
+   7,
+   0
+  ],
+  [
+   17283,
+   15322,
+   495,
+   0
+  ],
+  [
+   17890,
+   17355,
+   7,
+   0
+  ],
+  [
+   18326,
+   17544,
+   89,
+   0
+  ],
+  [
+   18399,
+   18279,
+   7,
+   0
+  ],
+  [
+   19155,
+   18531,
+   313,
+   0
+  ],
+  [
+   19432,
+   19159,
+   141,
+   0
+  ],
+  [
+   19643,
+   19149,
+   7,
+   0
+  ],
+  [
+   20078,
+   19333,
+   45,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "config": "gpt-6-astra@direct",
+ "task": "ancient-dragon-battle",
+ "ok": true,
+ "error": null,
+ "termination": "answered",
+ "frames": 1,
+ "colors": 12,
+ "parse": {
+  "ok": true,
+  "diags": [
+   {
+    "declared": [
+     256,
+     256
+    ],
+    "size": [
+     256,
+     256
+    ],
+    "rows": 256,
+    "rows_wrong_length": 46,
+    "rows_beyond_tolerance": 0,
+    "rows_missing": 0,
+    "rows_extra": 0,
+    "undeclared_pixels": 0
+   }
+  ]
+ },
+ "max_tokens": 131072,
+ "time_limit_s": 3600.0,
+ "finish_reason": "stop",
+ "prompt_tokens": 4546,
+ "completion_tokens": 32186,
+ "reasoning_tokens": 4832,
+ "seconds": 1561.8,
+ "calls_usage": [
+  [
+   4546,
+   0,
+   32186,
+   4832
+  ]
+ ]
+}

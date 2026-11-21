@@ -1,0 +1,84 @@
+{
+ "config": "deepseek-v4-flash-0731@run2",
+ "task": "usb-flash-drive",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "9784bb48f6599bb68b8b4100d7c12e3729d5e067cf4972ab6a56dfd2e378222b"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 14,
+ "writes": 4,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 0,
+ "prompt_tokens": 79132,
+ "cached_tokens": 0,
+ "completion_tokens": 28701,
+ "reasoning_tokens": 26588,
+ "seconds": 485.6,
+ "llm_seconds": 483.0,
+ "tool_seconds": 2.1,
+ "calls_usage": [
+  [
+   7672,
+   0,
+   15274,
+   14440
+  ],
+  [
+   8521,
+   0,
+   71,
+   10
+  ],
+  [
+   9173,
+   0,
+   5411,
+   5137
+  ],
+  [
+   9461,
+   0,
+   61,
+   0
+  ],
+  [
+   10241,
+   0,
+   2775,
+   2383
+  ],
+  [
+   10647,
+   0,
+   61,
+   0
+  ],
+  [
+   11517,
+   0,
+   4987,
+   4618
+  ],
+  [
+   11900,
+   0,
+   61,
+   0
+  ]
+ ]
+}

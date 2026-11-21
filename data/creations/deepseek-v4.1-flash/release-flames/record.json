@@ -1,0 +1,211 @@
+{
+ "config": "deepseek-v4.1-flash",
+ "task": "release-flames",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0014",
+  "source_hashes": {
+   "inspect.py": "da0fbe492fcd5020d34cb17366e93ed11228486ba98c995ecc307d55ba4e562e",
+   "inspect2.py": "a09768cfe8fabc930ac72d4821fafe5369bdd1a452d8c08885fca04acf20520b",
+   "inspect3.py": "b723df98d85b84ec9bb1229f525b36624f44f0137486f60f775193ebf5256d75",
+   "inspect4.py": "c7de90de5567daed9f242e843458b50f2a653265f4bc3c9a31816dba1bcdd19e",
+   "inspect5.py": "445cc0c8878fa4a9c53d8746e1b40636c25fa8f4eea2e8ce96817efde8a3bb2b",
+   "inspect6.py": "c55d8c4433def1b156e0f75fda62e5e31307932a4dc7d3fb31a6c5eb71287407",
+   "inspect7.py": "1c485f1860908c4534f567bcb3640b44c264b4c308b9c795d559ea8256f635a0",
+   "main.py": "27847ce2c6520ce6c1be21c9fb795650b5a7fb568b5dda407cde13c2cd7a9d48"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 18,
+ "writes": 13,
+ "model_rounds": 28,
+ "llm_calls": 28,
+ "retries": 0,
+ "prompt_tokens": 1200159,
+ "cached_tokens": 1172352,
+ "completion_tokens": 58551,
+ "reasoning_tokens": 48179,
+ "seconds": 462.6,
+ "llm_seconds": 452.8,
+ "tool_seconds": 9.0,
+ "calls_usage": [
+  [
+   7859,
+   7168,
+   58,
+   0
+  ],
+  [
+   8016,
+   7808,
+   93,
+   14
+  ],
+  [
+   8125,
+   7936,
+   39,
+   0
+  ],
+  [
+   9415,
+   8064,
+   15567,
+   15072
+  ],
+  [
+   24999,
+   24832,
+   40,
+   0
+  ],
+  [
+   25415,
+   24960,
+   97,
+   0
+  ],
+  [
+   25528,
+   25344,
+   40,
+   0
+  ],
+  [
+   26280,
+   25472,
+   1002,
+   742
+  ],
+  [
+   27299,
+   27136,
+   40,
+   0
+  ],
+  [
+   27652,
+   27264,
+   6120,
+   4411
+  ],
+  [
+   33788,
+   33536,
+   38,
+   0
+  ],
+  [
+   36098,
+   33792,
+   8428,
+   6675
+  ],
+  [
+   44541,
+   36608,
+   38,
+   0
+  ],
+  [
+   45808,
+   44544,
+   1099,
+   976
+  ],
+  [
+   46924,
+   46720,
+   40,
+   0
+  ],
+  [
+   47025,
+   46848,
+   263,
+   168
+  ],
+  [
+   47305,
+   47104,
+   40,
+   0
+  ],
+  [
+   47468,
+   47232,
+   924,
+   473
+  ],
+  [
+   48409,
+   48256,
+   40,
+   0
+  ],
+  [
+   51393,
+   48384,
+   7267,
+   5519
+  ],
+  [
+   58676,
+   58496,
+   40,
+   0
+  ],
+  [
+   60620,
+   58624,
+   6412,
+   4520
+  ],
+  [
+   67048,
+   66816,
+   40,
+   0
+  ],
+  [
+   69020,
+   67072,
+   2162,
+   1634
+  ],
+  [
+   71199,
+   71040,
+   40,
+   0
+  ],
+  [
+   72198,
+   71168,
+   7935,
+   7459
+  ],
+  [
+   80150,
+   80000,
+   40,
+   0
+  ],
+  [
+   81901,
+   80128,
+   609,
+   516
+  ]
+ ]
+}

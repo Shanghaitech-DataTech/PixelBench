@@ -1,0 +1,132 @@
+{
+ "config": "glm-5.3-flash",
+ "task": "sunken-shipwreck",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0009",
+  "source_hashes": {
+   "main.py": "d4e7488f146e661734477ac8a1cb90a1d34796b031472d083c033bb4af918b3b"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 59,
+ "writes": 10,
+ "model_rounds": 16,
+ "llm_calls": 16,
+ "retries": 0,
+ "prompt_tokens": 249656,
+ "cached_tokens": 0,
+ "completion_tokens": 95110,
+ "reasoning_tokens": 89620,
+ "seconds": 1149.0,
+ "llm_seconds": 1142.8,
+ "tool_seconds": 5.4,
+ "calls_usage": [
+  [
+   7300,
+   0,
+   33430,
+   33396
+  ],
+  [
+   7433,
+   0,
+   19741,
+   16849
+  ],
+  [
+   10333,
+   0,
+   12,
+   0
+  ],
+  [
+   11400,
+   0,
+   2165,
+   2125
+  ],
+  [
+   12495,
+   0,
+   255,
+   214
+  ],
+  [
+   13591,
+   0,
+   162,
+   88
+  ],
+  [
+   13672,
+   0,
+   12,
+   0
+  ],
+  [
+   14543,
+   0,
+   5941,
+   5843
+  ],
+  [
+   14648,
+   0,
+   12,
+   0
+  ],
+  [
+   16296,
+   0,
+   25598,
+   24423
+  ],
+  [
+   17493,
+   0,
+   12,
+   0
+  ],
+  [
+   19385,
+   0,
+   484,
+   384
+  ],
+  [
+   19492,
+   0,
+   12,
+   0
+  ],
+  [
+   22351,
+   0,
+   6308,
+   5546
+  ],
+  [
+   23125,
+   0,
+   12,
+   0
+  ],
+  [
+   26099,
+   0,
+   954,
+   752
+  ]
+ ]
+}

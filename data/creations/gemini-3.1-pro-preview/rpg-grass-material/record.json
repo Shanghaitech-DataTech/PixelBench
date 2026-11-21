@@ -1,0 +1,90 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "rpg-grass-material",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "c139c82bec1e19da45652190251738be1e41f1aee071d2a15b6936a51b1c2cbc"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 9,
+ "writes": 6,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 103372,
+ "cached_tokens": 37704,
+ "completion_tokens": 2125,
+ "reasoning_tokens": 7509,
+ "seconds": 133.1,
+ "llm_seconds": 124.5,
+ "tool_seconds": 1.9,
+ "calls_usage": [
+  [
+   7563,
+   0,
+   4964,
+   4118
+  ],
+  [
+   12529,
+   6014,
+   36,
+   16
+  ],
+  [
+   9548,
+   5957,
+   3584,
+   2821
+  ],
+  [
+   13134,
+   0,
+   20,
+   0
+  ],
+  [
+   11450,
+   7946,
+   660,
+   554
+  ],
+  [
+   12107,
+   0,
+   138,
+   0
+  ],
+  [
+   12242,
+   0,
+   112,
+   0
+  ],
+  [
+   12351,
+   7913,
+   100,
+   0
+  ],
+  [
+   12448,
+   9874,
+   20,
+   0
+  ]
+ ]
+}

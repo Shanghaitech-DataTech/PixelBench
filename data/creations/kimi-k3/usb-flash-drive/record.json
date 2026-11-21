@@ -1,0 +1,60 @@
+{
+ "config": "kimi-k3",
+ "task": "usb-flash-drive",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "ebbfba5206186de817d59f30f01e5fa44d0d2217389e2ca8cb13155be850f54e"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 12,
+ "writes": 1,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 1,
+ "prompt_tokens": 31810,
+ "cached_tokens": 29440,
+ "completion_tokens": 15481,
+ "reasoning_tokens": 14415,
+ "seconds": 342.7,
+ "llm_seconds": 282.9,
+ "tool_seconds": 1.2,
+ "calls_usage": [
+  [
+   7223,
+   6912,
+   7113,
+   7048
+  ],
+  [
+   7417,
+   7168,
+   7545,
+   6657
+  ],
+  [
+   8339,
+   7168,
+   49,
+   0
+  ],
+  [
+   8831,
+   8192,
+   774,
+   710
+  ]
+ ]
+}

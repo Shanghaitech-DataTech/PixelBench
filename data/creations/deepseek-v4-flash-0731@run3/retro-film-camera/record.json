@@ -1,0 +1,66 @@
+{
+ "config": "deepseek-v4-flash-0731@run3",
+ "task": "retro-film-camera",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "eb2a9828769f4edbdffee24c071aabcdc8f518ae5441d9cbd1d0a9c347547afe"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 24,
+ "writes": 4,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 48138,
+ "cached_tokens": 0,
+ "completion_tokens": 21384,
+ "reasoning_tokens": 19173,
+ "seconds": 336.6,
+ "llm_seconds": 333.3,
+ "tool_seconds": 1.5,
+ "calls_usage": [
+  [
+   7670,
+   0,
+   13763,
+   12691
+  ],
+  [
+   8757,
+   0,
+   58,
+   13
+  ],
+  [
+   9606,
+   0,
+   5098,
+   4123
+  ],
+  [
+   10617,
+   0,
+   45,
+   0
+  ],
+  [
+   11488,
+   0,
+   2420,
+   2346
+  ]
+ ]
+}

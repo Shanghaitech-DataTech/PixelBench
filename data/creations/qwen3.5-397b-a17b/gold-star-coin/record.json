@@ -1,0 +1,54 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "gold-star-coin",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "4738730257561aa12fc0e369181039452a455e1b2a218457f8d405d8c5ed9cf3"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 6,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 24860,
+ "cached_tokens": 0,
+ "completion_tokens": 910,
+ "reasoning_tokens": 186,
+ "seconds": 22.8,
+ "llm_seconds": 21.3,
+ "tool_seconds": 1.0,
+ "calls_usage": [
+  [
+   7742,
+   0,
+   770,
+   169
+  ],
+  [
+   8362,
+   0,
+   57,
+   17
+  ],
+  [
+   8756,
+   0,
+   83,
+   0
+  ]
+ ]
+}

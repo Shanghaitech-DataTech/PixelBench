@@ -1,0 +1,60 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "magic-staff",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "draw.py": "72aa93dbf4629385889c7e5c5b7184bf1ed3f81492ef1fbc71003c294961fb32"
+  },
+  "timed_out": false,
+  "path": "draw.py"
+ },
+ "frames": 1,
+ "colors": 9,
+ "writes": 2,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 69789,
+ "cached_tokens": 5965,
+ "completion_tokens": 2274,
+ "reasoning_tokens": 32506,
+ "seconds": 349.0,
+ "llm_seconds": 347.1,
+ "tool_seconds": 1.2,
+ "calls_usage": [
+  [
+   7538,
+   0,
+   5702,
+   4386
+  ],
+  [
+   13242,
+   0,
+   36,
+   16
+  ],
+  [
+   9993,
+   5965,
+   29022,
+   28104
+  ],
+  [
+   39016,
+   0,
+   20,
+   0
+  ]
+ ]
+}

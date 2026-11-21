@@ -1,0 +1,42 @@
+{
+ "config": "deepseek-v4-flash-0731@direct",
+ "task": "mad-cyborg-scientist",
+ "ok": false,
+ "error": "unparseable",
+ "termination": "format",
+ "frames": 0,
+ "colors": null,
+ "parse": {
+  "ok": false,
+  "reason": "row count 476 vs 64",
+  "palette_size": 11,
+  "diags": [
+   {
+    "declared": [
+     64,
+     64
+    ],
+    "size": [
+     64,
+     64
+    ],
+    "rows": 476
+   }
+  ]
+ },
+ "max_tokens": 131072,
+ "time_limit_s": 3600.0,
+ "finish_reason": "stop",
+ "prompt_tokens": 521,
+ "completion_tokens": 65233,
+ "reasoning_tokens": 56214,
+ "seconds": 830.8,
+ "calls_usage": [
+  [
+   521,
+   0,
+   65233,
+   56214
+  ]
+ ]
+}

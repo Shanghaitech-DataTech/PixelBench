@@ -1,0 +1,78 @@
+{
+ "config": "deepseek-v4-flash-0731",
+ "task": "open-pocket-watch",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "421182f964e648b46d5f7224fba34c33b6032e1adbc64f81a95a2bcf2930ca53"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 26,
+ "writes": 3,
+ "model_rounds": 7,
+ "llm_calls": 7,
+ "retries": 0,
+ "prompt_tokens": 91469,
+ "cached_tokens": 0,
+ "completion_tokens": 45215,
+ "reasoning_tokens": 41288,
+ "seconds": 618.6,
+ "llm_seconds": 615.5,
+ "tool_seconds": 2.5,
+ "calls_usage": [
+  [
+   7693,
+   0,
+   37579,
+   34600
+  ],
+  [
+   10687,
+   0,
+   73,
+   12
+  ],
+  [
+   12642,
+   0,
+   6110,
+   5812
+  ],
+  [
+   12954,
+   0,
+   61,
+   0
+  ],
+  [
+   14931,
+   0,
+   1108,
+   761
+  ],
+  [
+   15292,
+   0,
+   61,
+   0
+  ],
+  [
+   17270,
+   0,
+   223,
+   103
+  ]
+ ]
+}

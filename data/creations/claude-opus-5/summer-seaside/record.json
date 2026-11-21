@@ -1,0 +1,162 @@
+{
+ "config": "claude-opus-5",
+ "task": "summer-seaside",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0009",
+  "source_hashes": {
+   "main.py": "259d190579cbbe8a979c881e8acd6707ce95e4772d18e4193572d2b20163cc0e"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 39,
+ "writes": 12,
+ "model_rounds": 21,
+ "llm_calls": 21,
+ "retries": 2,
+ "prompt_tokens": 326354,
+ "cached_tokens": 297370,
+ "completion_tokens": 6871,
+ "reasoning_tokens": 0,
+ "seconds": 369.5,
+ "llm_seconds": 340.3,
+ "tool_seconds": 7.2,
+ "calls_usage": [
+  [
+   7880,
+   0,
+   725,
+   0
+  ],
+  [
+   8964,
+   7939,
+   7,
+   0
+  ],
+  [
+   9400,
+   8153,
+   539,
+   0
+  ],
+  [
+   10194,
+   9648,
+   7,
+   0
+  ],
+  [
+   10703,
+   9845,
+   773,
+   0
+  ],
+  [
+   11818,
+   11020,
+   7,
+   0
+  ],
+  [
+   12254,
+   11227,
+   1365,
+   0
+  ],
+  [
+   14281,
+   12824,
+   7,
+   0
+  ],
+  [
+   14717,
+   13011,
+   271,
+   0
+  ],
+  [
+   15202,
+   14856,
+   974,
+   0
+  ],
+  [
+   16731,
+   15261,
+   503,
+   0
+  ],
+  [
+   17454,
+   15362,
+   7,
+   0
+  ],
+  [
+   17889,
+   15534,
+   371,
+   0
+  ],
+  [
+   18258,
+   17909,
+   419,
+   0
+  ],
+  [
+   18850,
+   17976,
+   77,
+   0
+  ],
+  [
+   18985,
+   17963,
+   7,
+   0
+  ],
+  [
+   19421,
+   18146,
+   355,
+   0
+  ],
+  [
+   19977,
+   19513,
+   7,
+   0
+  ],
+  [
+   20530,
+   19734,
+   406,
+   0
+  ],
+  [
+   21146,
+   20616,
+   7,
+   0
+  ],
+  [
+   21700,
+   20833,
+   37,
+   0
+  ]
+ ]
+}

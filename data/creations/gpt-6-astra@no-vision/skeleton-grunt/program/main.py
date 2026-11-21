@@ -1,0 +1,136 @@
+result = new_canvas(32, 32, name='skeleton_grunt')
+c = result
+O='#292631'
+J='#49424d'
+S='#796e73'
+B='#b5ac98'
+I='#e5dcc0'
+H='#fff1d2'
+STEEL='#8499a4'
+EDGE='#d4e7e3'
+WOOD='#98613b'
+WD='#603d30'
+WL='#c58b4d'
+IRON='#656776'
+# Short, angled iron sword behind the hand.
+c.poly([(3,8),(6,10),(9,20),(6,21),(3,12)], O)
+c.poly([(4,10),(5,11),(8,19),(6,19)], STEEL)
+c.line(4,10,6,17,EDGE)
+c.line(7,16,8,19,'#526574')
+c.line(4,20,10,18,O)
+c.line(5,20,10,19,IRON)
+c.set(5,19,EDGE)
+c.line(8,21,9,24,O)
+c.line(8,21,9,23,WD)
+c.set(9,24,IRON)
+# Legs, separated by transparent negative space.
+c.poly([(12,22),(16,23),(14,26),(13,28),(14,30),(8,30),(8,28),(10,27),(11,24)], O)
+c.poly([(12,24),(14,24),(12,27),(11,28),(9,28)], B)
+c.line(12,24,11,26,I)
+c.set(11,27,J)
+c.line(10,28,10,29,I)
+c.line(9,29,13,29,B)
+c.set(9,29,H)
+c.poly([(17,23),(20,23),(20,26),(22,28),(24,28),(24,30),(19,30),(18,28),(17,26)], O)
+c.line(18,24,19,26,B)
+c.set(18,24,I)
+c.set(19,27,J)
+c.line(20,28,21,29,I)
+c.line(21,29,23,29,B)
+# Hunched back, shoulder blades, and dark rib cage interior.
+c.poly([(12,12),(17,11),(22,12),(24,15),(22,19),(21,22),(20,25),(13,25),(11,22),(12,19),(10,16),(10,14)],O)
+c.poly([(17,12),(20,12),(22,14),(21,17),(20,21),(17,22),(12,21),(13,17),(11,14)],J)
+c.line(19,13,20,19,S)
+c.line(20,14,20,20,B)
+c.set(19,21,I)
+# Left arm: elbow dipped, wrist curled around the grip.
+c.poly([(10,13),(13,14),(12,17),(10,19),(10,22),(7,23),(6,20),(8,18),(8,15)],O)
+c.line(10,15,10,17,I)
+c.set(11,15,H)
+c.set(9,18,S)
+c.line(9,19,8,20,B)
+c.rect(7,20,3,2,B)
+c.set(7,20,H)
+c.set(9,21,S)
+c.set(7,22,I)
+# Right upper arm peeks out behind the shield.
+c.poly([(21,13),(24,13),(26,16),(25,20),(22,19),(22,16)],O)
+c.line(23,14,24,16,I)
+c.set(23,14,H)
+c.line(24,17,23,18,S)
+# Collarbone and individual hooked ribs.
+c.line(12,13,16,13,B)
+c.set(12,13,H)
+c.line(17,13,19,14,I)
+c.line(12,15,17,15,I)
+c.set(12,16,B)
+c.line(14,16,18,16,S)
+c.line(13,17,18,17,I)
+c.set(12,17,B)
+c.line(13,18,17,18,S)
+c.line(13,19,18,19,I)
+c.set(14,20,B)
+c.line(16,20,18,20,S)
+# Angular pelvis, with dark hip sockets.
+c.poly([(12,21),(15,22),(19,21),(21,22),(20,25),(17,25),(16,24),(13,25),(11,23)],O)
+c.line(12,22,14,23,I)
+c.line(15,23,18,23,B)
+c.line(19,22,20,22,I)
+c.set(13,24,S)
+c.set(19,24,S)
+c.set(16,24,I)
+# Neck tucked behind the skull.
+c.rect(17,10,4,3,O)
+c.line(18,11,19,12,B)
+c.set(18,12,S)
+# Large skull, leaning forward; cheek and jaw are stepped pixels.
+c.poly([(15,2),(21,2),(23,3),(24,5),(24,9),(22,10),(22,12),(16,12),(15,10),(13,9),(13,5)],O)
+c.poly([(15,3),(21,3),(23,5),(23,8),(21,9),(21,11),(17,11),(16,9),(14,8),(14,5)],B)
+c.poly([(16,3),(20,3),(22,4),(23,6),(21,8),(17,8),(15,7),(14,6),(15,4)],I)
+c.line(16,3,20,3,H)
+c.line(15,4,15,5,H)
+# Eye sockets under a heavy brow.
+c.rect(15,6,3,2,O)
+c.set(16,8,S)
+c.rect(20,6,3,2,O)
+c.set(20,6,J)
+c.set(22,8,S)
+# Triangular nasal opening, cheekbone, and broken teeth.
+c.set(19,8,O)
+c.set(18,9,O)
+c.set(19,9,O)
+c.set(15,8,I)
+c.set(16,9,I)
+c.line(17,10,21,10,O)
+c.set(17,10,I)
+c.set(19,10,I)
+c.set(21,10,B)
+c.line(17,11,20,11,B)
+c.set(18,11,I)
+# Small wooden shield in front of the right arm.
+c.poly([(25,14),(28,14),(30,16),(30,21),(29,23),(26,25),(23,23),(22,20),(22,16)],O)
+c.poly([(25,15),(28,15),(29,17),(29,21),(28,23),(26,24),(24,22),(23,20),(23,17)],IRON)
+c.poly([(25,16),(27,16),(28,17),(28,21),(27,23),(26,23),(24,21),(24,17)],WD)
+c.line(25,16,25,21,WOOD)
+c.line(26,16,26,22,WL)
+c.line(27,17,27,21,WOOD)
+c.set(25,18,WL)
+c.set(26,20,WOOD)
+c.set(27,22,WD)
+c.line(24,17,24,20,WOOD)
+# Steel boss and rim rivets.
+c.rect(25,18,3,3,O)
+c.set(26,18,STEEL)
+c.set(25,19,STEEL)
+c.set(26,19,EDGE)
+c.set(27,19,IRON)
+c.set(26,20,IRON)
+c.set(25,15,EDGE)
+c.set(23,17,STEEL)
+c.set(29,17,STEEL)
+c.set(28,22,STEEL)
+c.set(26,23,STEEL)
+save('skeleton-grunt', result)
+print(c.stats_text())
+print(c.matrix_text())
+finish(result)

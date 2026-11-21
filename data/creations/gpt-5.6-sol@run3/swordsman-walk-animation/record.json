@@ -1,0 +1,72 @@
+{
+ "config": "gpt-5.6-sol@run3",
+ "task": "swordsman-walk-animation",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "dc09f19d80c88c03f4ef1fc045c680fc439281c9df5033bc644cae06d6d31850"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 20,
+ "writes": 3,
+ "model_rounds": 6,
+ "llm_calls": 6,
+ "retries": 2,
+ "prompt_tokens": 89168,
+ "cached_tokens": 83584,
+ "completion_tokens": 5132,
+ "reasoning_tokens": 675,
+ "seconds": 151.1,
+ "llm_seconds": 132.4,
+ "tool_seconds": 1.9,
+ "calls_usage": [
+  [
+   11418,
+   11008,
+   3207,
+   170
+  ],
+  [
+   14468,
+   11264,
+   31,
+   7
+  ],
+  [
+   14884,
+   14336,
+   1146,
+   452
+  ],
+  [
+   15590,
+   14720,
+   592,
+   0
+  ],
+  [
+   16196,
+   16128,
+   22,
+   0
+  ],
+  [
+   16612,
+   16128,
+   134,
+   46
+  ]
+ ]
+}

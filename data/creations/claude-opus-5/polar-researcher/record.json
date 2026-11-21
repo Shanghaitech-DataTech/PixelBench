@@ -1,0 +1,96 @@
+{
+ "config": "claude-opus-5",
+ "task": "polar-researcher",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "main.py": "d1dc9e712ba90d573fc415143ee48414d585dc007551ba4569a63f98cf7a056d"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 24,
+ "writes": 5,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 0,
+ "prompt_tokens": 121210,
+ "cached_tokens": 114078,
+ "completion_tokens": 3588,
+ "reasoning_tokens": 0,
+ "seconds": 174.0,
+ "llm_seconds": 169.6,
+ "tool_seconds": 3.7,
+ "calls_usage": [
+  [
+   7838,
+   7553,
+   1118,
+   0
+  ],
+  [
+   9791,
+   8233,
+   1367,
+   0
+  ],
+  [
+   11540,
+   10291,
+   7,
+   0
+  ],
+  [
+   11976,
+   10492,
+   326,
+   0
+  ],
+  [
+   12194,
+   11977,
+   96,
+   0
+  ],
+  [
+   12629,
+   12194,
+   344,
+   0
+  ],
+  [
+   13168,
+   12766,
+   7,
+   0
+  ],
+  [
+   13604,
+   12976,
+   304,
+   0
+  ],
+  [
+   14017,
+   13695,
+   7,
+   0
+  ],
+  [
+   14453,
+   13901,
+   12,
+   0
+  ]
+ ]
+}

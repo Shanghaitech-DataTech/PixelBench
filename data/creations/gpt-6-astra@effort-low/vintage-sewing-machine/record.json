@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@effort-low",
+ "task": "vintage-sewing-machine",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "3a367c4e7d5b3d88b084ac07bd41ba57c45144a0594736a2eb9c6fcc5961044a"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 30,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 1,
+ "prompt_tokens": 36588,
+ "cached_tokens": 35584,
+ "completion_tokens": 1440,
+ "reasoning_tokens": 0,
+ "seconds": 90.8,
+ "llm_seconds": 81.7,
+ "tool_seconds": 1.4,
+ "calls_usage": [
+  [
+   11128,
+   10752,
+   1400,
+   0
+  ],
+  [
+   12543,
+   12416,
+   18,
+   0
+  ],
+  [
+   12917,
+   12416,
+   22,
+   0
+  ]
+ ]
+}

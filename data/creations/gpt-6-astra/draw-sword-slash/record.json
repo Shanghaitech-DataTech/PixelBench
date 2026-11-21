@@ -1,0 +1,102 @@
+{
+ "config": "gpt-6-astra",
+ "task": "draw-sword-slash",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "7535f1d4ecf1569d0cee7218bc3730a4fdb3139d4e1c747340e49f39e610214d"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 17,
+ "writes": 6,
+ "model_rounds": 11,
+ "llm_calls": 11,
+ "retries": 0,
+ "prompt_tokens": 159353,
+ "cached_tokens": 150400,
+ "completion_tokens": 3716,
+ "reasoning_tokens": 1670,
+ "seconds": 255.6,
+ "llm_seconds": 250.7,
+ "tool_seconds": 4.1,
+ "calls_usage": [
+  [
+   11415,
+   10752,
+   97,
+   0
+  ],
+  [
+   11527,
+   10752,
+   18,
+   0
+  ],
+  [
+   12337,
+   11392,
+   102,
+   48
+  ],
+  [
+   12404,
+   12160,
+   18,
+   0
+  ],
+  [
+   13614,
+   12288,
+   1941,
+   516
+  ],
+  [
+   15052,
+   13312,
+   18,
+   0
+  ],
+  [
+   16162,
+   14976,
+   635,
+   536
+  ],
+  [
+   16273,
+   16000,
+   412,
+   313
+  ],
+  [
+   16384,
+   16128,
+   370,
+   194
+  ],
+  [
+   16572,
+   16256,
+   18,
+   0
+  ],
+  [
+   17613,
+   16384,
+   87,
+   63
+  ]
+ ]
+}

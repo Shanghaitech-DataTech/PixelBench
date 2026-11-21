@@ -1,0 +1,48 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "motorcycle",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0001",
+  "source_hashes": {
+   "main.py": "691a0756a651c20583c8fdcedb237b5e332d7edf7f9982129bc33ea3de79b062"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 13,
+ "writes": 1,
+ "model_rounds": 2,
+ "llm_calls": 2,
+ "retries": 0,
+ "prompt_tokens": 40362,
+ "cached_tokens": 0,
+ "completion_tokens": 2771,
+ "reasoning_tokens": 22445,
+ "seconds": 242.4,
+ "llm_seconds": 240.9,
+ "tool_seconds": 0.7,
+ "calls_usage": [
+  [
+   7596,
+   0,
+   25168,
+   22417
+  ],
+  [
+   32766,
+   0,
+   48,
+   28
+  ]
+ ]
+}

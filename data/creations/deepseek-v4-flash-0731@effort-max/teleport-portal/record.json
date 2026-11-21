@@ -1,0 +1,67 @@
+{
+ "config": "deepseek-v4-flash-0731@effort-max",
+ "task": "teleport-portal",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "check.py": "f18cf33acc57d441957a0ef31b6a00e271908e50e8ace0c44a41d7c74326c6f9",
+   "main.py": "381eb6cb3fd5d21fe8a53350a51765c0073e48b8fa42031bf9a056d4a6aa3d9f"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 12,
+ "writes": 2,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 44778,
+ "cached_tokens": 0,
+ "completion_tokens": 11193,
+ "reasoning_tokens": 9621,
+ "seconds": 257.2,
+ "llm_seconds": 254.9,
+ "tool_seconds": 1.7,
+ "calls_usage": [
+  [
+   7689,
+   0,
+   9419,
+   8195
+  ],
+  [
+   8928,
+   0,
+   52,
+   7
+  ],
+  [
+   9110,
+   0,
+   575,
+   416
+  ],
+  [
+   9284,
+   0,
+   45,
+   0
+  ],
+  [
+   9767,
+   0,
+   1102,
+   1003
+  ]
+ ]
+}

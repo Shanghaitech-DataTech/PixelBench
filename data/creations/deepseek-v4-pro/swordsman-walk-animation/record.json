@@ -1,0 +1,114 @@
+{
+ "config": "deepseek-v4-pro",
+ "task": "swordsman-walk-animation",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "7e43d85c5bac9fff10d6e0dbe0ccf39fef99bfbe1a1abb4eccbd723330af4b03"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 15,
+ "writes": 5,
+ "model_rounds": 13,
+ "llm_calls": 13,
+ "retries": 0,
+ "prompt_tokens": 480920,
+ "cached_tokens": 471168,
+ "completion_tokens": 47735,
+ "reasoning_tokens": 42103,
+ "seconds": 602.9,
+ "llm_seconds": 599.2,
+ "tool_seconds": 2.9,
+ "calls_usage": [
+  [
+   7694,
+   7424,
+   11343,
+   9285
+  ],
+  [
+   19053,
+   18944,
+   64,
+   4
+  ],
+  [
+   20223,
+   19072,
+   4542,
+   4497
+  ],
+  [
+   26738,
+   24704,
+   3451,
+   3235
+  ],
+  [
+   30204,
+   30080,
+   60,
+   0
+  ],
+  [
+   31693,
+   30208,
+   2588,
+   2511
+  ],
+  [
+   34313,
+   34176,
+   45,
+   0
+  ],
+  [
+   36387,
+   34304,
+   13345,
+   10891
+  ],
+  [
+   49748,
+   49664,
+   60,
+   0
+  ],
+  [
+   51046,
+   49792,
+   3401,
+   3173
+  ],
+  [
+   54462,
+   54400,
+   60,
+   0
+  ],
+  [
+   55314,
+   54400,
+   8716,
+   8507
+  ],
+  [
+   64045,
+   64000,
+   60,
+   0
+  ]
+ ]
+}

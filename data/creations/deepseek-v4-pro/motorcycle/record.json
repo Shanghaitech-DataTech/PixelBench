@@ -1,0 +1,84 @@
+{
+ "config": "deepseek-v4-pro",
+ "task": "motorcycle",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "074712b5d13d54528c0ab3506e501dcd5a6812c0f7b029a0cc44bed9f3195d84"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 10,
+ "writes": 4,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 0,
+ "prompt_tokens": 182875,
+ "cached_tokens": 175872,
+ "completion_tokens": 21104,
+ "reasoning_tokens": 18914,
+ "seconds": 296.3,
+ "llm_seconds": 292.9,
+ "tool_seconds": 2.7,
+ "calls_usage": [
+  [
+   7715,
+   7424,
+   8635,
+   7333
+  ],
+  [
+   16366,
+   16256,
+   65,
+   5
+  ],
+  [
+   18875,
+   16384,
+   2874,
+   2649
+  ],
+  [
+   21764,
+   21632,
+   60,
+   0
+  ],
+  [
+   23357,
+   21760,
+   5465,
+   5282
+  ],
+  [
+   28837,
+   28800,
+   60,
+   0
+  ],
+  [
+   31033,
+   28800,
+   3880,
+   3640
+  ],
+  [
+   34928,
+   34816,
+   65,
+   5
+  ]
+ ]
+}

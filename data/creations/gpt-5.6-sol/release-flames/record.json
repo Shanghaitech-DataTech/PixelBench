@@ -1,0 +1,90 @@
+{
+ "config": "gpt-5.6-sol",
+ "task": "release-flames",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "6fd57b5e59b0795faab547c0ae911008a906672fa57e8dc382dce112265a4627"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 17,
+ "writes": 4,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 124412,
+ "cached_tokens": 118144,
+ "completion_tokens": 3766,
+ "reasoning_tokens": 1158,
+ "seconds": 98.9,
+ "llm_seconds": 95.6,
+ "tool_seconds": 2.7,
+ "calls_usage": [
+  [
+   11645,
+   11008,
+   81,
+   21
+  ],
+  [
+   11717,
+   11520,
+   118,
+   22
+  ],
+  [
+   11826,
+   11520,
+   22,
+   0
+  ],
+  [
+   12671,
+   11648,
+   2414,
+   929
+  ],
+  [
+   14169,
+   12544,
+   22,
+   0
+  ],
+  [
+   14925,
+   13952,
+   265,
+   149
+  ],
+  [
+   15053,
+   14720,
+   704,
+   0
+  ],
+  [
+   15771,
+   15616,
+   22,
+   0
+  ],
+  [
+   16635,
+   15616,
+   118,
+   37
+  ]
+ ]
+}

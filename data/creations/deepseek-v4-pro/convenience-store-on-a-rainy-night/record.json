@@ -1,0 +1,84 @@
+{
+ "config": "deepseek-v4-pro",
+ "task": "convenience-store-on-a-rainy-night",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "ae9eeeafec76d0006e846b2487c38baedc2b874fb646a84537755d41ded7c326"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 48,
+ "writes": 5,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 0,
+ "prompt_tokens": 321577,
+ "cached_tokens": 314368,
+ "completion_tokens": 39832,
+ "reasoning_tokens": 34369,
+ "seconds": 508.8,
+ "llm_seconds": 506.4,
+ "tool_seconds": 1.7,
+ "calls_usage": [
+  [
+   7688,
+   7424,
+   26981,
+   22876
+  ],
+  [
+   34685,
+   34560,
+   64,
+   4
+  ],
+  [
+   37948,
+   34688,
+   8954,
+   8756
+  ],
+  [
+   46917,
+   46848,
+   494,
+   11
+  ],
+  [
+   47426,
+   47360,
+   214,
+   8
+  ],
+  [
+   47655,
+   47616,
+   288,
+   18
+  ],
+  [
+   47958,
+   47872,
+   67,
+   7
+  ],
+  [
+   51300,
+   48000,
+   2770,
+   2689
+  ]
+ ]
+}

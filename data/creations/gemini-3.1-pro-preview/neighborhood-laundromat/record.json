@@ -1,0 +1,48 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "neighborhood-laundromat",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0001",
+  "source_hashes": {
+   "main.py": "342c79410cc25eacb937cf0e61a16dab936bcd695fc75b573132e7a5b9b0688b"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 40,
+ "writes": 1,
+ "model_rounds": 2,
+ "llm_calls": 2,
+ "retries": 0,
+ "prompt_tokens": 38756,
+ "cached_tokens": 0,
+ "completion_tokens": 2720,
+ "reasoning_tokens": 20962,
+ "seconds": 233.4,
+ "llm_seconds": 225.7,
+ "tool_seconds": 0.6,
+ "calls_usage": [
+  [
+   7560,
+   0,
+   23634,
+   20934
+  ],
+  [
+   31196,
+   0,
+   48,
+   28
+  ]
+ ]
+}

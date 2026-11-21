@@ -1,0 +1,45 @@
+{
+ "config": "gpt-6-astra@direct",
+ "task": "tavern-interior",
+ "ok": true,
+ "error": null,
+ "termination": "answered",
+ "frames": 1,
+ "colors": 22,
+ "parse": {
+  "ok": true,
+  "diags": [
+   {
+    "declared": [
+     64,
+     64
+    ],
+    "size": [
+     64,
+     64
+    ],
+    "rows": 64,
+    "rows_wrong_length": 17,
+    "rows_beyond_tolerance": 0,
+    "rows_missing": 0,
+    "rows_extra": 0,
+    "undeclared_pixels": 4
+   }
+  ]
+ },
+ "max_tokens": 131072,
+ "time_limit_s": 3600.0,
+ "finish_reason": "stop",
+ "prompt_tokens": 4519,
+ "completion_tokens": 3386,
+ "reasoning_tokens": 1552,
+ "seconds": 196.3,
+ "calls_usage": [
+  [
+   4519,
+   4224,
+   3386,
+   1552
+  ]
+ ]
+}

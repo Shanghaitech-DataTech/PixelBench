@@ -1,0 +1,85 @@
+{
+ "config": "deepseek-v4-flash-0731@run3",
+ "task": "glow-jellyfish",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "inspect.py": "46cf5af1c0a1eacf0f8d452c95d929ca080775ee747da7bfb662bb9c8d8c282d",
+   "main.py": "efbf56ab618e2afd15ea87fac427d916008d6232d8bcf639089fd6a5fc6114aa"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 10,
+ "writes": 4,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 0,
+ "prompt_tokens": 70782,
+ "cached_tokens": 0,
+ "completion_tokens": 13759,
+ "reasoning_tokens": 12496,
+ "seconds": 194.0,
+ "llm_seconds": 191.6,
+ "tool_seconds": 1.9,
+ "calls_usage": [
+  [
+   7671,
+   0,
+   11773,
+   11115
+  ],
+  [
+   8344,
+   0,
+   68,
+   7
+  ],
+  [
+   8719,
+   0,
+   541,
+   447
+  ],
+  [
+   8827,
+   0,
+   61,
+   0
+  ],
+  [
+   9029,
+   0,
+   135,
+   26
+  ],
+  [
+   9153,
+   0,
+   117,
+   17
+  ],
+  [
+   9267,
+   0,
+   61,
+   0
+  ],
+  [
+   9772,
+   0,
+   1003,
+   884
+  ]
+ ]
+}

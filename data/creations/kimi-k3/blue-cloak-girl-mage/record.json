@@ -1,0 +1,66 @@
+{
+ "config": "kimi-k3",
+ "task": "blue-cloak-girl-mage",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "2d843719c35073d6331f56bd40060e4e25e98dd7bb604bf53a198e3227496aec"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 30,
+ "writes": 2,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 48227,
+ "cached_tokens": 43827,
+ "completion_tokens": 28695,
+ "reasoning_tokens": 25967,
+ "seconds": 643.0,
+ "llm_seconds": 640.5,
+ "tool_seconds": 1.8,
+ "calls_usage": [
+  [
+   7240,
+   6912,
+   25189,
+   22915
+  ],
+  [
+   9555,
+   7168,
+   45,
+   3
+  ],
+  [
+   10047,
+   9472,
+   3248,
+   2935
+  ],
+  [
+   10400,
+   10035,
+   45,
+   3
+  ],
+  [
+   10985,
+   10240,
+   168,
+   111
+  ]
+ ]
+}

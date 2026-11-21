@@ -1,0 +1,114 @@
+{
+ "config": "qwen3.8-max",
+ "task": "subway-platform",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "8fbe1a8d2a1fab254d08372cdbbc97ea520f3925506fdfb6eb6e1381e7debf09"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 96,
+ "writes": 7,
+ "model_rounds": 13,
+ "llm_calls": 13,
+ "retries": 0,
+ "prompt_tokens": 235687,
+ "cached_tokens": 206592,
+ "completion_tokens": 82263,
+ "reasoning_tokens": 68178,
+ "seconds": 1886.7,
+ "llm_seconds": 1881.8,
+ "tool_seconds": 3.3,
+ "calls_usage": [
+  [
+   7809,
+   7168,
+   30572,
+   30524
+  ],
+  [
+   7875,
+   7168,
+   26039,
+   19481
+  ],
+  [
+   14452,
+   7168,
+   241,
+   53
+  ],
+  [
+   14658,
+   14336,
+   1019,
+   472
+  ],
+  [
+   15223,
+   14336,
+   81,
+   53
+  ],
+  [
+   16206,
+   7168,
+   16184,
+   10867
+  ],
+  [
+   21541,
+   15360,
+   2666,
+   2637
+  ],
+  [
+   22027,
+   21504,
+   2727,
+   2541
+  ],
+  [
+   22231,
+   21888,
+   612,
+   168
+  ],
+  [
+   22693,
+   21888,
+   106,
+   77
+  ],
+  [
+   23179,
+   22528,
+   1537,
+   1081
+  ],
+  [
+   23653,
+   22528,
+   84,
+   55
+  ],
+  [
+   24140,
+   23552,
+   395,
+   169
+  ]
+ ]
+}

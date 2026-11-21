@@ -1,0 +1,96 @@
+{
+ "config": "qwen3.8-max",
+ "task": "neighborhood-laundromat",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "8ed9522d3732300b7ca82316122a02f47ce4c7f7ba274373d6c4b0db3eeb997c"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 34,
+ "writes": 10,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 0,
+ "prompt_tokens": 122659,
+ "cached_tokens": 107008,
+ "completion_tokens": 32850,
+ "reasoning_tokens": 27210,
+ "seconds": 721.3,
+ "llm_seconds": 718.0,
+ "tool_seconds": 2.6,
+ "calls_usage": [
+  [
+   7809,
+   7168,
+   67,
+   25
+  ],
+  [
+   7979,
+   7552,
+   22553,
+   18879
+  ],
+  [
+   11672,
+   7168,
+   63,
+   35
+  ],
+  [
+   11975,
+   7168,
+   7935,
+   6662
+  ],
+  [
+   13306,
+   11520,
+   188,
+   19
+  ],
+  [
+   13492,
+   12672,
+   993,
+   825
+  ],
+  [
+   13678,
+   13312,
+   61,
+   32
+  ],
+  [
+   14019,
+   13312,
+   664,
+   576
+  ],
+  [
+   14124,
+   13312,
+   92,
+   63
+  ],
+  [
+   14605,
+   13824,
+   234,
+   94
+  ]
+ ]
+}

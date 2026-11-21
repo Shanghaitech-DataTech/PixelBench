@@ -1,0 +1,80 @@
+{
+ "config": "qwen3.8-max",
+ "task": "motorcycle-road",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "inspect.py": "b1b113ee921ad5ae36dfc3d80cb3b1b497637c0434a0c0f0a49b12a7c8c511c6",
+   "inspect2.py": "8c75c91b8c7dbbd3793f6859355a1621ba3576b35111b5a1768cd0c7ae2d43fd",
+   "main.py": "ec1389a7fdbec1ea37a0e70dbf53a83081e0675544e6bc8518aa0e1a35c39ea5"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 30,
+ "writes": 3,
+ "model_rounds": 7,
+ "llm_calls": 7,
+ "retries": 0,
+ "prompt_tokens": 73144,
+ "cached_tokens": 63104,
+ "completion_tokens": 13228,
+ "reasoning_tokens": 11534,
+ "seconds": 315.4,
+ "llm_seconds": 312.2,
+ "tool_seconds": 2.5,
+ "calls_usage": [
+  [
+   7875,
+   7168,
+   104,
+   10
+  ],
+  [
+   7995,
+   7552,
+   41,
+   13
+  ],
+  [
+   9836,
+   7552,
+   2926,
+   2823
+  ],
+  [
+   9959,
+   9728,
+   240,
+   211
+  ],
+  [
+   11486,
+   7168,
+   8790,
+   7504
+  ],
+  [
+   12790,
+   11264,
+   140,
+   111
+  ],
+  [
+   13203,
+   12672,
+   987,
+   862
+  ]
+ ]
+}

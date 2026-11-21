@@ -1,0 +1,16 @@
+{
+  "id": "ancient-dragon-battle",
+  "task_type": "agentic_creation",
+  "prompt": "pixel art, 256x256 resolution, epic fantasy battlefield scene, ancient dragon flying above a burning castle, knights with spears and shields on ramparts, arrows flying, smoke and embers, dramatic sunset sky, siege towers, soldiers in formation, distant mountains, rich detail, cinematic composition, dark outline",
+  "width": 256,
+  "height": 256,
+  "constraints": {
+    "max_colors": 140,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 25,
+    "max_code_seconds": 120
+  }
+}

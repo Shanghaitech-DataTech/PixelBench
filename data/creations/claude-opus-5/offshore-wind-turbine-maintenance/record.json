@@ -1,0 +1,156 @@
+{
+ "config": "claude-opus-5",
+ "task": "offshore-wind-turbine-maintenance",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0018",
+  "source_hashes": {
+   "main.py": "240a069ec94e8d3cc84cd03785007c78903d1533729c1947da250945abfebc0b"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 39,
+ "writes": 23,
+ "model_rounds": 20,
+ "llm_calls": 20,
+ "retries": 11,
+ "prompt_tokens": 541906,
+ "cached_tokens": 493447,
+ "completion_tokens": 13484,
+ "reasoning_tokens": 0,
+ "seconds": 1348.6,
+ "llm_seconds": 668.1,
+ "tool_seconds": 11.8,
+ "calls_usage": [
+  [
+   7842,
+   7548,
+   2671,
+   0
+  ],
+  [
+   11514,
+   8657,
+   57,
+   0
+  ],
+  [
+   12109,
+   8820,
+   2391,
+   0
+  ],
+  [
+   16255,
+   13379,
+   927,
+   0
+  ],
+  [
+   18201,
+   0,
+   91,
+   0
+  ],
+  [
+   18752,
+   18434,
+   365,
+   0
+  ],
+  [
+   22161,
+   19374,
+   2435,
+   0
+  ],
+  [
+   26247,
+   20189,
+   850,
+   0
+  ],
+  [
+   28017,
+   26516,
+   74,
+   0
+  ],
+  [
+   28568,
+   28219,
+   127,
+   0
+  ],
+  [
+   29495,
+   28771,
+   555,
+   0
+  ],
+  [
+   30245,
+   29445,
+   7,
+   0
+  ],
+  [
+   30792,
+   29637,
+   328,
+   0
+  ],
+  [
+   31996,
+   31373,
+   727,
+   0
+  ],
+  [
+   34197,
+   32625,
+   594,
+   0
+  ],
+  [
+   36484,
+   34973,
+   575,
+   0
+  ],
+  [
+   38445,
+   37089,
+   195,
+   0
+  ],
+  [
+   39425,
+   38596,
+   274,
+   0
+  ],
+  [
+   40179,
+   39516,
+   212,
+   0
+  ],
+  [
+   40982,
+   40286,
+   29,
+   0
+  ]
+ ]
+}

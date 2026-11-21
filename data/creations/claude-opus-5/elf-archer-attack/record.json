@@ -1,0 +1,120 @@
+{
+ "config": "claude-opus-5",
+ "task": "elf-archer-attack",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "067961d01900501c692660552c370404541acf54ef37b9dbfca8dcb54b91fdcb"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 43,
+ "writes": 7,
+ "model_rounds": 14,
+ "llm_calls": 14,
+ "retries": 4,
+ "prompt_tokens": 215336,
+ "cached_tokens": 193802,
+ "completion_tokens": 11802,
+ "reasoning_tokens": 0,
+ "seconds": 809.4,
+ "llm_seconds": 766.2,
+ "tool_seconds": 4.5,
+ "calls_usage": [
+  [
+   8100,
+   7290,
+   55,
+   0
+  ],
+  [
+   8169,
+   7352,
+   7,
+   0
+  ],
+  [
+   10217,
+   9195,
+   4445,
+   0
+  ],
+  [
+   11512,
+   10361,
+   7,
+   0
+  ],
+  [
+   12276,
+   11048,
+   2074,
+   0
+  ],
+  [
+   13719,
+   12347,
+   7,
+   0
+  ],
+  [
+   14484,
+   13036,
+   1208,
+   0
+  ],
+  [
+   16023,
+   14421,
+   7,
+   0
+  ],
+  [
+   16787,
+   15108,
+   2490,
+   0
+  ],
+  [
+   18279,
+   16451,
+   7,
+   0
+  ],
+  [
+   19885,
+   17897,
+   1345,
+   0
+  ],
+  [
+   21432,
+   19289,
+   7,
+   0
+  ],
+  [
+   22197,
+   19977,
+   131,
+   0
+  ],
+  [
+   22256,
+   20030,
+   12,
+   0
+  ]
+ ]
+}

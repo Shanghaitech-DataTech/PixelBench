@@ -1,0 +1,54 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "skeleton-grunt",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "6bdbd2fef3f7a107af92f3effad138e4f2a7d208ffde2c0549cec93ba33c93fc"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 16,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 31280,
+ "cached_tokens": 0,
+ "completion_tokens": 3985,
+ "reasoning_tokens": 313,
+ "seconds": 94.2,
+ "llm_seconds": 92.7,
+ "tool_seconds": 1.0,
+ "calls_usage": [
+  [
+   7752,
+   0,
+   3818,
+   214
+  ],
+  [
+   11375,
+   0,
+   45,
+   17
+  ],
+  [
+   12153,
+   0,
+   122,
+   82
+  ]
+ ]
+}

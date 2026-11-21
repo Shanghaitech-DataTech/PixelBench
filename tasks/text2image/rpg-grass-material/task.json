@@ -1,0 +1,16 @@
+{
+  "id": "rpg-grass-material",
+  "task_type": "agentic_creation",
+  "prompt": "pixel art, 16x16 resolution, RPG game style, grass material tile, seamless tiling, interleaved dark and light green grass speckles, a few tiny yellow flowers, small darker grass tufts, sparse bare-dirt patches",
+  "width": 16,
+  "height": 16,
+  "constraints": {
+    "max_colors": 86,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 25,
+    "max_code_seconds": 120
+  }
+}

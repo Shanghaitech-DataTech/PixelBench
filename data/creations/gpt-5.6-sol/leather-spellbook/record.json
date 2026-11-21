@@ -1,0 +1,54 @@
+{
+ "config": "gpt-5.6-sol",
+ "task": "leather-spellbook",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "cef55d8027eb478c272a9a89a91cef76a1b962a399e5e32aeae44fc4964dd1a8"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 9,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 36929,
+ "cached_tokens": 34688,
+ "completion_tokens": 1508,
+ "reasoning_tokens": 236,
+ "seconds": 38.0,
+ "llm_seconds": 36.3,
+ "tool_seconds": 1.2,
+ "calls_usage": [
+  [
+   11401,
+   11008,
+   1203,
+   42
+  ],
+  [
+   12575,
+   11264,
+   22,
+   0
+  ],
+  [
+   12953,
+   12416,
+   283,
+   194
+  ]
+ ]
+}

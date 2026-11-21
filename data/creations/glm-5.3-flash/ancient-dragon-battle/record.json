@@ -1,0 +1,151 @@
+{
+ "config": "glm-5.3-flash",
+ "task": "ancient-dragon-battle",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0010",
+  "source_hashes": {
+   "inspect.py": "446283b20f81e5939842245cb2e75d498eee668685e756bf1d36ce2bc15cb8d4",
+   "main.py": "5473c872c6081babffb7741f7a991149b96c4f0478e910234297de4f096ca733"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 87,
+ "writes": 8,
+ "model_rounds": 19,
+ "llm_calls": 19,
+ "retries": 0,
+ "prompt_tokens": 1032483,
+ "cached_tokens": 0,
+ "completion_tokens": 265916,
+ "reasoning_tokens": 241126,
+ "seconds": 3553.9,
+ "llm_seconds": 3530.6,
+ "tool_seconds": 19.7,
+ "calls_usage": [
+  [
+   7318,
+   0,
+   87475,
+   87437
+  ],
+  [
+   7456,
+   0,
+   37874,
+   30487
+  ],
+  [
+   14851,
+   0,
+   12,
+   0
+  ],
+  [
+   15209,
+   0,
+   81,
+   52
+  ],
+  [
+   15584,
+   0,
+   562,
+   342
+  ],
+  [
+   15812,
+   0,
+   12,
+   0
+  ],
+  [
+   46154,
+   0,
+   9664,
+   9092
+  ],
+  [
+   46734,
+   0,
+   12,
+   0
+  ],
+  [
+   54285,
+   0,
+   45119,
+   37539
+  ],
+  [
+   61873,
+   0,
+   12,
+   0
+  ],
+  [
+   68955,
+   0,
+   5354,
+   5016
+  ],
+  [
+   69301,
+   0,
+   12,
+   0
+  ],
+  [
+   74160,
+   0,
+   71335,
+   63702
+  ],
+  [
+   81801,
+   0,
+   12,
+   0
+  ],
+  [
+   86506,
+   0,
+   4973,
+   4658
+  ],
+  [
+   86829,
+   0,
+   12,
+   0
+  ],
+  [
+   90963,
+   0,
+   2014,
+   1489
+  ],
+  [
+   91496,
+   0,
+   12,
+   0
+  ],
+  [
+   97196,
+   0,
+   1369,
+   1312
+  ]
+ ]
+}

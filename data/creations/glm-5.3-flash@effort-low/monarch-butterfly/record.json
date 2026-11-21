@@ -1,0 +1,54 @@
+{
+ "config": "glm-5.3-flash@effort-low",
+ "task": "monarch-butterfly",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "179023ec93fd7f30c96e2e5b85bb059b94e5227bba9c3b88ed279c0ccef5e3da"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 4,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 23496,
+ "cached_tokens": 0,
+ "completion_tokens": 829,
+ "reasoning_tokens": 14,
+ "seconds": 20.9,
+ "llm_seconds": 19.3,
+ "tool_seconds": 1.0,
+ "calls_usage": [
+  [
+   7269,
+   0,
+   785,
+   0
+  ],
+  [
+   8062,
+   0,
+   12,
+   0
+  ],
+  [
+   8165,
+   0,
+   32,
+   14
+  ]
+ ]
+}

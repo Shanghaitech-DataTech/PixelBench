@@ -1,0 +1,138 @@
+{
+ "config": "deepseek-v4-flash-0731@effort-max",
+ "task": "minecraft-dirt-material",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0008",
+  "source_hashes": {
+   "main.py": "66dc6e4f5b1c1fde90535654ac417b0bc7c42f33cf22c7081f5cd9e1a77d4d94"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 9,
+ "writes": 8,
+ "model_rounds": 17,
+ "llm_calls": 17,
+ "retries": 0,
+ "prompt_tokens": 202901,
+ "cached_tokens": 0,
+ "completion_tokens": 10787,
+ "reasoning_tokens": 6698,
+ "seconds": 204.5,
+ "llm_seconds": 200.0,
+ "tool_seconds": 3.9,
+ "calls_usage": [
+  [
+   7683,
+   0,
+   3985,
+   3149
+  ],
+  [
+   8534,
+   0,
+   45,
+   0
+  ],
+  [
+   8926,
+   0,
+   909,
+   412
+  ],
+  [
+   9437,
+   0,
+   45,
+   0
+  ],
+  [
+   9838,
+   0,
+   1392,
+   723
+  ],
+  [
+   10521,
+   0,
+   45,
+   0
+  ],
+  [
+   11036,
+   0,
+   1408,
+   994
+  ],
+  [
+   11464,
+   0,
+   45,
+   0
+  ],
+  [
+   11979,
+   0,
+   1150,
+   696
+  ],
+  [
+   12447,
+   0,
+   308,
+   263
+  ],
+  [
+   12821,
+   0,
+   87,
+   41
+  ],
+  [
+   13868,
+   0,
+   521,
+   37
+  ],
+  [
+   14366,
+   0,
+   183,
+   15
+  ],
+  [
+   14548,
+   0,
+   45,
+   0
+  ],
+  [
+   14891,
+   0,
+   153,
+   40
+  ],
+  [
+   15018,
+   0,
+   45,
+   0
+  ],
+  [
+   15524,
+   0,
+   421,
+   328
+  ]
+ ]
+}

@@ -1,0 +1,162 @@
+{
+ "config": "gemini-3.8-flash",
+ "task": "female-lab-researcher-chibi",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0010",
+  "source_hashes": {
+   "main.py": "fae268726df8362489ca8ff3dd82a23d77b99cfcaf51707b99f1e83c1a3a79f4"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 30,
+ "writes": 10,
+ "model_rounds": 21,
+ "llm_calls": 21,
+ "retries": 1,
+ "prompt_tokens": 761133,
+ "cached_tokens": 485349,
+ "completion_tokens": 13780,
+ "reasoning_tokens": 36126,
+ "seconds": 489.3,
+ "llm_seconds": 477.4,
+ "tool_seconds": 6.3,
+ "calls_usage": [
+  [
+   7554,
+   0,
+   150,
+   140
+  ],
+  [
+   7713,
+   0,
+   2842,
+   2769
+  ],
+  [
+   10557,
+   0,
+   40,
+   20
+  ],
+  [
+   11717,
+   0,
+   2732,
+   1850
+  ],
+  [
+   14451,
+   11744,
+   36,
+   16
+  ],
+  [
+   15604,
+   0,
+   5854,
+   4754
+  ],
+  [
+   21460,
+   0,
+   38,
+   18
+  ],
+  [
+   22615,
+   14489,
+   5825,
+   4246
+  ],
+  [
+   28442,
+   12114,
+   35,
+   15
+  ],
+  [
+   30683,
+   20186,
+   4386,
+   2865
+  ],
+  [
+   35071,
+   22690,
+   35,
+   15
+  ],
+  [
+   36224,
+   33028,
+   6148,
+   4141
+  ],
+  [
+   42374,
+   0,
+   35,
+   15
+  ],
+  [
+   43527,
+   40430,
+   8734,
+   7399
+  ],
+  [
+   52263,
+   28348,
+   30,
+   10
+  ],
+  [
+   53411,
+   36301,
+   7192,
+   4698
+  ],
+  [
+   60605,
+   53462,
+   35,
+   15
+  ],
+  [
+   62847,
+   60591,
+   3544,
+   2247
+  ],
+  [
+   66393,
+   48623,
+   30,
+   10
+  ],
+  [
+   67737,
+   40506,
+   2146,
+   864
+  ],
+  [
+   69885,
+   62837,
+   39,
+   19
+  ]
+ ]
+}

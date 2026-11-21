@@ -1,0 +1,54 @@
+{
+ "config": "claude-opus-5",
+ "task": "rpg-grass-material",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "ed97dd484d7da11ce049313a59b7d78797b20d75aa4ad868284d103d4294b61a"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 10,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 26460,
+ "cached_tokens": 16246,
+ "completion_tokens": 851,
+ "reasoning_tokens": 0,
+ "seconds": 48.5,
+ "llm_seconds": 45.8,
+ "tool_seconds": 1.3,
+ "calls_usage": [
+  [
+   7850,
+   0,
+   757,
+   0
+  ],
+  [
+   8895,
+   7892,
+   7,
+   0
+  ],
+  [
+   9715,
+   8354,
+   87,
+   0
+  ]
+ ]
+}

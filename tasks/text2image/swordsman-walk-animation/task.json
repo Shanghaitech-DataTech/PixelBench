@@ -1,0 +1,16 @@
+{
+  "id": "swordsman-walk-animation",
+  "task_type": "agentic_creation",
+  "prompt": "pixel art, 64x32 resolution, 16-bit RPG style, red-haired swordsman, walk animation, 2-frame sequence, side view facing right, long sword, dark blue cape, smooth natural motion, clear frame transitions, single frame 32x32",
+  "width": 64,
+  "height": 32,
+  "constraints": {
+    "max_colors": 86,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 25,
+    "max_code_seconds": 120
+  }
+}

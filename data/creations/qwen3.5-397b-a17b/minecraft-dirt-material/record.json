@@ -1,0 +1,54 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "minecraft-dirt-material",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "bea04b197f4b4de0328c34c0f28c9f5fe8a53fc3c4a0cd21508cb4f37c5f1439"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 7,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 26188,
+ "cached_tokens": 0,
+ "completion_tokens": 1708,
+ "reasoning_tokens": 253,
+ "seconds": 43.7,
+ "llm_seconds": 42.3,
+ "tool_seconds": 0.9,
+ "calls_usage": [
+  [
+   7753,
+   0,
+   1580,
+   237
+  ],
+  [
+   9115,
+   0,
+   56,
+   16
+  ],
+  [
+   9320,
+   0,
+   72,
+   0
+  ]
+ ]
+}

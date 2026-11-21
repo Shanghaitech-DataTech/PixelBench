@@ -1,0 +1,102 @@
+{
+ "config": "glm-5.3-flash@effort-low",
+ "task": "magic-forest-cottage",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "main.py": "add4cd063ccbe93a094c49a96881f05f6ba437f34ab8fd58864a4d9764621671"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 51,
+ "writes": 5,
+ "model_rounds": 11,
+ "llm_calls": 11,
+ "retries": 0,
+ "prompt_tokens": 127632,
+ "cached_tokens": 0,
+ "completion_tokens": 4265,
+ "reasoning_tokens": 243,
+ "seconds": 115.8,
+ "llm_seconds": 110.2,
+ "tool_seconds": 4.8,
+ "calls_usage": [
+  [
+   7327,
+   0,
+   3344,
+   71
+  ],
+  [
+   10608,
+   0,
+   12,
+   0
+  ],
+  [
+   11159,
+   0,
+   45,
+   0
+  ],
+  [
+   11211,
+   0,
+   12,
+   0
+  ],
+  [
+   11787,
+   0,
+   494,
+   172
+  ],
+  [
+   12116,
+   0,
+   12,
+   0
+  ],
+  [
+   12316,
+   0,
+   197,
+   0
+  ],
+  [
+   12520,
+   0,
+   12,
+   0
+  ],
+  [
+   12720,
+   0,
+   107,
+   0
+  ],
+  [
+   12834,
+   0,
+   12,
+   0
+  ],
+  [
+   13034,
+   0,
+   18,
+   0
+  ]
+ ]
+}

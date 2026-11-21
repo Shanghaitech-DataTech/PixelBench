@@ -1,0 +1,121 @@
+{
+ "config": "glm-5.3-flash@effort-high",
+ "task": "summer-seaside",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0008",
+  "source_hashes": {
+   "inspect.py": "ed6dd773d6c6ef94063231f636431854252ba51c62b44e1333a02a8cebd76016",
+   "main.py": "4a89dbc6c99a08c30562f5942a77fe8a3a9d05debe0b68ad32e1f4f38cb565f1"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 63,
+ "writes": 6,
+ "model_rounds": 14,
+ "llm_calls": 14,
+ "retries": 0,
+ "prompt_tokens": 170901,
+ "cached_tokens": 0,
+ "completion_tokens": 11447,
+ "reasoning_tokens": 8861,
+ "seconds": 273.4,
+ "llm_seconds": 265.3,
+ "tool_seconds": 5.8,
+ "calls_usage": [
+  [
+   7333,
+   0,
+   9873,
+   8023
+  ],
+  [
+   9191,
+   0,
+   12,
+   0
+  ],
+  [
+   9335,
+   0,
+   74,
+   48
+  ],
+  [
+   9493,
+   0,
+   89,
+   0
+  ],
+  [
+   9590,
+   0,
+   12,
+   0
+  ],
+  [
+   10061,
+   0,
+   209,
+   103
+  ],
+  [
+   10174,
+   0,
+   12,
+   0
+  ],
+  [
+   12717,
+   0,
+   616,
+   452
+  ],
+  [
+   12888,
+   0,
+   12,
+   0
+  ],
+  [
+   15241,
+   0,
+   99,
+   0
+  ],
+  [
+   15347,
+   0,
+   12,
+   0
+  ],
+  [
+   15496,
+   0,
+   296,
+   197
+  ],
+  [
+   15602,
+   0,
+   12,
+   0
+  ],
+  [
+   18433,
+   0,
+   119,
+   38
+  ]
+ ]
+}

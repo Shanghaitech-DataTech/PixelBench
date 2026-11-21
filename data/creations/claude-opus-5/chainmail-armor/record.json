@@ -1,0 +1,144 @@
+{
+ "config": "claude-opus-5",
+ "task": "chainmail-armor",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0014",
+  "source_hashes": {
+   "main.py": "6acf0f9dde703abd9e7ff31f44d60f78f318cc25b0a6ca528c609a68fec1ef2d"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 12,
+ "writes": 12,
+ "model_rounds": 18,
+ "llm_calls": 18,
+ "retries": 6,
+ "prompt_tokens": 283018,
+ "cached_tokens": 256362,
+ "completion_tokens": 5725,
+ "reasoning_tokens": 0,
+ "seconds": 953.3,
+ "llm_seconds": 379.5,
+ "tool_seconds": 8.3,
+ "calls_usage": [
+  [
+   7822,
+   7565,
+   899,
+   0
+  ],
+  [
+   9044,
+   8005,
+   697,
+   0
+  ],
+  [
+   10291,
+   9485,
+   681,
+   0
+  ],
+  [
+   11560,
+   10679,
+   620,
+   0
+  ],
+  [
+   12811,
+   11941,
+   395,
+   0
+  ],
+  [
+   13774,
+   13103,
+   318,
+   0
+  ],
+  [
+   14592,
+   14041,
+   69,
+   0
+  ],
+  [
+   15030,
+   0,
+   868,
+   0
+  ],
+  [
+   16640,
+   15417,
+   34,
+   0
+  ],
+  [
+   17079,
+   16840,
+   383,
+   0
+  ],
+  [
+   17509,
+   17078,
+   7,
+   0
+  ],
+  [
+   17944,
+   17270,
+   313,
+   0
+  ],
+  [
+   18644,
+   18104,
+   49,
+   0
+  ],
+  [
+   19155,
+   18848,
+   149,
+   0
+  ],
+  [
+   19309,
+   19111,
+   7,
+   0
+  ],
+  [
+   19818,
+   19311,
+   70,
+   0
+  ],
+  [
+   20964,
+   19811,
+   154,
+   0
+  ],
+  [
+   21032,
+   19753,
+   12,
+   0
+  ]
+ ]
+}

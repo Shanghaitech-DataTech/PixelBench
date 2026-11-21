@@ -1,0 +1,126 @@
+{
+ "config": "deepseek-v4-flash-0731@effort-low",
+ "task": "elf-archer-attack",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "686950aeca44cdf0b69d7acf303196fa44a575c74743a6ebc48ac34b94c898f8"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 45,
+ "writes": 7,
+ "model_rounds": 15,
+ "llm_calls": 15,
+ "retries": 0,
+ "prompt_tokens": 210440,
+ "cached_tokens": 0,
+ "completion_tokens": 53008,
+ "reasoning_tokens": 47864,
+ "seconds": 1180.9,
+ "llm_seconds": 1176.1,
+ "tool_seconds": 4.1,
+ "calls_usage": [
+  [
+   7838,
+   0,
+   38,
+   9
+  ],
+  [
+   7880,
+   0,
+   132,
+   42
+  ],
+  [
+   7985,
+   0,
+   45,
+   0
+  ],
+  [
+   9712,
+   0,
+   31423,
+   31365
+  ],
+  [
+   11452,
+   0,
+   12277,
+   10939
+  ],
+  [
+   12805,
+   0,
+   45,
+   0
+  ],
+  [
+   13219,
+   0,
+   179,
+   0
+  ],
+  [
+   13412,
+   0,
+   45,
+   0
+  ],
+  [
+   14877,
+   0,
+   5587,
+   4284
+  ],
+  [
+   16195,
+   0,
+   45,
+   0
+  ],
+  [
+   17625,
+   0,
+   574,
+   439
+  ],
+  [
+   17774,
+   0,
+   289,
+   244
+  ],
+  [
+   19117,
+   0,
+   1088,
+   542
+  ],
+  [
+   19677,
+   0,
+   1180,
+   0
+  ],
+  [
+   20872,
+   0,
+   61,
+   0
+  ]
+ ]
+}

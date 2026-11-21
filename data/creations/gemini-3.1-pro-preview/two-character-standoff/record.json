@@ -1,0 +1,54 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "two-character-standoff",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "90b5f607acd561b9499e42e2279b14303f61b959e611063ad8ec5d7edfd00486"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 40,
+ "writes": 3,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 33430,
+ "cached_tokens": 5984,
+ "completion_tokens": 8525,
+ "reasoning_tokens": 32637,
+ "seconds": 378.7,
+ "llm_seconds": 375.4,
+ "tool_seconds": 2.5,
+ "calls_usage": [
+  [
+   7562,
+   0,
+   9612,
+   7013
+  ],
+  [
+   11280,
+   5984,
+   5615,
+   3426
+  ],
+  [
+   14588,
+   0,
+   25935,
+   22198
+  ]
+ ]
+}

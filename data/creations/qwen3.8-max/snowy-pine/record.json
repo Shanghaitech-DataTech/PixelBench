@@ -1,0 +1,138 @@
+{
+ "config": "qwen3.8-max",
+ "task": "snowy-pine",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "6b92b9b9cab07247a95127c32a351fcbe196564afcd83b3c6e68334f34cff79a"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 10,
+ "writes": 10,
+ "model_rounds": 17,
+ "llm_calls": 17,
+ "retries": 0,
+ "prompt_tokens": 439901,
+ "cached_tokens": 389504,
+ "completion_tokens": 28989,
+ "reasoning_tokens": 23373,
+ "seconds": 655.8,
+ "llm_seconds": 649.7,
+ "tool_seconds": 5.2,
+ "calls_usage": [
+  [
+   7879,
+   7168,
+   92,
+   16
+  ],
+  [
+   7981,
+   7552,
+   52,
+   24
+  ],
+  [
+   24520,
+   7552,
+   528,
+   456
+  ],
+  [
+   24611,
+   23936,
+   53,
+   25
+  ],
+  [
+   25340,
+   7168,
+   5758,
+   4877
+  ],
+  [
+   26240,
+   24576,
+   803,
+   774
+  ],
+  [
+   26570,
+   25600,
+   4591,
+   3953
+  ],
+  [
+   27227,
+   26496,
+   810,
+   672
+  ],
+  [
+   27383,
+   26624,
+   534,
+   506
+  ],
+  [
+   27713,
+   26624,
+   3173,
+   2316
+  ],
+  [
+   28588,
+   27648,
+   4601,
+   3899
+  ],
+  [
+   29307,
+   27648,
+   1107,
+   112
+  ],
+  [
+   30321,
+   28800,
+   397,
+   368
+  ],
+  [
+   30652,
+   29952,
+   5589,
+   4674
+  ],
+  [
+   31586,
+   29696,
+   161,
+   132
+  ],
+  [
+   31918,
+   30720,
+   566,
+   436
+  ],
+  [
+   32065,
+   31744,
+   174,
+   133
+  ]
+ ]
+}

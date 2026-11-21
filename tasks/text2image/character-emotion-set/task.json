@@ -1,0 +1,16 @@
+{
+  "id": "character-emotion-set",
+  "task_type": "agentic_creation",
+  "prompt": "pixel art, 64x64 resolution, big head portraits of the same character in four emotions, 2x2 grid, calm, smiling, angry, surprised, same character with same hair and outfit in all four, expressive and clearly readable, dark outline, transparent background",
+  "width": 64,
+  "height": 64,
+  "constraints": {
+    "max_colors": 86,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 25,
+    "max_code_seconds": 120
+  }
+}

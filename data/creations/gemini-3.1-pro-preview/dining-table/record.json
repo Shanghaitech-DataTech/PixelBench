@@ -1,0 +1,42 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "dining-table",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0001",
+  "source_hashes": {
+   "main.py": "6266598d725f6ae368e4595041c76b95ffc07e7acf7e635c469055aa1b792e88"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 20,
+ "writes": 1,
+ "model_rounds": 1,
+ "llm_calls": 1,
+ "retries": 0,
+ "prompt_tokens": 7561,
+ "cached_tokens": 0,
+ "completion_tokens": 2464,
+ "reasoning_tokens": 27767,
+ "seconds": 284.1,
+ "llm_seconds": 282.9,
+ "tool_seconds": 0.6,
+ "calls_usage": [
+  [
+   7561,
+   0,
+   30231,
+   27767
+  ]
+ ]
+}

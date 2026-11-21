@@ -1,0 +1,42 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "subway-platform",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0001",
+  "source_hashes": {
+   "main.py": "c1a2197e0ec53cd6526355188356431cc6fa4481084dbdbe8dff91c7fec5facb"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 49,
+ "writes": 1,
+ "model_rounds": 1,
+ "llm_calls": 1,
+ "retries": 0,
+ "prompt_tokens": 7559,
+ "cached_tokens": 0,
+ "completion_tokens": 3067,
+ "reasoning_tokens": 16972,
+ "seconds": 183.4,
+ "llm_seconds": 182.1,
+ "tool_seconds": 0.7,
+ "calls_usage": [
+  [
+   7559,
+   0,
+   20039,
+   16972
+  ]
+ ]
+}

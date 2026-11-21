@@ -1,0 +1,78 @@
+{
+ "config": "gpt-6-astra@effort-low",
+ "task": "melting-icecream",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "d72b323383d4716dbc8c161e4e3a656cf0702b1b1433fb8ab719ae1a016064df"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 65,
+ "writes": 3,
+ "model_rounds": 7,
+ "llm_calls": 7,
+ "retries": 0,
+ "prompt_tokens": 97373,
+ "cached_tokens": 91008,
+ "completion_tokens": 609,
+ "reasoning_tokens": 51,
+ "seconds": 77.7,
+ "llm_seconds": 74.5,
+ "tool_seconds": 2.5,
+ "calls_usage": [
+  [
+   11214,
+   10752,
+   64,
+   0
+  ],
+  [
+   11293,
+   11136,
+   18,
+   0
+  ],
+  [
+   13453,
+   11136,
+   68,
+   24
+  ],
+  [
+   13510,
+   13312,
+   18,
+   0
+  ],
+  [
+   15585,
+   13312,
+   401,
+   27
+  ],
+  [
+   15972,
+   15488,
+   18,
+   0
+  ],
+  [
+   16346,
+   15872,
+   22,
+   0
+  ]
+ ]
+}

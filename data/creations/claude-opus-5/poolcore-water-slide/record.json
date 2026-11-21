@@ -1,0 +1,144 @@
+{
+ "config": "claude-opus-5",
+ "task": "poolcore-water-slide",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "8fb1823147b04562f4b381bcc09d40b47a1bac4d41e021f9b88db9c700b1f184"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 36,
+ "writes": 10,
+ "model_rounds": 18,
+ "llm_calls": 18,
+ "retries": 0,
+ "prompt_tokens": 301038,
+ "cached_tokens": 270935,
+ "completion_tokens": 8306,
+ "reasoning_tokens": 0,
+ "seconds": 439.2,
+ "llm_seconds": 431.2,
+ "tool_seconds": 6.2,
+ "calls_usage": [
+  [
+   7905,
+   7115,
+   38,
+   0
+  ],
+  [
+   7951,
+   7156,
+   4632,
+   0
+  ],
+  [
+   13682,
+   12314,
+   7,
+   0
+  ],
+  [
+   14199,
+   12779,
+   402,
+   0
+  ],
+  [
+   14414,
+   12973,
+   1020,
+   0
+  ],
+  [
+   15920,
+   14328,
+   7,
+   0
+  ],
+  [
+   16436,
+   14792,
+   237,
+   0
+  ],
+  [
+   16652,
+   14987,
+   213,
+   0
+  ],
+  [
+   16946,
+   15251,
+   265,
+   0
+  ],
+  [
+   17300,
+   15570,
+   7,
+   0
+  ],
+  [
+   17816,
+   16034,
+   127,
+   0
+  ],
+  [
+   17878,
+   16090,
+   7,
+   0
+  ],
+  [
+   18635,
+   16772,
+   994,
+   0
+  ],
+  [
+   20182,
+   18164,
+   7,
+   0
+  ],
+  [
+   20939,
+   18845,
+   263,
+   0
+  ],
+  [
+   21183,
+   19065,
+   39,
+   0
+  ],
+  [
+   21242,
+   19118,
+   7,
+   0
+  ],
+  [
+   21758,
+   19582,
+   34,
+   0
+  ]
+ ]
+}

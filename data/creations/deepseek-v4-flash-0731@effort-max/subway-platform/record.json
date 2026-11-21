@@ -1,0 +1,121 @@
+{
+ "config": "deepseek-v4-flash-0731@effort-max",
+ "task": "subway-platform",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "check.py": "a711b3d04f368c8979274b7897c3fbfc641ddcb306b660e0c1acb1352c827c56",
+   "main.py": "5539769fa4c4462128e0d52dd69bc61ea023128820b96a8d2492f89ca3cc6f0a"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 46,
+ "writes": 8,
+ "model_rounds": 14,
+ "llm_calls": 14,
+ "retries": 0,
+ "prompt_tokens": 257855,
+ "cached_tokens": 0,
+ "completion_tokens": 37928,
+ "reasoning_tokens": 32723,
+ "seconds": 626.0,
+ "llm_seconds": 621.8,
+ "tool_seconds": 3.5,
+ "calls_usage": [
+  [
+   7694,
+   0,
+   23400,
+   20438
+  ],
+  [
+   10674,
+   0,
+   54,
+   9
+  ],
+  [
+   10899,
+   0,
+   584,
+   173
+  ],
+  [
+   11335,
+   0,
+   45,
+   0
+  ],
+  [
+   15890,
+   0,
+   7072,
+   6763
+  ],
+  [
+   16214,
+   0,
+   45,
+   0
+  ],
+  [
+   16943,
+   0,
+   332,
+   207
+  ],
+  [
+   17082,
+   0,
+   45,
+   0
+  ],
+  [
+   22958,
+   0,
+   4947,
+   4349
+  ],
+  [
+   23591,
+   0,
+   104,
+   26
+  ],
+  [
+   23700,
+   0,
+   46,
+   0
+  ],
+  [
+   26660,
+   0,
+   350,
+   0
+  ],
+  [
+   27024,
+   0,
+   789,
+   731
+  ],
+  [
+   27191,
+   0,
+   115,
+   27
+  ]
+ ]
+}

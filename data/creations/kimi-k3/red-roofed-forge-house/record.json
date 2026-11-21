@@ -1,0 +1,66 @@
+{
+ "config": "kimi-k3",
+ "task": "red-roofed-forge-house",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "2e6af13fa1e0d35a3147efddbef33b2db4b70c468677008deecc89aec2323dbe"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 52,
+ "writes": 3,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 52869,
+ "cached_tokens": 47299,
+ "completion_tokens": 55673,
+ "reasoning_tokens": 51887,
+ "seconds": 1499.2,
+ "llm_seconds": 1496.0,
+ "tool_seconds": 2.5,
+ "calls_usage": [
+  [
+   7241,
+   6912,
+   47339,
+   44055
+  ],
+  [
+   10556,
+   7168,
+   52,
+   0
+  ],
+  [
+   11215,
+   10496,
+   8056,
+   7725
+  ],
+  [
+   11599,
+   11203,
+   52,
+   0
+  ],
+  [
+   12258,
+   11520,
+   174,
+   107
+  ]
+ ]
+}

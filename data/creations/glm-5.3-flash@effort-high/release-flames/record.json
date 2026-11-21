@@ -1,0 +1,132 @@
+{
+ "config": "glm-5.3-flash@effort-high",
+ "task": "release-flames",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "8d125d49ed993095e453a0f3158b0662c70b626a50edeeb3b8bbf47f155eda23"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 17,
+ "writes": 8,
+ "model_rounds": 16,
+ "llm_calls": 16,
+ "retries": 0,
+ "prompt_tokens": 162720,
+ "cached_tokens": 0,
+ "completion_tokens": 18244,
+ "reasoning_tokens": 15689,
+ "seconds": 275.2,
+ "llm_seconds": 270.7,
+ "tool_seconds": 3.9,
+ "calls_usage": [
+  [
+   7537,
+   0,
+   24,
+   8
+  ],
+  [
+   7644,
+   0,
+   32,
+   0
+  ],
+  [
+   7684,
+   0,
+   12,
+   0
+  ],
+  [
+   7782,
+   0,
+   44,
+   0
+  ],
+  [
+   7834,
+   0,
+   12,
+   0
+  ],
+  [
+   8386,
+   0,
+   127,
+   56
+  ],
+  [
+   8465,
+   0,
+   12,
+   0
+  ],
+  [
+   9812,
+   0,
+   3664,
+   3556
+  ],
+  [
+   9928,
+   0,
+   12,
+   0
+  ],
+  [
+   10753,
+   0,
+   12649,
+   11647
+  ],
+  [
+   11763,
+   0,
+   12,
+   0
+  ],
+  [
+   12264,
+   0,
+   169,
+   0
+  ],
+  [
+   12440,
+   0,
+   72,
+   0
+  ],
+  [
+   12519,
+   0,
+   12,
+   0
+  ],
+  [
+   13475,
+   0,
+   1373,
+   422
+  ],
+  [
+   14434,
+   0,
+   18,
+   0
+  ]
+ ]
+}

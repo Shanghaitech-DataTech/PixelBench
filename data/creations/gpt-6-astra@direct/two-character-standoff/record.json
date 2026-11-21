@@ -1,0 +1,45 @@
+{
+ "config": "gpt-6-astra@direct",
+ "task": "two-character-standoff",
+ "ok": true,
+ "error": null,
+ "termination": "answered",
+ "frames": 1,
+ "colors": 25,
+ "parse": {
+  "ok": true,
+  "diags": [
+   {
+    "declared": [
+     128,
+     128
+    ],
+    "size": [
+     128,
+     128
+    ],
+    "rows": 128,
+    "rows_wrong_length": 10,
+    "rows_beyond_tolerance": 0,
+    "rows_missing": 0,
+    "rows_extra": 0,
+    "undeclared_pixels": 6
+   }
+  ]
+ },
+ "max_tokens": 131072,
+ "time_limit_s": 3600.0,
+ "finish_reason": "stop",
+ "prompt_tokens": 4512,
+ "completion_tokens": 14001,
+ "reasoning_tokens": 7682,
+ "seconds": 510.6,
+ "calls_usage": [
+  [
+   4512,
+   4224,
+   14001,
+   7682
+  ]
+ ]
+}

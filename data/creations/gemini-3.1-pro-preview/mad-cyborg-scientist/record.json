@@ -1,0 +1,48 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "mad-cyborg-scientist",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0001",
+  "source_hashes": {
+   "main.py": "1ae59419af842bb56396af67295fd4297fdab91ff8320966c7df07ff407d137e"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 33,
+ "writes": 1,
+ "model_rounds": 2,
+ "llm_calls": 2,
+ "retries": 0,
+ "prompt_tokens": 48677,
+ "cached_tokens": 0,
+ "completion_tokens": 4201,
+ "reasoning_tokens": 29347,
+ "seconds": 300.6,
+ "llm_seconds": 299.3,
+ "tool_seconds": 0.6,
+ "calls_usage": [
+  [
+   7587,
+   0,
+   33501,
+   29320
+  ],
+  [
+   41090,
+   0,
+   47,
+   27
+  ]
+ ]
+}

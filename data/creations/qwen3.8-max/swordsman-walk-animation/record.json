@@ -1,0 +1,145 @@
+{
+ "config": "qwen3.8-max",
+ "task": "swordsman-walk-animation",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0008",
+  "source_hashes": {
+   "inspect.py": "b5e1b5727a2f6a5a74302bb6359dcbf50a9ec67c76cb4d82ac19ee5a15cc5025",
+   "main.py": "8c545e66a18a89d9bc9fe9c9428648b7e9025d0710cc9bece2a660a7f6bf9600"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 23,
+ "writes": 15,
+ "model_rounds": 18,
+ "llm_calls": 18,
+ "retries": 0,
+ "prompt_tokens": 338268,
+ "cached_tokens": 309760,
+ "completion_tokens": 75622,
+ "reasoning_tokens": 62711,
+ "seconds": 2236.1,
+ "llm_seconds": 2230.5,
+ "tool_seconds": 4.8,
+ "calls_usage": [
+  [
+   7823,
+   7168,
+   17718,
+   17685
+  ],
+  [
+   7874,
+   7168,
+   19026,
+   15660
+  ],
+  [
+   11259,
+   7168,
+   79,
+   51
+  ],
+  [
+   11659,
+   7168,
+   6643,
+   3189
+  ],
+  [
+   15132,
+   11520,
+   169,
+   140
+  ],
+  [
+   15788,
+   14976,
+   8570,
+   5020
+  ],
+  [
+   19357,
+   15360,
+   4792,
+   4420
+  ],
+  [
+   19755,
+   18432,
+   828,
+   431
+  ],
+  [
+   20178,
+   19584,
+   170,
+   142
+  ],
+  [
+   20835,
+   19584,
+   2431,
+   2382
+  ],
+  [
+   21512,
+   20736,
+   9101,
+   8003
+  ],
+  [
+   22660,
+   21504,
+   449,
+   420
+  ],
+  [
+   23319,
+   22528,
+   1752,
+   1669
+  ],
+  [
+   23420,
+   23040,
+   650,
+   543
+  ],
+  [
+   23545,
+   23040,
+   110,
+   82
+  ],
+  [
+   24181,
+   23040,
+   379,
+   235
+  ],
+  [
+   24342,
+   23552,
+   69,
+   41
+  ],
+  [
+   25629,
+   24192,
+   2686,
+   2598
+  ]
+ ]
+}

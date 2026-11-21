@@ -1,0 +1,96 @@
+{
+ "config": "gpt-6-astra@effort-xhigh",
+ "task": "rice-terraces-during-harvest",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "2d9d6fef738f50955c2bb40247ff57c6ba642bb813bf493e748221fcb6931e98"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 46,
+ "writes": 6,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 16,
+ "prompt_tokens": 154657,
+ "cached_tokens": 147712,
+ "completion_tokens": 9315,
+ "reasoning_tokens": 4198,
+ "seconds": 676.7,
+ "llm_seconds": 507.4,
+ "tool_seconds": 2.5,
+ "calls_usage": [
+  [
+   11140,
+   10752,
+   5108,
+   2072
+  ],
+  [
+   14191,
+   11008,
+   18,
+   0
+  ],
+  [
+   14636,
+   14080,
+   827,
+   516
+  ],
+  [
+   14959,
+   14464,
+   843,
+   516
+  ],
+  [
+   15298,
+   14848,
+   849,
+   0
+  ],
+  [
+   16161,
+   16128,
+   18,
+   0
+  ],
+  [
+   16606,
+   16128,
+   1166,
+   841
+  ],
+  [
+   16943,
+   16512,
+   324,
+   192
+  ],
+  [
+   17087,
+   16768,
+   18,
+   0
+  ],
+  [
+   17636,
+   17024,
+   144,
+   61
+  ]
+ ]
+}

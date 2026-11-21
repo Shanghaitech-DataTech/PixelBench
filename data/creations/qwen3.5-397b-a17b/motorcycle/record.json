@@ -1,0 +1,54 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "motorcycle",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "cf840e8e2df5b6c8be948d051bd503277a4b9f229de29b7ff83c431852d459a2"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 12,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 29362,
+ "cached_tokens": 0,
+ "completion_tokens": 3352,
+ "reasoning_tokens": 331,
+ "seconds": 90.0,
+ "llm_seconds": 88.0,
+ "tool_seconds": 1.3,
+ "calls_usage": [
+  [
+   7802,
+   0,
+   3187,
+   315
+  ],
+  [
+   10693,
+   0,
+   56,
+   16
+  ],
+  [
+   10867,
+   0,
+   109,
+   0
+  ]
+ ]
+}

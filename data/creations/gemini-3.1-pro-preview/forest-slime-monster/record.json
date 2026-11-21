@@ -1,0 +1,48 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "forest-slime-monster",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0001",
+  "source_hashes": {
+   "main.py": "c337bdfecfebb5be927626588b08e451ee522cd87a685df3e967989f2352db71"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 14,
+ "writes": 1,
+ "model_rounds": 2,
+ "llm_calls": 2,
+ "retries": 0,
+ "prompt_tokens": 41271,
+ "cached_tokens": 0,
+ "completion_tokens": 907,
+ "reasoning_tokens": 25295,
+ "seconds": 255.8,
+ "llm_seconds": 254.7,
+ "tool_seconds": 0.6,
+ "calls_usage": [
+  [
+   7558,
+   0,
+   26156,
+   25269
+  ],
+  [
+   33713,
+   0,
+   46,
+   26
+  ]
+ ]
+}

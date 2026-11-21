@@ -1,0 +1,60 @@
+{
+ "config": "claude-opus-5",
+ "task": "magic-staff",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "204d6173a035e6be47124b26aced43a3f6c262d7ab0e0569371b35c275f73836"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 14,
+ "writes": 3,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 39826,
+ "cached_tokens": 29693,
+ "completion_tokens": 1927,
+ "reasoning_tokens": 0,
+ "seconds": 133.6,
+ "llm_seconds": 130.4,
+ "tool_seconds": 2.6,
+ "calls_usage": [
+  [
+   7819,
+   0,
+   1534,
+   0
+  ],
+  [
+   10120,
+   8442,
+   235,
+   0
+  ],
+  [
+   10724,
+   10300,
+   78,
+   0
+  ],
+  [
+   11163,
+   10951,
+   80,
+   0
+  ]
+ ]
+}

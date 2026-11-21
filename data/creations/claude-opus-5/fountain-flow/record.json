@@ -1,0 +1,72 @@
+{
+ "config": "claude-opus-5",
+ "task": "fountain-flow",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "c572f77a021f6ef96fbde9c85c0f573deda3fbdeaf202f1ff3374eff4d5f89e8"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 17,
+ "writes": 4,
+ "model_rounds": 6,
+ "llm_calls": 6,
+ "retries": 0,
+ "prompt_tokens": 76149,
+ "cached_tokens": 68534,
+ "completion_tokens": 6470,
+ "reasoning_tokens": 0,
+ "seconds": 593.1,
+ "llm_seconds": 588.9,
+ "tool_seconds": 3.4,
+ "calls_usage": [
+  [
+   7933,
+   7140,
+   66,
+   0
+  ],
+  [
+   10578,
+   9520,
+   3547,
+   0
+  ],
+  [
+   12506,
+   11255,
+   2526,
+   0
+  ],
+  [
+   14645,
+   13181,
+   7,
+   0
+  ],
+  [
+   15048,
+   13543,
+   312,
+   0
+  ],
+  [
+   15439,
+   13895,
+   12,
+   0
+  ]
+ ]
+}

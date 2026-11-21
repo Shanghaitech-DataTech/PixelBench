@@ -1,0 +1,132 @@
+{
+ "config": "kimi-k3",
+ "task": "bamboo-steamer",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0008",
+  "source_hashes": {
+   "main.py": "976278f304a34949ac90957ccb675581c2809d0c20af02e52949cc2af39ab727"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 13,
+ "writes": 9,
+ "model_rounds": 16,
+ "llm_calls": 16,
+ "retries": 0,
+ "prompt_tokens": 176167,
+ "cached_tokens": 167755,
+ "completion_tokens": 27087,
+ "reasoning_tokens": 23252,
+ "seconds": 675.6,
+ "llm_seconds": 670.5,
+ "tool_seconds": 4.5,
+ "calls_usage": [
+  [
+   7221,
+   6912,
+   16495,
+   15286
+  ],
+  [
+   8464,
+   7168,
+   49,
+   0
+  ],
+  [
+   8839,
+   8448,
+   164,
+   19
+  ],
+  [
+   9017,
+   8704,
+   49,
+   0
+  ],
+  [
+   9509,
+   8960,
+   2114,
+   1586
+  ],
+  [
+   10093,
+   9497,
+   234,
+   0
+  ],
+  [
+   10360,
+   9984,
+   49,
+   0
+  ],
+  [
+   10852,
+   10240,
+   407,
+   0
+  ],
+  [
+   11292,
+   10840,
+   49,
+   0
+  ],
+  [
+   11784,
+   11264,
+   1518,
+   1372
+  ],
+  [
+   11963,
+   11776,
+   49,
+   0
+  ],
+  [
+   12455,
+   11776,
+   3562,
+   3155
+  ],
+  [
+   12895,
+   12443,
+   49,
+   0
+  ],
+  [
+   13387,
+   12800,
+   1647,
+   1295
+  ],
+  [
+   13772,
+   13375,
+   49,
+   0
+  ],
+  [
+   14264,
+   13568,
+   603,
+   539
+  ]
+ ]
+}

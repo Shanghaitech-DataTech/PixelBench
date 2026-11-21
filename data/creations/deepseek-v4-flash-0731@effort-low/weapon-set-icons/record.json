@@ -1,0 +1,90 @@
+{
+ "config": "deepseek-v4-flash-0731@effort-low",
+ "task": "weapon-set-icons",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "00ae5162584bf6f6a5eb6dc2673ccfb2625c459fff455ac385b3b4400ee2c9cc"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 11,
+ "writes": 4,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 94127,
+ "cached_tokens": 0,
+ "completion_tokens": 12192,
+ "reasoning_tokens": 8890,
+ "seconds": 321.9,
+ "llm_seconds": 318.4,
+ "tool_seconds": 2.8,
+ "calls_usage": [
+  [
+   7598,
+   0,
+   8950,
+   7745
+  ],
+  [
+   8818,
+   0,
+   45,
+   0
+  ],
+  [
+   8995,
+   0,
+   2279,
+   822
+  ],
+  [
+   10467,
+   0,
+   45,
+   0
+  ],
+  [
+   10645,
+   0,
+   115,
+   45
+  ],
+  [
+   10848,
+   0,
+   191,
+   13
+  ],
+  [
+   11040,
+   0,
+   45,
+   0
+  ],
+  [
+   12753,
+   0,
+   461,
+   265
+  ],
+  [
+   12963,
+   0,
+   61,
+   0
+  ]
+ ]
+}

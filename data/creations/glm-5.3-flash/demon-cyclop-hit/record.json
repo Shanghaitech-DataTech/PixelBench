@@ -1,0 +1,173 @@
+{
+ "config": "glm-5.3-flash",
+ "task": "demon-cyclop-hit",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 3,
+  "actual_count": 3,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0011",
+  "source_hashes": {
+   "inspect.py": "41630369ac9b14030c527366398717d857cf8915faf693f55a950a82f4218871",
+   "inspect2.py": "ca498f570c9188e2f344c1970f74c211f64d83ef30329bc920ff4ae3e4709964",
+   "inspect3.py": "fa52bc88d8f49d150ab07830dc8070b8b0dbdf4d3dba5b12e6c1874b088799e7",
+   "inspect4.py": "1660c9a22c3cd2a0d163fd852190e661cfc823365325832f7e2f81b1f66a8f1b",
+   "inspect5.py": "13523333dd24b913a95739fca14cab9151729f7010585164dbcf2d98bba45386",
+   "main.py": "dd19e1d0ae780bdea393f1b4950eab0d8c02b9fd05b2c220241e5bd9a296a64e"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 3,
+ "colors": 17,
+ "writes": 10,
+ "model_rounds": 22,
+ "llm_calls": 22,
+ "retries": 0,
+ "prompt_tokens": 284381,
+ "cached_tokens": 0,
+ "completion_tokens": 136064,
+ "reasoning_tokens": 130615,
+ "seconds": 1803.5,
+ "llm_seconds": 1796.7,
+ "tool_seconds": 6.0,
+ "calls_usage": [
+  [
+   7570,
+   0,
+   22,
+   0
+  ],
+  [
+   7683,
+   0,
+   42,
+   12
+  ],
+  [
+   7721,
+   0,
+   12,
+   0
+  ],
+  [
+   8395,
+   0,
+   2003,
+   1860
+  ],
+  [
+   8546,
+   0,
+   12,
+   0
+  ],
+  [
+   8933,
+   0,
+   135,
+   0
+  ],
+  [
+   9076,
+   0,
+   12,
+   0
+  ],
+  [
+   9959,
+   0,
+   50728,
+   50227
+  ],
+  [
+   10469,
+   0,
+   13,
+   0
+  ],
+  [
+   12849,
+   0,
+   570,
+   202
+  ],
+  [
+   13226,
+   0,
+   13,
+   0
+  ],
+  [
+   13297,
+   0,
+   2511,
+   2173
+  ],
+  [
+   13644,
+   0,
+   13,
+   0
+  ],
+  [
+   13885,
+   0,
+   592,
+   211
+  ],
+  [
+   14275,
+   0,
+   13,
+   0
+  ],
+  [
+   14476,
+   0,
+   26021,
+   25193
+  ],
+  [
+   15312,
+   0,
+   12,
+   0
+  ],
+  [
+   16209,
+   0,
+   36357,
+   35199
+  ],
+  [
+   17375,
+   0,
+   12,
+   0
+  ],
+  [
+   19068,
+   0,
+   15442,
+   14259
+  ],
+  [
+   20259,
+   0,
+   12,
+   0
+  ],
+  [
+   22154,
+   0,
+   1517,
+   1279
+  ]
+ ]
+}

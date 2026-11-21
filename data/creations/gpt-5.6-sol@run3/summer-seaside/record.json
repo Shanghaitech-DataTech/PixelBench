@@ -1,0 +1,72 @@
+{
+ "config": "gpt-5.6-sol@run3",
+ "task": "summer-seaside",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "0feab2abac113f2fb4bb4c7284629b3499ab7fbcf9ab6760459a600a3786585c"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 32,
+ "writes": 2,
+ "model_rounds": 6,
+ "llm_calls": 6,
+ "retries": 1,
+ "prompt_tokens": 82315,
+ "cached_tokens": 77312,
+ "completion_tokens": 3733,
+ "reasoning_tokens": 503,
+ "seconds": 111.4,
+ "llm_seconds": 100.3,
+ "tool_seconds": 3.2,
+ "calls_usage": [
+  [
+   11441,
+   11008,
+   89,
+   14
+  ],
+  [
+   11528,
+   11264,
+   2921,
+   144
+  ],
+  [
+   14318,
+   11392,
+   22,
+   0
+  ],
+  [
+   14696,
+   14208,
+   607,
+   338
+  ],
+  [
+   14977,
+   14464,
+   22,
+   0
+  ],
+  [
+   15355,
+   14976,
+   72,
+   7
+  ]
+ ]
+}

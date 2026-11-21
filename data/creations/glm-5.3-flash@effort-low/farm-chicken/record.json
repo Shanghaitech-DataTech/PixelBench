@@ -1,0 +1,138 @@
+{
+ "config": "glm-5.3-flash@effort-low",
+ "task": "farm-chicken",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "main.py": "75ec27f0676df9dec49f5467a9b95109c36df6a2ff473fc982b8a493f68ba677"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 13,
+ "writes": 11,
+ "model_rounds": 17,
+ "llm_calls": 17,
+ "retries": 0,
+ "prompt_tokens": 179459,
+ "cached_tokens": 0,
+ "completion_tokens": 3582,
+ "reasoning_tokens": 1059,
+ "seconds": 101.2,
+ "llm_seconds": 95.8,
+ "tool_seconds": 3.1,
+ "calls_usage": [
+  [
+   7291,
+   0,
+   1148,
+   138
+  ],
+  [
+   8309,
+   0,
+   12,
+   0
+  ],
+  [
+   8933,
+   0,
+   1185,
+   921
+  ],
+  [
+   9204,
+   0,
+   68,
+   0
+  ],
+  [
+   9279,
+   0,
+   12,
+   0
+  ],
+  [
+   9909,
+   0,
+   70,
+   0
+  ],
+  [
+   9986,
+   0,
+   104,
+   0
+  ],
+  [
+   10097,
+   0,
+   12,
+   0
+  ],
+  [
+   10713,
+   0,
+   263,
+   0
+  ],
+  [
+   10983,
+   0,
+   62,
+   0
+  ],
+  [
+   11052,
+   0,
+   12,
+   0
+  ],
+  [
+   11667,
+   0,
+   86,
+   0
+  ],
+  [
+   11760,
+   0,
+   172,
+   0
+  ],
+  [
+   11939,
+   0,
+   12,
+   0
+  ],
+  [
+   12555,
+   0,
+   305,
+   0
+  ],
+  [
+   12867,
+   0,
+   41,
+   0
+  ],
+  [
+   12915,
+   0,
+   18,
+   0
+  ]
+ ]
+}

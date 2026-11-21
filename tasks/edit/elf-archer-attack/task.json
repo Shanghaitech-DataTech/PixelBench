@@ -1,0 +1,23 @@
+{
+  "id": "elf-archer-attack",
+  "task_type": "edit",
+  "prompt": "2 frames. Frame 1 keeps the original picture content (the canvas may be changed); frame 2 shows the elf archer drawing the bow to its maximum - the bow fully open with the whole pose shifted into a proper drawn-bow stance. No arrow.",
+  "width": 35,
+  "height": 47,
+  "constraints": {
+    "max_colors": null,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 15,
+    "max_code_seconds": 120
+  },
+  "input_size": {
+    "width": 35,
+    "height": 47
+  },
+  "output_size": "agent_defined",
+  "num_frames": 2,
+  "frames_visible": false
+}

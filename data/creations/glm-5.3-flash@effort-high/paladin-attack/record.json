@@ -1,0 +1,129 @@
+{
+ "config": "glm-5.3-flash@effort-high",
+ "task": "paladin-attack",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "inspect.py": "1f80f5ba8d76d350ce8f6484ee229c6f39440f87dc329cb2486f64a27e3c73d3",
+   "inspect2.py": "c6dbbf15e4e9d6160ca9afd0eb4ee5c2c6282bf50c0331ca2e7555b6b65b42ec",
+   "inspect3.py": "8fb8e494426a6bf199221feb46e21312bf501734243bb37a84d230cf802a0958",
+   "main.py": "3cb7ae9359c270e7dc993a7aa709026075e03ea96cd6ce5bfe669309fb852371"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 44,
+ "writes": 8,
+ "model_rounds": 15,
+ "llm_calls": 15,
+ "retries": 0,
+ "prompt_tokens": 208871,
+ "cached_tokens": 0,
+ "completion_tokens": 60472,
+ "reasoning_tokens": 55854,
+ "seconds": 873.4,
+ "llm_seconds": 868.7,
+ "tool_seconds": 4.0,
+ "calls_usage": [
+  [
+   7548,
+   0,
+   26,
+   10
+  ],
+  [
+   7656,
+   0,
+   48,
+   18
+  ],
+  [
+   7694,
+   0,
+   12,
+   0
+  ],
+  [
+   9623,
+   0,
+   6854,
+   6368
+  ],
+  [
+   10118,
+   0,
+   13,
+   0
+  ],
+  [
+   11416,
+   0,
+   1589,
+   1503
+  ],
+  [
+   11511,
+   0,
+   13,
+   0
+  ],
+  [
+   13133,
+   0,
+   35972,
+   34423
+  ],
+  [
+   14690,
+   0,
+   12,
+   0
+  ],
+  [
+   16364,
+   0,
+   14953,
+   13411
+  ],
+  [
+   17914,
+   0,
+   12,
+   0
+  ],
+  [
+   19114,
+   0,
+   723,
+   0
+  ],
+  [
+   19849,
+   0,
+   12,
+   0
+  ],
+  [
+   21070,
+   0,
+   215,
+   121
+  ],
+  [
+   21171,
+   0,
+   18,
+   0
+  ]
+ ]
+}

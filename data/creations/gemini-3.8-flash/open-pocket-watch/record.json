@@ -1,0 +1,121 @@
+{
+ "config": "gemini-3.8-flash",
+ "task": "open-pocket-watch",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "87ec1da977f9cde12f868efe325656675d316cff1e93e581b1fc3bb74d5c6676",
+   "test.py": "1128169ebd94449acee12cb1be2c87d7f4b93b9b79db1ddc88f732b7a33cb25c"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 37,
+ "writes": 6,
+ "model_rounds": 14,
+ "llm_calls": 14,
+ "retries": 0,
+ "prompt_tokens": 559191,
+ "cached_tokens": 256117,
+ "completion_tokens": 46242,
+ "reasoning_tokens": 24568,
+ "seconds": 569.9,
+ "llm_seconds": 563.9,
+ "tool_seconds": 5.1,
+ "calls_usage": [
+  [
+   7572,
+   0,
+   146,
+   136
+  ],
+  [
+   7727,
+   0,
+   4434,
+   4399
+  ],
+  [
+   12163,
+   0,
+   27,
+   11
+  ],
+  [
+   12211,
+   7767,
+   3938,
+   3848
+  ],
+  [
+   16151,
+   12249,
+   35,
+   19
+  ],
+  [
+   17336,
+   0,
+   18549,
+   7300
+  ],
+  [
+   35887,
+   16270,
+   33,
+   17
+  ],
+  [
+   37182,
+   33834,
+   15937,
+   4637
+  ],
+  [
+   53121,
+   37271,
+   31,
+   15
+  ],
+  [
+   54413,
+   51062,
+   14070,
+   2144
+  ],
+  [
+   68485,
+   0,
+   32,
+   16
+  ],
+  [
+   69779,
+   16270,
+   13150,
+   1634
+  ],
+  [
+   82931,
+   0,
+   31,
+   15
+  ],
+  [
+   84233,
+   81394,
+   397,
+   377
+  ]
+ ]
+}

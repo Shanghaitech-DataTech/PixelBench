@@ -1,0 +1,147 @@
+{
+ "config": "qwen3.8-max",
+ "task": "house-turn-2view",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0008",
+  "source_hashes": {
+   "dbg.py": "595d9ba9213cab0aa8af233d5c099b3318ca8cb5e254e1d137832ad3fc00cffa",
+   "inspect.py": "a7ea465ffbd862633f4299b054befae50eb134110120fef6ea18d1645cc1fcfd",
+   "inspect2.py": "248505cb65f632b93bf8c8f6a86c5a6e123a6bbe67f263031eb5ebb97a011037",
+   "main.py": "37d958a8a935e85f65f9dce608a28150bf9d38e6679115f5944a7f670e580415"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 14,
+ "writes": 9,
+ "model_rounds": 18,
+ "llm_calls": 18,
+ "retries": 0,
+ "prompt_tokens": 293920,
+ "cached_tokens": 270080,
+ "completion_tokens": 56048,
+ "reasoning_tokens": 49557,
+ "seconds": 1242.8,
+ "llm_seconds": 1234.2,
+ "tool_seconds": 7.7,
+ "calls_usage": [
+  [
+   8092,
+   7168,
+   99,
+   23
+  ],
+  [
+   8195,
+   7552,
+   38,
+   10
+  ],
+  [
+   8620,
+   7168,
+   10490,
+   10425
+  ],
+  [
+   8704,
+   8192,
+   39,
+   10
+  ],
+  [
+   9267,
+   8192,
+   22213,
+   17887
+  ],
+  [
+   13611,
+   9216,
+   2214,
+   2000
+  ],
+  [
+   13842,
+   13312,
+   445,
+   402
+  ],
+  [
+   18043,
+   13824,
+   245,
+   40
+  ],
+  [
+   18265,
+   17408,
+   137,
+   108
+  ],
+  [
+   19009,
+   17408,
+   6082,
+   5771
+  ],
+  [
+   19338,
+   18432,
+   158,
+   129
+  ],
+  [
+   20056,
+   18432,
+   4411,
+   4287
+  ],
+  [
+   20197,
+   19584,
+   126,
+   97
+  ],
+  [
+   20915,
+   19584,
+   7247,
+   6729
+  ],
+  [
+   21452,
+   20736,
+   146,
+   118
+  ],
+  [
+   21682,
+   20480,
+   1485,
+   1228
+  ],
+  [
+   21957,
+   21504,
+   128,
+   100
+  ],
+  [
+   22675,
+   21888,
+   345,
+   193
+  ]
+ ]
+}

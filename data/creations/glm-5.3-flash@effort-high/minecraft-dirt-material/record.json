@@ -1,0 +1,60 @@
+{
+ "config": "glm-5.3-flash@effort-high",
+ "task": "minecraft-dirt-material",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "d898f3fffa022e5a1c433b21d01fe5b8688d51ec3b8845eea4227eb8614303de"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 9,
+ "writes": 2,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 31888,
+ "cached_tokens": 0,
+ "completion_tokens": 1514,
+ "reasoning_tokens": 805,
+ "seconds": 29.1,
+ "llm_seconds": 27.6,
+ "tool_seconds": 1.0,
+ "calls_usage": [
+  [
+   7287,
+   0,
+   1016,
+   419
+  ],
+  [
+   7892,
+   0,
+   12,
+   0
+  ],
+  [
+   8310,
+   0,
+   468,
+   386
+  ],
+  [
+   8399,
+   0,
+   18,
+   0
+  ]
+ ]
+}

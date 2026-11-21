@@ -1,0 +1,84 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "rpg-wooden-planks-material",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "e0a984252294f1d423ce088eaee1971b5e6714d36bbdb14dfbba0dcf5a5287d9"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 7,
+ "writes": 4,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 0,
+ "prompt_tokens": 132268,
+ "cached_tokens": 17656,
+ "completion_tokens": 5661,
+ "reasoning_tokens": 34635,
+ "seconds": 435.5,
+ "llm_seconds": 432.5,
+ "tool_seconds": 2.3,
+ "calls_usage": [
+  [
+   7571,
+   0,
+   7822,
+   6357
+  ],
+  [
+   15395,
+   6038,
+   26,
+   6
+  ],
+  [
+   10175,
+   5968,
+   7996,
+   6395
+  ],
+  [
+   18173,
+   0,
+   20,
+   0
+  ],
+  [
+   12915,
+   0,
+   7398,
+   6088
+  ],
+  [
+   20315,
+   5650,
+   20,
+   0
+  ],
+  [
+   15364,
+   0,
+   16994,
+   15789
+  ],
+  [
+   32360,
+   0,
+   20,
+   0
+  ]
+ ]
+}

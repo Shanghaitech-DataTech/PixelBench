@@ -1,0 +1,114 @@
+{
+ "config": "qwen3.8-max",
+ "task": "female-lab-researcher-chibi",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "0448d3d8bc5d5d0f63e6c6cf8f9c7914d61f09b86795746aa92a2821014f93e3"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 16,
+ "writes": 7,
+ "model_rounds": 13,
+ "llm_calls": 13,
+ "retries": 0,
+ "prompt_tokens": 122219,
+ "cached_tokens": 110848,
+ "completion_tokens": 57416,
+ "reasoning_tokens": 55673,
+ "seconds": 1203.7,
+ "llm_seconds": 1200.5,
+ "tool_seconds": 2.6,
+ "calls_usage": [
+  [
+   7803,
+   7168,
+   24279,
+   24251
+  ],
+  [
+   7849,
+   7168,
+   17983,
+   17230
+  ],
+  [
+   8621,
+   7168,
+   84,
+   56
+  ],
+  [
+   8950,
+   7168,
+   4957,
+   4820
+  ],
+  [
+   9104,
+   8192,
+   1009,
+   919
+  ],
+  [
+   9212,
+   8192,
+   1993,
+   1792
+  ],
+  [
+   9430,
+   8192,
+   1051,
+   964
+  ],
+  [
+   9534,
+   9216,
+   106,
+   77
+  ],
+  [
+   9901,
+   9216,
+   3368,
+   3260
+  ],
+  [
+   10027,
+   9216,
+   940,
+   912
+  ],
+  [
+   10394,
+   9216,
+   1224,
+   1123
+  ],
+  [
+   10513,
+   10368,
+   188,
+   159
+  ],
+  [
+   10881,
+   10368,
+   234,
+   110
+  ]
+ ]
+}

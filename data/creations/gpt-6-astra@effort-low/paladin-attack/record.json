@@ -1,0 +1,66 @@
+{
+ "config": "gpt-6-astra@effort-low",
+ "task": "paladin-attack",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "5c947d12ac7dea75a67a1786efd961351e53616fb348bb119b23b5c2ec19ad27"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 43,
+ "writes": 2,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 69671,
+ "cached_tokens": 63744,
+ "completion_tokens": 1693,
+ "reasoning_tokens": 268,
+ "seconds": 106.7,
+ "llm_seconds": 104.0,
+ "tool_seconds": 2.0,
+ "calls_usage": [
+  [
+   11389,
+   10752,
+   82,
+   0
+  ],
+  [
+   11486,
+   11392,
+   18,
+   0
+  ],
+  [
+   14600,
+   11392,
+   1488,
+   255
+  ],
+  [
+   15846,
+   14464,
+   18,
+   0
+  ],
+  [
+   16350,
+   15744,
+   87,
+   13
+  ]
+ ]
+}

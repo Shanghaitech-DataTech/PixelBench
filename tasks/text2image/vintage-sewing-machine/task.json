@@ -1,0 +1,16 @@
+{
+  "id": "vintage-sewing-machine",
+  "task_type": "agentic_creation",
+  "prompt": "pixel art, 48x48 resolution, mechanical sewing machine, transparent background, slightly angled side view, handwheel needle bar presser foot base red fabric",
+  "width": 48,
+  "height": 48,
+  "constraints": {
+    "max_colors": 86,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 25,
+    "max_code_seconds": 120
+  }
+}

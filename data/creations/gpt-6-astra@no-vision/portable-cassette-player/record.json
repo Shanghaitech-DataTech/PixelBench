@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@no-vision",
+ "task": "portable-cassette-player",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "a4e0feef46b420e21ed9e693e5e37ed43ed1cb38fc6a013790e566c83e17b9d0"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 12,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 39177,
+ "cached_tokens": 22784,
+ "completion_tokens": 2701,
+ "reasoning_tokens": 1967,
+ "seconds": 71.9,
+ "llm_seconds": 70.1,
+ "tool_seconds": 1.2,
+ "calls_usage": [
+  [
+   12458,
+   0,
+   1706,
+   1006
+  ],
+  [
+   13137,
+   11136,
+   499,
+   483
+  ],
+  [
+   13582,
+   11648,
+   496,
+   478
+  ]
+ ]
+}

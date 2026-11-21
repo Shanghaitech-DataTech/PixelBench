@@ -1,0 +1,16 @@
+{
+  "id": "glow-jellyfish",
+  "task_type": "agentic_creation",
+  "prompt": "pixel art, 16x16 resolution, RPG enemy, small glowing jellyfish in deep water, translucent glowing bell, short tentacles, dark outline, transparent background",
+  "width": 16,
+  "height": 16,
+  "constraints": {
+    "max_colors": 86,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 25,
+    "max_code_seconds": 120
+  }
+}

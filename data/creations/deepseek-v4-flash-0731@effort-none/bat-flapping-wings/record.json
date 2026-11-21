@@ -1,0 +1,126 @@
+{
+ "config": "deepseek-v4-flash-0731@effort-none",
+ "task": "bat-flapping-wings",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "8d8ea46cd76fe420a0391cf85ae63dda7c6a271d4fa4c1957844650196398b24"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 9,
+ "writes": 6,
+ "model_rounds": 15,
+ "llm_calls": 15,
+ "retries": 0,
+ "prompt_tokens": 707284,
+ "cached_tokens": 0,
+ "completion_tokens": 106747,
+ "reasoning_tokens": 0,
+ "seconds": 2618.0,
+ "llm_seconds": 2613.7,
+ "tool_seconds": 3.7,
+ "calls_usage": [
+  [
+   7826,
+   0,
+   45,
+   0
+  ],
+  [
+   7966,
+   0,
+   28,
+   0
+  ],
+  [
+   8007,
+   0,
+   226,
+   0
+  ],
+  [
+   8248,
+   0,
+   44,
+   0
+  ],
+  [
+   8940,
+   0,
+   42612,
+   0
+  ],
+  [
+   51565,
+   0,
+   44,
+   0
+  ],
+  [
+   52101,
+   0,
+   237,
+   0
+  ],
+  [
+   52353,
+   0,
+   44,
+   0
+  ],
+  [
+   55814,
+   0,
+   1116,
+   0
+  ],
+  [
+   56945,
+   0,
+   44,
+   0
+  ],
+  [
+   57941,
+   0,
+   22114,
+   0
+  ],
+  [
+   80069,
+   0,
+   44,
+   0
+  ],
+  [
+   81136,
+   0,
+   7537,
+   0
+  ],
+  [
+   88686,
+   0,
+   44,
+   0
+  ],
+  [
+   89687,
+   0,
+   32568,
+   0
+  ]
+ ]
+}

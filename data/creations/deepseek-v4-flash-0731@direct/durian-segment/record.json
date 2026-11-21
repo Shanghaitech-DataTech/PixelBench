@@ -1,0 +1,42 @@
+{
+ "config": "deepseek-v4-flash-0731@direct",
+ "task": "durian-segment",
+ "ok": false,
+ "error": "unparseable",
+ "termination": "format",
+ "frames": 0,
+ "colors": null,
+ "parse": {
+  "ok": false,
+  "reason": "row count 146 vs 64",
+  "palette_size": 9,
+  "diags": [
+   {
+    "declared": [
+     64,
+     64
+    ],
+    "size": [
+     64,
+     64
+    ],
+    "rows": 146
+   }
+  ]
+ },
+ "max_tokens": 131072,
+ "time_limit_s": 3600.0,
+ "finish_reason": "stop",
+ "prompt_tokens": 1632,
+ "completion_tokens": 56229,
+ "reasoning_tokens": 53416,
+ "seconds": 960.2,
+ "calls_usage": [
+  [
+   1632,
+   0,
+   56229,
+   53416
+  ]
+ ]
+}

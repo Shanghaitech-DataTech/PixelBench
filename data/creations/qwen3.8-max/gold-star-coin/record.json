@@ -1,0 +1,114 @@
+{
+ "config": "qwen3.8-max",
+ "task": "gold-star-coin",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "cad3b022140a05979e3678c4784192007e22fd095fb47eb69611d372cce1a1d0"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 7,
+ "writes": 7,
+ "model_rounds": 13,
+ "llm_calls": 13,
+ "retries": 0,
+ "prompt_tokens": 129855,
+ "cached_tokens": 120064,
+ "completion_tokens": 38113,
+ "reasoning_tokens": 35907,
+ "seconds": 862.7,
+ "llm_seconds": 859.2,
+ "tool_seconds": 2.8,
+ "calls_usage": [
+  [
+   7787,
+   7168,
+   12817,
+   12779
+  ],
+  [
+   7843,
+   7552,
+   8016,
+   7330
+  ],
+  [
+   8548,
+   7552,
+   35,
+   7
+  ],
+  [
+   9050,
+   7168,
+   2767,
+   2276
+  ],
+  [
+   9558,
+   8192,
+   1569,
+   1352
+  ],
+  [
+   9792,
+   9216,
+   353,
+   324
+  ],
+  [
+   10332,
+   9216,
+   2671,
+   2481
+  ],
+  [
+   10539,
+   10240,
+   500,
+   395
+  ],
+  [
+   10671,
+   10240,
+   133,
+   29
+  ],
+  [
+   10793,
+   10368,
+   64,
+   35
+  ],
+  [
+   11333,
+   10368,
+   7942,
+   7758
+  ],
+  [
+   11534,
+   11264,
+   244,
+   215
+  ],
+  [
+   12075,
+   11520,
+   1002,
+   926
+  ]
+ ]
+}

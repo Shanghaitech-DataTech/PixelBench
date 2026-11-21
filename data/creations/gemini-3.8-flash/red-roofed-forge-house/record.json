@@ -1,0 +1,156 @@
+{
+ "config": "gemini-3.8-flash",
+ "task": "red-roofed-forge-house",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0009",
+  "source_hashes": {
+   "main.py": "631d2b36b19c07aaa88e296307c3e77dc3187046f1e99434d1b5c122bac203dd"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 73,
+ "writes": 9,
+ "model_rounds": 20,
+ "llm_calls": 20,
+ "retries": 0,
+ "prompt_tokens": 871571,
+ "cached_tokens": 752262,
+ "completion_tokens": 44608,
+ "reasoning_tokens": 0,
+ "seconds": 563.5,
+ "llm_seconds": 555.5,
+ "tool_seconds": 7.0,
+ "calls_usage": [
+  [
+   7694,
+   0,
+   142,
+   0
+  ],
+  [
+   7853,
+   5647,
+   1169,
+   0
+  ],
+  [
+   9040,
+   5819,
+   36,
+   0
+  ],
+  [
+   10217,
+   7399,
+   7863,
+   0
+  ],
+  [
+   18098,
+   10252,
+   30,
+   0
+  ],
+  [
+   19269,
+   16047,
+   4300,
+   0
+  ],
+  [
+   23587,
+   19283,
+   8257,
+   0
+  ],
+  [
+   31862,
+   23614,
+   32,
+   0
+  ],
+  [
+   32422,
+   29813,
+   225,
+   0
+  ],
+  [
+   32664,
+   30373,
+   32,
+   0
+  ],
+  [
+   33837,
+   30610,
+   10824,
+   0
+  ],
+  [
+   44679,
+   33873,
+   29,
+   0
+  ],
+  [
+   45850,
+   42622,
+   13132,
+   0
+  ],
+  [
+   59000,
+   45890,
+   34,
+   0
+  ],
+  [
+   60183,
+   56941,
+   2422,
+   0
+  ],
+  [
+   72284,
+   60215,
+   11834,
+   0
+  ],
+  [
+   84136,
+   72311,
+   30,
+   0
+  ],
+  [
+   85315,
+   82075,
+   10868,
+   0
+  ],
+  [
+   96201,
+   85338,
+   30,
+   0
+  ],
+  [
+   97380,
+   94140,
+   574,
+   0
+  ]
+ ]
+}

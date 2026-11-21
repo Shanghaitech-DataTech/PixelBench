@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@effort-medium",
+ "task": "female-lab-researcher-chibi",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "e5a59f783d8e8c83ca47c7f36e9fc1cf957fb75de79fbff5ce719549eab21196"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 15,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 34791,
+ "cached_tokens": 33792,
+ "completion_tokens": 545,
+ "reasoning_tokens": 12,
+ "seconds": 42.4,
+ "llm_seconds": 40.6,
+ "tool_seconds": 1.2,
+ "calls_usage": [
+  [
+   11135,
+   10752,
+   491,
+   0
+  ],
+  [
+   11641,
+   11520,
+   18,
+   0
+  ],
+  [
+   12015,
+   11520,
+   36,
+   12
+  ]
+ ]
+}

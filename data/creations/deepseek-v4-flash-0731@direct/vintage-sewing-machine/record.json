@@ -1,0 +1,42 @@
+{
+ "config": "deepseek-v4-flash-0731@direct",
+ "task": "vintage-sewing-machine",
+ "ok": false,
+ "error": "unparseable",
+ "termination": "format",
+ "frames": 0,
+ "colors": null,
+ "parse": {
+  "ok": false,
+  "reason": "35/48 rows beyond length tolerance",
+  "palette_size": 7,
+  "diags": [
+   {
+    "declared": [
+     48,
+     48
+    ],
+    "size": [
+     48,
+     48
+    ],
+    "rows": 47
+   }
+  ]
+ },
+ "max_tokens": 131072,
+ "time_limit_s": 3600.0,
+ "finish_reason": "stop",
+ "prompt_tokens": 477,
+ "completion_tokens": 37607,
+ "reasoning_tokens": 37020,
+ "seconds": 393.5,
+ "calls_usage": [
+  [
+   477,
+   0,
+   37607,
+   37020
+  ]
+ ]
+}

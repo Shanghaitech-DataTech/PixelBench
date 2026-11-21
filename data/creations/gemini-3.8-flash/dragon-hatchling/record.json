@@ -1,0 +1,182 @@
+{
+ "config": "gemini-3.8-flash",
+ "task": "dragon-hatchling",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0011",
+  "source_hashes": {
+   "build_dragon.py": "05aac5295d5be8cb7f6162c0d0212e38a94204090e0e1a05e08e84d63a384473",
+   "dragon_model.py": "5877cde9c57f03bcb09c5b8e14c85eb355bc312b9ced11674a60499ebb7f6f23",
+   "dragon_v2.py": "2110900e69f81342e650ac2768a60cc323b375cf438048ffbf0d9c220dd5903b",
+   "dragon_v3.py": "19d669ecdab5d2bf743254af2e03e213e2616db923f5c4e5c4a1cc242c2d2f1d",
+   "dragon_v4.py": "fd9e02e699a4f424192daad95b6eeffaeedd4a5f0ad2a42abf1077d9a9686587",
+   "dragon_v5.py": "8425ea2bb46f33dff69eaf5fbf8bd3c6564a870ea71de05dead4ab38468cd8af",
+   "dragon_v6.py": "a9c6015809ac1166a3c9e312c94560d445430806ffd19e336e0cd6e397edfa5a",
+   "draw_dragon.py": "ccdaf6e40a36fa306b13a4064e652c4409a580b6508d929cdd2b4702a0e95359",
+   "main.py": "7489af48981671f20088b656c78ab63694442e9b6d35bd70f84367c8873fc3e3"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 47,
+ "writes": 11,
+ "model_rounds": 23,
+ "llm_calls": 23,
+ "retries": 0,
+ "prompt_tokens": 1475120,
+ "cached_tokens": 982097,
+ "completion_tokens": 90076,
+ "reasoning_tokens": 30162,
+ "seconds": 1083.2,
+ "llm_seconds": 1072.0,
+ "tool_seconds": 6.7,
+ "calls_usage": [
+  [
+   7564,
+   0,
+   183,
+   173
+  ],
+  [
+   7756,
+   0,
+   1578,
+   1540
+  ],
+  [
+   9336,
+   0,
+   35,
+   15
+  ],
+  [
+   9392,
+   3991,
+   3167,
+   3054
+  ],
+  [
+   12563,
+   9355,
+   34,
+   12
+  ],
+  [
+   13714,
+   0,
+   7563,
+   6105
+  ],
+  [
+   21281,
+   12635,
+   11345,
+   296
+  ],
+  [
+   32630,
+   21378,
+   42,
+   20
+  ],
+  [
+   33789,
+   30581,
+   14440,
+   3395
+  ],
+  [
+   48233,
+   33887,
+   38,
+   16
+  ],
+  [
+   49388,
+   0,
+   15667,
+   4275
+  ],
+  [
+   65060,
+   48788,
+   40,
+   17
+  ],
+  [
+   66218,
+   48274,
+   14275,
+   3043
+  ],
+  [
+   80498,
+   66288,
+   40,
+   17
+  ],
+  [
+   81864,
+   78436,
+   12983,
+   2109
+  ],
+  [
+   94852,
+   0,
+   42,
+   19
+  ],
+  [
+   96220,
+   81897,
+   12791,
+   1888
+  ],
+  [
+   109016,
+   96272,
+   40,
+   17
+  ],
+  [
+   110382,
+   93609,
+   13748,
+   2834
+  ],
+  [
+   124135,
+   0,
+   40,
+   17
+  ],
+  [
+   125501,
+   109017,
+   11773,
+   966
+  ],
+  [
+   137276,
+   125542,
+   49,
+   29
+  ],
+  [
+   138452,
+   122147,
+   325,
+   305
+  ]
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "config": "qwen3.8-max",
+ "task": "retro-film-camera",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "d673071cbf2b8e6e0bfb3a23f67ad774b0eba96089d6042d1f7011fb87d0facc"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 22,
+ "writes": 4,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 0,
+ "prompt_tokens": 85299,
+ "cached_tokens": 74496,
+ "completion_tokens": 41257,
+ "reasoning_tokens": 37523,
+ "seconds": 964.4,
+ "llm_seconds": 961.3,
+ "tool_seconds": 2.5,
+ "calls_usage": [
+  [
+   7797,
+   7168,
+   23344,
+   23288
+  ],
+  [
+   7979,
+   7168,
+   8542,
+   6404
+  ],
+  [
+   10136,
+   7552,
+   62,
+   34
+  ],
+  [
+   10561,
+   7168,
+   5704,
+   4726
+  ],
+  [
+   11556,
+   10368,
+   358,
+   329
+  ],
+  [
+   12017,
+   11520,
+   2620,
+   2267
+  ],
+  [
+   12395,
+   11264,
+   246,
+   217
+  ],
+  [
+   12858,
+   12288,
+   381,
+   258
+  ]
+ ]
+}

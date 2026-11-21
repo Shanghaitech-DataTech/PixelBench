@@ -1,0 +1,84 @@
+{
+ "config": "gpt-5.6-sol@run2",
+ "task": "two-character-standoff",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "bdc673bb07c9b974751238a0344761e1478ce4afa4683189f901c10ee2ffd870"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 49,
+ "writes": 4,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 4,
+ "prompt_tokens": 127668,
+ "cached_tokens": 114304,
+ "completion_tokens": 5724,
+ "reasoning_tokens": 687,
+ "seconds": 213.6,
+ "llm_seconds": 174.8,
+ "tool_seconds": 4.0,
+ "calls_usage": [
+  [
+   11403,
+   11008,
+   4703,
+   198
+  ],
+  [
+   15921,
+   11264,
+   33,
+   9
+  ],
+  [
+   16047,
+   11264,
+   121,
+   13
+  ],
+  [
+   16167,
+   15872,
+   22,
+   0
+  ],
+  [
+   16616,
+   16000,
+   459,
+   266
+  ],
+  [
+   16821,
+   16384,
+   22,
+   0
+  ],
+  [
+   17270,
+   15744,
+   342,
+   201
+  ],
+  [
+   17423,
+   16768,
+   22,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,132 @@
+{
+ "config": "claude-opus-5",
+ "task": "mad-cyborg-scientist",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "9bcb17998ac0b4e1b21e58d5ef7ca2985333468f6bee4147418b8db57641f72d"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 48,
+ "writes": 9,
+ "model_rounds": 16,
+ "llm_calls": 16,
+ "retries": 8,
+ "prompt_tokens": 230200,
+ "cached_tokens": 168242,
+ "completion_tokens": 5745,
+ "reasoning_tokens": 0,
+ "seconds": 1135.4,
+ "llm_seconds": 445.1,
+ "tool_seconds": 4.9,
+ "calls_usage": [
+  [
+   7879,
+   0,
+   3515,
+   0
+  ],
+  [
+   12156,
+   9008,
+   51,
+   0
+  ],
+  [
+   12592,
+   9169,
+   360,
+   0
+  ],
+  [
+   12774,
+   12599,
+   292,
+   0
+  ],
+  [
+   13065,
+   12644,
+   62,
+   0
+  ],
+  [
+   13574,
+   12820,
+   600,
+   0
+  ],
+  [
+   14379,
+   0,
+   124,
+   0
+  ],
+  [
+   14576,
+   0,
+   7,
+   0
+  ],
+  [
+   15012,
+   0,
+   318,
+   0
+  ],
+  [
+   15265,
+   14991,
+   7,
+   0
+  ],
+  [
+   15700,
+   15191,
+   205,
+   0
+  ],
+  [
+   16035,
+   15767,
+   7,
+   0
+  ],
+  [
+   16470,
+   15962,
+   87,
+   0
+  ],
+  [
+   16522,
+   16420,
+   7,
+   0
+  ],
+  [
+   17068,
+   16654,
+   91,
+   0
+  ],
+  [
+   17133,
+   17017,
+   12,
+   0
+  ]
+ ]
+}

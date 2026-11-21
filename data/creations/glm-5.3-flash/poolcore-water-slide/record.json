@@ -1,0 +1,163 @@
+{
+ "config": "glm-5.3-flash",
+ "task": "poolcore-water-slide",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0010",
+  "source_hashes": {
+   "inspect.py": "f3498dd688a99354f1ed5ed5442e3e8951f91a50e4c0ca46c59767a63e27b058",
+   "main.py": "c179254cba6f1d5e52d7d603c4a434b9daa97995bb5a2818f7a5f890b4cccd50"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 47,
+ "writes": 19,
+ "model_rounds": 21,
+ "llm_calls": 21,
+ "retries": 0,
+ "prompt_tokens": 559605,
+ "cached_tokens": 0,
+ "completion_tokens": 91349,
+ "reasoning_tokens": 82571,
+ "seconds": 1263.1,
+ "llm_seconds": 1254.2,
+ "tool_seconds": 7.8,
+ "calls_usage": [
+  [
+   7355,
+   0,
+   47862,
+   42483
+  ],
+  [
+   12742,
+   0,
+   12,
+   0
+  ],
+  [
+   14194,
+   0,
+   10151,
+   9788
+  ],
+  [
+   14569,
+   0,
+   226,
+   0
+  ],
+  [
+   14802,
+   0,
+   12,
+   0
+  ],
+  [
+   16254,
+   0,
+   72,
+   46
+  ],
+  [
+   17720,
+   0,
+   636,
+   499
+  ],
+  [
+   17865,
+   0,
+   12,
+   0
+  ],
+  [
+   23107,
+   0,
+   19553,
+   19106
+  ],
+  [
+   23576,
+   0,
+   600,
+   0
+  ],
+  [
+   24188,
+   0,
+   324,
+   0
+  ],
+  [
+   24524,
+   0,
+   12,
+   0
+  ],
+  [
+   29803,
+   0,
+   4291,
+   3950
+  ],
+  [
+   30156,
+   0,
+   12,
+   0
+  ],
+  [
+   35441,
+   0,
+   2479,
+   2364
+  ],
+  [
+   35564,
+   0,
+   12,
+   0
+  ],
+  [
+   39968,
+   0,
+   4213,
+   3619
+  ],
+  [
+   40574,
+   0,
+   12,
+   0
+  ],
+  [
+   44953,
+   0,
+   497,
+   405
+  ],
+  [
+   45053,
+   0,
+   12,
+   0
+  ],
+  [
+   47197,
+   0,
+   349,
+   311
+  ]
+ ]
+}

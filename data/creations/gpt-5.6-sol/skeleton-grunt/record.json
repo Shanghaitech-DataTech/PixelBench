@@ -1,0 +1,84 @@
+{
+ "config": "gpt-5.6-sol",
+ "task": "skeleton-grunt",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "7c02127b7aa2dcadccc0c845ab4cc1e53fc1f0f7daad393d865d3b8fc7bc6cd7"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 14,
+ "writes": 3,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 0,
+ "prompt_tokens": 105393,
+ "cached_tokens": 100608,
+ "completion_tokens": 2996,
+ "reasoning_tokens": 561,
+ "seconds": 79.2,
+ "llm_seconds": 76.4,
+ "tool_seconds": 2.1,
+ "calls_usage": [
+  [
+   11395,
+   11008,
+   72,
+   14
+  ],
+  [
+   11465,
+   11008,
+   1893,
+   151
+  ],
+  [
+   13220,
+   11264,
+   22,
+   0
+  ],
+  [
+   13275,
+   13056,
+   119,
+   13
+  ],
+  [
+   13393,
+   13184,
+   22,
+   0
+  ],
+  [
+   13810,
+   13312,
+   733,
+   346
+  ],
+  [
+   14209,
+   13568,
+   22,
+   0
+  ],
+  [
+   14626,
+   14208,
+   113,
+   37
+  ]
+ ]
+}

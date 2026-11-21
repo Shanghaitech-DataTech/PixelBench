@@ -1,0 +1,54 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "castle-title-screen",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "fc2339e9333524028e77f7602793cd974d40818bd96faf8216a70e917867d264"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 27,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 30783,
+ "cached_tokens": 0,
+ "completion_tokens": 3926,
+ "reasoning_tokens": 221,
+ "seconds": 84.4,
+ "llm_seconds": 80.1,
+ "tool_seconds": 1.5,
+ "calls_usage": [
+  [
+   7763,
+   0,
+   3787,
+   196
+  ],
+  [
+   11373,
+   0,
+   53,
+   25
+  ],
+  [
+   11647,
+   0,
+   86,
+   0
+  ]
+ ]
+}

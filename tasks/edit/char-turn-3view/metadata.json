@@ -1,0 +1,6 @@
+{
+  "title": "Bride Turnaround (multi-view)",
+  "type": "multiview",
+  "num_frames": 3,
+  "continues_from_input": false
+}

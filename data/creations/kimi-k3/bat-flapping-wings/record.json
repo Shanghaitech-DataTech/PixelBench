@@ -1,0 +1,96 @@
+{
+ "config": "kimi-k3",
+ "task": "bat-flapping-wings",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "3c184bebc02bed162d69112fe0b00ffc1ae3da8b481a04e862abc1bd4f055bd7"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 9,
+ "writes": 4,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 0,
+ "prompt_tokens": 93491,
+ "cached_tokens": 81152,
+ "completion_tokens": 14642,
+ "reasoning_tokens": 12895,
+ "seconds": 176.4,
+ "llm_seconds": 173.1,
+ "tool_seconds": 2.6,
+ "calls_usage": [
+  [
+   7459,
+   0,
+   65,
+   16
+  ],
+  [
+   7616,
+   7424,
+   133,
+   14
+  ],
+  [
+   7769,
+   7616,
+   49,
+   0
+  ],
+  [
+   8306,
+   7744,
+   108,
+   10
+  ],
+  [
+   8437,
+   8256,
+   49,
+   0
+  ],
+  [
+   9308,
+   8384,
+   13613,
+   12777
+  ],
+  [
+   10178,
+   9280,
+   49,
+   0
+  ],
+  [
+   10963,
+   10176,
+   339,
+   0
+  ],
+  [
+   11335,
+   10944,
+   49,
+   0
+  ],
+  [
+   12120,
+   11328,
+   188,
+   78
+  ]
+ ]
+}

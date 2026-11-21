@@ -1,0 +1,96 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "bottle-potion",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "3a82ffcf14bb376e8059a19b77943f324e3cc022bbda7a6aae7509bd013e0ff2"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 15,
+ "writes": 5,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 0,
+ "prompt_tokens": 119675,
+ "cached_tokens": 0,
+ "completion_tokens": 4914,
+ "reasoning_tokens": 346,
+ "seconds": 110.8,
+ "llm_seconds": 106.7,
+ "tool_seconds": 2.8,
+ "calls_usage": [
+  [
+   7837,
+   0,
+   142,
+   21
+  ],
+  [
+   7977,
+   0,
+   42,
+   14
+  ],
+  [
+   9502,
+   0,
+   1724,
+   301
+  ],
+  [
+   10944,
+   0,
+   38,
+   10
+  ],
+  [
+   12003,
+   0,
+   956,
+   0
+  ],
+  [
+   12978,
+   0,
+   28,
+   0
+  ],
+  [
+   13166,
+   0,
+   974,
+   0
+  ],
+  [
+   14159,
+   0,
+   28,
+   0
+  ],
+  [
+   15074,
+   0,
+   942,
+   0
+  ],
+  [
+   16035,
+   0,
+   40,
+   0
+  ]
+ ]
+}

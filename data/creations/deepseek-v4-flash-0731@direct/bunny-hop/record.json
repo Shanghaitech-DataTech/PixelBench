@@ -1,0 +1,61 @@
+{
+ "config": "deepseek-v4-flash-0731@direct",
+ "task": "bunny-hop",
+ "ok": true,
+ "error": null,
+ "termination": "answered",
+ "frames": 2,
+ "colors": 7,
+ "parse": {
+  "ok": true,
+  "diags": [
+   {
+    "declared": [
+     30,
+     30
+    ],
+    "size": [
+     30,
+     30
+    ],
+    "rows": 30,
+    "rows_wrong_length": 2,
+    "rows_beyond_tolerance": 1,
+    "rows_missing": 0,
+    "rows_extra": 0,
+    "undeclared_pixels": 0
+   },
+   {
+    "declared": [
+     30,
+     30
+    ],
+    "size": [
+     30,
+     30
+    ],
+    "rows": 29,
+    "rows_wrong_length": 4,
+    "rows_beyond_tolerance": 0,
+    "rows_missing": 1,
+    "rows_extra": 0,
+    "undeclared_pixels": 0
+   }
+  ]
+ },
+ "max_tokens": 131072,
+ "time_limit_s": 3600.0,
+ "finish_reason": "stop",
+ "prompt_tokens": 940,
+ "completion_tokens": 39402,
+ "reasoning_tokens": 38666,
+ "seconds": 677.0,
+ "calls_usage": [
+  [
+   940,
+   0,
+   39402,
+   38666
+  ]
+ ]
+}

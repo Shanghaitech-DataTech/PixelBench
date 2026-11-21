@@ -1,0 +1,54 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "green-pear",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "a6a8ccf5a84c846bf859dcf98f0d0855ac750cb051bb7200dc06965e03519490"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 7,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 24509,
+ "cached_tokens": 0,
+ "completion_tokens": 1672,
+ "reasoning_tokens": 996,
+ "seconds": 45.4,
+ "llm_seconds": 43.8,
+ "tool_seconds": 1.1,
+ "calls_usage": [
+  [
+   7735,
+   0,
+   1525,
+   978
+  ],
+  [
+   8301,
+   0,
+   46,
+   18
+  ],
+  [
+   8473,
+   0,
+   101,
+   0
+  ]
+ ]
+}

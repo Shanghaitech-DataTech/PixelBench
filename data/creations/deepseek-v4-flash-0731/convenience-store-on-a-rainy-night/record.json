@@ -1,0 +1,102 @@
+{
+ "config": "deepseek-v4-flash-0731",
+ "task": "convenience-store-on-a-rainy-night",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "8400bff8c54c7ee27c33291507663b7b17dd462b40c74fa8fe4ef350c3e9956b"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 45,
+ "writes": 6,
+ "model_rounds": 11,
+ "llm_calls": 11,
+ "retries": 0,
+ "prompt_tokens": 163048,
+ "cached_tokens": 0,
+ "completion_tokens": 46683,
+ "reasoning_tokens": 43164,
+ "seconds": 620.8,
+ "llm_seconds": 616.9,
+ "tool_seconds": 3.1,
+ "calls_usage": [
+  [
+   7688,
+   0,
+   30898,
+   28567
+  ],
+  [
+   10034,
+   0,
+   52,
+   7
+  ],
+  [
+   10302,
+   0,
+   587,
+   388
+  ],
+  [
+   10515,
+   0,
+   202,
+   59
+  ],
+  [
+   10672,
+   0,
+   45,
+   0
+  ],
+  [
+   14926,
+   0,
+   6401,
+   6214
+  ],
+  [
+   15127,
+   0,
+   45,
+   0
+  ],
+  [
+   19368,
+   0,
+   5845,
+   5618
+  ],
+  [
+   19609,
+   0,
+   45,
+   0
+  ],
+  [
+   22301,
+   0,
+   2502,
+   2311
+  ],
+  [
+   22506,
+   0,
+   61,
+   0
+  ]
+ ]
+}

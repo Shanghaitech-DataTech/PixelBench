@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@run3",
+ "task": "motorcycle",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "a9ffdba4adddb3232cc2961484e69033946d3419f2a81d83f66a55af8ddebac9"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 13,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 5,
+ "prompt_tokens": 38826,
+ "cached_tokens": 35200,
+ "completion_tokens": 2608,
+ "reasoning_tokens": 60,
+ "seconds": 317.3,
+ "llm_seconds": 226.5,
+ "tool_seconds": 2.2,
+ "calls_usage": [
+  [
+   11174,
+   11008,
+   2450,
+   0
+  ],
+  [
+   13639,
+   13440,
+   18,
+   0
+  ],
+  [
+   14013,
+   10752,
+   140,
+   60
+  ]
+ ]
+}

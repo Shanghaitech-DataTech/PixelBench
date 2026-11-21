@@ -1,0 +1,108 @@
+{
+ "config": "qwen3.8-max",
+ "task": "skeleton-grunt",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "5d21973a7a2f94dc1e18aaca10da3293e28960483d4beaaa3ed7786f64facd1e"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 15,
+ "writes": 6,
+ "model_rounds": 12,
+ "llm_calls": 12,
+ "retries": 0,
+ "prompt_tokens": 165526,
+ "cached_tokens": 142720,
+ "completion_tokens": 224471,
+ "reasoning_tokens": 216355,
+ "seconds": 4637.4,
+ "llm_seconds": 4633.8,
+ "tool_seconds": 2.1,
+ "calls_usage": [
+  [
+   7797,
+   7552,
+   66490,
+   66453
+  ],
+  [
+   7852,
+   7168,
+   62012,
+   60279
+  ],
+  [
+   9604,
+   7168,
+   205,
+   118
+  ],
+  [
+   9709,
+   9216,
+   62033,
+   60212
+  ],
+  [
+   11548,
+   9216,
+   10886,
+   8917
+  ],
+  [
+   13536,
+   11264,
+   74,
+   46
+  ],
+  [
+   14472,
+   7168,
+   10730,
+   8716
+  ],
+  [
+   16503,
+   14336,
+   3972,
+   3943
+  ],
+  [
+   17480,
+   16384,
+   3452,
+   3259
+  ],
+  [
+   17691,
+   17408,
+   149,
+   121
+  ],
+  [
+   18668,
+   17408,
+   3304,
+   3259
+  ],
+  [
+   20666,
+   18432,
+   1164,
+   1032
+  ]
+ ]
+}

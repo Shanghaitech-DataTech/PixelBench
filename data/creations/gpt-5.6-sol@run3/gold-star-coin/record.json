@@ -1,0 +1,96 @@
+{
+ "config": "gpt-5.6-sol@run3",
+ "task": "gold-star-coin",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "59216b934d602e40763b246f131f2d98648ea0da9d9b6771f9b80f03ef31a898"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 6,
+ "writes": 4,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 0,
+ "prompt_tokens": 131845,
+ "cached_tokens": 126336,
+ "completion_tokens": 4645,
+ "reasoning_tokens": 1685,
+ "seconds": 133.1,
+ "llm_seconds": 129.2,
+ "tool_seconds": 3.1,
+ "calls_usage": [
+  [
+   11386,
+   11008,
+   84,
+   12
+  ],
+  [
+   11470,
+   11264,
+   1535,
+   438
+  ],
+  [
+   12580,
+   11264,
+   22,
+   0
+  ],
+  [
+   12635,
+   12416,
+   130,
+   34
+  ],
+  [
+   12743,
+   12544,
+   22,
+   0
+  ],
+  [
+   13049,
+   12672,
+   1197,
+   497
+  ],
+  [
+   13761,
+   12928,
+   22,
+   0
+  ],
+  [
+   14067,
+   13568,
+   1404,
+   559
+  ],
+  [
+   14924,
+   13824,
+   22,
+   0
+  ],
+  [
+   15230,
+   14848,
+   207,
+   145
+  ]
+ ]
+}

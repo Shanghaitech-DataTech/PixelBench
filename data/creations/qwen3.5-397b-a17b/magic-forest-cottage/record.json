@@ -1,0 +1,54 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "magic-forest-cottage",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "af38bcf2fe22716e38b749f23eb63d0a78bea398b3c43d8678b62e82cfc000f4"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 82,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 32899,
+ "cached_tokens": 0,
+ "completion_tokens": 5258,
+ "reasoning_tokens": 585,
+ "seconds": 128.6,
+ "llm_seconds": 126.4,
+ "tool_seconds": 1.5,
+ "calls_usage": [
+  [
+   7796,
+   0,
+   5077,
+   484
+  ],
+  [
+   12408,
+   0,
+   60,
+   20
+  ],
+  [
+   12695,
+   0,
+   121,
+   81
+  ]
+ ]
+}

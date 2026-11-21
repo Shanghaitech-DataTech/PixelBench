@@ -1,0 +1,16 @@
+{
+  "id": "character-4view",
+  "task_type": "agentic_creation",
+  "prompt": "pixel art, 64x64 resolution, same character in four views, 2x2 grid, top row front and back, bottom row left and right side, same character and outfit in all four views, girl, cheerleader, dark outline, transparent background",
+  "width": 64,
+  "height": 64,
+  "constraints": {
+    "max_colors": 86,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 25,
+    "max_code_seconds": 120
+  }
+}

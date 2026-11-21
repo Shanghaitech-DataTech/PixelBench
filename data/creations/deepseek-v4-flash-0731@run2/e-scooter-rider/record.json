@@ -1,0 +1,84 @@
+{
+ "config": "deepseek-v4-flash-0731@run2",
+ "task": "e-scooter-rider",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "ecfc03c304119e2a35c47c694ef26512155853d4fdadab272e01d125f1cbf6fb"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 13,
+ "writes": 4,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 0,
+ "prompt_tokens": 78192,
+ "cached_tokens": 0,
+ "completion_tokens": 20544,
+ "reasoning_tokens": 18612,
+ "seconds": 355.0,
+ "llm_seconds": 352.5,
+ "tool_seconds": 1.9,
+ "calls_usage": [
+  [
+   7678,
+   0,
+   6043,
+   5380
+  ],
+  [
+   8356,
+   0,
+   53,
+   8
+  ],
+  [
+   8988,
+   0,
+   6357,
+   5606
+  ],
+  [
+   9754,
+   0,
+   45,
+   0
+  ],
+  [
+   10401,
+   0,
+   3654,
+   3483
+  ],
+  [
+   10586,
+   0,
+   45,
+   0
+  ],
+  [
+   11132,
+   0,
+   4286,
+   4135
+  ],
+  [
+   11297,
+   0,
+   61,
+   0
+  ]
+ ]
+}

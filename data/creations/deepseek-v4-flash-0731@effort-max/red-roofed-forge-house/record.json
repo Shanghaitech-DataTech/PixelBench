@@ -1,0 +1,97 @@
+{
+ "config": "deepseek-v4-flash-0731@effort-max",
+ "task": "red-roofed-forge-house",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "inspect.py": "267a733184f42067762189d23162673185b3b82f3c5ee346148c602f66c8cc4d",
+   "main.py": "c488303cb219431cf65bf7fa92c6d22a97291eca53680b5a2253a51b919617d3"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 27,
+ "writes": 5,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 0,
+ "prompt_tokens": 117390,
+ "cached_tokens": 0,
+ "completion_tokens": 62797,
+ "reasoning_tokens": 59678,
+ "seconds": 1154.5,
+ "llm_seconds": 1150.1,
+ "tool_seconds": 3.6,
+ "calls_usage": [
+  [
+   7703,
+   0,
+   47201,
+   45233
+  ],
+  [
+   9686,
+   0,
+   54,
+   9
+  ],
+  [
+   9917,
+   0,
+   575,
+   438
+  ],
+  [
+   10068,
+   0,
+   45,
+   0
+  ],
+  [
+   10225,
+   0,
+   622,
+   343
+  ],
+  [
+   10519,
+   0,
+   46,
+   0
+  ],
+  [
+   13402,
+   0,
+   6508,
+   6239
+  ],
+  [
+   13685,
+   0,
+   46,
+   0
+  ],
+  [
+   15974,
+   0,
+   7639,
+   7416
+  ],
+  [
+   16211,
+   0,
+   61,
+   0
+  ]
+ ]
+}

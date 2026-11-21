@@ -1,0 +1,121 @@
+{
+ "config": "glm-5.3-flash@effort-high",
+ "task": "tavern-interior",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "inspect.py": "c0fbef200d294e7899379dd9f9061c86e4b803c0d4ab5caa60be03114e31e1f6",
+   "main.py": "37df5a6c8af93106eca0885e02c26795251092dab13b9a18d9a93e7dd602c02e"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 49,
+ "writes": 6,
+ "model_rounds": 14,
+ "llm_calls": 14,
+ "retries": 0,
+ "prompt_tokens": 158248,
+ "cached_tokens": 0,
+ "completion_tokens": 17154,
+ "reasoning_tokens": 13951,
+ "seconds": 389.7,
+ "llm_seconds": 383.5,
+ "tool_seconds": 4.0,
+ "calls_usage": [
+  [
+   7301,
+   0,
+   1718,
+   1701
+  ],
+  [
+   7411,
+   0,
+   11739,
+   9089
+  ],
+  [
+   10069,
+   0,
+   12,
+   0
+  ],
+  [
+   10215,
+   0,
+   70,
+   42
+  ],
+  [
+   10377,
+   0,
+   63,
+   0
+  ],
+  [
+   10448,
+   0,
+   12,
+   0
+  ],
+  [
+   11170,
+   0,
+   73,
+   0
+  ],
+  [
+   11250,
+   0,
+   12,
+   0
+  ],
+  [
+   11557,
+   0,
+   196,
+   102
+  ],
+  [
+   11658,
+   0,
+   12,
+   0
+  ],
+  [
+   13333,
+   0,
+   110,
+   34
+  ],
+  [
+   13416,
+   0,
+   12,
+   0
+  ],
+  [
+   14956,
+   0,
+   3107,
+   2983
+  ],
+  [
+   15087,
+   0,
+   18,
+   0
+  ]
+ ]
+}

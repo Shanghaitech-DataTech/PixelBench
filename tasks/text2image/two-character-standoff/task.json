@@ -1,0 +1,16 @@
+{
+  "id": "two-character-standoff",
+  "task_type": "agentic_creation",
+  "prompt": "pixel art, 128x128 resolution, anime style, two rival characters, dramatic standoff, red-armored knight left, green-cloaked rogue right, clear gap between them, readable silhouettes",
+  "width": 128,
+  "height": 128,
+  "constraints": {
+    "max_colors": 86,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 25,
+    "max_code_seconds": 120
+  }
+}

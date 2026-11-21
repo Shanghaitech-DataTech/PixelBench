@@ -1,0 +1,78 @@
+{
+ "config": "deepseek-v4-flash-0731@run3",
+ "task": "character-4view",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "203155529da621c9d4e24b8801fe0e86aa67d90c7f5d424a85aad6c25c46f675"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 9,
+ "writes": 5,
+ "model_rounds": 7,
+ "llm_calls": 7,
+ "retries": 0,
+ "prompt_tokens": 120087,
+ "cached_tokens": 0,
+ "completion_tokens": 52621,
+ "reasoning_tokens": 41926,
+ "seconds": 575.6,
+ "llm_seconds": 569.7,
+ "tool_seconds": 2.3,
+ "calls_usage": [
+  [
+   7691,
+   0,
+   30641,
+   25888
+  ],
+  [
+   12459,
+   0,
+   57,
+   12
+  ],
+  [
+   14411,
+   0,
+   16527,
+   12241
+  ],
+  [
+   18712,
+   0,
+   45,
+   0
+  ],
+  [
+   20634,
+   0,
+   5001,
+   3553
+  ],
+  [
+   22118,
+   0,
+   45,
+   0
+  ],
+  [
+   24062,
+   0,
+   305,
+   232
+  ]
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "config": "gpt-6-astra@run2",
+ "task": "subway-platform",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "5ee8326be83fc7efdb17e4f6768ccd814db498b1fc1f280047d789cd2845f335"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 72,
+ "writes": 4,
+ "model_rounds": 6,
+ "llm_calls": 6,
+ "retries": 5,
+ "prompt_tokens": 80680,
+ "cached_tokens": 75648,
+ "completion_tokens": 2851,
+ "reasoning_tokens": 259,
+ "seconds": 220.0,
+ "llm_seconds": 162.6,
+ "tool_seconds": 1.8,
+ "calls_usage": [
+  [
+   11139,
+   10752,
+   2251,
+   0
+  ],
+  [
+   13405,
+   13184,
+   18,
+   0
+  ],
+  [
+   13848,
+   13312,
+   276,
+   150
+  ],
+  [
+   13986,
+   10752,
+   193,
+   72
+  ],
+  [
+   14119,
+   13952,
+   71,
+   19
+  ],
+  [
+   14183,
+   13696,
+   42,
+   18
+  ]
+ ]
+}

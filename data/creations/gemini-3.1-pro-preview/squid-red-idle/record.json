@@ -1,0 +1,222 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "squid-red-idle",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 3,
+  "actual_count": 3,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0014",
+  "source_hashes": {
+   "main.py": "8ca130962cce3b67442b2c7c4aa91190d4084b6e25ba5cfff3af8ed3aaaba6d6",
+   "test.py": "5cda20cbd5fdffb09bb23858b96bb6f6263623ee10e612bd1d0e6f5e8e8a60ef",
+   "test2.py": "c397dc35d8b97f88f981ac406bdaa69d727072dd2ec23ffca1afc3a8edfe5e99",
+   "test3.py": "5d3c05f831b7ef79c954ec92e657ae36f581dbf1d816a3e644357e090f5e7b77",
+   "test4.py": "5df86e86416b77180c66b90585a9825019a3706e7b8e899b016be4397036a8eb",
+   "test_anim.py": "654913936cdaa36c4464d9868a1822271e7cb5924c5e50289b1a86051e74f34f",
+   "test_bottom_squish.py": "47a37c738828c7a4b99252150e215c9097388970e627e15180c1f4fe797afee7",
+   "test_delete_row.py": "e4e441062ac89a49e11a5794adcbc2c52b31fa0da5367e443cca2fb21c62e6b9",
+   "test_final_squish.py": "2616d064c03abf132248af04c681df592e2ce08d3d7387cb5c516443f875dcb9",
+   "test_perfect_squish.py": "143bd79bb1ad6b1ca8348c97b86fb979c153f501714890e193146c14481c787a",
+   "test_split.py": "90ea6ab1abc4dc37d982ad6e17c7839bc84c3f990faff8b117da8bdc4e3b8116",
+   "test_split2.py": "6af8e89b32e3698e8e4bfc149e895ccb4b1f71cb255820e527be6cdd1bd8f4ee",
+   "test_squish.py": "eb00bcf3988ce918bf20dc983d1c3c1b4a5095fc01e096a4d82f6beaa4bca44f"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 3,
+ "colors": 8,
+ "writes": 15,
+ "model_rounds": 29,
+ "llm_calls": 29,
+ "retries": 1,
+ "prompt_tokens": 1110466,
+ "cached_tokens": 747264,
+ "completion_tokens": 3980,
+ "reasoning_tokens": 73191,
+ "seconds": 993.7,
+ "llm_seconds": 977.9,
+ "tool_seconds": 11.6,
+ "calls_usage": [
+  [
+   7789,
+   0,
+   197,
+   107
+  ],
+  [
+   7988,
+   0,
+   33,
+   13
+  ],
+  [
+   14823,
+   6022,
+   3986,
+   3741
+  ],
+  [
+   18811,
+   0,
+   20,
+   0
+  ],
+  [
+   17497,
+   14051,
+   5384,
+   5059
+  ],
+  [
+   22884,
+   0,
+   21,
+   0
+  ],
+  [
+   22230,
+   16083,
+   8160,
+   7783
+  ],
+  [
+   30393,
+   16149,
+   21,
+   0
+  ],
+  [
+   27015,
+   20126,
+   3640,
+   3309
+  ],
+  [
+   30658,
+   0,
+   21,
+   0
+  ],
+  [
+   31754,
+   22155,
+   5620,
+   5455
+  ],
+  [
+   37379,
+   0,
+   23,
+   0
+  ],
+  [
+   34154,
+   24158,
+   6712,
+   6504
+  ],
+  [
+   40872,
+   32280,
+   24,
+   0
+  ],
+  [
+   36599,
+   32198,
+   4059,
+   3648
+  ],
+  [
+   40662,
+   0,
+   22,
+   0
+  ],
+  [
+   41421,
+   32218,
+   5561,
+   5254
+  ],
+  [
+   46989,
+   40331,
+   25,
+   0
+  ],
+  [
+   46145,
+   40291,
+   9332,
+   9143
+  ],
+  [
+   55484,
+   32306,
+   31,
+   6
+  ],
+  [
+   48573,
+   40278,
+   11740,
+   11583
+  ],
+  [
+   60320,
+   48470,
+   25,
+   0
+  ],
+  [
+   50969,
+   48319,
+   7535,
+   7284
+  ],
+  [
+   58508,
+   40336,
+   22,
+   0
+  ],
+  [
+   54542,
+   48322,
+   263,
+   0
+  ],
+  [
+   54810,
+   48307,
+   23,
+   0
+  ],
+  [
+   55951,
+   48297,
+   2143,
+   1953
+  ],
+  [
+   56368,
+   48275,
+   2508,
+   2349
+  ],
+  [
+   58878,
+   48292,
+   20,
+   0
+  ]
+ ]
+}

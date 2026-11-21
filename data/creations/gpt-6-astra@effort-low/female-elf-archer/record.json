@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@effort-low",
+ "task": "female-elf-archer",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "d626328c0feac25be23c84b3a023d74f8db95f3d217cfb07d8c1e9254714a1d8"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 20,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 37670,
+ "cached_tokens": 34432,
+ "completion_tokens": 1963,
+ "reasoning_tokens": 0,
+ "seconds": 94.6,
+ "llm_seconds": 92.6,
+ "tool_seconds": 1.3,
+ "calls_usage": [
+  [
+   11140,
+   10752,
+   1923,
+   0
+  ],
+  [
+   13078,
+   10752,
+   18,
+   0
+  ],
+  [
+   13452,
+   12928,
+   22,
+   0
+  ]
+ ]
+}

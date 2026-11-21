@@ -1,0 +1,23 @@
+{
+  "id": "char-turn-3view",
+  "task_type": "edit",
+  "prompt": "The canvas already contains a pixel-art character. Keep the character's design, outfit and palette exactly the same and change only the viewing angle, producing three frames in this order: frame 1 a three-quarter view with the character turned 45 degrees to its left, frame 2 the opposite three-quarter view with the character turned 45 degrees to its right, frame 3 the rear view (seen from directly behind). Submit all 3 frames in order with finish([f1, f2, f3]).",
+  "width": 66,
+  "height": 119,
+  "constraints": {
+    "max_colors": null,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 15,
+    "max_code_seconds": 120
+  },
+  "input_size": {
+    "width": 66,
+    "height": 119
+  },
+  "output_size": "agent_defined",
+  "num_frames": 3,
+  "frames_visible": false
+}

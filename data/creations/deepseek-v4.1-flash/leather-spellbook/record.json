@@ -1,0 +1,126 @@
+{
+ "config": "deepseek-v4.1-flash",
+ "task": "leather-spellbook",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "5b7827c063054ec9fb810102965318cce86319a6db20a0a26cb1629a8281378e"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 9,
+ "writes": 7,
+ "model_rounds": 15,
+ "llm_calls": 15,
+ "retries": 0,
+ "prompt_tokens": 358503,
+ "cached_tokens": 351232,
+ "completion_tokens": 25851,
+ "reasoning_tokens": 21888,
+ "seconds": 199.2,
+ "llm_seconds": 194.7,
+ "tool_seconds": 3.9,
+ "calls_usage": [
+  [
+   7613,
+   7168,
+   286,
+   0
+  ],
+  [
+   7915,
+   7680,
+   4443,
+   3838
+  ],
+  [
+   12374,
+   12160,
+   38,
+   0
+  ],
+  [
+   13100,
+   12288,
+   6654,
+   5867
+  ],
+  [
+   19770,
+   19584,
+   38,
+   0
+  ],
+  [
+   20482,
+   19712,
+   3880,
+   3142
+  ],
+  [
+   24378,
+   24192,
+   38,
+   0
+  ],
+  [
+   25098,
+   24320,
+   2503,
+   2303
+  ],
+  [
+   27616,
+   27392,
+   38,
+   0
+  ],
+  [
+   28336,
+   27648,
+   3038,
+   2873
+  ],
+  [
+   31389,
+   31232,
+   38,
+   0
+  ],
+  [
+   32114,
+   31360,
+   2446,
+   1598
+  ],
+  [
+   34576,
+   34432,
+   38,
+   0
+  ],
+  [
+   35309,
+   34560,
+   2319,
+   2267
+  ],
+  [
+   38433,
+   37504,
+   54,
+   0
+  ]
+ ]
+}

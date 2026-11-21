@@ -1,0 +1,54 @@
+{
+ "config": "gpt-5.6-sol@run3",
+ "task": "monarch-butterfly",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "67800ec71a677544512a779822c30930752c0c5f8870454d2a5ca90c8a47a378"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 7,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 37355,
+ "cached_tokens": 33024,
+ "completion_tokens": 1866,
+ "reasoning_tokens": 352,
+ "seconds": 61.7,
+ "llm_seconds": 59.5,
+ "tool_seconds": 1.5,
+ "calls_usage": [
+  [
+   11377,
+   11008,
+   1683,
+   273
+  ],
+  [
+   12800,
+   11008,
+   22,
+   0
+  ],
+  [
+   13178,
+   11008,
+   161,
+   79
+  ]
+ ]
+}

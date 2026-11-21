@@ -1,0 +1,91 @@
+{
+ "config": "glm-5.3-flash@effort-low",
+ "task": "bunny-hop",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "inspect.py": "1f80f5ba8d76d350ce8f6484ee229c6f39440f87dc329cb2486f64a27e3c73d3",
+   "main.py": "d8eef1a732415c48acdc022b9304c6c47f38d12528f7a17dd44932b8327288ce"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 8,
+ "writes": 4,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 80374,
+ "cached_tokens": 0,
+ "completion_tokens": 1993,
+ "reasoning_tokens": 907,
+ "seconds": 52.7,
+ "llm_seconds": 49.3,
+ "tool_seconds": 2.8,
+ "calls_usage": [
+  [
+   7510,
+   0,
+   30,
+   0
+  ],
+  [
+   7548,
+   0,
+   12,
+   0
+  ],
+  [
+   8054,
+   0,
+   1369,
+   817
+  ],
+  [
+   8614,
+   0,
+   12,
+   0
+  ],
+  [
+   9091,
+   0,
+   305,
+   90
+  ],
+  [
+   9313,
+   0,
+   12,
+   0
+  ],
+  [
+   9769,
+   0,
+   223,
+   0
+  ],
+  [
+   9999,
+   0,
+   12,
+   0
+  ],
+  [
+   10476,
+   0,
+   18,
+   0
+  ]
+ ]
+}

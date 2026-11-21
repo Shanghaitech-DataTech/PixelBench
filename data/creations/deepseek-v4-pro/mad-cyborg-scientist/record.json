@@ -1,0 +1,126 @@
+{
+ "config": "deepseek-v4-pro",
+ "task": "mad-cyborg-scientist",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "6a9ab0b50b2648a420d36618cd1588dc45e14e037611021b2dcf8185871454e7"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 33,
+ "writes": 10,
+ "model_rounds": 15,
+ "llm_calls": 15,
+ "retries": 0,
+ "prompt_tokens": 651692,
+ "cached_tokens": 642432,
+ "completion_tokens": 54139,
+ "reasoning_tokens": 47824,
+ "seconds": 638.2,
+ "llm_seconds": 634.5,
+ "tool_seconds": 3.1,
+ "calls_usage": [
+  [
+   7713,
+   7424,
+   14337,
+   11229
+  ],
+  [
+   22066,
+   22016,
+   66,
+   6
+  ],
+  [
+   22530,
+   22016,
+   216,
+   76
+  ],
+  [
+   22761,
+   22656,
+   60,
+   0
+  ],
+  [
+   25320,
+   22784,
+   22678,
+   22526
+  ],
+  [
+   48013,
+   47872,
+   569,
+   0
+  ],
+  [
+   48597,
+   48512,
+   215,
+   0
+  ],
+  [
+   48827,
+   48768,
+   357,
+   0
+  ],
+  [
+   49199,
+   49152,
+   721,
+   0
+  ],
+  [
+   49935,
+   49920,
+   398,
+   0
+  ],
+  [
+   50348,
+   50304,
+   65,
+   5
+  ],
+  [
+   52956,
+   50304,
+   13831,
+   13661
+  ],
+  [
+   66802,
+   66688,
+   185,
+   0
+  ],
+  [
+   67002,
+   66944,
+   77,
+   17
+  ],
+  [
+   69623,
+   67072,
+   364,
+   304
+  ]
+ ]
+}

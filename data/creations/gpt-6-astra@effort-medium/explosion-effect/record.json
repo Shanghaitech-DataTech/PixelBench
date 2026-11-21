@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@effort-medium",
+ "task": "explosion-effect",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "bf2509812a855ac9769d18bb75bd31f1f1db63b5070e10b5b655636bc6c3aa6e"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 7,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 35835,
+ "cached_tokens": 34816,
+ "completion_tokens": 1053,
+ "reasoning_tokens": 0,
+ "seconds": 64.6,
+ "llm_seconds": 62.6,
+ "tool_seconds": 1.4,
+ "calls_usage": [
+  [
+   11135,
+   10752,
+   1013,
+   0
+  ],
+  [
+   12163,
+   12032,
+   18,
+   0
+  ],
+  [
+   12537,
+   12032,
+   22,
+   0
+  ]
+ ]
+}

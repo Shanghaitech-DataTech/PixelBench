@@ -1,0 +1,128 @@
+{
+ "config": "deepseek-v4-flash-0731@effort-max",
+ "task": "university-laboratory-workbench",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "check.py": "384013b84a6ae903cdc4ad72158cac568391797e41914771138eac55225a12b4",
+   "main.py": "7bc0ebcfea16e144143939bb7fb25ace56a74ad087da0e5f9e007435bc347c79",
+   "probe.py": "4d074bfa50bc05e4f2ccccb21ef779719ea3348ec545fdbea20cb0cf3dfa1118"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 45,
+ "writes": 10,
+ "model_rounds": 15,
+ "llm_calls": 15,
+ "retries": 0,
+ "prompt_tokens": 268885,
+ "cached_tokens": 0,
+ "completion_tokens": 73441,
+ "reasoning_tokens": 67825,
+ "seconds": 1675.8,
+ "llm_seconds": 1671.6,
+ "tool_seconds": 3.5,
+ "calls_usage": [
+  [
+   7698,
+   0,
+   41975,
+   39395
+  ],
+  [
+   10293,
+   0,
+   45,
+   0
+  ],
+  [
+   10714,
+   0,
+   166,
+   24
+  ],
+  [
+   10870,
+   0,
+   45,
+   0
+  ],
+  [
+   13325,
+   0,
+   5591,
+   5310
+  ],
+  [
+   13621,
+   0,
+   45,
+   0
+  ],
+  [
+   19066,
+   0,
+   13342,
+   13106
+  ],
+  [
+   19316,
+   0,
+   277,
+   0
+  ],
+  [
+   19626,
+   0,
+   315,
+   21
+  ],
+  [
+   19934,
+   0,
+   2001,
+   1714
+  ],
+  [
+   20254,
+   0,
+   516,
+   20
+  ],
+  [
+   20775,
+   0,
+   210,
+   156
+  ],
+  [
+   26209,
+   0,
+   5827,
+   5143
+  ],
+  [
+   26908,
+   0,
+   245,
+   199
+  ],
+  [
+   30276,
+   0,
+   2841,
+   2737
+  ]
+ ]
+}

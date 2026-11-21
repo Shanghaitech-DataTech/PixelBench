@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@run2",
+ "task": "forest-slime-monster",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "3a9aa38c6fdebc55fe781b1f1a8967f2488ac6131d05104a8ff07e4b56f4638a"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 19,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 1,
+ "prompt_tokens": 36613,
+ "cached_tokens": 23168,
+ "completion_tokens": 1533,
+ "reasoning_tokens": 48,
+ "seconds": 86.7,
+ "llm_seconds": 77.5,
+ "tool_seconds": 1.5,
+ "calls_usage": [
+  [
+   11139,
+   0,
+   1396,
+   0
+  ],
+  [
+   12550,
+   12416,
+   18,
+   0
+  ],
+  [
+   12924,
+   10752,
+   119,
+   48
+  ]
+ ]
+}

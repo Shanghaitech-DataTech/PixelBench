@@ -1,0 +1,60 @@
+{
+ "config": "claude-opus-5",
+ "task": "squid-red-idle",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 3,
+  "actual_count": 3,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "c928633ba62d8d2b54c6e4bdc969423e9a54768554995e5a3ba7b2daf1dea601"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 3,
+ "colors": 8,
+ "writes": 4,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 38961,
+ "cached_tokens": 33790,
+ "completion_tokens": 2257,
+ "reasoning_tokens": 0,
+ "seconds": 183.3,
+ "llm_seconds": 179.8,
+ "tool_seconds": 2.9,
+ "calls_usage": [
+  [
+   8095,
+   7515,
+   56,
+   0
+  ],
+  [
+   8667,
+   7748,
+   102,
+   0
+  ],
+  [
+   10304,
+   8911,
+   1733,
+   0
+  ],
+  [
+   11895,
+   9616,
+   366,
+   0
+  ]
+ ]
+}

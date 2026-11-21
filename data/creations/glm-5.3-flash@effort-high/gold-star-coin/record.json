@@ -1,0 +1,72 @@
+{
+ "config": "glm-5.3-flash@effort-high",
+ "task": "gold-star-coin",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "6de965402cd7001663b3e65c19caee39a28a731e2ad74048ea791d27b77dce04"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 6,
+ "writes": 3,
+ "model_rounds": 6,
+ "llm_calls": 6,
+ "retries": 0,
+ "prompt_tokens": 49039,
+ "cached_tokens": 0,
+ "completion_tokens": 2897,
+ "reasoning_tokens": 1970,
+ "seconds": 51.2,
+ "llm_seconds": 49.2,
+ "tool_seconds": 1.5,
+ "calls_usage": [
+  [
+   7278,
+   0,
+   1393,
+   940
+  ],
+  [
+   7739,
+   0,
+   12,
+   0
+  ],
+  [
+   8049,
+   0,
+   1403,
+   1030
+  ],
+  [
+   8429,
+   0,
+   12,
+   0
+  ],
+  [
+   8739,
+   0,
+   59,
+   0
+  ],
+  [
+   8805,
+   0,
+   18,
+   0
+  ]
+ ]
+}

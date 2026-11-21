@@ -1,0 +1,5 @@
+work = new_canvas(220, 220, background=None, name='wn')
+sel = input_canvas.select(0, 0, 93, 128)
+r = sel.rotate(125, algorithm='nearest')
+r.copy_to(0, 0, work)
+print(work.matrix_text(region=(0,55,159,90)))

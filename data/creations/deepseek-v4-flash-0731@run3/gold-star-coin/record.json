@@ -1,0 +1,67 @@
+{
+ "config": "deepseek-v4-flash-0731@run3",
+ "task": "gold-star-coin",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "fcdb441c85fbd393b6caa6896a61fade71e6dab9ff6b228898ebf3010a69ed93",
+   "starcheck.py": "27148814073318a88756afbe593b33b40bf6ce603eb991fee2517e775e930a40"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 5,
+ "writes": 2,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 42008,
+ "cached_tokens": 0,
+ "completion_tokens": 5640,
+ "reasoning_tokens": 4698,
+ "seconds": 64.1,
+ "llm_seconds": 62.0,
+ "tool_seconds": 1.5,
+ "calls_usage": [
+  [
+   7661,
+   0,
+   2096,
+   1657
+  ],
+  [
+   8115,
+   0,
+   55,
+   10
+  ],
+  [
+   8468,
+   0,
+   2513,
+   2215
+  ],
+  [
+   8782,
+   0,
+   46,
+   0
+  ],
+  [
+   8982,
+   0,
+   930,
+   816
+  ]
+ ]
+}

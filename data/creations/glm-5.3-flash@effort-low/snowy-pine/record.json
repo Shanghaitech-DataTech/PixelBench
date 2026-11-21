@@ -1,0 +1,116 @@
+{
+ "config": "glm-5.3-flash@effort-low",
+ "task": "snowy-pine",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "inspect.py": "1f80f5ba8d76d350ce8f6484ee229c6f39440f87dc329cb2486f64a27e3c73d3",
+   "inspect2.py": "14fb2990ca096107230e6818108fb7033fc6693ce31c566e5a6d864c7fecdf2a",
+   "main.py": "36e4daac7fa1b639a02a6ce966e16c705350bbdc1279f488dff88a84288844f3"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 12,
+ "writes": 7,
+ "model_rounds": 13,
+ "llm_calls": 13,
+ "retries": 0,
+ "prompt_tokens": 144830,
+ "cached_tokens": 0,
+ "completion_tokens": 1502,
+ "reasoning_tokens": 501,
+ "seconds": 54.0,
+ "llm_seconds": 48.5,
+ "tool_seconds": 4.8,
+ "calls_usage": [
+  [
+   7369,
+   0,
+   30,
+   0
+  ],
+  [
+   7407,
+   0,
+   12,
+   0
+  ],
+  [
+   10422,
+   0,
+   942,
+   330
+  ],
+  [
+   11042,
+   0,
+   12,
+   0
+  ],
+  [
+   11427,
+   0,
+   41,
+   0
+  ],
+  [
+   11475,
+   0,
+   118,
+   0
+  ],
+  [
+   11600,
+   0,
+   12,
+   0
+  ],
+  [
+   11711,
+   0,
+   101,
+   64
+  ],
+  [
+   11757,
+   0,
+   13,
+   0
+  ],
+  [
+   12337,
+   0,
+   162,
+   107
+  ],
+  [
+   12399,
+   0,
+   12,
+   0
+  ],
+  [
+   12924,
+   0,
+   29,
+   0
+  ],
+  [
+   12960,
+   0,
+   18,
+   0
+  ]
+ ]
+}

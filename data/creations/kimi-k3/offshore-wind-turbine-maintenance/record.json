@@ -1,0 +1,66 @@
+{
+ "config": "kimi-k3",
+ "task": "offshore-wind-turbine-maintenance",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "491e541244b365c522de55b867483b6f06d8009cc7f17eabc1327ecb0e83155d"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 35,
+ "writes": 2,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 51809,
+ "cached_tokens": 46348,
+ "completion_tokens": 17624,
+ "reasoning_tokens": 14057,
+ "seconds": 348.4,
+ "llm_seconds": 345.9,
+ "tool_seconds": 1.9,
+ "calls_usage": [
+  [
+   7235,
+   6912,
+   15711,
+   12556
+  ],
+  [
+   10431,
+   7168,
+   45,
+   3
+  ],
+  [
+   11026,
+   10240,
+   1474,
+   1279
+  ],
+  [
+   11261,
+   11014,
+   45,
+   3
+  ],
+  [
+   11856,
+   11014,
+   349,
+   216
+  ]
+ ]
+}

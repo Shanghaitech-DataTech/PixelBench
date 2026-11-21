@@ -1,0 +1,138 @@
+{
+ "config": "claude-opus-5",
+ "task": "paladin-attack",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0008",
+  "source_hashes": {
+   "main.py": "6c914aae7c5770d83a2d57032f7eca1d21e910b46e45b6232a2bb4fd04dd11eb"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 46,
+ "writes": 9,
+ "model_rounds": 17,
+ "llm_calls": 17,
+ "retries": 0,
+ "prompt_tokens": 352367,
+ "cached_tokens": 317130,
+ "completion_tokens": 11339,
+ "reasoning_tokens": 0,
+ "seconds": 731.2,
+ "llm_seconds": 725.1,
+ "tool_seconds": 5.4,
+ "calls_usage": [
+  [
+   8118,
+   7306,
+   55,
+   0
+  ],
+  [
+   8186,
+   7367,
+   7,
+   0
+  ],
+  [
+   10574,
+   9517,
+   4610,
+   0
+  ],
+  [
+   13233,
+   11910,
+   7,
+   0
+  ],
+  [
+   16497,
+   14847,
+   3767,
+   0
+  ],
+  [
+   19170,
+   17253,
+   7,
+   0
+  ],
+  [
+   19983,
+   17985,
+   1767,
+   0
+  ],
+  [
+   22631,
+   20368,
+   29,
+   0
+  ],
+  [
+   24313,
+   21882,
+   168,
+   0
+  ],
+  [
+   24401,
+   21961,
+   42,
+   0
+  ],
+  [
+   24467,
+   22020,
+   7,
+   0
+  ],
+  [
+   25280,
+   22752,
+   361,
+   0
+  ],
+  [
+   25786,
+   23207,
+   7,
+   0
+  ],
+  [
+   26599,
+   23939,
+   419,
+   0
+  ],
+  [
+   27148,
+   24433,
+   7,
+   0
+  ],
+  [
+   27961,
+   25165,
+   67,
+   0
+  ],
+  [
+   28020,
+   25218,
+   12,
+   0
+  ]
+ ]
+}

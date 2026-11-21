@@ -1,0 +1,102 @@
+{
+ "config": "gpt-5.6-sol@run3",
+ "task": "big-144-256",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "main.py": "d6004da15ca45b97dfaa5e257e23d19f776b4cee223886907343c2c9300cec1f"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 169,
+ "writes": 5,
+ "model_rounds": 11,
+ "llm_calls": 11,
+ "retries": 0,
+ "prompt_tokens": 147943,
+ "cached_tokens": 141568,
+ "completion_tokens": 4009,
+ "reasoning_tokens": 928,
+ "seconds": 181.9,
+ "llm_seconds": 173.3,
+ "tool_seconds": 7.3,
+ "calls_usage": [
+  [
+   11519,
+   11008,
+   105,
+   16
+  ],
+  [
+   11621,
+   11392,
+   18,
+   0
+  ],
+  [
+   11952,
+   11520,
+   440,
+   277
+  ],
+  [
+   12127,
+   11776,
+   18,
+   0
+  ],
+  [
+   12533,
+   12032,
+   239,
+   83
+  ],
+  [
+   12701,
+   12416,
+   18,
+   0
+  ],
+  [
+   13108,
+   12544,
+   2271,
+   372
+  ],
+  [
+   15020,
+   12928,
+   18,
+   0
+  ],
+  [
+   15279,
+   14976,
+   759,
+   138
+  ],
+  [
+   15912,
+   15104,
+   18,
+   0
+  ],
+  [
+   16171,
+   15872,
+   105,
+   42
+  ]
+ ]
+}

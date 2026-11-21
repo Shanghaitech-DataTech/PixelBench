@@ -1,0 +1,162 @@
+{
+ "config": "gemini-3.8-flash",
+ "task": "offshore-wind-turbine-maintenance",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0010",
+  "source_hashes": {
+   "main.py": "daa1d9b9f2c72df9d211df35a26744ce6de44a5414557891f4a9710090063bf2"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 47,
+ "writes": 9,
+ "model_rounds": 21,
+ "llm_calls": 21,
+ "retries": 0,
+ "prompt_tokens": 999898,
+ "cached_tokens": 624744,
+ "completion_tokens": 45915,
+ "reasoning_tokens": 29158,
+ "seconds": 620.0,
+ "llm_seconds": 607.5,
+ "tool_seconds": 6.9,
+ "calls_usage": [
+  [
+   7558,
+   0,
+   121,
+   111
+  ],
+  [
+   7688,
+   0,
+   2746,
+   2653
+  ],
+  [
+   10436,
+   0,
+   52,
+   32
+  ],
+  [
+   11614,
+   8014,
+   4248,
+   3126
+  ],
+  [
+   15864,
+   0,
+   30,
+   10
+  ],
+  [
+   17020,
+   0,
+   9928,
+   2734
+  ],
+  [
+   26950,
+   16176,
+   29,
+   9
+  ],
+  [
+   28720,
+   24254,
+   11722,
+   4414
+  ],
+  [
+   40444,
+   7804,
+   36,
+   16
+  ],
+  [
+   41757,
+   38393,
+   9722,
+   2334
+  ],
+  [
+   51481,
+   12176,
+   29,
+   9
+  ],
+  [
+   52017,
+   41803,
+   265,
+   23
+  ],
+  [
+   52279,
+   49959,
+   28,
+   8
+  ],
+  [
+   53588,
+   8106,
+   12461,
+   5248
+  ],
+  [
+   66051,
+   52337,
+   30,
+   10
+  ],
+  [
+   67362,
+   63995,
+   11500,
+   3989
+  ],
+  [
+   78864,
+   67429,
+   30,
+   10
+  ],
+  [
+   80175,
+   76805,
+   2748,
+   2730
+  ],
+  [
+   90411,
+   28449,
+   8741,
+   1125
+  ],
+  [
+   99154,
+   80265,
+   30,
+   10
+  ],
+  [
+   100465,
+   48779,
+   577,
+   557
+  ]
+ ]
+}

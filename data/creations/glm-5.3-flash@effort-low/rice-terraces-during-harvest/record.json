@@ -1,0 +1,66 @@
+{
+ "config": "glm-5.3-flash@effort-low",
+ "task": "rice-terraces-during-harvest",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "a3c48ef09d11459f8100670a92e766012257c6e05a42fff565ebb0e76ee5d420"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 20,
+ "writes": 1,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 40315,
+ "cached_tokens": 0,
+ "completion_tokens": 1223,
+ "reasoning_tokens": 82,
+ "seconds": 19.8,
+ "llm_seconds": 17.4,
+ "tool_seconds": 1.7,
+ "calls_usage": [
+  [
+   7299,
+   0,
+   6,
+   0
+  ],
+  [
+   7312,
+   0,
+   1143,
+   50
+  ],
+  [
+   8413,
+   0,
+   12,
+   0
+  ],
+  [
+   8568,
+   0,
+   44,
+   32
+  ],
+  [
+   8723,
+   0,
+   18,
+   0
+  ]
+ ]
+}

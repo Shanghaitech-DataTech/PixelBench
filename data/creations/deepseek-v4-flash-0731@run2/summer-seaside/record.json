@@ -1,0 +1,156 @@
+{
+ "config": "deepseek-v4-flash-0731@run2",
+ "task": "summer-seaside",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0010",
+  "source_hashes": {
+   "main.py": "5c3b470679f61df75535377f835578c286b0e63e9f193f7f0d78ed6a8b801831"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 40,
+ "writes": 11,
+ "model_rounds": 20,
+ "llm_calls": 20,
+ "retries": 0,
+ "prompt_tokens": 290931,
+ "cached_tokens": 0,
+ "completion_tokens": 28756,
+ "reasoning_tokens": 24408,
+ "seconds": 499.3,
+ "llm_seconds": 491.6,
+ "tool_seconds": 6.9,
+ "calls_usage": [
+  [
+   7718,
+   0,
+   19166,
+   17182
+  ],
+  [
+   9717,
+   0,
+   45,
+   0
+  ],
+  [
+   9994,
+   0,
+   2242,
+   1713
+  ],
+  [
+   10548,
+   0,
+   116,
+   71
+  ],
+  [
+   10825,
+   0,
+   487,
+   381
+  ],
+  [
+   10945,
+   0,
+   45,
+   0
+  ],
+  [
+   11222,
+   0,
+   246,
+   140
+  ],
+  [
+   11342,
+   0,
+   45,
+   0
+  ],
+  [
+   11619,
+   0,
+   219,
+   96
+  ],
+  [
+   11756,
+   0,
+   45,
+   0
+  ],
+  [
+   11962,
+   0,
+   445,
+   254
+  ],
+  [
+   12167,
+   0,
+   45,
+   0
+  ],
+  [
+   16841,
+   0,
+   1050,
+   837
+  ],
+  [
+   17068,
+   0,
+   45,
+   0
+  ],
+  [
+   18036,
+   0,
+   333,
+   117
+  ],
+  [
+   18266,
+   0,
+   45,
+   0
+  ],
+  [
+   21949,
+   0,
+   2051,
+   1825
+  ],
+  [
+   22190,
+   0,
+   45,
+   0
+  ],
+  [
+   23282,
+   0,
+   1980,
+   1792
+  ],
+  [
+   23484,
+   0,
+   61,
+   0
+  ]
+ ]
+}

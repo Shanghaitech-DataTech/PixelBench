@@ -1,0 +1,60 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "rts-factory-icon",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "4e28c308575c14e3b16f68403ac53466694a2498a086cb2a5234b2f087d9cd6e"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 15,
+ "writes": 1,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 36092,
+ "cached_tokens": 0,
+ "completion_tokens": 1955,
+ "reasoning_tokens": 340,
+ "seconds": 50.9,
+ "llm_seconds": 48.9,
+ "tool_seconds": 1.5,
+ "calls_usage": [
+  [
+   7757,
+   0,
+   1792,
+   273
+  ],
+  [
+   9295,
+   0,
+   46,
+   18
+  ],
+  [
+   9445,
+   0,
+   77,
+   49
+  ],
+  [
+   9595,
+   0,
+   40,
+   0
+  ]
+ ]
+}

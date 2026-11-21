@@ -1,0 +1,162 @@
+{
+ "config": "glm-5.3-flash",
+ "task": "subway-platform",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0011",
+  "source_hashes": {
+   "main.py": "7a6feed251c9a3c20d83af9017243663d16d3d00993f8d680152eaf11e4175d8"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 81,
+ "writes": 9,
+ "model_rounds": 21,
+ "llm_calls": 21,
+ "retries": 0,
+ "prompt_tokens": 511041,
+ "cached_tokens": 0,
+ "completion_tokens": 312958,
+ "reasoning_tokens": 296052,
+ "seconds": 3755.0,
+ "llm_seconds": 3747.7,
+ "tool_seconds": 6.4,
+ "calls_usage": [
+  [
+   7299,
+   0,
+   53147,
+   53116
+  ],
+  [
+   7425,
+   0,
+   49403,
+   45398
+  ],
+  [
+   11438,
+   0,
+   12,
+   0
+  ],
+  [
+   14587,
+   0,
+   111893,
+   108539
+  ],
+  [
+   17949,
+   0,
+   12,
+   0
+  ],
+  [
+   18089,
+   0,
+   22,
+   10
+  ],
+  [
+   18229,
+   0,
+   33,
+   21
+  ],
+  [
+   18369,
+   0,
+   78,
+   25
+  ],
+  [
+   18429,
+   0,
+   12,
+   0
+  ],
+  [
+   21668,
+   0,
+   60356,
+   56786
+  ],
+  [
+   25246,
+   0,
+   12,
+   0
+  ],
+  [
+   28429,
+   0,
+   13332,
+   12897
+  ],
+  [
+   28871,
+   0,
+   12,
+   0
+  ],
+  [
+   29846,
+   0,
+   22692,
+   18558
+  ],
+  [
+   33988,
+   0,
+   12,
+   0
+  ],
+  [
+   34292,
+   0,
+   179,
+   71
+  ],
+  [
+   34407,
+   0,
+   12,
+   0
+  ],
+  [
+   34556,
+   0,
+   742,
+   230
+  ],
+  [
+   35075,
+   0,
+   12,
+   0
+  ],
+  [
+   36138,
+   0,
+   967,
+   401
+  ],
+  [
+   36711,
+   0,
+   18,
+   0
+  ]
+ ]
+}

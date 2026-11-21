@@ -1,0 +1,169 @@
+{
+ "config": "claude-opus-5",
+ "task": "house-turn-2view",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "house3d.py": "fa5eaf28ce778e5a754d0078ab279ff2cf1661b2a56862fa805929fe87d9a509",
+   "main.py": "0155b033e3c0ea57946edd80ac50fe36e0a109d7fbcc4ef8dc2e03c080ecf2ca"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 19,
+ "writes": 15,
+ "model_rounds": 22,
+ "llm_calls": 22,
+ "retries": 0,
+ "prompt_tokens": 397610,
+ "cached_tokens": 357849,
+ "completion_tokens": 23996,
+ "reasoning_tokens": 0,
+ "seconds": 1669.3,
+ "llm_seconds": 1662.1,
+ "tool_seconds": 6.4,
+ "calls_usage": [
+  [
+   8148,
+   7333,
+   50,
+   0
+  ],
+  [
+   8215,
+   7394,
+   7,
+   0
+  ],
+  [
+   8642,
+   7778,
+   173,
+   0
+  ],
+  [
+   8708,
+   7837,
+   7,
+   0
+  ],
+  [
+   10046,
+   9041,
+   3849,
+   0
+  ],
+  [
+   11906,
+   10715,
+   1936,
+   0
+  ],
+  [
+   12092,
+   10883,
+   2918,
+   0
+  ],
+  [
+   15497,
+   13947,
+   7,
+   0
+  ],
+  [
+   16269,
+   14642,
+   5433,
+   0
+  ],
+  [
+   18450,
+   16605,
+   2239,
+   0
+  ],
+  [
+   18797,
+   16917,
+   2188,
+   0
+  ],
+  [
+   18927,
+   17034,
+   2285,
+   0
+  ],
+  [
+   22382,
+   20144,
+   7,
+   0
+  ],
+  [
+   22945,
+   20651,
+   69,
+   0
+  ],
+  [
+   23041,
+   20737,
+   7,
+   0
+  ],
+  [
+   23835,
+   21452,
+   1559,
+   0
+  ],
+  [
+   23961,
+   21565,
+   415,
+   0
+  ],
+  [
+   24272,
+   21845,
+   278,
+   0
+  ],
+  [
+   24618,
+   22156,
+   243,
+   0
+  ],
+  [
+   25026,
+   22523,
+   75,
+   0
+  ],
+  [
+   25834,
+   23251,
+   239,
+   0
+  ],
+  [
+   25999,
+   23399,
+   12,
+   0
+  ]
+ ]
+}

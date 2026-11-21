@@ -1,0 +1,78 @@
+{
+ "config": "gpt-5.6-sol@run3",
+ "task": "fountain-flow",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "c3847554fbb3bfb32c23f1a515981e0aaf741e7c214a2c8488e1baa6252a47b3"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 18,
+ "writes": 3,
+ "model_rounds": 7,
+ "llm_calls": 7,
+ "retries": 0,
+ "prompt_tokens": 93008,
+ "cached_tokens": 64640,
+ "completion_tokens": 1502,
+ "reasoning_tokens": 304,
+ "seconds": 107.6,
+ "llm_seconds": 103.7,
+ "tool_seconds": 3.1,
+ "calls_usage": [
+  [
+   11488,
+   0,
+   52,
+   0
+  ],
+  [
+   11555,
+   0,
+   18,
+   0
+  ],
+  [
+   11883,
+   11392,
+   85,
+   25
+  ],
+  [
+   11955,
+   11648,
+   18,
+   0
+  ],
+  [
+   14565,
+   11776,
+   1289,
+   279
+  ],
+  [
+   15588,
+   14336,
+   18,
+   0
+  ],
+  [
+   15974,
+   15488,
+   22,
+   0
+  ]
+ ]
+}

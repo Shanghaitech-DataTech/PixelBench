@@ -1,0 +1,102 @@
+{
+ "config": "gpt-6-astra@effort-xhigh",
+ "task": "fast-food-combo",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "ef4fcb710037026e1bca4221d9279d5b513a321d945dc1447ae19fddb2e87f89"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 40,
+ "writes": 7,
+ "model_rounds": 11,
+ "llm_calls": 11,
+ "retries": 0,
+ "prompt_tokens": 177682,
+ "cached_tokens": 159232,
+ "completion_tokens": 9123,
+ "reasoning_tokens": 3670,
+ "seconds": 439.8,
+ "llm_seconds": 436.2,
+ "tool_seconds": 2.9,
+ "calls_usage": [
+  [
+   11167,
+   0,
+   5637,
+   1545
+  ],
+  [
+   15274,
+   11008,
+   18,
+   0
+  ],
+  [
+   15648,
+   15104,
+   1515,
+   1034
+  ],
+  [
+   16141,
+   15488,
+   792,
+   516
+  ],
+  [
+   16429,
+   16128,
+   389,
+   256
+  ],
+  [
+   16574,
+   16384,
+   178,
+   0
+  ],
+  [
+   16766,
+   16640,
+   18,
+   0
+  ],
+  [
+   17140,
+   16768,
+   358,
+   255
+  ],
+  [
+   17255,
+   17024,
+   132,
+   54
+  ],
+  [
+   17611,
+   17152,
+   64,
+   10
+  ],
+  [
+   17677,
+   17536,
+   22,
+   0
+  ]
+ ]
+}

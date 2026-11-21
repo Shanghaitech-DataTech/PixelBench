@@ -1,0 +1,42 @@
+{
+ "config": "deepseek-v4-flash-0731@direct",
+ "task": "character-emotion-set",
+ "ok": false,
+ "error": "unparseable",
+ "termination": "format",
+ "frames": 0,
+ "colors": null,
+ "parse": {
+  "ok": false,
+  "reason": "row count 369 vs 64",
+  "palette_size": 7,
+  "diags": [
+   {
+    "declared": [
+     64,
+     64
+    ],
+    "size": [
+     64,
+     64
+    ],
+    "rows": 369
+   }
+  ]
+ },
+ "max_tokens": 131072,
+ "time_limit_s": 3600.0,
+ "finish_reason": "stop",
+ "prompt_tokens": 501,
+ "completion_tokens": 85172,
+ "reasoning_tokens": 72645,
+ "seconds": 893.0,
+ "calls_usage": [
+  [
+   501,
+   0,
+   85172,
+   72645
+  ]
+ ]
+}

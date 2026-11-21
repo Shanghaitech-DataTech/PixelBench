@@ -1,0 +1,42 @@
+{
+ "config": "deepseek-v4-flash-0731@direct",
+ "task": "poolcore-water-slide",
+ "ok": false,
+ "error": "unparseable",
+ "termination": "format",
+ "frames": 0,
+ "colors": null,
+ "parse": {
+  "ok": false,
+  "reason": "row count 252 vs 128",
+  "palette_size": 34,
+  "diags": [
+   {
+    "declared": [
+     128,
+     128
+    ],
+    "size": [
+     128,
+     128
+    ],
+    "rows": 252
+   }
+  ]
+ },
+ "max_tokens": 131072,
+ "time_limit_s": 3600.0,
+ "finish_reason": "stop",
+ "prompt_tokens": 548,
+ "completion_tokens": 61485,
+ "reasoning_tokens": 48572,
+ "seconds": 1049.2,
+ "calls_usage": [
+  [
+   548,
+   0,
+   61485,
+   48572
+  ]
+ ]
+}

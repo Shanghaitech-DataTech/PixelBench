@@ -1,0 +1,90 @@
+{
+ "config": "glm-5.3-flash",
+ "task": "rpg-grass-material",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "042dffcb476b246ffc1a137bde54d56cdfeb422bfbefc19030852bdf34612c9c"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 9,
+ "writes": 4,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 91349,
+ "cached_tokens": 0,
+ "completion_tokens": 89895,
+ "reasoning_tokens": 86380,
+ "seconds": 1135.9,
+ "llm_seconds": 1133.2,
+ "tool_seconds": 2.1,
+ "calls_usage": [
+  [
+   7305,
+   0,
+   14638,
+   14610
+  ],
+  [
+   7431,
+   0,
+   21940,
+   21218
+  ],
+  [
+   8161,
+   0,
+   18,
+   0
+  ],
+  [
+   8798,
+   0,
+   23644,
+   22658
+  ],
+  [
+   9792,
+   0,
+   18,
+   0
+  ],
+  [
+   10748,
+   0,
+   21695,
+   20103
+  ],
+  [
+   12348,
+   0,
+   18,
+   0
+  ],
+  [
+   13322,
+   0,
+   7906,
+   7791
+  ],
+  [
+   13444,
+   0,
+   18,
+   0
+  ]
+ ]
+}

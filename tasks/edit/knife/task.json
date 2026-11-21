@@ -1,0 +1,23 @@
+{
+  "id": "knife",
+  "task_type": "edit",
+  "prompt": "Pose this knife thrusting to the right with its cutting edge facing downward, leaving semi-transparent afterimages and a white slash effect.",
+  "width": 93,
+  "height": 128,
+  "constraints": {
+    "max_colors": null,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 15,
+    "max_code_seconds": 120
+  },
+  "input_size": {
+    "width": 93,
+    "height": 128
+  },
+  "output_size": "agent_defined",
+  "num_frames": 1,
+  "frames_visible": false
+}

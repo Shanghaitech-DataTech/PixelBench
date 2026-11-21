@@ -1,0 +1,108 @@
+{
+ "config": "gpt-5.6-sol@run3",
+ "task": "squid-red-idle",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 3,
+  "actual_count": 3,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "main.py": "70505611e430fb014022e53966af6dff7672302f5d2078e17a8368bcf73f5cbe"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 3,
+ "colors": 8,
+ "writes": 5,
+ "model_rounds": 12,
+ "llm_calls": 12,
+ "retries": 0,
+ "prompt_tokens": 180385,
+ "cached_tokens": 153472,
+ "completion_tokens": 4435,
+ "reasoning_tokens": 2469,
+ "seconds": 171.1,
+ "llm_seconds": 164.9,
+ "tool_seconds": 5.4,
+ "calls_usage": [
+  [
+   11634,
+   11008,
+   70,
+   18
+  ],
+  [
+   11698,
+   0,
+   134,
+   12
+  ],
+  [
+   11833,
+   11520,
+   18,
+   0
+  ],
+  [
+   13658,
+   11648,
+   1737,
+   1160
+  ],
+  [
+   14248,
+   11008,
+   18,
+   0
+  ],
+  [
+   15127,
+   13440,
+   736,
+   516
+  ],
+  [
+   15359,
+   14976,
+   18,
+   0
+  ],
+  [
+   16238,
+   15360,
+   515,
+   312
+  ],
+  [
+   16453,
+   16000,
+   18,
+   0
+  ],
+  [
+   17332,
+   16384,
+   1035,
+   416
+  ],
+  [
+   17963,
+   14208,
+   18,
+   0
+  ],
+  [
+   18842,
+   17920,
+   118,
+   35
+  ]
+ ]
+}

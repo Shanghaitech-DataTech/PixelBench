@@ -1,0 +1,279 @@
+{
+ "config": "gemini-3.8-flash",
+ "task": "chainmail-armor",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0018",
+  "source_hashes": {
+   "check_stats.py": "3a2d964ce3578dc8300abdd1696b6dc98b4db64fca97fb239c135da06cd5165c",
+   "draft_armor.py": "ac0027ae93314d1ef91abe833123e1c36658c3ddb3a297a7b3df4b772c06d6f6",
+   "generate_armor.py": "a8a3cb0fcac769aef8172fcd34bd6c79b8608a392226e60b4eb7818bcada969d",
+   "generate_armor2.py": "a97864aa6048b85d68979d137321d64128485d1e2a93bfc5a4c1c19098313303",
+   "generate_armor3.py": "3ad1263e56f74b6018f34888d5a3b92d082e48d1f336106bb1a539229985bf7d",
+   "main.py": "560a8e093b0c926e2866df830eb61090f2d32b23cb3c7f32f824f95e8e0f87f5",
+   "test_circ.py": "b6777deb55dc956eb42f87351073dc7baa650c5dee2066e6495182b7258aaa48",
+   "test_hanging.py": "37f571fe8c15a851a48d2b6cd58fd651b09c1ba2c07e5c50b0b4775ecd86549a",
+   "test_horiz.py": "00f859b6c6175af73887c4699794c308fa34623c22030bc3412e54da8c603dd4",
+   "test_lattice.py": "96ed71159a7b0d93564ed776084f17af64c04eca7267655a7f2fe1e2193c95d0",
+   "test_patterns.py": "e57bcf98cd92aa0d94c01695a679e72f8053d2764f7f6ebf99efc2f5727a1d5f",
+   "test_patterns2.py": "0acc2740faf9aa6c7841bbc55422ace82260d91bd25fc842b2d3a62ba30c1b77",
+   "test_rings.py": "bed89ba5dfed1a216860d2b50c1a73743648a7a2baf3e4144cedea876bedb8ff",
+   "test_rings2.py": "548fcec281860d7af1c7bf5c80c555f79f9f4fb52c77117a552894fa21e58451",
+   "test_rings3.py": "00ef161b88cf17700473d2b8e6876a2f28898de816d18e2cda16693bf0a1b6b3",
+   "test_weave.py": "cbdf99a2bdfe4ffc8d94bc18cea1786fe1aeadb33d521fbaf1307db4ee66e1de"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 25,
+ "writes": 19,
+ "model_rounds": 38,
+ "llm_calls": 38,
+ "retries": 0,
+ "prompt_tokens": 1363417,
+ "cached_tokens": 1239381,
+ "completion_tokens": 26052,
+ "reasoning_tokens": 0,
+ "seconds": 465.3,
+ "llm_seconds": 453.0,
+ "tool_seconds": 10.6,
+ "calls_usage": [
+  [
+   7662,
+   0,
+   113,
+   0
+  ],
+  [
+   7792,
+   5615,
+   1392,
+   0
+  ],
+  [
+   9202,
+   5760,
+   36,
+   0
+  ],
+  [
+   10370,
+   7401,
+   1871,
+   0
+  ],
+  [
+   12261,
+   9289,
+   32,
+   0
+  ],
+  [
+   13425,
+   10220,
+   1504,
+   0
+  ],
+  [
+   14950,
+   12342,
+   34,
+   0
+  ],
+  [
+   16116,
+   13815,
+   1023,
+   0
+  ],
+  [
+   17159,
+   15030,
+   32,
+   0
+  ],
+  [
+   18323,
+   15120,
+   1475,
+   0
+  ],
+  [
+   19819,
+   17242,
+   34,
+   0
+  ],
+  [
+   20986,
+   17781,
+   1053,
+   0
+  ],
+  [
+   22060,
+   19902,
+   34,
+   0
+  ],
+  [
+   23299,
+   20974,
+   2216,
+   0
+  ],
+  [
+   25535,
+   23311,
+   32,
+   0
+  ],
+  [
+   26700,
+   23497,
+   1754,
+   0
+  ],
+  [
+   28474,
+   25622,
+   1741,
+   0
+  ],
+  [
+   30235,
+   26451,
+   32,
+   0
+  ],
+  [
+   31400,
+   28196,
+   2066,
+   0
+  ],
+  [
+   33486,
+   31410,
+   2221,
+   0
+  ],
+  [
+   35727,
+   33497,
+   32,
+   0
+  ],
+  [
+   36964,
+   33687,
+   1346,
+   0
+  ],
+  [
+   38330,
+   35881,
+   32,
+   0
+  ],
+  [
+   39567,
+   36291,
+   846,
+   0
+  ],
+  [
+   40434,
+   37535,
+   34,
+   0
+  ],
+  [
+   41673,
+   38396,
+   5277,
+   0
+  ],
+  [
+   46970,
+   41710,
+   32,
+   0
+  ],
+  [
+   48135,
+   44928,
+   5522,
+   0
+  ],
+  [
+   53678,
+   48172,
+   34,
+   0
+  ],
+  [
+   54845,
+   51635,
+   4430,
+   0
+  ],
+  [
+   59295,
+   54872,
+   32,
+   0
+  ],
+  [
+   60532,
+   57251,
+   5614,
+   0
+  ],
+  [
+   66167,
+   60566,
+   34,
+   0
+  ],
+  [
+   67334,
+   64121,
+   321,
+   0
+  ],
+  [
+   67675,
+   65293,
+   32,
+   0
+  ],
+  [
+   69060,
+   66230,
+   4223,
+   0
+  ],
+  [
+   73301,
+   69083,
+   33,
+   0
+  ],
+  [
+   74476,
+   71255,
+   118,
+   0
+  ]
+ ]
+}

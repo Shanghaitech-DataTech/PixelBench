@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pixelbench"
+version = "1.0.0"
+description = "PixelBench: tasks, creation environment and judge protocol for evaluating language models on pixel-art creation"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+dependencies = [
+    "numpy>=1.24",
+    "pillow>=9.0",
+    "jupyter_client>=8.0",
+    "ipykernel>=6.0",
+    "openai>=1.30",
+    "python-dotenv>=1.0",
+    "requests>=2.31",
+    "scipy>=1.11",
+]
+
+[project.optional-dependencies]
+agents-sdk = ["openai-agents>=0.1"]
+dev = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+include = ["pixelbench*"]
+
+[tool.setuptools.package-data]
+"pixelbench._vendor.astra_pixelart" = ["*.bin", "*.txt", "*.md", "LICENSE", "UPSTREAM.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

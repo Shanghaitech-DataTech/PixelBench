@@ -1,0 +1,54 @@
+{
+ "config": "glm-5.3-flash@effort-low",
+ "task": "tavern-interior",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "0818a2569ed0561e40bdbfa9546fb43c8bacc92111ce7c446a541c5208d44a4c"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 34,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 25904,
+ "cached_tokens": 0,
+ "completion_tokens": 2059,
+ "reasoning_tokens": 112,
+ "seconds": 63.5,
+ "llm_seconds": 60.2,
+ "tool_seconds": 1.1,
+ "calls_usage": [
+  [
+   7301,
+   0,
+   1969,
+   52
+  ],
+  [
+   9226,
+   0,
+   12,
+   0
+  ],
+  [
+   9377,
+   0,
+   78,
+   60
+  ]
+ ]
+}

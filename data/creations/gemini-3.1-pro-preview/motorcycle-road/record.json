@@ -1,0 +1,126 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "motorcycle-road",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "c5062464844554407d300fc44b175f29b8f0a613e35d1e9656faea188c5b9fec"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 20,
+ "writes": 8,
+ "model_rounds": 15,
+ "llm_calls": 15,
+ "retries": 0,
+ "prompt_tokens": 197235,
+ "cached_tokens": 82918,
+ "completion_tokens": 2564,
+ "reasoning_tokens": 23630,
+ "seconds": 312.9,
+ "llm_seconds": 307.3,
+ "tool_seconds": 4.8,
+ "calls_usage": [
+  [
+   7629,
+   0,
+   125,
+   67
+  ],
+  [
+   7756,
+   3958,
+   29,
+   9
+  ],
+  [
+   8920,
+   0,
+   204,
+   130
+  ],
+  [
+   9121,
+   5930,
+   20,
+   0
+  ],
+  [
+   9528,
+   5927,
+   372,
+   118
+  ],
+  [
+   9897,
+   7890,
+   20,
+   0
+  ],
+  [
+   10795,
+   7897,
+   479,
+   199
+  ],
+  [
+   11271,
+   7889,
+   20,
+   0
+  ],
+  [
+   12218,
+   9867,
+   825,
+   450
+  ],
+  [
+   13048,
+   9869,
+   61,
+   8
+  ],
+  [
+   13111,
+   0,
+   20,
+   0
+  ],
+  [
+   14393,
+   11846,
+   9125,
+   8623
+  ],
+  [
+   23520,
+   0,
+   20,
+   0
+  ],
+  [
+   15586,
+   11845,
+   14854,
+   14026
+  ],
+  [
+   30442,
+   0,
+   20,
+   0
+  ]
+ ]
+}

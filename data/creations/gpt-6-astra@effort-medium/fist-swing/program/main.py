@@ -1,0 +1,25 @@
+f1 = new_canvas(37,44,name='original')
+f1.blit(input_canvas,2,0)
+f2=f1.copy(name='light_punch')
+# Remove the raised forearm and fist, keeping the face and torso intact.
+f2.clear(15,8,12,8)
+O='#222034'; S='#eec39a'; M='#df7126'; D='#8f563b'
+# Restore the small chest area exposed by the opening guard.
+f2.line(14,9,14,10,O)
+f2.rect(14,11,4,4,S)
+f2.rect(16,14,3,2,M)
+f2.set(18,15,O)
+# Left arm straightens outward from the shoulder into a gentle jab.
+f2.poly([(14,10),(18,10),(21,11),(26,11),(27,9),(31,9),(33,11),(33,14),(31,15),(21,15),(18,14),(16,14),(15,13)],O)
+f2.poly([(15,11),(18,11),(21,12),(27,12),(28,10),(31,10),(32,11),(32,14),(22,14),(18,13),(16,13)],M)
+f2.line(16,11,18,11,S)
+f2.line(19,12,27,12,S)
+f2.rect(28,10,3,3,S)
+f2.line(31,11,32,11,S)
+f2.line(22,14,30,14,D)
+f2.set(28,13,D)
+f2.line(29,13,31,13,M)
+f2.set(32,12,M)
+view(f1,scale=10)
+view(f2,scale=10)
+finish([f1,f2])

@@ -1,0 +1,66 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "rice-terraces-during-harvest",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "1d408c690bb91f05c06b54fbbd06ac6c369056e7c0124c9fa036da3299eea043"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 81,
+ "writes": 2,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 62000,
+ "cached_tokens": 0,
+ "completion_tokens": 5604,
+ "reasoning_tokens": 329,
+ "seconds": 136.4,
+ "llm_seconds": 134.1,
+ "tool_seconds": 1.7,
+ "calls_usage": [
+  [
+   7764,
+   0,
+   5266,
+   258
+  ],
+  [
+   12791,
+   0,
+   55,
+   15
+  ],
+  [
+   13643,
+   0,
+   147,
+   0
+  ],
+  [
+   13808,
+   0,
+   40,
+   0
+  ],
+  [
+   13994,
+   0,
+   96,
+   56
+  ]
+ ]
+}

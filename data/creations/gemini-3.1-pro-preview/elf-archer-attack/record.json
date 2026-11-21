@@ -1,0 +1,223 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "elf-archer-attack",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0014",
+  "source_hashes": {
+   "inspect_arms.py": "e4e7f384bb568a0d068b1c30df2abf61b6bbbb543b144a7e9492be7d1c93dc52",
+   "inspect_clear.py": "1b4dcf0202ea83e8907354f490ea6c92669cd8c80e20787faea0bdfa1ec76c8f",
+   "main.py": "519e02ec1881d70478376c614964dd354daee767dd5177f57e228eb3e59bdbc2",
+   "test_bow.py": "ca7a05973c80cbbf645e2d011cf667a2bc1256c044b2b82f026d5efa93a0728f",
+   "test_draw.py": "4b267e3e8476ff2a692a6b1e800556f1f51f9f3d8d702d9acad5abea4c9968f2",
+   "test_draw2.py": "42ec3b5ed278385b481a1bf0a18f80721438d79431c4dbe1f81cdb331fc09c2e",
+   "test_draw3.py": "307fc7953d1b4c2ddb985bf165dfafa2851a88930d63dcc5a69aa5a71e11ef11",
+   "test_erase.py": "ceb8cfa1cc7d3c30166c227d0de7d87bf78fc32024ed2f29ce07a804ffb31202",
+   "test_parts.py": "2d59d7e0034b6d95eeb278f74270ecdec85bd9de3138f12ced12b8ca81928aa5",
+   "test_patch.py": "9624b82958cc5bbc7c1c34c5f038b2a2645676bc960dff9f2593ec072adc94ce",
+   "test_pieces.py": "8112b8ba1d5fb5a5355365267165793a377271505bd47a3df2baa3751ba6163f",
+   "test_pose.py": "6e6ea6d5dc746b32b8adf84895204f60261a9b333a9012d06547cf4bd6469386",
+   "test_pose2.py": "3c5d3a0cd7e1162fa3f6c8ab8af9d5a09ded0b243bacfb444c39e390bc7cfdce",
+   "test_reconstruct.py": "da479c934362ec64fe078d2e3d5475403457148e5fd553110cd2279d2cfa837d"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 43,
+ "writes": 15,
+ "model_rounds": 29,
+ "llm_calls": 29,
+ "retries": 0,
+ "prompt_tokens": 634044,
+ "cached_tokens": 352524,
+ "completion_tokens": 12883,
+ "reasoning_tokens": 22554,
+ "seconds": 514.0,
+ "llm_seconds": 503.8,
+ "tool_seconds": 9.4,
+ "calls_usage": [
+  [
+   7793,
+   0,
+   210,
+   120
+  ],
+  [
+   8005,
+   0,
+   36,
+   16
+  ],
+  [
+   10781,
+   0,
+   3599,
+   3406
+  ],
+  [
+   14384,
+   4004,
+   22,
+   0
+  ],
+  [
+   12200,
+   7961,
+   4387,
+   4099
+  ],
+  [
+   16591,
+   10011,
+   22,
+   0
+  ],
+  [
+   13631,
+   9943,
+   595,
+   474
+  ],
+  [
+   14230,
+   11925,
+   22,
+   0
+  ],
+  [
+   15715,
+   11943,
+   3810,
+   3540
+  ],
+  [
+   19529,
+   11993,
+   22,
+   0
+  ],
+  [
+   16667,
+   11928,
+   1724,
+   1457
+  ],
+  [
+   18395,
+   15926,
+   22,
+   0
+  ],
+  [
+   18077,
+   0,
+   1306,
+   864
+  ],
+  [
+   19387,
+   11928,
+   22,
+   0
+  ],
+  [
+   19640,
+   15889,
+   1869,
+   730
+  ],
+  [
+   21514,
+   15913,
+   23,
+   0
+  ],
+  [
+   21909,
+   17889,
+   2001,
+   727
+  ],
+  [
+   23914,
+   21895,
+   22,
+   0
+  ],
+  [
+   24311,
+   0,
+   1464,
+   0
+  ],
+  [
+   25780,
+   15926,
+   23,
+   0
+  ],
+  [
+   26905,
+   21898,
+   1643,
+   1243
+  ],
+  [
+   28552,
+   25899,
+   22,
+   0
+  ],
+  [
+   28433,
+   25871,
+   1849,
+   282
+  ],
+  [
+   30286,
+   27887,
+   22,
+   0
+  ],
+  [
+   31128,
+   0,
+   4825,
+   3311
+  ],
+  [
+   35958,
+   0,
+   23,
+   0
+  ],
+  [
+   34052,
+   23919,
+   1885,
+   0
+  ],
+  [
+   36164,
+   0,
+   3947,
+   2285
+  ],
+  [
+   40113,
+   31976,
+   20,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "farm-sheep",
+  "task_type": "agentic_creation",
+  "prompt": "pixel art, 32x32 resolution, Stardew Valley style, cozy farm animal, fluffy white sheep with pale pink ears, side view, soft rounded shapes, gentle flat shading, no harsh outline, warm muted palette, transparent background",
+  "width": 32,
+  "height": 32,
+  "constraints": {
+    "max_colors": 86,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 25,
+    "max_code_seconds": 120
+  }
+}

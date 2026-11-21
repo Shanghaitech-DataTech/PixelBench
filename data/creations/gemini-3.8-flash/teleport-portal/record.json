@@ -1,0 +1,126 @@
+{
+ "config": "gemini-3.8-flash",
+ "task": "teleport-portal",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "9b72fd04dd72c5c27b91d873c33c54a40e2d81830d1905e8e4fef711ec6da565"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 19,
+ "writes": 6,
+ "model_rounds": 15,
+ "llm_calls": 15,
+ "retries": 0,
+ "prompt_tokens": 451761,
+ "cached_tokens": 386997,
+ "completion_tokens": 15209,
+ "reasoning_tokens": 0,
+ "seconds": 330.6,
+ "llm_seconds": 325.7,
+ "tool_seconds": 4.2,
+ "calls_usage": [
+  [
+   7674,
+   0,
+   527,
+   0
+  ],
+  [
+   8218,
+   5629,
+   37,
+   0
+  ],
+  [
+   8376,
+   6177,
+   13202,
+   0
+  ],
+  [
+   21596,
+   8417,
+   40,
+   0
+  ],
+  [
+   22768,
+   20306,
+   3905,
+   0
+  ],
+  [
+   26691,
+   22774,
+   30,
+   0
+  ],
+  [
+   27927,
+   24635,
+   4404,
+   0
+  ],
+  [
+   32349,
+   27936,
+   36,
+   0
+  ],
+  [
+   33591,
+   30294,
+   4731,
+   0
+  ],
+  [
+   38340,
+   33602,
+   36,
+   0
+  ],
+  [
+   39508,
+   36284,
+   3748,
+   0
+  ],
+  [
+   43274,
+   39515,
+   28,
+   0
+  ],
+  [
+   44435,
+   41218,
+   3370,
+   0
+  ],
+  [
+   47823,
+   44441,
+   46,
+   0
+  ],
+  [
+   49191,
+   45769,
+   200,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "forest-slime-monster",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "c56051bd7e6bb0bb9b920b09d4739804387f30d68b37c878403677c7e88ce01d"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 15,
+ "writes": 4,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 107887,
+ "cached_tokens": 0,
+ "completion_tokens": 5098,
+ "reasoning_tokens": 446,
+ "seconds": 129.6,
+ "llm_seconds": 126.5,
+ "tool_seconds": 2.4,
+ "calls_usage": [
+  [
+   7762,
+   0,
+   2127,
+   227
+  ],
+  [
+   9681,
+   0,
+   46,
+   18
+  ],
+  [
+   10450,
+   0,
+   208,
+   0
+  ],
+  [
+   10676,
+   0,
+   28,
+   0
+  ],
+  [
+   11446,
+   0,
+   2275,
+   107
+  ],
+  [
+   13633,
+   0,
+   28,
+   0
+  ],
+  [
+   14360,
+   0,
+   198,
+   0
+  ],
+  [
+   14576,
+   0,
+   28,
+   0
+  ],
+  [
+   15303,
+   0,
+   160,
+   94
+  ]
+ ]
+}

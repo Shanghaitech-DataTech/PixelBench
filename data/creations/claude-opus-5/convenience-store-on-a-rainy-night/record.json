@@ -1,0 +1,78 @@
+{
+ "config": "claude-opus-5",
+ "task": "convenience-store-on-a-rainy-night",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "56958e9b669a4e6b0d0f73eb6b265dbfd8f49324d871f6ccf36f9e258bcaf403"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 75,
+ "writes": 10,
+ "model_rounds": 7,
+ "llm_calls": 7,
+ "retries": 6,
+ "prompt_tokens": 108338,
+ "cached_tokens": 90366,
+ "completion_tokens": 6986,
+ "reasoning_tokens": 0,
+ "seconds": 946.1,
+ "llm_seconds": 385.9,
+ "tool_seconds": 4.8,
+ "calls_usage": [
+  [
+   7849,
+   7557,
+   2565,
+   0
+  ],
+  [
+   11130,
+   0,
+   2228,
+   0
+  ],
+  [
+   15487,
+   12340,
+   756,
+   0
+  ],
+  [
+   17049,
+   15814,
+   95,
+   0
+  ],
+  [
+   17591,
+   17275,
+   864,
+   0
+  ],
+  [
+   19345,
+   17816,
+   70,
+   0
+  ],
+  [
+   19887,
+   19564,
+   408,
+   0
+  ]
+ ]
+}

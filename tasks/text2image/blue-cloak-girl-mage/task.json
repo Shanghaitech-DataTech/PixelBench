@@ -1,0 +1,16 @@
+{
+  "id": "blue-cloak-girl-mage",
+  "task_type": "agentic_creation",
+  "prompt": "pixel art, 64x64 resolution, anime style, full-body character, girl mage, relaxed pose, dark blue cloak, white boots, glowing amber staff, strong silhouette, simple readable costume, front-facing, RPG character sprite",
+  "width": 64,
+  "height": 64,
+  "constraints": {
+    "max_colors": 86,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 25,
+    "max_code_seconds": 120
+  }
+}

@@ -1,0 +1,90 @@
+{
+ "config": "deepseek-v4-flash-0731@effort-max",
+ "task": "magic-staff",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "e27d630ef2cbba4106a32012e67ef0e8ba4610bc5b4b97c1e974c1e6ab49291c"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 17,
+ "writes": 6,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 91955,
+ "cached_tokens": 0,
+ "completion_tokens": 19427,
+ "reasoning_tokens": 16714,
+ "seconds": 394.0,
+ "llm_seconds": 391.1,
+ "tool_seconds": 2.4,
+ "calls_usage": [
+  [
+   7673,
+   0,
+   14568,
+   12826
+  ],
+  [
+   9430,
+   0,
+   60,
+   15
+  ],
+  [
+   9683,
+   0,
+   1831,
+   1432
+  ],
+  [
+   10107,
+   0,
+   45,
+   0
+  ],
+  [
+   10289,
+   0,
+   305,
+   174
+  ],
+  [
+   10434,
+   0,
+   45,
+   0
+  ],
+  [
+   11294,
+   0,
+   2399,
+   2267
+  ],
+  [
+   11459,
+   0,
+   113,
+   0
+  ],
+  [
+   11586,
+   0,
+   61,
+   0
+  ]
+ ]
+}

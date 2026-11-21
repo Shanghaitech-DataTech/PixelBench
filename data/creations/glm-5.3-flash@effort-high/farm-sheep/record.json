@@ -1,0 +1,138 @@
+{
+ "config": "glm-5.3-flash@effort-high",
+ "task": "farm-sheep",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0008",
+  "source_hashes": {
+   "main.py": "2f5d71f18604b9265617f33cc593462136ef0652bd5d541a15d442c0a126f92d"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 12,
+ "writes": 12,
+ "model_rounds": 17,
+ "llm_calls": 17,
+ "retries": 0,
+ "prompt_tokens": 200978,
+ "cached_tokens": 0,
+ "completion_tokens": 11810,
+ "reasoning_tokens": 7614,
+ "seconds": 215.6,
+ "llm_seconds": 210.9,
+ "tool_seconds": 4.1,
+ "calls_usage": [
+  [
+   7302,
+   0,
+   1573,
+   865
+  ],
+  [
+   8018,
+   0,
+   12,
+   0
+  ],
+  [
+   8483,
+   0,
+   2756,
+   1855
+  ],
+  [
+   9392,
+   0,
+   12,
+   0
+  ],
+  [
+   9913,
+   0,
+   667,
+   0
+  ],
+  [
+   10592,
+   0,
+   12,
+   0
+  ],
+  [
+   11117,
+   0,
+   2854,
+   2032
+  ],
+  [
+   11951,
+   0,
+   12,
+   0
+  ],
+  [
+   12481,
+   0,
+   142,
+   0
+  ],
+  [
+   12639,
+   0,
+   127,
+   0
+  ],
+  [
+   12773,
+   0,
+   12,
+   0
+  ],
+  [
+   13325,
+   0,
+   1363,
+   915
+  ],
+  [
+   13785,
+   0,
+   12,
+   0
+  ],
+  [
+   14354,
+   0,
+   2095,
+   1922
+  ],
+  [
+   14534,
+   0,
+   12,
+   0
+  ],
+  [
+   15103,
+   0,
+   131,
+   25
+  ],
+  [
+   15216,
+   0,
+   18,
+   0
+  ]
+ ]
+}

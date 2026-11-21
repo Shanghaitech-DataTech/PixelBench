@@ -1,0 +1,42 @@
+{
+ "config": "deepseek-v4-flash-0731@direct",
+ "task": "castle-title-screen",
+ "ok": false,
+ "error": "unparseable",
+ "termination": "format",
+ "frames": 0,
+ "colors": null,
+ "parse": {
+  "ok": false,
+  "reason": "row count 185 vs 128",
+  "palette_size": 1,
+  "diags": [
+   {
+    "declared": [
+     128,
+     128
+    ],
+    "size": [
+     128,
+     128
+    ],
+    "rows": 185
+   }
+  ]
+ },
+ "max_tokens": 131072,
+ "time_limit_s": 3600.0,
+ "finish_reason": "stop",
+ "prompt_tokens": 486,
+ "completion_tokens": 106583,
+ "reasoning_tokens": 48930,
+ "seconds": 1822.2,
+ "calls_usage": [
+  [
+   486,
+   0,
+   106583,
+   48930
+  ]
+ ]
+}

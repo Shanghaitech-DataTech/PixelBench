@@ -1,0 +1,78 @@
+{
+ "config": "deepseek-v4-flash-0731@effort-low",
+ "task": "mushroomling",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "3fedde253c01fc23ab90d2f6a4d01dfb24e321053f012358d310516ba74cfee9"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 5,
+ "writes": 4,
+ "model_rounds": 7,
+ "llm_calls": 7,
+ "retries": 0,
+ "prompt_tokens": 62393,
+ "cached_tokens": 0,
+ "completion_tokens": 4089,
+ "reasoning_tokens": 2421,
+ "seconds": 100.5,
+ "llm_seconds": 98.4,
+ "tool_seconds": 1.5,
+ "calls_usage": [
+  [
+   7600,
+   0,
+   2151,
+   1653
+  ],
+  [
+   8113,
+   0,
+   45,
+   0
+  ],
+  [
+   8464,
+   0,
+   906,
+   193
+  ],
+  [
+   9191,
+   0,
+   584,
+   390
+  ],
+  [
+   9399,
+   0,
+   45,
+   0
+  ],
+  [
+   9750,
+   0,
+   297,
+   185
+  ],
+  [
+   9876,
+   0,
+   61,
+   0
+  ]
+ ]
+}

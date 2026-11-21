@@ -1,0 +1,72 @@
+{
+ "config": "deepseek-v4-pro",
+ "task": "squid-red-idle",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 3,
+  "actual_count": 3,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "1809015cf4516747f56d71304b89c729e07567367a6e2149858c968c3430f823"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 3,
+ "colors": 8,
+ "writes": 3,
+ "model_rounds": 6,
+ "llm_calls": 6,
+ "retries": 0,
+ "prompt_tokens": 92684,
+ "cached_tokens": 89856,
+ "completion_tokens": 14399,
+ "reasoning_tokens": 13551,
+ "seconds": 208.9,
+ "llm_seconds": 206.4,
+ "tool_seconds": 1.9,
+ "calls_usage": [
+  [
+   7913,
+   7424,
+   165,
+   45
+  ],
+  [
+   8094,
+   8064,
+   60,
+   0
+  ],
+  [
+   9843,
+   8064,
+   11231,
+   10887
+  ],
+  [
+   21090,
+   20992,
+   60,
+   0
+  ],
+  [
+   21453,
+   21120,
+   2823,
+   2619
+  ],
+  [
+   24291,
+   24192,
+   60,
+   0
+  ]
+ ]
+}

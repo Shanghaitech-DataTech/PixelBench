@@ -1,0 +1,144 @@
+{
+ "config": "qwen3.8-max",
+ "task": "castle-title-screen",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "d87a21a787a3a26ed915b11b5edd022fe3b220f21a222ca594ed98da6f5a110b"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 79,
+ "writes": 15,
+ "model_rounds": 18,
+ "llm_calls": 18,
+ "retries": 1,
+ "prompt_tokens": 334028,
+ "cached_tokens": 300544,
+ "completion_tokens": 60963,
+ "reasoning_tokens": 47282,
+ "seconds": 3268.5,
+ "llm_seconds": 1451.9,
+ "tool_seconds": 7.0,
+ "calls_usage": [
+  [
+   7808,
+   7168,
+   14884,
+   14826
+  ],
+  [
+   7988,
+   7168,
+   25633,
+   19159
+  ],
+  [
+   14481,
+   7168,
+   36,
+   8
+  ],
+  [
+   15010,
+   7168,
+   4929,
+   3622
+  ],
+  [
+   16342,
+   14976,
+   882,
+   11
+  ],
+  [
+   17238,
+   15360,
+   663,
+   202
+  ],
+  [
+   17716,
+   16384,
+   61,
+   32
+  ],
+  [
+   18282,
+   17408,
+   4626,
+   3673
+  ],
+  [
+   19260,
+   17408,
+   1386,
+   873
+  ],
+  [
+   19790,
+   18432,
+   84,
+   55
+  ],
+  [
+   20356,
+   19584,
+   2312,
+   1600
+  ],
+  [
+   21086,
+   19584,
+   74,
+   45
+  ],
+  [
+   21653,
+   20736,
+   1783,
+   1182
+  ],
+  [
+   22280,
+   21504,
+   418,
+   249
+  ],
+  [
+   22466,
+   21888,
+   35,
+   6
+  ],
+  [
+   23035,
+   21888,
+   2674,
+   1400
+  ],
+  [
+   24334,
+   22528,
+   152,
+   123
+  ],
+  [
+   24903,
+   24192,
+   331,
+   216
+  ]
+ ]
+}

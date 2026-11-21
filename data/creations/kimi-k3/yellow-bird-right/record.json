@@ -1,0 +1,66 @@
+{
+ "config": "kimi-k3",
+ "task": "yellow-bird-right",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "256bef011185ae38968eef4aca2c6a4e654912b29f8f6b2c6f8e90cab87c66fb"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 11,
+ "writes": 2,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 43582,
+ "cached_tokens": 33472,
+ "completion_tokens": 1100,
+ "reasoning_tokens": 566,
+ "seconds": 39.7,
+ "llm_seconds": 37.2,
+ "tool_seconds": 1.8,
+ "calls_usage": [
+  [
+   7315,
+   0,
+   100,
+   13
+  ],
+  [
+   7436,
+   7296,
+   49,
+   0
+  ],
+  [
+   9259,
+   7424,
+   693,
+   446
+  ],
+  [
+   9540,
+   9216,
+   49,
+   0
+  ],
+  [
+   10032,
+   9536,
+   209,
+   107
+  ]
+ ]
+}

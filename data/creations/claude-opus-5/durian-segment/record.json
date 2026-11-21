@@ -1,0 +1,150 @@
+{
+ "config": "claude-opus-5",
+ "task": "durian-segment",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0010",
+  "source_hashes": {
+   "main.py": "bf56fdebd3a4fe317d4460e764ec492cc2d99e8b662048ab1535032e1d1c406f"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 11,
+ "writes": 9,
+ "model_rounds": 19,
+ "llm_calls": 19,
+ "retries": 2,
+ "prompt_tokens": 263273,
+ "cached_tokens": 219170,
+ "completion_tokens": 7088,
+ "reasoning_tokens": 0,
+ "seconds": 722.8,
+ "llm_seconds": 516.5,
+ "tool_seconds": 6.0,
+ "calls_usage": [
+  [
+   7935,
+   0,
+   48,
+   0
+  ],
+  [
+   7996,
+   7510,
+   7,
+   0
+  ],
+  [
+   8528,
+   7791,
+   95,
+   0
+  ],
+  [
+   8566,
+   8495,
+   7,
+   0
+  ],
+  [
+   10157,
+   8665,
+   301,
+   0
+  ],
+  [
+   10332,
+   8688,
+   7,
+   0
+  ],
+  [
+   11328,
+   8396,
+   585,
+   0
+  ],
+  [
+   11660,
+   8440,
+   7,
+   0
+  ],
+  [
+   13006,
+   7666,
+   866,
+   0
+  ],
+  [
+   13635,
+   7784,
+   7,
+   0
+  ],
+  [
+   14884,
+   7721,
+   366,
+   0
+  ],
+  [
+   15084,
+   14920,
+   7,
+   0
+  ],
+  [
+   16052,
+   15417,
+   3068,
+   0
+  ],
+  [
+   17096,
+   15739,
+   7,
+   0
+  ],
+  [
+   17609,
+   16012,
+   1137,
+   0
+  ],
+  [
+   19038,
+   18017,
+   7,
+   0
+  ],
+  [
+   19545,
+   18287,
+   502,
+   0
+  ],
+  [
+   20149,
+   19674,
+   7,
+   0
+  ],
+  [
+   20673,
+   19948,
+   57,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,102 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "weapon-set-icons",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "main.py": "71af18ae73dda81029dc58bbfd6b31a95069d82df8be8f470e97a3b8a30e07fb"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 11,
+ "writes": 5,
+ "model_rounds": 11,
+ "llm_calls": 11,
+ "retries": 0,
+ "prompt_tokens": 190438,
+ "cached_tokens": 0,
+ "completion_tokens": 12625,
+ "reasoning_tokens": 264,
+ "seconds": 224.0,
+ "llm_seconds": 219.9,
+ "tool_seconds": 3.4,
+ "calls_usage": [
+  [
+   7759,
+   0,
+   2671,
+   247
+  ],
+  [
+   10202,
+   0,
+   57,
+   17
+  ],
+  [
+   11379,
+   0,
+   2465,
+   0
+  ],
+  [
+   13863,
+   0,
+   40,
+   0
+  ],
+  [
+   15235,
+   0,
+   2121,
+   0
+  ],
+  [
+   17375,
+   0,
+   40,
+   0
+  ],
+  [
+   18821,
+   0,
+   2467,
+   0
+  ],
+  [
+   21307,
+   0,
+   40,
+   0
+  ],
+  [
+   22692,
+   0,
+   2511,
+   0
+  ],
+  [
+   25222,
+   0,
+   40,
+   0
+  ],
+  [
+   26583,
+   0,
+   173,
+   0
+  ]
+ ]
+}

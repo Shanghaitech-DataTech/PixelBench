@@ -1,0 +1,145 @@
+from pixelbench_api import input_canvas, new_canvas, finish
+
+# ---- palette (register from input so frames share colours) ----
+c0 = input_canvas.color((106, 108, 107))
+c1 = input_canvas.color((36, 11, 12))
+c2 = input_canvas.color((11, 1, 2))
+c3 = input_canvas.color((68, 61, 69))
+c4 = input_canvas.color((125, 66, 58))
+c5 = input_canvas.color((1, 2, 2))
+c6 = input_canvas.color((33, 29, 44))
+c7 = input_canvas.color((69, 83, 99))
+c8 = input_canvas.color((11, 11, 19))
+c9 = input_canvas.color((74, 34, 45))
+c10 = input_canvas.color((130, 134, 132))
+c11 = input_canvas.color((223, 178, 172))
+c12 = input_canvas.color((242, 114, 25))   # flame orange
+c13 = input_canvas.color((244, 163, 12))   # flame amber
+c14 = input_canvas.color((254, 211, 44))   # flame yellow
+
+def grab(src, x0, y0, x1, y1):
+    g = new_canvas(x1 - x0 + 1, y1 - y0 + 1)
+    for yy in range(y0, y1 + 1):
+        for xx in range(x0, x1 + 1):
+            g.set(xx - x0, yy - y0, src.get(xx, yy))
+    return g
+
+def put(cv, pts):
+    for (x, y, cl) in pts:
+        cv.set(x, y, cl)
+
+def show(cv, x0, y0, x1, y1, legend=None):
+    hdr1 = "     " + "".join(str((xx // 10) % 10) for xx in range(x0, x1 + 1))
+    hdr2 = "     " + "".join(str(xx % 10) for xx in range(x0, x1 + 1))
+    print(hdr1)
+    print(hdr2)
+    for yy in range(y0, y1 + 1):
+        row = []
+        for xx in range(x0, x1 + 1):
+            idx = cv.get(xx, yy)
+            if idx == 0:
+                row.append(".")
+            elif legend and idx in legend:
+                row.append(legend[idx])
+            else:
+                row.append("#")
+        print(f"{yy:3d} " + "".join(row))
+
+# ================= FRAME 1 : original picture content =================
+f1 = new_canvas(100, 72)
+f1.blit(input_canvas, 0, 0)
+
+# ================= FRAME 2 : lunge + thrust + flying fireball =================
+f2 = new_canvas(100, 72)
+
+# --- back (right) leg trailing ---
+f2.rect(14, 40, 7, 9, c7)               # shin
+f2.rect(9, 48, 9, 4, c2)                # boot
+f2.rect(9, 49, 7, 3, c8)                # boot shading
+f2.rect(9, 48, 9, 4, c5, fill=False)     # boot outline
+put(f2, [(13, 45, c6), (15, 43, c6), (12, 47, c6)])
+
+# --- front (left) leg stepping forward ---
+f2.rect(28, 38, 8, 7, c7)               # thigh
+f2.rect(31, 44, 7, 8, c7)               # shin
+f2.rect(34, 52, 11, 4, c2)               # boot
+f2.rect(44, 53, 5, 3, c2)                # toe
+f2.rect(34, 52, 11, 4, c5, fill=False)    # boot outline
+put(f2, [(30, 40, c6), (32, 46, c6), (31, 49, c6), (37, 53, c8), (34, 53, c8)])
+
+# --- coat / torso leaning forward ---
+f2.poly([(18, 17), (32, 23), (36, 44), (17, 40)], c4, fill=True)
+f2.line(18, 17, 17, 40, c2)              # back outline
+f2.line(17, 40, 36, 44, c2)              # hem
+f2.line(32, 23, 36, 44, c2)              # front edge
+f2.line(18, 41, 33, 43, c9)              # hem fold shading
+put(f2, [(30, 26, c9), (31, 29, c9), (32, 32, c9), (33, 35, c9), (33, 38, c9),
+        (34, 41, c9), (29, 24, c9), (28, 23, c9)])
+f2.line(28, 26, 32, 37, c2)              # coat front opening
+f2.line(18, 35, 32, 38, c2)              # belt top
+f2.line(18, 36, 32, 39, c2)              # belt bottom
+f2.rect(24, 35, 3, 3, c10)               # buckle
+f2.line(18, 17, 18, 40, c5)              # dark back seam
+
+# --- head (same head, leaning forward) ---
+f2.blit(grab(input_canvas, 10, 0, 32, 18), 17, 2)
+
+# --- left arm pulled back ---
+f2.line(21, 21, 13, 30, c2)
+f2.line(21, 22, 13, 31, c4)
+f2.line(22, 23, 13, 32, c4)
+f2.line(22, 24, 13, 33, c9)
+f2.rect(11, 31, 5, 4, c2, fill=False)
+f2.rect(12, 32, 3, 2, c11)
+put(f2, [(12, 32, c1), (13, 32, c1), (11, 32, c11)])
+
+# --- right arm thrusting forward (toward the fireball) ---
+f2.line(30, 24, 44, 27, c2)
+f2.line(30, 25, 44, 28, c4)
+f2.line(30, 26, 44, 29, c4)
+f2.line(30, 27, 44, 30, c9)
+f2.rect(44, 26, 5, 5, c2, fill=False)
+f2.rect(45, 28, 3, 3, c11)
+put(f2, [(45, 27, c1), (46, 27, c1), (48, 27, c1), (44, 28, c1), (47, 31, c1)])
+
+# --- fireball flying forward ---
+f2.circle(54, 20, 5, c12)
+f2.circle(54, 20, 4, c13)
+f2.circle(53, 20, 3, c14)
+put(f2, [(54, 15, c13), (55, 16, c12), (56, 17, c14), (57, 18, c12), (58, 19, c14),
+        (59, 20, c14), (58, 21, c13), (57, 22, c12), (60, 18, c12), (61, 19, c13),
+        (56, 24, c12), (55, 25, c13), (51, 15, c12)])
+# muzzle flash between hand and ball
+put(f2, [(49, 24, c14), (50, 23, c13), (49, 22, c12), (48, 25, c14), (49, 26, c13),
+        (47, 23, c13), (51, 24, c14)])
+# fiery trail streaming back from the ball
+put(f2, [(48, 21, c12), (47, 20, c12), (45, 19, c13), (43, 18, c13), (41, 17, c13),
+        (39, 16, c12), (37, 15, c12), (35, 14, c13), (33, 13, c13), (31, 12, c14),
+        (29, 11, c13), (27, 10, c12), (25, 9, c12), (23, 8, c13),
+        (47, 22, c13), (45, 23, c12), (43, 24, c13), (41, 25, c14), (39, 26, c12),
+        (37, 25, c13), (35, 24, c12), (33, 21, c12), (31, 20, c13), (29, 19, c12),
+        (27, 18, c13), (25, 17, c12), (46, 18, c12), (42, 16, c12), (38, 18, c13),
+        (34, 17, c14), (30, 16, c13), (26, 15, c12), (24, 13, c13), (22, 12, c12),
+        (44, 21, c14), (40, 19, c13), (36, 18, c12), (32, 17, c13)])
+# flame fragments flying away with the trail
+put(f2, [(45, 16, c13), (41, 15, c12), (37, 13, c12), (34, 12, c13), (30, 11, c13),
+        (26, 10, c14), (24, 11, c12), (28, 14, c14), (44, 26, c14), (41, 27, c12)])
+# embers / sparks ahead of the flame
+put(f2, [(62, 16, c12), (65, 13, c13), (68, 17, c14), (71, 11, c14), (74, 15, c12),
+        (77, 9, c13), (80, 13, c14), (83, 7, c14), (86, 11, c13), (89, 6, c14),
+        (92, 10, c13), (95, 5, c12), (98, 9, c14), (63, 21, c12), (66, 19, c13),
+        (69, 15, c13), (72, 13, c12), (75, 12, c14), (78, 16, c13), (81, 10, c13),
+        (84, 9, c12), (87, 8, c14), (90, 7, c13), (93, 12, c13), (96, 11, c12),
+        (99, 8, c13), (60, 14, c12), (67, 21, c13)])
+
+# ================= diagnostics =================
+print("f1:", f1.stats_text())
+print("f2:", f2.stats_text())
+leg = {c2: "b", c5: "x", c7: "H", c4: "R", c9: "j", c6: "g", c8: "i", c10: "k",
+       c1: "d", c11: "l", c12: "o", c13: "n", c14: "y"}
+print("F2 torso+legs (6,36)-(52,58):")
+show(f2, 6, 36, 52, 58, leg)
+print("F2 arm+fireball (20,0)-(70,34):")
+show(f2, 20, 0, 70, 34, leg)
+
+finish([f1, f2])

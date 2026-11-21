@@ -1,0 +1,60 @@
+{
+ "config": "gpt-5.6-sol@run3",
+ "task": "mad-cyborg-scientist",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "9f4f189c186ff04aa78beab645b00e2d58481d81de08b48abd8c3607ea5aa09e"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 33,
+ "writes": 1,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 52728,
+ "cached_tokens": 47872,
+ "completion_tokens": 3763,
+ "reasoning_tokens": 417,
+ "seconds": 103.0,
+ "llm_seconds": 100.6,
+ "tool_seconds": 1.4,
+ "calls_usage": [
+  [
+   11438,
+   11008,
+   100,
+   16
+  ],
+  [
+   11534,
+   11264,
+   3419,
+   277
+  ],
+  [
+   14689,
+   11008,
+   22,
+   0
+  ],
+  [
+   15067,
+   14592,
+   222,
+   124
+  ]
+ ]
+}

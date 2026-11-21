@@ -1,0 +1,54 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "subway-platform",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "4898268d0c6cd056e56944d6ba687de7d4216dc251f17c1266fcc88ba2922737"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 69,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 29005,
+ "cached_tokens": 0,
+ "completion_tokens": 3201,
+ "reasoning_tokens": 343,
+ "seconds": 77.7,
+ "llm_seconds": 76.0,
+ "tool_seconds": 1.1,
+ "calls_usage": [
+  [
+   7764,
+   0,
+   3074,
+   328
+  ],
+  [
+   10529,
+   0,
+   55,
+   15
+  ],
+  [
+   10712,
+   0,
+   72,
+   0
+  ]
+ ]
+}

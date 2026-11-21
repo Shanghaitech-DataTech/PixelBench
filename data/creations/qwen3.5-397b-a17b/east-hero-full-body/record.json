@@ -1,0 +1,96 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "east-hero-full-body",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "918d9a830eec5a5bb7527112dab2ccad192cf18a506efa814e4dabc27aa799d1"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 35,
+ "writes": 4,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 0,
+ "prompt_tokens": 239121,
+ "cached_tokens": 0,
+ "completion_tokens": 15648,
+ "reasoning_tokens": 419,
+ "seconds": 387.1,
+ "llm_seconds": 378.7,
+ "tool_seconds": 7.1,
+ "calls_usage": [
+  [
+   7804,
+   0,
+   7383,
+   399
+  ],
+  [
+   14807,
+   0,
+   48,
+   20
+  ],
+  [
+   17855,
+   0,
+   345,
+   0
+  ],
+  [
+   18218,
+   0,
+   48,
+   0
+  ],
+  [
+   21287,
+   0,
+   467,
+   0
+  ],
+  [
+   21772,
+   0,
+   28,
+   0
+  ],
+  [
+   24821,
+   0,
+   54,
+   0
+  ],
+  [
+   31834,
+   0,
+   7023,
+   0
+  ],
+  [
+   38876,
+   0,
+   28,
+   0
+  ],
+  [
+   41847,
+   0,
+   224,
+   0
+  ]
+ ]
+}

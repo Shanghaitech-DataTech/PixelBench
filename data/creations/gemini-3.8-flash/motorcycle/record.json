@@ -1,0 +1,163 @@
+{
+ "config": "gemini-3.8-flash",
+ "task": "motorcycle",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0010",
+  "source_hashes": {
+   "generate_bike.py": "999d64055d3cb65ea82c2f1d4cf9e122fd474f559b9cb0db5b62ef3378b4827b",
+   "main.py": "97cd96623be2f0bf6370f910940538d0cf3ea0a169f75c3b021e329878bb6767"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 40,
+ "writes": 10,
+ "model_rounds": 21,
+ "llm_calls": 21,
+ "retries": 0,
+ "prompt_tokens": 1204491,
+ "cached_tokens": 560067,
+ "completion_tokens": 71574,
+ "reasoning_tokens": 31163,
+ "seconds": 777.8,
+ "llm_seconds": 767.7,
+ "tool_seconds": 9.1,
+ "calls_usage": [
+  [
+   7596,
+   0,
+   262,
+   252
+  ],
+  [
+   7867,
+   0,
+   1852,
+   1781
+  ],
+  [
+   9721,
+   0,
+   35,
+   15
+  ],
+  [
+   10873,
+   0,
+   6718,
+   5995
+  ],
+  [
+   17595,
+   9784,
+   2819,
+   344
+  ],
+  [
+   20416,
+   0,
+   29,
+   9
+  ],
+  [
+   21562,
+   4031,
+   13698,
+   3473
+  ],
+  [
+   35262,
+   0,
+   34,
+   14
+  ],
+  [
+   36413,
+   4050,
+   15621,
+   5329
+  ],
+  [
+   52036,
+   0,
+   36,
+   16
+  ],
+  [
+   53189,
+   17721,
+   12860,
+   3757
+  ],
+  [
+   66051,
+   53258,
+   35,
+   15
+  ],
+  [
+   67204,
+   63989,
+   11805,
+   2060
+  ],
+  [
+   79011,
+   20336,
+   34,
+   14
+  ],
+  [
+   80172,
+   32526,
+   12746,
+   3114
+  ],
+  [
+   92920,
+   77308,
+   36,
+   16
+  ],
+  [
+   94083,
+   67266,
+   12259,
+   2710
+  ],
+  [
+   106344,
+   8139,
+   36,
+   16
+  ],
+  [
+   107507,
+   94109,
+   11241,
+   1692
+  ],
+  [
+   118750,
+   107550,
+   42,
+   22
+  ],
+  [
+   119919,
+   0,
+   539,
+   519
+  ]
+ ]
+}

@@ -1,0 +1,132 @@
+{
+ "config": "deepseek-v4-flash-0731@effort-max",
+ "task": "durian-segment",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0008",
+  "source_hashes": {
+   "main.py": "d5bf2771180e3b373aa2eb0d8a90a4f4d216eae4e673646d89f695c6b1fdef61"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 10,
+ "writes": 8,
+ "model_rounds": 16,
+ "llm_calls": 16,
+ "retries": 0,
+ "prompt_tokens": 184744,
+ "cached_tokens": 0,
+ "completion_tokens": 45415,
+ "reasoning_tokens": 42507,
+ "seconds": 1150.5,
+ "llm_seconds": 1145.0,
+ "tool_seconds": 4.3,
+ "calls_usage": [
+  [
+   7780,
+   0,
+   185,
+   60
+  ],
+  [
+   7920,
+   0,
+   45,
+   0
+  ],
+  [
+   8019,
+   0,
+   105,
+   20
+  ],
+  [
+   8119,
+   0,
+   45,
+   0
+  ],
+  [
+   9679,
+   0,
+   3376,
+   2682
+  ],
+  [
+   10388,
+   0,
+   45,
+   0
+  ],
+  [
+   11258,
+   0,
+   144,
+   53
+  ],
+  [
+   11364,
+   0,
+   45,
+   0
+  ],
+  [
+   11742,
+   0,
+   538,
+   0
+  ],
+  [
+   12295,
+   0,
+   45,
+   0
+  ],
+  [
+   13265,
+   0,
+   10512,
+   10283
+  ],
+  [
+   13509,
+   0,
+   45,
+   0
+  ],
+  [
+   14068,
+   0,
+   23560,
+   23120
+  ],
+  [
+   14523,
+   0,
+   45,
+   0
+  ],
+  [
+   15235,
+   0,
+   6619,
+   6289
+  ],
+  [
+   15580,
+   0,
+   61,
+   0
+  ]
+ ]
+}

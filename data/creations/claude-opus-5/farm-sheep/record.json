@@ -1,0 +1,102 @@
+{
+ "config": "claude-opus-5",
+ "task": "farm-sheep",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "main.py": "ff8e614b64f32a7e33e297f42241ce69040e0269ce2068bffe86357ec36e2e28"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 12,
+ "writes": 5,
+ "model_rounds": 11,
+ "llm_calls": 11,
+ "retries": 0,
+ "prompt_tokens": 131548,
+ "cached_tokens": 120364,
+ "completion_tokens": 4669,
+ "reasoning_tokens": 0,
+ "seconds": 187.0,
+ "llm_seconds": 182.8,
+ "tool_seconds": 3.6,
+ "calls_usage": [
+  [
+   7846,
+   7560,
+   428,
+   0
+  ],
+  [
+   8507,
+   7797,
+   7,
+   0
+  ],
+  [
+   8943,
+   8021,
+   1010,
+   0
+  ],
+  [
+   10230,
+   9348,
+   7,
+   0
+  ],
+  [
+   10666,
+   9560,
+   1111,
+   0
+  ],
+  [
+   12098,
+   11082,
+   7,
+   0
+  ],
+  [
+   12533,
+   11282,
+   999,
+   0
+  ],
+  [
+   13987,
+   12904,
+   7,
+   0
+  ],
+  [
+   14422,
+   13097,
+   1050,
+   0
+  ],
+  [
+   15940,
+   14763,
+   7,
+   0
+  ],
+  [
+   16376,
+   14950,
+   36,
+   0
+  ]
+ ]
+}

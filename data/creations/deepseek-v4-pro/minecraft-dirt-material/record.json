@@ -1,0 +1,54 @@
+{
+ "config": "deepseek-v4-pro",
+ "task": "minecraft-dirt-material",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "f31aa6088060d5764421ab8308434661ca65cef5b95f3263c402d110baa36c17"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 6,
+ "writes": 2,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 31852,
+ "cached_tokens": 31232,
+ "completion_tokens": 5152,
+ "reasoning_tokens": 4377,
+ "seconds": 77.8,
+ "llm_seconds": 76.2,
+ "tool_seconds": 1.1,
+ "calls_usage": [
+  [
+   7670,
+   7424,
+   3083,
+   2496
+  ],
+  [
+   11082,
+   10752,
+   2003,
+   1875
+  ],
+  [
+   13100,
+   13056,
+   66,
+   6
+  ]
+ ]
+}

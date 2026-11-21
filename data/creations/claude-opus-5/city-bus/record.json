@@ -1,0 +1,150 @@
+{
+ "config": "claude-opus-5",
+ "task": "city-bus",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0010",
+  "source_hashes": {
+   "main.py": "579b46bf7e97dc4c9367ba66eebfa7498b2234a0637ce7c62ba4528fb001eee4"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 22,
+ "writes": 9,
+ "model_rounds": 19,
+ "llm_calls": 19,
+ "retries": 0,
+ "prompt_tokens": 278217,
+ "cached_tokens": 259167,
+ "completion_tokens": 8690,
+ "reasoning_tokens": 0,
+ "seconds": 421.1,
+ "llm_seconds": 414.7,
+ "tool_seconds": 5.7,
+ "calls_usage": [
+  [
+   7840,
+   7559,
+   250,
+   0
+  ],
+  [
+   8230,
+   7683,
+   7,
+   0
+  ],
+  [
+   8484,
+   7748,
+   1277,
+   0
+  ],
+  [
+   9753,
+   8986,
+   7,
+   0
+  ],
+  [
+   10007,
+   9038,
+   1361,
+   0
+  ],
+  [
+   11396,
+   10498,
+   7,
+   0
+  ],
+  [
+   11650,
+   10541,
+   1211,
+   0
+  ],
+  [
+   13113,
+   12100,
+   7,
+   0
+  ],
+  [
+   13367,
+   12135,
+   965,
+   0
+  ],
+  [
+   14821,
+   13778,
+   7,
+   0
+  ],
+  [
+   15076,
+   13808,
+   1073,
+   0
+  ],
+  [
+   16673,
+   15485,
+   7,
+   0
+  ],
+  [
+   16927,
+   15508,
+   1034,
+   0
+  ],
+  [
+   18459,
+   17285,
+   7,
+   0
+  ],
+  [
+   18713,
+   17304,
+   1070,
+   0
+  ],
+  [
+   20319,
+   19082,
+   7,
+   0
+  ],
+  [
+   20679,
+   19133,
+   359,
+   0
+  ],
+  [
+   21175,
+   20722,
+   7,
+   0
+  ],
+  [
+   21535,
+   20774,
+   27,
+   0
+  ]
+ ]
+}

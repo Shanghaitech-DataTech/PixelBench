@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@run3",
+ "task": "chainmail-armor",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "9cd4e72d33d81c6b81e3d96befcd9c423fffbb016769944d1e4dad22030d1fa4"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 8,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 51646,
+ "cached_tokens": 48384,
+ "completion_tokens": 2789,
+ "reasoning_tokens": 937,
+ "seconds": 179.2,
+ "llm_seconds": 176.4,
+ "tool_seconds": 2.1,
+ "calls_usage": [
+  [
+   11122,
+   11008,
+   2259,
+   516
+  ],
+  [
+   12878,
+   10752,
+   33,
+   9
+  ],
+  [
+   27646,
+   26624,
+   497,
+   412
+  ]
+ ]
+}

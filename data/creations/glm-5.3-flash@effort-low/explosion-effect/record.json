@@ -1,0 +1,60 @@
+{
+ "config": "glm-5.3-flash@effort-low",
+ "task": "explosion-effect",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "f5ab19b40e874af06b43d88e94c620c3cb70cfca1bccfef2abd5fb00dd27fde8"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 12,
+ "writes": 2,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 33261,
+ "cached_tokens": 0,
+ "completion_tokens": 2469,
+ "reasoning_tokens": 915,
+ "seconds": 69.5,
+ "llm_seconds": 67.8,
+ "tool_seconds": 1.2,
+ "calls_usage": [
+  [
+   7293,
+   0,
+   836,
+   69
+  ],
+  [
+   8068,
+   0,
+   1578,
+   841
+  ],
+  [
+   8813,
+   0,
+   12,
+   0
+  ],
+  [
+   9087,
+   0,
+   43,
+   5
+  ]
+ ]
+}

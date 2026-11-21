@@ -1,0 +1,60 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "wooden-key",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "5598f7d07fa20e4e93bf69f82a4240e9cfffb098059a875b21323588b87649f6"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 6,
+ "writes": 2,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 2,
+ "prompt_tokens": 69538,
+ "cached_tokens": 11948,
+ "completion_tokens": 792,
+ "reasoning_tokens": 35329,
+ "seconds": 426.8,
+ "llm_seconds": 409.5,
+ "tool_seconds": 1.2,
+ "calls_usage": [
+  [
+   7534,
+   0,
+   3559,
+   3180
+  ],
+  [
+   11095,
+   5998,
+   31,
+   11
+  ],
+  [
+   9201,
+   5950,
+   32511,
+   32138
+  ],
+  [
+   41708,
+   0,
+   20,
+   0
+  ]
+ ]
+}

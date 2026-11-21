@@ -1,0 +1,60 @@
+{
+ "config": "gpt-6-astra@run2",
+ "task": "dragon-hatchling",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "8fa8b61c138f8a93fad82188d711995e9ba965bec96ae37f19adc7a6fadc9cbc"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 17,
+ "writes": 2,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 1,
+ "prompt_tokens": 52667,
+ "cached_tokens": 51328,
+ "completion_tokens": 2699,
+ "reasoning_tokens": 141,
+ "seconds": 138.7,
+ "llm_seconds": 129.2,
+ "tool_seconds": 1.7,
+ "calls_usage": [
+  [
+   11145,
+   10752,
+   2382,
+   0
+  ],
+  [
+   13542,
+   13440,
+   18,
+   0
+  ],
+  [
+   13916,
+   13440,
+   277,
+   141
+  ],
+  [
+   14064,
+   13696,
+   22,
+   0
+  ]
+ ]
+}

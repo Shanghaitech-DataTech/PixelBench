@@ -1,0 +1,168 @@
+{
+ "config": "glm-5.3-flash@effort-high",
+ "task": "bamboo-steamer",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0009",
+  "source_hashes": {
+   "main.py": "35bd5147c7cf979799e86ee1314d6991b9accb5b7f54c7a65580bd6aa8d0e340"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 11,
+ "writes": 11,
+ "model_rounds": 22,
+ "llm_calls": 22,
+ "retries": 0,
+ "prompt_tokens": 302511,
+ "cached_tokens": 0,
+ "completion_tokens": 34380,
+ "reasoning_tokens": 28033,
+ "seconds": 652.9,
+ "llm_seconds": 647.5,
+ "tool_seconds": 4.6,
+ "calls_usage": [
+  [
+   7284,
+   0,
+   1194,
+   1177
+  ],
+  [
+   7396,
+   0,
+   12674,
+   11565
+  ],
+  [
+   8513,
+   0,
+   12,
+   0
+  ],
+  [
+   9106,
+   0,
+   12743,
+   11582
+  ],
+  [
+   10275,
+   0,
+   12,
+   0
+  ],
+  [
+   10862,
+   0,
+   1119,
+   0
+  ],
+  [
+   11989,
+   0,
+   12,
+   0
+  ],
+  [
+   12580,
+   0,
+   1285,
+   1032
+  ],
+  [
+   12840,
+   0,
+   12,
+   0
+  ],
+  [
+   13439,
+   0,
+   53,
+   0
+  ],
+  [
+   13499,
+   0,
+   12,
+   0
+  ],
+  [
+   14179,
+   0,
+   53,
+   0
+  ],
+  [
+   14239,
+   0,
+   12,
+   0
+  ],
+  [
+   14847,
+   0,
+   801,
+   0
+  ],
+  [
+   15655,
+   0,
+   210,
+   0
+  ],
+  [
+   15872,
+   0,
+   227,
+   0
+  ],
+  [
+   16106,
+   0,
+   12,
+   0
+  ],
+  [
+   16733,
+   0,
+   2709,
+   2677
+  ],
+  [
+   18101,
+   0,
+   1125,
+   0
+  ],
+  [
+   19234,
+   0,
+   12,
+   0
+  ],
+  [
+   19841,
+   0,
+   73,
+   0
+  ],
+  [
+   19921,
+   0,
+   18,
+   0
+  ]
+ ]
+}

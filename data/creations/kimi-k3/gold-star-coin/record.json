@@ -1,0 +1,66 @@
+{
+ "config": "kimi-k3",
+ "task": "gold-star-coin",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "f12fac83e5a243b64ae7f866a1877216176828234f5e09d3a2e395230a5f6250"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 7,
+ "writes": 2,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 42142,
+ "cached_tokens": 39325,
+ "completion_tokens": 8812,
+ "reasoning_tokens": 7526,
+ "seconds": 255.7,
+ "llm_seconds": 253.5,
+ "tool_seconds": 1.7,
+ "calls_usage": [
+  [
+   7214,
+   6912,
+   7164,
+   6284
+  ],
+  [
+   8125,
+   7168,
+   52,
+   0
+  ],
+  [
+   8617,
+   7936,
+   1383,
+   1183
+  ],
+  [
+   8847,
+   8605,
+   52,
+   0
+  ],
+  [
+   9339,
+   8704,
+   161,
+   59
+  ]
+ ]
+}

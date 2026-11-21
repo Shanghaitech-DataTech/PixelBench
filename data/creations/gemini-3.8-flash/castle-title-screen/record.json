@@ -1,0 +1,183 @@
+{
+ "config": "gemini-3.8-flash",
+ "task": "castle-title-screen",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0012",
+  "source_hashes": {
+   "check_horizon.py": "2d08c6f14c12548c6fbced6e1fb2a05ff00e73acf0ae368afbca88969b15b46d",
+   "check_sun.py": "a9075971112bc7e7ceb351f5bd126f0a9657a1a4b10c640daf33dfd5469c25eb",
+   "inspect_cliff.py": "4ae694e50be37aee044838b4c8b7eafa709f994269ba582f8e7eca5fdc634ac8",
+   "main.py": "4128eb0a3d57bcd9bec8f511a581cd31235554cde2da2493dda1decd70e7ca56"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 43,
+ "writes": 11,
+ "model_rounds": 24,
+ "llm_calls": 24,
+ "retries": 0,
+ "prompt_tokens": 1306765,
+ "cached_tokens": 1177024,
+ "completion_tokens": 59786,
+ "reasoning_tokens": 0,
+ "seconds": 677.2,
+ "llm_seconds": 665.4,
+ "tool_seconds": 10.8,
+ "calls_usage": [
+  [
+   7683,
+   0,
+   121,
+   0
+  ],
+  [
+   7821,
+   5636,
+   2818,
+   0
+  ],
+  [
+   10657,
+   7830,
+   35,
+   0
+  ],
+  [
+   11828,
+   8611,
+   3439,
+   0
+  ],
+  [
+   15285,
+   11841,
+   31,
+   0
+  ],
+  [
+   16448,
+   14258,
+   10690,
+   0
+  ],
+  [
+   27156,
+   16491,
+   32,
+   0
+  ],
+  [
+   28471,
+   25103,
+   13619,
+   0
+  ],
+  [
+   42108,
+   28514,
+   34,
+   0
+  ],
+  [
+   43427,
+   40051,
+   13496,
+   0
+  ],
+  [
+   56941,
+   43464,
+   33,
+   0
+  ],
+  [
+   58335,
+   54882,
+   796,
+   0
+  ],
+  [
+   59151,
+   56285,
+   32,
+   0
+  ],
+  [
+   60623,
+   58308,
+   11485,
+   0
+  ],
+  [
+   72126,
+   60653,
+   33,
+   0
+  ],
+  [
+   73446,
+   70067,
+   779,
+   0
+  ],
+  [
+   74245,
+   71396,
+   38,
+   0
+  ],
+  [
+   76086,
+   73420,
+   11182,
+   0
+  ],
+  [
+   87286,
+   76117,
+   33,
+   0
+  ],
+  [
+   88606,
+   85227,
+   1204,
+   0
+  ],
+  [
+   89830,
+   87508,
+   32,
+   0
+  ],
+  [
+   91737,
+   88582,
+   11315,
+   0
+  ],
+  [
+   103070,
+   91769,
+   32,
+   0
+  ],
+  [
+   104399,
+   101011,
+   559,
+   0
+  ]
+ ]
+}

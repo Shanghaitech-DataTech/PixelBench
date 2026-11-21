@@ -1,0 +1,60 @@
+{
+ "config": "gpt-5.6-sol",
+ "task": "explosion-effect",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "2db1c7cf6088e23ea7f5f7cf953473a632583b2b6f3c13621ad4e0a8680bd4e6"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 9,
+ "writes": 2,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 52550,
+ "cached_tokens": 49024,
+ "completion_tokens": 2316,
+ "reasoning_tokens": 193,
+ "seconds": 56.3,
+ "llm_seconds": 54.3,
+ "tool_seconds": 1.2,
+ "calls_usage": [
+  [
+   11401,
+   11008,
+   2067,
+   105
+  ],
+  [
+   13376,
+   11264,
+   33,
+   9
+  ],
+  [
+   13823,
+   13184,
+   194,
+   79
+  ],
+  [
+   13950,
+   13568,
+   22,
+   0
+  ]
+ ]
+}

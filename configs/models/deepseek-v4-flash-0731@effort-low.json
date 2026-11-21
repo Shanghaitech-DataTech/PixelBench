@@ -1,0 +1,16 @@
+{
+  "id": "deepseek-v4-flash-0731@effort-low",
+  "display_name": "DeepSeek V4 Flash",
+  "reported_level": "low",
+  "vision": false,
+  "llm": {
+    "model": "deepseek-v4-flash-0731",
+    "api_format": "completions",
+    "stream": false,
+    "temperature": 1.0,
+    "extra_body": {
+      "reasoning_effort": "low"
+    }
+  },
+  "base": "deepseek-v4-flash-0731"
+}

@@ -1,0 +1,66 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "portable-cassette-player",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "1260425284baa07a6439fb9ed99f88106fea71cf36fa5dabf25ed12f373a790c"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 19,
+ "writes": 2,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 54895,
+ "cached_tokens": 0,
+ "completion_tokens": 5061,
+ "reasoning_tokens": 199,
+ "seconds": 118.9,
+ "llm_seconds": 116.7,
+ "tool_seconds": 1.6,
+ "calls_usage": [
+  [
+   7754,
+   0,
+   1707,
+   188
+  ],
+  [
+   9292,
+   0,
+   51,
+   11
+  ],
+  [
+   10208,
+   0,
+   3135,
+   0
+  ],
+  [
+   13361,
+   0,
+   40,
+   0
+  ],
+  [
+   14280,
+   0,
+   128,
+   0
+  ]
+ ]
+}

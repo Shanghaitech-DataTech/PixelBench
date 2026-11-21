@@ -1,0 +1,72 @@
+{
+ "config": "gpt-5.6-sol",
+ "task": "bottle-potion",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "8c995f619851e4ab3a24e6217f4a0f49841044c88f30935c4bd385e9b805612c"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 17,
+ "writes": 2,
+ "model_rounds": 6,
+ "llm_calls": 6,
+ "retries": 0,
+ "prompt_tokens": 111447,
+ "cached_tokens": 84480,
+ "completion_tokens": 1898,
+ "reasoning_tokens": 626,
+ "seconds": 62.9,
+ "llm_seconds": 60.0,
+ "tool_seconds": 1.7,
+ "calls_usage": [
+  [
+   11479,
+   11392,
+   96,
+   25
+  ],
+  [
+   11562,
+   11392,
+   119,
+   12
+  ],
+  [
+   11682,
+   11392,
+   18,
+   0
+  ],
+  [
+   24792,
+   0,
+   1490,
+   516
+  ],
+  [
+   25779,
+   24576,
+   18,
+   0
+  ],
+  [
+   26153,
+   25728,
+   157,
+   73
+  ]
+ ]
+}

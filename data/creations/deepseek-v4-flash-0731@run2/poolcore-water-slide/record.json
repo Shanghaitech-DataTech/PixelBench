@@ -1,0 +1,90 @@
+{
+ "config": "deepseek-v4-flash-0731@run2",
+ "task": "poolcore-water-slide",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "449fb00366e49bfccabf2cfa8beadf418d03f686efd1a1aa02dbe60a911ad242"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 33,
+ "writes": 7,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 136974,
+ "cached_tokens": 0,
+ "completion_tokens": 72858,
+ "reasoning_tokens": 67443,
+ "seconds": 1241.8,
+ "llm_seconds": 1238.2,
+ "tool_seconds": 2.9,
+ "calls_usage": [
+  [
+   7740,
+   0,
+   52685,
+   49216
+  ],
+  [
+   11224,
+   0,
+   3664,
+   3031
+  ],
+  [
+   11893,
+   0,
+   109,
+   48
+  ],
+  [
+   12181,
+   0,
+   610,
+   398
+  ],
+  [
+   12407,
+   0,
+   61,
+   0
+  ],
+  [
+   17390,
+   0,
+   8193,
+   7680
+  ],
+  [
+   17917,
+   0,
+   61,
+   0
+  ],
+  [
+   22963,
+   0,
+   2611,
+   2329
+  ],
+  [
+   23259,
+   0,
+   4864,
+   4741
+  ]
+ ]
+}

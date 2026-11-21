@@ -1,0 +1,132 @@
+{
+ "config": "kimi-k3",
+ "task": "bottle-potion",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0008",
+  "source_hashes": {
+   "main.py": "556ed4e7f5984c591a8ac3d13dba0e67f8dd3796ed82bc6e633e5fa501f8f472"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 17,
+ "writes": 8,
+ "model_rounds": 16,
+ "llm_calls": 16,
+ "retries": 0,
+ "prompt_tokens": 189376,
+ "cached_tokens": 170724,
+ "completion_tokens": 4557,
+ "reasoning_tokens": 1260,
+ "seconds": 226.7,
+ "llm_seconds": 221.4,
+ "tool_seconds": 4.5,
+ "calls_usage": [
+  [
+   7309,
+   0,
+   121,
+   15
+  ],
+  [
+   7446,
+   7168,
+   52,
+   0
+  ],
+  [
+   7857,
+   7424,
+   111,
+   16
+  ],
+  [
+   7982,
+   7680,
+   52,
+   0
+  ],
+  [
+   9511,
+   7936,
+   329,
+   220
+  ],
+  [
+   9659,
+   9472,
+   97,
+   0
+  ],
+  [
+   9786,
+   9472,
+   52,
+   0
+  ],
+  [
+   11706,
+   9728,
+   739,
+   0
+  ],
+  [
+   12476,
+   11694,
+   52,
+   0
+  ],
+  [
+   13056,
+   12288,
+   930,
+   0
+  ],
+  [
+   14016,
+   13056,
+   52,
+   0
+  ],
+  [
+   14602,
+   13824,
+   1154,
+   1009
+  ],
+  [
+   14777,
+   14592,
+   52,
+   0
+  ],
+  [
+   15682,
+   14592,
+   588,
+   0
+  ],
+  [
+   16300,
+   15670,
+   52,
+   0
+  ],
+  [
+   17211,
+   16128,
+   124,
+   0
+  ]
+ ]
+}

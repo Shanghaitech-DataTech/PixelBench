@@ -1,0 +1,241 @@
+{
+ "config": "deepseek-v4-pro",
+ "task": "house-turn-2view",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0016",
+  "source_hashes": {
+   "analyze.py": "06d195fe176d8fd81670fbdca878b325bd170bc832960ac9378e1627777a77f1",
+   "halves.py": "3dcf4131f7ee8d09ce21a9487861278ac521a57ffa1c420002cdf5744079ecd6",
+   "inspect.py": "a1bc83e007f98ebfe3bbf11c9a22385c8efa1de6f3f909abcef4e14f43b29489",
+   "inspect2.py": "7c4c10ba89a5054c0355d871e6dcebffe15b38423943ac5e1483da43cb5e6837",
+   "legend.py": "18ed704daeebcbcb6f1af41c7f2b00a735ccda2b21af308be3e200d94a03c2e5",
+   "main.py": "8dcf2c0d4f73ce9094783baabe4a4674383a8ee6bf1ba3fb67d585be7835fe68",
+   "overview.py": "06948e4b01bc1df14094527bcb2488c22fc825f149ca312330eee3d1fb3497d4",
+   "region1.py": "2c928eb86d3fb7f610e18f8205106ae126a70fa1fc683e0977ac19f8f819d0ff",
+   "region2.py": "059075f369f38fa0e87e79f9b1bced8cffe7dd8ab760c03f399e45a62f1f7455",
+   "region3.py": "4b3fa17d3b46c954b7bf268d7390469a82fb279f3cd4f29458631ccec8d66a30",
+   "silhouette.py": "2da246f23b824fe4b29025e2ba5cd35a167aae66ba3e200739cc6f8b140be23b",
+   "symmetry.py": "5e361244cb777951149e31e8fd77ad308ac51740d8ea3b3916ef42088de8426c",
+   "symmetry2.py": "4ecdd67269c96fc6ae08afacba067d6692651ccda29be103caaf7c61d66ae5e4",
+   "symmetry3.py": "0432747cfac3a9715c00bf757e97441537c5cd6fbae124ee7758d56a33ccb9d0"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 14,
+ "writes": 15,
+ "model_rounds": 32,
+ "llm_calls": 32,
+ "retries": 0,
+ "prompt_tokens": 2015869,
+ "cached_tokens": 1889408,
+ "completion_tokens": 65152,
+ "reasoning_tokens": 60474,
+ "seconds": 910.4,
+ "llm_seconds": 897.5,
+ "tool_seconds": 11.8,
+ "calls_usage": [
+  [
+   7961,
+   7424,
+   386,
+   358
+  ],
+  [
+   8361,
+   8320,
+   113,
+   11
+  ],
+  [
+   8490,
+   8448,
+   61,
+   0
+  ],
+  [
+   9236,
+   8448,
+   448,
+   374
+  ],
+  [
+   9701,
+   9600,
+   62,
+   0
+  ],
+  [
+   44987,
+   9728,
+   2441,
+   2228
+  ],
+  [
+   47444,
+   47360,
+   61,
+   0
+  ],
+  [
+   47870,
+   47488,
+   215,
+   29
+  ],
+  [
+   48101,
+   48000,
+   61,
+   0
+  ],
+  [
+   48459,
+   48128,
+   882,
+   594
+  ],
+  [
+   49357,
+   49280,
+   61,
+   0
+  ],
+  [
+   51517,
+   49408,
+   2550,
+   2463
+  ],
+  [
+   54084,
+   51456,
+   61,
+   0
+  ],
+  [
+   65616,
+   54144,
+   2658,
+   2453
+  ],
+  [
+   68291,
+   68224,
+   61,
+   0
+  ],
+  [
+   71460,
+   68352,
+   539,
+   334
+  ],
+  [
+   72016,
+   71936,
+   61,
+   0
+  ],
+  [
+   73994,
+   72064,
+   5080,
+   4994
+  ],
+  [
+   79090,
+   78976,
+   60,
+   0
+  ],
+  [
+   81083,
+   79104,
+   4426,
+   4144
+  ],
+  [
+   85525,
+   85504,
+   61,
+   0
+  ],
+  [
+   85837,
+   85504,
+   440,
+   135
+  ],
+  [
+   86293,
+   86272,
+   61,
+   0
+  ],
+  [
+   86821,
+   86272,
+   2058,
+   1839
+  ],
+  [
+   88896,
+   88832,
+   62,
+   0
+  ],
+  [
+   89039,
+   88832,
+   664,
+   405
+  ],
+  [
+   89720,
+   89600,
+   62,
+   0
+  ],
+  [
+   89900,
+   89728,
+   2760,
+   2605
+  ],
+  [
+   69930,
+   7936,
+   6198,
+   6136
+  ],
+  [
+   77472,
+   76032,
+   32037,
+   31030
+  ],
+  [
+   109525,
+   109440,
+   68,
+   8
+  ],
+  [
+   109793,
+   109568,
+   394,
+   334
+  ]
+ ]
+}

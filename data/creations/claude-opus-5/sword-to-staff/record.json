@@ -1,0 +1,96 @@
+{
+ "config": "claude-opus-5",
+ "task": "sword-to-staff",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "7856a4c0fe63004066062415c260bdc04adadf65df51d32cb1a5b726782998ea"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 32,
+ "writes": 5,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 0,
+ "prompt_tokens": 96097,
+ "cached_tokens": 87574,
+ "completion_tokens": 3390,
+ "reasoning_tokens": 0,
+ "seconds": 280.0,
+ "llm_seconds": 276.5,
+ "tool_seconds": 2.8,
+ "calls_usage": [
+  [
+   7923,
+   7539,
+   41,
+   0
+  ],
+  [
+   7976,
+   7512,
+   7,
+   0
+  ],
+  [
+   8483,
+   7784,
+   64,
+   0
+  ],
+  [
+   8534,
+   8457,
+   7,
+   0
+  ],
+  [
+   9158,
+   8642,
+   357,
+   0
+  ],
+  [
+   9205,
+   8615,
+   7,
+   0
+  ],
+  [
+   10236,
+   8926,
+   2682,
+   0
+  ],
+  [
+   11171,
+   9124,
+   7,
+   0
+  ],
+  [
+   11678,
+   9341,
+   206,
+   0
+  ],
+  [
+   11733,
+   11634,
+   12,
+   0
+  ]
+ ]
+}

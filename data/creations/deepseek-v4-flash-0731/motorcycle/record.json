@@ -1,0 +1,138 @@
+{
+ "config": "deepseek-v4-flash-0731",
+ "task": "motorcycle",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "a57611b237eec149f1a495e3c68d04c63fb61aeb84bb02ed1520c55a3278c6ae"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 12,
+ "writes": 12,
+ "model_rounds": 17,
+ "llm_calls": 17,
+ "retries": 0,
+ "prompt_tokens": 458509,
+ "cached_tokens": 0,
+ "completion_tokens": 33463,
+ "reasoning_tokens": 29869,
+ "seconds": 468.7,
+ "llm_seconds": 463.0,
+ "tool_seconds": 4.8,
+ "calls_usage": [
+  [
+   7715,
+   0,
+   19052,
+   17403
+  ],
+  [
+   9379,
+   0,
+   55,
+   10
+  ],
+  [
+   9800,
+   0,
+   464,
+   108
+  ],
+  [
+   10192,
+   0,
+   45,
+   0
+  ],
+  [
+   10381,
+   0,
+   164,
+   38
+  ],
+  [
+   10521,
+   0,
+   45,
+   0
+  ],
+  [
+   31194,
+   0,
+   3353,
+   3193
+  ],
+  [
+   31387,
+   0,
+   154,
+   0
+  ],
+  [
+   31555,
+   0,
+   45,
+   0
+  ],
+  [
+   36437,
+   0,
+   4190,
+   4002
+  ],
+  [
+   36658,
+   0,
+   176,
+   0
+  ],
+  [
+   36848,
+   0,
+   45,
+   0
+  ],
+  [
+   38158,
+   0,
+   2435,
+   2265
+  ],
+  [
+   38361,
+   0,
+   157,
+   0
+  ],
+  [
+   38532,
+   0,
+   45,
+   0
+  ],
+  [
+   40625,
+   0,
+   2977,
+   2850
+  ],
+  [
+   40766,
+   0,
+   61,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "config": "gpt-5.6-sol",
+ "task": "magic-forest-cottage",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "4cea991f1389a1fd250a781c108116b8ae6e1595aee826563fbf9312f9792d8b"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 42,
+ "writes": 2,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 70366,
+ "cached_tokens": 64512,
+ "completion_tokens": 4684,
+ "reasoning_tokens": 399,
+ "seconds": 100.8,
+ "llm_seconds": 98.1,
+ "tool_seconds": 1.8,
+ "calls_usage": [
+  [
+   11435,
+   11008,
+   100,
+   13
+  ],
+  [
+   11534,
+   11264,
+   3973,
+   127
+  ],
+  [
+   15393,
+   11392,
+   22,
+   0
+  ],
+  [
+   15842,
+   15232,
+   567,
+   259
+  ],
+  [
+   16162,
+   15616,
+   22,
+   0
+  ]
+ ]
+}

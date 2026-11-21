@@ -1,0 +1,66 @@
+{
+ "config": "glm-5.3-flash",
+ "task": "battery-status-set",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "c4e7d9bec52921dad3ccdb1730967056f6a76cffc8972d4a214f375f416442e7"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 8,
+ "writes": 2,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 41209,
+ "cached_tokens": 0,
+ "completion_tokens": 49456,
+ "reasoning_tokens": 48278,
+ "seconds": 657.8,
+ "llm_seconds": 654.0,
+ "tool_seconds": 1.0,
+ "calls_usage": [
+  [
+   7293,
+   0,
+   22367,
+   22336
+  ],
+  [
+   7421,
+   0,
+   25674,
+   24759
+  ],
+  [
+   8344,
+   0,
+   12,
+   0
+  ],
+  [
+   8971,
+   0,
+   1385,
+   1183
+  ],
+  [
+   9180,
+   0,
+   18,
+   0
+  ]
+ ]
+}

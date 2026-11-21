@@ -1,0 +1,108 @@
+{
+ "config": "claude-opus-5",
+ "task": "dim-sum-chef",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "main.py": "3ab8aa46cb9d412b48ee21900c15f2ae5de76079fb7e161f0e1e3109073a2ae0"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 19,
+ "writes": 6,
+ "model_rounds": 12,
+ "llm_calls": 12,
+ "retries": 0,
+ "prompt_tokens": 169093,
+ "cached_tokens": 152186,
+ "completion_tokens": 8841,
+ "reasoning_tokens": 0,
+ "seconds": 620.4,
+ "llm_seconds": 615.6,
+ "tool_seconds": 3.3,
+ "calls_usage": [
+  [
+   7838,
+   7054,
+   3216,
+   0
+  ],
+  [
+   9505,
+   8555,
+   7,
+   0
+  ],
+  [
+   10035,
+   9032,
+   2083,
+   0
+  ],
+  [
+   11844,
+   10660,
+   7,
+   0
+  ],
+  [
+   12378,
+   11140,
+   1279,
+   0
+  ],
+  [
+   14325,
+   12893,
+   7,
+   0
+  ],
+  [
+   14858,
+   13372,
+   1474,
+   0
+  ],
+  [
+   16850,
+   15165,
+   7,
+   0
+  ],
+  [
+   17383,
+   15645,
+   208,
+   0
+  ],
+  [
+   17481,
+   15733,
+   316,
+   0
+  ],
+  [
+   18031,
+   16228,
+   26,
+   0
+  ],
+  [
+   18565,
+   16709,
+   211,
+   0
+  ]
+ ]
+}

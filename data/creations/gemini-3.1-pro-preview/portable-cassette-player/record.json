@@ -1,0 +1,48 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "portable-cassette-player",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0001",
+  "source_hashes": {
+   "main.py": "b401d4de2db6a7dd63a800169f0933b3432eda0e4f9605fc99ea98e9505222f6"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 15,
+ "writes": 1,
+ "model_rounds": 2,
+ "llm_calls": 2,
+ "retries": 0,
+ "prompt_tokens": 34669,
+ "cached_tokens": 0,
+ "completion_tokens": 1579,
+ "reasoning_tokens": 18020,
+ "seconds": 221.6,
+ "llm_seconds": 218.3,
+ "tool_seconds": 0.5,
+ "calls_usage": [
+  [
+   7552,
+   0,
+   19563,
+   18004
+  ],
+  [
+   27117,
+   0,
+   36,
+   16
+  ]
+ ]
+}

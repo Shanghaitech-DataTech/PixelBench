@@ -1,0 +1,25 @@
+{
+ "config": "deepseek-v4-flash-0731@direct",
+ "task": "open-pocket-watch",
+ "ok": false,
+ "error": "token",
+ "termination": "token_budget",
+ "frames": 0,
+ "colors": null,
+ "parse": null,
+ "max_tokens": 131072,
+ "time_limit_s": 3600.0,
+ "finish_reason": "length",
+ "prompt_tokens": 501,
+ "completion_tokens": 131072,
+ "reasoning_tokens": 69411,
+ "seconds": 1324.5,
+ "calls_usage": [
+  [
+   501,
+   0,
+   131072,
+   69411
+  ]
+ ]
+}

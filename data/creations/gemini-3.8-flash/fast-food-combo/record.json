@@ -1,0 +1,156 @@
+{
+ "config": "gemini-3.8-flash",
+ "task": "fast-food-combo",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0010",
+  "source_hashes": {
+   "main.py": "4b2860561538b3fb7184cfeb72bac9dda00c505c5db0d10ba578f5aaa1c9dfd4"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 78,
+ "writes": 9,
+ "model_rounds": 20,
+ "llm_calls": 20,
+ "retries": 0,
+ "prompt_tokens": 873190,
+ "cached_tokens": 414893,
+ "completion_tokens": 57082,
+ "reasoning_tokens": 22657,
+ "seconds": 629.7,
+ "llm_seconds": 621.7,
+ "tool_seconds": 7.1,
+ "calls_usage": [
+  [
+   7587,
+   0,
+   177,
+   167
+  ],
+  [
+   7773,
+   0,
+   2350,
+   2291
+  ],
+  [
+   10125,
+   0,
+   39,
+   19
+  ],
+  [
+   11290,
+   7590,
+   3962,
+   3108
+  ],
+  [
+   15254,
+   0,
+   34,
+   14
+  ],
+  [
+   16414,
+   11325,
+   3526,
+   2123
+  ],
+  [
+   19942,
+   12078,
+   32,
+   12
+  ],
+  [
+   21100,
+   16092,
+   10244,
+   2692
+  ],
+  [
+   31346,
+   16517,
+   29,
+   9
+  ],
+  [
+   32501,
+   29303,
+   10631,
+   2138
+  ],
+  [
+   43134,
+   32589,
+   30,
+   10
+  ],
+  [
+   44291,
+   20248,
+   11553,
+   2278
+  ],
+  [
+   55846,
+   43192,
+   34,
+   14
+  ],
+  [
+   57155,
+   8111,
+   11791,
+   2260
+  ],
+  [
+   68948,
+   0,
+   30,
+   10
+  ],
+  [
+   70253,
+   66891,
+   12437,
+   2756
+  ],
+  [
+   82692,
+   70324,
+   30,
+   10
+  ],
+  [
+   83996,
+   80633,
+   12121,
+   2097
+  ],
+  [
+   96119,
+   0,
+   30,
+   10
+  ],
+  [
+   97424,
+   0,
+   659,
+   639
+  ]
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "config": "glm-5.3-flash",
+ "task": "bottle-potion",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0008",
+  "source_hashes": {
+   "check.py": "1c7207e973bf6731e7b8b7e9da52895f457aed7f4760cbdd0c478dc078aeabd0",
+   "inspect.py": "575569134ceede009c04dbb365ab6edc77da920c4c2c83c0ff35a4359df75401",
+   "main.py": "61ff5886602d215ad143802e8d47f7dccac56343086e85a186fc35f92ea2dd45"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 17,
+ "writes": 7,
+ "model_rounds": 16,
+ "llm_calls": 16,
+ "retries": 0,
+ "prompt_tokens": 452784,
+ "cached_tokens": 0,
+ "completion_tokens": 84267,
+ "reasoning_tokens": 81581,
+ "seconds": 1126.5,
+ "llm_seconds": 1120.5,
+ "tool_seconds": 4.6,
+ "calls_usage": [
+  [
+   7373,
+   0,
+   33,
+   17
+  ],
+  [
+   7483,
+   0,
+   58,
+   26
+  ],
+  [
+   7523,
+   0,
+   12,
+   0
+  ],
+  [
+   19991,
+   0,
+   2049,
+   1905
+  ],
+  [
+   20143,
+   0,
+   12,
+   0
+  ],
+  [
+   22133,
+   0,
+   9852,
+   9741
+  ],
+  [
+   22252,
+   0,
+   12,
+   0
+  ],
+  [
+   23029,
+   0,
+   65706,
+   64976
+  ],
+  [
+   23767,
+   0,
+   12,
+   0
+  ],
+  [
+   34926,
+   0,
+   2469,
+   2201
+  ],
+  [
+   35202,
+   0,
+   12,
+   0
+  ],
+  [
+   35670,
+   0,
+   216,
+   100
+  ],
+  [
+   35793,
+   0,
+   12,
+   0
+  ],
+  [
+   51488,
+   0,
+   3419,
+   2449
+  ],
+  [
+   52466,
+   0,
+   12,
+   0
+  ],
+  [
+   53545,
+   0,
+   381,
+   166
+  ]
+ ]
+}

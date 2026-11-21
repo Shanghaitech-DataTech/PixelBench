@@ -1,0 +1,66 @@
+{
+ "config": "gpt-6-astra@effort-low",
+ "task": "demon-cyclop-hit",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 3,
+  "actual_count": 3,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "ac8e23cdbace46dc10e7e7eac26ed5fd61f8f9e5ff3e767b5f229fc9a383ee54"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 3,
+ "colors": 23,
+ "writes": 2,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 62441,
+ "cached_tokens": 57984,
+ "completion_tokens": 1183,
+ "reasoning_tokens": 325,
+ "seconds": 94.1,
+ "llm_seconds": 91.2,
+ "tool_seconds": 2.3,
+ "calls_usage": [
+  [
+   11412,
+   10752,
+   70,
+   0
+  ],
+  [
+   11497,
+   10752,
+   18,
+   0
+  ],
+  [
+   12410,
+   11392,
+   1055,
+   325
+  ],
+  [
+   13153,
+   12160,
+   18,
+   0
+  ],
+  [
+   13969,
+   12928,
+   22,
+   0
+  ]
+ ]
+}

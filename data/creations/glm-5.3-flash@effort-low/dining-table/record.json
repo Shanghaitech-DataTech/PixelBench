@@ -1,0 +1,102 @@
+{
+ "config": "glm-5.3-flash@effort-low",
+ "task": "dining-table",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "2d146bf8d3dcedbb15be0ed7a216190540a0f07d7ea4d590868c2db8f2f47bca"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 20,
+ "writes": 6,
+ "model_rounds": 11,
+ "llm_calls": 11,
+ "retries": 0,
+ "prompt_tokens": 139594,
+ "cached_tokens": 0,
+ "completion_tokens": 5366,
+ "reasoning_tokens": 2501,
+ "seconds": 120.0,
+ "llm_seconds": 116.4,
+ "tool_seconds": 3.0,
+ "calls_usage": [
+  [
+   7298,
+   0,
+   1578,
+   332
+  ],
+  [
+   8552,
+   0,
+   12,
+   0
+  ],
+  [
+   10141,
+   0,
+   1014,
+   780
+  ],
+  [
+   10382,
+   0,
+   275,
+   0
+  ],
+  [
+   10664,
+   0,
+   12,
+   0
+  ],
+  [
+   12537,
+   0,
+   2126,
+   1389
+  ],
+  [
+   13281,
+   0,
+   12,
+   0
+  ],
+  [
+   15414,
+   0,
+   202,
+   0
+  ],
+  [
+   15623,
+   0,
+   12,
+   0
+  ],
+  [
+   17795,
+   0,
+   105,
+   0
+  ],
+  [
+   17907,
+   0,
+   18,
+   0
+  ]
+ ]
+}

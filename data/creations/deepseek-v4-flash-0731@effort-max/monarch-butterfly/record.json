@@ -1,0 +1,90 @@
+{
+ "config": "deepseek-v4-flash-0731@effort-max",
+ "task": "monarch-butterfly",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "aebd8e9f3c922aca943bdbe72bd3ce361d3de4b4d641298b35906428eba6b1ce"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 7,
+ "writes": 5,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 99803,
+ "cached_tokens": 0,
+ "completion_tokens": 19146,
+ "reasoning_tokens": 16788,
+ "seconds": 357.9,
+ "llm_seconds": 355.7,
+ "tool_seconds": 1.6,
+ "calls_usage": [
+  [
+   7665,
+   0,
+   4727,
+   3426
+  ],
+  [
+   8981,
+   0,
+   51,
+   6
+  ],
+  [
+   9613,
+   0,
+   4780,
+   4657
+  ],
+  [
+   9750,
+   0,
+   45,
+   0
+  ],
+  [
+   11546,
+   0,
+   8973,
+   8622
+  ],
+  [
+   11921,
+   0,
+   67,
+   21
+  ],
+  [
+   13221,
+   0,
+   292,
+   56
+  ],
+  [
+   13471,
+   0,
+   150,
+   0
+  ],
+  [
+   13635,
+   0,
+   61,
+   0
+  ]
+ ]
+}

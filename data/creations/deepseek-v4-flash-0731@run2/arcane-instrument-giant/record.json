@@ -1,0 +1,103 @@
+{
+ "config": "deepseek-v4-flash-0731@run2",
+ "task": "arcane-instrument-giant",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "inspect.py": "ad3c975b7a541d1ef355a1bfaf80fab6c10d760cd24c4de1c253e4db348f4e67",
+   "main.py": "86f7ffd5c066e84daa29a7babed60250b3715b71807bf95ea2cb9bf2b105f889"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 40,
+ "writes": 5,
+ "model_rounds": 11,
+ "llm_calls": 11,
+ "retries": 0,
+ "prompt_tokens": 220417,
+ "cached_tokens": 0,
+ "completion_tokens": 47473,
+ "reasoning_tokens": 37970,
+ "seconds": 822.2,
+ "llm_seconds": 807.2,
+ "tool_seconds": 13.6,
+ "calls_usage": [
+  [
+   7711,
+   0,
+   34207,
+   30076
+  ],
+  [
+   11857,
+   0,
+   55,
+   10
+  ],
+  [
+   12098,
+   0,
+   440,
+   329
+  ],
+  [
+   12224,
+   0,
+   46,
+   0
+  ],
+  [
+   15007,
+   0,
+   1847,
+   1696
+  ],
+  [
+   15172,
+   0,
+   46,
+   0
+  ],
+  [
+   23841,
+   0,
+   9297,
+   4673
+  ],
+  [
+   28480,
+   0,
+   45,
+   0
+  ],
+  [
+   28720,
+   0,
+   1197,
+   1044
+  ],
+  [
+   28888,
+   0,
+   46,
+   0
+  ],
+  [
+   36419,
+   0,
+   247,
+   142
+  ]
+ ]
+}

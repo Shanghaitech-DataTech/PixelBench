@@ -1,0 +1,45 @@
+{
+ "config": "gpt-6-astra@direct",
+ "task": "magic-forest-cottage",
+ "ok": true,
+ "error": null,
+ "termination": "answered",
+ "frames": 1,
+ "colors": 35,
+ "parse": {
+  "ok": true,
+  "diags": [
+   {
+    "declared": [
+     128,
+     128
+    ],
+    "size": [
+     128,
+     128
+    ],
+    "rows": 128,
+    "rows_wrong_length": 107,
+    "rows_beyond_tolerance": 6,
+    "rows_missing": 0,
+    "rows_extra": 0,
+    "undeclared_pixels": 116
+   }
+  ]
+ },
+ "max_tokens": 131072,
+ "time_limit_s": 3600.0,
+ "finish_reason": "stop",
+ "prompt_tokens": 4544,
+ "completion_tokens": 12123,
+ "reasoning_tokens": 5630,
+ "seconds": 473.2,
+ "calls_usage": [
+  [
+   4544,
+   4352,
+   12123,
+   5630
+  ]
+ ]
+}

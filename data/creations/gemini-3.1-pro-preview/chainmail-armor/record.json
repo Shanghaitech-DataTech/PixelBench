@@ -1,0 +1,48 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "chainmail-armor",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0001",
+  "source_hashes": {
+   "main.py": "6309e80cd3176dd5c57f0f443d0ea8ed91b1c519a55c6f93771adeebc5cbc065"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 18,
+ "writes": 1,
+ "model_rounds": 2,
+ "llm_calls": 2,
+ "retries": 0,
+ "prompt_tokens": 43857,
+ "cached_tokens": 0,
+ "completion_tokens": 2107,
+ "reasoning_tokens": 26700,
+ "seconds": 267.0,
+ "llm_seconds": 265.9,
+ "tool_seconds": 0.5,
+ "calls_usage": [
+  [
+   7540,
+   0,
+   28775,
+   26688
+  ],
+  [
+   36317,
+   0,
+   32,
+   12
+  ]
+ ]
+}

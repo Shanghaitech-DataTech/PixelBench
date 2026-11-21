@@ -1,0 +1,84 @@
+{
+ "config": "deepseek-v4-flash-0731",
+ "task": "ancient-dragon-battle",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "30c8a316117d466be3321ec589ee0f325fbf090ddd50edf9e25020ddf652934a"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 58,
+ "writes": 6,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 0,
+ "prompt_tokens": 135305,
+ "cached_tokens": 0,
+ "completion_tokens": 24009,
+ "reasoning_tokens": 18628,
+ "seconds": 432.8,
+ "llm_seconds": 423.1,
+ "tool_seconds": 6.1,
+ "calls_usage": [
+  [
+   7701,
+   0,
+   17379,
+   13193
+  ],
+  [
+   11902,
+   0,
+   53,
+   8
+  ],
+  [
+   12345,
+   0,
+   804,
+   330
+  ],
+  [
+   12844,
+   0,
+   45,
+   0
+  ],
+  [
+   13116,
+   0,
+   1541,
+   1370
+  ],
+  [
+   13301,
+   0,
+   45,
+   0
+  ],
+  [
+   31863,
+   0,
+   2751,
+   2406
+  ],
+  [
+   32233,
+   0,
+   1391,
+   1321
+  ]
+ ]
+}

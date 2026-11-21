@@ -1,0 +1,150 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "farm-sheep",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0009",
+  "source_hashes": {
+   "main.py": "f160a3b31554901516a282f7e3ad7331905a754182c3ea8f33369d5bdb71c4fb"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 15,
+ "writes": 10,
+ "model_rounds": 19,
+ "llm_calls": 19,
+ "retries": 1,
+ "prompt_tokens": 338113,
+ "cached_tokens": 181202,
+ "completion_tokens": 6786,
+ "reasoning_tokens": 25821,
+ "seconds": 382.5,
+ "llm_seconds": 373.3,
+ "tool_seconds": 5.0,
+ "calls_usage": [
+  [
+   7563,
+   0,
+   5076,
+   4229
+  ],
+  [
+   12641,
+   0,
+   35,
+   15
+  ],
+  [
+   9549,
+   3971,
+   10883,
+   9949
+  ],
+  [
+   20434,
+   0,
+   20,
+   0
+  ],
+  [
+   11622,
+   0,
+   2549,
+   1615
+  ],
+  [
+   14173,
+   0,
+   20,
+   0
+  ],
+  [
+   13695,
+   9944,
+   3405,
+   2406
+  ],
+  [
+   17102,
+   11984,
+   20,
+   0
+  ],
+  [
+   15833,
+   7960,
+   2247,
+   1267
+  ],
+  [
+   18082,
+   0,
+   20,
+   0
+  ],
+  [
+   17952,
+   7963,
+   3033,
+   2011
+  ],
+  [
+   20987,
+   11979,
+   20,
+   0
+  ],
+  [
+   20114,
+   17925,
+   3084,
+   2976
+  ],
+  [
+   23195,
+   19965,
+   349,
+   8
+  ],
+  [
+   23541,
+   19947,
+   20,
+   0
+  ],
+  [
+   21695,
+   17893,
+   1065,
+   665
+  ],
+  [
+   22757,
+   19883,
+   20,
+   0
+  ],
+  [
+   23230,
+   11922,
+   721,
+   680
+  ],
+  [
+   23948,
+   19866,
+   20,
+   0
+  ]
+ ]
+}

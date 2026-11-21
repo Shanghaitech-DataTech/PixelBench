@@ -1,0 +1,90 @@
+{
+ "config": "deepseek-v4-flash-0731@effort-max",
+ "task": "character-emotion-set",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "55f0219296097c681938e265dd28b7ad7d554243fd4cdd387413d1ec07855bdc"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 12,
+ "writes": 6,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 112527,
+ "cached_tokens": 0,
+ "completion_tokens": 44521,
+ "reasoning_tokens": 40214,
+ "seconds": 798.7,
+ "llm_seconds": 796.3,
+ "tool_seconds": 1.7,
+ "calls_usage": [
+  [
+   7706,
+   0,
+   30727,
+   28961
+  ],
+  [
+   9487,
+   0,
+   52,
+   7
+  ],
+  [
+   11303,
+   0,
+   7805,
+   6969
+  ],
+  [
+   12153,
+   0,
+   589,
+   84
+  ],
+  [
+   12691,
+   0,
+   503,
+   0
+  ],
+  [
+   13208,
+   0,
+   45,
+   0
+  ],
+  [
+   15024,
+   0,
+   4474,
+   4193
+  ],
+  [
+   15338,
+   0,
+   265,
+   0
+  ],
+  [
+   15617,
+   0,
+   61,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "config": "kimi-k3",
+ "task": "castle-title-screen",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "468b1b907c07a98a365e55602e4583e7111e044f41b60b77673b23e649700664"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 39,
+ "writes": 9,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 116797,
+ "cached_tokens": 105706,
+ "completion_tokens": 40496,
+ "reasoning_tokens": 32386,
+ "seconds": 930.6,
+ "llm_seconds": 926.5,
+ "tool_seconds": 3.3,
+ "calls_usage": [
+  [
+   7230,
+   6912,
+   13171,
+   13100
+  ],
+  [
+   7439,
+   7168,
+   16119,
+   13102
+  ],
+  [
+   10497,
+   7424,
+   45,
+   3
+  ],
+  [
+   11158,
+   10496,
+   6604,
+   3570
+  ],
+  [
+   14233,
+   11146,
+   45,
+   3
+  ],
+  [
+   14895,
+   14080,
+   3308,
+   1773
+  ],
+  [
+   16562,
+   14883,
+   45,
+   3
+  ],
+  [
+   17225,
+   16384,
+   1099,
+   829
+  ],
+  [
+   17558,
+   17213,
+   60,
+   3
+  ]
+ ]
+}

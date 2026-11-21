@@ -1,0 +1,126 @@
+{
+ "config": "kimi-k3",
+ "task": "draw-sword-slash",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "692019bab7215104996c0e6d3dfb9f7c3af67b3c4ee45f60eb1f9ed84c0cdf5e"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 17,
+ "writes": 8,
+ "model_rounds": 15,
+ "llm_calls": 15,
+ "retries": 0,
+ "prompt_tokens": 168715,
+ "cached_tokens": 159302,
+ "completion_tokens": 56306,
+ "reasoning_tokens": 53416,
+ "seconds": 1138.1,
+ "llm_seconds": 1132.8,
+ "tool_seconds": 4.6,
+ "calls_usage": [
+  [
+   7509,
+   6912,
+   107,
+   18
+  ],
+  [
+   7635,
+   7424,
+   49,
+   0
+  ],
+  [
+   8047,
+   7424,
+   134,
+   22
+  ],
+  [
+   8195,
+   7936,
+   49,
+   0
+  ],
+  [
+   9852,
+   8192,
+   101,
+   20
+  ],
+  [
+   9970,
+   9728,
+   49,
+   0
+  ],
+  [
+   10398,
+   9728,
+   51384,
+   50814
+  ],
+  [
+   11005,
+   10386,
+   49,
+   0
+  ],
+  [
+   11783,
+   11008,
+   622,
+   0
+  ],
+  [
+   12438,
+   11776,
+   49,
+   0
+  ],
+  [
+   13216,
+   12288,
+   3148,
+   2542
+  ],
+  [
+   13858,
+   13204,
+   49,
+   0
+  ],
+  [
+   14636,
+   13824,
+   350,
+   0
+  ],
+  [
+   15019,
+   14624,
+   102,
+   0
+  ],
+  [
+   15154,
+   14848,
+   64,
+   0
+  ]
+ ]
+}

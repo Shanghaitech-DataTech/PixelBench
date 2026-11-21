@@ -1,0 +1,150 @@
+{
+ "config": "glm-5.3-flash@effort-high",
+ "task": "sky-pirate-girl",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0009",
+  "source_hashes": {
+   "main.py": "059eb747ab64af2f4308fb6b000c0ccc31fcb2f2a7ceccb4ca8248cb82e6e7cb"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 26,
+ "writes": 10,
+ "model_rounds": 19,
+ "llm_calls": 19,
+ "retries": 0,
+ "prompt_tokens": 369026,
+ "cached_tokens": 0,
+ "completion_tokens": 63435,
+ "reasoning_tokens": 60083,
+ "seconds": 1289.5,
+ "llm_seconds": 1281.7,
+ "tool_seconds": 5.5,
+ "calls_usage": [
+  [
+   7299,
+   0,
+   15477,
+   15447
+  ],
+  [
+   7425,
+   0,
+   8584,
+   6495
+  ],
+  [
+   9522,
+   0,
+   12,
+   0
+  ],
+  [
+   11778,
+   0,
+   225,
+   192
+  ],
+  [
+   14055,
+   0,
+   6177,
+   6145
+  ],
+  [
+   16331,
+   0,
+   185,
+   89
+  ],
+  [
+   16434,
+   0,
+   12,
+   0
+  ],
+  [
+   17590,
+   0,
+   23068,
+   22909
+  ],
+  [
+   17756,
+   0,
+   12,
+   0
+  ],
+  [
+   19405,
+   0,
+   311,
+   168
+  ],
+  [
+   19555,
+   0,
+   12,
+   0
+  ],
+  [
+   22228,
+   0,
+   125,
+   0
+  ],
+  [
+   22360,
+   0,
+   12,
+   0
+  ],
+  [
+   25132,
+   0,
+   8510,
+   8152
+  ],
+  [
+   25516,
+   0,
+   29,
+   16
+  ],
+  [
+   27720,
+   0,
+   173,
+   94
+  ],
+  [
+   27806,
+   0,
+   12,
+   0
+  ],
+  [
+   30501,
+   0,
+   481,
+   376
+  ],
+  [
+   30613,
+   0,
+   18,
+   0
+  ]
+ ]
+}

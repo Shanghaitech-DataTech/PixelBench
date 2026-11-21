@@ -1,0 +1,126 @@
+{
+ "config": "glm-5.3-flash@effort-high",
+ "task": "house-turn-2view",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "cae734a1864fead50eb262612af859a734a5ca7146bdb410885a5c4754d72e9a"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 14,
+ "writes": 8,
+ "model_rounds": 15,
+ "llm_calls": 15,
+ "retries": 0,
+ "prompt_tokens": 263714,
+ "cached_tokens": 0,
+ "completion_tokens": 11576,
+ "reasoning_tokens": 9964,
+ "seconds": 163.0,
+ "llm_seconds": 155.0,
+ "tool_seconds": 7.1,
+ "calls_usage": [
+  [
+   7575,
+   0,
+   24,
+   8
+  ],
+  [
+   7685,
+   0,
+   36,
+   0
+  ],
+  [
+   7729,
+   0,
+   12,
+   0
+  ],
+  [
+   13862,
+   0,
+   4693,
+   4585
+  ],
+  [
+   13978,
+   0,
+   12,
+   0
+  ],
+  [
+   18687,
+   0,
+   2894,
+   2816
+  ],
+  [
+   18773,
+   0,
+   12,
+   0
+  ],
+  [
+   20455,
+   0,
+   2489,
+   1898
+  ],
+  [
+   21054,
+   0,
+   12,
+   0
+  ],
+  [
+   21449,
+   0,
+   80,
+   0
+  ],
+  [
+   21541,
+   0,
+   12,
+   0
+  ],
+  [
+   21929,
+   0,
+   55,
+   0
+  ],
+  [
+   21991,
+   0,
+   12,
+   0
+  ],
+  [
+   23220,
+   0,
+   1215,
+   657
+  ],
+  [
+   23786,
+   0,
+   18,
+   0
+  ]
+ ]
+}

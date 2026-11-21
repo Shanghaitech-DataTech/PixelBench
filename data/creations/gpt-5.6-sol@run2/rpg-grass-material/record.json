@@ -1,0 +1,54 @@
+{
+ "config": "gpt-5.6-sol@run2",
+ "task": "rpg-grass-material",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "5df045f1b13c9849c2e32a70d80ab8c03128e79012607f54dbe268430099c4b5"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 10,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 36523,
+ "cached_tokens": 34560,
+ "completion_tokens": 1436,
+ "reasoning_tokens": 344,
+ "seconds": 46.7,
+ "llm_seconds": 43.2,
+ "tool_seconds": 1.2,
+ "calls_usage": [
+  [
+   11413,
+   11008,
+   1063,
+   87
+  ],
+  [
+   12402,
+   11264,
+   22,
+   0
+  ],
+  [
+   12708,
+   12288,
+   351,
+   257
+  ]
+ ]
+}

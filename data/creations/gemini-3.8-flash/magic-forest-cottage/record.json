@@ -1,0 +1,156 @@
+{
+ "config": "gemini-3.8-flash",
+ "task": "magic-forest-cottage",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0010",
+  "source_hashes": {
+   "main.py": "2c6c7ef82eceb0bdc6d0dbdefbf51af7e76596e1c497d38c9edfbcd13eab6411"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 67,
+ "writes": 9,
+ "model_rounds": 20,
+ "llm_calls": 20,
+ "retries": 7,
+ "prompt_tokens": 1309871,
+ "cached_tokens": 783346,
+ "completion_tokens": 94414,
+ "reasoning_tokens": 25776,
+ "seconds": 1155.3,
+ "llm_seconds": 890.6,
+ "tool_seconds": 10.3,
+ "calls_usage": [
+  [
+   7593,
+   4002,
+   154,
+   144
+  ],
+  [
+   7756,
+   0,
+   2267,
+   2201
+  ],
+  [
+   10025,
+   0,
+   33,
+   13
+  ],
+  [
+   11184,
+   8007,
+   7354,
+   4952
+  ],
+  [
+   18540,
+   8067,
+   39,
+   19
+  ],
+  [
+   19705,
+   7823,
+   14303,
+   1940
+  ],
+  [
+   34010,
+   0,
+   41,
+   21
+  ],
+  [
+   35385,
+   0,
+   18188,
+   4635
+  ],
+  [
+   53575,
+   19872,
+   41,
+   21
+  ],
+  [
+   54949,
+   52821,
+   16450,
+   2605
+  ],
+  [
+   71401,
+   0,
+   36,
+   16
+  ],
+  [
+   72770,
+   53609,
+   16242,
+   3286
+  ],
+  [
+   89014,
+   0,
+   34,
+   14
+  ],
+  [
+   90381,
+   72817,
+   15290,
+   2139
+  ],
+  [
+   105673,
+   90440,
+   42,
+   22
+  ],
+  [
+   107049,
+   85513,
+   14686,
+   1750
+  ],
+  [
+   121737,
+   16295,
+   36,
+   16
+  ],
+  [
+   123105,
+   105672,
+   14217,
+   1285
+  ],
+  [
+   137324,
+   123152,
+   39,
+   19
+  ],
+  [
+   138695,
+   135256,
+   698,
+   678
+  ]
+ ]
+}

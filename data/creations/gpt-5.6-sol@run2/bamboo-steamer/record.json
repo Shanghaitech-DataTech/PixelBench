@@ -1,0 +1,60 @@
+{
+ "config": "gpt-5.6-sol@run2",
+ "task": "bamboo-steamer",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "02093048631d6a1f7d71a0ae75eb5aa09a3a576376861316fda7c524f03a3c9b"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 13,
+ "writes": 1,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 49444,
+ "cached_tokens": 35584,
+ "completion_tokens": 2394,
+ "reasoning_tokens": 607,
+ "seconds": 115.5,
+ "llm_seconds": 109.1,
+ "tool_seconds": 1.2,
+ "calls_usage": [
+  [
+   11392,
+   0,
+   86,
+   14
+  ],
+  [
+   11476,
+   11264,
+   2052,
+   441
+  ],
+  [
+   13099,
+   11392,
+   22,
+   0
+  ],
+  [
+   13477,
+   12928,
+   234,
+   152
+  ]
+ ]
+}

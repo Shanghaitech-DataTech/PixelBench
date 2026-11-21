@@ -1,0 +1,72 @@
+{
+ "config": "gpt-5.6-sol@run3",
+ "task": "east-hero-full-body",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "e78695534a5c37c3e8a21aed3e13d3df8f848b52e6dcd56e136f1aacaed4240e"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 72,
+ "writes": 2,
+ "model_rounds": 6,
+ "llm_calls": 6,
+ "retries": 5,
+ "prompt_tokens": 84200,
+ "cached_tokens": 75136,
+ "completion_tokens": 4378,
+ "reasoning_tokens": 564,
+ "seconds": 1020.2,
+ "llm_seconds": 304.3,
+ "tool_seconds": 7.3,
+ "calls_usage": [
+  [
+   11441,
+   11008,
+   147,
+   49
+  ],
+  [
+   11551,
+   11008,
+   3178,
+   203
+  ],
+  [
+   14539,
+   11392,
+   32,
+   8
+  ],
+  [
+   14986,
+   11392,
+   890,
+   270
+  ],
+  [
+   15618,
+   14336,
+   22,
+   0
+  ],
+  [
+   16065,
+   16000,
+   109,
+   34
+  ]
+ ]
+}

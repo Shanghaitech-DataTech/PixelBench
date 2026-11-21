@@ -1,0 +1,10 @@
+# local credentials and outputs
+.env
+runs/
+results/
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/

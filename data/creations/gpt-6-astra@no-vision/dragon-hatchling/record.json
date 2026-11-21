@@ -1,0 +1,85 @@
+{
+ "config": "gpt-6-astra@no-vision",
+ "task": "dragon-hatchling",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "inspect.py": "f4d6018f184c29b64f6a5aa86fbb8842b0d52843546f68ede889d6c561db141b",
+   "main.py": "89660bf71654225198e15a70231501f8d2e75c93d522543e131b96001435fa2c"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 18,
+ "writes": 4,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 0,
+ "prompt_tokens": 153519,
+ "cached_tokens": 135936,
+ "completion_tokens": 7140,
+ "reasoning_tokens": 1534,
+ "seconds": 187.1,
+ "llm_seconds": 183.9,
+ "tool_seconds": 2.5,
+ "calls_usage": [
+  [
+   11240,
+   10880,
+   6133,
+   933
+  ],
+  [
+   14144,
+   10880,
+   18,
+   0
+  ],
+  [
+   30827,
+   29568,
+   118,
+   64
+  ],
+  [
+   14866,
+   14720,
+   48,
+   28
+  ],
+  [
+   15528,
+   11136,
+   72,
+   26
+  ],
+  [
+   32492,
+   30976,
+   52,
+   32
+  ],
+  [
+   17092,
+   10880,
+   677,
+   451
+  ],
+  [
+   17330,
+   16896,
+   22,
+   0
+  ]
+ ]
+}

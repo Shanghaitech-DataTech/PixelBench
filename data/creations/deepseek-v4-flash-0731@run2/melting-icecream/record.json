@@ -1,0 +1,114 @@
+{
+ "config": "deepseek-v4-flash-0731@run2",
+ "task": "melting-icecream",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "e23407dd3e35edd6f985def0c4c6d57dcc06117845312a8d8b68b2c42c20ffed"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 66,
+ "writes": 6,
+ "model_rounds": 13,
+ "llm_calls": 13,
+ "retries": 0,
+ "prompt_tokens": 184215,
+ "cached_tokens": 0,
+ "completion_tokens": 19807,
+ "reasoning_tokens": 16152,
+ "seconds": 336.5,
+ "llm_seconds": 331.8,
+ "tool_seconds": 3.7,
+ "calls_usage": [
+  [
+   7757,
+   0,
+   116,
+   16
+  ],
+  [
+   7882,
+   0,
+   45,
+   0
+  ],
+  [
+   10233,
+   0,
+   2092,
+   1931
+  ],
+  [
+   10409,
+   0,
+   45,
+   0
+  ],
+  [
+   12886,
+   0,
+   7792,
+   6565
+  ],
+  [
+   14128,
+   0,
+   45,
+   0
+  ],
+  [
+   14540,
+   0,
+   406,
+   141
+  ],
+  [
+   14820,
+   0,
+   45,
+   0
+  ],
+  [
+   16270,
+   0,
+   4669,
+   3933
+  ],
+  [
+   17021,
+   0,
+   45,
+   0
+  ],
+  [
+   18251,
+   0,
+   4016,
+   3251
+  ],
+  [
+   19031,
+   0,
+   45,
+   0
+  ],
+  [
+   20987,
+   0,
+   446,
+   315
+  ]
+ ]
+}

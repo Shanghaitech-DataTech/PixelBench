@@ -1,0 +1,156 @@
+{
+ "config": "gemini-3.8-flash",
+ "task": "forest-slime-monster",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0010",
+  "source_hashes": {
+   "main.py": "da4b0c1c304f53d74a0e5c907956b63f3ee7d3c73d6b7c17c8c878d30c48c419"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 53,
+ "writes": 9,
+ "model_rounds": 20,
+ "llm_calls": 20,
+ "retries": 2,
+ "prompt_tokens": 840936,
+ "cached_tokens": 507517,
+ "completion_tokens": 47348,
+ "reasoning_tokens": 20620,
+ "seconds": 668.2,
+ "llm_seconds": 648.8,
+ "tool_seconds": 5.6,
+ "calls_usage": [
+  [
+   7558,
+   5550,
+   126,
+   116
+  ],
+  [
+   7693,
+   0,
+   1613,
+   1548
+  ],
+  [
+   9308,
+   5548,
+   41,
+   21
+  ],
+  [
+   10483,
+   7290,
+   4451,
+   2644
+  ],
+  [
+   14936,
+   10539,
+   33,
+   13
+  ],
+  [
+   16086,
+   12912,
+   7411,
+   2221
+  ],
+  [
+   23499,
+   16167,
+   33,
+   13
+  ],
+  [
+   24649,
+   21461,
+   10175,
+   3359
+  ],
+  [
+   34826,
+   24739,
+   33,
+   13
+  ],
+  [
+   35976,
+   32778,
+   8598,
+   2071
+  ],
+  [
+   44576,
+   36038,
+   32,
+   12
+  ],
+  [
+   45726,
+   4050,
+   8798,
+   2187
+  ],
+  [
+   54526,
+   44609,
+   33,
+   13
+  ],
+  [
+   55677,
+   44601,
+   9672,
+   2934
+  ],
+  [
+   65351,
+   54561,
+   33,
+   13
+  ],
+  [
+   66502,
+   63294,
+   9431,
+   2742
+  ],
+  [
+   75935,
+   0,
+   32,
+   12
+  ],
+  [
+   77287,
+   66535,
+   7292,
+   597
+  ],
+  [
+   84581,
+   4061,
+   53,
+   33
+  ],
+  [
+   85761,
+   52784,
+   78,
+   58
+  ]
+ ]
+}

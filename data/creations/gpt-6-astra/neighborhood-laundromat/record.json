@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra",
+ "task": "neighborhood-laundromat",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "70b1d8a4643cb5d2d11504f82393ed173f9d718a987c7a9d9492da8af79bf69d"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 57,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 37265,
+ "cached_tokens": 34560,
+ "completion_tokens": 2100,
+ "reasoning_tokens": 285,
+ "seconds": 119.1,
+ "llm_seconds": 116.9,
+ "tool_seconds": 1.5,
+ "calls_usage": [
+  [
+   11141,
+   10752,
+   1958,
+   239
+  ],
+  [
+   12875,
+   11008,
+   18,
+   0
+  ],
+  [
+   13249,
+   12800,
+   124,
+   46
+  ]
+ ]
+}

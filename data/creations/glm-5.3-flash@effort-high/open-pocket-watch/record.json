@@ -1,0 +1,168 @@
+{
+ "config": "glm-5.3-flash@effort-high",
+ "task": "open-pocket-watch",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0009",
+  "source_hashes": {
+   "main.py": "0ed0cf36462aacca9a0019726c04fedc693976aaf065c36a3e89bc8b4571b448"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 23,
+ "writes": 14,
+ "model_rounds": 22,
+ "llm_calls": 22,
+ "retries": 0,
+ "prompt_tokens": 429214,
+ "cached_tokens": 0,
+ "completion_tokens": 52089,
+ "reasoning_tokens": 42806,
+ "seconds": 784.7,
+ "llm_seconds": 778.9,
+ "tool_seconds": 5.1,
+ "calls_usage": [
+  [
+   7309,
+   0,
+   8066,
+   8034
+  ],
+  [
+   7348,
+   0,
+   12642,
+   10102
+  ],
+  [
+   9896,
+   0,
+   12,
+   0
+  ],
+  [
+   10080,
+   0,
+   344,
+   319
+  ],
+  [
+   10193,
+   0,
+   210,
+   148
+  ],
+  [
+   10262,
+   0,
+   12,
+   0
+  ],
+  [
+   12457,
+   0,
+   21911,
+   18917
+  ],
+  [
+   15459,
+   0,
+   12,
+   0
+  ],
+  [
+   17675,
+   0,
+   3835,
+   3501
+  ],
+  [
+   18021,
+   0,
+   785,
+   0
+  ],
+  [
+   18813,
+   0,
+   12,
+   0
+  ],
+  [
+   21046,
+   0,
+   1309,
+   1079
+  ],
+  [
+   21288,
+   0,
+   12,
+   0
+  ],
+  [
+   23452,
+   0,
+   397,
+   292
+  ],
+  [
+   23564,
+   0,
+   12,
+   0
+  ],
+  [
+   24311,
+   0,
+   13,
+   0
+  ],
+  [
+   27360,
+   0,
+   1820,
+   206
+  ],
+  [
+   28986,
+   0,
+   278,
+   0
+  ],
+  [
+   29276,
+   0,
+   12,
+   0
+  ],
+  [
+   30007,
+   0,
+   204,
+   101
+  ],
+  [
+   30117,
+   0,
+   12,
+   0
+  ],
+  [
+   32294,
+   0,
+   179,
+   107
+  ]
+ ]
+}

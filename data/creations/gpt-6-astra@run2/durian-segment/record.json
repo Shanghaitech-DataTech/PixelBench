@@ -1,0 +1,84 @@
+{
+ "config": "gpt-6-astra@run2",
+ "task": "durian-segment",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "147c92dc4edec162e3b3d1d05d0fd82f395470d8023349f9eecf177b81bb0798"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 11,
+ "writes": 4,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 6,
+ "prompt_tokens": 107552,
+ "cached_tokens": 89600,
+ "completion_tokens": 1436,
+ "reasoning_tokens": 785,
+ "seconds": 241.4,
+ "llm_seconds": 140.7,
+ "tool_seconds": 3.2,
+ "calls_usage": [
+  [
+   11223,
+   10752,
+   76,
+   0
+  ],
+  [
+   11314,
+   11136,
+   18,
+   0
+  ],
+  [
+   13361,
+   11136,
+   248,
+   109
+  ],
+  [
+   13513,
+   0,
+   18,
+   0
+  ],
+  [
+   14090,
+   13440,
+   751,
+   479
+  ],
+  [
+   14375,
+   14080,
+   18,
+   0
+  ],
+  [
+   14788,
+   14336,
+   285,
+   197
+  ],
+  [
+   14888,
+   14720,
+   22,
+   0
+  ]
+ ]
+}

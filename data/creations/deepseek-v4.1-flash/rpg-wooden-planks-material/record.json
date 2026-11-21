@@ -1,0 +1,156 @@
+{
+ "config": "deepseek-v4.1-flash",
+ "task": "rpg-wooden-planks-material",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0008",
+  "source_hashes": {
+   "main.py": "35a1b2337b3651d83a75ada5807cb2430917385b0267aaeb4256f15c5f5bc2eb"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 18,
+ "writes": 10,
+ "model_rounds": 20,
+ "llm_calls": 20,
+ "retries": 0,
+ "prompt_tokens": 918478,
+ "cached_tokens": 907264,
+ "completion_tokens": 56743,
+ "reasoning_tokens": 48173,
+ "seconds": 409.3,
+ "llm_seconds": 404.0,
+ "tool_seconds": 4.5,
+ "calls_usage": [
+  [
+   7633,
+   7168,
+   37,
+   0
+  ],
+  [
+   7684,
+   7424,
+   10973,
+   9666
+  ],
+  [
+   18673,
+   18432,
+   38,
+   0
+  ],
+  [
+   19229,
+   18688,
+   4703,
+   3315
+  ],
+  [
+   23948,
+   23808,
+   38,
+   0
+  ],
+  [
+   25056,
+   23936,
+   12811,
+   11965
+  ],
+  [
+   37883,
+   37632,
+   3305,
+   2264
+  ],
+  [
+   41204,
+   40960,
+   38,
+   0
+  ],
+  [
+   42305,
+   41216,
+   7654,
+   6588
+  ],
+  [
+   49975,
+   49792,
+   38,
+   0
+  ],
+  [
+   51086,
+   49920,
+   9007,
+   7948
+  ],
+  [
+   60109,
+   59904,
+   38,
+   0
+  ],
+  [
+   61194,
+   60032,
+   3254,
+   3113
+  ],
+  [
+   64463,
+   64256,
+   134,
+   0
+  ],
+  [
+   64612,
+   64384,
+   89,
+   50
+  ],
+  [
+   65716,
+   64640,
+   1438,
+   361
+  ],
+  [
+   67170,
+   66944,
+   208,
+   170
+  ],
+  [
+   68432,
+   67328,
+   2058,
+   1959
+  ],
+  [
+   70505,
+   70272,
+   38,
+   0
+  ],
+  [
+   71601,
+   70528,
+   844,
+   774
+  ]
+ ]
+}

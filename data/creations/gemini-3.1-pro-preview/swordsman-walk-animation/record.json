@@ -1,0 +1,48 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "swordsman-walk-animation",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0001",
+  "source_hashes": {
+   "main.py": "df7be1ac6f748acafd9aa5cc708e645f65090adeff7dcd3850fc24ef3229b435"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 17,
+ "writes": 1,
+ "model_rounds": 2,
+ "llm_calls": 2,
+ "retries": 0,
+ "prompt_tokens": 42313,
+ "cached_tokens": 0,
+ "completion_tokens": 1106,
+ "reasoning_tokens": 26085,
+ "seconds": 280.7,
+ "llm_seconds": 277.4,
+ "tool_seconds": 0.5,
+ "calls_usage": [
+  [
+   7578,
+   0,
+   27155,
+   26069
+  ],
+  [
+   34735,
+   0,
+   36,
+   16
+  ]
+ ]
+}

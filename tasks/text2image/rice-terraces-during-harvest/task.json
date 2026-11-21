@@ -1,0 +1,16 @@
+{
+  "id": "rice-terraces-during-harvest",
+  "task_type": "agentic_creation",
+  "prompt": "pixel art, 64x64 resolution, top-down golden rice terraces following mountain contours, harvest season, two farmers on narrow ridges, simple village houses in distance, layered values for depth",
+  "width": 64,
+  "height": 64,
+  "constraints": {
+    "max_colors": 86,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 25,
+    "max_code_seconds": 120
+  }
+}

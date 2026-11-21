@@ -1,0 +1,66 @@
+{
+ "config": "gpt-5.6-sol",
+ "task": "female-elf-archer",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "f47fc81f3b5efe46f9eee9a32412372893fb4ec933addd8f4d7afdbed45f45a0"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 18,
+ "writes": 2,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 67819,
+ "cached_tokens": 61056,
+ "completion_tokens": 2925,
+ "reasoning_tokens": 182,
+ "seconds": 68.9,
+ "llm_seconds": 66.2,
+ "tool_seconds": 2.0,
+ "calls_usage": [
+  [
+   11406,
+   11008,
+   2551,
+   56
+  ],
+  [
+   13914,
+   11264,
+   32,
+   8
+  ],
+  [
+   13969,
+   13824,
+   108,
+   13
+  ],
+  [
+   14076,
+   11008,
+   22,
+   0
+  ],
+  [
+   14454,
+   13952,
+   212,
+   105
+  ]
+ ]
+}

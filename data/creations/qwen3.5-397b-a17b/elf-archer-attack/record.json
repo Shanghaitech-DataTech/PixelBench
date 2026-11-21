@@ -1,0 +1,162 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "elf-archer-attack",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0011",
+  "source_hashes": {
+   "main.py": "5db9f420956bcb21766a56c345d31c3cd01d5de98e1760cbf5f057b54216a05a"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 43,
+ "writes": 10,
+ "model_rounds": 21,
+ "llm_calls": 21,
+ "retries": 0,
+ "prompt_tokens": 415145,
+ "cached_tokens": 0,
+ "completion_tokens": 22839,
+ "reasoning_tokens": 477,
+ "seconds": 551.8,
+ "llm_seconds": 544.8,
+ "tool_seconds": 6.3,
+ "calls_usage": [
+  [
+   7997,
+   0,
+   215,
+   105
+  ],
+  [
+   8126,
+   0,
+   40,
+   12
+  ],
+  [
+   9990,
+   0,
+   493,
+   0
+  ],
+  [
+   10502,
+   0,
+   65,
+   37
+  ],
+  [
+   10749,
+   0,
+   2226,
+   278
+  ],
+  [
+   12716,
+   0,
+   28,
+   0
+  ],
+  [
+   12874,
+   0,
+   1960,
+   15
+  ],
+  [
+   14838,
+   0,
+   28,
+   0
+  ],
+  [
+   15924,
+   0,
+   2057,
+   0
+  ],
+  [
+   18000,
+   0,
+   38,
+   10
+  ],
+  [
+   18157,
+   0,
+   2555,
+   0
+  ],
+  [
+   20731,
+   0,
+   38,
+   10
+  ],
+  [
+   20901,
+   0,
+   2908,
+   0
+  ],
+  [
+   23828,
+   0,
+   38,
+   10
+  ],
+  [
+   24071,
+   0,
+   3142,
+   0
+  ],
+  [
+   27232,
+   0,
+   28,
+   0
+  ],
+  [
+   27404,
+   0,
+   3541,
+   0
+  ],
+  [
+   30964,
+   0,
+   28,
+   0
+  ],
+  [
+   31138,
+   0,
+   3218,
+   0
+  ],
+  [
+   34375,
+   0,
+   28,
+   0
+  ],
+  [
+   34628,
+   0,
+   165,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "config": "kimi-k3",
+ "task": "subway-platform",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "dd929173d103203db0bf744a7caa229c29f02b024d2b51ae8b2411791410ad9f"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 83,
+ "writes": 4,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 1,
+ "prompt_tokens": 104906,
+ "cached_tokens": 95048,
+ "completion_tokens": 32853,
+ "reasoning_tokens": 26066,
+ "seconds": 803.6,
+ "llm_seconds": 770.8,
+ "tool_seconds": 2.7,
+ "calls_usage": [
+  [
+   7234,
+   6912,
+   24234,
+   21072
+  ],
+  [
+   10437,
+   7168,
+   48,
+   6
+  ],
+  [
+   11028,
+   10240,
+   7001,
+   3846
+  ],
+  [
+   14224,
+   11016,
+   45,
+   3
+  ],
+  [
+   14815,
+   14080,
+   549,
+   366
+  ],
+  [
+   15038,
+   14803,
+   45,
+   3
+  ],
+  [
+   15993,
+   14848,
+   871,
+   767
+  ],
+  [
+   16137,
+   15981,
+   60,
+   3
+  ]
+ ]
+}

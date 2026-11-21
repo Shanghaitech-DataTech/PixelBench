@@ -1,0 +1,78 @@
+{
+ "config": "kimi-k3",
+ "task": "vintage-sewing-machine",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "b80630aa2e83f4dc5c9b20179394e9ec369aeabdcb9c86c0091aaf1891fdd390"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 14,
+ "writes": 4,
+ "model_rounds": 7,
+ "llm_calls": 7,
+ "retries": 3,
+ "prompt_tokens": 73402,
+ "cached_tokens": 67215,
+ "completion_tokens": 20483,
+ "reasoning_tokens": 16420,
+ "seconds": 632.8,
+ "llm_seconds": 435.1,
+ "tool_seconds": 2.3,
+ "calls_usage": [
+  [
+   7222,
+   7168,
+   14746,
+   13058
+  ],
+  [
+   8944,
+   7168,
+   70,
+   11
+  ],
+  [
+   9446,
+   8704,
+   4869,
+   3216
+  ],
+  [
+   11133,
+   9434,
+   49,
+   0
+  ],
+  [
+   11713,
+   11008,
+   413,
+   0
+  ],
+  [
+   12182,
+   11701,
+   49,
+   0
+  ],
+  [
+   12762,
+   12032,
+   287,
+   135
+  ]
+ ]
+}

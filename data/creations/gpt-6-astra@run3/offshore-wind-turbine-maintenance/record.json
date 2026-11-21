@@ -1,0 +1,60 @@
+{
+ "config": "gpt-6-astra@run3",
+ "task": "offshore-wind-turbine-maintenance",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "c7048013184a6d1463dbccb9ce92bcd55166fdb91ae06f6a8ecf0cb303acc87d"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 43,
+ "writes": 1,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 1,
+ "prompt_tokens": 51152,
+ "cached_tokens": 50176,
+ "completion_tokens": 3830,
+ "reasoning_tokens": 684,
+ "seconds": 264.8,
+ "llm_seconds": 255.7,
+ "tool_seconds": 1.4,
+ "calls_usage": [
+  [
+   11140,
+   11008,
+   115,
+   51
+  ],
+  [
+   11216,
+   11008,
+   3448,
+   468
+  ],
+  [
+   14209,
+   14080,
+   33,
+   9
+  ],
+  [
+   14587,
+   14080,
+   234,
+   156
+  ]
+ ]
+}

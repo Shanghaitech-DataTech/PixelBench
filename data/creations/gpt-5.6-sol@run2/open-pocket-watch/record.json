@@ -1,0 +1,60 @@
+{
+ "config": "gpt-5.6-sol@run2",
+ "task": "open-pocket-watch",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "5d31110924a4a860880e2b22b7b58f1a66c78c63d8b9b1e2597def28a54c19e5"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 22,
+ "writes": 1,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 51593,
+ "cached_tokens": 44928,
+ "completion_tokens": 3164,
+ "reasoning_tokens": 349,
+ "seconds": 97.9,
+ "llm_seconds": 95.7,
+ "tool_seconds": 1.4,
+ "calls_usage": [
+  [
+   11417,
+   11008,
+   99,
+   16
+  ],
+  [
+   11512,
+   11264,
+   2791,
+   173
+  ],
+  [
+   14143,
+   11392,
+   22,
+   0
+  ],
+  [
+   14521,
+   11264,
+   252,
+   160
+  ]
+ ]
+}

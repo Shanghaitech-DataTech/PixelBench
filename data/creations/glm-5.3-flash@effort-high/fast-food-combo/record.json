@@ -1,0 +1,115 @@
+{
+ "config": "glm-5.3-flash@effort-high",
+ "task": "fast-food-combo",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "inspect.py": "db5717bd974d39328a4471d03b1368a247ae4238c65eb92b15690bab8daef233",
+   "main.py": "08d93de70b375c3692f2872e4b363fd47c0b14db7aa8d3f6f158469b701e1ebe"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 41,
+ "writes": 6,
+ "model_rounds": 13,
+ "llm_calls": 13,
+ "retries": 0,
+ "prompt_tokens": 150203,
+ "cached_tokens": 0,
+ "completion_tokens": 21116,
+ "reasoning_tokens": 17800,
+ "seconds": 292.1,
+ "llm_seconds": 287.4,
+ "tool_seconds": 4.1,
+ "calls_usage": [
+  [
+   7326,
+   0,
+   19788,
+   17725
+  ],
+  [
+   9397,
+   0,
+   12,
+   0
+  ],
+  [
+   9537,
+   0,
+   21,
+   0
+  ],
+  [
+   9686,
+   0,
+   95,
+   0
+  ],
+  [
+   9789,
+   0,
+   12,
+   0
+  ],
+  [
+   10102,
+   0,
+   55,
+   0
+  ],
+  [
+   10164,
+   0,
+   12,
+   0
+  ],
+  [
+   12266,
+   0,
+   547,
+   0
+  ],
+  [
+   12820,
+   0,
+   245,
+   0
+  ],
+  [
+   13072,
+   0,
+   12,
+   0
+  ],
+  [
+   15186,
+   0,
+   121,
+   0
+  ],
+  [
+   15315,
+   0,
+   12,
+   0
+  ],
+  [
+   15543,
+   0,
+   184,
+   75
+  ]
+ ]
+}

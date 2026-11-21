@@ -1,0 +1,45 @@
+{
+ "config": "deepseek-v4-flash-0731@direct",
+ "task": "chainmail-armor",
+ "ok": true,
+ "error": null,
+ "termination": "answered",
+ "frames": 1,
+ "colors": 3,
+ "parse": {
+  "ok": true,
+  "diags": [
+   {
+    "declared": [
+     32,
+     32
+    ],
+    "size": [
+     32,
+     32
+    ],
+    "rows": 32,
+    "rows_wrong_length": 0,
+    "rows_beyond_tolerance": 0,
+    "rows_missing": 0,
+    "rows_extra": 0,
+    "undeclared_pixels": 0
+   }
+  ]
+ },
+ "max_tokens": 131072,
+ "time_limit_s": 3600.0,
+ "finish_reason": "stop",
+ "prompt_tokens": 471,
+ "completion_tokens": 47994,
+ "reasoning_tokens": 47690,
+ "seconds": 497.8,
+ "calls_usage": [
+  [
+   471,
+   0,
+   47994,
+   47690
+  ]
+ ]
+}

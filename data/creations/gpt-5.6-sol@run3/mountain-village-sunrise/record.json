@@ -1,0 +1,72 @@
+{
+ "config": "gpt-5.6-sol@run3",
+ "task": "mountain-village-sunrise",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "6aeafa53115326ce101343001aeaac7237549c216d3c28c1be372ec30ed8921a"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 56,
+ "writes": 2,
+ "model_rounds": 6,
+ "llm_calls": 6,
+ "retries": 0,
+ "prompt_tokens": 83317,
+ "cached_tokens": 77952,
+ "completion_tokens": 3949,
+ "reasoning_tokens": 281,
+ "seconds": 115.1,
+ "llm_seconds": 111.0,
+ "tool_seconds": 3.0,
+ "calls_usage": [
+  [
+   11402,
+   11008,
+   101,
+   19
+  ],
+  [
+   11496,
+   11008,
+   3400,
+   71
+  ],
+  [
+   14838,
+   11392,
+   32,
+   8
+  ],
+  [
+   14966,
+   14720,
+   117,
+   13
+  ],
+  [
+   15082,
+   14848,
+   22,
+   0
+  ],
+  [
+   15533,
+   14976,
+   277,
+   170
+  ]
+ ]
+}

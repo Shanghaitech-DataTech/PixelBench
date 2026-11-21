@@ -1,0 +1,60 @@
+{
+ "config": "gpt-5.6-sol@run3",
+ "task": "magnifying-glass",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "c92a6feece4992859777ae933af8c4db166fab746860b6336c298a80ea9b8db4"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 12,
+ "writes": 1,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 48529,
+ "cached_tokens": 46080,
+ "completion_tokens": 1900,
+ "reasoning_tokens": 500,
+ "seconds": 76.6,
+ "llm_seconds": 74.8,
+ "tool_seconds": 1.2,
+ "calls_usage": [
+  [
+   11379,
+   11008,
+   95,
+   20
+  ],
+  [
+   11466,
+   11264,
+   1617,
+   407
+  ],
+  [
+   12689,
+   11264,
+   22,
+   0
+  ],
+  [
+   12995,
+   12544,
+   166,
+   73
+  ]
+ ]
+}

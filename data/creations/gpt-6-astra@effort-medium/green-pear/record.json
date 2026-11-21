@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@effort-medium",
+ "task": "green-pear",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "2ba668a37717b9a08576a1ff651c68b29b665708e41052864571c80ab55d150d"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 8,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 35039,
+ "cached_tokens": 34048,
+ "completion_tokens": 688,
+ "reasoning_tokens": 0,
+ "seconds": 43.0,
+ "llm_seconds": 41.1,
+ "tool_seconds": 1.2,
+ "calls_usage": [
+  [
+   11113,
+   10752,
+   648,
+   0
+  ],
+  [
+   11776,
+   11648,
+   18,
+   0
+  ],
+  [
+   12150,
+   11648,
+   22,
+   0
+  ]
+ ]
+}

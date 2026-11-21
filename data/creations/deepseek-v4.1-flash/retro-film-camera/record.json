@@ -1,0 +1,156 @@
+{
+ "config": "deepseek-v4.1-flash",
+ "task": "retro-film-camera",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0010",
+  "source_hashes": {
+   "main.py": "c9b874d64e524fb755ad362f898ba04a74db1245924fe1652db7cb35df3f64a0"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 19,
+ "writes": 9,
+ "model_rounds": 20,
+ "llm_calls": 20,
+ "retries": 0,
+ "prompt_tokens": 903358,
+ "cached_tokens": 892416,
+ "completion_tokens": 57335,
+ "reasoning_tokens": 48109,
+ "seconds": 413.6,
+ "llm_seconds": 406.1,
+ "tool_seconds": 5.3,
+ "calls_usage": [
+  [
+   7607,
+   7424,
+   38,
+   0
+  ],
+  [
+   7659,
+   7424,
+   10666,
+   9362
+  ],
+  [
+   18341,
+   18176,
+   38,
+   0
+  ],
+  [
+   19193,
+   18304,
+   6142,
+   4746
+  ],
+  [
+   25351,
+   25216,
+   38,
+   0
+  ],
+  [
+   26221,
+   25344,
+   11512,
+   10170
+  ],
+  [
+   37749,
+   37504,
+   38,
+   0
+  ],
+  [
+   38616,
+   37760,
+   7258,
+   5910
+  ],
+  [
+   45890,
+   45696,
+   38,
+   0
+  ],
+  [
+   46755,
+   45824,
+   5659,
+   4294
+  ],
+  [
+   52430,
+   52224,
+   38,
+   0
+  ],
+  [
+   53294,
+   52352,
+   5363,
+   3917
+  ],
+  [
+   58673,
+   58496,
+   204,
+   166
+  ],
+  [
+   59708,
+   58752,
+   3842,
+   3591
+  ],
+  [
+   63565,
+   63360,
+   38,
+   0
+  ],
+  [
+   64433,
+   63488,
+   2093,
+   1914
+  ],
+  [
+   66541,
+   66304,
+   38,
+   0
+  ],
+  [
+   67409,
+   66560,
+   3792,
+   3653
+  ],
+  [
+   71216,
+   71040,
+   38,
+   0
+  ],
+  [
+   72707,
+   71168,
+   462,
+   386
+  ]
+ ]
+}

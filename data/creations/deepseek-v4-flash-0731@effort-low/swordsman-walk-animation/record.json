@@ -1,0 +1,78 @@
+{
+ "config": "deepseek-v4-flash-0731@effort-low",
+ "task": "swordsman-walk-animation",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "4b5fdc0f1fc80b33417746aa45c5868f1b78f25a8f6db4eaf7441ac6a22d3592"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 15,
+ "writes": 3,
+ "model_rounds": 7,
+ "llm_calls": 7,
+ "retries": 0,
+ "prompt_tokens": 76879,
+ "cached_tokens": 0,
+ "completion_tokens": 8397,
+ "reasoning_tokens": 6073,
+ "seconds": 215.5,
+ "llm_seconds": 212.8,
+ "tool_seconds": 2.1,
+ "calls_usage": [
+  [
+   7615,
+   0,
+   4609,
+   2944
+  ],
+  [
+   9295,
+   0,
+   55,
+   10
+  ],
+  [
+   9695,
+   0,
+   137,
+   80
+  ],
+  [
+   10107,
+   0,
+   195,
+   32
+  ],
+  [
+   10284,
+   0,
+   45,
+   0
+  ],
+  [
+   14822,
+   0,
+   3232,
+   3007
+  ],
+  [
+   15061,
+   0,
+   124,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,1 @@
+exec(open('main.py').read().replace("print(result.matrix_text(region=(4,8,27,22)))", "print(result.matrix_text(region=(36,40,59,54)))\nprint(result.matrix_text(region=(4,43,27,53)))\nprint(result.matrix_text(region=(36,9,59,21)))"))

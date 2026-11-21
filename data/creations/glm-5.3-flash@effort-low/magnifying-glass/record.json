@@ -1,0 +1,54 @@
+{
+ "config": "glm-5.3-flash@effort-low",
+ "task": "magnifying-glass",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "8b55db9f771ae3212e11be0ac464fc25263e0174c9f6495f338a08b918a04a41"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 7,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 22753,
+ "cached_tokens": 0,
+ "completion_tokens": 389,
+ "reasoning_tokens": 30,
+ "seconds": 11.0,
+ "llm_seconds": 9.2,
+ "tool_seconds": 1.1,
+ "calls_usage": [
+  [
+   7271,
+   0,
+   313,
+   16
+  ],
+  [
+   7576,
+   0,
+   12,
+   0
+  ],
+  [
+   7906,
+   0,
+   64,
+   14
+  ]
+ ]
+}

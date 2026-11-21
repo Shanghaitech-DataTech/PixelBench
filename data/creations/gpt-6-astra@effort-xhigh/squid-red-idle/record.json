@@ -1,0 +1,78 @@
+{
+ "config": "gpt-6-astra@effort-xhigh",
+ "task": "squid-red-idle",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 3,
+  "actual_count": 3,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "514e382c0d60dfc16ebe03d649444f123281aa216e937f0d6dbb370318de5198"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 3,
+ "colors": 8,
+ "writes": 3,
+ "model_rounds": 7,
+ "llm_calls": 7,
+ "retries": 0,
+ "prompt_tokens": 90727,
+ "cached_tokens": 84736,
+ "completion_tokens": 1778,
+ "reasoning_tokens": 987,
+ "seconds": 131.9,
+ "llm_seconds": 128.6,
+ "tool_seconds": 2.6,
+ "calls_usage": [
+  [
+   11368,
+   10752,
+   95,
+   0
+  ],
+  [
+   11478,
+   10752,
+   18,
+   0
+  ],
+  [
+   12100,
+   11264,
+   338,
+   287
+  ],
+  [
+   12163,
+   11904,
+   18,
+   0
+  ],
+  [
+   13951,
+   12032,
+   1018,
+   516
+  ],
+  [
+   14466,
+   13696,
+   18,
+   0
+  ],
+  [
+   15201,
+   14336,
+   273,
+   184
+  ]
+ ]
+}

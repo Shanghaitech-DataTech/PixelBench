@@ -1,0 +1,54 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "battery-status-set",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "e35756fc60e94fe9029cc7a55b1769453f4bc0fd5fcf33a22d7b0fbdc06e3ce4"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 7,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 26843,
+ "cached_tokens": 0,
+ "completion_tokens": 2256,
+ "reasoning_tokens": 583,
+ "seconds": 49.7,
+ "llm_seconds": 45.9,
+ "tool_seconds": 1.0,
+ "calls_usage": [
+  [
+   7762,
+   0,
+   2047,
+   566
+  ],
+  [
+   9262,
+   0,
+   45,
+   17
+  ],
+  [
+   9819,
+   0,
+   164,
+   0
+  ]
+ ]
+}

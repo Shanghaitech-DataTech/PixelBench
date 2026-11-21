@@ -1,0 +1,237 @@
+{
+ "config": "gemini-3.8-flash",
+ "task": "big-250-147",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0015",
+  "source_hashes": {
+   "check_env.py": "f2ed5a7490acd8e8e9380e291d0832b83b5fc60cc4f2ba92f16a0126f02d94b3",
+   "check_ws.py": "a548c8485c7a274fcb2fd5b02327a9648fc094fcef4556c9d7942c588cfd010b",
+   "find_task.py": "b7dd7a7cce40661b77f846db114988a3a66170c09acec08c0965a0271c465a64",
+   "inspect_clouds.py": "4c7c80bd3b7f67169c8577c9f6691e65a293cf9090689701d6a41ff0b212f429",
+   "inspect_col.py": "d2fe32a1120a39d3e59f2232e1c267c48b007d9d85cba9bc697a9f664e066582",
+   "inspect_features.py": "ebef7521ed9dae19a4e148def3eb8f89847b0780405e8948689c10d64ea51098",
+   "inspect_img.py": "c47d1da1bf8d7e9871e99b1cec77c6c562198426fc743505a4c0d6a60911c183",
+   "inspect_regions.py": "3f2324c7733a47599fff59c53dab512a16308d4a8d24a46ef0786a712c180642",
+   "inspect_rows.py": "a9f986003ea446bbe6425187de92fec2cee5b1213838f4529e13ed3933b57fe3",
+   "inspect_segments.py": "9b8c1b795d2d08118d440b11683998eef385b47a7a1dfadaa4062f21f2fd1e78",
+   "inspect_sky.py": "b932c06b7d21fc60d0e80b38b6543ddcce21195976f4792e4f761fa43cd2873b",
+   "inspect_trees.py": "ce5994b060533d6c28ad12481211e14fa481dc55a505329b120847261de7a90a",
+   "main.py": "a095c24106315c0965fe8d309e317ee90b939b37990346916811fc12e650cb77"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 366,
+ "writes": 15,
+ "model_rounds": 31,
+ "llm_calls": 31,
+ "retries": 0,
+ "prompt_tokens": 549857,
+ "cached_tokens": 260320,
+ "completion_tokens": 6310,
+ "reasoning_tokens": 17106,
+ "seconds": 398.8,
+ "llm_seconds": 378.6,
+ "tool_seconds": 18.5,
+ "calls_usage": [
+  [
+   7655,
+   0,
+   107,
+   97
+  ],
+  [
+   7771,
+   0,
+   97,
+   38
+  ],
+  [
+   7870,
+   0,
+   43,
+   23
+  ],
+  [
+   9255,
+   5755,
+   763,
+   497
+  ],
+  [
+   10022,
+   0,
+   32,
+   10
+  ],
+  [
+   10523,
+   8174,
+   408,
+   30
+  ],
+  [
+   10935,
+   0,
+   32,
+   10
+  ],
+  [
+   12613,
+   10531,
+   463,
+   77
+  ],
+  [
+   13080,
+   0,
+   32,
+   10
+  ],
+  [
+   13191,
+   0,
+   782,
+   509
+  ],
+  [
+   13977,
+   0,
+   32,
+   10
+  ],
+  [
+   14811,
+   0,
+   1632,
+   1533
+  ],
+  [
+   16447,
+   12599,
+   32,
+   10
+  ],
+  [
+   16871,
+   11929,
+   207,
+   29
+  ],
+  [
+   17082,
+   14429,
+   32,
+   10
+  ],
+  [
+   17151,
+   0,
+   1018,
+   792
+  ],
+  [
+   18173,
+   0,
+   32,
+   10
+  ],
+  [
+   18248,
+   15063,
+   802,
+   171
+  ],
+  [
+   19054,
+   11892,
+   32,
+   10
+  ],
+  [
+   19277,
+   0,
+   333,
+   78
+  ],
+  [
+   19614,
+   7915,
+   32,
+   10
+  ],
+  [
+   20155,
+   3956,
+   371,
+   154
+  ],
+  [
+   20530,
+   18204,
+   32,
+   10
+  ],
+  [
+   20638,
+   18532,
+   2299,
+   2048
+  ],
+  [
+   22941,
+   20688,
+   32,
+   10
+  ],
+  [
+   23397,
+   20950,
+   612,
+   149
+  ],
+  [
+   24013,
+   0,
+   32,
+   10
+  ],
+  [
+   24525,
+   15829,
+   312,
+   114
+  ],
+  [
+   24992,
+   22637,
+   11876,
+   9780
+  ],
+  [
+   36870,
+   15985,
+   40,
+   20
+  ],
+  [
+   38176,
+   25252,
+   867,
+   847
+  ]
+ ],
+ "paths_neutralized": [
+  "find_task.py"
+ ]
+}

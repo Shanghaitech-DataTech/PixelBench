@@ -1,0 +1,16 @@
+{
+  "id": "green-pear",
+  "task_type": "agentic_creation",
+  "prompt": "pixel art, 32x32 resolution, at most 7 colors, green pear",
+  "width": 32,
+  "height": 32,
+  "constraints": {
+    "max_colors": 7,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 25,
+    "max_code_seconds": 120
+  }
+}

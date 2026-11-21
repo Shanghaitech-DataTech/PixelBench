@@ -1,0 +1,54 @@
+{
+ "config": "glm-5.3-flash@effort-low",
+ "task": "portable-cassette-player",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "0d1796f96986e137effdf761ea0896507e4d045109dd1c28843500c252c15e07"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 13,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 23689,
+ "cached_tokens": 0,
+ "completion_tokens": 883,
+ "reasoning_tokens": 23,
+ "seconds": 21.8,
+ "llm_seconds": 20.2,
+ "tool_seconds": 1.1,
+ "calls_usage": [
+  [
+   7289,
+   0,
+   830,
+   0
+  ],
+  [
+   8127,
+   0,
+   12,
+   0
+  ],
+  [
+   8273,
+   0,
+   41,
+   23
+  ]
+ ]
+}

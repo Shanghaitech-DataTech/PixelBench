@@ -1,0 +1,96 @@
+{
+ "config": "gpt-6-astra@effort-xhigh",
+ "task": "sky-pirate-girl",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "d85a6ddb4b45f18126884e4216d6c307f1a71ab59f3a4e0e555e0a220b6ce12d"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 28,
+ "writes": 6,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 2,
+ "prompt_tokens": 158895,
+ "cached_tokens": 133888,
+ "completion_tokens": 7924,
+ "reasoning_tokens": 2465,
+ "seconds": 739.7,
+ "llm_seconds": 472.1,
+ "tool_seconds": 2.5,
+ "calls_usage": [
+  [
+   11143,
+   10752,
+   4089,
+   518
+  ],
+  [
+   14729,
+   11008,
+   18,
+   0
+  ],
+  [
+   15103,
+   14592,
+   1020,
+   516
+  ],
+  [
+   15619,
+   14848,
+   1103,
+   390
+  ],
+  [
+   16344,
+   15616,
+   18,
+   0
+  ],
+  [
+   16718,
+   16256,
+   760,
+   516
+  ],
+  [
+   16974,
+   0,
+   704,
+   497
+  ],
+  [
+   17193,
+   16896,
+   142,
+   0
+  ],
+  [
+   17349,
+   17280,
+   18,
+   0
+  ],
+  [
+   17723,
+   16640,
+   52,
+   28
+  ]
+ ]
+}

@@ -1,0 +1,157 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "house-turn-2view",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0010",
+  "source_hashes": {
+   "main.py": "5ab514ac4141c1b8edc5e40b20d4bd8ab0cd0b257e1a24a17e638090ee775d0f",
+   "profile.py": "fe0bc4a1082edbec2d3499f950eabb8ff8ccda6c6c17932c6c9c05f00efb7ca3"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 14,
+ "writes": 10,
+ "model_rounds": 20,
+ "llm_calls": 20,
+ "retries": 7,
+ "prompt_tokens": 398162,
+ "cached_tokens": 103741,
+ "completion_tokens": 5742,
+ "reasoning_tokens": 61390,
+ "seconds": 1067.9,
+ "llm_seconds": 833.0,
+ "tool_seconds": 21.2,
+ "calls_usage": [
+  [
+   7852,
+   0,
+   207,
+   156
+  ],
+  [
+   8061,
+   0,
+   26,
+   6
+  ],
+  [
+   9045,
+   0,
+   564,
+   470
+  ],
+  [
+   9611,
+   5943,
+   20,
+   0
+  ],
+  [
+   12004,
+   7963,
+   1757,
+   1298
+  ],
+  [
+   13763,
+   9971,
+   20,
+   0
+  ],
+  [
+   14392,
+   11963,
+   335,
+   36
+  ],
+  [
+   14729,
+   0,
+   20,
+   0
+  ],
+  [
+   14140,
+   0,
+   4782,
+   4349
+  ],
+  [
+   18924,
+   0,
+   20,
+   0
+  ],
+  [
+   15791,
+   0,
+   11370,
+   11189
+  ],
+  [
+   27163,
+   0,
+   20,
+   0
+  ],
+  [
+   27527,
+   0,
+   2709,
+   1888
+  ],
+  [
+   30238,
+   0,
+   20,
+   0
+  ],
+  [
+   18378,
+   11907,
+   12389,
+   11412
+  ],
+  [
+   30769,
+   14056,
+   20,
+   0
+  ],
+  [
+   21584,
+   17899,
+   10104,
+   9022
+  ],
+  [
+   31690,
+   20056,
+   20,
+   0
+  ],
+  [
+   24895,
+   3983,
+   22709,
+   21564
+  ],
+  [
+   47606,
+   0,
+   20,
+   0
+  ]
+ ]
+}

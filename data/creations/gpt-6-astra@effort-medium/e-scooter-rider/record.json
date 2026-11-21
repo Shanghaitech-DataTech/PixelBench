@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@effort-medium",
+ "task": "e-scooter-rider",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "38bb579559913da263783490262f4d1123ad1d4a60c5ece39423a28c5c4ea79a"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 10,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 1,
+ "prompt_tokens": 35515,
+ "cached_tokens": 33408,
+ "completion_tokens": 893,
+ "reasoning_tokens": 0,
+ "seconds": 64.0,
+ "llm_seconds": 55.0,
+ "tool_seconds": 1.4,
+ "calls_usage": [
+  [
+   11135,
+   10752,
+   853,
+   0
+  ],
+  [
+   12003,
+   10752,
+   18,
+   0
+  ],
+  [
+   12377,
+   11904,
+   22,
+   0
+  ]
+ ]
+}

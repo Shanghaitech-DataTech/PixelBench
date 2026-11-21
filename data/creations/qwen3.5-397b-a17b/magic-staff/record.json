@@ -1,0 +1,90 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "magic-staff",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "39da9874569de9845a00780d76e6c9cd5247bc206a4519a88b12ee2c932fe827"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 13,
+ "writes": 4,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 123709,
+ "cached_tokens": 0,
+ "completion_tokens": 9324,
+ "reasoning_tokens": 355,
+ "seconds": 234.9,
+ "llm_seconds": 231.6,
+ "tool_seconds": 2.7,
+ "calls_usage": [
+  [
+   7742,
+   0,
+   1803,
+   245
+  ],
+  [
+   9319,
+   0,
+   43,
+   15
+  ],
+  [
+   10056,
+   0,
+   2324,
+   0
+  ],
+  [
+   12399,
+   0,
+   38,
+   10
+  ],
+  [
+   13264,
+   0,
+   2339,
+   85
+  ],
+  [
+   15537,
+   0,
+   28,
+   0
+  ],
+  [
+   16384,
+   0,
+   2639,
+   0
+  ],
+  [
+   19042,
+   0,
+   28,
+   0
+  ],
+  [
+   19966,
+   0,
+   82,
+   0
+  ]
+ ]
+}

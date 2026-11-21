@@ -1,0 +1,16 @@
+{
+  "id": "mountain-village-sunrise",
+  "task_type": "agentic_creation",
+  "prompt": "pixel art, 128x128 resolution, mountain village at sunrise, three wooden houses, chimney smoke, stone path, pine trees, distant mountains, layered depth, clear focal point center",
+  "width": 128,
+  "height": 128,
+  "constraints": {
+    "max_colors": 86,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 25,
+    "max_code_seconds": 120
+  }
+}

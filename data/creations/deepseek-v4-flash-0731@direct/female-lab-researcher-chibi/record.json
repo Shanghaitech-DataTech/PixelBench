@@ -1,0 +1,25 @@
+{
+ "config": "deepseek-v4-flash-0731@direct",
+ "task": "female-lab-researcher-chibi",
+ "ok": false,
+ "error": "token",
+ "termination": "token_budget",
+ "frames": 0,
+ "colors": null,
+ "parse": null,
+ "max_tokens": 131072,
+ "time_limit_s": 3600.0,
+ "finish_reason": "length",
+ "prompt_tokens": 482,
+ "completion_tokens": 131072,
+ "reasoning_tokens": 131072,
+ "seconds": 1369.3,
+ "calls_usage": [
+  [
+   482,
+   0,
+   131072,
+   131072
+  ]
+ ]
+}

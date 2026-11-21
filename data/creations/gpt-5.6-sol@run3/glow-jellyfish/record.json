@@ -1,0 +1,54 @@
+{
+ "config": "gpt-5.6-sol@run3",
+ "task": "glow-jellyfish",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "93abc8d194d4abde563f36736455d1df2d156a357ca76efac93bda74a2ef8912"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 11,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 1,
+ "prompt_tokens": 35703,
+ "cached_tokens": 34176,
+ "completion_tokens": 1075,
+ "reasoning_tokens": 400,
+ "seconds": 44.5,
+ "llm_seconds": 37.6,
+ "tool_seconds": 1.5,
+ "calls_usage": [
+  [
+   11396,
+   11008,
+   880,
+   306
+  ],
+  [
+   11983,
+   11264,
+   22,
+   0
+  ],
+  [
+   12324,
+   11904,
+   173,
+   94
+  ]
+ ]
+}

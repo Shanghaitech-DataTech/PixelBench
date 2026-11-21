@@ -1,0 +1,90 @@
+{
+ "config": "gpt-6-astra@effort-xhigh",
+ "task": "snowy-pine",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "626254734f3a1f5174bb262f3c3ddb002a88fb30cc65f91246894860f8556674"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 11,
+ "writes": 4,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 5,
+ "prompt_tokens": 141021,
+ "cached_tokens": 125440,
+ "completion_tokens": 6779,
+ "reasoning_tokens": 2351,
+ "seconds": 358.3,
+ "llm_seconds": 297.1,
+ "tool_seconds": 3.4,
+ "calls_usage": [
+  [
+   11210,
+   10752,
+   82,
+   0
+  ],
+  [
+   11307,
+   11136,
+   18,
+   0
+  ],
+  [
+   11941,
+   11136,
+   613,
+   516
+  ],
+  [
+   12051,
+   11776,
+   18,
+   0
+  ],
+  [
+   15550,
+   11904,
+   4402,
+   1034
+  ],
+  [
+   18931,
+   10752,
+   18,
+   0
+  ],
+  [
+   19341,
+   18816,
+   1588,
+   801
+  ],
+  [
+   20140,
+   19200,
+   18,
+   0
+  ],
+  [
+   20550,
+   19968,
+   22,
+   0
+  ]
+ ]
+}

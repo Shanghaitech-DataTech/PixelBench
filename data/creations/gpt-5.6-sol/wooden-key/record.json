@@ -1,0 +1,54 @@
+{
+ "config": "gpt-5.6-sol",
+ "task": "wooden-key",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "a32fe762c3b2a355f2010d61e8b3b21e7cbe0cf06771cfc579208eb716839a13"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 6,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 35455,
+ "cached_tokens": 34048,
+ "completion_tokens": 1434,
+ "reasoning_tokens": 839,
+ "seconds": 35.1,
+ "llm_seconds": 33.6,
+ "tool_seconds": 1.0,
+ "calls_usage": [
+  [
+   11381,
+   11008,
+   1267,
+   777
+  ],
+  [
+   11884,
+   11264,
+   22,
+   0
+  ],
+  [
+   12190,
+   11776,
+   145,
+   62
+  ]
+ ]
+}

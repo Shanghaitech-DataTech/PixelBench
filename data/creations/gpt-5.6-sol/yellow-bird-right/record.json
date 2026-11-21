@@ -1,0 +1,78 @@
+{
+ "config": "gpt-5.6-sol",
+ "task": "yellow-bird-right",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "a27a682cbee34e5db86cb83f59d7b50b5147ec3665655f41076f09257e54b1d2"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 11,
+ "writes": 3,
+ "model_rounds": 7,
+ "llm_calls": 7,
+ "retries": 0,
+ "prompt_tokens": 87438,
+ "cached_tokens": 82560,
+ "completion_tokens": 961,
+ "reasoning_tokens": 329,
+ "seconds": 71.9,
+ "llm_seconds": 68.5,
+ "tool_seconds": 2.2,
+ "calls_usage": [
+  [
+   11483,
+   11008,
+   128,
+   23
+  ],
+  [
+   11601,
+   11392,
+   22,
+   0
+  ],
+  [
+   12298,
+   11520,
+   552,
+   286
+  ],
+  [
+   12577,
+   12160,
+   22,
+   0
+  ],
+  [
+   12945,
+   12544,
+   132,
+   11
+  ],
+  [
+   13078,
+   12928,
+   22,
+   0
+  ],
+  [
+   13456,
+   11008,
+   83,
+   9
+  ]
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "config": "glm-5.3-flash@effort-high",
+ "task": "rts-factory-icon",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "bc24e389795736f82f117f52c41b7a1337dcb61f91729e605b1c64ea86e24b18"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 15,
+ "writes": 5,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 0,
+ "prompt_tokens": 72950,
+ "cached_tokens": 0,
+ "completion_tokens": 2332,
+ "reasoning_tokens": 716,
+ "seconds": 47.5,
+ "llm_seconds": 45.4,
+ "tool_seconds": 1.5,
+ "calls_usage": [
+  [
+   7292,
+   0,
+   1345,
+   257
+  ],
+  [
+   8388,
+   0,
+   12,
+   0
+  ],
+  [
+   9025,
+   0,
+   609,
+   416
+  ],
+  [
+   9225,
+   0,
+   101,
+   0
+  ],
+  [
+   9333,
+   0,
+   90,
+   0
+  ],
+  [
+   9430,
+   0,
+   12,
+   0
+  ],
+  [
+   10074,
+   0,
+   145,
+   43
+  ],
+  [
+   10183,
+   0,
+   18,
+   0
+  ]
+ ]
+}

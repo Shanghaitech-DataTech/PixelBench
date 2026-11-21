@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@effort-low",
+ "task": "retro-film-camera",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "03d0fb75970a07227c22350f726f6465567873535d9682d7c0a5b059d7b0dc50"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 19,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 3,
+ "prompt_tokens": 35496,
+ "cached_tokens": 33408,
+ "completion_tokens": 894,
+ "reasoning_tokens": 0,
+ "seconds": 76.1,
+ "llm_seconds": 53.6,
+ "tool_seconds": 1.6,
+ "calls_usage": [
+  [
+   11128,
+   10752,
+   854,
+   0
+  ],
+  [
+   11997,
+   10752,
+   18,
+   0
+  ],
+  [
+   12371,
+   11904,
+   22,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@run3",
+ "task": "farm-sheep",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "5ee3e5ccb7a5db43ca64bcbb740141d4bd38b82eec056d98dc37b3fad478e85f"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 11,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 35980,
+ "cached_tokens": 23040,
+ "completion_tokens": 1240,
+ "reasoning_tokens": 84,
+ "seconds": 62.8,
+ "llm_seconds": 60.4,
+ "tool_seconds": 1.6,
+ "calls_usage": [
+  [
+   11144,
+   11008,
+   1072,
+   0
+  ],
+  [
+   12231,
+   12032,
+   18,
+   0
+  ],
+  [
+   12605,
+   0,
+   150,
+   84
+  ]
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "config": "glm-5.3-flash@effort-low",
+ "task": "farm-sheep",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "61e5993604be2164890ca41147ee92e6d1728a2370047992b006d30ebc9bd1d2"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 12,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 23667,
+ "cached_tokens": 0,
+ "completion_tokens": 853,
+ "reasoning_tokens": 19,
+ "seconds": 18.3,
+ "llm_seconds": 16.7,
+ "tool_seconds": 1.0,
+ "calls_usage": [
+  [
+   7302,
+   0,
+   823,
+   19
+  ],
+  [
+   8114,
+   0,
+   12,
+   0
+  ],
+  [
+   8251,
+   0,
+   18,
+   0
+  ]
+ ]
+}

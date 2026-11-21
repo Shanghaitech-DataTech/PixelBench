@@ -1,0 +1,66 @@
+{
+ "config": "kimi-k3",
+ "task": "glow-jellyfish",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "2a70d8028ef0378b14dda55fd69cea34d0afbe9ae3b3c23ce9902fb183befa61"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 8,
+ "writes": 2,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 41390,
+ "cached_tokens": 38611,
+ "completion_tokens": 11931,
+ "reasoning_tokens": 10971,
+ "seconds": 444.5,
+ "llm_seconds": 442.3,
+ "tool_seconds": 1.7,
+ "calls_usage": [
+  [
+   7224,
+   6912,
+   8689,
+   8123
+  ],
+  [
+   7821,
+   7168,
+   55,
+   3
+  ],
+  [
+   8415,
+   7680,
+   2914,
+   2691
+  ],
+  [
+   8668,
+   8403,
+   52,
+   0
+  ],
+  [
+   9262,
+   8448,
+   221,
+   154
+  ]
+ ]
+}

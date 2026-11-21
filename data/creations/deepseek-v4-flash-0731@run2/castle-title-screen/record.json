@@ -1,0 +1,66 @@
+{
+ "config": "deepseek-v4-flash-0731@run2",
+ "task": "castle-title-screen",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "d78523bf7c985f65330cbb46de1902f27c50830449099fc3fa4821be183b8241"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 30,
+ "writes": 5,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 49649,
+ "cached_tokens": 0,
+ "completion_tokens": 15421,
+ "reasoning_tokens": 12256,
+ "seconds": 261.1,
+ "llm_seconds": 257.6,
+ "tool_seconds": 1.4,
+ "calls_usage": [
+  [
+   7678,
+   0,
+   13687,
+   11470
+  ],
+  [
+   9910,
+   0,
+   56,
+   11
+  ],
+  [
+   10169,
+   0,
+   1094,
+   468
+  ],
+  [
+   10831,
+   0,
+   523,
+   307
+  ],
+  [
+   11061,
+   0,
+   61,
+   0
+  ]
+ ]
+}

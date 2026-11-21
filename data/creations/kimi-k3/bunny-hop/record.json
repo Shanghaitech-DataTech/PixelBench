@@ -1,0 +1,84 @@
+{
+ "config": "kimi-k3",
+ "task": "bunny-hop",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "cdf719812418c37597dd43ff3e99ca0d627292a43f534b321a11e7ae875af309"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 8,
+ "writes": 4,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 0,
+ "prompt_tokens": 78739,
+ "cached_tokens": 72848,
+ "completion_tokens": 6193,
+ "reasoning_tokens": 4557,
+ "seconds": 230.3,
+ "llm_seconds": 227.4,
+ "tool_seconds": 2.3,
+ "calls_usage": [
+  [
+   7446,
+   6912,
+   148,
+   34
+  ],
+  [
+   7591,
+   7424,
+   52,
+   0
+  ],
+  [
+   8543,
+   7424,
+   5124,
+   4411
+  ],
+  [
+   9287,
+   8531,
+   52,
+   0
+  ],
+  [
+   10473,
+   9216,
+   475,
+   0
+  ],
+  [
+   10978,
+   10461,
+   52,
+   0
+  ],
+  [
+   12140,
+   10752,
+   223,
+   112
+  ],
+  [
+   12281,
+   12128,
+   67,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "config": "qwen3.8-max",
+ "task": "character-emotion-set",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "b56a3ccd38191c90d6ed4428f7b1bd701314ef6c671529312ca271919d7f5685"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 18,
+ "writes": 6,
+ "model_rounds": 12,
+ "llm_calls": 12,
+ "retries": 0,
+ "prompt_tokens": 171962,
+ "cached_tokens": 150656,
+ "completion_tokens": 84377,
+ "reasoning_tokens": 77798,
+ "seconds": 1947.0,
+ "llm_seconds": 1943.4,
+ "tool_seconds": 2.7,
+ "calls_usage": [
+  [
+   7820,
+   7168,
+   37513,
+   37479
+  ],
+  [
+   7872,
+   7168,
+   36398,
+   32502
+  ],
+  [
+   11787,
+   7168,
+   69,
+   41
+  ],
+  [
+   12213,
+   7168,
+   5391,
+   4903
+  ],
+  [
+   12718,
+   11520,
+   821,
+   29
+  ],
+  [
+   13527,
+   12672,
+   344,
+   15
+  ],
+  [
+   13883,
+   13312,
+   190,
+   161
+  ],
+  [
+   17549,
+   13824,
+   552,
+   189
+  ],
+  [
+   17930,
+   17408,
+   164,
+   135
+  ],
+  [
+   18394,
+   17408,
+   2286,
+   1796
+  ],
+  [
+   18902,
+   17408,
+   156,
+   128
+  ],
+  [
+   19367,
+   18432,
+   493,
+   420
+  ]
+ ]
+}

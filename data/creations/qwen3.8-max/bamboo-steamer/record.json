@@ -1,0 +1,109 @@
+{
+ "config": "qwen3.8-max",
+ "task": "bamboo-steamer",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "1ebc3c28082ca66714d278982cfd5f1968275f28b9e77a8c5103ff0a13088ea9",
+   "test.py": "b79c4bf076c8828aacf659e282857b34e32146c4cf8b9f3123654a2f033a049f"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 12,
+ "writes": 8,
+ "model_rounds": 12,
+ "llm_calls": 12,
+ "retries": 0,
+ "prompt_tokens": 146127,
+ "cached_tokens": 130432,
+ "completion_tokens": 33255,
+ "reasoning_tokens": 28874,
+ "seconds": 784.3,
+ "llm_seconds": 780.7,
+ "tool_seconds": 2.9,
+ "calls_usage": [
+  [
+   7794,
+   7168,
+   11801,
+   11113
+  ],
+  [
+   8508,
+   7168,
+   84,
+   56
+  ],
+  [
+   8944,
+   7168,
+   1420,
+   688
+  ],
+  [
+   9695,
+   8192,
+   118,
+   90
+  ],
+  [
+   10161,
+   9216,
+   9930,
+   7976
+  ],
+  [
+   12134,
+   9216,
+   532,
+   325
+  ],
+  [
+   12358,
+   11520,
+   105,
+   76
+  ],
+  [
+   14211,
+   12288,
+   548,
+   507
+  ],
+  [
+   14850,
+   13824,
+   4914,
+   4440
+  ],
+  [
+   15357,
+   14336,
+   49,
+   21
+  ],
+  [
+   15983,
+   14976,
+   3678,
+   3547
+  ],
+  [
+   16132,
+   15360,
+   76,
+   35
+  ]
+ ]
+}

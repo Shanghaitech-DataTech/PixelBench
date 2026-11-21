@@ -1,0 +1,72 @@
+{
+ "config": "kimi-k3",
+ "task": "wooden-key",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "7060e3d06bc790c30c446911e4ef7933ba13e2351cf27161b949d1dad3602e99"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 6,
+ "writes": 2,
+ "model_rounds": 6,
+ "llm_calls": 6,
+ "retries": 0,
+ "prompt_tokens": 49370,
+ "cached_tokens": 46462,
+ "completion_tokens": 17493,
+ "reasoning_tokens": 16443,
+ "seconds": 389.7,
+ "llm_seconds": 387.4,
+ "tool_seconds": 1.7,
+ "calls_usage": [
+  [
+   7209,
+   6912,
+   9811,
+   9733
+  ],
+  [
+   7417,
+   7168,
+   5605,
+   4962
+  ],
+  [
+   8094,
+   7168,
+   49,
+   0
+  ],
+  [
+   8586,
+   7936,
+   1767,
+   1600
+  ],
+  [
+   8786,
+   8574,
+   49,
+   0
+  ],
+  [
+   9278,
+   8704,
+   212,
+   148
+  ]
+ ]
+}

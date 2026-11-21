@@ -1,0 +1,60 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "vintage-sewing-machine",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "bacac146e956bb9accb7d9ce0bdec639bd2c74d4906a739dd4a5a810b6ffb5fc"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 21,
+ "writes": 2,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 67909,
+ "cached_tokens": 11994,
+ "completion_tokens": 2768,
+ "reasoning_tokens": 30357,
+ "seconds": 342.1,
+ "llm_seconds": 340.0,
+ "tool_seconds": 1.4,
+ "calls_usage": [
+  [
+   7549,
+   0,
+   6860,
+   5683
+  ],
+  [
+   14411,
+   6031,
+   28,
+   8
+  ],
+  [
+   9865,
+   5963,
+   26217,
+   24666
+  ],
+  [
+   36084,
+   0,
+   20,
+   0
+  ]
+ ]
+}

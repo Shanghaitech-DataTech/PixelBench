@@ -1,0 +1,96 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "character-emotion-set",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "e317389e2f2c9025c4b46ca2be34380393975b5e0c57c3b69ed714f42da2bda3"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 12,
+ "writes": 7,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 0,
+ "prompt_tokens": 159181,
+ "cached_tokens": 41867,
+ "completion_tokens": 3066,
+ "reasoning_tokens": 16971,
+ "seconds": 236.7,
+ "llm_seconds": 231.9,
+ "tool_seconds": 1.9,
+ "calls_usage": [
+  [
+   7572,
+   0,
+   11755,
+   9542
+  ],
+  [
+   19329,
+   0,
+   37,
+   17
+  ],
+  [
+   10924,
+   0,
+   6593,
+   6451
+  ],
+  [
+   17514,
+   0,
+   275,
+   5
+  ],
+  [
+   17786,
+   0,
+   135,
+   5
+  ],
+  [
+   17918,
+   0,
+   151,
+   5
+  ],
+  [
+   18066,
+   16013,
+   90,
+   40
+  ],
+  [
+   18153,
+   15989,
+   924,
+   869
+  ],
+  [
+   19074,
+   0,
+   20,
+   0
+  ],
+  [
+   12845,
+   9865,
+   57,
+   37
+  ]
+ ]
+}

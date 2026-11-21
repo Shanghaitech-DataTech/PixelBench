@@ -1,0 +1,60 @@
+{
+ "config": "kimi-k3",
+ "task": "swordsman-walk-animation",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "d8ed7c38dda68c675244fd2bdb136f387c48315832195567e13d0014c973271c"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 21,
+ "writes": 1,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 34347,
+ "cached_tokens": 24256,
+ "completion_tokens": 25733,
+ "reasoning_tokens": 23345,
+ "seconds": 250.0,
+ "llm_seconds": 248.3,
+ "tool_seconds": 1.1,
+ "calls_usage": [
+  [
+   7250,
+   0,
+   12434,
+   12345
+  ],
+  [
+   7472,
+   7232,
+   12207,
+   10108
+  ],
+  [
+   9605,
+   7424,
+   49,
+   0
+  ],
+  [
+   10020,
+   9600,
+   1043,
+   892
+  ]
+ ]
+}

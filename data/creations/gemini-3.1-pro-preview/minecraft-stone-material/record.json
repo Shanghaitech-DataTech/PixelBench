@@ -1,0 +1,84 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "minecraft-stone-material",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "713dd68be157782a0181f24a385bd67aac013ebc39618d27d86681e572ab9651"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 8,
+ "writes": 4,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 0,
+ "prompt_tokens": 109123,
+ "cached_tokens": 41314,
+ "completion_tokens": 3952,
+ "reasoning_tokens": 20663,
+ "seconds": 257.0,
+ "llm_seconds": 250.7,
+ "tool_seconds": 2.1,
+ "calls_usage": [
+  [
+   7549,
+   0,
+   4321,
+   3579
+  ],
+  [
+   11872,
+   0,
+   26,
+   6
+  ],
+  [
+   9430,
+   0,
+   10668,
+   9670
+  ],
+  [
+   20100,
+   6045,
+   20,
+   0
+  ],
+  [
+   11567,
+   7949,
+   5821,
+   4780
+  ],
+  [
+   17390,
+   10021,
+   20,
+   0
+  ],
+  [
+   13747,
+   9945,
+   3719,
+   2628
+  ],
+  [
+   17468,
+   7354,
+   20,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,144 @@
+{
+ "config": "gemini-3.8-flash",
+ "task": "subway-platform",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0009",
+  "source_hashes": {
+   "main.py": "393a3d9b448ea361521e74ba707376514fa4766b28bd1c2ba77ab71d890c9de8"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 75,
+ "writes": 8,
+ "model_rounds": 18,
+ "llm_calls": 18,
+ "retries": 0,
+ "prompt_tokens": 1104085,
+ "cached_tokens": 473633,
+ "completion_tokens": 69132,
+ "reasoning_tokens": 38112,
+ "seconds": 831.4,
+ "llm_seconds": 824.0,
+ "tool_seconds": 6.6,
+ "calls_usage": [
+  [
+   7559,
+   0,
+   171,
+   161
+  ],
+  [
+   7739,
+   5541,
+   5285,
+   5221
+  ],
+  [
+   13026,
+   7801,
+   36,
+   16
+  ],
+  [
+   14179,
+   10997,
+   12287,
+   3289
+  ],
+  [
+   26468,
+   14282,
+   41,
+   21
+  ],
+  [
+   27626,
+   24418,
+   15553,
+   4692
+  ],
+  [
+   43181,
+   27723,
+   46,
+   26
+  ],
+  [
+   44352,
+   41122,
+   14212,
+   4191
+  ],
+  [
+   58566,
+   0,
+   37,
+   17
+  ],
+  [
+   59802,
+   44403,
+   15612,
+   5619
+  ],
+  [
+   75416,
+   0,
+   37,
+   17
+  ],
+  [
+   76579,
+   0,
+   16309,
+   6557
+  ],
+  [
+   92890,
+   59902,
+   42,
+   22
+  ],
+  [
+   94058,
+   90823,
+   13951,
+   4351
+  ],
+  [
+   108011,
+   0,
+   35,
+   15
+  ],
+  [
+   109172,
+   73305,
+   12968,
+   3315
+  ],
+  [
+   122142,
+   0,
+   42,
+   22
+  ],
+  [
+   123319,
+   73316,
+   580,
+   560
+  ]
+ ]
+}

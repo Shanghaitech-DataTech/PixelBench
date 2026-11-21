@@ -1,0 +1,102 @@
+{
+ "config": "deepseek-v4-pro",
+ "task": "polar-researcher",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "main.py": "8ee7d5c7ad6feecb8baf98a165a881ed343bbf2c867b7bed9f16f853cc83eef2"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 22,
+ "writes": 8,
+ "model_rounds": 11,
+ "llm_calls": 11,
+ "retries": 0,
+ "prompt_tokens": 352920,
+ "cached_tokens": 346368,
+ "completion_tokens": 35182,
+ "reasoning_tokens": 31455,
+ "seconds": 459.5,
+ "llm_seconds": 455.7,
+ "tool_seconds": 3.3,
+ "calls_usage": [
+  [
+   7677,
+   7424,
+   10559,
+   9009
+  ],
+  [
+   18252,
+   18176,
+   64,
+   4
+  ],
+  [
+   19391,
+   18304,
+   7954,
+   7035
+  ],
+  [
+   27382,
+   27264,
+   64,
+   4
+  ],
+  [
+   28571,
+   27392,
+   7795,
+   7241
+  ],
+  [
+   36392,
+   36352,
+   60,
+   0
+  ],
+  [
+   37591,
+   36352,
+   4067,
+   3897
+  ],
+  [
+   41673,
+   41600,
+   60,
+   0
+  ],
+  [
+   42874,
+   41728,
+   3067,
+   2893
+  ],
+  [
+   45956,
+   45824,
+   60,
+   0
+  ],
+  [
+   47161,
+   45952,
+   1432,
+   1372
+  ]
+ ]
+}

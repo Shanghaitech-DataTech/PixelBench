@@ -1,0 +1,102 @@
+{
+ "config": "kimi-k3",
+ "task": "mad-cyborg-scientist",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "main.py": "482279aca08eece8c1cf81c78c6633dc6ddaf61c4166f58bc61f9d144ed80b47"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 48,
+ "writes": 7,
+ "model_rounds": 11,
+ "llm_calls": 11,
+ "retries": 0,
+ "prompt_tokens": 152107,
+ "cached_tokens": 141643,
+ "completion_tokens": 27377,
+ "reasoning_tokens": 20754,
+ "seconds": 668.5,
+ "llm_seconds": 663.9,
+ "tool_seconds": 3.9,
+ "calls_usage": [
+  [
+   7266,
+   6912,
+   20124,
+   15562
+  ],
+  [
+   11869,
+   7168,
+   45,
+   3
+  ],
+  [
+   12434,
+   11776,
+   4108,
+   3260
+  ],
+  [
+   13368,
+   12422,
+   45,
+   3
+  ],
+  [
+   13933,
+   13312,
+   1097,
+   627
+  ],
+  [
+   14443,
+   13921,
+   45,
+   3
+  ],
+  [
+   15008,
+   14336,
+   603,
+   380
+  ],
+  [
+   15271,
+   14996,
+   45,
+   3
+  ],
+  [
+   15836,
+   15104,
+   1036,
+   907
+  ],
+  [
+   16005,
+   15824,
+   45,
+   3
+  ],
+  [
+   16674,
+   15872,
+   184,
+   3
+  ]
+ ]
+}

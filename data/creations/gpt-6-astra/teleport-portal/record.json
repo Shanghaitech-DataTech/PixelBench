@@ -1,0 +1,60 @@
+{
+ "config": "gpt-6-astra",
+ "task": "teleport-portal",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "b75a5289ab06e856adcec2067fe78888e0b92202a13445a2e8636d6e358db7ca"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 10,
+ "writes": 2,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 48104,
+ "cached_tokens": 44672,
+ "completion_tokens": 1460,
+ "reasoning_tokens": 359,
+ "seconds": 88.5,
+ "llm_seconds": 86.2,
+ "tool_seconds": 1.5,
+ "calls_usage": [
+  [
+   11133,
+   10752,
+   1297,
+   309
+  ],
+  [
+   12136,
+   11008,
+   18,
+   0
+  ],
+  [
+   12375,
+   10752,
+   123,
+   50
+  ],
+  [
+   12460,
+   12160,
+   22,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,133 @@
+import math
+result = new_canvas(128,128,name='motorcycle')
+c=result
+ink='#0a0d13'; tire='#11151c'; tread='#202630'; edge='#333c48'; dark='#1b222c'; body='#303a47'; mid='#465361'; light='#7b8b99'; silver='#aab9c5'; bright='#e4edf1'; white='#f7fbfc'; red='#cf2538'; redhi='#ff4a51'; redshadow='#731e32'
+# wheels: substantial sidewalls, alloy rims and radial spokes
+for cx,cy,r in [(29,91,18),(100,91,19)]:
+ c.circle(cx,cy,r,ink)
+ c.circle(cx,cy,r-1,tire)
+ c.path(f'M {cx-r+2} {cy+3} A {r-2} {r-2} 0 0 1 {cx+5} {cy-r+2}',tread,False)
+ c.path(f'M {cx-r+3} {cy+2} A {r-3} {r-3} 0 0 1 {cx+4} {cy-r+3}',edge,False)
+ c.circle(cx,cy,12,edge)
+ c.circle(cx,cy,11,silver)
+ c.circle(cx,cy,9,ink)
+ for a in [-90,-18,54,126,198]:
+  ang=math.radians(a)
+  x=cx+round(10*math.cos(ang)); y=cy+round(10*math.sin(ang))
+  x2=cx+round(4*math.cos(ang+0.36)); y2=cy+round(4*math.sin(ang+0.36))
+  c.line(cx,cy,x,y,bright)
+  c.line(x2,y2,x,y,white)
+ c.circle(cx,cy,4,light)
+ c.circle(cx,cy,2,edge)
+ c.set(cx-1,cy-1,bright)
+# rear mudguard and chain assembly
+c.poly([(15,76),(20,72),(36,72),(43,77),(42,80),(32,76),(23,76),(16,79)],ink)
+c.poly([(27,88),(55,80),(62,86),(32,96),(27,94)],ink)
+c.poly([(29,89),(54,83),(56,86),(32,93),(28,93)],light)
+c.line(32,90,52,85,silver)
+c.line(28,95,53,90,edge)
+c.line(27,97,57,91,light)
+for x in range(29,53,3): c.set(x,96-(x-29)//4,silver)
+# exhaust beyond the engine
+c.poly([(62,87),(75,86),(75,92),(44,100),(28,98),(20,91),(22,87),(36,92)],ink)
+c.poly([(25,90),(36,94),(52,93),(49,97),(35,98),(25,94)],edge)
+c.poly([(25,89),(38,93),(50,92),(48,94),(36,96),(24,92)],silver)
+c.line(25,89,36,93,bright)
+c.poly([(21,87),(25,88),(27,94),(23,94),(20,91)],ink)
+c.line(22,89,24,92,light)
+# rear spring
+c.line(44,65,37,83,ink)
+c.line(47,66,40,84,silver)
+for i in range(6):
+ y=67+i*2; x=45-i
+ c.line(x-3,y,x+1,y+1,red)
+# black chassis and silver tubular frame
+c.poly([(32,60),(56,52),(78,56),(87,72),(76,90),(50,91),(39,80)],ink)
+for a,b in [((37,62),(59,67)),((59,67),(77,57)),((37,62),(49,84)),((49,84),(75,85)),((59,67),(75,85))]:
+ x,y=a; X,Y=b
+ c.line(x,y,X,Y,light);c.line(x,y+1,X,Y+1,silver)
+c.line(40,64,49,80,bright)
+# engine core and ribs
+c.poly([(52,65),(66,62),(75,69),(76,82),(63,91),(48,86),(45,75)],edge)
+c.rect(52,65,14,11,dark)
+for y in [66,69,72]:
+ c.line(53,y,65,y,light)
+ c.set(66,y,silver)
+c.circle(56,81,10,ink)
+c.circle(56,81,8,light)
+c.circle(56,81,6,silver)
+c.path('M 50 82 Q 49 74 56 74 Q 61 74 62 78',bright,False)
+c.circle(56,81,3,light)
+c.line(54,80,57,80,silver)
+for x,y in [(51,75),(62,78),(58,87),(49,83)]: c.set(x,y,bright)
+c.circle(69,81,4,dark);c.circle(69,81,2,silver)
+# tail raised rearwards, small red tail lamp
+c.poly([(10,52),(24,50),(41,55),(48,59),(43,64),(28,63),(15,58)],ink)
+c.poly([(11,53),(24,52),(40,56),(43,59),(29,59),(16,56)],body)
+c.line(14,52,24,51,light)
+c.poly([(12,55),(21,56),(23,59),(16,59)],redshadow)
+c.line(13,55,21,57,redhi)
+c.poly([(20,59),(29,62),(26,67),(19,64)],ink)
+c.line(21,64,17,70,edge)
+c.line(15,70,21,71,light)
+# seat, tank and tank highlight
+c.poly([(27,52),(42,54),(48,53),(54,56),(51,60),(41,60),(29,56)],ink)
+c.line(29,53,40,55,edge)
+c.poly([(44,54),(49,46),(57,43),(67,43),(77,48),(80,57),(72,65),(57,64),(49,60)],ink)
+c.poly([(47,54),(51,48),(58,45),(66,45),(75,49),(77,56),(70,60),(57,61),(50,58)],body)
+c.poly([(51,49),(58,45),(65,45),(72,48),(63,48),(56,50)],light)
+c.poly([(51,53),(57,50),(69,50),(76,54),(71,58),(58,58)],mid)
+c.line(57,44,64,44,silver)
+c.line(48,57,58,61,red)
+c.line(58,61,70,60,redhi)
+# handlebar, tilted black windscreen and mirror
+c.line(76,47,70,42,ink);c.line(69,42,76,42,edge)
+c.line(72,41,77,41,silver)
+c.poly([(80,48),(77,36),(80,35),(91,43),(95,48)],ink)
+c.poly([(80,38),(88,44),(90,47),(83,46)],dark)
+c.line(79,36,88,42,edge)
+c.line(93,46,96,37,ink)
+c.poly([(93,34),(100,34),(101,36),(98,38),(92,37)],ink)
+c.line(94,35,99,35,mid)
+# front fork, twin silver tubes lean forward to axle
+c.poly([(83,55),(89,55),(103,91),(98,94)],ink)
+c.line(86,57,99,90,light)
+c.line(88,57,101,90,silver)
+c.line(89,61,99,87,bright)
+c.poly([(94,78),(98,77),(103,91),(99,93)],light)
+c.line(96,79,101,90,silver)
+c.circle(100,91,3,edge);c.circle(100,91,1,bright)
+# streamlined front fender
+c.path('M 83 79 Q 92 68 104 72 L 111 77 L 110 79 Q 96 73 85 82 Z',ink)
+c.path('M 85 78 Q 95 70 104 74 L 108 77 Q 96 73 86 80 Z',body)
+c.path('M 87 76 Q 95 71 102 73',light,False)
+c.line(104,74,109,77,red)
+# main broad aerodynamic fairing
+c.poly([(78,48),(87,45),(96,48),(105,55),(109,60),(102,65),(89,67),(85,78),(77,91),(62,94),(59,90),(68,80),(70,68),(66,64)],ink)
+c.poly([(79,50),(87,47),(95,50),(104,56),(106,59),(99,62),(87,62),(82,71),(76,80),(69,81),(73,68),(69,64)],body)
+c.poly([(79,50),(87,48),(95,51),(100,54),(90,53),(82,56),(74,63)],mid)
+c.line(86,47,95,50,light)
+c.poly([(73,70),(84,65),(82,76),(75,88),(64,91),(70,81)],body)
+c.poly([(78,75),(81,70),(80,77),(74,87),(68,89)],mid)
+# graphic red slash running over fairing and lower belly
+c.poly([(74,63),(86,58),(101,58),(98,61),(85,61),(75,67)],red)
+c.line(84,59,97,59,redhi)
+c.poly([(61,91),(76,88),(82,81),(78,90),(64,94)],redshadow)
+c.line(64,92,76,90,red)
+# air intake / headlamp
+c.poly([(98,53),(104,56),(106,59),(100,59),(95,56)],ink)
+c.line(99,54,104,57,bright)
+c.line(100,55,103,56,silver)
+c.poly([(78,66),(85,63),(83,67),(76,73)],ink)
+c.line(79,68,83,65,edge)
+c.line(72,77,76,73,light)
+# fasteners, rearset and controls
+for x,y in [(72,64),(82,57),(75,84),(88,50)]: c.set(x,y,silver)
+c.poly([(44,78),(48,84),(44,88),(40,83)],ink)
+c.line(43,80,46,84,light)
+c.line(40,85,48,85,silver)
+c.line(40,86,47,86,edge)
+c.set(45,83,bright)
+view(result)
+save('motorcycle',result)
+finish(result)

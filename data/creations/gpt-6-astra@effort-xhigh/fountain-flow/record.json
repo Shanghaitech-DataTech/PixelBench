@@ -1,0 +1,84 @@
+{
+ "config": "gpt-6-astra@effort-xhigh",
+ "task": "fountain-flow",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "eeb2b8bf82abca88a2714379d3b0a22ed0451e38c9a995ec3fc3c3458d790e35"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 17,
+ "writes": 4,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 0,
+ "prompt_tokens": 112503,
+ "cached_tokens": 87936,
+ "completion_tokens": 4191,
+ "reasoning_tokens": 1648,
+ "seconds": 222.8,
+ "llm_seconds": 219.7,
+ "tool_seconds": 2.5,
+ "calls_usage": [
+  [
+   11222,
+   10752,
+   76,
+   0
+  ],
+  [
+   11313,
+   11136,
+   18,
+   0
+  ],
+  [
+   12082,
+   11136,
+   236,
+   172
+  ],
+  [
+   12158,
+   11904,
+   18,
+   0
+  ],
+  [
+   14550,
+   12032,
+   3240,
+   1034
+  ],
+  [
+   16769,
+   14336,
+   18,
+   0
+  ],
+  [
+   17138,
+   16640,
+   563,
+   442
+  ],
+  [
+   17271,
+   0,
+   22,
+   0
+  ]
+ ]
+}

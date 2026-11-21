@@ -1,0 +1,10 @@
+{
+  "protocol": "pixelbench_judge_v2",
+  "version": "e3_reference",
+  "model": "gpt-6-astra",
+  "temperature": 0.2,
+  "reasoning_effort": "xhigh",
+  "max_attempts": 4,
+  "image_size": 512,
+  "score": "a bare number from 0 to 100; anything else is a failed attempt"
+}

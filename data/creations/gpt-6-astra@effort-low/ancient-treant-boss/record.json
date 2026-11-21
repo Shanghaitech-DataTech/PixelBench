@@ -1,0 +1,60 @@
+{
+ "config": "gpt-6-astra@effort-low",
+ "task": "ancient-treant-boss",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "1cc329772e368bf0b16269a2f2091b24c5f32f4fd7be3a4d7f2dc2ee489bbe80"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 38,
+ "writes": 2,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 54097,
+ "cached_tokens": 41856,
+ "completion_tokens": 3036,
+ "reasoning_tokens": 40,
+ "seconds": 167.4,
+ "llm_seconds": 157.1,
+ "tool_seconds": 3.7,
+ "calls_usage": [
+  [
+   11170,
+   0,
+   2758,
+   0
+  ],
+  [
+   13943,
+   13824,
+   18,
+   0
+  ],
+  [
+   14387,
+   13824,
+   238,
+   40
+  ],
+  [
+   14597,
+   14208,
+   22,
+   0
+  ]
+ ]
+}

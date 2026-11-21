@@ -1,0 +1,60 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "polar-researcher",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "998fec3693bc03d1c55f037c354f91a8643854ca4b62ce1e88256be0ddb68294"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 21,
+ "writes": 2,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 66334,
+ "cached_tokens": 5966,
+ "completion_tokens": 3370,
+ "reasoning_tokens": 27744,
+ "seconds": 350.6,
+ "llm_seconds": 346.5,
+ "tool_seconds": 1.2,
+ "calls_usage": [
+  [
+   7556,
+   0,
+   6265,
+   4882
+  ],
+  [
+   13823,
+   0,
+   32,
+   12
+  ],
+  [
+   10078,
+   5966,
+   24797,
+   22850
+  ],
+  [
+   34877,
+   0,
+   20,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "snowy-pine",
+  "task_type": "edit",
+  "prompt": "Cover the pine tree with a layer of snow.",
+  "width": 82,
+  "height": 135,
+  "constraints": {
+    "max_colors": null,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 15,
+    "max_code_seconds": 120
+  },
+  "input_size": {
+    "width": 82,
+    "height": 135
+  },
+  "output_size": "agent_defined",
+  "num_frames": 1,
+  "frames_visible": false
+}

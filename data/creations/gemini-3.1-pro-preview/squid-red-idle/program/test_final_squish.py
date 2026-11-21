@@ -1,0 +1,12 @@
+from pixelbench_api import *
+
+input_canvas = canvas("input")
+
+f2 = input_canvas.copy(name="f2")
+f2.select(0, 0, 58, 50).move_to(0, 1, f2)
+view(f2, margin=4)
+
+f3 = input_canvas.copy(name="f3")
+f3.select(0, 0, 58, 49).move_to(0, 2, f3)
+view(f3, margin=4)
+

@@ -1,0 +1,45 @@
+{
+ "config": "deepseek-v4-flash-0731@direct",
+ "task": "farm-chicken",
+ "ok": true,
+ "error": null,
+ "termination": "answered",
+ "frames": 1,
+ "colors": 5,
+ "parse": {
+  "ok": true,
+  "diags": [
+   {
+    "declared": [
+     32,
+     32
+    ],
+    "size": [
+     32,
+     32
+    ],
+    "rows": 31,
+    "rows_wrong_length": 9,
+    "rows_beyond_tolerance": 3,
+    "rows_missing": 1,
+    "rows_extra": 0,
+    "undeclared_pixels": 0
+   }
+  ]
+ },
+ "max_tokens": 131072,
+ "time_limit_s": 3600.0,
+ "finish_reason": "stop",
+ "prompt_tokens": 483,
+ "completion_tokens": 77369,
+ "reasoning_tokens": 77108,
+ "seconds": 1312.3,
+ "calls_usage": [
+  [
+   483,
+   0,
+   77369,
+   77108
+  ]
+ ]
+}

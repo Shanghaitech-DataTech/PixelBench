@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@effort-xhigh",
+ "task": "magnifying-glass",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "b4cf3bfa46b0c719ccd7c3ee35b6615d1fe52382a2a6bd6ac869a3e470a26017"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 12,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 34713,
+ "cached_tokens": 33280,
+ "completion_tokens": 1242,
+ "reasoning_tokens": 679,
+ "seconds": 73.4,
+ "llm_seconds": 71.9,
+ "tool_seconds": 1.0,
+ "calls_usage": [
+  [
+   11113,
+   10752,
+   1039,
+   518
+  ],
+  [
+   11649,
+   11008,
+   18,
+   0
+  ],
+  [
+   11951,
+   11520,
+   185,
+   161
+  ]
+ ]
+}

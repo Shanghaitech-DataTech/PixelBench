@@ -1,0 +1,23 @@
+{
+  "id": "yellow-bird-right",
+  "task_type": "edit",
+  "prompt": "Change the right-hand one of the two parrots into a yellow parrot.",
+  "width": 64,
+  "height": 64,
+  "constraints": {
+    "max_colors": null,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 15,
+    "max_code_seconds": 120
+  },
+  "input_size": {
+    "width": 64,
+    "height": 64
+  },
+  "output_size": "agent_defined",
+  "num_frames": 1,
+  "frames_visible": false
+}

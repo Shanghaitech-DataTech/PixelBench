@@ -1,0 +1,126 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "teleport-portal",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "main.py": "91442fb7115cdc7fc9b0720518dc7f162a6c0426cf589bd75223aee0fcce8165"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 11,
+ "writes": 9,
+ "model_rounds": 15,
+ "llm_calls": 15,
+ "retries": 0,
+ "prompt_tokens": 181135,
+ "cached_tokens": 0,
+ "completion_tokens": 7861,
+ "reasoning_tokens": 1419,
+ "seconds": 192.5,
+ "llm_seconds": 188.4,
+ "tool_seconds": 3.4,
+ "calls_usage": [
+  [
+   7756,
+   0,
+   2016,
+   851
+  ],
+  [
+   8940,
+   0,
+   57,
+   17
+  ],
+  [
+   9361,
+   0,
+   126,
+   0
+  ],
+  [
+   9505,
+   0,
+   368,
+   0
+  ],
+  [
+   9891,
+   0,
+   150,
+   0
+  ],
+  [
+   10059,
+   0,
+   40,
+   0
+  ],
+  [
+   11325,
+   0,
+   259,
+   0
+  ],
+  [
+   11602,
+   0,
+   40,
+   0
+  ],
+  [
+   11767,
+   0,
+   1623,
+   236
+  ],
+  [
+   13173,
+   0,
+   102,
+   17
+  ],
+  [
+   13276,
+   0,
+   1293,
+   25
+  ],
+  [
+   14563,
+   0,
+   50,
+   10
+  ],
+  [
+   15362,
+   0,
+   1427,
+   51
+  ],
+  [
+   16757,
+   0,
+   71,
+   31
+  ],
+  [
+   17798,
+   0,
+   239,
+   181
+  ]
+ ]
+}

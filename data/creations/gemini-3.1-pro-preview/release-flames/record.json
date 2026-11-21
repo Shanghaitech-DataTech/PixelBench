@@ -1,0 +1,188 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "release-flames",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0012",
+  "source_hashes": {
+   "main.py": "d01c818ddd3ffc06a8f6169fd46e4acf9d4ce4cea38b7b2ccfe0ea0da2c485af",
+   "test_arm.py": "9df6e15a265a60d996eb76d9a6f473a55e8b5ae3be2e78312eb929b71c2f9570",
+   "test_arm2.py": "86202001d0feaebbbb11486dad6e08af71f67bad36c0710e8bb34bc4cbeadf15",
+   "test_arm3.py": "0cf7c9a77f0239f55259de8c384875cf2aa6bfe2fba14af55c60b18d6d2a45cb",
+   "test_arm4.py": "0db571d8c2697c10a6939fecc9cb744fde87a46bec88ff5180d88edaedb64f4a",
+   "test_gap.py": "a6cb7a6a9db0622a15849b0a404206331b085fa6789a32df12e5b61958c64d6f",
+   "test_lean.py": "af2ed9c54a431b15e08fd35b6338ca05d84a5c966de0ea9d410d9c4730f6c4e6",
+   "test_shear.py": "3f697c10fb0ab8c09e22070e405258fe40fd50ff4443f362a25901f138463488",
+   "test_shift.py": "a4fd1794a07dfced8de58a5534b274381a874169cfb2ad8ccf745f7754d3a1c7"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 16,
+ "writes": 12,
+ "model_rounds": 24,
+ "llm_calls": 24,
+ "retries": 0,
+ "prompt_tokens": 434039,
+ "cached_tokens": 186854,
+ "completion_tokens": 6667,
+ "reasoning_tokens": 16148,
+ "seconds": 334.9,
+ "llm_seconds": 325.7,
+ "tool_seconds": 8.3,
+ "calls_usage": [
+  [
+   7800,
+   0,
+   182,
+   124
+  ],
+  [
+   7984,
+   5943,
+   36,
+   16
+  ],
+  [
+   9098,
+   0,
+   205,
+   152
+  ],
+  [
+   9305,
+   0,
+   20,
+   0
+  ],
+  [
+   10504,
+   7932,
+   3140,
+   2597
+  ],
+  [
+   13646,
+   0,
+   20,
+   0
+  ],
+  [
+   13091,
+   5962,
+   3270,
+   2909
+  ],
+  [
+   16365,
+   7986,
+   22,
+   0
+  ],
+  [
+   14579,
+   11919,
+   967,
+   366
+  ],
+  [
+   15550,
+   0,
+   22,
+   0
+  ],
+  [
+   16307,
+   11918,
+   2680,
+   2161
+  ],
+  [
+   18991,
+   13946,
+   22,
+   0
+  ],
+  [
+   17954,
+   15889,
+   3333,
+   2699
+  ],
+  [
+   21291,
+   0,
+   22,
+   0
+  ],
+  [
+   19716,
+   0,
+   3976,
+   3391
+  ],
+  [
+   23696,
+   15953,
+   22,
+   0
+  ],
+  [
+   21429,
+   0,
+   2316,
+   1733
+  ],
+  [
+   23750,
+   0,
+   23,
+   0
+  ],
+  [
+   23154,
+   0,
+   748,
+   0
+  ],
+  [
+   23907,
+   17876,
+   23,
+   0
+  ],
+  [
+   25044,
+   21851,
+   866,
+   0
+  ],
+  [
+   25915,
+   23843,
+   23,
+   0
+  ],
+  [
+   27052,
+   0,
+   857,
+   0
+  ],
+  [
+   27911,
+   25836,
+   20,
+   0
+  ]
+ ]
+}

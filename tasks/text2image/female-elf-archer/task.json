@@ -1,0 +1,16 @@
+{
+  "id": "female-elf-archer",
+  "task_type": "agentic_creation",
+  "prompt": "pixel art, 64x64 resolution, RPG character portrait, female elf archer, long green hair, pointed ears, light green outfit, bow and arrows on back, standing pose, three-quarter view",
+  "width": 64,
+  "height": 64,
+  "constraints": {
+    "max_colors": 86,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 25,
+    "max_code_seconds": 120
+  }
+}

@@ -1,0 +1,78 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "skill-icon-set",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "e74b2493dc20c2da8c8902448e2303d091a1a97f01fdd93d2f05461827a5b917"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 17,
+ "writes": 3,
+ "model_rounds": 7,
+ "llm_calls": 7,
+ "retries": 0,
+ "prompt_tokens": 87764,
+ "cached_tokens": 0,
+ "completion_tokens": 4076,
+ "reasoning_tokens": 387,
+ "seconds": 99.7,
+ "llm_seconds": 96.8,
+ "tool_seconds": 2.2,
+ "calls_usage": [
+  [
+   7769,
+   0,
+   2193,
+   342
+  ],
+  [
+   9639,
+   0,
+   58,
+   18
+  ],
+  [
+   11550,
+   0,
+   842,
+   0
+  ],
+  [
+   12410,
+   0,
+   40,
+   0
+  ],
+  [
+   14310,
+   0,
+   810,
+   27
+  ],
+  [
+   15111,
+   0,
+   40,
+   0
+  ],
+  [
+   16975,
+   0,
+   93,
+   0
+  ]
+ ]
+}

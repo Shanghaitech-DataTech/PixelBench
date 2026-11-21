@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@run2",
+ "task": "dining-table",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "7c4d540badca73915308e3eea15b0126767ea83dfef21e8e3d6dd46719e4d860"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 36,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 6,
+ "prompt_tokens": 38672,
+ "cached_tokens": 11008,
+ "completion_tokens": 5445,
+ "reasoning_tokens": 991,
+ "seconds": 196.1,
+ "llm_seconds": 109.3,
+ "tool_seconds": 1.8,
+ "calls_usage": [
+  [
+   11140,
+   0,
+   5296,
+   933
+  ],
+  [
+   13579,
+   0,
+   18,
+   0
+  ],
+  [
+   13953,
+   11008,
+   131,
+   58
+  ]
+ ]
+}

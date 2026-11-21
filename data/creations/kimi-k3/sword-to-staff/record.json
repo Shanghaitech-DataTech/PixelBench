@@ -1,0 +1,84 @@
+{
+ "config": "kimi-k3",
+ "task": "sword-to-staff",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "557051970dc36aae5e99074cded7f4992afe13ac6ca712aeeb92742d92abda53"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 30,
+ "writes": 3,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 0,
+ "prompt_tokens": 77665,
+ "cached_tokens": 70641,
+ "completion_tokens": 39853,
+ "reasoning_tokens": 38700,
+ "seconds": 851.5,
+ "llm_seconds": 848.5,
+ "tool_seconds": 2.4,
+ "calls_usage": [
+  [
+   7309,
+   6912,
+   108,
+   31
+  ],
+  [
+   7518,
+   7168,
+   107,
+   20
+  ],
+  [
+   7642,
+   7424,
+   49,
+   0
+  ],
+  [
+   9725,
+   7424,
+   21369,
+   21178
+  ],
+  [
+   9952,
+   9713,
+   49,
+   0
+  ],
+  [
+   10975,
+   9728,
+   17501,
+   16911
+  ],
+  [
+   11602,
+   10752,
+   49,
+   0
+  ],
+  [
+   12942,
+   11520,
+   621,
+   560
+  ]
+ ]
+}

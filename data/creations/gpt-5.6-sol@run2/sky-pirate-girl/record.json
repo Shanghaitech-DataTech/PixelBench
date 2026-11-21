@@ -1,0 +1,54 @@
+{
+ "config": "gpt-5.6-sol@run2",
+ "task": "sky-pirate-girl",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "9cfe85c2b65160268d8a694d9a2bb0d2b05f16c8c6f605ddefe222dda6f0039e"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 21,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 39287,
+ "cached_tokens": 35840,
+ "completion_tokens": 2659,
+ "reasoning_tokens": 216,
+ "seconds": 80.9,
+ "llm_seconds": 78.8,
+ "tool_seconds": 1.4,
+ "calls_usage": [
+  [
+   11409,
+   11008,
+   2405,
+   77
+  ],
+  [
+   13750,
+   11264,
+   22,
+   0
+  ],
+  [
+   14128,
+   13568,
+   232,
+   139
+  ]
+ ]
+}

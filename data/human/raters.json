@@ -1,0 +1,42 @@
+[
+ {
+  "rater": "R01",
+  "reference_mode": "with_reference"
+ },
+ {
+  "rater": "R02",
+  "reference_mode": "with_reference"
+ },
+ {
+  "rater": "R03",
+  "reference_mode": "without_reference"
+ },
+ {
+  "rater": "R04",
+  "reference_mode": "with_reference"
+ },
+ {
+  "rater": "R05",
+  "reference_mode": "with_reference"
+ },
+ {
+  "rater": "R06",
+  "reference_mode": "with_reference"
+ },
+ {
+  "rater": "R07",
+  "reference_mode": "with_reference"
+ },
+ {
+  "rater": "R08",
+  "reference_mode": "without_reference"
+ },
+ {
+  "rater": "R09",
+  "reference_mode": "with_reference"
+ },
+ {
+  "rater": "R10",
+  "reference_mode": "with_reference"
+ }
+]

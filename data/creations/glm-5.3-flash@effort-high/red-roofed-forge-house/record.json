@@ -1,0 +1,90 @@
+{
+ "config": "glm-5.3-flash@effort-high",
+ "task": "red-roofed-forge-house",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "94b302f85b74713a2c259b2d386ec71e8aaa90564fc7639bcf10986bf7b6bcaa"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 38,
+ "writes": 4,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 125726,
+ "cached_tokens": 0,
+ "completion_tokens": 55236,
+ "reasoning_tokens": 51084,
+ "seconds": 967.1,
+ "llm_seconds": 962.8,
+ "tool_seconds": 3.5,
+ "calls_usage": [
+  [
+   7305,
+   0,
+   41327,
+   37828
+  ],
+  [
+   10812,
+   0,
+   157,
+   39
+  ],
+  [
+   10937,
+   0,
+   18,
+   0
+  ],
+  [
+   12865,
+   0,
+   5327,
+   5287
+  ],
+  [
+   14815,
+   0,
+   181,
+   0
+  ],
+  [
+   15003,
+   0,
+   18,
+   0
+  ],
+  [
+   17458,
+   0,
+   2355,
+   2194
+  ],
+  [
+   17626,
+   0,
+   18,
+   0
+  ],
+  [
+   18905,
+   0,
+   5835,
+   5736
+  ]
+ ]
+}

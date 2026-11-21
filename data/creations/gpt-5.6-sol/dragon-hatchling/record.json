@@ -1,0 +1,60 @@
+{
+ "config": "gpt-5.6-sol",
+ "task": "dragon-hatchling",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "1528ac4a6f0060ef07b46650199974245a52b7ed0789bd06692ee21ced5416fc"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 21,
+ "writes": 2,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 54939,
+ "cached_tokens": 50688,
+ "completion_tokens": 3187,
+ "reasoning_tokens": 231,
+ "seconds": 72.2,
+ "llm_seconds": 70.3,
+ "tool_seconds": 1.1,
+ "calls_usage": [
+  [
+   11411,
+   11008,
+   2887,
+   98
+  ],
+  [
+   14213,
+   11264,
+   32,
+   8
+  ],
+  [
+   14591,
+   14080,
+   246,
+   125
+  ],
+  [
+   14724,
+   14336,
+   22,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "config": "gpt-5.6-sol",
+ "task": "fast-food-combo",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "0ce636876fc1210d02b4b32be2497465ed435454918cf61d6953fd0ec3bcc195"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 44,
+ "writes": 3,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 0,
+ "prompt_tokens": 119153,
+ "cached_tokens": 107776,
+ "completion_tokens": 4939,
+ "reasoning_tokens": 710,
+ "seconds": 117.4,
+ "llm_seconds": 114.1,
+ "tool_seconds": 2.6,
+ "calls_usage": [
+  [
+   11433,
+   11008,
+   89,
+   12
+  ],
+  [
+   11522,
+   11264,
+   3123,
+   149
+  ],
+  [
+   14509,
+   11392,
+   22,
+   0
+  ],
+  [
+   15349,
+   14336,
+   642,
+   9
+  ],
+  [
+   15994,
+   11008,
+   22,
+   0
+  ],
+  [
+   16372,
+   15872,
+   930,
+   516
+  ],
+  [
+   16798,
+   16128,
+   22,
+   0
+  ],
+  [
+   17176,
+   16768,
+   89,
+   24
+  ]
+ ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "draw-sword-slash",
+  "task_type": "edit",
+  "prompt": "2 frames. Frame 1 keeps the original picture content (the canvas may be changed); frame 2 shows the completed drawn-sword slash. This character is left-handed: the sword is held in the LEFT hand (the hand gripping the blade in the image) and the right hand does not hold it. The slash sweeps from the lower left up to the upper right - a left-to-right motion - leaving a black slash trail. The motion ends on the completed slash.",
+  "width": 62,
+  "height": 72,
+  "constraints": {
+    "max_colors": null,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 15,
+    "max_code_seconds": 120
+  },
+  "input_size": {
+    "width": 62,
+    "height": 72
+  },
+  "output_size": "agent_defined",
+  "num_frames": 2,
+  "frames_visible": false
+}

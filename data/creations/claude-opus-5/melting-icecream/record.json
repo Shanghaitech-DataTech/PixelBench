@@ -1,0 +1,102 @@
+{
+ "config": "claude-opus-5",
+ "task": "melting-icecream",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "main.py": "2468ae8b97c2c9dc6f2cf8fb0a3aad204ae24bd47d83df5f1ba5b9f4dfb67a8d"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 65,
+ "writes": 5,
+ "model_rounds": 11,
+ "llm_calls": 11,
+ "retries": 5,
+ "prompt_tokens": 142882,
+ "cached_tokens": 132453,
+ "completion_tokens": 3750,
+ "reasoning_tokens": 0,
+ "seconds": 396.6,
+ "llm_seconds": 292.4,
+ "tool_seconds": 3.8,
+ "calls_usage": [
+  [
+   7924,
+   7538,
+   53,
+   0
+  ],
+  [
+   7986,
+   7510,
+   7,
+   0
+  ],
+  [
+   10896,
+   8255,
+   1648,
+   0
+  ],
+  [
+   12052,
+   11174,
+   7,
+   0
+  ],
+  [
+   12568,
+   11419,
+   828,
+   0
+  ],
+  [
+   13682,
+   12824,
+   7,
+   0
+  ],
+  [
+   14198,
+   13063,
+   744,
+   0
+  ],
+  [
+   15183,
+   14383,
+   7,
+   0
+  ],
+  [
+   15699,
+   14616,
+   418,
+   0
+  ],
+  [
+   16089,
+   15717,
+   7,
+   0
+  ],
+  [
+   16605,
+   15954,
+   24,
+   0
+  ]
+ ]
+}

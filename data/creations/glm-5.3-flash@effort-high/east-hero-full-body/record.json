@@ -1,0 +1,72 @@
+{
+ "config": "glm-5.3-flash@effort-high",
+ "task": "east-hero-full-body",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "b301b5012b53e14ca4aa064c26a00954589287fb3fe25109a170a626cfb360de"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 108,
+ "writes": 2,
+ "model_rounds": 6,
+ "llm_calls": 6,
+ "retries": 0,
+ "prompt_tokens": 62124,
+ "cached_tokens": 0,
+ "completion_tokens": 13102,
+ "reasoning_tokens": 9355,
+ "seconds": 253.6,
+ "llm_seconds": 244.9,
+ "tool_seconds": 7.4,
+ "calls_usage": [
+  [
+   7335,
+   0,
+   12365,
+   9299
+  ],
+  [
+   10409,
+   0,
+   12,
+   0
+  ],
+  [
+   10641,
+   0,
+   92,
+   56
+  ],
+  [
+   10897,
+   0,
+   435,
+   0
+  ],
+  [
+   11339,
+   0,
+   12,
+   0
+  ],
+  [
+   11503,
+   0,
+   186,
+   0
+  ]
+ ]
+}

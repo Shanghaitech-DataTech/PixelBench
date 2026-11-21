@@ -1,0 +1,96 @@
+{
+ "config": "deepseek-v4-flash-0731@effort-none",
+ "task": "battery-status-set",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "d82d522ffab57d19bf95a6e1ec5aa55ce82f65f0b676e3a07d5921883064847c"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 6,
+ "writes": 5,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 0,
+ "prompt_tokens": 108451,
+ "cached_tokens": 0,
+ "completion_tokens": 5055,
+ "reasoning_tokens": 0,
+ "seconds": 130.7,
+ "llm_seconds": 127.8,
+ "tool_seconds": 2.2,
+ "calls_usage": [
+  [
+   7597,
+   0,
+   785,
+   0
+  ],
+  [
+   8397,
+   0,
+   52,
+   0
+  ],
+  [
+   8571,
+   0,
+   215,
+   0
+  ],
+  [
+   9378,
+   0,
+   1323,
+   0
+  ],
+  [
+   10716,
+   0,
+   1331,
+   0
+  ],
+  [
+   12061,
+   0,
+   44,
+   0
+  ],
+  [
+   12227,
+   0,
+   168,
+   0
+  ],
+  [
+   12409,
+   0,
+   44,
+   0
+  ],
+  [
+   13024,
+   0,
+   1033,
+   0
+  ],
+  [
+   14071,
+   0,
+   60,
+   0
+  ]
+ ]
+}

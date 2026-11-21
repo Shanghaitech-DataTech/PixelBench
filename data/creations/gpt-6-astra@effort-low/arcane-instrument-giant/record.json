@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@effort-low",
+ "task": "arcane-instrument-giant",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "88a8e9d91485c6b22c742ba3e97188269a67a99066f09d4750d9a4c69264c43c"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 52,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 39441,
+ "cached_tokens": 27520,
+ "completion_tokens": 2831,
+ "reasoning_tokens": 8,
+ "seconds": 121.4,
+ "llm_seconds": 111.2,
+ "tool_seconds": 3.5,
+ "calls_usage": [
+  [
+   11172,
+   0,
+   2725,
+   0
+  ],
+  [
+   13912,
+   13696,
+   18,
+   0
+  ],
+  [
+   14357,
+   13824,
+   88,
+   8
+  ]
+ ]
+}

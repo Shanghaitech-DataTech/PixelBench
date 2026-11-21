@@ -1,0 +1,54 @@
+{
+ "config": "glm-5.3-flash@effort-low",
+ "task": "dim-sum-chef",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "617955ec8b508d9db718ccd22f4dbdeb6fc71d50f557f77032f144383a0fc429"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 15,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 23504,
+ "cached_tokens": 0,
+ "completion_tokens": 3774,
+ "reasoning_tokens": 3010,
+ "seconds": 86.9,
+ "llm_seconds": 85.3,
+ "tool_seconds": 1.1,
+ "calls_usage": [
+  [
+   7294,
+   0,
+   3715,
+   2981
+  ],
+  [
+   8037,
+   0,
+   12,
+   0
+  ],
+  [
+   8173,
+   0,
+   47,
+   29
+  ]
+ ]
+}

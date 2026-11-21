@@ -1,0 +1,150 @@
+{
+ "config": "claude-opus-5",
+ "task": "tavern-interior",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0010",
+  "source_hashes": {
+   "main.py": "cf596ea64e0b4e34516a8d2403465c894dd1d3482e3a2b9c7ed75aa143a97109"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 58,
+ "writes": 9,
+ "model_rounds": 19,
+ "llm_calls": 19,
+ "retries": 0,
+ "prompt_tokens": 348250,
+ "cached_tokens": 320843,
+ "completion_tokens": 8021,
+ "reasoning_tokens": 0,
+ "seconds": 490.2,
+ "llm_seconds": 481.7,
+ "tool_seconds": 6.8,
+ "calls_usage": [
+  [
+   7845,
+   0,
+   2838,
+   0
+  ],
+  [
+   11301,
+   8913,
+   7,
+   0
+  ],
+  [
+   11848,
+   9120,
+   2263,
+   0
+  ],
+  [
+   15499,
+   13005,
+   7,
+   0
+  ],
+  [
+   16042,
+   13195,
+   997,
+   0
+  ],
+  [
+   17386,
+   16178,
+   7,
+   0
+  ],
+  [
+   17931,
+   16384,
+   424,
+   0
+  ],
+  [
+   18446,
+   17964,
+   7,
+   0
+  ],
+  [
+   18989,
+   18174,
+   230,
+   0
+  ],
+  [
+   19278,
+   18966,
+   62,
+   0
+  ],
+  [
+   19821,
+   19175,
+   257,
+   0
+  ],
+  [
+   20198,
+   19862,
+   51,
+   0
+  ],
+  [
+   20742,
+   20068,
+   123,
+   0
+  ],
+  [
+   20838,
+   20690,
+   60,
+   0
+  ],
+  [
+   21382,
+   20895,
+   445,
+   0
+  ],
+  [
+   21990,
+   21428,
+   7,
+   0
+  ],
+  [
+   22536,
+   21628,
+   201,
+   0
+  ],
+  [
+   22816,
+   22499,
+   7,
+   0
+  ],
+  [
+   23362,
+   22699,
+   28,
+   0
+  ]
+ ]
+}

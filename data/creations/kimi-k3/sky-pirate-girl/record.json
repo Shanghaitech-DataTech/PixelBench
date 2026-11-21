@@ -1,0 +1,90 @@
+{
+ "config": "kimi-k3",
+ "task": "sky-pirate-girl",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "a57e7b7673f3460c820c11e12ecbe0caab6a20432612d9687596bba5498b36b2"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 26,
+ "writes": 7,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 99231,
+ "cached_tokens": 91682,
+ "completion_tokens": 30775,
+ "reasoning_tokens": 27371,
+ "seconds": 910.2,
+ "llm_seconds": 906.5,
+ "tool_seconds": 3.1,
+ "calls_usage": [
+  [
+   7236,
+   6912,
+   19075,
+   16920
+  ],
+  [
+   9422,
+   7168,
+   69,
+   6
+  ],
+  [
+   10023,
+   9216,
+   3440,
+   3329
+  ],
+  [
+   10164,
+   10011,
+   52,
+   0
+  ],
+  [
+   11104,
+   10011,
+   5624,
+   5042
+  ],
+  [
+   11785,
+   11092,
+   52,
+   0
+  ],
+  [
+   12708,
+   11776,
+   1938,
+   1743
+  ],
+  [
+   12933,
+   12696,
+   52,
+   0
+  ],
+  [
+   13856,
+   12800,
+   473,
+   331
+  ]
+ ]
+}

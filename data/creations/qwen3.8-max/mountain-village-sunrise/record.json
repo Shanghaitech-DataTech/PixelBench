@@ -1,0 +1,132 @@
+{
+ "config": "qwen3.8-max",
+ "task": "mountain-village-sunrise",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "52e6896217bc22dc028d4a9c06b46b9b863f0cb46f172eb045ea883444c88605"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 82,
+ "writes": 23,
+ "model_rounds": 16,
+ "llm_calls": 16,
+ "retries": 0,
+ "prompt_tokens": 310931,
+ "cached_tokens": 273920,
+ "completion_tokens": 84811,
+ "reasoning_tokens": 67872,
+ "seconds": 1817.7,
+ "llm_seconds": 1812.4,
+ "tool_seconds": 4.4,
+ "calls_usage": [
+  [
+   7808,
+   7168,
+   25346,
+   25312
+  ],
+  [
+   7860,
+   7168,
+   23845,
+   15794
+  ],
+  [
+   15930,
+   7168,
+   912,
+   601
+  ],
+  [
+   16259,
+   15360,
+   817,
+   507
+  ],
+  [
+   16587,
+   15360,
+   4110,
+   3951
+  ],
+  [
+   16764,
+   16384,
+   452,
+   30
+  ],
+  [
+   17204,
+   16384,
+   38,
+   10
+  ],
+  [
+   18199,
+   7168,
+   14533,
+   13015
+  ],
+  [
+   19759,
+   17408,
+   1418,
+   40
+  ],
+  [
+   21179,
+   19584,
+   2288,
+   54
+  ],
+  [
+   23454,
+   20736,
+   1873,
+   797
+  ],
+  [
+   24564,
+   23040,
+   342,
+   313
+  ],
+  [
+   25134,
+   24192,
+   5665,
+   4528
+  ],
+  [
+   26297,
+   24576,
+   238,
+   209
+  ],
+  [
+   26867,
+   25600,
+   2772,
+   2590
+  ],
+  [
+   27066,
+   26624,
+   162,
+   121
+  ]
+ ]
+}

@@ -1,0 +1,138 @@
+{
+ "config": "deepseek-v4-flash-0731@effort-none",
+ "task": "fast-food-combo",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "main.py": "4c526849e28bf200593156ce9e527f962f117ca6d0fd0c73afe82d994ac1bd3c"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 32,
+ "writes": 10,
+ "model_rounds": 17,
+ "llm_calls": 17,
+ "retries": 0,
+ "prompt_tokens": 273516,
+ "cached_tokens": 0,
+ "completion_tokens": 7310,
+ "reasoning_tokens": 0,
+ "seconds": 182.9,
+ "llm_seconds": 178.7,
+ "tool_seconds": 3.4,
+ "calls_usage": [
+  [
+   7632,
+   0,
+   4056,
+   0
+  ],
+  [
+   11703,
+   0,
+   202,
+   0
+  ],
+  [
+   11919,
+   0,
+   112,
+   0
+  ],
+  [
+   12045,
+   0,
+   44,
+   0
+  ],
+  [
+   12231,
+   0,
+   174,
+   0
+  ],
+  [
+   12419,
+   0,
+   44,
+   0
+  ],
+  [
+   13932,
+   0,
+   176,
+   0
+  ],
+  [
+   14122,
+   0,
+   44,
+   0
+  ],
+  [
+   15629,
+   0,
+   682,
+   0
+  ],
+  [
+   16325,
+   0,
+   169,
+   0
+  ],
+  [
+   16508,
+   0,
+   45,
+   0
+  ],
+  [
+   20446,
+   0,
+   484,
+   0
+  ],
+  [
+   20944,
+   0,
+   194,
+   0
+  ],
+  [
+   21152,
+   0,
+   44,
+   0
+  ],
+  [
+   21713,
+   0,
+   287,
+   0
+  ],
+  [
+   22014,
+   0,
+   44,
+   0
+  ],
+  [
+   22782,
+   0,
+   509,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "config": "glm-5.3-flash@effort-low",
+ "task": "fountain-flow",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "60b90fa0cb4b870a1f0d4da764419ad1bec85ad43be0ef4e759669dd85bb5bb1"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 14,
+ "writes": 4,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 0,
+ "prompt_tokens": 74429,
+ "cached_tokens": 0,
+ "completion_tokens": 1219,
+ "reasoning_tokens": 26,
+ "seconds": 31.7,
+ "llm_seconds": 28.7,
+ "tool_seconds": 2.3,
+ "calls_usage": [
+  [
+   7381,
+   0,
+   37,
+   0
+  ],
+  [
+   7426,
+   0,
+   12,
+   0
+  ],
+  [
+   9457,
+   0,
+   56,
+   26
+  ],
+  [
+   9495,
+   0,
+   12,
+   0
+  ],
+  [
+   9547,
+   0,
+   587,
+   0
+  ],
+  [
+   10142,
+   0,
+   12,
+   0
+  ],
+  [
+   10244,
+   0,
+   485,
+   0
+  ],
+  [
+   10737,
+   0,
+   18,
+   0
+  ]
+ ]
+}

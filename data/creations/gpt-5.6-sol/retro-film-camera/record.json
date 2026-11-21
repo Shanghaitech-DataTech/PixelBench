@@ -1,0 +1,54 @@
+{
+ "config": "gpt-5.6-sol",
+ "task": "retro-film-camera",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "0a964d0b22cd7590af7549e3a9b8395da14f389ea9119da4c2f3b5f95c7ec4be"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 23,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 38099,
+ "cached_tokens": 35328,
+ "completion_tokens": 2040,
+ "reasoning_tokens": 184,
+ "seconds": 47.3,
+ "llm_seconds": 45.6,
+ "tool_seconds": 1.2,
+ "calls_usage": [
+  [
+   11394,
+   11008,
+   1794,
+   57
+  ],
+  [
+   13144,
+   11264,
+   22,
+   0
+  ],
+  [
+   13561,
+   13056,
+   224,
+   127
+  ]
+ ]
+}

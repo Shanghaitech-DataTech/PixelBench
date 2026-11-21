@@ -1,0 +1,133 @@
+{
+ "config": "deepseek-v4-flash-0731@run3",
+ "task": "ancient-dragon-battle",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0008",
+  "source_hashes": {
+   "inspect.py": "8f422b4f3f4c8e7b8956354c1a9aa0a4a14de27f1bca38bd256c57467c715cc2",
+   "main.py": "c6d0f29f263b12f960f5dad029ecb7e2dcf622b3b3d58f9038a36fe9dfa5e188"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 93,
+ "writes": 7,
+ "model_rounds": 16,
+ "llm_calls": 16,
+ "retries": 0,
+ "prompt_tokens": 347865,
+ "cached_tokens": 0,
+ "completion_tokens": 63369,
+ "reasoning_tokens": 49598,
+ "seconds": 715.3,
+ "llm_seconds": 695.5,
+ "tool_seconds": 18.1,
+ "calls_usage": [
+  [
+   7701,
+   0,
+   42243,
+   36476
+  ],
+  [
+   13483,
+   0,
+   51,
+   6
+  ],
+  [
+   13747,
+   0,
+   920,
+   770
+  ],
+  [
+   13912,
+   0,
+   46,
+   0
+  ],
+  [
+   14638,
+   0,
+   75,
+   29
+  ],
+  [
+   15364,
+   0,
+   424,
+   395
+  ],
+  [
+   15410,
+   0,
+   349,
+   146
+  ],
+  [
+   15627,
+   0,
+   45,
+   0
+  ],
+  [
+   21833,
+   0,
+   12181,
+   5824
+  ],
+  [
+   28205,
+   0,
+   45,
+   0
+  ],
+  [
+   28499,
+   0,
+   1159,
+   1009
+  ],
+  [
+   28663,
+   0,
+   45,
+   0
+  ],
+  [
+   29915,
+   0,
+   1165,
+   730
+  ],
+  [
+   30364,
+   0,
+   45,
+   0
+  ],
+  [
+   35094,
+   0,
+   4515,
+   4213
+  ],
+  [
+   35410,
+   0,
+   61,
+   0
+  ]
+ ]
+}

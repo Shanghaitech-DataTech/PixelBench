@@ -1,0 +1,16 @@
+{
+  "id": "teleport-portal",
+  "task_type": "agentic_creation",
+  "prompt": "pixel art, 48x48 resolution, teleport portal, 2 frames, frame 1 a purple energy vortex, frame 2 the vortex rotated with a glowing halo, transparent background",
+  "width": 48,
+  "height": 48,
+  "constraints": {
+    "max_colors": 86,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 25,
+    "max_code_seconds": 120
+  }
+}

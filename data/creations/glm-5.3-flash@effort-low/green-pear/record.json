@@ -1,0 +1,54 @@
+{
+ "config": "glm-5.3-flash@effort-low",
+ "task": "green-pear",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "135275dd6f55e10fb238cdec32cdb1ed6ec35f5f7a0238069c4c96ed8091dc71"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 7,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 22795,
+ "cached_tokens": 0,
+ "completion_tokens": 461,
+ "reasoning_tokens": 12,
+ "seconds": 10.0,
+ "llm_seconds": 8.4,
+ "tool_seconds": 1.0,
+ "calls_usage": [
+  [
+   7271,
+   0,
+   431,
+   12
+  ],
+  [
+   7698,
+   0,
+   12,
+   0
+  ],
+  [
+   7826,
+   0,
+   18,
+   0
+  ]
+ ]
+}

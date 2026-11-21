@@ -1,0 +1,108 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "open-pocket-watch",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "e1cfddff7df4419b911a69a282d7f3c837f1fe12a5485e8aaa2a1fbf3dac7195"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 32,
+ "writes": 4,
+ "model_rounds": 12,
+ "llm_calls": 12,
+ "retries": 0,
+ "prompt_tokens": 170917,
+ "cached_tokens": 0,
+ "completion_tokens": 8388,
+ "reasoning_tokens": 323,
+ "seconds": 203.9,
+ "llm_seconds": 199.3,
+ "tool_seconds": 3.9,
+ "calls_usage": [
+  [
+   7774,
+   0,
+   3355,
+   286
+  ],
+  [
+   10862,
+   0,
+   44,
+   16
+  ],
+  [
+   11275,
+   0,
+   117,
+   21
+  ],
+  [
+   11389,
+   0,
+   28,
+   0
+  ],
+  [
+   11622,
+   0,
+   98,
+   0
+  ],
+  [
+   11925,
+   0,
+   4373,
+   0
+  ],
+  [
+   16317,
+   0,
+   28,
+   0
+  ],
+  [
+   16730,
+   0,
+   96,
+   0
+  ],
+  [
+   16844,
+   0,
+   28,
+   0
+  ],
+  [
+   17077,
+   0,
+   98,
+   0
+  ],
+  [
+   17380,
+   0,
+   44,
+   0
+  ],
+  [
+   21722,
+   0,
+   79,
+   0
+  ]
+ ]
+}

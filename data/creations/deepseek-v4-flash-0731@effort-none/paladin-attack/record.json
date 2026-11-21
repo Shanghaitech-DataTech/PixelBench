@@ -1,0 +1,168 @@
+{
+ "config": "deepseek-v4-flash-0731@effort-none",
+ "task": "paladin-attack",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0010",
+  "source_hashes": {
+   "main.py": "284b49e415d0bf1218d054ea6dd311933eb7ad107bbeb4deea2aa4176c9fb987"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 43,
+ "writes": 9,
+ "model_rounds": 22,
+ "llm_calls": 22,
+ "retries": 0,
+ "prompt_tokens": 590632,
+ "cached_tokens": 0,
+ "completion_tokens": 33108,
+ "reasoning_tokens": 0,
+ "seconds": 542.1,
+ "llm_seconds": 534.8,
+ "tool_seconds": 6.5,
+ "calls_usage": [
+  [
+   7854,
+   0,
+   45,
+   0
+  ],
+  [
+   7993,
+   0,
+   28,
+   0
+  ],
+  [
+   8034,
+   0,
+   177,
+   0
+  ],
+  [
+   8226,
+   0,
+   44,
+   0
+  ],
+  [
+   10163,
+   0,
+   2676,
+   0
+  ],
+  [
+   12893,
+   0,
+   929,
+   0
+  ],
+  [
+   13837,
+   0,
+   44,
+   0
+  ],
+  [
+   15038,
+   0,
+   4390,
+   0
+  ],
+  [
+   19443,
+   0,
+   44,
+   0
+  ],
+  [
+   19687,
+   0,
+   1194,
+   0
+  ],
+  [
+   20896,
+   0,
+   44,
+   0
+  ],
+  [
+   21984,
+   0,
+   3924,
+   0
+  ],
+  [
+   25924,
+   0,
+   44,
+   0
+  ],
+  [
+   28274,
+   0,
+   5507,
+   0
+  ],
+  [
+   33796,
+   0,
+   44,
+   0
+  ],
+  [
+   37688,
+   0,
+   5682,
+   0
+  ],
+  [
+   43385,
+   0,
+   44,
+   0
+  ],
+  [
+   45669,
+   0,
+   3311,
+   0
+  ],
+  [
+   48995,
+   0,
+   44,
+   0
+  ],
+  [
+   51088,
+   0,
+   2732,
+   0
+  ],
+  [
+   53835,
+   0,
+   44,
+   0
+  ],
+  [
+   55930,
+   0,
+   2117,
+   0
+  ]
+ ]
+}

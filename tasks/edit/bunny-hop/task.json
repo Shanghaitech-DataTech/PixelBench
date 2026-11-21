@@ -1,0 +1,23 @@
+{
+  "id": "bunny-hop",
+  "task_type": "edit",
+  "prompt": "2 frames. Frame 1 keeps the original picture content (the canvas may be changed); frame 2 shows the rabbit hopping forward, caught in a mid-leap pose.",
+  "width": 26,
+  "height": 28,
+  "constraints": {
+    "max_colors": null,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 15,
+    "max_code_seconds": 120
+  },
+  "input_size": {
+    "width": 26,
+    "height": 28
+  },
+  "output_size": "agent_defined",
+  "num_frames": 2,
+  "frames_visible": false
+}

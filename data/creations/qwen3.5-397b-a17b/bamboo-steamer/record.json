@@ -1,0 +1,54 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "bamboo-steamer",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "a92f5351768596d0fd6332364d0666dd2bccf4aab7cdd57e2abc054258eb7091"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 9,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 26713,
+ "cached_tokens": 0,
+ "completion_tokens": 1722,
+ "reasoning_tokens": 208,
+ "seconds": 39.5,
+ "llm_seconds": 36.0,
+ "tool_seconds": 1.0,
+ "calls_usage": [
+  [
+   7749,
+   0,
+   1582,
+   191
+  ],
+  [
+   9159,
+   0,
+   45,
+   17
+  ],
+  [
+   9805,
+   0,
+   95,
+   0
+  ]
+ ]
+}

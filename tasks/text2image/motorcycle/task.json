@@ -1,0 +1,16 @@
+{
+  "id": "motorcycle",
+  "task_type": "agentic_creation",
+  "prompt": "pixel art, 128x128 resolution, sports motorcycle, side profile, facing right, streamlined, black and dark gray body, silver gray metal parts, red accents, tilted small black windscreen, wide dark gray fairing, silver front fork, thick black tires, silver tubular frame, round silver gray engine cover, upswept tail, red tail light, gray hub white spokes, transparent background",
+  "width": 128,
+  "height": 128,
+  "constraints": {
+    "max_colors": 86,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 25,
+    "max_code_seconds": 120
+  }
+}

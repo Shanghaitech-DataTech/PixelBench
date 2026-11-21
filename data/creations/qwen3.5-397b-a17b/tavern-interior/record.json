@@ -1,0 +1,102 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "tavern-interior",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "main.py": "ae1c837d6be6566a03475d280807833d910972e5aec85bbc5ff62b37b2459708"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 47,
+ "writes": 5,
+ "model_rounds": 11,
+ "llm_calls": 11,
+ "retries": 0,
+ "prompt_tokens": 197632,
+ "cached_tokens": 0,
+ "completion_tokens": 14415,
+ "reasoning_tokens": 475,
+ "seconds": 290.2,
+ "llm_seconds": 285.9,
+ "tool_seconds": 3.6,
+ "calls_usage": [
+  [
+   7766,
+   0,
+   3839,
+   459
+  ],
+  [
+   11165,
+   0,
+   44,
+   16
+  ],
+  [
+   12340,
+   0,
+   5004,
+   0
+  ],
+  [
+   17363,
+   0,
+   28,
+   0
+  ],
+  [
+   17609,
+   0,
+   64,
+   0
+  ],
+  [
+   17891,
+   0,
+   131,
+   0
+  ],
+  [
+   18040,
+   0,
+   28,
+   0
+  ],
+  [
+   19495,
+   0,
+   4982,
+   0
+  ],
+  [
+   24496,
+   0,
+   28,
+   0
+  ],
+  [
+   25611,
+   0,
+   227,
+   0
+  ],
+  [
+   25856,
+   0,
+   40,
+   0
+  ]
+ ]
+}

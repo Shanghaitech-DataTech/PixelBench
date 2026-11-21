@@ -1,0 +1,60 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "e-scooter-rider",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "d3bc7617b9f808695ca87e6ef2f155399909b81561ff724295f1af7554534af0"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 13,
+ "writes": 4,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 45456,
+ "cached_tokens": 17903,
+ "completion_tokens": 4426,
+ "reasoning_tokens": 14626,
+ "seconds": 194.2,
+ "llm_seconds": 184.8,
+ "tool_seconds": 2.6,
+ "calls_usage": [
+  [
+   7554,
+   3967,
+   5675,
+   4586
+  ],
+  [
+   9771,
+   5961,
+   8428,
+   6185
+  ],
+  [
+   13137,
+   7975,
+   4589,
+   3855
+  ],
+  [
+   14994,
+   0,
+   360,
+   0
+  ]
+ ]
+}

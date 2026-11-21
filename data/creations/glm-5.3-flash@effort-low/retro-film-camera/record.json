@@ -1,0 +1,54 @@
+{
+ "config": "glm-5.3-flash@effort-low",
+ "task": "retro-film-camera",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "b6b508eb5dbb378cbda00a9591ef1f9335e684d82bd1de93e46bce52816d8356"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 15,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 23793,
+ "cached_tokens": 0,
+ "completion_tokens": 926,
+ "reasoning_tokens": 8,
+ "seconds": 24.4,
+ "llm_seconds": 22.9,
+ "tool_seconds": 1.0,
+ "calls_usage": [
+  [
+   7287,
+   0,
+   888,
+   0
+  ],
+  [
+   8183,
+   0,
+   12,
+   0
+  ],
+  [
+   8323,
+   0,
+   26,
+   8
+  ]
+ ]
+}

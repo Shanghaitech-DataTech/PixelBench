@@ -1,0 +1,84 @@
+{
+ "config": "qwen3.8-max",
+ "task": "minecraft-stone-material",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "73a105932aa965c68c8394bf4684423d893ef0d86281e6d5956fecc1202bbbf1"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 11,
+ "writes": 5,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 0,
+ "prompt_tokens": 83660,
+ "cached_tokens": 73984,
+ "completion_tokens": 13113,
+ "reasoning_tokens": 9012,
+ "seconds": 286.7,
+ "llm_seconds": 284.0,
+ "tool_seconds": 2.1,
+ "calls_usage": [
+  [
+   7797,
+   7168,
+   2706,
+   2672
+  ],
+  [
+   7849,
+   7552,
+   4975,
+   3303
+  ],
+  [
+   9540,
+   7552,
+   141,
+   113
+  ],
+  [
+   9784,
+   7168,
+   3362,
+   1529
+  ],
+  [
+   11642,
+   9216,
+   241,
+   212
+  ],
+  [
+   11924,
+   11520,
+   938,
+   540
+  ],
+  [
+   12348,
+   11520,
+   138,
+   109
+  ],
+  [
+   12776,
+   12288,
+   612,
+   534
+  ]
+ ]
+}

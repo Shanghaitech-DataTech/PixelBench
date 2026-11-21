@@ -1,0 +1,72 @@
+{
+ "config": "gpt-5.6-sol@run3",
+ "task": "polar-researcher",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "2568703026331cca1a8d9a0f461c1e11d620ef3570c22f1698d32d470835ca24"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 18,
+ "writes": 2,
+ "model_rounds": 6,
+ "llm_calls": 6,
+ "retries": 0,
+ "prompt_tokens": 77748,
+ "cached_tokens": 73728,
+ "completion_tokens": 2510,
+ "reasoning_tokens": 181,
+ "seconds": 89.9,
+ "llm_seconds": 85.0,
+ "tool_seconds": 2.1,
+ "calls_usage": [
+  [
+   11403,
+   11008,
+   83,
+   18
+  ],
+  [
+   11480,
+   11008,
+   2123,
+   91
+  ],
+  [
+   13525,
+   11264,
+   22,
+   0
+  ],
+  [
+   13580,
+   13440,
+   112,
+   13
+  ],
+  [
+   13691,
+   13440,
+   22,
+   0
+  ],
+  [
+   14069,
+   13568,
+   148,
+   59
+  ]
+ ]
+}

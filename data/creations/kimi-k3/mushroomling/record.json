@@ -1,0 +1,60 @@
+{
+ "config": "kimi-k3",
+ "task": "mushroomling",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "61d6560711b3316b29eef1e8f6ba8c2431f8e7f9d7f12bd835837aa730e64f04"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 5,
+ "writes": 1,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 1,
+ "prompt_tokens": 30644,
+ "cached_tokens": 28928,
+ "completion_tokens": 18180,
+ "reasoning_tokens": 17529,
+ "seconds": 603.9,
+ "llm_seconds": 344.0,
+ "tool_seconds": 1.2,
+ "calls_usage": [
+  [
+   7232,
+   6912,
+   7570,
+   7526
+  ],
+  [
+   7312,
+   7168,
+   10288,
+   9833
+  ],
+  [
+   7804,
+   7168,
+   49,
+   0
+  ],
+  [
+   8296,
+   7680,
+   273,
+   170
+  ]
+ ]
+}

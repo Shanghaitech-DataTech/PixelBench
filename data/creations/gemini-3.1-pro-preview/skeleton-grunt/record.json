@@ -1,0 +1,48 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "skeleton-grunt",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0001",
+  "source_hashes": {
+   "main.py": "415262f08b1dd2f8ca8942a9af0612d74d1cd8266e1202dcfb928f4a72a274e0"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 13,
+ "writes": 1,
+ "model_rounds": 2,
+ "llm_calls": 2,
+ "retries": 6,
+ "prompt_tokens": 46021,
+ "cached_tokens": 0,
+ "completion_tokens": 1302,
+ "reasoning_tokens": 29680,
+ "seconds": 433.0,
+ "llm_seconds": 284.3,
+ "tool_seconds": 0.5,
+ "calls_usage": [
+  [
+   7548,
+   0,
+   30947,
+   29665
+  ],
+  [
+   38473,
+   0,
+   35,
+   15
+  ]
+ ]
+}

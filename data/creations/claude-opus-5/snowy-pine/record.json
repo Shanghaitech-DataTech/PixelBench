@@ -1,0 +1,96 @@
+{
+ "config": "claude-opus-5",
+ "task": "snowy-pine",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "3b357d2cfba4b7694709a8b135e8c118a53676ef5b5bc687a3cc7a112a50e797"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 13,
+ "writes": 5,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 0,
+ "prompt_tokens": 99654,
+ "cached_tokens": 93376,
+ "completion_tokens": 2397,
+ "reasoning_tokens": 0,
+ "seconds": 147.7,
+ "llm_seconds": 143.4,
+ "tool_seconds": 3.6,
+ "calls_usage": [
+  [
+   7920,
+   7541,
+   64,
+   0
+  ],
+  [
+   7996,
+   7517,
+   7,
+   0
+  ],
+  [
+   8688,
+   7799,
+   630,
+   0
+  ],
+  [
+   9188,
+   8795,
+   7,
+   0
+  ],
+  [
+   9502,
+   8897,
+   664,
+   0
+  ],
+  [
+   10254,
+   9627,
+   7,
+   0
+  ],
+  [
+   10539,
+   9720,
+   879,
+   0
+  ],
+  [
+   11625,
+   10749,
+   7,
+   0
+  ],
+  [
+   11910,
+   10836,
+   120,
+   0
+  ],
+  [
+   12032,
+   11895,
+   12,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "retro-film-camera",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0001",
+  "source_hashes": {
+   "main.py": "264d68f4e71156e686f515c5dfff130a2440ff8a076bc4b05b7c8076f9916f5d"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 18,
+ "writes": 1,
+ "model_rounds": 1,
+ "llm_calls": 1,
+ "retries": 0,
+ "prompt_tokens": 7549,
+ "cached_tokens": 0,
+ "completion_tokens": 2445,
+ "reasoning_tokens": 23561,
+ "seconds": 221.2,
+ "llm_seconds": 216.5,
+ "tool_seconds": 0.5,
+ "calls_usage": [
+  [
+   7549,
+   0,
+   26006,
+   23561
+  ]
+ ]
+}

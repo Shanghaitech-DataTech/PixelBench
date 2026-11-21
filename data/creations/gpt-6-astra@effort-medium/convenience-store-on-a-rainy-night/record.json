@@ -1,0 +1,66 @@
+{
+ "config": "gpt-6-astra@effort-medium",
+ "task": "convenience-store-on-a-rainy-night",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "c25839fdcb2f50216fe3be8a9edc08a92af6beb360333a9181c092bf8ed5d6c3"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 88,
+ "writes": 3,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 1,
+ "prompt_tokens": 65894,
+ "cached_tokens": 50560,
+ "completion_tokens": 2580,
+ "reasoning_tokens": 232,
+ "seconds": 143.9,
+ "llm_seconds": 134.9,
+ "tool_seconds": 1.3,
+ "calls_usage": [
+  [
+   11146,
+   10752,
+   2109,
+   0
+  ],
+  [
+   13270,
+   0,
+   18,
+   0
+  ],
+  [
+   13713,
+   13184,
+   229,
+   125
+  ],
+  [
+   13829,
+   13568,
+   202,
+   107
+  ],
+  [
+   13936,
+   13056,
+   22,
+   0
+  ]
+ ]
+}

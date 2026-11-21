@@ -1,0 +1,114 @@
+{
+ "config": "kimi-k3",
+ "task": "char-turn-3view",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 3,
+  "actual_count": 3,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "main.py": "7ded20b6e44ca552384396651bee34c5aab6b5a256cd96b0598007ac48884dce"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 3,
+ "colors": 25,
+ "writes": 8,
+ "model_rounds": 13,
+ "llm_calls": 13,
+ "retries": 0,
+ "prompt_tokens": 209718,
+ "cached_tokens": 191838,
+ "completion_tokens": 84911,
+ "reasoning_tokens": 75501,
+ "seconds": 1770.3,
+ "llm_seconds": 1765.1,
+ "tool_seconds": 4.5,
+ "calls_usage": [
+  [
+   7521,
+   6912,
+   79,
+   17
+  ],
+  [
+   7716,
+   7424,
+   124,
+   36
+  ],
+  [
+   7841,
+   7680,
+   49,
+   0
+  ],
+  [
+   12035,
+   7680,
+   79551,
+   75359
+  ],
+  [
+   16264,
+   12032,
+   49,
+   0
+  ],
+  [
+   16760,
+   16128,
+   619,
+   0
+  ],
+  [
+   17435,
+   16640,
+   49,
+   0
+  ],
+  [
+   17931,
+   17408,
+   312,
+   0
+  ],
+  [
+   18276,
+   17920,
+   49,
+   0
+  ],
+  [
+   19050,
+   18176,
+   3092,
+   0
+  ],
+  [
+   22175,
+   19038,
+   825,
+   89
+  ],
+  [
+   22970,
+   22016,
+   49,
+   0
+  ],
+  [
+   23744,
+   22784,
+   64,
+   0
+  ]
+ ]
+}

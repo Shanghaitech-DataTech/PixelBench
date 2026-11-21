@@ -1,0 +1,45 @@
+{
+ "config": "gpt-6-astra@direct",
+ "task": "bamboo-steamer",
+ "ok": true,
+ "error": null,
+ "termination": "answered",
+ "frames": 1,
+ "colors": 11,
+ "parse": {
+  "ok": true,
+  "diags": [
+   {
+    "declared": [
+     32,
+     32
+    ],
+    "size": [
+     32,
+     32
+    ],
+    "rows": 32,
+    "rows_wrong_length": 0,
+    "rows_beyond_tolerance": 0,
+    "rows_missing": 0,
+    "rows_extra": 0,
+    "undeclared_pixels": 0
+   }
+  ]
+ },
+ "max_tokens": 131072,
+ "time_limit_s": 3600.0,
+ "finish_reason": "stop",
+ "prompt_tokens": 4501,
+ "completion_tokens": 2147,
+ "reasoning_tokens": 1741,
+ "seconds": 115.5,
+ "calls_usage": [
+  [
+   4501,
+   0,
+   2147,
+   1741
+  ]
+ ]
+}

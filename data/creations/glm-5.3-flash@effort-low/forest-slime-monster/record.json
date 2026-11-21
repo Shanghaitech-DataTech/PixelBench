@@ -1,0 +1,54 @@
+{
+ "config": "glm-5.3-flash@effort-low",
+ "task": "forest-slime-monster",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "fdbf40b21e7dbcab5d306a735cb6804a511d60c8bbb0f31dc9d006e91f9f9333"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 11,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 23655,
+ "cached_tokens": 0,
+ "completion_tokens": 859,
+ "reasoning_tokens": 8,
+ "seconds": 19.9,
+ "llm_seconds": 18.3,
+ "tool_seconds": 1.0,
+ "calls_usage": [
+  [
+   7297,
+   0,
+   821,
+   0
+  ],
+  [
+   8126,
+   0,
+   12,
+   0
+  ],
+  [
+   8232,
+   0,
+   26,
+   8
+  ]
+ ]
+}

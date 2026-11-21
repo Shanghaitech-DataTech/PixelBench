@@ -1,0 +1,78 @@
+{
+ "config": "gpt-6-astra",
+ "task": "sword-to-staff",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "52d56c0e7e633753b7474a5545a3d4cd44de20aa05ef37d61ea2e8757c8aa5ab"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 28,
+ "writes": 3,
+ "model_rounds": 7,
+ "llm_calls": 7,
+ "retries": 0,
+ "prompt_tokens": 89325,
+ "cached_tokens": 62208,
+ "completion_tokens": 797,
+ "reasoning_tokens": 215,
+ "seconds": 77.9,
+ "llm_seconds": 74.8,
+ "tool_seconds": 2.5,
+ "calls_usage": [
+  [
+   11214,
+   0,
+   72,
+   0
+  ],
+  [
+   11301,
+   11136,
+   18,
+   0
+  ],
+  [
+   11779,
+   11136,
+   58,
+   0
+  ],
+  [
+   11852,
+   0,
+   18,
+   0
+  ],
+  [
+   13996,
+   11776,
+   591,
+   215
+  ],
+  [
+   14385,
+   13824,
+   18,
+   0
+  ],
+  [
+   14798,
+   14336,
+   22,
+   0
+  ]
+ ]
+}

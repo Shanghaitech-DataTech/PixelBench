@@ -1,0 +1,60 @@
+{
+ "config": "glm-5.3-flash@effort-high",
+ "task": "e-scooter-rider",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "a06db6777284c266b4c054d14b726aaa873b2f67db959ac89c3594771b691161"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 17,
+ "writes": 2,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 34253,
+ "cached_tokens": 0,
+ "completion_tokens": 17128,
+ "reasoning_tokens": 15223,
+ "seconds": 313.1,
+ "llm_seconds": 311.6,
+ "tool_seconds": 1.0,
+ "calls_usage": [
+  [
+   7294,
+   0,
+   11327,
+   10377
+  ],
+  [
+   8252,
+   0,
+   30,
+   12
+  ],
+  [
+   8890,
+   0,
+   5753,
+   4834
+  ],
+  [
+   9817,
+   0,
+   18,
+   0
+  ]
+ ]
+}

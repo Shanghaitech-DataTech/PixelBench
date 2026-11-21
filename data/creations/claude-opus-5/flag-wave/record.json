@@ -1,0 +1,60 @@
+{
+ "config": "claude-opus-5",
+ "task": "flag-wave",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 3,
+  "actual_count": 3,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "71afc341b020a4fc6dc6bbd2f1f18e7260455764e66c5e5fe37e2348031d14c9"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 3,
+ "colors": 6,
+ "writes": 5,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 38337,
+ "cached_tokens": 25708,
+ "completion_tokens": 3204,
+ "reasoning_tokens": 0,
+ "seconds": 246.0,
+ "llm_seconds": 242.6,
+ "tool_seconds": 2.6,
+ "calls_usage": [
+  [
+   8089,
+   0,
+   56,
+   0
+  ],
+  [
+   8605,
+   7698,
+   79,
+   0
+  ],
+  [
+   9724,
+   8597,
+   2568,
+   0
+  ],
+  [
+   11919,
+   9413,
+   501,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "config": "deepseek-v4-flash-0731@direct",
+ "task": "big-250-147",
+ "ok": false,
+ "error": "unparseable",
+ "termination": "format",
+ "frames": 0,
+ "colors": null,
+ "parse": {
+  "ok": false,
+  "reason": "row count 115 vs 147",
+  "palette_size": 242,
+  "diags": [
+   {
+    "declared": [
+     250,
+     147
+    ],
+    "size": [
+     250,
+     147
+    ],
+    "rows": 115
+   }
+  ]
+ },
+ "max_tokens": 131072,
+ "time_limit_s": 3600.0,
+ "finish_reason": "stop",
+ "prompt_tokens": 41884,
+ "completion_tokens": 56414,
+ "reasoning_tokens": 14684,
+ "seconds": 953.6,
+ "calls_usage": [
+  [
+   41884,
+   0,
+   56414,
+   14684
+  ]
+ ]
+}

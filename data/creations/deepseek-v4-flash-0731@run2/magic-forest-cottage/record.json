@@ -1,0 +1,127 @@
+{
+ "config": "deepseek-v4-flash-0731@run2",
+ "task": "magic-forest-cottage",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "60dbc69a7ded853605e86d7c1b58144aac7a9624b84d1d05b64c85a7679353fa",
+   "preview.py": "e4e775d6c74af3b6928b6e0967252d80079113f0c7d5286b2d687f5871c68fd4"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 61,
+ "writes": 8,
+ "model_rounds": 15,
+ "llm_calls": 15,
+ "retries": 0,
+ "prompt_tokens": 278093,
+ "cached_tokens": 0,
+ "completion_tokens": 42266,
+ "reasoning_tokens": 35284,
+ "seconds": 736.1,
+ "llm_seconds": 728.6,
+ "tool_seconds": 6.6,
+ "calls_usage": [
+  [
+   7710,
+   0,
+   31892,
+   27108
+  ],
+  [
+   12509,
+   0,
+   54,
+   9
+  ],
+  [
+   12746,
+   0,
+   2128,
+   1605
+  ],
+  [
+   13283,
+   0,
+   45,
+   0
+  ],
+  [
+   13520,
+   0,
+   470,
+   334
+  ],
+  [
+   13670,
+   0,
+   45,
+   0
+  ],
+  [
+   13907,
+   0,
+   1044,
+   916
+  ],
+  [
+   14050,
+   0,
+   792,
+   599
+  ],
+  [
+   14257,
+   0,
+   45,
+   0
+  ],
+  [
+   21059,
+   0,
+   3947,
+   3489
+  ],
+  [
+   21531,
+   0,
+   45,
+   0
+  ],
+  [
+   28333,
+   0,
+   1167,
+   918
+  ],
+  [
+   28596,
+   0,
+   45,
+   0
+  ],
+  [
+   31364,
+   0,
+   486,
+   306
+  ],
+  [
+   31558,
+   0,
+   61,
+   0
+  ]
+ ]
+}

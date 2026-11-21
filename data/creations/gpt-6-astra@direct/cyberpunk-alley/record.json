@@ -1,0 +1,45 @@
+{
+ "config": "gpt-6-astra@direct",
+ "task": "cyberpunk-alley",
+ "ok": true,
+ "error": null,
+ "termination": "answered",
+ "frames": 1,
+ "colors": 22,
+ "parse": {
+  "ok": true,
+  "diags": [
+   {
+    "declared": [
+     128,
+     128
+    ],
+    "size": [
+     128,
+     128
+    ],
+    "rows": 128,
+    "rows_wrong_length": 12,
+    "rows_beyond_tolerance": 1,
+    "rows_missing": 0,
+    "rows_extra": 0,
+    "undeclared_pixels": 1
+   }
+  ]
+ },
+ "max_tokens": 131072,
+ "time_limit_s": 3600.0,
+ "finish_reason": "stop",
+ "prompt_tokens": 4514,
+ "completion_tokens": 20163,
+ "reasoning_tokens": 14479,
+ "seconds": 985.8,
+ "calls_usage": [
+  [
+   4514,
+   0,
+   20163,
+   14479
+  ]
+ ]
+}

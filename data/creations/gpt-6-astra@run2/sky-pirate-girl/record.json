@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@run2",
+ "task": "sky-pirate-girl",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "698e658fbb8a1fa52defd48e6ffc58121369b6523411bea4050501f411d22156"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 31,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 1,
+ "prompt_tokens": 39097,
+ "cached_tokens": 35456,
+ "completion_tokens": 2750,
+ "reasoning_tokens": 22,
+ "seconds": 159.0,
+ "llm_seconds": 117.1,
+ "tool_seconds": 1.9,
+ "calls_usage": [
+  [
+   11143,
+   11008,
+   2632,
+   0
+  ],
+  [
+   13790,
+   13696,
+   18,
+   0
+  ],
+  [
+   14164,
+   10752,
+   100,
+   22
+  ]
+ ]
+}

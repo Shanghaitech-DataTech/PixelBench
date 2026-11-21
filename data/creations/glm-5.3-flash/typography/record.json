@@ -1,0 +1,90 @@
+{
+ "config": "glm-5.3-flash",
+ "task": "typography",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "9653e66341d56bd27b22c727cb342d4f712a22af29215140d7b2f1982a915d8b"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 16,
+ "writes": 4,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 110687,
+ "cached_tokens": 0,
+ "completion_tokens": 112301,
+ "reasoning_tokens": 109433,
+ "seconds": 1341.1,
+ "llm_seconds": 1338.1,
+ "tool_seconds": 2.3,
+ "calls_usage": [
+  [
+   7311,
+   0,
+   44104,
+   44087
+  ],
+  [
+   7423,
+   0,
+   24349,
+   22560
+  ],
+  [
+   9220,
+   0,
+   12,
+   0
+  ],
+  [
+   11394,
+   0,
+   18309,
+   17943
+  ],
+  [
+   11767,
+   0,
+   12,
+   0
+  ],
+  [
+   14339,
+   0,
+   24512,
+   24291
+  ],
+  [
+   14567,
+   0,
+   12,
+   0
+  ],
+  [
+   17119,
+   0,
+   973,
+   552
+  ],
+  [
+   17547,
+   0,
+   18,
+   0
+  ]
+ ]
+}

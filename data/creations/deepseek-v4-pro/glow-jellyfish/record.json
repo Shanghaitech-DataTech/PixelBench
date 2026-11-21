@@ -1,0 +1,78 @@
+{
+ "config": "deepseek-v4-pro",
+ "task": "glow-jellyfish",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "75491015a4db7f6c5a23041417af6acf5dfc5783412fc23fbb6d4db6cb1397fa"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 8,
+ "writes": 3,
+ "model_rounds": 7,
+ "llm_calls": 7,
+ "retries": 0,
+ "prompt_tokens": 149502,
+ "cached_tokens": 134400,
+ "completion_tokens": 17508,
+ "reasoning_tokens": 16422,
+ "seconds": 243.1,
+ "llm_seconds": 240.6,
+ "tool_seconds": 2.0,
+ "calls_usage": [
+  [
+   7671,
+   7424,
+   13189,
+   12673
+  ],
+  [
+   20876,
+   7552,
+   63,
+   3
+  ],
+  [
+   21335,
+   20864,
+   2568,
+   2475
+  ],
+  [
+   23918,
+   23808,
+   64,
+   4
+  ],
+  [
+   24378,
+   23936,
+   1040,
+   803
+  ],
+  [
+   25433,
+   25344,
+   62,
+   2
+  ],
+  [
+   25891,
+   25472,
+   522,
+   462
+  ]
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@effort-low",
+ "task": "fast-food-combo",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "578cb28c3cc7218069530bdbf7482901cc69151d5b2e9fea72b59fe37adb7311"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 50,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 37865,
+ "cached_tokens": 23808,
+ "completion_tokens": 2035,
+ "reasoning_tokens": 13,
+ "seconds": 95.0,
+ "llm_seconds": 92.9,
+ "tool_seconds": 1.4,
+ "calls_usage": [
+  [
+   11167,
+   10752,
+   1980,
+   0
+  ],
+  [
+   13162,
+   0,
+   18,
+   0
+  ],
+  [
+   13536,
+   13056,
+   37,
+   13
+  ]
+ ]
+}

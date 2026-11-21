@@ -1,0 +1,23 @@
+{
+  "id": "bat-flapping-wings",
+  "task_type": "edit",
+  "prompt": "2 frames. Frame 1 keeps the original picture content (the canvas may be changed); frame 2 shows the bat flapping its wings: the drooping wings open up into a spread, raised position.",
+  "width": 27,
+  "height": 22,
+  "constraints": {
+    "max_colors": null,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 15,
+    "max_code_seconds": 120
+  },
+  "input_size": {
+    "width": 27,
+    "height": 22
+  },
+  "output_size": "agent_defined",
+  "num_frames": 2,
+  "frames_visible": false
+}

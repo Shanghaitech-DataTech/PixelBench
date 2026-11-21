@@ -1,0 +1,84 @@
+{
+ "config": "kimi-k3",
+ "task": "rts-factory-icon",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "abc487b704a5c74b208e3f3355664ea811249a08cc901ad14e015e219c4cc8eb"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 15,
+ "writes": 5,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 0,
+ "prompt_tokens": 72800,
+ "cached_tokens": 68777,
+ "completion_tokens": 11943,
+ "reasoning_tokens": 9766,
+ "seconds": 293.5,
+ "llm_seconds": 291.2,
+ "tool_seconds": 1.7,
+ "calls_usage": [
+  [
+   7228,
+   6912,
+   10579,
+   9538
+  ],
+  [
+   8306,
+   7168,
+   49,
+   0
+  ],
+  [
+   8798,
+   8192,
+   435,
+   228
+  ],
+  [
+   9041,
+   8786,
+   280,
+   0
+  ],
+  [
+   9354,
+   8960,
+   204,
+   0
+  ],
+  [
+   9591,
+   9216,
+   49,
+   0
+  ],
+  [
+   10083,
+   9472,
+   283,
+   0
+  ],
+  [
+   10399,
+   10071,
+   64,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,198 @@
+{
+ "config": "gemini-3.8-flash",
+ "task": "portable-cassette-player",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0013",
+  "source_hashes": {
+   "main.py": "f7090c720135dd23c5fe334cf7bbe0e6a956eca3ee6149c265ae0c8571dea8d3",
+   "test_cable.py": "d1d41df862bff72b3e6244fac3408bd700f42b1c12e24a101059cdc5afb33fdc",
+   "test_full.py": "c5b67390664bc83912ca98e3c4d07aaff6836e0a8ca615887a6952f1780da4f7",
+   "test_glass.py": "04c78d96fa498fd5aa9808247878960d6b85c80cf11d267e546b9ba269fa7e62",
+   "test_hubs.py": "75b34b8a19b8e751892115498b8fa800b98c7eca54c6bcf19e0980a0e34b1a85",
+   "test_reels.py": "ba87be56ec90a4b8149f45560b0ff02bf0330d9bf6933010b402723791edd9b4",
+   "test_refinements.py": "6e9d2bc7533382ba5e74e90706c572f31512987e5393f7f2f4debafdef6f100f"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 57,
+ "writes": 12,
+ "model_rounds": 26,
+ "llm_calls": 26,
+ "retries": 0,
+ "prompt_tokens": 976844,
+ "cached_tokens": 527922,
+ "completion_tokens": 31329,
+ "reasoning_tokens": 24880,
+ "seconds": 643.0,
+ "llm_seconds": 633.3,
+ "tool_seconds": 8.8,
+ "calls_usage": [
+  [
+   7552,
+   0,
+   181,
+   171
+  ],
+  [
+   7742,
+   0,
+   2406,
+   2349
+  ],
+  [
+   10150,
+   7767,
+   31,
+   15
+  ],
+  [
+   11300,
+   0,
+   4292,
+   3117
+  ],
+  [
+   15594,
+   0,
+   26,
+   10
+  ],
+  [
+   16739,
+   0,
+   6442,
+   2520
+  ],
+  [
+   23183,
+   0,
+   27,
+   11
+  ],
+  [
+   24329,
+   10213,
+   3101,
+   2380
+  ],
+  [
+   27435,
+   24347,
+   37,
+   18
+  ],
+  [
+   28591,
+   0,
+   1699,
+   195
+  ],
+  [
+   30295,
+   27418,
+   37,
+   18
+  ],
+  [
+   31452,
+   28770,
+   865,
+   386
+  ],
+  [
+   32321,
+   0,
+   29,
+   11
+  ],
+  [
+   33470,
+   31424,
+   846,
+   451
+  ],
+  [
+   34321,
+   20139,
+   31,
+   12
+  ],
+  [
+   35472,
+   0,
+   7318,
+   1401
+  ],
+  [
+   42792,
+   33522,
+   31,
+   15
+  ],
+  [
+   43943,
+   32272,
+   9666,
+   4513
+  ],
+  [
+   53615,
+   28301,
+   34,
+   14
+  ],
+  [
+   54769,
+   12124,
+   3865,
+   2794
+  ],
+  [
+   58638,
+   0,
+   36,
+   18
+  ],
+  [
+   60883,
+   42871,
+   7237,
+   1924
+  ],
+  [
+   68124,
+   60943,
+   37,
+   19
+  ],
+  [
+   69288,
+   66078,
+   7548,
+   2167
+  ],
+  [
+   76838,
+   69347,
+   41,
+   25
+  ],
+  [
+   78008,
+   32386,
+   346,
+   326
+  ]
+ ]
+}

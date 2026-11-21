@@ -1,0 +1,96 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "fountain-flow",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "13c24f9cef5f3bdd2c54d2655bb6e118b1a8c8a0cc56f1cddbdb17a292c2ca88"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 14,
+ "writes": 5,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 0,
+ "prompt_tokens": 229874,
+ "cached_tokens": 78004,
+ "completion_tokens": 4932,
+ "reasoning_tokens": 23036,
+ "seconds": 309.4,
+ "llm_seconds": 305.4,
+ "tool_seconds": 3.3,
+ "calls_usage": [
+  [
+   7644,
+   0,
+   235,
+   125
+  ],
+  [
+   7881,
+   0,
+   36,
+   16
+  ],
+  [
+   20284,
+   7427,
+   3581,
+   2969
+  ],
+  [
+   23867,
+   0,
+   20,
+   0
+  ],
+  [
+   22026,
+   18141,
+   10493,
+   9319
+  ],
+  [
+   32521,
+   0,
+   20,
+   0
+  ],
+  [
+   24330,
+   4028,
+   7809,
+   6547
+  ],
+  [
+   32141,
+   24249,
+   20,
+   0
+  ],
+  [
+   26722,
+   24159,
+   5734,
+   4060
+  ],
+  [
+   32458,
+   0,
+   20,
+   0
+  ]
+ ]
+}

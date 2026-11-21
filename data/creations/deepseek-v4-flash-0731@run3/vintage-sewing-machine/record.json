@@ -1,0 +1,108 @@
+{
+ "config": "deepseek-v4-flash-0731@run3",
+ "task": "vintage-sewing-machine",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "c83fbefbe643ef7c7c43846c2b68c4478ca9fb9a71cd866172d556789072552b"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 14,
+ "writes": 7,
+ "model_rounds": 12,
+ "llm_calls": 12,
+ "retries": 0,
+ "prompt_tokens": 188228,
+ "cached_tokens": 0,
+ "completion_tokens": 50204,
+ "reasoning_tokens": 45815,
+ "seconds": 569.3,
+ "llm_seconds": 565.9,
+ "tool_seconds": 2.7,
+ "calls_usage": [
+  [
+   7669,
+   0,
+   27385,
+   25667
+  ],
+  [
+   9402,
+   0,
+   969,
+   924
+  ],
+  [
+   9569,
+   0,
+   206,
+   78
+  ],
+  [
+   9711,
+   0,
+   45,
+   0
+  ],
+  [
+   14501,
+   0,
+   12057,
+   10550
+  ],
+  [
+   16023,
+   0,
+   45,
+   0
+  ],
+  [
+   16648,
+   0,
+   144,
+   28
+  ],
+  [
+   16778,
+   0,
+   45,
+   0
+  ],
+  [
+   21570,
+   0,
+   6955,
+   6615
+  ],
+  [
+   21924,
+   0,
+   2057,
+   1853
+  ],
+  [
+   22142,
+   0,
+   235,
+   100
+  ],
+  [
+   22291,
+   0,
+   61,
+   0
+  ]
+ ]
+}

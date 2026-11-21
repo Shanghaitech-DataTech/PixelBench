@@ -1,0 +1,54 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "fast-food-combo",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "fe89d9f23f0579acbbbcb6b351693460aa95b5fe2466547eda50a039511c2db7"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 39,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 32911,
+ "cached_tokens": 0,
+ "completion_tokens": 4291,
+ "reasoning_tokens": 442,
+ "seconds": 100.9,
+ "llm_seconds": 99.2,
+ "tool_seconds": 1.0,
+ "calls_usage": [
+  [
+   7791,
+   0,
+   4076,
+   421
+  ],
+  [
+   11465,
+   0,
+   61,
+   21
+  ],
+  [
+   13655,
+   0,
+   154,
+   0
+  ]
+ ]
+}

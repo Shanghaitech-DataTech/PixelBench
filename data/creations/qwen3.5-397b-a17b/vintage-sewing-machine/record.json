@@ -1,0 +1,66 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "vintage-sewing-machine",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "d9eadb2cad935c187f1da92dfd8be469bd5a2148a734b9000798f4d14af9a702"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 15,
+ "writes": 1,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 50140,
+ "cached_tokens": 0,
+ "completion_tokens": 3515,
+ "reasoning_tokens": 1466,
+ "seconds": 91.7,
+ "llm_seconds": 89.4,
+ "tool_seconds": 1.7,
+ "calls_usage": [
+  [
+   7751,
+   0,
+   3176,
+   1398
+  ],
+  [
+   9548,
+   0,
+   40,
+   12
+  ],
+  [
+   9701,
+   0,
+   84,
+   56
+  ],
+  [
+   11482,
+   0,
+   51,
+   0
+  ],
+  [
+   11658,
+   0,
+   164,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "config": "gpt-5.6-sol@run3",
+ "task": "magic-staff",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "14410b2dacf46a2e8f325c870175412a665e28b18267929fb1f7c9bb2fdee0d4"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 12,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 38867,
+ "cached_tokens": 35456,
+ "completion_tokens": 2601,
+ "reasoning_tokens": 335,
+ "seconds": 68.5,
+ "llm_seconds": 66.5,
+ "tool_seconds": 1.4,
+ "calls_usage": [
+  [
+   11385,
+   11008,
+   2260,
+   104
+  ],
+  [
+   13554,
+   11008,
+   18,
+   0
+  ],
+  [
+   13928,
+   13440,
+   323,
+   231
+  ]
+ ]
+}

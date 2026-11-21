@@ -1,0 +1,96 @@
+{
+ "config": "deepseek-v4-flash-0731@effort-none",
+ "task": "portable-cassette-player",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "40c54620965222bd2e9ebff18386507f581bc666aa508f8e7e106fa0c7777432"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 19,
+ "writes": 4,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 0,
+ "prompt_tokens": 129592,
+ "cached_tokens": 0,
+ "completion_tokens": 9869,
+ "reasoning_tokens": 0,
+ "seconds": 231.9,
+ "llm_seconds": 228.5,
+ "tool_seconds": 2.6,
+ "calls_usage": [
+  [
+   7595,
+   0,
+   60,
+   0
+  ],
+  [
+   7668,
+   0,
+   1885,
+   0
+  ],
+  [
+   9568,
+   0,
+   52,
+   0
+  ],
+  [
+   10447,
+   0,
+   1929,
+   0
+  ],
+  [
+   12391,
+   0,
+   44,
+   0
+  ],
+  [
+   13320,
+   0,
+   1825,
+   0
+  ],
+  [
+   15160,
+   0,
+   44,
+   0
+  ],
+  [
+   16043,
+   0,
+   2238,
+   0
+  ],
+  [
+   18296,
+   0,
+   44,
+   0
+  ],
+  [
+   19104,
+   0,
+   1748,
+   0
+  ]
+ ]
+}

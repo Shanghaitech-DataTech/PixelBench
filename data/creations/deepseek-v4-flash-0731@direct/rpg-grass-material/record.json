@@ -1,0 +1,45 @@
+{
+ "config": "deepseek-v4-flash-0731@direct",
+ "task": "rpg-grass-material",
+ "ok": true,
+ "error": null,
+ "termination": "answered",
+ "frames": 1,
+ "colors": 6,
+ "parse": {
+  "ok": true,
+  "diags": [
+   {
+    "declared": [
+     16,
+     16
+    ],
+    "size": [
+     16,
+     16
+    ],
+    "rows": 16,
+    "rows_wrong_length": 0,
+    "rows_beyond_tolerance": 0,
+    "rows_missing": 0,
+    "rows_extra": 0,
+    "undeclared_pixels": 0
+   }
+  ]
+ },
+ "max_tokens": 131072,
+ "time_limit_s": 3600.0,
+ "finish_reason": "stop",
+ "prompt_tokens": 496,
+ "completion_tokens": 72700,
+ "reasoning_tokens": 72489,
+ "seconds": 1192.9,
+ "calls_usage": [
+  [
+   496,
+   0,
+   72700,
+   72489
+  ]
+ ]
+}

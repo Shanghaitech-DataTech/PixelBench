@@ -1,0 +1,96 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "glow-jellyfish",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "5f0b42cf9d0aa31f156881a2ecc8964ae75643e9f18df9f49e2027bfd086676e"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 10,
+ "writes": 5,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 0,
+ "prompt_tokens": 145480,
+ "cached_tokens": 0,
+ "completion_tokens": 13110,
+ "reasoning_tokens": 927,
+ "seconds": 329.6,
+ "llm_seconds": 326.7,
+ "tool_seconds": 2.3,
+ "calls_usage": [
+  [
+   7753,
+   0,
+   1902,
+   283
+  ],
+  [
+   9391,
+   0,
+   59,
+   19
+  ],
+  [
+   9874,
+   0,
+   3772,
+   153
+  ],
+  [
+   13511,
+   0,
+   40,
+   0
+  ],
+  [
+   13930,
+   0,
+   429,
+   0
+  ],
+  [
+   14377,
+   0,
+   40,
+   0
+  ],
+  [
+   14863,
+   0,
+   4166,
+   0
+  ],
+  [
+   19047,
+   0,
+   2530,
+   472
+  ],
+  [
+   21124,
+   0,
+   40,
+   0
+  ],
+  [
+   21610,
+   0,
+   132,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "config": "claude-opus-5",
+ "task": "fast-food-combo",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0011",
+  "source_hashes": {
+   "main.py": "30f38f57016f2bc8d23ea066fa3dc252e3d61c51b4ca09010c213710d9912514"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 46,
+ "writes": 18,
+ "model_rounds": 15,
+ "llm_calls": 15,
+ "retries": 8,
+ "prompt_tokens": 284135,
+ "cached_tokens": 246884,
+ "completion_tokens": 8275,
+ "reasoning_tokens": 0,
+ "seconds": 1372.8,
+ "llm_seconds": 528.2,
+ "tool_seconds": 7.5,
+ "calls_usage": [
+  [
+   7873,
+   7561,
+   2058,
+   0
+  ],
+  [
+   10848,
+   8823,
+   2165,
+   0
+  ],
+  [
+   14238,
+   12073,
+   1706,
+   0
+  ],
+  [
+   17544,
+   15271,
+   322,
+   0
+  ],
+  [
+   18180,
+   17705,
+   396,
+   0
+  ],
+  [
+   19091,
+   18296,
+   378,
+   0
+  ],
+  [
+   19771,
+   18952,
+   215,
+   0
+  ],
+  [
+   20538,
+   19081,
+   154,
+   0
+  ],
+  [
+   20697,
+   20422,
+   7,
+   0
+  ],
+  [
+   21243,
+   20631,
+   492,
+   0
+  ],
+  [
+   22017,
+   21347,
+   7,
+   0
+  ],
+  [
+   22563,
+   21547,
+   220,
+   0
+  ],
+  [
+   22789,
+   22487,
+   7,
+   0
+  ],
+  [
+   23333,
+   22688,
+   104,
+   0
+  ],
+  [
+   23410,
+   0,
+   44,
+   0
+  ]
+ ]
+}

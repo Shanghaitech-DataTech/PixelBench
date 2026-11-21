@@ -1,0 +1,54 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "leather-spellbook",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "11323e26a72da2598add7a977c66c143479137389009eaa3b67bac1b54310df8"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 9,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 26954,
+ "cached_tokens": 0,
+ "completion_tokens": 2099,
+ "reasoning_tokens": 409,
+ "seconds": 52.2,
+ "llm_seconds": 50.7,
+ "tool_seconds": 0.9,
+ "calls_usage": [
+  [
+   7757,
+   0,
+   1907,
+   392
+  ],
+  [
+   9291,
+   0,
+   45,
+   17
+  ],
+  [
+   9906,
+   0,
+   147,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,150 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "bat-flapping-wings",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0010",
+  "source_hashes": {
+   "main.py": "e2391e73fb83353625ede0e4355a2b181926bfec02b2d1d3fe10298575043810"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 9,
+ "writes": 9,
+ "model_rounds": 19,
+ "llm_calls": 19,
+ "retries": 0,
+ "prompt_tokens": 386954,
+ "cached_tokens": 208408,
+ "completion_tokens": 5619,
+ "reasoning_tokens": 20659,
+ "seconds": 296.7,
+ "llm_seconds": 291.1,
+ "tool_seconds": 4.9,
+ "calls_usage": [
+  [
+   7781,
+   0,
+   133,
+   91
+  ],
+  [
+   7916,
+   0,
+   37,
+   17
+  ],
+  [
+   8369,
+   5935,
+   3046,
+   2497
+  ],
+  [
+   11417,
+   0,
+   34,
+   14
+  ],
+  [
+   11840,
+   7960,
+   1354,
+   1016
+  ],
+  [
+   13196,
+   7968,
+   28,
+   8
+  ],
+  [
+   13986,
+   9959,
+   713,
+   268
+  ],
+  [
+   14701,
+   0,
+   32,
+   12
+  ],
+  [
+   15122,
+   0,
+   5216,
+   4419
+  ],
+  [
+   20340,
+   4003,
+   31,
+   11
+  ],
+  [
+   20856,
+   14004,
+   4482,
+   3696
+  ],
+  [
+   25340,
+   20068,
+   26,
+   6
+  ],
+  [
+   25847,
+   22063,
+   2900,
+   2115
+  ],
+  [
+   28749,
+   12049,
+   27,
+   7
+  ],
+  [
+   29263,
+   24087,
+   2117,
+   1312
+  ],
+  [
+   31382,
+   28116,
+   30,
+   10
+  ],
+  [
+   31985,
+   20075,
+   2411,
+   1539
+  ],
+  [
+   34398,
+   0,
+   43,
+   23
+  ],
+  [
+   34466,
+   32121,
+   3618,
+   3598
+  ]
+ ]
+}

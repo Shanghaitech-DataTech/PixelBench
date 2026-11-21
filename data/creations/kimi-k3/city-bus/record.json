@@ -1,0 +1,60 @@
+{
+ "config": "kimi-k3",
+ "task": "city-bus",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "49c50b51cfad5883411ae36a35e25e7716dce29fbcc191f9f09614c07d7de383"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 18,
+ "writes": 2,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 33152,
+ "cached_tokens": 24027,
+ "completion_tokens": 23338,
+ "reasoning_tokens": 21948,
+ "seconds": 694.9,
+ "llm_seconds": 692.5,
+ "tool_seconds": 1.1,
+ "calls_usage": [
+  [
+   7231,
+   0,
+   21139,
+   20043
+  ],
+  [
+   8358,
+   7168,
+   52,
+   0
+  ],
+  [
+   8679,
+   8192,
+   2080,
+   1905
+  ],
+  [
+   8884,
+   8667,
+   67,
+   0
+  ]
+ ]
+}

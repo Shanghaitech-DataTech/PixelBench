@@ -1,0 +1,72 @@
+{
+ "config": "gpt-6-astra@no-vision",
+ "task": "red-roofed-forge-house",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "d8c3482db235b7893bac0c701b584962a4665d86b7f9eaab585260f3f90655fa"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 35,
+ "writes": 2,
+ "model_rounds": 6,
+ "llm_calls": 6,
+ "retries": 0,
+ "prompt_tokens": 92063,
+ "cached_tokens": 76672,
+ "completion_tokens": 5241,
+ "reasoning_tokens": 1218,
+ "seconds": 101.4,
+ "llm_seconds": 98.9,
+ "tool_seconds": 1.7,
+ "calls_usage": [
+  [
+   11406,
+   0,
+   85,
+   13
+  ],
+  [
+   11490,
+   11264,
+   30,
+   9
+  ],
+  [
+   11601,
+   11392,
+   4623,
+   886
+  ],
+  [
+   13690,
+   11520,
+   96,
+   76
+  ],
+  [
+   29563,
+   28544,
+   385,
+   234
+  ],
+  [
+   14313,
+   13952,
+   22,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "config": "gpt-5.6-sol",
+ "task": "e-scooter-rider",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "df476b40b18dcedb69d4cb35fc9f6872733fd78053a3e68ee950512e0b6ae933"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 16,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 37805,
+ "cached_tokens": 35200,
+ "completion_tokens": 2080,
+ "reasoning_tokens": 357,
+ "seconds": 46.9,
+ "llm_seconds": 44.9,
+ "tool_seconds": 1.3,
+ "calls_usage": [
+  [
+   11401,
+   11008,
+   1685,
+   86
+  ],
+  [
+   13013,
+   11264,
+   22,
+   0
+  ],
+  [
+   13391,
+   12928,
+   373,
+   271
+  ]
+ ]
+}

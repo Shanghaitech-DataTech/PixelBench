@@ -1,0 +1,60 @@
+{
+ "config": "gpt-6-astra@no-vision",
+ "task": "cyberpunk-alley",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "3e86e25c833dc781c08d5b17fed8c86d977c54924fbcdf6330d973f7da2aadf6"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 52,
+ "writes": 2,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 1,
+ "prompt_tokens": 82351,
+ "cached_tokens": 52352,
+ "completion_tokens": 11411,
+ "reasoning_tokens": 1213,
+ "seconds": 237.8,
+ "llm_seconds": 210.5,
+ "tool_seconds": 1.8,
+ "calls_usage": [
+  [
+   11234,
+   0,
+   10754,
+   933
+  ],
+  [
+   16705,
+   0,
+   18,
+   0
+  ],
+  [
+   36523,
+   34944,
+   604,
+   269
+  ],
+  [
+   17889,
+   17408,
+   35,
+   11
+  ]
+ ]
+}

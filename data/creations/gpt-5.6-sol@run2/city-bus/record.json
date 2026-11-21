@@ -1,0 +1,60 @@
+{
+ "config": "gpt-5.6-sol@run2",
+ "task": "city-bus",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "b3d141a481630fdaa8e5e1d018a12c2dc7b0f14acffffcf162be1b3f771874da"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 21,
+ "writes": 1,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 49208,
+ "cached_tokens": 46464,
+ "completion_tokens": 1875,
+ "reasoning_tokens": 244,
+ "seconds": 58.2,
+ "llm_seconds": 56.1,
+ "tool_seconds": 1.3,
+ "calls_usage": [
+  [
+   11404,
+   11008,
+   82,
+   18
+  ],
+  [
+   11480,
+   11264,
+   1581,
+   120
+  ],
+  [
+   12954,
+   11392,
+   22,
+   0
+  ],
+  [
+   13370,
+   12800,
+   190,
+   106
+  ]
+ ]
+}

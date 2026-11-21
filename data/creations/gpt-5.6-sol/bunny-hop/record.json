@@ -1,0 +1,90 @@
+{
+ "config": "gpt-5.6-sol",
+ "task": "bunny-hop",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "06b84a3fd63d6952d56bc05a637cdf9b44aa640985cf467361fd21d38fb7c85e"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 8,
+ "writes": 4,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 126481,
+ "cached_tokens": 115072,
+ "completion_tokens": 2705,
+ "reasoning_tokens": 887,
+ "seconds": 82.4,
+ "llm_seconds": 78.5,
+ "tool_seconds": 3.3,
+ "calls_usage": [
+  [
+   11617,
+   11008,
+   133,
+   15
+  ],
+  [
+   11748,
+   11008,
+   18,
+   0
+  ],
+  [
+   13323,
+   11648,
+   303,
+   120
+  ],
+  [
+   13518,
+   13184,
+   18,
+   0
+  ],
+  [
+   13787,
+   13312,
+   1688,
+   547
+  ],
+  [
+   14940,
+   13568,
+   18,
+   0
+  ],
+  [
+   15506,
+   11008,
+   343,
+   123
+  ],
+  [
+   15738,
+   14720,
+   18,
+   0
+  ],
+  [
+   16304,
+   15616,
+   166,
+   82
+  ]
+ ]
+}

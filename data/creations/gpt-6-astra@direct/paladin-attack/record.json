@@ -1,0 +1,61 @@
+{
+ "config": "gpt-6-astra@direct",
+ "task": "paladin-attack",
+ "ok": true,
+ "error": null,
+ "termination": "answered",
+ "frames": 2,
+ "colors": 41,
+ "parse": {
+  "ok": true,
+  "diags": [
+   {
+    "declared": [
+     51,
+     61
+    ],
+    "size": [
+     51,
+     61
+    ],
+    "rows": 61,
+    "rows_wrong_length": 0,
+    "rows_beyond_tolerance": 0,
+    "rows_missing": 0,
+    "rows_extra": 0,
+    "undeclared_pixels": 0
+   },
+   {
+    "declared": [
+     51,
+     61
+    ],
+    "size": [
+     51,
+     61
+    ],
+    "rows": 61,
+    "rows_wrong_length": 11,
+    "rows_beyond_tolerance": 0,
+    "rows_missing": 0,
+    "rows_extra": 0,
+    "undeclared_pixels": 0
+   }
+  ]
+ },
+ "max_tokens": 131072,
+ "time_limit_s": 3600.0,
+ "finish_reason": "stop",
+ "prompt_tokens": 6096,
+ "completion_tokens": 7402,
+ "reasoning_tokens": 4605,
+ "seconds": 206.3,
+ "calls_usage": [
+  [
+   6096,
+   4224,
+   7402,
+   4605
+  ]
+ ]
+}

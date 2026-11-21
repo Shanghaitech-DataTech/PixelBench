@@ -1,0 +1,108 @@
+{
+ "config": "glm-5.3-flash@effort-high",
+ "task": "blue-cloak-girl-mage",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "66c6bc0c336b195709b194879b1fc5fceb2dcf8f8a0885e7e53faefa6882ea01"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 19,
+ "writes": 8,
+ "model_rounds": 12,
+ "llm_calls": 12,
+ "retries": 0,
+ "prompt_tokens": 133496,
+ "cached_tokens": 0,
+ "completion_tokens": 28022,
+ "reasoning_tokens": 25710,
+ "seconds": 530.6,
+ "llm_seconds": 527.8,
+ "tool_seconds": 2.2,
+ "calls_usage": [
+  [
+   7304,
+   0,
+   18187,
+   16742
+  ],
+  [
+   8757,
+   0,
+   12,
+   0
+  ],
+  [
+   10137,
+   0,
+   5680,
+   5530
+  ],
+  [
+   10294,
+   0,
+   90,
+   0
+  ],
+  [
+   10391,
+   0,
+   152,
+   0
+  ],
+  [
+   10550,
+   0,
+   12,
+   0
+  ],
+  [
+   11959,
+   0,
+   3437,
+   3322
+  ],
+  [
+   12081,
+   0,
+   129,
+   0
+  ],
+  [
+   12217,
+   0,
+   67,
+   0
+  ],
+  [
+   12291,
+   0,
+   12,
+   0
+  ],
+  [
+   13699,
+   0,
+   226,
+   116
+  ],
+  [
+   13816,
+   0,
+   18,
+   0
+  ]
+ ]
+}

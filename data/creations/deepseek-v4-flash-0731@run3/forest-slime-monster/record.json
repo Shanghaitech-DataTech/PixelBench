@@ -1,0 +1,90 @@
+{
+ "config": "deepseek-v4-flash-0731@run3",
+ "task": "forest-slime-monster",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "b316ca80918ec9eda318f0c698a4f1e736c3fdaa761401d98d4d82df339be952"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 16,
+ "writes": 9,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 138036,
+ "cached_tokens": 0,
+ "completion_tokens": 48158,
+ "reasoning_tokens": 41153,
+ "seconds": 530.5,
+ "llm_seconds": 528.3,
+ "tool_seconds": 1.6,
+ "calls_usage": [
+  [
+   7681,
+   0,
+   37444,
+   34562
+  ],
+  [
+   10578,
+   0,
+   55,
+   10
+  ],
+  [
+   13420,
+   0,
+   5046,
+   3863
+  ],
+  [
+   14639,
+   0,
+   1824,
+   924
+  ],
+  [
+   15572,
+   0,
+   1012,
+   132
+  ],
+  [
+   16466,
+   0,
+   393,
+   348
+  ],
+  [
+   19306,
+   0,
+   1776,
+   1107
+  ],
+  [
+   20010,
+   0,
+   510,
+   170
+  ],
+  [
+   20364,
+   0,
+   98,
+   37
+  ]
+ ]
+}

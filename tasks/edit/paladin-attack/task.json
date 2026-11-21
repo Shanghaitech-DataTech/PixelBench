@@ -1,0 +1,23 @@
+{
+  "id": "paladin-attack",
+  "task_type": "edit",
+  "prompt": "2 frames. Frame 1 keeps the original picture content (the canvas may be changed); frame 2 shows the paladin swinging the weapon in hand down in a heavy attack. A white motion trail streams out behind the weapon. The footing changes as well: as the weapon comes down, the left foot also steps forward to put weight behind the blow.",
+  "width": 43,
+  "height": 61,
+  "constraints": {
+    "max_colors": null,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 15,
+    "max_code_seconds": 120
+  },
+  "input_size": {
+    "width": 43,
+    "height": 61
+  },
+  "output_size": "agent_defined",
+  "num_frames": 2,
+  "frames_visible": false
+}

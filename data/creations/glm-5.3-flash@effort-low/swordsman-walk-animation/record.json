@@ -1,0 +1,84 @@
+{
+ "config": "glm-5.3-flash@effort-low",
+ "task": "swordsman-walk-animation",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "5d0eb9c9e7c989c56c7c53e5f2d003f67f0e9bdaf902f065c77c59fa19395d6a"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 14,
+ "writes": 4,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 0,
+ "prompt_tokens": 83859,
+ "cached_tokens": 0,
+ "completion_tokens": 3564,
+ "reasoning_tokens": 1053,
+ "seconds": 77.0,
+ "llm_seconds": 74.3,
+ "tool_seconds": 2.1,
+ "calls_usage": [
+  [
+   7310,
+   0,
+   1446,
+   328
+  ],
+  [
+   8436,
+   0,
+   12,
+   0
+  ],
+  [
+   9450,
+   0,
+   1808,
+   666
+  ],
+  [
+   10600,
+   0,
+   12,
+   0
+  ],
+  [
+   11628,
+   0,
+   115,
+   0
+  ],
+  [
+   11750,
+   0,
+   18,
+   0
+  ],
+  [
+   12301,
+   0,
+   135,
+   59
+  ],
+  [
+   12384,
+   0,
+   18,
+   0
+  ]
+ ]
+}

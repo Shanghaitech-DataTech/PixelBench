@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@run2",
+ "task": "monarch-butterfly",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "eae717efa746cfa249d5d9cd5af44b3d001c8fb155a7c685e81c76d60fa25e7a"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 12,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 35586,
+ "cached_tokens": 34688,
+ "completion_tokens": 1038,
+ "reasoning_tokens": 19,
+ "seconds": 57.3,
+ "llm_seconds": 53.9,
+ "tool_seconds": 1.4,
+ "calls_usage": [
+  [
+   11111,
+   10752,
+   977,
+   0
+  ],
+  [
+   12103,
+   11904,
+   18,
+   0
+  ],
+  [
+   12372,
+   12032,
+   43,
+   19
+  ]
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "config": "deepseek-v4-flash-0731@direct",
+ "task": "minecraft-dirt-material",
+ "ok": true,
+ "error": null,
+ "termination": "answered",
+ "frames": 1,
+ "colors": 8,
+ "parse": {
+  "ok": true,
+  "diags": [
+   {
+    "declared": [
+     16,
+     16
+    ],
+    "size": [
+     16,
+     16
+    ],
+    "rows": 16,
+    "rows_wrong_length": 0,
+    "rows_beyond_tolerance": 0,
+    "rows_missing": 0,
+    "rows_extra": 0,
+    "undeclared_pixels": 0
+   }
+  ]
+ },
+ "max_tokens": 131072,
+ "time_limit_s": 3600.0,
+ "finish_reason": "stop",
+ "prompt_tokens": 478,
+ "completion_tokens": 15106,
+ "reasoning_tokens": 14912,
+ "seconds": 190.0,
+ "calls_usage": [
+  [
+   478,
+   0,
+   15106,
+   14912
+  ]
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "release-flames",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "3ac19ddaf6176675b8cb44be410e3d8494dd420b76d15c75b3a6d93fb959a3fc"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 21,
+ "writes": 5,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 0,
+ "prompt_tokens": 115197,
+ "cached_tokens": 0,
+ "completion_tokens": 5244,
+ "reasoning_tokens": 412,
+ "seconds": 128.7,
+ "llm_seconds": 125.1,
+ "tool_seconds": 2.9,
+ "calls_usage": [
+  [
+   8002,
+   0,
+   188,
+   30
+  ],
+  [
+   8179,
+   0,
+   39,
+   11
+  ],
+  [
+   9541,
+   0,
+   1102,
+   236
+  ],
+  [
+   10426,
+   0,
+   46,
+   18
+  ],
+  [
+   10685,
+   0,
+   1361,
+   75
+  ],
+  [
+   11990,
+   0,
+   47,
+   19
+  ],
+  [
+   12248,
+   0,
+   1259,
+   23
+  ],
+  [
+   13503,
+   0,
+   28,
+   0
+  ],
+  [
+   14735,
+   0,
+   1134,
+   0
+  ],
+  [
+   15888,
+   0,
+   40,
+   0
+  ]
+ ]
+}

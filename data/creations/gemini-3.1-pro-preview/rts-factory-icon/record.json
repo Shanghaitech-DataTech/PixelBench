@@ -1,0 +1,42 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "rts-factory-icon",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0001",
+  "source_hashes": {
+   "main.py": "4a45695a835faac7f0310f83fa8f8959eb44ff36cc727c789d184ace6cff77d2"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 17,
+ "writes": 1,
+ "model_rounds": 1,
+ "llm_calls": 1,
+ "retries": 0,
+ "prompt_tokens": 7554,
+ "cached_tokens": 0,
+ "completion_tokens": 2171,
+ "reasoning_tokens": 22487,
+ "seconds": 220.1,
+ "llm_seconds": 219.1,
+ "tool_seconds": 0.5,
+ "calls_usage": [
+  [
+   7554,
+   0,
+   24658,
+   22487
+  ]
+ ]
+}

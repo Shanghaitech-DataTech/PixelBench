@@ -1,0 +1,102 @@
+{
+ "config": "glm-5.3-flash",
+ "task": "chart-layout",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "52ed25208017eac04b90a520859c47af8eda0681a1f7380f187f80fc6cca38c6"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 23,
+ "writes": 12,
+ "model_rounds": 11,
+ "llm_calls": 11,
+ "retries": 0,
+ "prompt_tokens": 128201,
+ "cached_tokens": 0,
+ "completion_tokens": 46383,
+ "reasoning_tokens": 43001,
+ "seconds": 620.9,
+ "llm_seconds": 614.9,
+ "tool_seconds": 3.1,
+ "calls_usage": [
+  [
+   7302,
+   0,
+   16359,
+   16329
+  ],
+  [
+   7427,
+   0,
+   22723,
+   20922
+  ],
+  [
+   9236,
+   0,
+   39,
+   10
+  ],
+  [
+   10198,
+   0,
+   1128,
+   1092
+  ],
+  [
+   11167,
+   0,
+   3334,
+   2895
+  ],
+  [
+   11623,
+   0,
+   229,
+   0
+  ],
+  [
+   11859,
+   0,
+   18,
+   0
+  ],
+  [
+   13914,
+   0,
+   1689,
+   1146
+  ],
+  [
+   14489,
+   0,
+   692,
+   532
+  ],
+  [
+   14656,
+   0,
+   18,
+   0
+  ],
+  [
+   16330,
+   0,
+   154,
+   75
+  ]
+ ]
+}

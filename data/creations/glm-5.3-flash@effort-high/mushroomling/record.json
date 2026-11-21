@@ -1,0 +1,54 @@
+{
+ "config": "glm-5.3-flash@effort-high",
+ "task": "mushroomling",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "030a5983dd5be7927f67b372136953038879b4ef3ca0222bb75a2a0d13ea0dfb"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 5,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 23089,
+ "cached_tokens": 0,
+ "completion_tokens": 5759,
+ "reasoning_tokens": 5246,
+ "seconds": 65.9,
+ "llm_seconds": 64.3,
+ "tool_seconds": 1.0,
+ "calls_usage": [
+  [
+   7296,
+   0,
+   5405,
+   4959
+  ],
+  [
+   7750,
+   0,
+   12,
+   0
+  ],
+  [
+   8043,
+   0,
+   342,
+   287
+  ]
+ ]
+}

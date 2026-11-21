@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@effort-xhigh",
+ "task": "minecraft-dirt-material",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "1c7f06675b70eb550036f8420338c89006d83c46d49fcaa281174ada92749e22"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 8,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 10,
+ "prompt_tokens": 37108,
+ "cached_tokens": 32512,
+ "completion_tokens": 2258,
+ "reasoning_tokens": 577,
+ "seconds": 365.9,
+ "llm_seconds": 232.1,
+ "tool_seconds": 1.1,
+ "calls_usage": [
+  [
+   11128,
+   10752,
+   2115,
+   518
+  ],
+  [
+   12740,
+   10752,
+   18,
+   0
+  ],
+  [
+   13240,
+   11008,
+   125,
+   59
+  ]
+ ]
+}

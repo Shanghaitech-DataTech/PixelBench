@@ -1,0 +1,60 @@
+{
+ "config": "gpt-6-astra@run2",
+ "task": "item-icon",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "53a954760beee5fe2aff3d1e5a71f7fa4a70d5bdb1ddd4ffd72c4fc838541de4"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 16,
+ "writes": 2,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 5,
+ "prompt_tokens": 49223,
+ "cached_tokens": 46208,
+ "completion_tokens": 1634,
+ "reasoning_tokens": 142,
+ "seconds": 151.4,
+ "llm_seconds": 92.8,
+ "tool_seconds": 1.2,
+ "calls_usage": [
+  [
+   11129,
+   10752,
+   1360,
+   0
+  ],
+  [
+   12504,
+   12288,
+   18,
+   0
+  ],
+  [
+   12743,
+   10752,
+   234,
+   142
+  ],
+  [
+   12847,
+   12416,
+   22,
+   0
+  ]
+ ]
+}

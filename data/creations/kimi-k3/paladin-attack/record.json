@@ -1,0 +1,96 @@
+{
+ "config": "kimi-k3",
+ "task": "paladin-attack",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "0d1a96cdcd8264c99e0ee4a1af2a3aea0a185a8ee50cb9ad0ca63edf07e4e3ec"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 47,
+ "writes": 4,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 0,
+ "prompt_tokens": 101319,
+ "cached_tokens": 94879,
+ "completion_tokens": 53391,
+ "reasoning_tokens": 51332,
+ "seconds": 1497.7,
+ "llm_seconds": 1494.3,
+ "tool_seconds": 2.8,
+ "calls_usage": [
+  [
+   7484,
+   6912,
+   92,
+   24
+  ],
+  [
+   7679,
+   7424,
+   117,
+   30
+  ],
+  [
+   7797,
+   7680,
+   52,
+   0
+  ],
+  [
+   9747,
+   7680,
+   94,
+   13
+  ],
+  [
+   9859,
+   9728,
+   52,
+   0
+  ],
+  [
+   10249,
+   9728,
+   52394,
+   51174
+  ],
+  [
+   11500,
+   10240,
+   52,
+   0
+  ],
+  [
+   11947,
+   11264,
+   328,
+   0
+  ],
+  [
+   12305,
+   11935,
+   52,
+   0
+  ],
+  [
+   12752,
+   12288,
+   158,
+   91
+  ]
+ ]
+}

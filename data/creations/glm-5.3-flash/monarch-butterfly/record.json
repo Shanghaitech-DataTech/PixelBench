@@ -1,0 +1,96 @@
+{
+ "config": "glm-5.3-flash",
+ "task": "monarch-butterfly",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "c2ca7608ccc26e006234329a275d5218d0c95ed3734966cb10a09d05a9533732"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 5,
+ "writes": 5,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 0,
+ "prompt_tokens": 103426,
+ "cached_tokens": 0,
+ "completion_tokens": 103437,
+ "reasoning_tokens": 99620,
+ "seconds": 1388.9,
+ "llm_seconds": 1385.6,
+ "tool_seconds": 2.6,
+ "calls_usage": [
+  [
+   7269,
+   0,
+   22749,
+   21939
+  ],
+  [
+   8087,
+   0,
+   12,
+   0
+  ],
+  [
+   8579,
+   0,
+   15128,
+   14312
+  ],
+  [
+   9403,
+   0,
+   12,
+   0
+  ],
+  [
+   9924,
+   0,
+   43300,
+   42409
+  ],
+  [
+   10823,
+   0,
+   12,
+   0
+  ],
+  [
+   11347,
+   0,
+   8354,
+   8074
+  ],
+  [
+   11634,
+   0,
+   12,
+   0
+  ],
+  [
+   12699,
+   0,
+   13840,
+   12886
+  ],
+  [
+   13661,
+   0,
+   18,
+   0
+  ]
+ ]
+}

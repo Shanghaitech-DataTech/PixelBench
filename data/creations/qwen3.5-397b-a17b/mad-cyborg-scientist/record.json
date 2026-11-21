@@ -1,0 +1,120 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "mad-cyborg-scientist",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "665cf69a58bd522f32763e3a6e1adea15d36184588d68cd1e27ed257090fc640"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 48,
+ "writes": 9,
+ "model_rounds": 14,
+ "llm_calls": 14,
+ "retries": 0,
+ "prompt_tokens": 242431,
+ "cached_tokens": 0,
+ "completion_tokens": 7452,
+ "reasoning_tokens": 510,
+ "seconds": 190.1,
+ "llm_seconds": 187.0,
+ "tool_seconds": 2.5,
+ "calls_usage": [
+  [
+   7797,
+   0,
+   5205,
+   493
+  ],
+  [
+   12528,
+   0,
+   45,
+   17
+  ],
+  [
+   12774,
+   0,
+   90,
+   0
+  ],
+  [
+   17551,
+   0,
+   263,
+   0
+  ],
+  [
+   17832,
+   0,
+   130,
+   0
+  ],
+  [
+   17980,
+   0,
+   236,
+   0
+  ],
+  [
+   18234,
+   0,
+   212,
+   0
+  ],
+  [
+   18464,
+   0,
+   222,
+   0
+  ],
+  [
+   18704,
+   0,
+   404,
+   0
+  ],
+  [
+   19126,
+   0,
+   28,
+   0
+  ],
+  [
+   19295,
+   0,
+   178,
+   0
+  ],
+  [
+   19491,
+   0,
+   28,
+   0
+  ],
+  [
+   21133,
+   0,
+   371,
+   0
+  ],
+  [
+   21522,
+   0,
+   40,
+   0
+  ]
+ ]
+}

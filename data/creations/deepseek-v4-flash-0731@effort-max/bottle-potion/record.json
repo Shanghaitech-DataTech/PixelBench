@@ -1,0 +1,84 @@
+{
+ "config": "deepseek-v4-flash-0731@effort-max",
+ "task": "bottle-potion",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "ab88827d716ac48efedb36d903b534b31ccb6d9077e54e20130689392940f605"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 18,
+ "writes": 4,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 0,
+ "prompt_tokens": 81630,
+ "cached_tokens": 0,
+ "completion_tokens": 12207,
+ "reasoning_tokens": 10622,
+ "seconds": 315.0,
+ "llm_seconds": 311.7,
+ "tool_seconds": 2.1,
+ "calls_usage": [
+  [
+   7770,
+   0,
+   132,
+   29
+  ],
+  [
+   7888,
+   0,
+   45,
+   0
+  ],
+  [
+   9628,
+   0,
+   9072,
+   8219
+  ],
+  [
+   10496,
+   0,
+   45,
+   0
+  ],
+  [
+   10906,
+   0,
+   262,
+   83
+  ],
+  [
+   11099,
+   0,
+   245,
+   27
+  ],
+  [
+   11331,
+   0,
+   45,
+   0
+  ],
+  [
+   12512,
+   0,
+   2361,
+   2264
+  ]
+ ]
+}

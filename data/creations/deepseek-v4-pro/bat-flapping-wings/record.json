@@ -1,0 +1,157 @@
+{
+ "config": "deepseek-v4-pro",
+ "task": "bat-flapping-wings",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0010",
+  "source_hashes": {
+   "attrs.py": "15b2e45ff9e1cd492d0107d8e6357d488180407c431fffc343a5659ebe9feadc",
+   "coords.py": "222647d90cf002a01775242b45b6937b4c5d22b434996f6ef51311f86d5a9f3c",
+   "inspect.py": "d1de011ce072585b1590deb6b964a250dfe3d73eaffc88c68989da190889e1b5",
+   "inspect2.py": "f861ecedb45d78c7eeaba94d77bab46bb032994ed5574d06268f5bc51b34aefb",
+   "inspect3.py": "c62eadbe5c2dea1cf64e55e4b4408442dcabb22eb2c323b10abdddaf9abed748",
+   "inspect4.py": "f9a47af87d7666c1bf35f417f6ddd98d95af15ba67febb8189bbe0454059b15e",
+   "main.py": "7a0d10745edb08a066f464e13c4162517f352e557bfd475bb4fca51b9c01c444",
+   "proto.py": "2d64eabc8afc87fc78b8d48a287770763798a04d5ff9fa5015a90a8cd44a2a9f"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 9,
+ "writes": 9,
+ "model_rounds": 19,
+ "llm_calls": 19,
+ "retries": 0,
+ "prompt_tokens": 365509,
+ "cached_tokens": 358656,
+ "completion_tokens": 32250,
+ "reasoning_tokens": 29840,
+ "seconds": 458.9,
+ "llm_seconds": 452.5,
+ "tool_seconds": 5.7,
+ "calls_usage": [
+  [
+   7905,
+   7424,
+   126,
+   37
+  ],
+  [
+   8047,
+   7936,
+   45,
+   0
+  ],
+  [
+   9099,
+   8064,
+   125,
+   32
+  ],
+  [
+   9241,
+   9216,
+   46,
+   0
+  ],
+  [
+   9852,
+   9216,
+   706,
+   537
+  ],
+  [
+   10575,
+   10496,
+   46,
+   0
+  ],
+  [
+   10946,
+   10496,
+   1064,
+   878
+  ],
+  [
+   12027,
+   11904,
+   46,
+   0
+  ],
+  [
+   12409,
+   12032,
+   2486,
+   2313
+  ],
+  [
+   14912,
+   14848,
+   45,
+   0
+  ],
+  [
+   15943,
+   14848,
+   10452,
+   10007
+  ],
+  [
+   26411,
+   26368,
+   44,
+   0
+  ],
+  [
+   26820,
+   26368,
+   175,
+   84
+  ],
+  [
+   27012,
+   26880,
+   44,
+   0
+  ],
+  [
+   27217,
+   27008,
+   101,
+   12
+  ],
+  [
+   27333,
+   27264,
+   44,
+   0
+  ],
+  [
+   27754,
+   27264,
+   12782,
+   12171
+  ],
+  [
+   40552,
+   40448,
+   44,
+   0
+  ],
+  [
+   41454,
+   40576,
+   3829,
+   3769
+  ]
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "config": "gpt-5.6-sol@run2",
+ "task": "blue-cloak-girl-mage",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "946fe8c007e8feb4740d339d1664cc9b08e2eadc8b11c9a214656d89f6d295f0"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 19,
+ "writes": 1,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 1,
+ "prompt_tokens": 50837,
+ "cached_tokens": 47360,
+ "completion_tokens": 3059,
+ "reasoning_tokens": 620,
+ "seconds": 103.2,
+ "llm_seconds": 94.0,
+ "tool_seconds": 1.6,
+ "calls_usage": [
+  [
+   11412,
+   11008,
+   94,
+   16
+  ],
+  [
+   11502,
+   11264,
+   2480,
+   242
+  ],
+  [
+   13753,
+   11392,
+   22,
+   0
+  ],
+  [
+   14170,
+   13696,
+   463,
+   362
+  ]
+ ]
+}

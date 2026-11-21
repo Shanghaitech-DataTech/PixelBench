@@ -1,0 +1,66 @@
+{
+ "config": "gpt-6-astra@run2",
+ "task": "house-turn-2view",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "c3a3169397bd1bac16079c1ed90da598c2b2b5777c81b0a1c6f54ed17bebcf59"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 14,
+ "writes": 2,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 2,
+ "prompt_tokens": 68101,
+ "cached_tokens": 61568,
+ "completion_tokens": 5348,
+ "reasoning_tokens": 1311,
+ "seconds": 249.3,
+ "llm_seconds": 227.3,
+ "tool_seconds": 5.4,
+ "calls_usage": [
+  [
+   11416,
+   10752,
+   76,
+   0
+  ],
+  [
+   11507,
+   11392,
+   18,
+   0
+  ],
+  [
+   12262,
+   11392,
+   4876,
+   1034
+  ],
+  [
+   16117,
+   12032,
+   18,
+   0
+  ],
+  [
+   16799,
+   16000,
+   360,
+   277
+  ]
+ ]
+}

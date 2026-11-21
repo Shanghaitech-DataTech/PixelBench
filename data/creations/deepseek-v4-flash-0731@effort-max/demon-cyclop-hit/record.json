@@ -1,0 +1,157 @@
+{
+ "config": "deepseek-v4-flash-0731@effort-max",
+ "task": "demon-cyclop-hit",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 3,
+  "actual_count": 3,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0010",
+  "source_hashes": {
+   "inspect.py": "e2a32dff480d232f202730aebe666f73aa5f6268ddfeac6559be43726f6642ea",
+   "main.py": "5ccd7e1272c36972e6c47deca14200d4fc04bc3b33f3c2656a1596ad469c9bef"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 3,
+ "colors": 15,
+ "writes": 10,
+ "model_rounds": 20,
+ "llm_calls": 20,
+ "retries": 0,
+ "prompt_tokens": 276008,
+ "cached_tokens": 0,
+ "completion_tokens": 90798,
+ "reasoning_tokens": 85464,
+ "seconds": 1945.8,
+ "llm_seconds": 1939.7,
+ "tool_seconds": 5.4,
+ "calls_usage": [
+  [
+   7968,
+   0,
+   104,
+   16
+  ],
+  [
+   8071,
+   0,
+   45,
+   0
+  ],
+  [
+   8898,
+   0,
+   13723,
+   13486
+  ],
+  [
+   9150,
+   0,
+   45,
+   0
+  ],
+  [
+   9761,
+   0,
+   14495,
+   14230
+  ],
+  [
+   10041,
+   0,
+   45,
+   0
+  ],
+  [
+   10624,
+   0,
+   2722,
+   2518
+  ],
+  [
+   10843,
+   0,
+   45,
+   0
+  ],
+  [
+   12366,
+   0,
+   8643,
+   8468
+  ],
+  [
+   12556,
+   0,
+   45,
+   0
+  ],
+  [
+   13239,
+   0,
+   25764,
+   24290
+  ],
+  [
+   14728,
+   0,
+   45,
+   0
+  ],
+  [
+   15007,
+   0,
+   240,
+   132
+  ],
+  [
+   15130,
+   0,
+   537,
+   243
+  ],
+  [
+   15438,
+   0,
+   45,
+   0
+  ],
+  [
+   17413,
+   0,
+   15869,
+   14265
+  ],
+  [
+   19032,
+   0,
+   45,
+   0
+  ],
+  [
+   21015,
+   0,
+   5338,
+   4995
+  ],
+  [
+   21372,
+   0,
+   45,
+   0
+  ],
+  [
+   23356,
+   0,
+   2958,
+   2821
+  ]
+ ]
+}

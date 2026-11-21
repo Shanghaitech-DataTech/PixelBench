@@ -1,0 +1,102 @@
+{
+ "config": "claude-opus-5",
+ "task": "dining-table",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "main.py": "a062efb19f1f581bb5b5b42cc57338847aa6c024bac2ea8ee9e939835434dc8c"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 22,
+ "writes": 8,
+ "model_rounds": 11,
+ "llm_calls": 11,
+ "retries": 0,
+ "prompt_tokens": 132559,
+ "cached_tokens": 119305,
+ "completion_tokens": 5616,
+ "reasoning_tokens": 0,
+ "seconds": 403.5,
+ "llm_seconds": 399.3,
+ "tool_seconds": 3.7,
+ "calls_usage": [
+  [
+   7842,
+   7058,
+   2362,
+   0
+  ],
+  [
+   9699,
+   8729,
+   863,
+   0
+  ],
+  [
+   10379,
+   9341,
+   7,
+   0
+  ],
+  [
+   10921,
+   9829,
+   446,
+   0
+  ],
+  [
+   11633,
+   10470,
+   7,
+   0
+  ],
+  [
+   12175,
+   10958,
+   506,
+   0
+  ],
+  [
+   12915,
+   11624,
+   7,
+   0
+  ],
+  [
+   13457,
+   12111,
+   571,
+   0
+  ],
+  [
+   14112,
+   12701,
+   7,
+   0
+  ],
+  [
+   14654,
+   13189,
+   828,
+   0
+  ],
+  [
+   14772,
+   13295,
+   12,
+   0
+  ]
+ ]
+}

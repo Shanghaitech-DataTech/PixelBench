@@ -1,0 +1,96 @@
+{
+ "config": "gpt-5.6-sol@run3",
+ "task": "demon-cyclop-hit",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 3,
+  "actual_count": 3,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "54b5fa8404d294a87705ec94c030f9742ac1997e6ab9bba2dbdcb6f008b9f2d6"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 3,
+ "colors": 22,
+ "writes": 4,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 0,
+ "prompt_tokens": 147815,
+ "cached_tokens": 140032,
+ "completion_tokens": 3057,
+ "reasoning_tokens": 1174,
+ "seconds": 121.8,
+ "llm_seconds": 117.9,
+ "tool_seconds": 3.3,
+ "calls_usage": [
+  [
+   11678,
+   11008,
+   83,
+   21
+  ],
+  [
+   11752,
+   11520,
+   132,
+   21
+  ],
+  [
+   11876,
+   11648,
+   22,
+   0
+  ],
+  [
+   14437,
+   11776,
+   618,
+   420
+  ],
+  [
+   14647,
+   14208,
+   22,
+   0
+  ],
+  [
+   15349,
+   14464,
+   1701,
+   516
+  ],
+  [
+   16547,
+   15104,
+   22,
+   0
+  ],
+  [
+   16890,
+   16512,
+   180,
+   36
+  ],
+  [
+   17046,
+   16768,
+   22,
+   0
+  ],
+  [
+   17593,
+   17024,
+   255,
+   160
+  ]
+ ]
+}

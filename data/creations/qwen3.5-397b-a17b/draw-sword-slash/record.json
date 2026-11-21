@@ -1,0 +1,120 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "draw-sword-slash",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "d0cbce7d4c3c6235e26c7407576258d1f658c9c7ea095d2bc2d09f27753c6d8b"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 17,
+ "writes": 7,
+ "model_rounds": 14,
+ "llm_calls": 14,
+ "retries": 0,
+ "prompt_tokens": 189208,
+ "cached_tokens": 0,
+ "completion_tokens": 4802,
+ "reasoning_tokens": 1017,
+ "seconds": 122.1,
+ "llm_seconds": 117.2,
+ "tool_seconds": 4.2,
+ "calls_usage": [
+  [
+   8038,
+   0,
+   127,
+   30
+  ],
+  [
+   8154,
+   0,
+   40,
+   12
+  ],
+  [
+   9040,
+   0,
+   159,
+   15
+  ],
+  [
+   9203,
+   0,
+   49,
+   21
+  ],
+  [
+   11135,
+   0,
+   418,
+   212
+  ],
+  [
+   11360,
+   0,
+   28,
+   0
+  ],
+  [
+   12592,
+   0,
+   880,
+   0
+  ],
+  [
+   13491,
+   0,
+   28,
+   0
+  ],
+  [
+   14421,
+   0,
+   1002,
+   247
+  ],
+  [
+   15195,
+   0,
+   193,
+   165
+  ],
+  [
+   17289,
+   0,
+   744,
+   0
+  ],
+  [
+   18052,
+   0,
+   28,
+   0
+  ],
+  [
+   20234,
+   0,
+   751,
+   0
+  ],
+  [
+   21004,
+   0,
+   355,
+   315
+  ]
+ ]
+}

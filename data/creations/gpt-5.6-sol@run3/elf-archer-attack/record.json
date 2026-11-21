@@ -1,0 +1,90 @@
+{
+ "config": "gpt-5.6-sol@run3",
+ "task": "elf-archer-attack",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "98c59d04da6cf5671201ae68c0b8ced8ff7fb1bceced8f366be67b53c427bbce"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 43,
+ "writes": 4,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 158246,
+ "cached_tokens": 146048,
+ "completion_tokens": 3697,
+ "reasoning_tokens": 1328,
+ "seconds": 132.0,
+ "llm_seconds": 127.1,
+ "tool_seconds": 3.3,
+ "calls_usage": [
+  [
+   11639,
+   11008,
+   138,
+   17
+  ],
+  [
+   11773,
+   11008,
+   18,
+   0
+  ],
+  [
+   15875,
+   11648,
+   332,
+   175
+  ],
+  [
+   16045,
+   15616,
+   18,
+   0
+  ],
+  [
+   18776,
+   16000,
+   2182,
+   516
+  ],
+  [
+   20455,
+   18688,
+   18,
+   0
+  ],
+  [
+   20899,
+   20352,
+   775,
+   516
+  ],
+  [
+   21170,
+   20736,
+   18,
+   0
+  ],
+  [
+   21614,
+   20992,
+   198,
+   104
+  ]
+ ]
+}

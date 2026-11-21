@@ -1,0 +1,6 @@
+names = sorted([n for n in dir() if not n.startswith('_')])
+print(names)
+c = new_canvas(8, 8, name="probe")
+c.rect(1, 1, 4, 4, "#ff0000")
+print(c.stats_text())
+print(type(input_canvas), input_canvas.stats())

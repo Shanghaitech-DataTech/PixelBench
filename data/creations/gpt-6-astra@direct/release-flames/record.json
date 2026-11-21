@@ -1,0 +1,61 @@
+{
+ "config": "gpt-6-astra@direct",
+ "task": "release-flames",
+ "ok": true,
+ "error": null,
+ "termination": "answered",
+ "frames": 2,
+ "colors": 17,
+ "parse": {
+  "ok": true,
+  "diags": [
+   {
+    "declared": [
+     64,
+     63
+    ],
+    "size": [
+     64,
+     63
+    ],
+    "rows": 63,
+    "rows_wrong_length": 5,
+    "rows_beyond_tolerance": 0,
+    "rows_missing": 0,
+    "rows_extra": 0,
+    "undeclared_pixels": 0
+   },
+   {
+    "declared": [
+     64,
+     63
+    ],
+    "size": [
+     64,
+     63
+    ],
+    "rows": 63,
+    "rows_wrong_length": 0,
+    "rows_beyond_tolerance": 0,
+    "rows_missing": 0,
+    "rows_extra": 0,
+    "undeclared_pixels": 0
+   }
+  ]
+ },
+ "max_tokens": 131072,
+ "time_limit_s": 3600.0,
+ "finish_reason": "stop",
+ "prompt_tokens": 5483,
+ "completion_tokens": 8885,
+ "reasoning_tokens": 7128,
+ "seconds": 512.3,
+ "calls_usage": [
+  [
+   5483,
+   4224,
+   8885,
+   7128
+  ]
+ ]
+}

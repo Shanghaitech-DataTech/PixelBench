@@ -1,0 +1,60 @@
+{
+ "config": "gpt-5.6-sol",
+ "task": "dining-table",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "ffa34e8d1309556557a5173708a2c046ac25807112ea28a9084afa10675da7aa"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 23,
+ "writes": 1,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 51087,
+ "cached_tokens": 36224,
+ "completion_tokens": 2965,
+ "reasoning_tokens": 383,
+ "seconds": 68.6,
+ "llm_seconds": 66.7,
+ "tool_seconds": 1.2,
+ "calls_usage": [
+  [
+   11406,
+   11008,
+   85,
+   16
+  ],
+  [
+   11487,
+   0,
+   2710,
+   302
+  ],
+  [
+   13908,
+   11392,
+   22,
+   0
+  ],
+  [
+   14286,
+   13824,
+   148,
+   65
+  ]
+ ]
+}

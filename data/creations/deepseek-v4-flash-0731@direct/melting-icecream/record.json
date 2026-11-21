@@ -1,0 +1,45 @@
+{
+ "config": "deepseek-v4-flash-0731@direct",
+ "task": "melting-icecream",
+ "ok": true,
+ "error": null,
+ "termination": "answered",
+ "frames": 1,
+ "colors": 62,
+ "parse": {
+  "ok": true,
+  "diags": [
+   {
+    "declared": [
+     64,
+     64
+    ],
+    "size": [
+     64,
+     64
+    ],
+    "rows": 62,
+    "rows_wrong_length": 31,
+    "rows_beyond_tolerance": 2,
+    "rows_missing": 2,
+    "rows_extra": 0,
+    "undeclared_pixels": 0
+   }
+  ]
+ },
+ "max_tokens": 131072,
+ "time_limit_s": 3600.0,
+ "finish_reason": "stop",
+ "prompt_tokens": 2075,
+ "completion_tokens": 31202,
+ "reasoning_tokens": 29694,
+ "seconds": 406.6,
+ "calls_usage": [
+  [
+   2075,
+   0,
+   31202,
+   29694
+  ]
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "config": "gpt-6-astra@run3",
+ "task": "east-hero-full-body",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "6e5300cdcf618bc26a201fc93c9db185e6e6e0f9650baa1e35a368baf488acfe"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 49,
+ "writes": 3,
+ "model_rounds": 6,
+ "llm_calls": 6,
+ "retries": 0,
+ "prompt_tokens": 99534,
+ "cached_tokens": 91904,
+ "completion_tokens": 6903,
+ "reasoning_tokens": 696,
+ "seconds": 335.0,
+ "llm_seconds": 326.0,
+ "tool_seconds": 7.2,
+ "calls_usage": [
+  [
+   11175,
+   11008,
+   6478,
+   518
+  ],
+  [
+   17150,
+   11008,
+   18,
+   0
+  ],
+  [
+   17524,
+   17024,
+   301,
+   168
+  ],
+  [
+   17669,
+   17280,
+   22,
+   0
+  ],
+  [
+   17976,
+   17664,
+   62,
+   10
+  ],
+  [
+   18040,
+   17920,
+   22,
+   0
+  ]
+ ]
+}

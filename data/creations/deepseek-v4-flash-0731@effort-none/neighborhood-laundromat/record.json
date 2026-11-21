@@ -1,0 +1,192 @@
+{
+ "config": "deepseek-v4-flash-0731@effort-none",
+ "task": "neighborhood-laundromat",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0010",
+  "source_hashes": {
+   "main.py": "df93816854f482b1e8af28b90ccc5f137d81f120c5974f20381a80bb87993bac"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 25,
+ "writes": 16,
+ "model_rounds": 26,
+ "llm_calls": 26,
+ "retries": 0,
+ "prompt_tokens": 662972,
+ "cached_tokens": 0,
+ "completion_tokens": 14746,
+ "reasoning_tokens": 0,
+ "seconds": 358.4,
+ "llm_seconds": 351.6,
+ "tool_seconds": 6.0,
+ "calls_usage": [
+  [
+   7603,
+   0,
+   1923,
+   0
+  ],
+  [
+   9646,
+   0,
+   144,
+   0
+  ],
+  [
+   9804,
+   0,
+   44,
+   0
+  ],
+  [
+   11910,
+   0,
+   2172,
+   0
+  ],
+  [
+   14097,
+   0,
+   44,
+   0
+  ],
+  [
+   14249,
+   0,
+   113,
+   0
+  ],
+  [
+   14376,
+   0,
+   44,
+   0
+  ],
+  [
+   16622,
+   0,
+   2331,
+   0
+  ],
+  [
+   18968,
+   0,
+   44,
+   0
+  ],
+  [
+   21159,
+   0,
+   2808,
+   0
+  ],
+  [
+   23982,
+   0,
+   44,
+   0
+  ],
+  [
+   26174,
+   0,
+   927,
+   0
+  ],
+  [
+   27115,
+   0,
+   477,
+   0
+  ],
+  [
+   29765,
+   0,
+   599,
+   0
+  ],
+  [
+   30378,
+   0,
+   684,
+   0
+  ],
+  [
+   31095,
+   0,
+   366,
+   0
+  ],
+  [
+   31475,
+   0,
+   252,
+   0
+  ],
+  [
+   31741,
+   0,
+   108,
+   0
+  ],
+  [
+   34078,
+   0,
+   463,
+   0
+  ],
+  [
+   34574,
+   0,
+   182,
+   0
+  ],
+  [
+   34770,
+   0,
+   171,
+   0
+  ],
+  [
+   34955,
+   0,
+   54,
+   0
+  ],
+  [
+   37242,
+   0,
+   447,
+   0
+  ],
+  [
+   37713,
+   0,
+   53,
+   0
+  ],
+  [
+   39641,
+   0,
+   185,
+   0
+  ],
+  [
+   39840,
+   0,
+   67,
+   0
+  ]
+ ]
+}

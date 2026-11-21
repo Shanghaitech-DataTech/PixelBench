@@ -1,0 +1,139 @@
+{
+ "config": "qwen3.8-max",
+ "task": "two-character-standoff",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "art.py": "3fe870abfd08266232b588fb83b8d217c8370a00df4129c4c0ce9579ef27c275",
+   "main.py": "6df5e7cacdb4b97e2c52b1d619c4b9699dfada794675dfa7aa4e95b6f4f3d6cd"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 69,
+ "writes": 22,
+ "model_rounds": 17,
+ "llm_calls": 17,
+ "retries": 0,
+ "prompt_tokens": 407927,
+ "cached_tokens": 364288,
+ "completion_tokens": 100000,
+ "reasoning_tokens": 79804,
+ "seconds": 2134.7,
+ "llm_seconds": 2127.4,
+ "tool_seconds": 6.5,
+ "calls_usage": [
+  [
+   7811,
+   7168,
+   40230,
+   40174
+  ],
+  [
+   7991,
+   7168,
+   38576,
+   26305
+  ],
+  [
+   20290,
+   7168,
+   36,
+   8
+  ],
+  [
+   20825,
+   7168,
+   6633,
+   5531
+  ],
+  [
+   21952,
+   20736,
+   1050,
+   34
+  ],
+  [
+   22993,
+   21888,
+   1506,
+   633
+  ],
+  [
+   23899,
+   22528,
+   213,
+   185
+  ],
+  [
+   24396,
+   23552,
+   2514,
+   1318
+  ],
+  [
+   25634,
+   24192,
+   427,
+   282
+  ],
+  [
+   25797,
+   25600,
+   159,
+   131
+  ],
+  [
+   26577,
+   25600,
+   3914,
+   2021
+  ],
+  [
+   28511,
+   25600,
+   561,
+   243
+  ],
+  [
+   28846,
+   27648,
+   79,
+   50
+  ],
+  [
+   29627,
+   28800,
+   2975,
+   2140
+  ],
+  [
+   30487,
+   28800,
+   520,
+   269
+  ],
+  [
+   30755,
+   29952,
+   112,
+   83
+  ],
+  [
+   31536,
+   30720,
+   495,
+   397
+  ]
+ ]
+}

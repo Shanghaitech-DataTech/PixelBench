@@ -1,0 +1,96 @@
+{
+ "config": "gpt-5.6-sol",
+ "task": "farm-sheep",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "80a95a4e68fcb1b5e33ce44debbc01ac646a3e8deba8e3f5626764f3add00e6e"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 19,
+ "writes": 5,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 0,
+ "prompt_tokens": 130847,
+ "cached_tokens": 126848,
+ "completion_tokens": 2688,
+ "reasoning_tokens": 552,
+ "seconds": 77.7,
+ "llm_seconds": 74.1,
+ "tool_seconds": 2.7,
+ "calls_usage": [
+  [
+   11410,
+   11008,
+   93,
+   12
+  ],
+  [
+   11503,
+   11264,
+   1590,
+   199
+  ],
+  [
+   12907,
+   11392,
+   22,
+   0
+  ],
+  [
+   12962,
+   12800,
+   109,
+   16
+  ],
+  [
+   13067,
+   12800,
+   22,
+   0
+  ],
+  [
+   13445,
+   12928,
+   416,
+   278
+  ],
+  [
+   13595,
+   13312,
+   157,
+   0
+  ],
+  [
+   13766,
+   13696,
+   127,
+   0
+  ],
+  [
+   13907,
+   13824,
+   22,
+   0
+  ],
+  [
+   14285,
+   13824,
+   130,
+   47
+  ]
+ ]
+}

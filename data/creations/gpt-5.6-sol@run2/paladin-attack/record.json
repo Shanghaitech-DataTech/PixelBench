@@ -1,0 +1,84 @@
+{
+ "config": "gpt-5.6-sol@run2",
+ "task": "paladin-attack",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "9c8b04a43ca4bfc69cecb1b1ee94efbe0ee61dc0f19727e50bc05c067c8d7943"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 43,
+ "writes": 4,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 0,
+ "prompt_tokens": 130215,
+ "cached_tokens": 121472,
+ "completion_tokens": 4800,
+ "reasoning_tokens": 1612,
+ "seconds": 152.6,
+ "llm_seconds": 148.5,
+ "tool_seconds": 3.2,
+ "calls_usage": [
+  [
+   11655,
+   11520,
+   140,
+   20
+  ],
+  [
+   11788,
+   11520,
+   18,
+   0
+  ],
+  [
+   15059,
+   11648,
+   3164,
+   1034
+  ],
+  [
+   17202,
+   14848,
+   18,
+   0
+  ],
+  [
+   17962,
+   17024,
+   768,
+   495
+  ],
+  [
+   18247,
+   17792,
+   510,
+   0
+  ],
+  [
+   18771,
+   18560,
+   18,
+   0
+  ],
+  [
+   19531,
+   18560,
+   164,
+   63
+  ]
+ ]
+}

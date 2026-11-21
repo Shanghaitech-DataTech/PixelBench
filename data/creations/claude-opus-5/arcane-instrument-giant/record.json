@@ -1,0 +1,162 @@
+{
+ "config": "claude-opus-5",
+ "task": "arcane-instrument-giant",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0009",
+  "source_hashes": {
+   "main.py": "36ffa423acb8385955c4e6ef8284fa41150c45516ad66c4d3de4400af014967e"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 121,
+ "writes": 12,
+ "model_rounds": 21,
+ "llm_calls": 21,
+ "retries": 7,
+ "prompt_tokens": 366390,
+ "cached_tokens": 288157,
+ "completion_tokens": 8847,
+ "reasoning_tokens": 0,
+ "seconds": 1105.5,
+ "llm_seconds": 472.3,
+ "tool_seconds": 16.9,
+ "calls_usage": [
+  [
+   7873,
+   7547,
+   1480,
+   0
+  ],
+  [
+   9868,
+   8141,
+   88,
+   0
+  ],
+  [
+   9945,
+   8125,
+   7,
+   0
+  ],
+  [
+   18757,
+   8303,
+   1988,
+   0
+  ],
+  [
+   12981,
+   11074,
+   78,
+   0
+  ],
+  [
+   13049,
+   11021,
+   7,
+   0
+  ],
+  [
+   13559,
+   11188,
+   1208,
+   0
+  ],
+  [
+   15223,
+   13958,
+   7,
+   0
+  ],
+  [
+   15732,
+   14127,
+   282,
+   0
+  ],
+  [
+   16139,
+   15784,
+   7,
+   0
+  ],
+  [
+   16649,
+   15960,
+   1297,
+   0
+  ],
+  [
+   18381,
+   16961,
+   7,
+   0
+  ],
+  [
+   18890,
+   17119,
+   1405,
+   0
+  ],
+  [
+   20840,
+   19228,
+   7,
+   0
+  ],
+  [
+   21443,
+   19400,
+   367,
+   0
+  ],
+  [
+   21871,
+   21461,
+   310,
+   0
+  ],
+  [
+   22326,
+   0,
+   7,
+   0
+  ],
+  [
+   22925,
+   0,
+   111,
+   0
+  ],
+  [
+   23005,
+   22876,
+   104,
+   0
+  ],
+  [
+   23167,
+   22853,
+   7,
+   0
+  ],
+  [
+   23767,
+   23031,
+   73,
+   0
+  ]
+ ]
+}

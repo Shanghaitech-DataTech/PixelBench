@@ -1,0 +1,96 @@
+{
+ "config": "glm-5.3-flash@effort-high",
+ "task": "female-elf-archer",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "main.py": "e455e7a56c525d53893ac5bdf8babf82f73a910db8347b8dd7486d6dd24f1768"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 18,
+ "writes": 4,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 0,
+ "prompt_tokens": 124076,
+ "cached_tokens": 0,
+ "completion_tokens": 13407,
+ "reasoning_tokens": 5175,
+ "seconds": 184.0,
+ "llm_seconds": 180.0,
+ "tool_seconds": 3.4,
+ "calls_usage": [
+  [
+   7298,
+   0,
+   7201,
+   5161
+  ],
+  [
+   9346,
+   0,
+   12,
+   0
+  ],
+  [
+   9443,
+   0,
+   26,
+   14
+  ],
+  [
+   9540,
+   0,
+   2018,
+   0
+  ],
+  [
+   11566,
+   0,
+   12,
+   0
+  ],
+  [
+   12831,
+   0,
+   2036,
+   0
+  ],
+  [
+   14875,
+   0,
+   12,
+   0
+  ],
+  [
+   14977,
+   0,
+   2060,
+   0
+  ],
+  [
+   17045,
+   0,
+   12,
+   0
+  ],
+  [
+   17155,
+   0,
+   18,
+   0
+  ]
+ ]
+}

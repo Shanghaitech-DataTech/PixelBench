@@ -1,0 +1,16 @@
+{
+  "id": "weapon-set-icons",
+  "task_type": "agentic_creation",
+  "prompt": "pixel art, 64x64 resolution, weapon icon set, 2x2 grid, sword, bow, shield, battle axe, four weapons in one consistent style, dark outline, transparent background",
+  "width": 64,
+  "height": 64,
+  "constraints": {
+    "max_colors": 86,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 25,
+    "max_code_seconds": 120
+  }
+}

@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@run2",
+ "task": "leather-spellbook",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "884c46c6428333268c631d4fcf04928da261894b68f5f3b150c3de5c1d969636"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 9,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 4,
+ "prompt_tokens": 35897,
+ "cached_tokens": 34816,
+ "completion_tokens": 1101,
+ "reasoning_tokens": 15,
+ "seconds": 100.2,
+ "llm_seconds": 66.1,
+ "tool_seconds": 1.7,
+ "calls_usage": [
+  [
+   11135,
+   10752,
+   1044,
+   0
+  ],
+  [
+   12194,
+   12032,
+   18,
+   0
+  ],
+  [
+   12568,
+   12032,
+   39,
+   15
+  ]
+ ]
+}

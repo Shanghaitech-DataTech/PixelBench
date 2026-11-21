@@ -1,0 +1,78 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "house-turn-2view",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "42c6fe5ec0a744516b9fe79491a8cd41039a0fbaba7f371d7fc8f2ec26aa22c3"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 14,
+ "writes": 2,
+ "model_rounds": 7,
+ "llm_calls": 7,
+ "retries": 0,
+ "prompt_tokens": 91239,
+ "cached_tokens": 0,
+ "completion_tokens": 1939,
+ "reasoning_tokens": 75,
+ "seconds": 52.3,
+ "llm_seconds": 47.4,
+ "tool_seconds": 4.1,
+ "calls_usage": [
+  [
+   8047,
+   0,
+   48,
+   20
+  ],
+  [
+   8201,
+   0,
+   31,
+   15
+  ],
+  [
+   8235,
+   0,
+   113,
+   22
+  ],
+  [
+   8345,
+   0,
+   28,
+   0
+  ],
+  [
+   14549,
+   0,
+   1346,
+   0
+  ],
+  [
+   15914,
+   0,
+   46,
+   18
+  ],
+  [
+   27948,
+   0,
+   327,
+   0
+  ]
+ ]
+}

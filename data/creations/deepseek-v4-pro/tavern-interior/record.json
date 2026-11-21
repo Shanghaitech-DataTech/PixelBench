@@ -1,0 +1,132 @@
+{
+ "config": "deepseek-v4-pro",
+ "task": "tavern-interior",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "main.py": "b52be981f8c17f2693fc355489cee83812e869279c914ee9aa642bafe64cc706"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 54,
+ "writes": 9,
+ "model_rounds": 16,
+ "llm_calls": 16,
+ "retries": 0,
+ "prompt_tokens": 536994,
+ "cached_tokens": 517504,
+ "completion_tokens": 27802,
+ "reasoning_tokens": 22984,
+ "seconds": 411.4,
+ "llm_seconds": 406.7,
+ "tool_seconds": 4.0,
+ "calls_usage": [
+  [
+   7683,
+   7424,
+   10378,
+   7964
+  ],
+  [
+   18077,
+   18048,
+   64,
+   4
+  ],
+  [
+   21348,
+   18048,
+   4300,
+   3921
+  ],
+  [
+   25663,
+   25600,
+   406,
+   8
+  ],
+  [
+   26084,
+   25984,
+   174,
+   8
+  ],
+  [
+   26273,
+   26240,
+   70,
+   10
+  ],
+  [
+   29467,
+   26240,
+   3462,
+   3171
+  ],
+  [
+   32944,
+   32896,
+   134,
+   0
+  ],
+  [
+   33093,
+   33024,
+   71,
+   11
+  ],
+  [
+   36281,
+   33152,
+   1857,
+   1812
+  ],
+  [
+   40542,
+   38016,
+   4077,
+   3857
+  ],
+  [
+   44634,
+   44544,
+   257,
+   0
+  ],
+  [
+   44906,
+   44800,
+   64,
+   4
+  ],
+  [
+   48148,
+   44928,
+   1164,
+   1010
+  ],
+  [
+   49327,
+   49280,
+   64,
+   4
+  ],
+  [
+   52524,
+   49280,
+   1260,
+   1200
+  ]
+ ]
+}

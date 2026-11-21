@@ -1,0 +1,78 @@
+{
+ "config": "gpt-5.6-sol",
+ "task": "tavern-interior",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "eb8e5b22d13ac283057aec6452a0479b39cd1842cb2deddbbf2b7763b7d9b19c"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 24,
+ "writes": 3,
+ "model_rounds": 7,
+ "llm_calls": 7,
+ "retries": 0,
+ "prompt_tokens": 102197,
+ "cached_tokens": 96512,
+ "completion_tokens": 4174,
+ "reasoning_tokens": 665,
+ "seconds": 100.5,
+ "llm_seconds": 97.4,
+ "tool_seconds": 2.5,
+ "calls_usage": [
+  [
+   11410,
+   11008,
+   2893,
+   25
+  ],
+  [
+   14291,
+   11264,
+   32,
+   8
+  ],
+  [
+   14740,
+   14208,
+   418,
+   311
+  ],
+  [
+   14859,
+   14592,
+   22,
+   0
+  ],
+  [
+   15237,
+   14848,
+   694,
+   302
+  ],
+  [
+   15641,
+   15104,
+   22,
+   0
+  ],
+  [
+   16019,
+   15488,
+   93,
+   19
+  ]
+ ]
+}

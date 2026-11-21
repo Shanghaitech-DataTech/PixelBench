@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@effort-medium",
+ "task": "mad-cyborg-scientist",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "0c429483b5012c1335fbccef6169385e55bbae6a3f4999131ee8e793d04e2f11"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 57,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 39118,
+ "cached_tokens": 38016,
+ "completion_tokens": 2639,
+ "reasoning_tokens": 0,
+ "seconds": 133.8,
+ "llm_seconds": 131.7,
+ "tool_seconds": 1.5,
+ "calls_usage": [
+  [
+   11172,
+   10752,
+   2599,
+   0
+  ],
+  [
+   13786,
+   13568,
+   18,
+   0
+  ],
+  [
+   14160,
+   13696,
+   22,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "castle-title-screen",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "284426f23c7b3213eae610ba7d240a3d73e68208dd3ccfbd45b2fdbf39c91b9b"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 15,
+ "writes": 2,
+ "model_rounds": 2,
+ "llm_calls": 2,
+ "retries": 0,
+ "prompt_tokens": 18207,
+ "cached_tokens": 7301,
+ "completion_tokens": 4085,
+ "reasoning_tokens": 7074,
+ "seconds": 104.1,
+ "llm_seconds": 101.6,
+ "tool_seconds": 1.8,
+ "calls_usage": [
+  [
+   7561,
+   7301,
+   6863,
+   5047
+  ],
+  [
+   10646,
+   0,
+   4296,
+   2027
+  ]
+ ]
+}

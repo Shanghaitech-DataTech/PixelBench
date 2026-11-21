@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@effort-medium",
+ "task": "realistic-heart",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "9d5b86e98de4bf14a2553c3aa0ab23b1d04a10a4a9fe4921a790e16e4c49cc85"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 54,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 37810,
+ "cached_tokens": 36864,
+ "completion_tokens": 2083,
+ "reasoning_tokens": 0,
+ "seconds": 109.6,
+ "llm_seconds": 107.4,
+ "tool_seconds": 1.5,
+ "calls_usage": [
+  [
+   11108,
+   10752,
+   2039,
+   0
+  ],
+  [
+   13162,
+   13056,
+   22,
+   0
+  ],
+  [
+   13540,
+   13056,
+   22,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,6 @@
+{
+  "title": "Paladin Attack",
+  "type": "animation",
+  "num_frames": 2,
+  "continues_from_input": true
+}

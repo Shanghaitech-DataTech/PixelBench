@@ -1,0 +1,188 @@
+{
+ "config": "glm-5.3-flash@effort-high",
+ "task": "convenience-store-on-a-rainy-night",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0011",
+  "source_hashes": {
+   "inspect.py": "4ea272323d434b838aaf68fb123b02f32e0d85b84b5b22c265e9c947895ebd47",
+   "main.py": "6f412c87dfe42c7d7687f1b0b40eb5a66f90336c6ff2df2b305d3f7ea2648f00",
+   "scene.py": "617c7e72c4ece3a5a2f4f9ec29f2e813cf94f4cb15b87ecdfe66db8b7c5e9189"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 47,
+ "writes": 12,
+ "model_rounds": 25,
+ "llm_calls": 25,
+ "retries": 0,
+ "prompt_tokens": 377889,
+ "cached_tokens": 0,
+ "completion_tokens": 28724,
+ "reasoning_tokens": 19446,
+ "seconds": 642.2,
+ "llm_seconds": 634.9,
+ "tool_seconds": 6.6,
+ "calls_usage": [
+  [
+   7304,
+   0,
+   671,
+   654
+  ],
+  [
+   7420,
+   0,
+   11976,
+   9448
+  ],
+  [
+   9956,
+   0,
+   12,
+   0
+  ],
+  [
+   10173,
+   0,
+   182,
+   108
+  ],
+  [
+   10255,
+   0,
+   12,
+   0
+  ],
+  [
+   10980,
+   0,
+   103,
+   42
+  ],
+  [
+   11048,
+   0,
+   12,
+   0
+  ],
+  [
+   11265,
+   0,
+   12,
+   0
+  ],
+  [
+   11990,
+   0,
+   25,
+   19
+  ],
+  [
+   12005,
+   0,
+   49,
+   0
+  ],
+  [
+   12062,
+   0,
+   12,
+   0
+  ],
+  [
+   12101,
+   0,
+   2977,
+   334
+  ],
+  [
+   14752,
+   0,
+   55,
+   0
+  ],
+  [
+   14815,
+   0,
+   12,
+   0
+  ],
+  [
+   16969,
+   0,
+   862,
+   790
+  ],
+  [
+   17048,
+   0,
+   12,
+   0
+  ],
+  [
+   18251,
+   0,
+   2316,
+   2119
+  ],
+  [
+   18456,
+   0,
+   12,
+   0
+  ],
+  [
+   18680,
+   0,
+   7022,
+   4325
+  ],
+  [
+   21385,
+   0,
+   194,
+   0
+  ],
+  [
+   21587,
+   0,
+   12,
+   0
+  ],
+  [
+   21920,
+   0,
+   1946,
+   1504
+  ],
+  [
+   22369,
+   0,
+   64,
+   0
+  ],
+  [
+   22441,
+   0,
+   12,
+   0
+  ],
+  [
+   22657,
+   0,
+   162,
+   103
+  ]
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "melting-icecream",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "3d9b79d6369c250226c471a5f307a6fb13294e4e6f17a4cda8bb07a239c3254d"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 64,
+ "writes": 5,
+ "model_rounds": 12,
+ "llm_calls": 12,
+ "retries": 0,
+ "prompt_tokens": 176125,
+ "cached_tokens": 0,
+ "completion_tokens": 9595,
+ "reasoning_tokens": 721,
+ "seconds": 217.6,
+ "llm_seconds": 213.3,
+ "tool_seconds": 2.8,
+ "calls_usage": [
+  [
+   7837,
+   0,
+   96,
+   68
+  ],
+  [
+   7991,
+   0,
+   40,
+   24
+  ],
+  [
+   8025,
+   0,
+   159,
+   15
+  ],
+  [
+   8188,
+   0,
+   28,
+   0
+  ],
+  [
+   12717,
+   0,
+   2194,
+   0
+  ],
+  [
+   14930,
+   0,
+   46,
+   18
+  ],
+  [
+   15103,
+   0,
+   1897,
+   113
+  ],
+  [
+   16906,
+   0,
+   28,
+   0
+  ],
+  [
+   18176,
+   0,
+   2487,
+   285
+  ],
+  [
+   20397,
+   0,
+   55,
+   27
+  ],
+  [
+   21741,
+   0,
+   2510,
+   156
+  ],
+  [
+   24114,
+   0,
+   55,
+   15
+  ]
+ ]
+}

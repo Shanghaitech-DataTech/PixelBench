@@ -1,0 +1,84 @@
+{
+ "config": "gpt-5.6-sol@run2",
+ "task": "farm-chicken",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "d49b17a82489ad5048c4102aed611c5b592db1dfa79a5defcfd11ade7bc1d32e"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 13,
+ "writes": 4,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 0,
+ "prompt_tokens": 103344,
+ "cached_tokens": 97280,
+ "completion_tokens": 2488,
+ "reasoning_tokens": 570,
+ "seconds": 137.0,
+ "llm_seconds": 133.9,
+ "tool_seconds": 2.0,
+ "calls_usage": [
+  [
+   11399,
+   11008,
+   72,
+   12
+  ],
+  [
+   11471,
+   11264,
+   1484,
+   200
+  ],
+  [
+   12768,
+   11392,
+   22,
+   0
+  ],
+  [
+   13146,
+   12672,
+   535,
+   324
+  ],
+  [
+   13369,
+   12928,
+   152,
+   0
+  ],
+  [
+   13535,
+   11008,
+   90,
+   0
+  ],
+  [
+   13639,
+   13568,
+   22,
+   0
+  ],
+  [
+   14017,
+   13440,
+   111,
+   34
+  ]
+ ]
+}

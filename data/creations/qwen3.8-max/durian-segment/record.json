@@ -1,0 +1,128 @@
+{
+ "config": "qwen3.8-max",
+ "task": "durian-segment",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "analyze.py": "09d4fd095631ae66bdaaa980a09796c06982bf9823854e4e49e89200eed3e108",
+   "check.py": "9df3d01f05b2ea8e08b80fe6d0fe965ab48cc466899e7d2c62d14d8fb3d20947",
+   "main.py": "c7f90fd46555d29b5bfc230bebaac0350467242806ca60dd07dbbcfa57383bcc"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 10,
+ "writes": 8,
+ "model_rounds": 15,
+ "llm_calls": 15,
+ "retries": 0,
+ "prompt_tokens": 279881,
+ "cached_tokens": 257536,
+ "completion_tokens": 81737,
+ "reasoning_tokens": 78889,
+ "seconds": 1612.4,
+ "llm_seconds": 1606.9,
+ "tool_seconds": 4.4,
+ "calls_usage": [
+  [
+   7892,
+   7168,
+   115,
+   39
+  ],
+  [
+   7987,
+   7552,
+   38,
+   10
+  ],
+  [
+   16805,
+   7168,
+   20374,
+   20160
+  ],
+  [
+   17037,
+   16384,
+   43,
+   14
+  ],
+  [
+   17862,
+   16384,
+   105,
+   37
+  ],
+  [
+   17947,
+   17408,
+   56,
+   27
+  ],
+  [
+   19250,
+   17408,
+   23195,
+   22585
+  ],
+  [
+   19878,
+   18432,
+   15750,
+   15129
+  ],
+  [
+   20517,
+   19584,
+   973,
+   945
+  ],
+  [
+   21403,
+   20480,
+   12329,
+   11845
+  ],
+  [
+   21905,
+   20736,
+   6027,
+   5942
+  ],
+  [
+   22415,
+   21888,
+   2117,
+   1898
+  ],
+  [
+   22652,
+   21888,
+   283,
+   71
+  ],
+  [
+   22881,
+   22528,
+   86,
+   58
+  ],
+  [
+   23450,
+   22528,
+   246,
+   129
+  ]
+ ]
+}

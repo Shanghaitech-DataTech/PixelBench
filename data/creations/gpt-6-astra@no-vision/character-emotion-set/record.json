@@ -1,0 +1,73 @@
+{
+ "config": "gpt-6-astra@no-vision",
+ "task": "character-emotion-set",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "inspect.py": "167dce05d8d15fdcc7d357899b054864b4baf15303aa19a9de1a2fec98d4c8c9",
+   "main.py": "83a1daf7d783fedc4f3b3b92d738c50b12caf37c3da2f5522458404a4f5b284d"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 18,
+ "writes": 3,
+ "model_rounds": 6,
+ "llm_calls": 6,
+ "retries": 1,
+ "prompt_tokens": 115863,
+ "cached_tokens": 80896,
+ "completion_tokens": 5830,
+ "reasoning_tokens": 1303,
+ "seconds": 182.1,
+ "llm_seconds": 156.1,
+ "tool_seconds": 2.1,
+ "calls_usage": [
+  [
+   11247,
+   0,
+   5118,
+   933
+  ],
+  [
+   13587,
+   11136,
+   18,
+   0
+  ],
+  [
+   14065,
+   10880,
+   208,
+   110
+  ],
+  [
+   29704,
+   29312,
+   72,
+   52
+  ],
+  [
+   31742,
+   29568,
+   392,
+   208
+  ],
+  [
+   15518,
+   0,
+   22,
+   0
+  ]
+ ]
+}

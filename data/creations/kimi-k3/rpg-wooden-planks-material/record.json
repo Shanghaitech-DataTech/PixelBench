@@ -1,0 +1,72 @@
+{
+ "config": "kimi-k3",
+ "task": "rpg-wooden-planks-material",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "4644b21bd74dc00a8e4be249c5855d747f0c5283a5ffe4e2770fe5eab42dab83"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 14,
+ "writes": 3,
+ "model_rounds": 6,
+ "llm_calls": 6,
+ "retries": 0,
+ "prompt_tokens": 53972,
+ "cached_tokens": 49999,
+ "completion_tokens": 9322,
+ "reasoning_tokens": 7225,
+ "seconds": 269.9,
+ "llm_seconds": 267.7,
+ "tool_seconds": 1.7,
+ "calls_usage": [
+  [
+   7246,
+   6912,
+   5919,
+   4970
+  ],
+  [
+   8229,
+   7168,
+   49,
+   0
+  ],
+  [
+   8795,
+   8192,
+   2166,
+   1552
+  ],
+  [
+   9442,
+   8783,
+   372,
+   0
+  ],
+  [
+   9847,
+   9216,
+   49,
+   0
+  ],
+  [
+   10413,
+   9728,
+   767,
+   703
+  ]
+ ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "e-scooter-rider",
+  "task_type": "agentic_creation",
+  "prompt": "pixel art, 32x32 resolution, little person riding an electric scooter, side view riding right, helmet, e-scooter with standing deck and handlebars, readable riding pose",
+  "width": 32,
+  "height": 32,
+  "constraints": {
+    "max_colors": 86,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 25,
+    "max_code_seconds": 120
+  }
+}

@@ -1,0 +1,16 @@
+t = new_canvas(16, 16, name="t1")
+t.circle(8, 8, 5, "#ff0000")
+t.rect(2, 2, 3, 3, "#00ff00")
+r = t.to_indexed()
+print("to_indexed types:", [type(x) for x in r])
+w, h, idx, pal = r
+print("w,h", w, h)
+print("idx type", type(idx), getattr(idx, "shape", None))
+print("idx sample", idx[0][:8] if not hasattr(idx, "shape") else idx[0, :8])
+print("pal sample", pal[:4], type(pal))
+rr = t.to_rgba()
+print("to_rgba types:", [type(x) for x in rr], len(rr[2]))
+print("stats", t.stats())
+# check get
+print("get(8,8)", t.get(8, 8), "color_name", t.color_name(t.get(8, 8)))
+print(t.matrix_text(region=(0, 0, 15, 15)))

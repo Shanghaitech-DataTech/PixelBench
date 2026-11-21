@@ -1,0 +1,66 @@
+{
+ "config": "gpt-6-astra@run3",
+ "task": "ancient-dragon-battle",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "570124db2e03329ddcb4bf5d21ed589b6039acdefd4bc3a2deea1e52a4271a6b"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 80,
+ "writes": 3,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 2,
+ "prompt_tokens": 82009,
+ "cached_tokens": 74624,
+ "completion_tokens": 7029,
+ "reasoning_tokens": 384,
+ "seconds": 314.4,
+ "llm_seconds": 288.3,
+ "tool_seconds": 6.1,
+ "calls_usage": [
+  [
+   11160,
+   11008,
+   6201,
+   208
+  ],
+  [
+   17168,
+   11008,
+   18,
+   0
+  ],
+  [
+   17614,
+   17024,
+   365,
+   176
+  ],
+  [
+   17815,
+   17408,
+   423,
+   0
+  ],
+  [
+   18252,
+   18176,
+   22,
+   0
+  ]
+ ]
+}

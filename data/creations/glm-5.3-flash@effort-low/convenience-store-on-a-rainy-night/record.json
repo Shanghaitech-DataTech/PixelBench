@@ -1,0 +1,54 @@
+{
+ "config": "glm-5.3-flash@effort-low",
+ "task": "convenience-store-on-a-rainy-night",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "745b3d99a4aef84146d9129751eabf3f883e89fcfac54ebff81ea6f12b2207c6"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 33,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 26381,
+ "cached_tokens": 0,
+ "completion_tokens": 3202,
+ "reasoning_tokens": 1034,
+ "seconds": 73.2,
+ "llm_seconds": 71.4,
+ "tool_seconds": 1.2,
+ "calls_usage": [
+  [
+   7304,
+   0,
+   3172,
+   1034
+  ],
+  [
+   9450,
+   0,
+   12,
+   0
+  ],
+  [
+   9627,
+   0,
+   18,
+   0
+  ]
+ ]
+}

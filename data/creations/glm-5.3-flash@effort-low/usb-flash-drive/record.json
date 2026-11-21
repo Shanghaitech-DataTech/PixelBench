@@ -1,0 +1,54 @@
+{
+ "config": "glm-5.3-flash@effort-low",
+ "task": "usb-flash-drive",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "ebb88dae629752c969f2a5188876dc846e579e4996a25f35d2b0f99bec456c7c"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 12,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 23669,
+ "cached_tokens": 0,
+ "completion_tokens": 875,
+ "reasoning_tokens": 17,
+ "seconds": 15.4,
+ "llm_seconds": 13.6,
+ "tool_seconds": 1.1,
+ "calls_usage": [
+  [
+   7286,
+   0,
+   828,
+   0
+  ],
+  [
+   8122,
+   0,
+   12,
+   0
+  ],
+  [
+   8261,
+   0,
+   35,
+   17
+  ]
+ ]
+}

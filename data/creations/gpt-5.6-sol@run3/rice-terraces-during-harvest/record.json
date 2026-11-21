@@ -1,0 +1,60 @@
+{
+ "config": "gpt-5.6-sol@run3",
+ "task": "rice-terraces-during-harvest",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "784743098a4444005c232a665904c81bee5c62e6ea93700f8d7ffbb95d980420"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 20,
+ "writes": 1,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 50938,
+ "cached_tokens": 47232,
+ "completion_tokens": 2773,
+ "reasoning_tokens": 287,
+ "seconds": 145.9,
+ "llm_seconds": 143.9,
+ "tool_seconds": 1.4,
+ "calls_usage": [
+  [
+   11406,
+   11008,
+   92,
+   14
+  ],
+  [
+   11496,
+   11264,
+   2405,
+   120
+  ],
+  [
+   13794,
+   11264,
+   22,
+   0
+  ],
+  [
+   14242,
+   13696,
+   254,
+   153
+  ]
+ ]
+}

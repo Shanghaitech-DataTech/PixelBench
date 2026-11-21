@@ -1,0 +1,54 @@
+{
+ "config": "gpt-5.6-sol@run3",
+ "task": "red-roofed-forge-house",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "28c222507e560f7067e247a71b0dfec16dbfe62a08a2532e7ae3002425485b18"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 31,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 3,
+ "prompt_tokens": 40061,
+ "cached_tokens": 36224,
+ "completion_tokens": 2969,
+ "reasoning_tokens": 131,
+ "seconds": 150.8,
+ "llm_seconds": 99.0,
+ "tool_seconds": 1.8,
+ "calls_usage": [
+  [
+   11413,
+   11008,
+   2762,
+   53
+  ],
+  [
+   14135,
+   11264,
+   32,
+   8
+  ],
+  [
+   14513,
+   13952,
+   175,
+   70
+  ]
+ ]
+}

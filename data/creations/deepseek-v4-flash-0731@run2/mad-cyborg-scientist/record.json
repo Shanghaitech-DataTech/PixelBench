@@ -1,0 +1,96 @@
+{
+ "config": "deepseek-v4-flash-0731@run2",
+ "task": "mad-cyborg-scientist",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "8d2798879f2de79400cf1487231d3561c9bad99fe5a32849ca389b92f870e35b"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 46,
+ "writes": 9,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 0,
+ "prompt_tokens": 165546,
+ "cached_tokens": 0,
+ "completion_tokens": 35951,
+ "reasoning_tokens": 29968,
+ "seconds": 624.4,
+ "llm_seconds": 622.1,
+ "tool_seconds": 1.7,
+ "calls_usage": [
+  [
+   7713,
+   0,
+   27736,
+   24081
+  ],
+  [
+   11383,
+   0,
+   54,
+   9
+  ],
+  [
+   14234,
+   0,
+   4138,
+   3484
+  ],
+  [
+   14913,
+   0,
+   1794,
+   1337
+  ],
+  [
+   15433,
+   0,
+   489,
+   20
+  ],
+  [
+   15937,
+   0,
+   107,
+   61
+  ],
+  [
+   19811,
+   0,
+   899,
+   706
+  ],
+  [
+   20018,
+   0,
+   45,
+   0
+  ],
+  [
+   22870,
+   0,
+   601,
+   251
+  ],
+  [
+   23234,
+   0,
+   88,
+   19
+  ]
+ ]
+}

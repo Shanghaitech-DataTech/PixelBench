@@ -1,0 +1,72 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "leather-spellbook",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "54b9144e8921f07195d9b2604b4932caf3adfa448e78b077da15c3305e79f7bb"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 9,
+ "writes": 3,
+ "model_rounds": 6,
+ "llm_calls": 6,
+ "retries": 0,
+ "prompt_tokens": 96031,
+ "cached_tokens": 13996,
+ "completion_tokens": 2841,
+ "reasoning_tokens": 35472,
+ "seconds": 382.7,
+ "llm_seconds": 380.2,
+ "tool_seconds": 1.9,
+ "calls_usage": [
+  [
+   7553,
+   0,
+   3561,
+   2717
+  ],
+  [
+   11116,
+   0,
+   45,
+   25
+  ],
+  [
+   9536,
+   0,
+   9802,
+   8667
+  ],
+  [
+   19340,
+   6042,
+   20,
+   0
+  ],
+  [
+   11810,
+   7954,
+   24865,
+   24063
+  ],
+  [
+   36676,
+   0,
+   20,
+   0
+  ]
+ ]
+}

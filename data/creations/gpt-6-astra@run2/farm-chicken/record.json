@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@run2",
+ "task": "farm-chicken",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "b21220bdc606209ee938a5b9240d87bb4a1621971a0e55a1286cac00e8d56e19"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 13,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 6,
+ "prompt_tokens": 35971,
+ "cached_tokens": 33664,
+ "completion_tokens": 1187,
+ "reasoning_tokens": 16,
+ "seconds": 211.3,
+ "llm_seconds": 56.9,
+ "tool_seconds": 1.5,
+ "calls_usage": [
+  [
+   11133,
+   10752,
+   1084,
+   0
+  ],
+  [
+   12232,
+   10752,
+   18,
+   0
+  ],
+  [
+   12606,
+   12160,
+   85,
+   16
+  ]
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "config": "kimi-k3",
+ "task": "melting-icecream",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "f2bdcbaaa31f7356a3b9e2e4636d39f3209330c5b53477251aef22dba146e444"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 65,
+ "writes": 4,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 0,
+ "prompt_tokens": 103673,
+ "cached_tokens": 96177,
+ "completion_tokens": 18384,
+ "reasoning_tokens": 15984,
+ "seconds": 418.1,
+ "llm_seconds": 415.1,
+ "tool_seconds": 2.3,
+ "calls_usage": [
+  [
+   7309,
+   6912,
+   66,
+   17
+  ],
+  [
+   7465,
+   7168,
+   49,
+   15
+  ],
+  [
+   7532,
+   7424,
+   114,
+   26
+  ],
+  [
+   7654,
+   7424,
+   49,
+   0
+  ],
+  [
+   10373,
+   7424,
+   14649,
+   13673
+  ],
+  [
+   11383,
+   10361,
+   49,
+   0
+  ],
+  [
+   11940,
+   11264,
+   3036,
+   2083
+  ],
+  [
+   12927,
+   11928,
+   49,
+   0
+  ],
+  [
+   13484,
+   12800,
+   259,
+   170
+  ],
+  [
+   13606,
+   13472,
+   64,
+   0
+  ]
+ ]
+}

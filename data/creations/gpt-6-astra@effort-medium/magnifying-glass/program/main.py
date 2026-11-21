@@ -1,0 +1,25 @@
+result = new_canvas(16,16, name="magnifying_glass")
+# Dark silhouette and warm brass ring.
+result.circle(6,6,5,'#242631')
+result.circle(6,6,4,'#b47a40')
+result.circle(6,6,3,'#477b91')
+# Glass shading, kept inside the circular lens.
+result.poly([(4,4),(6,3),(8,4),(8,6),(6,8),(4,7),(3,6)],'#81bcc5')
+result.line(4,4,6,4,'#e1f5e5')
+result.set(4,5,'#e1f5e5')
+result.line(5,7,7,5,'#a4d6d5')
+result.set(7,8,'#477b91')
+# Segmented metal highlights.
+result.line(4,2,7,2,'#efd59b')
+result.set(3,3,'#efd59b')
+result.line(2,4,2,6,'#d8ae67')
+result.line(4,10,7,10,'#805638')
+result.set(9,3,'#d8ae67')
+# Diagonal handle with collar and wood inlay.
+result.poly([(10,9),(15,13),(15,14),(14,15),(13,15),(9,10)],'#242631')
+result.line(10,10,14,14,'#785040')
+result.line(11,10,14,13,'#bc8150')
+result.line(10,9,9,10,'#efd59b')
+result.line(11,10,10,11,'#b47a40')
+view(result, scale=24)
+finish(result)

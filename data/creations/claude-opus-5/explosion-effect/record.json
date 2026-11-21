@@ -1,0 +1,78 @@
+{
+ "config": "claude-opus-5",
+ "task": "explosion-effect",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "1c9c8143a558b460deea146fbd0be748e5f66e82ca1293550895948f610f4954"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 9,
+ "writes": 6,
+ "model_rounds": 7,
+ "llm_calls": 7,
+ "retries": 0,
+ "prompt_tokens": 87034,
+ "cached_tokens": 81410,
+ "completion_tokens": 3368,
+ "reasoning_tokens": 0,
+ "seconds": 161.8,
+ "llm_seconds": 156.8,
+ "tool_seconds": 4.4,
+ "calls_usage": [
+  [
+   7836,
+   7561,
+   1064,
+   0
+  ],
+  [
+   9794,
+   8252,
+   1151,
+   0
+  ],
+  [
+   11977,
+   10464,
+   401,
+   0
+  ],
+  [
+   13122,
+   12301,
+   46,
+   0
+  ],
+  [
+   13627,
+   13354,
+   581,
+   0
+  ],
+  [
+   15087,
+   14175,
+   73,
+   0
+  ],
+  [
+   15591,
+   15303,
+   52,
+   0
+  ]
+ ]
+}

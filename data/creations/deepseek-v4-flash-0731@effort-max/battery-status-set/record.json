@@ -1,0 +1,54 @@
+{
+ "config": "deepseek-v4-flash-0731@effort-max",
+ "task": "battery-status-set",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "9421de939d36d839ced81bb059cb08a185a28034cf1436d053717a105c3c5b83"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 5,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 27386,
+ "cached_tokens": 0,
+ "completion_tokens": 5133,
+ "reasoning_tokens": 4356,
+ "seconds": 103.8,
+ "llm_seconds": 102.1,
+ "tool_seconds": 1.1,
+ "calls_usage": [
+  [
+   7689,
+   0,
+   3440,
+   2826
+  ],
+  [
+   8318,
+   0,
+   53,
+   8
+  ],
+  [
+   11379,
+   0,
+   1640,
+   1522
+  ]
+ ]
+}

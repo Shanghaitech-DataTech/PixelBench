@@ -1,0 +1,60 @@
+{
+ "config": "gpt-6-astra@effort-low",
+ "task": "minecraft-stone-material",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "15119b004e424e9f12c73c108554da13abaf7e2a550a34017e6a172d0c049a74"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 11,
+ "writes": 2,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 48676,
+ "cached_tokens": 45952,
+ "completion_tokens": 945,
+ "reasoning_tokens": 0,
+ "seconds": 57.5,
+ "llm_seconds": 55.7,
+ "tool_seconds": 1.2,
+ "calls_usage": [
+  [
+   11128,
+   10752,
+   870,
+   0
+  ],
+  [
+   12013,
+   10752,
+   18,
+   0
+  ],
+  [
+   12743,
+   11904,
+   35,
+   0
+  ],
+  [
+   12792,
+   12544,
+   22,
+   0
+  ]
+ ]
+}

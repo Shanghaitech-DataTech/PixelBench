@@ -1,0 +1,138 @@
+{
+ "config": "deepseek-v4-flash-0731@run3",
+ "task": "sky-pirate-girl",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "b64160dc397af0dd03be5176c5be9a31d6437f3e2274e6101378e3dd38c7868c"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 29,
+ "writes": 10,
+ "model_rounds": 17,
+ "llm_calls": 17,
+ "retries": 0,
+ "prompt_tokens": 334445,
+ "cached_tokens": 0,
+ "completion_tokens": 40058,
+ "reasoning_tokens": 33127,
+ "seconds": 559.3,
+ "llm_seconds": 554.7,
+ "tool_seconds": 4.0,
+ "calls_usage": [
+  [
+   7684,
+   0,
+   21932,
+   19512
+  ],
+  [
+   10119,
+   0,
+   59,
+   14
+  ],
+  [
+   12474,
+   0,
+   7190,
+   6473
+  ],
+  [
+   13205,
+   0,
+   449,
+   146
+  ],
+  [
+   13522,
+   0,
+   45,
+   0
+  ],
+  [
+   15876,
+   0,
+   3391,
+   2121
+  ],
+  [
+   17160,
+   0,
+   45,
+   0
+  ],
+  [
+   19528,
+   0,
+   2533,
+   1792
+  ],
+  [
+   20283,
+   0,
+   45,
+   0
+  ],
+  [
+   22602,
+   0,
+   2263,
+   2043
+  ],
+  [
+   22837,
+   0,
+   45,
+   0
+  ],
+  [
+   25167,
+   0,
+   330,
+   0
+  ],
+  [
+   25511,
+   0,
+   182,
+   0
+  ],
+  [
+   25707,
+   0,
+   238,
+   0
+  ],
+  [
+   25959,
+   0,
+   83,
+   38
+  ],
+  [
+   28309,
+   0,
+   829,
+   650
+  ],
+  [
+   28502,
+   0,
+   399,
+   338
+  ]
+ ]
+}

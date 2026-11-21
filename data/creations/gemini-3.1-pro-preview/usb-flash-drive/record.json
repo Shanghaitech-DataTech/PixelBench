@@ -1,0 +1,48 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "usb-flash-drive",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0001",
+  "source_hashes": {
+   "main.py": "2458dffdbbd8f558b09ca5999ea745f5dad3d070336ac466fb23f0cb4dec435a"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 13,
+ "writes": 1,
+ "model_rounds": 2,
+ "llm_calls": 2,
+ "retries": 0,
+ "prompt_tokens": 50821,
+ "cached_tokens": 0,
+ "completion_tokens": 1293,
+ "reasoning_tokens": 34467,
+ "seconds": 329.3,
+ "llm_seconds": 327.9,
+ "tool_seconds": 0.7,
+ "calls_usage": [
+  [
+   7548,
+   0,
+   35723,
+   34450
+  ],
+  [
+   43273,
+   0,
+   37,
+   17
+  ]
+ ]
+}

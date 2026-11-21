@@ -1,0 +1,60 @@
+{
+ "config": "kimi-k3",
+ "task": "portable-cassette-player",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "f11d250591530cd1665f982175fabedd59167faaf097675219cf60d16bb1124f"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 19,
+ "writes": 3,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 33964,
+ "cached_tokens": 31495,
+ "completion_tokens": 15337,
+ "reasoning_tokens": 13746,
+ "seconds": 446.3,
+ "llm_seconds": 444.6,
+ "tool_seconds": 1.1,
+ "calls_usage": [
+  [
+   7225,
+   6912,
+   12550,
+   11319
+  ],
+  [
+   8487,
+   7168,
+   56,
+   4
+  ],
+  [
+   8979,
+   8448,
+   2664,
+   2423
+  ],
+  [
+   9273,
+   8967,
+   67,
+   0
+  ]
+ ]
+}

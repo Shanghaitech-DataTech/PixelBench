@@ -1,0 +1,15 @@
+t = new_canvas(21, 21, name='probe')
+t.circle(10, 10, 5, '#ffffff')
+print('FILLED r=5')
+print(t.matrix_text())
+
+t2 = new_canvas(21, 21, name='probe2')
+t2.circle(10, 10, 5, '#ffffff', fill=False)
+print('OUTLINE r=5')
+print(t2.matrix_text())
+
+t3 = new_canvas(21, 21, name='probe3')
+t3.circle(10, 10, 5, '#ffffff')
+t3.circle(10, 10, 4, '#000000')
+print('FILL r=5 then fill r=4')
+print(t3.matrix_text())

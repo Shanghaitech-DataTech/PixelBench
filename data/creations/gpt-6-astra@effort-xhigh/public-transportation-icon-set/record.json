@@ -1,0 +1,90 @@
+{
+ "config": "gpt-6-astra@effort-xhigh",
+ "task": "public-transportation-icon-set",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "1130c9cfeec67ed5f61af14df30ee329b692370c9efd36824953685b139abb00"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 7,
+ "writes": 6,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 9,
+ "prompt_tokens": 120191,
+ "cached_tokens": 113280,
+ "completion_tokens": 8302,
+ "reasoning_tokens": 5433,
+ "seconds": 646.2,
+ "llm_seconds": 462.6,
+ "tool_seconds": 1.8,
+ "calls_usage": [
+  [
+   11135,
+   10752,
+   3128,
+   1706
+  ],
+  [
+   12572,
+   11008,
+   18,
+   0
+  ],
+  [
+   12946,
+   12416,
+   1380,
+   1099
+  ],
+  [
+   13239,
+   12800,
+   1235,
+   1034
+  ],
+  [
+   13461,
+   11008,
+   705,
+   516
+  ],
+  [
+   13662,
+   13440,
+   848,
+   485
+  ],
+  [
+   14037,
+   13568,
+   18,
+   0
+  ],
+  [
+   14411,
+   13952,
+   821,
+   516
+  ],
+  [
+   14728,
+   14336,
+   149,
+   77
+  ]
+ ]
+}

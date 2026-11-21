@@ -1,0 +1,42 @@
+{
+ "config": "deepseek-v4-flash-0731@direct",
+ "task": "paladin-attack",
+ "ok": false,
+ "error": "unparseable",
+ "termination": "format",
+ "frames": 0,
+ "colors": null,
+ "parse": {
+  "ok": false,
+  "reason": "18/61 rows beyond length tolerance",
+  "palette_size": 41,
+  "diags": [
+   {
+    "declared": [
+     43,
+     61
+    ],
+    "size": [
+     43,
+     61
+    ],
+    "rows": 64
+   }
+  ]
+ },
+ "max_tokens": 131072,
+ "time_limit_s": 3600.0,
+ "finish_reason": "stop",
+ "prompt_tokens": 2118,
+ "completion_tokens": 41562,
+ "reasoning_tokens": 39815,
+ "seconds": 529.2,
+ "calls_usage": [
+  [
+   2118,
+   0,
+   41562,
+   39815
+  ]
+ ]
+}

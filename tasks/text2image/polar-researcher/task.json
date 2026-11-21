@@ -1,0 +1,16 @@
+{
+  "id": "polar-researcher",
+  "task_type": "agentic_creation",
+  "prompt": "pixel art, 48x48 resolution, polar researcher character sprite, transparent background, heavy cold-weather clothing, carrying sample case, pale blue goggle reflections, forward-leaning pose suggesting strong wind",
+  "width": 48,
+  "height": 48,
+  "constraints": {
+    "max_colors": 86,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 25,
+    "max_code_seconds": 120
+  }
+}

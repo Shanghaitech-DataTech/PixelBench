@@ -1,0 +1,90 @@
+{
+ "config": "glm-5.3-flash@effort-high",
+ "task": "university-laboratory-workbench",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "3e5f87762ee8c3002fe4f2dc29e3fbe417a6527732ebb3e589d2bbaefe629a90"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 31,
+ "writes": 5,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 94746,
+ "cached_tokens": 0,
+ "completion_tokens": 19255,
+ "reasoning_tokens": 16902,
+ "seconds": 354.1,
+ "llm_seconds": 350.7,
+ "tool_seconds": 2.7,
+ "calls_usage": [
+  [
+   7301,
+   0,
+   9198,
+   7494
+  ],
+  [
+   9013,
+   0,
+   12,
+   0
+  ],
+  [
+   9167,
+   0,
+   40,
+   16
+  ],
+  [
+   9333,
+   0,
+   120,
+   25
+  ],
+  [
+   9435,
+   0,
+   12,
+   0
+  ],
+  [
+   11369,
+   0,
+   9501,
+   9217
+  ],
+  [
+   11665,
+   0,
+   12,
+   0
+  ],
+  [
+   13632,
+   0,
+   342,
+   150
+  ],
+  [
+   13831,
+   0,
+   18,
+   0
+  ]
+ ]
+}

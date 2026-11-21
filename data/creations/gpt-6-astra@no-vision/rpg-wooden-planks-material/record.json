@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@no-vision",
+ "task": "rpg-wooden-planks-material",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "28e9ded1e89d95264589c98201032b53e57c33e3af4c376e3bb3e37e967e213a"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 9,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 1,
+ "prompt_tokens": 35986,
+ "cached_tokens": 23552,
+ "completion_tokens": 1493,
+ "reasoning_tokens": 558,
+ "seconds": 70.1,
+ "llm_seconds": 55.7,
+ "tool_seconds": 1.2,
+ "calls_usage": [
+  [
+   11250,
+   0,
+   1363,
+   474
+  ],
+  [
+   12154,
+   11136,
+   22,
+   0
+  ],
+  [
+   12582,
+   12416,
+   108,
+   84
+  ]
+ ]
+}

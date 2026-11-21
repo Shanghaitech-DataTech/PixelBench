@@ -1,0 +1,90 @@
+{
+ "config": "kimi-k3",
+ "task": "squid-red-idle",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 3,
+  "actual_count": 3,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "692d676df024ef370224dfe3230027e1c5373bde3ae59e90bd3fb8b0afb9f010"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 3,
+ "colors": 8,
+ "writes": 4,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 84905,
+ "cached_tokens": 78195,
+ "completion_tokens": 10153,
+ "reasoning_tokens": 8846,
+ "seconds": 268.3,
+ "llm_seconds": 264.3,
+ "tool_seconds": 3.4,
+ "calls_usage": [
+  [
+   7463,
+   6912,
+   150,
+   40
+  ],
+  [
+   7630,
+   7424,
+   64,
+   15
+  ],
+  [
+   8049,
+   7424,
+   120,
+   18
+  ],
+  [
+   8184,
+   7936,
+   49,
+   0
+  ],
+  [
+   9645,
+   7936,
+   200,
+   127
+  ],
+  [
+   9752,
+   9472,
+   49,
+   0
+  ],
+  [
+   10367,
+   9728,
+   8835,
+   8170
+  ],
+  [
+   11066,
+   10355,
+   49,
+   0
+  ],
+  [
+   12749,
+   11008,
+   637,
+   476
+  ]
+ ]
+}

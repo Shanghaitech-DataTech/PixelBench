@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra",
+ "task": "magic-staff",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "1ad8fc20a68b13bf585d5477c127b346ba0b8fd5ee160879871a193070b88c96"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 29,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 36701,
+ "cached_tokens": 32512,
+ "completion_tokens": 1941,
+ "reasoning_tokens": 429,
+ "seconds": 103.5,
+ "llm_seconds": 101.6,
+ "tool_seconds": 1.3,
+ "calls_usage": [
+  [
+   11119,
+   10752,
+   1886,
+   416
+  ],
+  [
+   12604,
+   10752,
+   18,
+   0
+  ],
+  [
+   12978,
+   11008,
+   37,
+   13
+  ]
+ ]
+}

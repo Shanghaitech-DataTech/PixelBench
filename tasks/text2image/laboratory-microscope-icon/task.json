@@ -1,0 +1,16 @@
+{
+  "id": "laboratory-microscope-icon",
+  "task_type": "agentic_creation",
+  "prompt": "pixel art, 32x32 resolution, laboratory microscope icon, transparent background, three-quarter view, recognizable eyepiece body tube stage objective base",
+  "width": 32,
+  "height": 32,
+  "constraints": {
+    "max_colors": 86,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 25,
+    "max_code_seconds": 120
+  }
+}

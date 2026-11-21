@@ -1,0 +1,6 @@
+bgw = new_canvas(288, 96, background="#ffffff", name="bgw")
+bgd = new_canvas(288, 96, background="#20263c", name="bgd")
+vw = flatten([bgw, result], name="on_white")
+vd = flatten([bgd, result], name="on_dark")
+view(vw)
+view(vd)

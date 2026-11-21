@@ -1,0 +1,90 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "sunken-shipwreck",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "63be272e6cf941002673922625d30b3288c76e709ceb361d2cda3a3c224a64e2"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 27,
+ "writes": 4,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 146265,
+ "cached_tokens": 0,
+ "completion_tokens": 5062,
+ "reasoning_tokens": 272,
+ "seconds": 128.0,
+ "llm_seconds": 124.9,
+ "tool_seconds": 2.5,
+ "calls_usage": [
+  [
+   7765,
+   0,
+   3634,
+   254
+  ],
+  [
+   11165,
+   0,
+   58,
+   18
+  ],
+  [
+   13608,
+   0,
+   265,
+   0
+  ],
+  [
+   13891,
+   0,
+   40,
+   0
+  ],
+  [
+   16334,
+   0,
+   88,
+   0
+  ],
+  [
+   19786,
+   0,
+   409,
+   0
+  ],
+  [
+   20213,
+   0,
+   339,
+   0
+  ],
+  [
+   20570,
+   0,
+   40,
+   0
+  ],
+  [
+   22933,
+   0,
+   189,
+   0
+  ]
+ ]
+}

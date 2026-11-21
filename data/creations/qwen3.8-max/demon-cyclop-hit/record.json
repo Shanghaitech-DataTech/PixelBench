@@ -1,0 +1,96 @@
+{
+ "config": "qwen3.8-max",
+ "task": "demon-cyclop-hit",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 3,
+  "actual_count": 3,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "f33b562e42b7b843df988aba32e6f2961c0f214595f1b9aff2e03aa432a3d82f"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 3,
+ "colors": 17,
+ "writes": 5,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 0,
+ "prompt_tokens": 115286,
+ "cached_tokens": 102400,
+ "completion_tokens": 27442,
+ "reasoning_tokens": 25645,
+ "seconds": 556.8,
+ "llm_seconds": 553.1,
+ "tool_seconds": 3.0,
+ "calls_usage": [
+  [
+   8080,
+   7168,
+   71,
+   9
+  ],
+  [
+   8161,
+   7552,
+   35,
+   7
+  ],
+  [
+   10498,
+   7552,
+   99,
+   19
+  ],
+  [
+   10597,
+   10240,
+   37,
+   9
+  ],
+  [
+   11292,
+   7168,
+   23340,
+   22222
+  ],
+  [
+   12428,
+   11264,
+   155,
+   127
+  ],
+  [
+   13058,
+   12288,
+   2804,
+   2661
+  ],
+  [
+   13218,
+   12672,
+   423,
+   394
+  ],
+  [
+   13848,
+   12672,
+   432,
+   191
+  ],
+  [
+   14106,
+   13824,
+   46,
+   6
+  ]
+ ]
+}

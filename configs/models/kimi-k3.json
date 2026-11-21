@@ -1,0 +1,12 @@
+{
+  "id": "kimi-k3",
+  "display_name": "Kimi K3",
+  "reported_level": "max",
+  "vision": true,
+  "llm": {
+    "model": "kimi-k3",
+    "api_format": "completions",
+    "stream": true,
+    "temperature": null
+  }
+}

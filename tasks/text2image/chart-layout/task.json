@@ -1,0 +1,16 @@
+{
+  "id": "chart-layout",
+  "task_type": "agentic_creation",
+  "prompt": "pixel art, 128x64 resolution, bar chart, fruit data, apple 10, banana 5, orange 7, lemon 14, grape 2, color bars by fruit, mini pixel art icons beside chart instead of text",
+  "width": 128,
+  "height": 64,
+  "constraints": {
+    "max_colors": 86,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 25,
+    "max_code_seconds": 120
+  }
+}

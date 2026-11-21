@@ -1,0 +1,90 @@
+{
+ "config": "glm-5.3-flash@effort-high",
+ "task": "sunken-shipwreck",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "7f42fd5895079eb444f57cd167c54ea31ac00baf8eeb9d731ec4237e264d3fb6"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 30,
+ "writes": 4,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 101507,
+ "cached_tokens": 0,
+ "completion_tokens": 12793,
+ "reasoning_tokens": 9823,
+ "seconds": 300.7,
+ "llm_seconds": 297.1,
+ "tool_seconds": 3.0,
+ "calls_usage": [
+  [
+   7300,
+   0,
+   8256,
+   5656
+  ],
+  [
+   9908,
+   0,
+   12,
+   0
+  ],
+  [
+   10065,
+   0,
+   56,
+   31
+  ],
+  [
+   10235,
+   0,
+   175,
+   137
+  ],
+  [
+   10280,
+   0,
+   12,
+   0
+  ],
+  [
+   12687,
+   0,
+   4119,
+   3999
+  ],
+  [
+   12814,
+   0,
+   12,
+   0
+  ],
+  [
+   14039,
+   0,
+   133,
+   0
+  ],
+  [
+   14179,
+   0,
+   18,
+   0
+  ]
+ ]
+}

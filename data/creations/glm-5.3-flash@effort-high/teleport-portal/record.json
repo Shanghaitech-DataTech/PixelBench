@@ -1,0 +1,90 @@
+{
+ "config": "glm-5.3-flash@effort-high",
+ "task": "teleport-portal",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "e40cbcda998deb0c05510fbbfb40004caf3dbd802d14230a57ca0931ced3ac10"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 10,
+ "writes": 4,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 101551,
+ "cached_tokens": 0,
+ "completion_tokens": 4744,
+ "reasoning_tokens": 2548,
+ "seconds": 86.6,
+ "llm_seconds": 83.3,
+ "tool_seconds": 2.6,
+ "calls_usage": [
+  [
+   7291,
+   0,
+   2764,
+   1811
+  ],
+  [
+   8252,
+   0,
+   12,
+   0
+  ],
+  [
+   10153,
+   0,
+   715,
+   441
+  ],
+  [
+   10434,
+   0,
+   18,
+   0
+  ],
+  [
+   12358,
+   0,
+   69,
+   20
+  ],
+  [
+   12414,
+   0,
+   18,
+   0
+  ],
+  [
+   12925,
+   0,
+   1118,
+   276
+  ],
+  [
+   13775,
+   0,
+   12,
+   0
+  ],
+  [
+   13949,
+   0,
+   18,
+   0
+  ]
+ ]
+}

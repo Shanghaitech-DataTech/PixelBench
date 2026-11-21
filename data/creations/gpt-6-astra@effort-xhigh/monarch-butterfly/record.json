@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@effort-xhigh",
+ "task": "monarch-butterfly",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "9bc9701d0aa3c77fd63f47fc47213d4a42f75b590ee380c58ad2fe3fdcea2511"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 11,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 2,
+ "prompt_tokens": 36204,
+ "cached_tokens": 32512,
+ "completion_tokens": 2969,
+ "reasoning_tokens": 1582,
+ "seconds": 180.6,
+ "llm_seconds": 163.0,
+ "tool_seconds": 1.1,
+ "calls_usage": [
+  [
+   11111,
+   10752,
+   2337,
+   1036
+  ],
+  [
+   12427,
+   11008,
+   18,
+   0
+  ],
+  [
+   12666,
+   10752,
+   614,
+   546
+  ]
+ ]
+}

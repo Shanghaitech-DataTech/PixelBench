@@ -1,0 +1,77 @@
+{
+ "config": "gpt-6-astra@direct",
+ "task": "char-turn-3view",
+ "ok": true,
+ "error": null,
+ "termination": "answered",
+ "frames": 3,
+ "colors": 23,
+ "parse": {
+  "ok": true,
+  "diags": [
+   {
+    "declared": [
+     36,
+     60
+    ],
+    "size": [
+     36,
+     60
+    ],
+    "rows": 60,
+    "rows_wrong_length": 7,
+    "rows_beyond_tolerance": 0,
+    "rows_missing": 0,
+    "rows_extra": 0,
+    "undeclared_pixels": 0
+   },
+   {
+    "declared": [
+     36,
+     60
+    ],
+    "size": [
+     36,
+     60
+    ],
+    "rows": 60,
+    "rows_wrong_length": 13,
+    "rows_beyond_tolerance": 0,
+    "rows_missing": 0,
+    "rows_extra": 0,
+    "undeclared_pixels": 1
+   },
+   {
+    "declared": [
+     36,
+     60
+    ],
+    "size": [
+     36,
+     60
+    ],
+    "rows": 60,
+    "rows_wrong_length": 23,
+    "rows_beyond_tolerance": 0,
+    "rows_missing": 0,
+    "rows_extra": 0,
+    "undeclared_pixels": 0
+   }
+  ]
+ },
+ "max_tokens": 131072,
+ "time_limit_s": 3600.0,
+ "finish_reason": "stop",
+ "prompt_tokens": 7436,
+ "completion_tokens": 5542,
+ "reasoning_tokens": 2889,
+ "seconds": 573.7,
+ "calls_usage": [
+  [
+   7436,
+   4224,
+   5542,
+   2889
+  ]
+ ]
+}

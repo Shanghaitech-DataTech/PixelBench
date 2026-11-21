@@ -1,0 +1,138 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "ancient-dragon-battle",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0008",
+  "source_hashes": {
+   "main.py": "8de1bd66e4847bcde5e7f537866768b51ec82fb5261757cffad52a2bc3211f3d"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 133,
+ "writes": 7,
+ "model_rounds": 17,
+ "llm_calls": 17,
+ "retries": 0,
+ "prompt_tokens": 640421,
+ "cached_tokens": 0,
+ "completion_tokens": 23209,
+ "reasoning_tokens": 246,
+ "seconds": 563.2,
+ "llm_seconds": 548.4,
+ "tool_seconds": 11.5,
+ "calls_usage": [
+  [
+   7788,
+   0,
+   11243,
+   229
+  ],
+  [
+   18821,
+   0,
+   57,
+   17
+  ],
+  [
+   19254,
+   0,
+   123,
+   0
+  ],
+  [
+   19395,
+   0,
+   40,
+   0
+  ],
+  [
+   19828,
+   0,
+   51,
+   0
+  ],
+  [
+   30868,
+   0,
+   144,
+   0
+  ],
+  [
+   31030,
+   0,
+   40,
+   0
+  ],
+  [
+   31463,
+   0,
+   10505,
+   0
+  ],
+  [
+   41987,
+   0,
+   40,
+   0
+  ],
+  [
+   42420,
+   0,
+   68,
+   0
+  ],
+  [
+   52949,
+   0,
+   175,
+   0
+  ],
+  [
+   53142,
+   0,
+   40,
+   0
+  ],
+  [
+   53662,
+   0,
+   196,
+   0
+  ],
+  [
+   53876,
+   0,
+   40,
+   0
+  ],
+  [
+   54406,
+   0,
+   211,
+   0
+  ],
+  [
+   54635,
+   0,
+   40,
+   0
+  ],
+  [
+   54897,
+   0,
+   196,
+   0
+  ]
+ ]
+}

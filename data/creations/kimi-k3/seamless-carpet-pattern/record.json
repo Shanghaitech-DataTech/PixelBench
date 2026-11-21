@@ -1,0 +1,66 @@
+{
+ "config": "kimi-k3",
+ "task": "seamless-carpet-pattern",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "a1d86203e8f35908ffb0785ddf7dcd3c49e7713d0462ceaf0bbfce5fc395828e"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 11,
+ "writes": 3,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 43099,
+ "cached_tokens": 32960,
+ "completion_tokens": 7276,
+ "reasoning_tokens": 6181,
+ "seconds": 90.1,
+ "llm_seconds": 86.5,
+ "tool_seconds": 2.1,
+ "calls_usage": [
+  [
+   7231,
+   0,
+   5737,
+   5044
+  ],
+  [
+   7958,
+   7168,
+   52,
+   3
+  ],
+  [
+   8819,
+   7936,
+   1056,
+   816
+  ],
+  [
+   9115,
+   8768,
+   49,
+   0
+  ],
+  [
+   9976,
+   9088,
+   382,
+   318
+  ]
+ ]
+}

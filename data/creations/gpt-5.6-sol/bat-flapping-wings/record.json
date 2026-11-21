@@ -1,0 +1,66 @@
+{
+ "config": "gpt-5.6-sol",
+ "task": "bat-flapping-wings",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "6a54291d8a991924bce1c3195e2fa4a27ce29cc8064ceaaf4a30a2f2a3de4703"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 9,
+ "writes": 2,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 65865,
+ "cached_tokens": 61440,
+ "completion_tokens": 2889,
+ "reasoning_tokens": 1617,
+ "seconds": 74.5,
+ "llm_seconds": 71.9,
+ "tool_seconds": 2.1,
+ "calls_usage": [
+  [
+   11627,
+   11008,
+   116,
+   0
+  ],
+  [
+   11758,
+   11648,
+   18,
+   0
+  ],
+  [
+   13264,
+   11648,
+   2263,
+   1251
+  ],
+  [
+   14289,
+   13056,
+   18,
+   0
+  ],
+  [
+   14927,
+   14080,
+   474,
+   366
+  ]
+ ]
+}

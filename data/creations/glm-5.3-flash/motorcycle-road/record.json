@@ -1,0 +1,104 @@
+{
+ "config": "glm-5.3-flash",
+ "task": "motorcycle-road",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "inspect.py": "991fc363ff75bc7bb047fcf86c10e6ac316106f90bb8556b3b064baeae8f35b5",
+   "inspect2.py": "08dffd37b55632538e986adef817bd7c61a395eb206a4d878143204f3be0d325",
+   "main.py": "e165a9873cfe1dbc45b4ee914f6652688ca1689c6dfcf0aa82229f0bde7eb2e4"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 34,
+ "writes": 5,
+ "model_rounds": 11,
+ "llm_calls": 11,
+ "retries": 0,
+ "prompt_tokens": 128769,
+ "cached_tokens": 0,
+ "completion_tokens": 20757,
+ "reasoning_tokens": 18545,
+ "seconds": 281.4,
+ "llm_seconds": 277.4,
+ "tool_seconds": 3.4,
+ "calls_usage": [
+  [
+   7366,
+   0,
+   65,
+   17
+  ],
+  [
+   7426,
+   0,
+   78,
+   66
+  ],
+  [
+   8810,
+   0,
+   19231,
+   17426
+  ],
+  [
+   10623,
+   0,
+   12,
+   0
+  ],
+  [
+   11431,
+   0,
+   375,
+   325
+  ],
+  [
+   12853,
+   0,
+   190,
+   148
+  ],
+  [
+   12904,
+   0,
+   13,
+   0
+  ],
+  [
+   13374,
+   0,
+   167,
+   105
+  ],
+  [
+   13443,
+   0,
+   12,
+   0
+  ],
+  [
+   15197,
+   0,
+   596,
+   458
+  ],
+  [
+   15342,
+   0,
+   18,
+   0
+  ]
+ ]
+}

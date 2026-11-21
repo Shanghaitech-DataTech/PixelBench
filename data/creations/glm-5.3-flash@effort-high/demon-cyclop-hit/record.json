@@ -1,0 +1,153 @@
+{
+ "config": "glm-5.3-flash@effort-high",
+ "task": "demon-cyclop-hit",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 3,
+  "actual_count": 3,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0008",
+  "source_hashes": {
+   "inspect.py": "507a2b06e62e83af2a0d5a8ab7557b6193af381619dca56049961d3228980dd2",
+   "inspect2.py": "15c0997cffbd6440df73046de0bda3a7007f6d54c8b0781c4f836446a764cf9e",
+   "inspect3.py": "634efca95512f711868d01b64bc9e9cb1fef6e21ca89ebfae39d286acba27e18",
+   "main.py": "c0c483c8c88c87a27c8841fdab55ec18f401b017bbf5b815b3b9dc3153fe3c5e"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 3,
+ "colors": 17,
+ "writes": 10,
+ "model_rounds": 19,
+ "llm_calls": 19,
+ "retries": 0,
+ "prompt_tokens": 231448,
+ "cached_tokens": 0,
+ "completion_tokens": 36928,
+ "reasoning_tokens": 34447,
+ "seconds": 601.6,
+ "llm_seconds": 596.7,
+ "tool_seconds": 4.3,
+ "calls_usage": [
+  [
+   7570,
+   0,
+   24,
+   8
+  ],
+  [
+   7680,
+   0,
+   33,
+   0
+  ],
+  [
+   7721,
+   0,
+   12,
+   0
+  ],
+  [
+   8395,
+   0,
+   5295,
+   5139
+  ],
+  [
+   8559,
+   0,
+   12,
+   0
+  ],
+  [
+   10194,
+   0,
+   7946,
+   7799
+  ],
+  [
+   10350,
+   0,
+   13,
+   0
+  ],
+  [
+   10919,
+   0,
+   11916,
+   10949
+  ],
+  [
+   11894,
+   0,
+   12,
+   0
+  ],
+  [
+   12148,
+   0,
+   189,
+   34
+  ],
+  [
+   12312,
+   0,
+   13,
+   0
+  ],
+  [
+   12786,
+   0,
+   338,
+   98
+  ],
+  [
+   13033,
+   0,
+   12,
+   0
+  ],
+  [
+   14973,
+   0,
+   9437,
+   9235
+  ],
+  [
+   15182,
+   0,
+   205,
+   0
+  ],
+  [
+   15394,
+   0,
+   12,
+   0
+  ],
+  [
+   17325,
+   0,
+   1271,
+   1185
+  ],
+  [
+   17418,
+   0,
+   170,
+   0
+  ],
+  [
+   17595,
+   0,
+   18,
+   0
+  ]
+ ]
+}

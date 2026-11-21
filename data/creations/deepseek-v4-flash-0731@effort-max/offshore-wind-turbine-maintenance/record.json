@@ -1,0 +1,102 @@
+{
+ "config": "deepseek-v4-flash-0731@effort-max",
+ "task": "offshore-wind-turbine-maintenance",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "main.py": "eed80d8144c0a92f73c4164f926b86215b191ef49a6a517f6c007360f407bcd2"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 58,
+ "writes": 5,
+ "model_rounds": 11,
+ "llm_calls": 11,
+ "retries": 0,
+ "prompt_tokens": 135666,
+ "cached_tokens": 0,
+ "completion_tokens": 32781,
+ "reasoning_tokens": 28609,
+ "seconds": 525.7,
+ "llm_seconds": 521.6,
+ "tool_seconds": 3.4,
+ "calls_usage": [
+  [
+   7694,
+   0,
+   26680,
+   24494
+  ],
+  [
+   9895,
+   0,
+   54,
+   9
+  ],
+  [
+   10165,
+   0,
+   1912,
+   739
+  ],
+  [
+   11352,
+   0,
+   45,
+   0
+  ],
+  [
+   11554,
+   0,
+   455,
+   397
+  ],
+  [
+   11769,
+   0,
+   381,
+   227
+  ],
+  [
+   11937,
+   0,
+   45,
+   0
+  ],
+  [
+   13734,
+   0,
+   1738,
+   1571
+  ],
+  [
+   13915,
+   0,
+   45,
+   0
+  ],
+  [
+   16722,
+   0,
+   1365,
+   1172
+  ],
+  [
+   16929,
+   0,
+   61,
+   0
+  ]
+ ]
+}

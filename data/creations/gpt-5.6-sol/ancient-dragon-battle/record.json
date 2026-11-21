@@ -1,0 +1,66 @@
+{
+ "config": "gpt-5.6-sol",
+ "task": "ancient-dragon-battle",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "4da24d2488e0f65a15c61bf2f872887028345e79ff040aa346655a23fa770308"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 51,
+ "writes": 2,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 75937,
+ "cached_tokens": 58880,
+ "completion_tokens": 4974,
+ "reasoning_tokens": 307,
+ "seconds": 124.9,
+ "llm_seconds": 109.2,
+ "tool_seconds": 5.1,
+ "calls_usage": [
+  [
+   11426,
+   0,
+   4525,
+   102
+  ],
+  [
+   15862,
+   11264,
+   32,
+   8
+  ],
+  [
+   15989,
+   15744,
+   119,
+   15
+  ],
+  [
+   16105,
+   15872,
+   22,
+   0
+  ],
+  [
+   16555,
+   16000,
+   276,
+   182
+  ]
+ ]
+}

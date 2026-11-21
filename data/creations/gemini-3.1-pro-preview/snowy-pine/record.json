@@ -1,0 +1,84 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "snowy-pine",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "6310c29114dcc569460d39d8d8e714964cd109a668e48b49f9844c962f926382"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 10,
+ "writes": 4,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 0,
+ "prompt_tokens": 80544,
+ "cached_tokens": 43570,
+ "completion_tokens": 649,
+ "reasoning_tokens": 2232,
+ "seconds": 64.6,
+ "llm_seconds": 60.7,
+ "tool_seconds": 3.1,
+ "calls_usage": [
+  [
+   7632,
+   0,
+   212,
+   134
+  ],
+  [
+   7846,
+   3959,
+   34,
+   14
+  ],
+  [
+   8942,
+   5945,
+   213,
+   129
+  ],
+  [
+   9152,
+   0,
+   20,
+   0
+  ],
+  [
+   10504,
+   7923,
+   972,
+   809
+  ],
+  [
+   11473,
+   7924,
+   20,
+   0
+  ],
+  [
+   11804,
+   7913,
+   1390,
+   1146
+  ],
+  [
+   13191,
+   9906,
+   20,
+   0
+  ]
+ ]
+}

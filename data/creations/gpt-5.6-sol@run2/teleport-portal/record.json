@@ -1,0 +1,54 @@
+{
+ "config": "gpt-5.6-sol@run2",
+ "task": "teleport-portal",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "820062a1ba98e9611f797fbe7f6f0f3f5b0bc91f0beb7ff05ed09bc717dce8b0"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 10,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 4,
+ "prompt_tokens": 38474,
+ "cached_tokens": 35456,
+ "completion_tokens": 2544,
+ "reasoning_tokens": 482,
+ "seconds": 115.8,
+ "llm_seconds": 63.9,
+ "tool_seconds": 1.3,
+ "calls_usage": [
+  [
+   11399,
+   11264,
+   2351,
+   396
+  ],
+  [
+   13367,
+   11008,
+   22,
+   0
+  ],
+  [
+   13708,
+   13184,
+   171,
+   86
+  ]
+ ]
+}

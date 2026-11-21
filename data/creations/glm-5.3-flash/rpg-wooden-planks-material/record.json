@@ -1,0 +1,108 @@
+{
+ "config": "glm-5.3-flash",
+ "task": "rpg-wooden-planks-material",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "7934d933bcffb6ae207ee45703115c29865e1f9f1baaa341c63e1b5241c796b5"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 10,
+ "writes": 8,
+ "model_rounds": 12,
+ "llm_calls": 12,
+ "retries": 0,
+ "prompt_tokens": 111258,
+ "cached_tokens": 0,
+ "completion_tokens": 37551,
+ "reasoning_tokens": 35074,
+ "seconds": 474.6,
+ "llm_seconds": 472.5,
+ "tool_seconds": 1.5,
+ "calls_usage": [
+  [
+   7314,
+   0,
+   14078,
+   13293
+  ],
+  [
+   8107,
+   0,
+   21,
+   9
+  ],
+  [
+   8758,
+   0,
+   2855,
+   2718
+  ],
+  [
+   8902,
+   0,
+   71,
+   0
+  ],
+  [
+   8980,
+   0,
+   70,
+   0
+  ],
+  [
+   9066,
+   0,
+   979,
+   924
+  ],
+  [
+   9128,
+   0,
+   47,
+   0
+  ],
+  [
+   9191,
+   0,
+   47,
+   0
+  ],
+  [
+   9254,
+   0,
+   64,
+   51
+  ],
+  [
+   9973,
+   0,
+   16907,
+   15935
+  ],
+  [
+   10953,
+   0,
+   12,
+   0
+  ],
+  [
+   11632,
+   0,
+   2400,
+   2144
+  ]
+ ]
+}

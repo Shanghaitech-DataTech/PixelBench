@@ -1,0 +1,54 @@
+{
+ "config": "gpt-5.6-sol",
+ "task": "vintage-sewing-machine",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "135aca8f60863adf04cbf75d618e853f792d64dc36eb1f231d5b6750b393c375"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 25,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 39123,
+ "cached_tokens": 35840,
+ "completion_tokens": 2700,
+ "reasoning_tokens": 307,
+ "seconds": 60.6,
+ "llm_seconds": 58.9,
+ "tool_seconds": 1.1,
+ "calls_usage": [
+  [
+   11394,
+   11008,
+   2501,
+   214
+  ],
+  [
+   13694,
+   11264,
+   22,
+   0
+  ],
+  [
+   14035,
+   13568,
+   177,
+   93
+  ]
+ ]
+}

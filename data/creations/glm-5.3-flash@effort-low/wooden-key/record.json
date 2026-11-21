@@ -1,0 +1,102 @@
+{
+ "config": "glm-5.3-flash@effort-low",
+ "task": "wooden-key",
+ "ok": true,
+ "error": null,
+ "termination": "final_text",
+ "submission": {
+  "source": "recovered",
+  "reason": "successful_preview",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": false,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "997e01dd5f09c17923c2d7d7a8972ee62270542d5e20125a5603df9bb3a64eb8"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 4,
+ "writes": 5,
+ "model_rounds": 11,
+ "llm_calls": 11,
+ "retries": 0,
+ "prompt_tokens": 100175,
+ "cached_tokens": 0,
+ "completion_tokens": 2775,
+ "reasoning_tokens": 423,
+ "seconds": 79.7,
+ "llm_seconds": 75.1,
+ "tool_seconds": 2.4,
+ "calls_usage": [
+  [
+   7273,
+   0,
+   596,
+   48
+  ],
+  [
+   7829,
+   0,
+   12,
+   0
+  ],
+  [
+   8087,
+   0,
+   759,
+   375
+  ],
+  [
+   8479,
+   0,
+   12,
+   0
+  ],
+  [
+   8725,
+   0,
+   408,
+   0
+  ],
+  [
+   9141,
+   0,
+   12,
+   0
+  ],
+  [
+   9387,
+   0,
+   445,
+   0
+  ],
+  [
+   9840,
+   0,
+   12,
+   0
+  ],
+  [
+   10087,
+   0,
+   445,
+   0
+  ],
+  [
+   10540,
+   0,
+   12,
+   0
+  ],
+  [
+   10787,
+   0,
+   62,
+   0
+  ]
+ ]
+}

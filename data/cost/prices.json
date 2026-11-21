@@ -1,0 +1,81 @@
+{
+ "currency": "USD",
+ "unit": "per 1M tokens",
+ "retrieved": "2026-11-10",
+ "rules": [
+  "Each model is priced at the list price of its vendor's API; variants use the price of their base configuration.",
+  "Uncached input is charged at the input rate and cached input at the cached rate; output, reasoning included, at the output rate. Every model call is priced on its own.",
+  "A long_context rate applies to a call whose prompt exceeds above_prompt_tokens.",
+  "estimate_cache: the endpoint reported no cache hits, so the cached part of a call's prompt is taken as the prompt of the previous call of the same task (the conversation only appends)."
+ ],
+ "models": {
+  "gpt-6-astra": {
+   "input": 10,
+   "cached_input": 1,
+   "output": 50
+  },
+  "gpt-5.6-sol": {
+   "input": 4,
+   "cached_input": 0.4,
+   "output": 20
+  },
+  "claude-opus-5": {
+   "input": 5,
+   "cached_input": 0.5,
+   "output": 25
+  },
+  "gemini-3.1-pro-preview": {
+   "input": 2,
+   "cached_input": 0.2,
+   "output": 12,
+   "long_context": {
+    "above_prompt_tokens": 200000,
+    "input": 4,
+    "cached_input": 0.4,
+    "output": 18
+   }
+  },
+  "gemini-3.8-flash": {
+   "input": 0.75,
+   "cached_input": 0.075,
+   "output": 3.75
+  },
+  "kimi-k3": {
+   "input": 3,
+   "cached_input": 0.3,
+   "output": 15
+  },
+  "qwen3.8-max": {
+   "input": 2,
+   "cached_input": 0.25,
+   "output": 6
+  },
+  "deepseek-v4-pro": {
+   "input": 1.32,
+   "cached_input": 0.044,
+   "output": 3.96
+  },
+  "deepseek-v4.1-flash": {
+   "input": 0.3,
+   "cached_input": 0.006,
+   "output": 1.2
+  },
+  "deepseek-v4-flash-0731": {
+   "input": 0.3,
+   "cached_input": 0.006,
+   "output": 1.2,
+   "estimate_cache": true
+  },
+  "glm-5.3-flash": {
+   "input": 0.15,
+   "cached_input": 0.03,
+   "output": 0.5,
+   "estimate_cache": true
+  },
+  "qwen3.5-397b-a17b": {
+   "input": 0.6,
+   "cached_input": 0.6,
+   "output": 3.6
+  }
+ }
+}

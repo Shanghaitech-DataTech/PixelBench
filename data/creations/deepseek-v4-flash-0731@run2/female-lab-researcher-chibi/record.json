@@ -1,0 +1,90 @@
+{
+ "config": "deepseek-v4-flash-0731@run2",
+ "task": "female-lab-researcher-chibi",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "4cad2d5c2906458b0498052f4bb97e8f186a13a9e63a93003070b8855c06add9"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 11,
+ "writes": 5,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 88192,
+ "cached_tokens": 0,
+ "completion_tokens": 15041,
+ "reasoning_tokens": 12809,
+ "seconds": 259.5,
+ "llm_seconds": 257.3,
+ "tool_seconds": 1.6,
+ "calls_usage": [
+  [
+   7674,
+   0,
+   12258,
+   11446
+  ],
+  [
+   8501,
+   0,
+   73,
+   12
+  ],
+  [
+   8996,
+   0,
+   1407,
+   1116
+  ],
+  [
+   9301,
+   0,
+   326,
+   0
+  ],
+  [
+   9660,
+   0,
+   446,
+   70
+  ],
+  [
+   10050,
+   0,
+   86,
+   40
+  ],
+  [
+   10936,
+   0,
+   61,
+   0
+  ],
+  [
+   11431,
+   0,
+   323,
+   125
+  ],
+  [
+   11643,
+   0,
+   61,
+   0
+  ]
+ ]
+}

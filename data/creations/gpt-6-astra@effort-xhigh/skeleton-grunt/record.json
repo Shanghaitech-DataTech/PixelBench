@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@effort-xhigh",
+ "task": "skeleton-grunt",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "25a45f3ad9ca9b31e606c2f67ac394bd3c270307f28d496f318effdecef996d0"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 22,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 10,
+ "prompt_tokens": 38572,
+ "cached_tokens": 35200,
+ "completion_tokens": 3195,
+ "reasoning_tokens": 652,
+ "seconds": 301.9,
+ "llm_seconds": 128.2,
+ "tool_seconds": 1.1,
+ "calls_usage": [
+  [
+   11129,
+   10752,
+   2961,
+   518
+  ],
+  [
+   13587,
+   11008,
+   18,
+   0
+  ],
+  [
+   13856,
+   13440,
+   216,
+   134
+  ]
+ ]
+}

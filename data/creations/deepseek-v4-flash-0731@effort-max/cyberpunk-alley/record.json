@@ -1,0 +1,120 @@
+{
+ "config": "deepseek-v4-flash-0731@effort-max",
+ "task": "cyberpunk-alley",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "3a4369fd3a53fdaa81163e4e06a465889516c3111f88ac4d841ec27ed4ffbf0c"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 45,
+ "writes": 8,
+ "model_rounds": 14,
+ "llm_calls": 14,
+ "retries": 0,
+ "prompt_tokens": 233840,
+ "cached_tokens": 0,
+ "completion_tokens": 34771,
+ "reasoning_tokens": 29427,
+ "seconds": 831.9,
+ "llm_seconds": 828.1,
+ "tool_seconds": 3.0,
+ "calls_usage": [
+  [
+   7696,
+   0,
+   28717,
+   25450
+  ],
+  [
+   10978,
+   0,
+   61,
+   16
+  ],
+  [
+   11246,
+   0,
+   437,
+   268
+  ],
+  [
+   11429,
+   0,
+   45,
+   0
+  ],
+  [
+   15428,
+   0,
+   3290,
+   2965
+  ],
+  [
+   15767,
+   0,
+   374,
+   0
+  ],
+  [
+   16165,
+   0,
+   164,
+   86
+  ],
+  [
+   16274,
+   0,
+   46,
+   0
+  ],
+  [
+   19557,
+   0,
+   435,
+   40
+  ],
+  [
+   19966,
+   0,
+   272,
+   104
+  ],
+  [
+   20148,
+   0,
+   181,
+   0
+  ],
+  [
+   20343,
+   0,
+   45,
+   0
+  ],
+  [
+   24342,
+   0,
+   643,
+   498
+  ],
+  [
+   24501,
+   0,
+   61,
+   0
+  ]
+ ]
+}

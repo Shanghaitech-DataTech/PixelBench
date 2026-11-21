@@ -1,0 +1,61 @@
+{
+ "config": "deepseek-v4-flash-0731@direct",
+ "task": "draw-sword-slash",
+ "ok": true,
+ "error": null,
+ "termination": "answered",
+ "frames": 2,
+ "colors": 15,
+ "parse": {
+  "ok": true,
+  "diags": [
+   {
+    "declared": [
+     62,
+     72
+    ],
+    "size": [
+     62,
+     72
+    ],
+    "rows": 72,
+    "rows_wrong_length": 15,
+    "rows_beyond_tolerance": 0,
+    "rows_missing": 0,
+    "rows_extra": 0,
+    "undeclared_pixels": 0
+   },
+   {
+    "declared": [
+     62,
+     72
+    ],
+    "size": [
+     62,
+     72
+    ],
+    "rows": 72,
+    "rows_wrong_length": 15,
+    "rows_beyond_tolerance": 0,
+    "rows_missing": 0,
+    "rows_extra": 0,
+    "undeclared_pixels": 1
+   }
+  ]
+ },
+ "max_tokens": 131072,
+ "time_limit_s": 3600.0,
+ "finish_reason": "stop",
+ "prompt_tokens": 1806,
+ "completion_tokens": 56199,
+ "reasoning_tokens": 53941,
+ "seconds": 969.0,
+ "calls_usage": [
+  [
+   1806,
+   0,
+   56199,
+   53941
+  ]
+ ]
+}

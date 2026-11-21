@@ -1,0 +1,144 @@
+{
+ "config": "qwen3.8-max",
+ "task": "chainmail-armor",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "15b95cf7bab7d03b51481fe141686202d9e9302cbfd67dc66e9f503e019003f4"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 19,
+ "writes": 12,
+ "model_rounds": 18,
+ "llm_calls": 18,
+ "retries": 4,
+ "prompt_tokens": 270417,
+ "cached_tokens": 247424,
+ "completion_tokens": 44582,
+ "reasoning_tokens": 39002,
+ "seconds": 1163.0,
+ "llm_seconds": 1071.8,
+ "tool_seconds": 2.8,
+ "calls_usage": [
+  [
+   7790,
+   7168,
+   17906,
+   17849
+  ],
+  [
+   7971,
+   7168,
+   10814,
+   9034
+  ],
+  [
+   9770,
+   7552,
+   94,
+   66
+  ],
+  [
+   11637,
+   7168,
+   4031,
+   3677
+  ],
+  [
+   12008,
+   11520,
+   934,
+   55
+  ],
+  [
+   12904,
+   11520,
+   307,
+   153
+  ],
+  [
+   13076,
+   12672,
+   1906,
+   1552
+  ],
+  [
+   13447,
+   12672,
+   326,
+   298
+  ],
+  [
+   15346,
+   13312,
+   2835,
+   2206
+  ],
+  [
+   15993,
+   14336,
+   570,
+   541
+  ],
+  [
+   17893,
+   15360,
+   2095,
+   1745
+  ],
+  [
+   18261,
+   17408,
+   565,
+   379
+  ],
+  [
+   18464,
+   17408,
+   283,
+   142
+  ],
+  [
+   18623,
+   18432,
+   305,
+   89
+  ],
+  [
+   18856,
+   18432,
+   190,
+   21
+  ],
+  [
+   19042,
+   18432,
+   137,
+   17
+  ],
+  [
+   19179,
+   18432,
+   98,
+   69
+  ],
+  [
+   20157,
+   18432,
+   1186,
+   1109
+  ]
+ ]
+}

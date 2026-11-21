@@ -1,0 +1,90 @@
+{
+ "config": "kimi-k3",
+ "task": "poolcore-water-slide",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "f0678a003ed3a39f3d03cae6657cb854ac1c4d6027cfc87963e938c430cda94a"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 35,
+ "writes": 9,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 6,
+ "prompt_tokens": 98283,
+ "cached_tokens": 91498,
+ "completion_tokens": 24058,
+ "reasoning_tokens": 19988,
+ "seconds": 900.6,
+ "llm_seconds": 766.4,
+ "tool_seconds": 3.1,
+ "calls_usage": [
+  [
+   7290,
+   6912,
+   20144,
+   18069
+  ],
+  [
+   9396,
+   7168,
+   57,
+   5
+  ],
+  [
+   9956,
+   9216,
+   886,
+   686
+  ],
+  [
+   10209,
+   9944,
+   1004,
+   12
+  ],
+  [
+   11277,
+   9984,
+   52,
+   0
+  ],
+  [
+   11837,
+   11264,
+   1085,
+   626
+  ],
+  [
+   12349,
+   11825,
+   64,
+   12
+  ],
+  [
+   12909,
+   12288,
+   699,
+   578
+  ],
+  [
+   13060,
+   12897,
+   67,
+   0
+  ]
+ ]
+}

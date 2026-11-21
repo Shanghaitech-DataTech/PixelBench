@@ -1,0 +1,90 @@
+{
+ "config": "kimi-k3",
+ "task": "character-emotion-set",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "207ab35d5ff0eb3a09749ccaa7c59532ddc3197db20d5406b646adc54143ecb9"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 15,
+ "writes": 4,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 100379,
+ "cached_tokens": 91847,
+ "completion_tokens": 42884,
+ "reasoning_tokens": 39443,
+ "seconds": 874.1,
+ "llm_seconds": 870.3,
+ "tool_seconds": 3.2,
+ "calls_usage": [
+  [
+   7246,
+   6912,
+   39267,
+   37029
+  ],
+  [
+   9521,
+   7168,
+   68,
+   11
+  ],
+  [
+   10123,
+   9472,
+   2136,
+   2028
+  ],
+  [
+   10267,
+   10111,
+   49,
+   0
+  ],
+  [
+   10875,
+   10240,
+   265,
+   123
+  ],
+  [
+   11053,
+   10863,
+   49,
+   0
+  ],
+  [
+   12773,
+   11008,
+   587,
+   0
+  ],
+  [
+   13393,
+   12761,
+   60,
+   0
+  ],
+  [
+   15128,
+   13312,
+   403,
+   252
+  ]
+ ]
+}

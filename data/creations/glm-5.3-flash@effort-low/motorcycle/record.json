@@ -1,0 +1,54 @@
+{
+ "config": "glm-5.3-flash@effort-low",
+ "task": "motorcycle",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "16e5c728837c367e724b8bbcef84302bf144707017b80a1e3eba8e697f8a4de2"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 8,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 24490,
+ "cached_tokens": 0,
+ "completion_tokens": 1982,
+ "reasoning_tokens": 768,
+ "seconds": 41.5,
+ "llm_seconds": 39.5,
+ "tool_seconds": 1.4,
+ "calls_usage": [
+  [
+   7333,
+   0,
+   1748,
+   564
+  ],
+  [
+   8525,
+   0,
+   12,
+   0
+  ],
+  [
+   8632,
+   0,
+   222,
+   204
+  ]
+ ]
+}

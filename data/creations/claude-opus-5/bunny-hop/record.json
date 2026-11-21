@@ -1,0 +1,157 @@
+{
+ "config": "claude-opus-5",
+ "task": "bunny-hop",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0010",
+  "source_hashes": {
+   "check.py": "35c6ec96873069415a2e3ee1470cb75e33283a8d58472fd0fbc21e789569cf72",
+   "main.py": "5ff299da5131b062a50d33d9623f6944b32bb452f4b26bd8607e53b9807821b1"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 8,
+ "writes": 10,
+ "model_rounds": 20,
+ "llm_calls": 20,
+ "retries": 5,
+ "prompt_tokens": 263769,
+ "cached_tokens": 251354,
+ "completion_tokens": 4481,
+ "reasoning_tokens": 0,
+ "seconds": 534.6,
+ "llm_seconds": 430.0,
+ "tool_seconds": 6.3,
+ "calls_usage": [
+  [
+   8076,
+   7512,
+   53,
+   0
+  ],
+  [
+   8138,
+   7485,
+   7,
+   0
+  ],
+  [
+   9057,
+   7844,
+   938,
+   0
+  ],
+  [
+   9683,
+   9266,
+   7,
+   0
+  ],
+  [
+   10349,
+   9627,
+   761,
+   0
+  ],
+  [
+   11321,
+   10625,
+   7,
+   0
+  ],
+  [
+   11675,
+   10772,
+   301,
+   0
+  ],
+  [
+   11804,
+   11649,
+   7,
+   0
+  ],
+  [
+   12726,
+   11876,
+   1076,
+   0
+  ],
+  [
+   13296,
+   12841,
+   7,
+   0
+  ],
+  [
+   14034,
+   13247,
+   173,
+   0
+  ],
+  [
+   14146,
+   14011,
+   7,
+   0
+  ],
+  [
+   14405,
+   13980,
+   510,
+   0
+  ],
+  [
+   14986,
+   14062,
+   7,
+   0
+  ],
+  [
+   15725,
+   14448,
+   299,
+   0
+  ],
+  [
+   16100,
+   15738,
+   7,
+   0
+  ],
+  [
+   16838,
+   16131,
+   150,
+   0
+  ],
+  [
+   16922,
+   16797,
+   7,
+   0
+  ],
+  [
+   17216,
+   16740,
+   145,
+   0
+  ],
+  [
+   17272,
+   16703,
+   12,
+   0
+  ]
+ ]
+}

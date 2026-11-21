@@ -1,0 +1,48 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "convenience-store-on-a-rainy-night",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0001",
+  "source_hashes": {
+   "main.py": "e04853797890e96d6658c8be9efb63713da641042b21825d38334732437589a6"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 72,
+ "writes": 1,
+ "model_rounds": 2,
+ "llm_calls": 2,
+ "retries": 0,
+ "prompt_tokens": 39313,
+ "cached_tokens": 0,
+ "completion_tokens": 2872,
+ "reasoning_tokens": 21345,
+ "seconds": 223.1,
+ "llm_seconds": 218.2,
+ "tool_seconds": 0.6,
+ "calls_usage": [
+  [
+   7568,
+   0,
+   24175,
+   21323
+  ],
+  [
+   31745,
+   0,
+   42,
+   22
+  ]
+ ]
+}

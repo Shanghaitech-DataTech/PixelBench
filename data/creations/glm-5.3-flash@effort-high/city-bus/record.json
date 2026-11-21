@@ -1,0 +1,72 @@
+{
+ "config": "glm-5.3-flash@effort-high",
+ "task": "city-bus",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "d35a247e3fc4a986e990389502bfa6e086c975beb3a762e464385c8b1459c89e"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 14,
+ "writes": 2,
+ "model_rounds": 6,
+ "llm_calls": 6,
+ "retries": 0,
+ "prompt_tokens": 55357,
+ "cached_tokens": 0,
+ "completion_tokens": 24273,
+ "reasoning_tokens": 21436,
+ "seconds": 497.2,
+ "llm_seconds": 494.9,
+ "tool_seconds": 1.7,
+ "calls_usage": [
+  [
+   7296,
+   0,
+   1269,
+   1252
+  ],
+  [
+   7407,
+   0,
+   7318,
+   6066
+  ],
+  [
+   8667,
+   0,
+   12,
+   0
+  ],
+  [
+   9445,
+   0,
+   15216,
+   13794
+  ],
+  [
+   10875,
+   0,
+   12,
+   0
+  ],
+  [
+   11667,
+   0,
+   446,
+   324
+  ]
+ ]
+}

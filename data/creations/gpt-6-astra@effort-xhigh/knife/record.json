@@ -1,0 +1,132 @@
+{
+ "config": "gpt-6-astra@effort-xhigh",
+ "task": "knife",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "61a1370e29dd06176b5974c609cdc7f44bd7e2e1a0417770bf2a55e7a9c611a6"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 76,
+ "writes": 9,
+ "model_rounds": 16,
+ "llm_calls": 16,
+ "retries": 0,
+ "prompt_tokens": 223434,
+ "cached_tokens": 210432,
+ "completion_tokens": 3856,
+ "reasoning_tokens": 2146,
+ "seconds": 304.8,
+ "llm_seconds": 296.4,
+ "tool_seconds": 7.5,
+ "calls_usage": [
+  [
+   11224,
+   10752,
+   76,
+   0
+  ],
+  [
+   11315,
+   11136,
+   18,
+   0
+  ],
+  [
+   11706,
+   11136,
+   598,
+   516
+  ],
+  [
+   11801,
+   11520,
+   18,
+   0
+  ],
+  [
+   12416,
+   11648,
+   143,
+   100
+  ],
+  [
+   12488,
+   12288,
+   68,
+   32
+  ],
+  [
+   12536,
+   12288,
+   18,
+   0
+  ],
+  [
+   13471,
+   12416,
+   1244,
+   516
+  ],
+  [
+   14212,
+   10752,
+   18,
+   0
+  ],
+  [
+   14732,
+   13184,
+   511,
+   394
+  ],
+  [
+   14861,
+   14080,
+   18,
+   0
+  ],
+  [
+   15869,
+   14464,
+   470,
+   351
+  ],
+  [
+   16000,
+   15616,
+   181,
+   0
+  ],
+  [
+   16195,
+   16128,
+   18,
+   0
+  ],
+  [
+   17199,
+   16128,
+   435,
+   237
+  ],
+  [
+   17409,
+   16896,
+   22,
+   0
+  ]
+ ]
+}

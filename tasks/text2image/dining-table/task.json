@@ -1,0 +1,16 @@
+{
+  "id": "dining-table",
+  "task_type": "agentic_creation",
+  "prompt": "pixel art, 64x64 resolution, furniture item sprite, family dining table, wooden table, four chairs around it, a bowl of fruit on the table, cozy family atmosphere, top-down or front view, dark outline",
+  "width": 64,
+  "height": 64,
+  "constraints": {
+    "max_colors": 86,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 25,
+    "max_code_seconds": 120
+  }
+}

@@ -1,0 +1,114 @@
+{
+ "config": "deepseek-v4-flash-0731@effort-low",
+ "task": "rice-terraces-during-harvest",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0008",
+  "source_hashes": {
+   "main.py": "b847e8eb43e25fd79f2f3d5aad859021b2b5baed5e6315bf05124f4fe84e9686"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 18,
+ "writes": 5,
+ "model_rounds": 13,
+ "llm_calls": 13,
+ "retries": 0,
+ "prompt_tokens": 139041,
+ "cached_tokens": 0,
+ "completion_tokens": 8473,
+ "reasoning_tokens": 5456,
+ "seconds": 201.2,
+ "llm_seconds": 195.7,
+ "tool_seconds": 4.9,
+ "calls_usage": [
+  [
+   7602,
+   0,
+   4932,
+   3190
+  ],
+  [
+   9359,
+   0,
+   52,
+   7
+  ],
+  [
+   9615,
+   0,
+   268,
+   223
+  ],
+  [
+   9871,
+   0,
+   244,
+   199
+  ],
+  [
+   10127,
+   0,
+   744,
+   430
+  ],
+  [
+   10455,
+   0,
+   45,
+   0
+  ],
+  [
+   10711,
+   0,
+   486,
+   159
+  ],
+  [
+   11052,
+   0,
+   45,
+   0
+  ],
+  [
+   11308,
+   0,
+   373,
+   319
+  ],
+  [
+   11573,
+   0,
+   244,
+   134
+  ],
+  [
+   11697,
+   0,
+   45,
+   0
+  ],
+  [
+   12759,
+   0,
+   934,
+   795
+  ],
+  [
+   12912,
+   0,
+   61,
+   0
+  ]
+ ]
+}

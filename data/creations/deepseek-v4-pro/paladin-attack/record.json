@@ -1,0 +1,154 @@
+{
+ "config": "deepseek-v4-pro",
+ "task": "paladin-attack",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0014",
+  "source_hashes": {
+   "analyze.py": "fb3ab9a655aaaea3daa7f9204d1507074f2149a7e10b54ccc63579bab457c525",
+   "analyze2.py": "67e5cccb75b7cadb6106f81d1d5b2ae960186848286106b604066f54369cd8ce",
+   "components.py": "2824a5dcfffaad81e70092fb96eb5aa01a757f1de35b126df2415ed62600d744",
+   "feet.py": "b888110b28955a46afbe64c4690b2542d1621a111d436dd912dc149a7e9586d2",
+   "grid.py": "4c0756b89438d130d856ddd36b0931af084bdc0f270bb63c881bb03c8b876630",
+   "inspect.py": "8221753fe6c6fd4cd7e30e76c34697ca339f5f62d71eeea928c9d91131922993",
+   "left.py": "3d56d83e38439106336a0f838e14da4cf9dded6ab4dec211cc74d28cc5c85f39",
+   "main.py": "4497d9d3c2880f83ce523bb439ae247b5ce444564c6a9bff7bfac55cddbd5b18",
+   "region.py": "904682fa68dcf27d58c6002a1abbd01ae8d302bc741f8df4405b435e77f28269",
+   "silhouette.py": "03a6e7d78c6df56f0674695e30283fc80c0adef2a101bf860da4c28e076b0767",
+   "weapon.py": "00082c93dd6e2460972e7b7b1923e9d5b18493c069975653e47a82ce4137c837"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 43,
+ "writes": 15,
+ "model_rounds": 18,
+ "llm_calls": 18,
+ "retries": 0,
+ "prompt_tokens": 756371,
+ "cached_tokens": 706304,
+ "completion_tokens": 105438,
+ "reasoning_tokens": 99919,
+ "seconds": 1200.4,
+ "llm_seconds": 1191.1,
+ "tool_seconds": 8.5,
+ "calls_usage": [
+  [
+   7933,
+   7424,
+   253,
+   106
+  ],
+  [
+   10103,
+   8064,
+   5037,
+   4757
+  ],
+  [
+   15516,
+   15104,
+   198,
+   76
+  ],
+  [
+   15729,
+   15616,
+   61,
+   0
+  ],
+  [
+   17087,
+   15744,
+   2002,
+   1725
+  ],
+  [
+   21400,
+   19072,
+   1929,
+   1414
+  ],
+  [
+   30631,
+   23296,
+   5855,
+   5637
+  ],
+  [
+   38357,
+   36480,
+   5199,
+   4573
+  ],
+  [
+   44849,
+   43520,
+   4810,
+   4347
+  ],
+  [
+   49760,
+   49536,
+   600,
+   343
+  ],
+  [
+   50897,
+   50304,
+   1583,
+   1408
+  ],
+  [
+   52938,
+   52480,
+   4306,
+   4085
+  ],
+  [
+   58975,
+   57216,
+   5620,
+   5198
+  ],
+  [
+   65040,
+   64512,
+   28317,
+   27052
+  ],
+  [
+   93373,
+   93312,
+   71,
+   11
+  ],
+  [
+   95316,
+   93440,
+   21175,
+   20946
+  ],
+  [
+   35048,
+   7808,
+   18356,
+   18235
+  ],
+  [
+   53419,
+   53376,
+   66,
+   6
+  ]
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "arcane-instrument-giant",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0001",
+  "source_hashes": {
+   "main.py": "20ec415087d1ef8a25f6f05bd4a9b52e055f90ee8eb50d9fb8329211da4987ee"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 32,
+ "writes": 1,
+ "model_rounds": 1,
+ "llm_calls": 1,
+ "retries": 0,
+ "prompt_tokens": 7589,
+ "cached_tokens": 0,
+ "completion_tokens": 4476,
+ "reasoning_tokens": 29843,
+ "seconds": 304.8,
+ "llm_seconds": 294.9,
+ "tool_seconds": 2.3,
+ "calls_usage": [
+  [
+   7589,
+   0,
+   34319,
+   29843
+  ]
+ ]
+}

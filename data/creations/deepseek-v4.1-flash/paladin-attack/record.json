@@ -1,0 +1,200 @@
+{
+ "config": "deepseek-v4.1-flash",
+ "task": "paladin-attack",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0013",
+  "source_hashes": {
+   "inspect.py": "b1bc0a7ea2994a851cf427a8d390a4a1264f536e14804a95864078c63e0d307b",
+   "inspect2.py": "f3772762ba24d84524e542c2b426d77ab38a9f96d406d5314d126ccb3f22a9b8",
+   "inspect3.py": "777dd0cdbb957ced3259f5ba65291cf1026fa3b18a52902f2b989ed62e7b6177",
+   "inspect4.py": "b832b2c08f4bae046bc03c62c5a92187cfcb7a3b7c071c6033370fab884a196d",
+   "inspect5.py": "b0da63faebc8e1f89d3f2de92ab99f5a351c476ad32e9f5ece5ea48db1137e94",
+   "inspect6.py": "b2c92fd738c78b8d963ea891692ca9d4b2fc6fb4f52ef13ba52d2f66f096365c",
+   "inspect7.py": "153dacecea3d7d7d850c234b3c990dbacb6abd4d3b2e421938f8c1aa2303ab9c",
+   "inspect8.py": "70f3846f0821a47fc83a58fa2ddbdebe0b63a7f93dc0685ec3bea398265a5833",
+   "main.py": "46fec950e9bb79b2720e57c1f869083a0563369b5f19c5e6618676c8f9dd9e04"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 44,
+ "writes": 13,
+ "model_rounds": 26,
+ "llm_calls": 26,
+ "retries": 0,
+ "prompt_tokens": 1162743,
+ "cached_tokens": 1132416,
+ "completion_tokens": 73486,
+ "reasoning_tokens": 65297,
+ "seconds": 973.4,
+ "llm_seconds": 531.3,
+ "tool_seconds": 7.8,
+ "calls_usage": [
+  [
+   7870,
+   7168,
+   99,
+   0
+  ],
+  [
+   7996,
+   7808,
+   39,
+   0
+  ],
+  [
+   9588,
+   7936,
+   125,
+   53
+  ],
+  [
+   9730,
+   9472,
+   40,
+   0
+  ],
+  [
+   15067,
+   9728,
+   1410,
+   886
+  ],
+  [
+   16494,
+   16256,
+   40,
+   0
+  ],
+  [
+   18438,
+   16512,
+   798,
+   496
+  ],
+  [
+   19253,
+   19072,
+   40,
+   0
+  ],
+  [
+   22577,
+   19200,
+   1577,
+   1495
+  ],
+  [
+   24171,
+   23936,
+   40,
+   0
+  ],
+  [
+   25712,
+   24192,
+   3207,
+   3125
+  ],
+  [
+   28936,
+   28800,
+   40,
+   0
+  ],
+  [
+   30265,
+   28928,
+   1238,
+   1103
+  ],
+  [
+   31520,
+   31360,
+   40,
+   0
+  ],
+  [
+   32130,
+   31488,
+   513,
+   431
+  ],
+  [
+   32660,
+   32512,
+   40,
+   0
+  ],
+  [
+   34209,
+   34048,
+   38749,
+   37261
+  ],
+  [
+   72974,
+   72832,
+   38,
+   0
+  ],
+  [
+   74170,
+   72960,
+   7785,
+   6252
+  ],
+  [
+   81971,
+   81792,
+   38,
+   0
+  ],
+  [
+   83031,
+   81920,
+   8502,
+   6918
+  ],
+  [
+   91548,
+   84608,
+   38,
+   0
+  ],
+  [
+   92577,
+   91520,
+   5509,
+   3977
+  ],
+  [
+   98102,
+   97920,
+   38,
+   0
+  ],
+  [
+   99145,
+   98048,
+   3449,
+   3300
+  ],
+  [
+   102609,
+   102400,
+   54,
+   0
+  ]
+ ]
+}

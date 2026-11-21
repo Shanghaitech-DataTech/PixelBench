@@ -1,0 +1,84 @@
+{
+ "config": "glm-5.3-flash@effort-high",
+ "task": "dragon-hatchling",
+ "ok": true,
+ "error": null,
+ "termination": "long_request_cut",
+ "submission": {
+  "source": "recovered",
+  "reason": "successful_preview",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": false,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "e8be920b37e6704e1136f608e44f66872004a0ab18c32228ee7e3755731c81ce"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 15,
+ "writes": 4,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 1,
+ "prompt_tokens": 97558,
+ "cached_tokens": 0,
+ "completion_tokens": 112787,
+ "reasoning_tokens": 106261,
+ "seconds": 3485.8,
+ "llm_seconds": 1682.8,
+ "tool_seconds": 2.3,
+ "calls_usage": [
+  [
+   7302,
+   0,
+   12343,
+   11100
+  ],
+  [
+   8553,
+   0,
+   12,
+   0
+  ],
+  [
+   9709,
+   0,
+   23005,
+   21236
+  ],
+  [
+   11486,
+   0,
+   12,
+   0
+  ],
+  [
+   12717,
+   0,
+   14593,
+   12787
+  ],
+  [
+   14531,
+   0,
+   12,
+   0
+  ],
+  [
+   15796,
+   0,
+   62798,
+   61138
+  ],
+  [
+   17464,
+   0,
+   12,
+   0
+  ]
+ ]
+}

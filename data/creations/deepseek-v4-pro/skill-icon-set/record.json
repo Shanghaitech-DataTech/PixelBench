@@ -1,0 +1,90 @@
+{
+ "config": "deepseek-v4-pro",
+ "task": "skill-icon-set",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "2f87d1e5d88b049f41451f776b0ea17c262fc7b7fcec48791dc4d92fcb19d4eb"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 11,
+ "writes": 4,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 311190,
+ "cached_tokens": 305664,
+ "completion_tokens": 32080,
+ "reasoning_tokens": 29972,
+ "seconds": 418.0,
+ "llm_seconds": 412.8,
+ "tool_seconds": 3.0,
+ "calls_usage": [
+  [
+   7685,
+   7424,
+   20571,
+   19576
+  ],
+  [
+   28272,
+   28160,
+   64,
+   4
+  ],
+  [
+   29879,
+   28288,
+   5914,
+   5679
+  ],
+  [
+   35808,
+   35712,
+   70,
+   10
+  ],
+  [
+   37418,
+   35840,
+   3620,
+   3221
+  ],
+  [
+   41053,
+   40960,
+   63,
+   3
+  ],
+  [
+   42618,
+   41088,
+   1504,
+   1325
+  ],
+  [
+   44137,
+   44032,
+   141,
+   81
+  ],
+  [
+   44320,
+   44160,
+   133,
+   73
+  ]
+ ]
+}

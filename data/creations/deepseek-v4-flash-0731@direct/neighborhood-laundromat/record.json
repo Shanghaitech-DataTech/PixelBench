@@ -1,0 +1,42 @@
+{
+ "config": "deepseek-v4-flash-0731@direct",
+ "task": "neighborhood-laundromat",
+ "ok": false,
+ "error": "unparseable",
+ "termination": "format",
+ "frames": 0,
+ "colors": null,
+ "parse": {
+  "ok": false,
+  "reason": "row count 73 vs 64",
+  "palette_size": 14,
+  "diags": [
+   {
+    "declared": [
+     64,
+     64
+    ],
+    "size": [
+     64,
+     64
+    ],
+    "rows": 73
+   }
+  ]
+ },
+ "max_tokens": 131072,
+ "time_limit_s": 3600.0,
+ "finish_reason": "stop",
+ "prompt_tokens": 490,
+ "completion_tokens": 41163,
+ "reasoning_tokens": 39348,
+ "seconds": 687.1,
+ "calls_usage": [
+  [
+   490,
+   0,
+   41163,
+   39348
+  ]
+ ]
+}

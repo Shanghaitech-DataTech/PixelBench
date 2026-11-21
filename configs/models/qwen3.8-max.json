@@ -1,0 +1,12 @@
+{
+  "id": "qwen3.8-max",
+  "display_name": "Qwen3.8 Max",
+  "reported_level": "thinking budget",
+  "vision": true,
+  "llm": {
+    "model": "qwen3.8-max",
+    "api_format": "completions",
+    "stream": false,
+    "temperature": 0.7
+  }
+}

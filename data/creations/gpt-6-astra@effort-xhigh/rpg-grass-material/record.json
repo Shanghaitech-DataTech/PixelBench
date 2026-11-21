@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@effort-xhigh",
+ "task": "rpg-grass-material",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "d631badd874452f1395755c5564aa49c25b0657c5e0cd74f861207f09d11f170"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 10,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 2,
+ "prompt_tokens": 36603,
+ "cached_tokens": 23680,
+ "completion_tokens": 2043,
+ "reasoning_tokens": 599,
+ "seconds": 493.3,
+ "llm_seconds": 370.0,
+ "tool_seconds": 1.4,
+ "calls_usage": [
+  [
+   11147,
+   0,
+   1878,
+   518
+  ],
+  [
+   12522,
+   11008,
+   18,
+   0
+  ],
+  [
+   12934,
+   12672,
+   147,
+   81
+  ]
+ ]
+}

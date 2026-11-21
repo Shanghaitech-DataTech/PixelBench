@@ -1,0 +1,54 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "wooden-key",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "bb8407b3c255bff616e8bbd5e0d23a46fd980d4c7fda127c36c0fc91731c1aa3"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 7,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 25108,
+ "cached_tokens": 0,
+ "completion_tokens": 1679,
+ "reasoning_tokens": 870,
+ "seconds": 45.7,
+ "llm_seconds": 44.1,
+ "tool_seconds": 1.1,
+ "calls_usage": [
+  [
+   7737,
+   0,
+   1383,
+   654
+  ],
+  [
+   8485,
+   0,
+   58,
+   18
+  ],
+  [
+   8886,
+   0,
+   238,
+   198
+  ]
+ ]
+}

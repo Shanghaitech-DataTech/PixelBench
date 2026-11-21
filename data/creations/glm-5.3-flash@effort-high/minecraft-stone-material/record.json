@@ -1,0 +1,54 @@
+{
+ "config": "glm-5.3-flash@effort-high",
+ "task": "minecraft-stone-material",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "bf653475e8576c3a74cc9d68b227bb068f8c29f0c30b8d5d91f17ab5cd8ac283"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 7,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 23279,
+ "cached_tokens": 0,
+ "completion_tokens": 11709,
+ "reasoning_tokens": 11065,
+ "seconds": 222.0,
+ "llm_seconds": 220.5,
+ "tool_seconds": 1.0,
+ "calls_usage": [
+  [
+   7286,
+   0,
+   10559,
+   10050
+  ],
+  [
+   7803,
+   0,
+   12,
+   0
+  ],
+  [
+   8190,
+   0,
+   1138,
+   1015
+  ]
+ ]
+}

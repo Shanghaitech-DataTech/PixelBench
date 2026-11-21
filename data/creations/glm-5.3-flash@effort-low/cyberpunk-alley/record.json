@@ -1,0 +1,96 @@
+{
+ "config": "glm-5.3-flash@effort-low",
+ "task": "cyberpunk-alley",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "a0bc20008df3efda433db4a91d7f4fda2766abfce9eded154666b286ccabe667"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 78,
+ "writes": 4,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 0,
+ "prompt_tokens": 126017,
+ "cached_tokens": 0,
+ "completion_tokens": 5132,
+ "reasoning_tokens": 1449,
+ "seconds": 117.1,
+ "llm_seconds": 112.0,
+ "tool_seconds": 4.2,
+ "calls_usage": [
+  [
+   7299,
+   0,
+   4670,
+   1287
+  ],
+  [
+   10690,
+   0,
+   12,
+   0
+  ],
+  [
+   10916,
+   0,
+   70,
+   41
+  ],
+  [
+   11159,
+   0,
+   52,
+   0
+  ],
+  [
+   11218,
+   0,
+   12,
+   0
+  ],
+  [
+   11443,
+   0,
+   13,
+   0
+  ],
+  [
+   14802,
+   0,
+   138,
+   70
+  ],
+  [
+   14877,
+   0,
+   12,
+   0
+  ],
+  [
+   16761,
+   0,
+   135,
+   51
+  ],
+  [
+   16852,
+   0,
+   18,
+   0
+  ]
+ ]
+}

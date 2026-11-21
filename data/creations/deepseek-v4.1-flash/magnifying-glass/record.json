@@ -1,0 +1,97 @@
+{
+ "config": "deepseek-v4.1-flash",
+ "task": "magnifying-glass",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "2d68c6b747d12f50c61f9d6c27b61f0c5a1e2570dd8a67f7a9fe6d6538328b62",
+   "variants.py": "89704dbe27f17b77245acb8e7a5c5919e81f5d4408215885cc9d3635e8d5638e"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 7,
+ "writes": 5,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 0,
+ "prompt_tokens": 336204,
+ "cached_tokens": 332544,
+ "completion_tokens": 38003,
+ "reasoning_tokens": 35567,
+ "seconds": 265.9,
+ "llm_seconds": 262.6,
+ "tool_seconds": 2.6,
+ "calls_usage": [
+  [
+   7590,
+   7168,
+   15309,
+   14859
+  ],
+  [
+   22925,
+   22784,
+   41,
+   3
+  ],
+  [
+   23287,
+   22912,
+   10796,
+   10351
+  ],
+  [
+   34099,
+   33920,
+   38,
+   0
+  ],
+  [
+   34458,
+   34048,
+   3440,
+   2856
+  ],
+  [
+   37914,
+   37760,
+   39,
+   0
+  ],
+  [
+   38881,
+   37888,
+   5602,
+   5005
+  ],
+  [
+   44499,
+   44288,
+   38,
+   0
+  ],
+  [
+   44945,
+   44416,
+   2646,
+   2493
+  ],
+  [
+   47606,
+   47360,
+   54,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,102 @@
+{
+ "config": "glm-5.3-flash",
+ "task": "neighborhood-laundromat",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "bd00ddc25b351dc1cedb2b6136b1ef89f01751df1efbab7af031747224beb2dd"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 52,
+ "writes": 5,
+ "model_rounds": 11,
+ "llm_calls": 11,
+ "retries": 0,
+ "prompt_tokens": 141173,
+ "cached_tokens": 0,
+ "completion_tokens": 53012,
+ "reasoning_tokens": 48326,
+ "seconds": 716.0,
+ "llm_seconds": 712.4,
+ "tool_seconds": 2.9,
+ "calls_usage": [
+  [
+   7299,
+   0,
+   23126,
+   23103
+  ],
+  [
+   7329,
+   0,
+   25990,
+   22565
+  ],
+  [
+   10762,
+   0,
+   18,
+   0
+  ],
+  [
+   11956,
+   0,
+   2558,
+   2481
+  ],
+  [
+   12040,
+   0,
+   18,
+   0
+  ],
+  [
+   13646,
+   0,
+   57,
+   0
+  ],
+  [
+   13710,
+   0,
+   18,
+   0
+  ],
+  [
+   15091,
+   0,
+   767,
+   0
+  ],
+  [
+   15865,
+   0,
+   175,
+   0
+  ],
+  [
+   16047,
+   0,
+   18,
+   0
+  ],
+  [
+   17428,
+   0,
+   267,
+   177
+  ]
+ ]
+}

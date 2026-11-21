@@ -1,0 +1,78 @@
+{
+ "config": "kimi-k3",
+ "task": "dragon-hatchling",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "00796d184b52e4ae4f87ff13def8e433b7d5aba472a12ed5e174b10284462aae"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 17,
+ "writes": 5,
+ "model_rounds": 7,
+ "llm_calls": 7,
+ "retries": 0,
+ "prompt_tokens": 69560,
+ "cached_tokens": 64617,
+ "completion_tokens": 15928,
+ "reasoning_tokens": 13066,
+ "seconds": 323.8,
+ "llm_seconds": 320.8,
+ "tool_seconds": 2.5,
+ "calls_usage": [
+  [
+   7239,
+   6912,
+   9206,
+   7480
+  ],
+  [
+   8999,
+   7168,
+   49,
+   0
+  ],
+  [
+   9491,
+   8960,
+   5976,
+   5243
+  ],
+  [
+   10303,
+   9479,
+   49,
+   0
+  ],
+  [
+   10862,
+   10240,
+   192,
+   0
+  ],
+  [
+   11087,
+   10850,
+   49,
+   0
+  ],
+  [
+   11579,
+   11008,
+   407,
+   343
+  ]
+ ]
+}

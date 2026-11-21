@@ -1,0 +1,60 @@
+{
+ "config": "glm-5.3-flash@effort-low",
+ "task": "mountain-village-sunrise",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "d4665b00029d146a3cb8b9003f22b77ea4ccb62cfede712f64540c81517f6ccf"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 39,
+ "writes": 3,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 35501,
+ "cached_tokens": 0,
+ "completion_tokens": 2146,
+ "reasoning_tokens": 91,
+ "seconds": 49.4,
+ "llm_seconds": 47.1,
+ "tool_seconds": 1.6,
+ "calls_usage": [
+  [
+   7294,
+   0,
+   1960,
+   57
+  ],
+  [
+   9205,
+   0,
+   12,
+   0
+  ],
+  [
+   9434,
+   0,
+   156,
+   34
+  ],
+  [
+   9568,
+   0,
+   18,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,102 @@
+{
+ "config": "claude-opus-5",
+ "task": "weapon-set-icons",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "55ae47d69a0311b0006eaff4d216f58b9bf7c7039065b35e1e27d368753d0003"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 16,
+ "writes": 6,
+ "model_rounds": 11,
+ "llm_calls": 11,
+ "retries": 6,
+ "prompt_tokens": 125933,
+ "cached_tokens": 107132,
+ "completion_tokens": 3411,
+ "reasoning_tokens": 0,
+ "seconds": 898.7,
+ "llm_seconds": 317.1,
+ "tool_seconds": 3.3,
+ "calls_usage": [
+  [
+   7838,
+   7566,
+   2020,
+   0
+  ],
+  [
+   9745,
+   8378,
+   7,
+   0
+  ],
+  [
+   10275,
+   8616,
+   382,
+   0
+  ],
+  [
+   10524,
+   10337,
+   302,
+   0
+  ],
+  [
+   11121,
+   0,
+   51,
+   0
+  ],
+  [
+   11650,
+   9094,
+   300,
+   0
+  ],
+  [
+   12180,
+   11877,
+   7,
+   0
+  ],
+  [
+   12709,
+   12121,
+   213,
+   0
+  ],
+  [
+   12926,
+   12749,
+   7,
+   0
+  ],
+  [
+   13455,
+   12991,
+   110,
+   0
+  ],
+  [
+   13510,
+   13403,
+   12,
+   0
+  ]
+ ]
+}

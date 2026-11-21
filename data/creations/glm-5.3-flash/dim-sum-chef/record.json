@@ -1,0 +1,145 @@
+{
+ "config": "glm-5.3-flash",
+ "task": "dim-sum-chef",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0008",
+  "source_hashes": {
+   "inspect.py": "bed2dbfc1d441f6e1c6d6e58322c172ae69e98a6e00c2dc1a3f5c912eb200e4e",
+   "main.py": "da3a6547d063305839522af283b4f539151d072964fd0cfaf5331c6d54539d39"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 22,
+ "writes": 10,
+ "model_rounds": 18,
+ "llm_calls": 18,
+ "retries": 0,
+ "prompt_tokens": 263549,
+ "cached_tokens": 0,
+ "completion_tokens": 204398,
+ "reasoning_tokens": 198755,
+ "seconds": 2721.8,
+ "llm_seconds": 2716.9,
+ "tool_seconds": 4.1,
+ "calls_usage": [
+  [
+   7294,
+   0,
+   83457,
+   83426
+  ],
+  [
+   7422,
+   0,
+   42233,
+   39866
+  ],
+  [
+   9797,
+   0,
+   12,
+   0
+  ],
+  [
+   10588,
+   0,
+   36154,
+   35528
+  ],
+  [
+   11226,
+   0,
+   12,
+   0
+  ],
+  [
+   12015,
+   0,
+   3414,
+   3369
+  ],
+  [
+   14325,
+   0,
+   15223,
+   14181
+  ],
+  [
+   15379,
+   0,
+   79,
+   0
+  ],
+  [
+   15465,
+   0,
+   12,
+   0
+  ],
+  [
+   16265,
+   0,
+   10501,
+   10278
+  ],
+  [
+   16496,
+   0,
+   12,
+   0
+  ],
+  [
+   16975,
+   0,
+   1723,
+   1098
+  ],
+  [
+   17608,
+   0,
+   12,
+   0
+  ],
+  [
+   17949,
+   0,
+   175,
+   95
+  ],
+  [
+   18036,
+   0,
+   12,
+   0
+  ],
+  [
+   18505,
+   0,
+   10611,
+   10421
+  ],
+  [
+   18702,
+   0,
+   12,
+   0
+  ],
+  [
+   19502,
+   0,
+   744,
+   493
+  ]
+ ]
+}

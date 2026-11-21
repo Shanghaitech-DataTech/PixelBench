@@ -1,0 +1,60 @@
+{
+ "config": "gpt-5.6-sol@run2",
+ "task": "chainmail-armor",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "b6a748a56c27be29e401f46ca7aaede0384842a03e0c187c7737866c8b09e316"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 8,
+ "writes": 1,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 48888,
+ "cached_tokens": 46592,
+ "completion_tokens": 2066,
+ "reasoning_tokens": 541,
+ "seconds": 67.8,
+ "llm_seconds": 65.6,
+ "tool_seconds": 1.5,
+ "calls_usage": [
+  [
+   11388,
+   11264,
+   91,
+   17
+  ],
+  [
+   11474,
+   11264,
+   1600,
+   263
+  ],
+  [
+   12824,
+   11392,
+   22,
+   0
+  ],
+  [
+   13202,
+   12672,
+   353,
+   261
+  ]
+ ]
+}

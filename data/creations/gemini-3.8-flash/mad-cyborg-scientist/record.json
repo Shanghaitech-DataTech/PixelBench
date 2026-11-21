@@ -1,0 +1,190 @@
+{
+ "config": "gemini-3.8-flash",
+ "task": "mad-cyborg-scientist",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0011",
+  "source_hashes": {
+   "check_stats.py": "487f4ca5d5885fc75a691e494efe024b28b2687312f13f2c66a12d37bd0d1b8a",
+   "debug_pixels.py": "1167719c299a0455ae1e079c995d1e778334abca6088481b37099fb580290496",
+   "draw_portrait.py": "9db239745d6fe0f55d07a67373047a68f6ce1791e7ea79ceb5ef4b2478e0ff6d",
+   "main.py": "802490793b8ed17abeda9e21eb67c4dc50f4ff22696dcef6ae8cffe9d21faca7",
+   "verify.py": "6d8cc14cbf68ba31bf2be81ca6f7d82123628fda195372412b6f2f69d8676241"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 80,
+ "writes": 12,
+ "model_rounds": 25,
+ "llm_calls": 25,
+ "retries": 0,
+ "prompt_tokens": 1281263,
+ "cached_tokens": 1145703,
+ "completion_tokens": 69664,
+ "reasoning_tokens": 0,
+ "seconds": 651.5,
+ "llm_seconds": 643.3,
+ "tool_seconds": 7.3,
+ "calls_usage": [
+  [
+   7709,
+   0,
+   425,
+   0
+  ],
+  [
+   8151,
+   5663,
+   32,
+   0
+  ],
+  [
+   8303,
+   6110,
+   1050,
+   0
+  ],
+  [
+   9371,
+   6271,
+   28,
+   0
+  ],
+  [
+   10531,
+   8293,
+   5690,
+   0
+  ],
+  [
+   16241,
+   10561,
+   73,
+   0
+  ],
+  [
+   16332,
+   14196,
+   28,
+   0
+  ],
+  [
+   17492,
+   14287,
+   14416,
+   0
+  ],
+  [
+   31928,
+   17552,
+   38,
+   0
+  ],
+  [
+   33098,
+   29873,
+   771,
+   0
+  ],
+  [
+   33889,
+   31053,
+   38,
+   0
+  ],
+  [
+   35289,
+   33074,
+   16223,
+   0
+  ],
+  [
+   51532,
+   35346,
+   36,
+   0
+  ],
+  [
+   52701,
+   49474,
+   14085,
+   0
+  ],
+  [
+   66806,
+   52742,
+   34,
+   0
+  ],
+  [
+   67973,
+   64746,
+   668,
+   0
+  ],
+  [
+   68661,
+   65923,
+   33,
+   0
+  ],
+  [
+   70093,
+   67945,
+   14176,
+   0
+  ],
+  [
+   84289,
+   70134,
+   34,
+   0
+  ],
+  [
+   85456,
+   82230,
+   13746,
+   0
+  ],
+  [
+   99222,
+   85492,
+   37,
+   0
+  ],
+  [
+   100392,
+   97161,
+   667,
+   0
+  ],
+  [
+   101077,
+   98341,
+   29,
+   0
+  ],
+  [
+   102271,
+   99017,
+   167,
+   0
+  ],
+  [
+   102456,
+   100219,
+   36,
+   0
+  ]
+ ]
+}

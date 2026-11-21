@@ -1,0 +1,108 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "yellow-bird-right",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "main.py": "b0768e7b8744d0f23122d5c78564d3143f769499a6525e2adabcf6c77fb8ebdf"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 11,
+ "writes": 6,
+ "model_rounds": 12,
+ "llm_calls": 12,
+ "retries": 0,
+ "prompt_tokens": 207256,
+ "cached_tokens": 91649,
+ "completion_tokens": 820,
+ "reasoning_tokens": 6290,
+ "seconds": 121.1,
+ "llm_seconds": 117.3,
+ "tool_seconds": 3.2,
+ "calls_usage": [
+  [
+   7638,
+   0,
+   203,
+   96
+  ],
+  [
+   7843,
+   0,
+   33,
+   13
+  ],
+  [
+   16352,
+   7403,
+   205,
+   129
+  ],
+  [
+   16559,
+   4018,
+   26,
+   6
+  ],
+  [
+   16832,
+   12041,
+   920,
+   801
+  ],
+  [
+   17754,
+   6018,
+   26,
+   6
+  ],
+  [
+   17822,
+   0,
+   1384,
+   1310
+  ],
+  [
+   19208,
+   0,
+   26,
+   6
+  ],
+  [
+   21284,
+   16049,
+   1468,
+   1306
+  ],
+  [
+   22754,
+   20065,
+   27,
+   7
+  ],
+  [
+   20218,
+   6005,
+   2772,
+   2610
+  ],
+  [
+   22992,
+   20050,
+   20,
+   0
+  ]
+ ]
+}

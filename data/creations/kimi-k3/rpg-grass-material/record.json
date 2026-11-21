@@ -1,0 +1,54 @@
+{
+ "config": "kimi-k3",
+ "task": "rpg-grass-material",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "8e483750846fd4477ccdd8887549b052ad9a991d4b10a2839a11726d6cf2e1d4"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 9,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 23722,
+ "cached_tokens": 22016,
+ "completion_tokens": 7553,
+ "reasoning_tokens": 6756,
+ "seconds": 146.2,
+ "llm_seconds": 144.6,
+ "tool_seconds": 1.1,
+ "calls_usage": [
+  [
+   7240,
+   6912,
+   7264,
+   6580
+  ],
+  [
+   7958,
+   7168,
+   49,
+   0
+  ],
+  [
+   8524,
+   7936,
+   240,
+   176
+  ]
+ ]
+}

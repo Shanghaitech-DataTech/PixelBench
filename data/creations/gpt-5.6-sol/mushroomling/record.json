@@ -1,0 +1,60 @@
+{
+ "config": "gpt-5.6-sol",
+ "task": "mushroomling",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "9d47d2da39ad7110cf158b59dc969229f46bf94d4c0e5fdc600e17817182d1d8"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 5,
+ "writes": 1,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 47177,
+ "cached_tokens": 45568,
+ "completion_tokens": 2324,
+ "reasoning_tokens": 1652,
+ "seconds": 54.7,
+ "llm_seconds": 53.1,
+ "tool_seconds": 1.0,
+ "calls_usage": [
+  [
+   11404,
+   11008,
+   99,
+   14
+  ],
+  [
+   11501,
+   11264,
+   1976,
+   1507
+  ],
+  [
+   11983,
+   11392,
+   22,
+   0
+  ],
+  [
+   12289,
+   11904,
+   227,
+   131
+  ]
+ ]
+}

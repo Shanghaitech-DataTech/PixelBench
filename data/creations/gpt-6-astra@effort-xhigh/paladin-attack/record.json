@@ -1,0 +1,121 @@
+{
+ "config": "gpt-6-astra@effort-xhigh",
+ "task": "paladin-attack",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "inspect.py": "13bfe238ffcc644bcfc4324a11b831d1e7eda94b96b427af0af4b1041b5b7731",
+   "main.py": "39927db8f5db45b1e7bfe107f31eeea27d1887e02bbd932905cdc60b3cd8b66b"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 44,
+ "writes": 9,
+ "model_rounds": 14,
+ "llm_calls": 14,
+ "retries": 0,
+ "prompt_tokens": 246193,
+ "cached_tokens": 226304,
+ "completion_tokens": 10340,
+ "reasoning_tokens": 6611,
+ "seconds": 587.0,
+ "llm_seconds": 582.7,
+ "tool_seconds": 3.5,
+ "calls_usage": [
+  [
+   11389,
+   10752,
+   99,
+   0
+  ],
+  [
+   11503,
+   11392,
+   18,
+   0
+  ],
+  [
+   14755,
+   11392,
+   5619,
+   3624
+  ],
+  [
+   16763,
+   14592,
+   18,
+   0
+  ],
+  [
+   17443,
+   16640,
+   1032,
+   921
+  ],
+  [
+   17567,
+   10752,
+   18,
+   0
+  ],
+  [
+   18420,
+   17280,
+   744,
+   516
+  ],
+  [
+   18660,
+   17408,
+   393,
+   0
+  ],
+  [
+   19067,
+   18816,
+   272,
+   0
+  ],
+  [
+   19353,
+   19200,
+   18,
+   0
+  ],
+  [
+   20033,
+   19200,
+   692,
+   516
+  ],
+  [
+   20221,
+   18304,
+   1212,
+   1034
+  ],
+  [
+   20411,
+   20096,
+   183,
+   0
+  ],
+  [
+   20608,
+   20480,
+   22,
+   0
+  ]
+ ]
+}

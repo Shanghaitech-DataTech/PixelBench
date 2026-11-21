@@ -1,0 +1,45 @@
+{
+ "config": "deepseek-v4-flash-0731@direct",
+ "task": "sword-to-staff",
+ "ok": true,
+ "error": null,
+ "termination": "answered",
+ "frames": 1,
+ "colors": 24,
+ "parse": {
+  "ok": true,
+  "diags": [
+   {
+    "declared": [
+     64,
+     64
+    ],
+    "size": [
+     64,
+     64
+    ],
+    "rows": 64,
+    "rows_wrong_length": 11,
+    "rows_beyond_tolerance": 1,
+    "rows_missing": 0,
+    "rows_extra": 0,
+    "undeclared_pixels": 0
+   }
+  ]
+ },
+ "max_tokens": 131072,
+ "time_limit_s": 3600.0,
+ "finish_reason": "stop",
+ "prompt_tokens": 1712,
+ "completion_tokens": 35275,
+ "reasoning_tokens": 34059,
+ "seconds": 447.7,
+ "calls_usage": [
+  [
+   1712,
+   0,
+   35275,
+   34059
+  ]
+ ]
+}

@@ -1,0 +1,127 @@
+{
+ "config": "gemini-3.8-flash",
+ "task": "neighborhood-laundromat",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "check_colors.py": "58dc3a913639948cac6976b4e1653d61ca8ab773e2b99da95a1779ea7323b77b",
+   "main.py": "9641961ef1ef76452fa8080f7d99bf134bd8d36f7d6af14a3587615d76163ff8"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 48,
+ "writes": 7,
+ "model_rounds": 15,
+ "llm_calls": 15,
+ "retries": 0,
+ "prompt_tokens": 601009,
+ "cached_tokens": 509899,
+ "completion_tokens": 36295,
+ "reasoning_tokens": 0,
+ "seconds": 473.4,
+ "llm_seconds": 468.0,
+ "tool_seconds": 4.6,
+ "calls_usage": [
+  [
+   7682,
+   0,
+   354,
+   0
+  ],
+  [
+   8053,
+   5636,
+   112,
+   0
+  ],
+  [
+   8183,
+   6012,
+   39,
+   0
+  ],
+  [
+   9354,
+   6144,
+   17535,
+   0
+  ],
+  [
+   26907,
+   9411,
+   36,
+   0
+  ],
+  [
+   28075,
+   24849,
+   12716,
+   0
+  ],
+  [
+   40809,
+   28107,
+   33,
+   0
+  ],
+  [
+   41989,
+   38750,
+   1973,
+   0
+  ],
+  [
+   43982,
+   40894,
+   39,
+   0
+  ],
+  [
+   47080,
+   43971,
+   12119,
+   0
+  ],
+  [
+   59217,
+   47110,
+   39,
+   0
+  ],
+  [
+   60404,
+   57157,
+   11755,
+   0
+  ],
+  [
+   72177,
+   60431,
+   45,
+   0
+  ],
+  [
+   73364,
+   70116,
+   349,
+   0
+  ],
+  [
+   73733,
+   71311,
+   40,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "sky-pirate-girl",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "1b57e32054fa0f0fce95bf6c65e8eaac3a4d699eaa2c431d8066e62f9c738bad"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 20,
+ "writes": 2,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 28679,
+ "cached_tokens": 7624,
+ "completion_tokens": 4255,
+ "reasoning_tokens": 29248,
+ "seconds": 318.8,
+ "llm_seconds": 310.6,
+ "tool_seconds": 1.3,
+ "calls_usage": [
+  [
+   7563,
+   0,
+   3716,
+   2583
+  ],
+  [
+   11281,
+   7624,
+   33,
+   13
+  ],
+  [
+   9835,
+   0,
+   29754,
+   26652
+  ]
+ ]
+}

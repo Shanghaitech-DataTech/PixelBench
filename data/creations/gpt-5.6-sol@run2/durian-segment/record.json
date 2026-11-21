@@ -1,0 +1,84 @@
+{
+ "config": "gpt-5.6-sol@run2",
+ "task": "durian-segment",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "92b46f9d1e1a635c23a6957d7a7a18bf3c555c9c7ac223c7dba0098e53a082ef"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 10,
+ "writes": 3,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 0,
+ "prompt_tokens": 144213,
+ "cached_tokens": 132096,
+ "completion_tokens": 4364,
+ "reasoning_tokens": 2887,
+ "seconds": 188.3,
+ "llm_seconds": 182.3,
+ "tool_seconds": 2.5,
+ "calls_usage": [
+  [
+   11489,
+   11392,
+   80,
+   15
+  ],
+  [
+   11566,
+   11392,
+   152,
+   18
+  ],
+  [
+   11713,
+   11392,
+   22,
+   0
+  ],
+  [
+   20771,
+   11648,
+   2942,
+   2059
+  ],
+  [
+   21659,
+   20608,
+   22,
+   0
+  ],
+  [
+   22037,
+   21632,
+   992,
+   741
+  ],
+  [
+   22300,
+   21888,
+   22,
+   0
+  ],
+  [
+   22678,
+   22144,
+   132,
+   54
+  ]
+ ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "city-bus",
+  "task_type": "agentic_creation",
+  "prompt": "pixel art, 64x32 resolution, modern city bus, side-view sprite, transparent background, front rear doors, row of windows, two wheels, headlights, simplified electronic route display, no real company branding",
+  "width": 64,
+  "height": 32,
+  "constraints": {
+    "max_colors": 86,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 25,
+    "max_code_seconds": 120
+  }
+}

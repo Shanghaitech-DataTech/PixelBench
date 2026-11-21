@@ -1,0 +1,48 @@
+{
+ "config": "gpt-6-astra@run3",
+ "task": "open-pocket-watch",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0001",
+  "source_hashes": {
+   "main.py": "a301496788c672b018bd2c9a71a70c795f5471567c8423734820de3d7b8dfc95"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 69,
+ "writes": 1,
+ "model_rounds": 2,
+ "llm_calls": 2,
+ "retries": 2,
+ "prompt_tokens": 27423,
+ "cached_tokens": 23040,
+ "completion_tokens": 1658,
+ "reasoning_tokens": 27,
+ "seconds": 71.0,
+ "llm_seconds": 53.5,
+ "tool_seconds": 0.8,
+ "calls_usage": [
+  [
+   13236,
+   10880,
+   1621,
+   0
+  ],
+  [
+   14187,
+   12160,
+   37,
+   27
+  ]
+ ]
+}

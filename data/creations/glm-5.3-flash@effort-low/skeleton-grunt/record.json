@@ -1,0 +1,54 @@
+{
+ "config": "glm-5.3-flash@effort-low",
+ "task": "skeleton-grunt",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "7ed2adbb27cc7158a4ad71c186646dc5ff0b1efa32acb6f2465d5200e34aaee1"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 10,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 23773,
+ "cached_tokens": 0,
+ "completion_tokens": 912,
+ "reasoning_tokens": 6,
+ "seconds": 23.9,
+ "llm_seconds": 22.2,
+ "tool_seconds": 1.1,
+ "calls_usage": [
+  [
+   7287,
+   0,
+   876,
+   0
+  ],
+  [
+   8171,
+   0,
+   12,
+   0
+  ],
+  [
+   8315,
+   0,
+   24,
+   6
+  ]
+ ]
+}

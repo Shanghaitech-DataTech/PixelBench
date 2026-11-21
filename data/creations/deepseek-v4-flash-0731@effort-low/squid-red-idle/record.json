@@ -1,0 +1,90 @@
+{
+ "config": "deepseek-v4-flash-0731@effort-low",
+ "task": "squid-red-idle",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 3,
+  "actual_count": 3,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "8e4b9af43b6acabe3e346848d9c8c2a5ef495a59aecc94727ad51477904f1ab1"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 3,
+ "colors": 8,
+ "writes": 3,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 88229,
+ "cached_tokens": 0,
+ "completion_tokens": 9737,
+ "reasoning_tokens": 8856,
+ "seconds": 241.0,
+ "llm_seconds": 238.0,
+ "tool_seconds": 2.4,
+ "calls_usage": [
+  [
+   7834,
+   0,
+   46,
+   9
+  ],
+  [
+   7884,
+   0,
+   43,
+   14
+  ],
+  [
+   7926,
+   0,
+   161,
+   58
+  ],
+  [
+   8044,
+   0,
+   45,
+   0
+  ],
+  [
+   9696,
+   0,
+   3286,
+   3143
+  ],
+  [
+   9853,
+   0,
+   45,
+   0
+  ],
+  [
+   12015,
+   0,
+   5497,
+   5185
+  ],
+  [
+   12342,
+   0,
+   45,
+   0
+  ],
+  [
+   12635,
+   0,
+   569,
+   447
+  ]
+ ]
+}

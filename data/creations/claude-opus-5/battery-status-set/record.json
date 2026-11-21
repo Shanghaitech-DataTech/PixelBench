@@ -1,0 +1,60 @@
+{
+ "config": "claude-opus-5",
+ "task": "battery-status-set",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "f83d8ea6ad0ffea2293a8516f22658e3a12d4239ed4e6360ed71e35cc7d6ce36"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 15,
+ "writes": 2,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 35763,
+ "cached_tokens": 24073,
+ "completion_tokens": 1628,
+ "reasoning_tokens": 0,
+ "seconds": 100.8,
+ "llm_seconds": 99.0,
+ "tool_seconds": 1.3,
+ "calls_usage": [
+  [
+   7836,
+   0,
+   1476,
+   0
+  ],
+  [
+   9082,
+   7955,
+   74,
+   0
+  ],
+  [
+   9150,
+   7935,
+   7,
+   0
+  ],
+  [
+   9695,
+   8183,
+   71,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "config": "gpt-5.6-sol",
+ "task": "dim-sum-chef",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "95d706be1e74e42595d463b4e385a8b687b7653703d61f81d3a667ca38f472a3"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 18,
+ "writes": 3,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 0,
+ "prompt_tokens": 108552,
+ "cached_tokens": 100608,
+ "completion_tokens": 3826,
+ "reasoning_tokens": 839,
+ "seconds": 95.4,
+ "llm_seconds": 92.2,
+ "tool_seconds": 2.6,
+ "calls_usage": [
+  [
+   11401,
+   11008,
+   89,
+   12
+  ],
+  [
+   11490,
+   11264,
+   2431,
+   158
+  ],
+  [
+   13776,
+   11392,
+   22,
+   0
+  ],
+  [
+   13831,
+   11008,
+   117,
+   15
+  ],
+  [
+   13945,
+   13696,
+   22,
+   0
+  ],
+  [
+   14323,
+   13824,
+   885,
+   516
+  ],
+  [
+   14704,
+   13696,
+   22,
+   0
+  ],
+  [
+   15082,
+   14720,
+   238,
+   138
+  ]
+ ]
+}

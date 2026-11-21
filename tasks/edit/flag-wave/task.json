@@ -1,0 +1,23 @@
+{
+  "id": "flag-wave",
+  "task_type": "edit",
+  "prompt": "3 frames. Frame 1 keeps the original picture content (the canvas may be changed); frames 2 and 3 continue the looping flag-waving animation (the fly end swings from its highest to its lowest point).",
+  "width": 48,
+  "height": 56,
+  "constraints": {
+    "max_colors": null,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 15,
+    "max_code_seconds": 120
+  },
+  "input_size": {
+    "width": 48,
+    "height": 56
+  },
+  "output_size": "agent_defined",
+  "num_frames": 3,
+  "frames_visible": false
+}

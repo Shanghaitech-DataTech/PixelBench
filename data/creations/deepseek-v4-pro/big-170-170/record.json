@@ -1,0 +1,221 @@
+{
+ "config": "deepseek-v4-pro",
+ "task": "big-170-170",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0014",
+  "source_hashes": {
+   "bgcols.py": "bf7dc8053dcb5d0baf3d5f57588eff385de16c449d0f3e14ea4845e2eda0e91d",
+   "checkmask.py": "2b34b4be0d48f2b39d990ff7dad97de3098adcb92d7298cc098805b5c0787efe",
+   "checkref.py": "9be67b58f33cb9903922b34704e72d7ce07b5050b895ad70227ae5e0f9812b22",
+   "checky60.py": "53edb67782e33bfb1312db54411ae5d16a1d04b24125f6db907676332c9a706e",
+   "explore.py": "4d59b5409447133cd6b261b458fc30af3f78cafadb479f18953f51f5a24ffb86",
+   "explore2.py": "942f5e8a2b8c0395edccc6feb47a6005ae151638471d5abe2e1332b26f8bf05a",
+   "explore3.py": "d0a2f8d6094f60d7eed4a88d1e38e95c394b57d9527dec80aa8341287c448434",
+   "explore4.py": "8b2b4086b07c76c20caed872cfe0d9e9ba61aa6a1deb8565ff920d52ef2bcca4",
+   "explore5.py": "2014a584f7938c3939a4f40eab017831f3346569b24420e304d6a9f45319bea4",
+   "explore6.py": "e654eb3b3845735b448009da4534739af8eef4686170ecc5c0b4f22204109a61",
+   "explore7.py": "4419607e55f60202adaae3435855a4bdd5e13e174a3676011522f0d12a458c4d",
+   "main.py": "a2f8f12e2556a6c9536e73c617c25367a9ddbae77cb5ef2dd41cee8ed2311e8e"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 447,
+ "writes": 15,
+ "model_rounds": 29,
+ "llm_calls": 29,
+ "retries": 0,
+ "prompt_tokens": 2419570,
+ "cached_tokens": 2234624,
+ "completion_tokens": 48392,
+ "reasoning_tokens": 40585,
+ "seconds": 775.7,
+ "llm_seconds": 736.1,
+ "tool_seconds": 37.6,
+ "calls_usage": [
+  [
+   7801,
+   7680,
+   147,
+   32
+  ],
+  [
+   7964,
+   7936,
+   60,
+   0
+  ],
+  [
+   31288,
+   7936,
+   1906,
+   1529
+  ],
+  [
+   33210,
+   33152,
+   61,
+   0
+  ],
+  [
+   34229,
+   33152,
+   873,
+   736
+  ],
+  [
+   35119,
+   35072,
+   62,
+   0
+  ],
+  [
+   52585,
+   35072,
+   1120,
+   996
+  ],
+  [
+   53722,
+   53632,
+   62,
+   0
+  ],
+  [
+   59229,
+   53760,
+   3361,
+   2891
+  ],
+  [
+   62607,
+   62464,
+   62,
+   0
+  ],
+  [
+   67656,
+   62592,
+   3535,
+   3211
+  ],
+  [
+   71208,
+   71168,
+   62,
+   0
+  ],
+  [
+   84243,
+   71168,
+   3758,
+   3471
+  ],
+  [
+   88018,
+   87936,
+   62,
+   0
+  ],
+  [
+   93687,
+   88064,
+   1075,
+   792
+  ],
+  [
+   94779,
+   94720,
+   62,
+   0
+  ],
+  [
+   101253,
+   94720,
+   9433,
+   9302
+  ],
+  [
+   110703,
+   110592,
+   61,
+   0
+  ],
+  [
+   110813,
+   110720,
+   122,
+   28
+  ],
+  [
+   110952,
+   110848,
+   61,
+   0
+  ],
+  [
+   111053,
+   110976,
+   12835,
+   11782
+  ],
+  [
+   123904,
+   123776,
+   60,
+   0
+  ],
+  [
+   127282,
+   123776,
+   1538,
+   1409
+  ],
+  [
+   128837,
+   128768,
+   61,
+   0
+  ],
+  [
+   133521,
+   128896,
+   2850,
+   1912
+  ],
+  [
+   136387,
+   136320,
+   60,
+   0
+  ],
+  [
+   139712,
+   136320,
+   1233,
+   999
+  ],
+  [
+   102021,
+   7680,
+   3750,
+   1495
+  ],
+  [
+   105787,
+   105728,
+   60,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "config": "gpt-5.6-sol@run3",
+ "task": "green-pear",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "f7a7dde55065cb33dd152b4a913400bd5a510c27b1bba9071b84586f71d642bb"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 7,
+ "writes": 1,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 48632,
+ "cached_tokens": 46080,
+ "completion_tokens": 2042,
+ "reasoning_tokens": 625,
+ "seconds": 67.5,
+ "llm_seconds": 65.5,
+ "tool_seconds": 1.4,
+ "calls_usage": [
+  [
+   11379,
+   11008,
+   78,
+   18
+  ],
+  [
+   11451,
+   11264,
+   1753,
+   505
+  ],
+  [
+   12712,
+   11264,
+   22,
+   0
+  ],
+  [
+   13090,
+   12544,
+   189,
+   102
+  ]
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra",
+ "task": "rts-factory-icon",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "b56ac49a6849229bcd6e78b81d80b16d788c181efd43127e5f0bcc3c991cf706"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 26,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 36134,
+ "cached_tokens": 24576,
+ "completion_tokens": 1333,
+ "reasoning_tokens": 46,
+ "seconds": 63.3,
+ "llm_seconds": 61.4,
+ "tool_seconds": 1.2,
+ "calls_usage": [
+  [
+   11134,
+   0,
+   1245,
+   0
+  ],
+  [
+   12394,
+   12288,
+   18,
+   0
+  ],
+  [
+   12606,
+   12288,
+   70,
+   46
+  ]
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "config": "deepseek-v4-pro",
+ "task": "elf-archer-attack",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0011",
+  "source_hashes": {
+   "colors.py": "49d19f4ae9e8c8ab95cf207b89a2f324f7de67b51480f8812b968f811a89552e",
+   "groups.py": "876351a07e3d7b0a7808bc7fa122a5d52e22b95e4cd3188a37c3484cd851c9b9",
+   "groups2.py": "6fedc4ab0349f43671c614f3b27833eb952bb576c3111d3ea341bcb9b3ff399b",
+   "inspect.py": "b6f0612573b0caa5dbdcebd7922718060eed80fd1d56d02d83768687027bbd5a",
+   "main.py": "ae9bc27bc388cc636362c131ba52fe492c9099c7ecfe9cb2383b3c5309a76846",
+   "right.py": "ca0a6a5935654f776c8fbe3bdee072af044fad34b2b579fc872d2a2304516cd6"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 43,
+ "writes": 11,
+ "model_rounds": 15,
+ "llm_calls": 15,
+ "retries": 0,
+ "prompt_tokens": 828860,
+ "cached_tokens": 813184,
+ "completion_tokens": 78363,
+ "reasoning_tokens": 74410,
+ "seconds": 859.0,
+ "llm_seconds": 852.1,
+ "tool_seconds": 6.3,
+ "calls_usage": [
+  [
+   7917,
+   7424,
+   174,
+   33
+  ],
+  [
+   9688,
+   8064,
+   5298,
+   5079
+  ],
+  [
+   16645,
+   14976,
+   6151,
+   5811
+  ],
+  [
+   24738,
+   22784,
+   2687,
+   2278
+  ],
+  [
+   28297,
+   27392,
+   2090,
+   1691
+  ],
+  [
+   31272,
+   30336,
+   988,
+   747
+  ],
+  [
+   33067,
+   32256,
+   18336,
+   17763
+  ],
+  [
+   52800,
+   51328,
+   25701,
+   25033
+  ],
+  [
+   78516,
+   78464,
+   67,
+   7
+  ],
+  [
+   79967,
+   78464,
+   2230,
+   1803
+  ],
+  [
+   84418,
+   82176,
+   6651,
+   6508
+  ],
+  [
+   91084,
+   91008,
+   436,
+   376
+  ],
+  [
+   92904,
+   91520,
+   5585,
+   5417
+  ],
+  [
+   98504,
+   98432,
+   66,
+   21
+  ],
+  [
+   99043,
+   98560,
+   1903,
+   1843
+  ]
+ ]
+}

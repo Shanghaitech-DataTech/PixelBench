@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@run3",
+ "task": "skill-icon-set",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "3b6207545fe1633d8ffa03aa09c231c3970356dafa60e8864a543cb6cd63020f"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 34,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 1,
+ "prompt_tokens": 38448,
+ "cached_tokens": 33024,
+ "completion_tokens": 2563,
+ "reasoning_tokens": 171,
+ "seconds": 116.5,
+ "llm_seconds": 107.2,
+ "tool_seconds": 1.6,
+ "calls_usage": [
+  [
+   11144,
+   11008,
+   2457,
+   151
+  ],
+  [
+   13465,
+   11008,
+   18,
+   0
+  ],
+  [
+   13839,
+   11008,
+   88,
+   20
+  ]
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@run2",
+ "task": "bamboo-steamer",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "6352a1080503db5950bfe9cccbad2e325ac4f0c44a5d42f2c4a6e5402465604b"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 14,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 6,
+ "prompt_tokens": 36853,
+ "cached_tokens": 25088,
+ "completion_tokens": 1722,
+ "reasoning_tokens": 41,
+ "seconds": 236.9,
+ "llm_seconds": 78.1,
+ "tool_seconds": 1.5,
+ "calls_usage": [
+  [
+   11126,
+   0,
+   1588,
+   0
+  ],
+  [
+   12729,
+   12544,
+   18,
+   0
+  ],
+  [
+   12998,
+   12544,
+   116,
+   41
+  ]
+ ]
+}

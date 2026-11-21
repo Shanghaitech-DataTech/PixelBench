@@ -1,0 +1,54 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "slash-effect",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "6ded8468f6c446fd771e6ee24eee9b640319cf1821bf7bd49d5223ed3d478dac"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 5,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 24829,
+ "cached_tokens": 0,
+ "completion_tokens": 3767,
+ "reasoning_tokens": 3093,
+ "seconds": 89.8,
+ "llm_seconds": 88.0,
+ "tool_seconds": 1.2,
+ "calls_usage": [
+  [
+   7757,
+   0,
+   3571,
+   3081
+  ],
+  [
+   8266,
+   0,
+   52,
+   12
+  ],
+  [
+   8806,
+   0,
+   144,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,132 @@
+{
+ "config": "qwen3.8-max",
+ "task": "forest-slime-monster",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "main.py": "6bddce08a50bc934448a10c3fa650ee813e392e6c7883eeed7db80e9f00ace7d"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 29,
+ "writes": 9,
+ "model_rounds": 16,
+ "llm_calls": 16,
+ "retries": 0,
+ "prompt_tokens": 206670,
+ "cached_tokens": 189696,
+ "completion_tokens": 90448,
+ "reasoning_tokens": 84291,
+ "seconds": 2133.8,
+ "llm_seconds": 2128.6,
+ "tool_seconds": 3.6,
+ "calls_usage": [
+  [
+   7807,
+   7552,
+   39122,
+   39083
+  ],
+  [
+   7864,
+   7168,
+   27955,
+   24534
+  ],
+  [
+   11304,
+   7168,
+   366,
+   338
+  ],
+  [
+   11607,
+   7168,
+   6957,
+   6432
+  ],
+  [
+   12149,
+   11520,
+   822,
+   615
+  ],
+  [
+   12373,
+   11520,
+   529,
+   500
+  ],
+  [
+   12714,
+   12288,
+   1911,
+   1510
+  ],
+  [
+   13132,
+   12672,
+   222,
+   193
+  ],
+  [
+   13473,
+   12672,
+   1025,
+   711
+  ],
+  [
+   13804,
+   13312,
+   5316,
+   4686
+  ],
+  [
+   14451,
+   13312,
+   2266,
+   2237
+  ],
+  [
+   14793,
+   14336,
+   2576,
+   2472
+  ],
+  [
+   14914,
+   14336,
+   413,
+   185
+  ],
+  [
+   15160,
+   14336,
+   343,
+   314
+  ],
+  [
+   15502,
+   14976,
+   325,
+   222
+  ],
+  [
+   15623,
+   15360,
+   300,
+   259
+  ]
+ ]
+}

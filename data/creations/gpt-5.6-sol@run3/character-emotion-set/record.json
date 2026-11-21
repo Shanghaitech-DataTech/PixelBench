@@ -1,0 +1,60 @@
+{
+ "config": "gpt-5.6-sol@run3",
+ "task": "character-emotion-set",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "9516966286c805452864d0858e233e1aae9c59a24720de6a8a7630ac80fe8020"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 14,
+ "writes": 1,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 1,
+ "prompt_tokens": 51622,
+ "cached_tokens": 48000,
+ "completion_tokens": 3465,
+ "reasoning_tokens": 627,
+ "seconds": 98.8,
+ "llm_seconds": 92.0,
+ "tool_seconds": 1.7,
+ "calls_usage": [
+  [
+   11418,
+   11264,
+   90,
+   18
+  ],
+  [
+   11502,
+   11264,
+   3055,
+   408
+  ],
+  [
+   14162,
+   11392,
+   22,
+   0
+  ],
+  [
+   14540,
+   14080,
+   298,
+   201
+  ]
+ ]
+}

@@ -1,0 +1,6 @@
+c = new_canvas(256, 256)
+c.rect(0, 0, 256, 256, "#14091e")
+c.circle(128, 128, 40, "#fca038")
+p = view(c)
+print("View path:", p)
+print("Stats:", c.stats_text())

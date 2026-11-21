@@ -1,0 +1,43 @@
+c = new_canvas(32, 32, name='USB flash drive')
+# Woven keychain loop behind the casing.
+c.path('M 8 23 L 5 23 L 2 26 L 2 29 L 4 31 L 7 31 L 11 27 L 10 25 L 6 29 L 4 29 L 4 27 L 7 25 L 9 25 Z', '#202b35')
+c.line(3,27,3,29,'#4d6871')
+c.line(4,30,6,30,'#72909a')
+c.line(7,29,10,26,'#52717b')
+c.set(4,26,'#9ab0ad')
+# Connector's dark silhouette and brushed steel plug.
+c.poly([(18,7),(23,2),(25,2),(30,7),(30,9),(25,14)], '#202832')
+c.poly([(19,7),(23,3),(25,3),(29,7),(29,9),(25,13)], '#9baeb3')
+c.poly([(20,7),(23,4),(25,4),(28,7),(28,8),(24,12)], '#d5ded8')
+c.line(25,4,28,7,'#f1eee0')
+c.line(27,9,24,12,'#748b93')
+# Two characteristic rectangular USB contact apertures.
+c.line(23,5,24,6,'#465761')
+c.line(26,8,27,9,'#465761')
+c.set(23,6,'#6c7f84')
+c.set(26,9,'#6c7f84')
+# Main body, with stepped black silhouette and beveled metal shell.
+c.poly([(17,7),(25,15),(25,17),(13,29),(10,30),(4,24),(4,21),(16,9)], '#1d2731')
+c.poly([(16,9),(23,16),(23,18),(12,28),(10,28),(6,24),(6,22)], '#526b74')
+c.poly([(16,10),(22,16),(21,18),(11,27),(7,23),(7,22)], '#9db0ae')
+c.poly([(16,10),(19,13),(8,24),(7,23),(7,22)], '#d0d8cb')
+c.line(8,21,16,13,'#e7e8d9')
+c.line(12,27,22,17,'#394f5c')
+c.line(13,25,20,18,'#6d8990')
+# Collar seam between connector and drive.
+c.line(17,8,24,15,'#273842')
+c.line(17,9,23,15,'#b7c8c2')
+c.line(18,10,23,15,'#758f96')
+# Recessed casing detail and small status light.
+c.line(12,21,17,16,'#647f84')
+c.line(13,21,17,17,'#b9cac1')
+c.set(19,19,'#3c555b')
+c.set(19,18,'#91e0bd')
+# Reinforced keychain eyelet at tail.
+c.poly([(6,23),(10,27),(9,29),(5,25)], '#283942')
+c.line(6,24,9,27,'#7d9999')
+c.set(7,25,'#1d2731')
+c.set(8,26,'#1d2731')
+print(c.stats_text())
+print(c.matrix_text(region=(0,0,31,31)))
+finish(c)

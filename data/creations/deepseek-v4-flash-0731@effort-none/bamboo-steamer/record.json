@@ -1,0 +1,156 @@
+{
+ "config": "deepseek-v4-flash-0731@effort-none",
+ "task": "bamboo-steamer",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0010",
+  "source_hashes": {
+   "main.py": "7b91ffcd743dac072ed6ecdb4ff3a3c247061c6daf16edf68c4e001d0d1aacfa"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 12,
+ "writes": 10,
+ "model_rounds": 20,
+ "llm_calls": 20,
+ "retries": 0,
+ "prompt_tokens": 327801,
+ "cached_tokens": 0,
+ "completion_tokens": 16475,
+ "reasoning_tokens": 0,
+ "seconds": 448.1,
+ "llm_seconds": 442.3,
+ "tool_seconds": 5.2,
+ "calls_usage": [
+  [
+   7588,
+   0,
+   1925,
+   0
+  ],
+  [
+   9528,
+   0,
+   44,
+   0
+  ],
+  [
+   9682,
+   0,
+   1317,
+   0
+  ],
+  [
+   11014,
+   0,
+   44,
+   0
+  ],
+  [
+   11099,
+   0,
+   1315,
+   0
+  ],
+  [
+   12429,
+   0,
+   44,
+   0
+  ],
+  [
+   12603,
+   0,
+   1159,
+   0
+  ],
+  [
+   13777,
+   0,
+   44,
+   0
+  ],
+  [
+   14247,
+   0,
+   1159,
+   0
+  ],
+  [
+   15421,
+   0,
+   44,
+   0
+  ],
+  [
+   15693,
+   0,
+   2632,
+   0
+  ],
+  [
+   18340,
+   0,
+   44,
+   0
+  ],
+  [
+   18425,
+   0,
+   1237,
+   0
+  ],
+  [
+   19677,
+   0,
+   44,
+   0
+  ],
+  [
+   20134,
+   0,
+   1981,
+   0
+  ],
+  [
+   22130,
+   0,
+   44,
+   0
+  ],
+  [
+   22215,
+   0,
+   1178,
+   0
+  ],
+  [
+   23408,
+   0,
+   44,
+   0
+  ],
+  [
+   24130,
+   0,
+   2116,
+   0
+  ],
+  [
+   26261,
+   0,
+   60,
+   0
+  ]
+ ]
+}

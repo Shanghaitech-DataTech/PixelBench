@@ -1,0 +1,90 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "dim-sum-chef",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "9efe62b76aab61638c8d63478ce768f5f04b7fcd57845ac994a3b2da564e77ee"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 26,
+ "writes": 4,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 184600,
+ "cached_tokens": 0,
+ "completion_tokens": 20094,
+ "reasoning_tokens": 192,
+ "seconds": 484.0,
+ "llm_seconds": 480.7,
+ "tool_seconds": 2.7,
+ "calls_usage": [
+  [
+   7759,
+   0,
+   2976,
+   173
+  ],
+  [
+   10581,
+   0,
+   47,
+   19
+  ],
+  [
+   11329,
+   0,
+   7005,
+   0
+  ],
+  [
+   18352,
+   0,
+   28,
+   0
+  ],
+  [
+   19267,
+   0,
+   8462,
+   0
+  ],
+  [
+   27747,
+   0,
+   28,
+   0
+  ],
+  [
+   28732,
+   0,
+   1174,
+   0
+  ],
+  [
+   29924,
+   0,
+   28,
+   0
+  ],
+  [
+   30909,
+   0,
+   346,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "female-elf-archer",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "73d68f9344ecbae9f8d8283aae501ddf6ea5977152195732f70ea7cf0a9518f0"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 29,
+ "writes": 4,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 0,
+ "prompt_tokens": 131900,
+ "cached_tokens": 0,
+ "completion_tokens": 5651,
+ "reasoning_tokens": 220,
+ "seconds": 140.6,
+ "llm_seconds": 137.1,
+ "tool_seconds": 2.9,
+ "calls_usage": [
+  [
+   7763,
+   0,
+   4100,
+   204
+  ],
+  [
+   11678,
+   0,
+   56,
+   16
+  ],
+  [
+   11931,
+   0,
+   123,
+   0
+  ],
+  [
+   12267,
+   0,
+   645,
+   0
+  ],
+  [
+   12930,
+   0,
+   198,
+   0
+  ],
+  [
+   13146,
+   0,
+   220,
+   0
+  ],
+  [
+   13384,
+   0,
+   40,
+   0
+  ],
+  [
+   13562,
+   0,
+   84,
+   0
+  ],
+  [
+   17517,
+   0,
+   67,
+   0
+  ],
+  [
+   17722,
+   0,
+   118,
+   0
+  ]
+ ]
+}

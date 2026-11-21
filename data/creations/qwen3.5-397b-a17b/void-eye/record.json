@@ -1,0 +1,90 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "void-eye",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "4d121a3c3b700647192dcc98d568b22ed8e08ce1062c357546c9c55f97f973ea"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 19,
+ "writes": 4,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 133445,
+ "cached_tokens": 0,
+ "completion_tokens": 8410,
+ "reasoning_tokens": 381,
+ "seconds": 189.8,
+ "llm_seconds": 186.2,
+ "tool_seconds": 2.9,
+ "calls_usage": [
+  [
+   7765,
+   0,
+   1601,
+   228
+  ],
+  [
+   9157,
+   0,
+   76,
+   48
+  ],
+  [
+   10655,
+   0,
+   2177,
+   0
+  ],
+  [
+   12851,
+   0,
+   28,
+   0
+  ],
+  [
+   14598,
+   0,
+   2332,
+   105
+  ],
+  [
+   16844,
+   0,
+   28,
+   0
+  ],
+  [
+   18616,
+   0,
+   2047,
+   0
+  ],
+  [
+   20682,
+   0,
+   28,
+   0
+  ],
+  [
+   22277,
+   0,
+   93,
+   0
+  ]
+ ]
+}

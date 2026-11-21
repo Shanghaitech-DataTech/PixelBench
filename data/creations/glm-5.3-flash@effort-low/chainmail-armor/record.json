@@ -1,0 +1,121 @@
+{
+ "config": "glm-5.3-flash@effort-low",
+ "task": "chainmail-armor",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "1cf785ffe88708f48a6e98a789ee905d8581b856fc3a0f225a872a911c8e0f3d",
+   "probe.py": "3e0aa720e17850f7393311907d9fd16f94950c43b0134fc2e45c7c7e932b7d4e"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 5,
+ "writes": 6,
+ "model_rounds": 14,
+ "llm_calls": 14,
+ "retries": 0,
+ "prompt_tokens": 133114,
+ "cached_tokens": 0,
+ "completion_tokens": 2513,
+ "reasoning_tokens": 786,
+ "seconds": 69.2,
+ "llm_seconds": 64.6,
+ "tool_seconds": 3.9,
+ "calls_usage": [
+  [
+   7280,
+   0,
+   848,
+   97
+  ],
+  [
+   8039,
+   0,
+   12,
+   0
+  ],
+  [
+   8785,
+   0,
+   57,
+   0
+  ],
+  [
+   8849,
+   0,
+   12,
+   0
+  ],
+  [
+   9033,
+   0,
+   105,
+   43
+  ],
+  [
+   9102,
+   0,
+   12,
+   0
+  ],
+  [
+   9646,
+   0,
+   622,
+   591
+  ],
+  [
+   9769,
+   0,
+   78,
+   0
+  ],
+  [
+   9855,
+   0,
+   12,
+   0
+  ],
+  [
+   9892,
+   0,
+   115,
+   55
+  ],
+  [
+   9959,
+   0,
+   12,
+   0
+  ],
+  [
+   10413,
+   0,
+   598,
+   0
+  ],
+  [
+   11019,
+   0,
+   12,
+   0
+  ],
+  [
+   11473,
+   0,
+   18,
+   0
+  ]
+ ]
+}

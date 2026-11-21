@@ -1,0 +1,66 @@
+{
+ "config": "gpt-5.6-sol@run2",
+ "task": "castle-title-screen",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "0594b483234b59350bc037ab75fcce55133c60e7322451ef22957fc4ae59807d"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 56,
+ "writes": 2,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 71427,
+ "cached_tokens": 55424,
+ "completion_tokens": 4249,
+ "reasoning_tokens": 678,
+ "seconds": 105.4,
+ "llm_seconds": 101.5,
+ "tool_seconds": 3.0,
+ "calls_usage": [
+  [
+   11402,
+   0,
+   3509,
+   173
+  ],
+  [
+   14751,
+   11264,
+   32,
+   8
+  ],
+  [
+   14875,
+   14592,
+   102,
+   13
+  ],
+  [
+   14976,
+   14720,
+   22,
+   0
+  ],
+  [
+   15423,
+   14848,
+   584,
+   484
+  ]
+ ]
+}

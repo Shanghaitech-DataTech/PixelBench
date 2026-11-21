@@ -1,0 +1,132 @@
+{
+ "config": "claude-opus-5",
+ "task": "sunken-shipwreck",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0008",
+  "source_hashes": {
+   "main.py": "1168e586c053b11475ecde25036e4c752034b37e3992397edb0563662e96d105"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 38,
+ "writes": 9,
+ "model_rounds": 16,
+ "llm_calls": 16,
+ "retries": 0,
+ "prompt_tokens": 244442,
+ "cached_tokens": 221721,
+ "completion_tokens": 5976,
+ "reasoning_tokens": 0,
+ "seconds": 319.4,
+ "llm_seconds": 312.5,
+ "tool_seconds": 5.3,
+ "calls_usage": [
+  [
+   7844,
+   0,
+   410,
+   0
+  ],
+  [
+   8958,
+   7982,
+   1490,
+   0
+  ],
+  [
+   11223,
+   9750,
+   7,
+   0
+  ],
+  [
+   11659,
+   9945,
+   1983,
+   0
+  ],
+  [
+   14594,
+   12473,
+   7,
+   0
+  ],
+  [
+   15029,
+   12649,
+   345,
+   0
+  ],
+  [
+   15180,
+   14996,
+   239,
+   0
+  ],
+  [
+   15563,
+   15067,
+   494,
+   0
+  ],
+  [
+   16356,
+   15265,
+   7,
+   0
+  ],
+  [
+   16792,
+   15452,
+   467,
+   0
+  ],
+  [
+   17526,
+   16951,
+   7,
+   0
+  ],
+  [
+   17964,
+   17141,
+   252,
+   0
+  ],
+  [
+   18361,
+   18015,
+   7,
+   0
+  ],
+  [
+   18799,
+   18204,
+   193,
+   0
+  ],
+  [
+   19078,
+   18822,
+   7,
+   0
+  ],
+  [
+   19516,
+   19009,
+   61,
+   0
+  ]
+ ]
+}

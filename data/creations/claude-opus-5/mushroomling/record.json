@@ -1,0 +1,102 @@
+{
+ "config": "claude-opus-5",
+ "task": "mushroomling",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "main.py": "6c387e890187d48964b1597c5c3129ac9800ebd5dd8660524f20015beb381107"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 5,
+ "writes": 5,
+ "model_rounds": 11,
+ "llm_calls": 11,
+ "retries": 5,
+ "prompt_tokens": 112362,
+ "cached_tokens": 99062,
+ "completion_tokens": 3502,
+ "reasoning_tokens": 0,
+ "seconds": 497.2,
+ "llm_seconds": 395.0,
+ "tool_seconds": 3.5,
+ "calls_usage": [
+  [
+   7840,
+   0,
+   1198,
+   0
+  ],
+  [
+   8303,
+   7683,
+   7,
+   0
+  ],
+  [
+   8793,
+   7932,
+   532,
+   0
+  ],
+  [
+   9254,
+   8900,
+   7,
+   0
+  ],
+  [
+   9745,
+   9152,
+   660,
+   0
+  ],
+  [
+   10210,
+   9842,
+   7,
+   0
+  ],
+  [
+   10701,
+   10087,
+   487,
+   0
+  ],
+  [
+   11157,
+   10778,
+   45,
+   0
+  ],
+  [
+   11648,
+   11016,
+   438,
+   0
+  ],
+  [
+   12110,
+   11720,
+   7,
+   0
+  ],
+  [
+   12601,
+   11952,
+   114,
+   0
+  ]
+ ]
+}

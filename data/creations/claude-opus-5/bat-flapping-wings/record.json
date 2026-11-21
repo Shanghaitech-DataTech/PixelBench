@@ -1,0 +1,84 @@
+{
+ "config": "claude-opus-5",
+ "task": "bat-flapping-wings",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "dad5a000183f9bce10894a8a8cce0280328e6da74e83cec79dc7c97f43b92a2a"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 9,
+ "writes": 4,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 0,
+ "prompt_tokens": 76574,
+ "cached_tokens": 71684,
+ "completion_tokens": 1913,
+ "reasoning_tokens": 0,
+ "seconds": 155.4,
+ "llm_seconds": 152.5,
+ "tool_seconds": 2.4,
+ "calls_usage": [
+  [
+   8087,
+   7511,
+   53,
+   0
+  ],
+  [
+   8149,
+   7484,
+   7,
+   0
+  ],
+  [
+   8994,
+   7811,
+   1142,
+   0
+  ],
+  [
+   9291,
+   9073,
+   58,
+   0
+  ],
+  [
+   10009,
+   9496,
+   179,
+   0
+  ],
+  [
+   10259,
+   10071,
+   7,
+   0
+  ],
+  [
+   10744,
+   10098,
+   455,
+   0
+  ],
+  [
+   11041,
+   10140,
+   12,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "config": "glm-5.3-flash@effort-high",
+ "task": "glow-jellyfish",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "53304dcdc30135001606f8bfea4edac8153ba8a8c8bb2075a18b275f25b79d0a"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 8,
+ "writes": 2,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 42284,
+ "cached_tokens": 0,
+ "completion_tokens": 2516,
+ "reasoning_tokens": 1400,
+ "seconds": 49.7,
+ "llm_seconds": 47.7,
+ "tool_seconds": 1.5,
+ "calls_usage": [
+  [
+   7288,
+   0,
+   1726,
+   764
+  ],
+  [
+   8258,
+   0,
+   12,
+   0
+  ],
+  [
+   8611,
+   0,
+   690,
+   626
+  ],
+  [
+   9030,
+   0,
+   70,
+   10
+  ],
+  [
+   9097,
+   0,
+   18,
+   0
+  ]
+ ]
+}

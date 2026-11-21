@@ -1,0 +1,60 @@
+{
+ "config": "glm-5.3-flash@effort-high",
+ "task": "vintage-sewing-machine",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "510775c6577f5715b612aed5b764a2fcf68cd326921859bbca7377f86263c716"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 11,
+ "writes": 1,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 33482,
+ "cached_tokens": 0,
+ "completion_tokens": 3436,
+ "reasoning_tokens": 2063,
+ "seconds": 51.2,
+ "llm_seconds": 48.9,
+ "tool_seconds": 1.7,
+ "calls_usage": [
+  [
+   7286,
+   0,
+   3381,
+   2050
+  ],
+  [
+   8625,
+   0,
+   12,
+   0
+  ],
+  [
+   8732,
+   0,
+   25,
+   13
+  ],
+  [
+   8839,
+   0,
+   18,
+   0
+  ]
+ ]
+}

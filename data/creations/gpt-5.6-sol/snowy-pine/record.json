@@ -1,0 +1,72 @@
+{
+ "config": "gpt-5.6-sol",
+ "task": "snowy-pine",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "5d96fb7e37e669db5d7228073bf50ccb9ebe2ba14985d025a43b2a45f8c79ed4"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 13,
+ "writes": 2,
+ "model_rounds": 6,
+ "llm_calls": 6,
+ "retries": 0,
+ "prompt_tokens": 75266,
+ "cached_tokens": 54851,
+ "completion_tokens": 2244,
+ "reasoning_tokens": 280,
+ "seconds": 111.9,
+ "llm_seconds": 109.3,
+ "tool_seconds": 1.9,
+ "calls_usage": [
+  [
+   11476,
+   11008,
+   71,
+   20
+  ],
+  [
+   11539,
+   11392,
+   107,
+   13
+  ],
+  [
+   11646,
+   11392,
+   18,
+   0
+  ],
+  [
+   12280,
+   0,
+   1919,
+   195
+  ],
+  [
+   14017,
+   10237,
+   18,
+   0
+  ],
+  [
+   14308,
+   10822,
+   111,
+   52
+  ]
+ ]
+}

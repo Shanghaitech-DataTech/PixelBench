@@ -1,0 +1,66 @@
+{
+ "config": "gpt-5.6-sol@run3",
+ "task": "convenience-store-on-a-rainy-night",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "24c5ceed32162d295acbee11eeec6d73a4ed463561840ba83a4b6a8e650fefa5"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 52,
+ "writes": 3,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 1,
+ "prompt_tokens": 68953,
+ "cached_tokens": 50944,
+ "completion_tokens": 3305,
+ "reasoning_tokens": 465,
+ "seconds": 134.0,
+ "llm_seconds": 124.7,
+ "tool_seconds": 1.6,
+ "calls_usage": [
+  [
+   11412,
+   0,
+   2555,
+   61
+  ],
+  [
+   13919,
+   11264,
+   32,
+   8
+  ],
+  [
+   14369,
+   13824,
+   573,
+   396
+  ],
+  [
+   14558,
+   11264,
+   123,
+   0
+  ],
+  [
+   14695,
+   14592,
+   22,
+   0
+  ]
+ ]
+}

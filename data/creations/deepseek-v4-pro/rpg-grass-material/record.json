@@ -1,0 +1,60 @@
+{
+ "config": "deepseek-v4-pro",
+ "task": "rpg-grass-material",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "8aac214cda1cdb2da0cb24717b610a95a150367c8be3394f7b86f65683c60bd8"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 8,
+ "writes": 2,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 47804,
+ "cached_tokens": 46976,
+ "completion_tokens": 6853,
+ "reasoning_tokens": 5969,
+ "seconds": 95.0,
+ "llm_seconds": 93.5,
+ "tool_seconds": 1.0,
+ "calls_usage": [
+  [
+   7688,
+   7424,
+   4692,
+   4018
+  ],
+  [
+   12396,
+   12288,
+   64,
+   4
+  ],
+  [
+   12837,
+   12416,
+   2031,
+   1941
+  ],
+  [
+   14883,
+   14848,
+   66,
+   6
+  ]
+ ]
+}

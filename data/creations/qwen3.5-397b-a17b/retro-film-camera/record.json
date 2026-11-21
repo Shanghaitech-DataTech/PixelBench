@@ -1,0 +1,54 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "retro-film-camera",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "3f8743530b87da85fe839e0f1d62955ae8b114c366969607acc99346b7ad4a38"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 12,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 26623,
+ "cached_tokens": 0,
+ "completion_tokens": 1762,
+ "reasoning_tokens": 284,
+ "seconds": 41.8,
+ "llm_seconds": 40.3,
+ "tool_seconds": 1.0,
+ "calls_usage": [
+  [
+   7752,
+   0,
+   1574,
+   265
+  ],
+  [
+   9080,
+   0,
+   59,
+   19
+  ],
+  [
+   9791,
+   0,
+   129,
+   0
+  ]
+ ]
+}

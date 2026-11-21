@@ -1,0 +1,116 @@
+{
+ "config": "glm-5.3-flash@effort-high",
+ "task": "elf-archer-attack",
+ "ok": true,
+ "error": null,
+ "termination": "long_request_cut",
+ "submission": {
+  "source": "recovered",
+  "reason": "run_boundary_recovery",
+  "expected_count": 2,
+  "actual_count": 1,
+  "count_match": false,
+  "accepted": false,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "analyze.py": "f243b24875de008c1087b27edd32e716711ec36ee513a7f0b31c7853460324f1",
+   "dump.py": "b3a9404da97822ed199c486c5956f307969d8fbd6f46de041b4678595c30add1",
+   "main.py": "1f80f5ba8d76d350ce8f6484ee229c6f39440f87dc329cb2486f64a27e3c73d3"
+  },
+  "timed_out": false,
+  "path": "dump.py"
+ },
+ "frames": 1,
+ "colors": 43,
+ "writes": 6,
+ "model_rounds": 13,
+ "llm_calls": 13,
+ "retries": 1,
+ "prompt_tokens": 133566,
+ "cached_tokens": 0,
+ "completion_tokens": 11013,
+ "reasoning_tokens": 9814,
+ "seconds": 1956.2,
+ "llm_seconds": 152.9,
+ "tool_seconds": 2.6,
+ "calls_usage": [
+  [
+   7532,
+   0,
+   24,
+   8
+  ],
+  [
+   7643,
+   0,
+   60,
+   30
+  ],
+  [
+   7681,
+   0,
+   12,
+   0
+  ],
+  [
+   9294,
+   0,
+   10538,
+   9776
+  ],
+  [
+   10064,
+   0,
+   12,
+   0
+  ],
+  [
+   10421,
+   0,
+   67,
+   0
+  ],
+  [
+   10495,
+   0,
+   67,
+   0
+  ],
+  [
+   10569,
+   0,
+   12,
+   0
+  ],
+  [
+   10926,
+   0,
+   13,
+   0
+  ],
+  [
+   11687,
+   0,
+   67,
+   0
+  ],
+  [
+   11761,
+   0,
+   12,
+   0
+  ],
+  [
+   12684,
+   0,
+   117,
+   0
+  ],
+  [
+   12809,
+   0,
+   12,
+   0
+  ]
+ ]
+}

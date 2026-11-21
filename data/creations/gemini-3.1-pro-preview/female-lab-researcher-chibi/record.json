@@ -1,0 +1,48 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "female-lab-researcher-chibi",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0001",
+  "source_hashes": {
+   "main.py": "8efb16ed5047d77c11a8df89ad1c7751744a272cc68b35922e81530ebdb00571"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 14,
+ "writes": 1,
+ "model_rounds": 2,
+ "llm_calls": 2,
+ "retries": 0,
+ "prompt_tokens": 35740,
+ "cached_tokens": 0,
+ "completion_tokens": 515,
+ "reasoning_tokens": 20172,
+ "seconds": 215.2,
+ "llm_seconds": 214.0,
+ "tool_seconds": 0.6,
+ "calls_usage": [
+  [
+   7554,
+   0,
+   20630,
+   20135
+  ],
+  [
+   28186,
+   0,
+   57,
+   37
+  ]
+ ]
+}

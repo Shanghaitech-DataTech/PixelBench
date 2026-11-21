@@ -1,0 +1,23 @@
+{
+  "id": "big-170-170",
+  "task_type": "edit",
+  "prompt": "Remove the character from the scene (and fill in the parts it was covering, such as the vending machine). Change the weather to a thunderstorm: make the ground wet with clinging water droplets, and render the rain with semi-transparent droplets. Add lightning in the background.",
+  "width": 170,
+  "height": 170,
+  "constraints": {
+    "max_colors": null,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 15,
+    "max_code_seconds": 120
+  },
+  "input_size": {
+    "width": 170,
+    "height": 170
+  },
+  "output_size": "agent_defined",
+  "num_frames": 1,
+  "frames_visible": false
+}

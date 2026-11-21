@@ -1,0 +1,60 @@
+{
+ "config": "gpt-6-astra@effort-medium",
+ "task": "castle-title-screen",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "6805c20f6404068432a68b556db50035dc0240dbf4b2347ce68abab0c4c2328c"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 49,
+ "writes": 2,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 51759,
+ "cached_tokens": 50304,
+ "completion_tokens": 2382,
+ "reasoning_tokens": 80,
+ "seconds": 124.3,
+ "llm_seconds": 121.8,
+ "tool_seconds": 1.7,
+ "calls_usage": [
+  [
+   11136,
+   10752,
+   2074,
+   0
+  ],
+  [
+   13225,
+   13056,
+   18,
+   0
+  ],
+  [
+   13599,
+   13056,
+   268,
+   80
+  ],
+  [
+   13799,
+   13440,
+   22,
+   0
+  ]
+ ]
+}

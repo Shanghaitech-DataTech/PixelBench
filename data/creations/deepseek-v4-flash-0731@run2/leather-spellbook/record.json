@@ -1,0 +1,72 @@
+{
+ "config": "deepseek-v4-flash-0731@run2",
+ "task": "leather-spellbook",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "b3f9480ee4b8ad90ce89640c15b7735492d7b3977258d8cb664550d01ffaf4d3"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 9,
+ "writes": 2,
+ "model_rounds": 6,
+ "llm_calls": 6,
+ "retries": 0,
+ "prompt_tokens": 52843,
+ "cached_tokens": 0,
+ "completion_tokens": 17831,
+ "reasoning_tokens": 16556,
+ "seconds": 308.0,
+ "llm_seconds": 305.4,
+ "tool_seconds": 2.0,
+ "calls_usage": [
+  [
+   7676,
+   0,
+   12308,
+   11409
+  ],
+  [
+   8590,
+   0,
+   52,
+   7
+  ],
+  [
+   8771,
+   0,
+   84,
+   28
+  ],
+  [
+   8963,
+   0,
+   284,
+   169
+  ],
+  [
+   9092,
+   0,
+   45,
+   0
+  ],
+  [
+   9751,
+   0,
+   5058,
+   4943
+  ]
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "config": "kimi-k3",
+ "task": "leather-spellbook",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "81bafc61ffc42c79c9ac12cb53881705ccc9433ab32e3865afe619e57455ad25"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 9,
+ "writes": 2,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 42527,
+ "cached_tokens": 39596,
+ "completion_tokens": 10162,
+ "reasoning_tokens": 8730,
+ "seconds": 229.4,
+ "llm_seconds": 227.0,
+ "tool_seconds": 1.7,
+ "calls_usage": [
+  [
+   7229,
+   6912,
+   8680,
+   7803
+  ],
+  [
+   8140,
+   7168,
+   52,
+   3
+  ],
+  [
+   8632,
+   7936,
+   1205,
+   853
+  ],
+  [
+   9017,
+   8620,
+   49,
+   0
+  ],
+  [
+   9509,
+   8960,
+   176,
+   71
+  ]
+ ]
+}

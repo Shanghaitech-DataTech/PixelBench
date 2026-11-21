@@ -1,0 +1,126 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "monarch-butterfly",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0008",
+  "source_hashes": {
+   "main.py": "5932e6e72b770505505bac8793fff13da70abb686740f925d68346ee931e2b53"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 5,
+ "writes": 7,
+ "model_rounds": 15,
+ "llm_calls": 15,
+ "retries": 0,
+ "prompt_tokens": 254970,
+ "cached_tokens": 0,
+ "completion_tokens": 15296,
+ "reasoning_tokens": 418,
+ "seconds": 375.5,
+ "llm_seconds": 370.7,
+ "tool_seconds": 4.2,
+ "calls_usage": [
+  [
+   7734,
+   0,
+   2129,
+   259
+  ],
+  [
+   9623,
+   0,
+   40,
+   12
+  ],
+  [
+   10142,
+   0,
+   1841,
+   135
+  ],
+  [
+   11867,
+   0,
+   28,
+   0
+  ],
+  [
+   12359,
+   0,
+   2411,
+   0
+  ],
+  [
+   14789,
+   0,
+   40,
+   12
+  ],
+  [
+   15288,
+   0,
+   2143,
+   0
+  ],
+  [
+   17450,
+   0,
+   28,
+   0
+  ],
+  [
+   17919,
+   0,
+   2146,
+   0
+  ],
+  [
+   20084,
+   0,
+   28,
+   0
+  ],
+  [
+   20558,
+   0,
+   2153,
+   0
+  ],
+  [
+   22730,
+   0,
+   28,
+   0
+  ],
+  [
+   23189,
+   0,
+   2177,
+   0
+  ],
+  [
+   25385,
+   0,
+   28,
+   0
+  ],
+  [
+   25853,
+   0,
+   76,
+   0
+  ]
+ ]
+}

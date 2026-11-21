@@ -1,0 +1,60 @@
+{
+ "config": "gpt-6-astra@run3",
+ "task": "tavern-interior",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "3b8116f1183c54eb94eb3750ba941f740e3d05a448a7a7ab61c7d291d944a01b"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 57,
+ "writes": 2,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 1,
+ "prompt_tokens": 53139,
+ "cached_tokens": 49280,
+ "completion_tokens": 2692,
+ "reasoning_tokens": 40,
+ "seconds": 132.0,
+ "llm_seconds": 122.5,
+ "tool_seconds": 1.7,
+ "calls_usage": [
+  [
+   11144,
+   11008,
+   2504,
+   0
+  ],
+  [
+   13663,
+   13568,
+   18,
+   0
+  ],
+  [
+   14106,
+   10752,
+   148,
+   40
+  ],
+  [
+   14226,
+   13952,
+   22,
+   0
+  ]
+ ]
+}

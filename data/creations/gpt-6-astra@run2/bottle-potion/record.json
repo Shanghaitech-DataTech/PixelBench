@@ -1,0 +1,78 @@
+{
+ "config": "gpt-6-astra@run2",
+ "task": "bottle-potion",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "16ba46730605245edf28c14c079357e5b49bc9738669f6f608bc5e564b61e38a"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 18,
+ "writes": 3,
+ "model_rounds": 7,
+ "llm_calls": 7,
+ "retries": 6,
+ "prompt_tokens": 121554,
+ "cached_tokens": 106240,
+ "completion_tokens": 983,
+ "reasoning_tokens": 80,
+ "seconds": 207.6,
+ "llm_seconds": 106.7,
+ "tool_seconds": 3.3,
+ "calls_usage": [
+  [
+   11213,
+   10752,
+   72,
+   0
+  ],
+  [
+   11300,
+   11136,
+   18,
+   0
+  ],
+  [
+   11976,
+   11136,
+   32,
+   0
+  ],
+  [
+   12023,
+   11776,
+   18,
+   0
+  ],
+  [
+   24428,
+   12032,
+   748,
+   69
+  ],
+  [
+   25120,
+   24320,
+   18,
+   0
+  ],
+  [
+   25494,
+   25088,
+   77,
+   11
+  ]
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "config": "deepseek-v4-flash-0731@effort-max",
+ "task": "motorcycle-road",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "439f69a1aad4f20c010709c17839575bffc8c040ed7c595997f85bb85c86ba30"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 23,
+ "writes": 3,
+ "model_rounds": 6,
+ "llm_calls": 6,
+ "retries": 0,
+ "prompt_tokens": 67565,
+ "cached_tokens": 0,
+ "completion_tokens": 22888,
+ "reasoning_tokens": 21236,
+ "seconds": 451.9,
+ "llm_seconds": 449.0,
+ "tool_seconds": 2.3,
+ "calls_usage": [
+  [
+   7763,
+   0,
+   189,
+   53
+  ],
+  [
+   9356,
+   0,
+   7182,
+   6079
+  ],
+  [
+   10474,
+   0,
+   61,
+   0
+  ],
+  [
+   12246,
+   0,
+   8379,
+   8200
+  ],
+  [
+   12439,
+   0,
+   61,
+   0
+  ],
+  [
+   15287,
+   0,
+   7016,
+   6904
+  ]
+ ]
+}

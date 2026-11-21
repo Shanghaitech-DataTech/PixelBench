@@ -1,0 +1,23 @@
+{
+  "id": "house-turn-2view",
+  "task_type": "edit",
+  "prompt": "Rotate this house by 45 degrees and then by 90 degrees and draw both views, keeping the same 45-degree high-angle top-down view in both frames (a fixed elevated isometric camera: the camera height and pitch stay unchanged, so neither view becomes a flat eye-level elevation): the 45-degree frame shows the front door and front wall together with the window and wall on the right-hand side; the 90-degree frame shows only that right-hand wall and its window.",
+  "width": 112,
+  "height": 157,
+  "constraints": {
+    "max_colors": null,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 15,
+    "max_code_seconds": 120
+  },
+  "input_size": {
+    "width": 112,
+    "height": 157
+  },
+  "output_size": "agent_defined",
+  "num_frames": 2,
+  "frames_visible": false
+}

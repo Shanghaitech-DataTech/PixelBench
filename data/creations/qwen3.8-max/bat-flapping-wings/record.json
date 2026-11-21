@@ -1,0 +1,97 @@
+{
+ "config": "qwen3.8-max",
+ "task": "bat-flapping-wings",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "inspect.py": "8508dc3081886e9c09c46a39a2181a9317734e2aa32684cc26a9942d54aa0382",
+   "main.py": "945aa30bb9d4da6b896ac485b2a1e7e2c73e721d3e8b9f0226acb1b7d982b0ff"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 9,
+ "writes": 5,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 0,
+ "prompt_tokens": 107272,
+ "cached_tokens": 94336,
+ "completion_tokens": 33970,
+ "reasoning_tokens": 31639,
+ "seconds": 661.9,
+ "llm_seconds": 658.1,
+ "tool_seconds": 2.9,
+ "calls_usage": [
+  [
+   8030,
+   7168,
+   94,
+   15
+  ],
+  [
+   8135,
+   7552,
+   57,
+   29
+  ],
+  [
+   9206,
+   7552,
+   109,
+   27
+  ],
+  [
+   9307,
+   8704,
+   1593,
+   1565
+  ],
+  [
+   9900,
+   7168,
+   16697,
+   15834
+  ],
+  [
+   10782,
+   9216,
+   9465,
+   8544
+  ],
+  [
+   11722,
+   10368,
+   2562,
+   2431
+  ],
+  [
+   11872,
+   11264,
+   44,
+   15
+  ],
+  [
+   13836,
+   11520,
+   2641,
+   2550
+  ],
+  [
+   14482,
+   13824,
+   708,
+   629
+  ]
+ ]
+}

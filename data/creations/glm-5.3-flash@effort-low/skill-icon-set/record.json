@@ -1,0 +1,60 @@
+{
+ "config": "glm-5.3-flash@effort-low",
+ "task": "skill-icon-set",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "6037aa03acd2316ec63a3f587fb5e41cf33f86f8aec33164ced23a2a2b195d1b"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 14,
+ "writes": 1,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 32667,
+ "cached_tokens": 0,
+ "completion_tokens": 1309,
+ "reasoning_tokens": 254,
+ "seconds": 29.5,
+ "llm_seconds": 27.1,
+ "tool_seconds": 1.8,
+ "calls_usage": [
+  [
+   7302,
+   0,
+   1242,
+   235
+  ],
+  [
+   8317,
+   0,
+   12,
+   0
+  ],
+  [
+   8453,
+   0,
+   37,
+   19
+  ],
+  [
+   8595,
+   0,
+   18,
+   0
+  ]
+ ]
+}

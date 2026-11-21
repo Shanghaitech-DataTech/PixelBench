@@ -1,0 +1,60 @@
+{
+ "config": "gpt-5.6-sol",
+ "task": "cyberpunk-alley",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "4428cf4c5244ae70e798d9d0756da0e1488d271d0ef72cf29f1a6a9afcfbd379"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 86,
+ "writes": 1,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 53984,
+ "cached_tokens": 48896,
+ "completion_tokens": 4378,
+ "reasoning_tokens": 373,
+ "seconds": 94.1,
+ "llm_seconds": 91.6,
+ "tool_seconds": 1.6,
+ "calls_usage": [
+  [
+   11405,
+   11008,
+   110,
+   19
+  ],
+  [
+   11508,
+   11264,
+   4039,
+   249
+  ],
+  [
+   15311,
+   11392,
+   22,
+   0
+  ],
+  [
+   15760,
+   15232,
+   207,
+   105
+  ]
+ ]
+}

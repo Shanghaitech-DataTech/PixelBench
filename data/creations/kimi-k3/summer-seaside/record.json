@@ -1,0 +1,144 @@
+{
+ "config": "kimi-k3",
+ "task": "summer-seaside",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0009",
+  "source_hashes": {
+   "main.py": "c97e8f67dbed7f543b96cb8b17b0dc2cb2b11a42e13cd067a0455dc15951ffd9"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 55,
+ "writes": 12,
+ "model_rounds": 18,
+ "llm_calls": 18,
+ "retries": 0,
+ "prompt_tokens": 288448,
+ "cached_tokens": 270474,
+ "completion_tokens": 23990,
+ "reasoning_tokens": 18235,
+ "seconds": 606.8,
+ "llm_seconds": 598.8,
+ "tool_seconds": 7.2,
+ "calls_usage": [
+  [
+   7269,
+   6912,
+   16700,
+   14197
+  ],
+  [
+   9806,
+   7168,
+   58,
+   9
+  ],
+  [
+   10477,
+   9728,
+   2506,
+   1829
+  ],
+  [
+   11256,
+   10465,
+   49,
+   0
+  ],
+  [
+   11927,
+   11008,
+   1102,
+   966
+  ],
+  [
+   12096,
+   11915,
+   49,
+   0
+  ],
+  [
+   13703,
+   12032,
+   383,
+   0
+  ],
+  [
+   14119,
+   13691,
+   49,
+   0
+  ],
+  [
+   15717,
+   14080,
+   158,
+   0
+  ],
+  [
+   15908,
+   15705,
+   49,
+   0
+  ],
+  [
+   17528,
+   15872,
+   215,
+   0
+  ],
+  [
+   17776,
+   17516,
+   49,
+   0
+  ],
+  [
+   19380,
+   17664,
+   621,
+   0
+  ],
+  [
+   20034,
+   19368,
+   49,
+   0
+  ],
+  [
+   21657,
+   19968,
+   1363,
+   952
+  ],
+  [
+   22101,
+   21645,
+   49,
+   0
+  ],
+  [
+   23733,
+   22016,
+   477,
+   282
+  ],
+  [
+   23961,
+   23721,
+   64,
+   0
+  ]
+ ]
+}

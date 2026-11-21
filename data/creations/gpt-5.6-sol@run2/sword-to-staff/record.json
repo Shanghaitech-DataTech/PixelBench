@@ -1,0 +1,90 @@
+{
+ "config": "gpt-5.6-sol@run2",
+ "task": "sword-to-staff",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "1308c14d5e3df01326e45c2b46bc2b558ec9a275feffccc5094bc8fb6e61288b"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 28,
+ "writes": 4,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 5,
+ "prompt_tokens": 207687,
+ "cached_tokens": 189440,
+ "completion_tokens": 3402,
+ "reasoning_tokens": 1712,
+ "seconds": 222.1,
+ "llm_seconds": 130.9,
+ "tool_seconds": 3.3,
+ "calls_usage": [
+  [
+   11480,
+   11008,
+   126,
+   18
+  ],
+  [
+   11601,
+   11392,
+   18,
+   0
+  ],
+  [
+   23950,
+   11520,
+   415,
+   292
+  ],
+  [
+   24085,
+   23808,
+   18,
+   0
+  ],
+  [
+   26233,
+   24064,
+   1536,
+   926
+  ],
+  [
+   26856,
+   26112,
+   18,
+   0
+  ],
+  [
+   27230,
+   26752,
+   1012,
+   315
+  ],
+  [
+   27939,
+   27008,
+   18,
+   0
+  ],
+  [
+   28313,
+   27776,
+   241,
+   161
+  ]
+ ]
+}

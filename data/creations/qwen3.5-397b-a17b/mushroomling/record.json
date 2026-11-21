@@ -1,0 +1,54 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "mushroomling",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "eccd11a9c6dd19ed679cca74597ea10453bf98ad62e8d2fb7c3c8d09a785f7d7"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 5,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 25798,
+ "cached_tokens": 0,
+ "completion_tokens": 2870,
+ "reasoning_tokens": 1588,
+ "seconds": 73.5,
+ "llm_seconds": 71.9,
+ "tool_seconds": 1.0,
+ "calls_usage": [
+  [
+   7760,
+   0,
+   2740,
+   1570
+  ],
+  [
+   8949,
+   0,
+   58,
+   18
+  ],
+  [
+   9089,
+   0,
+   72,
+   0
+  ]
+ ]
+}

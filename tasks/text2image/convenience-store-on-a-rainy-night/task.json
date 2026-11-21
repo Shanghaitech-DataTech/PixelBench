@@ -1,0 +1,16 @@
+{
+  "id": "convenience-store-on-a-rainy-night",
+  "task_type": "agentic_creation",
+  "prompt": "pixel art, 64x64 resolution, small convenience store on rainy night, bright interior light through glass windows, umbrella rack, parked bicycle, reflective puddles, person in raincoat entering, no real brand names or logos",
+  "width": 64,
+  "height": 64,
+  "constraints": {
+    "max_colors": 86,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 25,
+    "max_code_seconds": 120
+  }
+}

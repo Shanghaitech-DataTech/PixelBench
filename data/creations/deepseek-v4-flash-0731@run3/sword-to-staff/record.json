@@ -1,0 +1,180 @@
+{
+ "config": "deepseek-v4-flash-0731@run3",
+ "task": "sword-to-staff",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0012",
+  "source_hashes": {
+   "main.py": "417bf8d4ee25f2c76678bc4f9a2f7c1654dea2f01c5d007cdbaeebc73b017be0"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 31,
+ "writes": 11,
+ "model_rounds": 24,
+ "llm_calls": 24,
+ "retries": 0,
+ "prompt_tokens": 429890,
+ "cached_tokens": 0,
+ "completion_tokens": 76623,
+ "reasoning_tokens": 72600,
+ "seconds": 845.9,
+ "llm_seconds": 837.7,
+ "tool_seconds": 6.3,
+ "calls_usage": [
+  [
+   7757,
+   0,
+   76,
+   16
+  ],
+  [
+   7919,
+   0,
+   215,
+   120
+  ],
+  [
+   8029,
+   0,
+   45,
+   0
+  ],
+  [
+   9923,
+   0,
+   1821,
+   1690
+  ],
+  [
+   10069,
+   0,
+   45,
+   0
+  ],
+  [
+   10762,
+   0,
+   4043,
+   3891
+  ],
+  [
+   10929,
+   0,
+   45,
+   0
+  ],
+  [
+   15480,
+   0,
+   6424,
+   6157
+  ],
+  [
+   15762,
+   0,
+   45,
+   0
+  ],
+  [
+   16456,
+   0,
+   251,
+   17
+  ],
+  [
+   16705,
+   0,
+   45,
+   0
+  ],
+  [
+   17439,
+   0,
+   5697,
+   5398
+  ],
+  [
+   17753,
+   0,
+   45,
+   0
+  ],
+  [
+   19187,
+   0,
+   9053,
+   8858
+  ],
+  [
+   19397,
+   0,
+   45,
+   0
+  ],
+  [
+   22101,
+   0,
+   15991,
+   15842
+  ],
+  [
+   22265,
+   0,
+   45,
+   0
+  ],
+  [
+   23903,
+   0,
+   21060,
+   20294
+  ],
+  [
+   24684,
+   0,
+   45,
+   0
+  ],
+  [
+   25631,
+   0,
+   7525,
+   7254
+  ],
+  [
+   25917,
+   0,
+   45,
+   0
+  ],
+  [
+   26415,
+   0,
+   847,
+   78
+  ],
+  [
+   27199,
+   0,
+   45,
+   0
+  ],
+  [
+   28208,
+   0,
+   3125,
+   2985
+  ]
+ ]
+}

@@ -1,0 +1,150 @@
+{
+ "config": "kimi-k3",
+ "task": "elf-archer-attack",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "c5884a191a5eb7de7158bbfbbd690cc52f5ab15ce3a962c4e426d3c54c64e6d8"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 43,
+ "writes": 11,
+ "model_rounds": 19,
+ "llm_calls": 19,
+ "retries": 5,
+ "prompt_tokens": 286314,
+ "cached_tokens": 270430,
+ "completion_tokens": 78550,
+ "reasoning_tokens": 73339,
+ "seconds": 2228.7,
+ "llm_seconds": 2184.8,
+ "tool_seconds": 4.4,
+ "calls_usage": [
+  [
+   7467,
+   6912,
+   106,
+   38
+  ],
+  [
+   7662,
+   7424,
+   147,
+   41
+  ],
+  [
+   7799,
+   7424,
+   52,
+   0
+  ],
+  [
+   9737,
+   7680,
+   5746,
+   5496
+  ],
+  [
+   10018,
+   9728,
+   52,
+   0
+  ],
+  [
+   13452,
+   9984,
+   35899,
+   35726
+  ],
+  [
+   13656,
+   13312,
+   52,
+   0
+  ],
+  [
+   14006,
+   13568,
+   28923,
+   27639
+  ],
+  [
+   15321,
+   13994,
+   52,
+   0
+  ],
+  [
+   16137,
+   15104,
+   3235,
+   2285
+  ],
+  [
+   17117,
+   16128,
+   185,
+   0
+  ],
+  [
+   17332,
+   16896,
+   435,
+   0
+  ],
+  [
+   17797,
+   17152,
+   493,
+   0
+  ],
+  [
+   18320,
+   17664,
+   52,
+   0
+  ],
+  [
+   19136,
+   18176,
+   1421,
+   830
+  ],
+  [
+   19757,
+   19124,
+   140,
+   0
+  ],
+  [
+   19927,
+   19712,
+   52,
+   0
+  ],
+  [
+   20743,
+   19712,
+   1441,
+   1284
+  ],
+  [
+   20930,
+   20736,
+   67,
+   0
+  ]
+ ]
+}

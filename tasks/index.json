@@ -1,0 +1,1403 @@
+[
+ {
+  "id": "magnifying-glass",
+  "family": "text2image",
+  "subject": "objects",
+  "title": "Magnifying Glass",
+  "canvas": [
+   16,
+   16
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": true
+ },
+ {
+  "id": "gold-star-coin",
+  "family": "text2image",
+  "subject": "objects",
+  "title": "Gold Star Coin",
+  "canvas": [
+   16,
+   16
+  ],
+  "max_colors": 6,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "wooden-key",
+  "family": "text2image",
+  "subject": "objects",
+  "title": "Wooden Key",
+  "canvas": [
+   16,
+   16
+  ],
+  "max_colors": 6,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "leather-spellbook",
+  "family": "text2image",
+  "subject": "objects",
+  "title": "Leather Spellbook",
+  "canvas": [
+   32,
+   32
+  ],
+  "max_colors": 8,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "usb-flash-drive",
+  "family": "text2image",
+  "subject": "objects",
+  "title": "USB Flash Drive",
+  "canvas": [
+   32,
+   32
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "retro-film-camera",
+  "family": "text2image",
+  "subject": "objects",
+  "title": "Retro Film Camera",
+  "canvas": [
+   32,
+   32
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": true
+ },
+ {
+  "id": "green-pear",
+  "family": "text2image",
+  "subject": "objects",
+  "title": "Green Pear",
+  "canvas": [
+   32,
+   32
+  ],
+  "max_colors": 7,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "bamboo-steamer",
+  "family": "text2image",
+  "subject": "objects",
+  "title": "Bamboo Steamer",
+  "canvas": [
+   32,
+   32
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "laboratory-microscope-icon",
+  "family": "text2image",
+  "subject": "objects",
+  "title": "Laboratory Microscope Icon",
+  "canvas": [
+   32,
+   32
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "portable-cassette-player",
+  "family": "text2image",
+  "subject": "objects",
+  "title": "Portable Cassette Player",
+  "canvas": [
+   32,
+   32
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": true
+ },
+ {
+  "id": "chainmail-armor",
+  "family": "text2image",
+  "subject": "objects",
+  "title": "Chainmail Armor",
+  "canvas": [
+   32,
+   32
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "magic-staff",
+  "family": "text2image",
+  "subject": "objects",
+  "title": "Magic Staff",
+  "canvas": [
+   48,
+   48
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "city-bus",
+  "family": "text2image",
+  "subject": "objects",
+  "title": "City Bus",
+  "canvas": [
+   64,
+   32
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "vintage-sewing-machine",
+  "family": "text2image",
+  "subject": "objects",
+  "title": "Vintage Sewing Machine",
+  "canvas": [
+   48,
+   48
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "dining-table",
+  "family": "text2image",
+  "subject": "objects",
+  "title": "Family Dining Table",
+  "canvas": [
+   64,
+   64
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "fast-food-combo",
+  "family": "text2image",
+  "subject": "objects",
+  "title": "Fast Food Combo",
+  "canvas": [
+   64,
+   64
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "weapon-set-icons",
+  "family": "text2image",
+  "subject": "objects",
+  "title": "Weapon Set Icons",
+  "canvas": [
+   64,
+   64
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "realistic-heart",
+  "family": "text2image",
+  "subject": "objects",
+  "title": "Realistic Heart",
+  "canvas": [
+   64,
+   64
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "motorcycle",
+  "family": "text2image",
+  "subject": "objects",
+  "title": "Motorcycle",
+  "canvas": [
+   128,
+   128
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "open-pocket-watch",
+  "family": "text2image",
+  "subject": "objects",
+  "title": "Open Pocket Watch",
+  "canvas": [
+   64,
+   64
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "arcane-instrument-giant",
+  "family": "text2image",
+  "subject": "objects",
+  "title": "Giant Arcane Orrery",
+  "canvas": [
+   256,
+   256
+  ],
+  "max_colors": 140,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "female-lab-researcher-chibi",
+  "family": "text2image",
+  "subject": "characters",
+  "title": "Female Lab Researcher Chibi",
+  "canvas": [
+   16,
+   16
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": true
+ },
+ {
+  "id": "sky-pirate-girl",
+  "family": "text2image",
+  "subject": "characters",
+  "title": "Sky Pirate Girl",
+  "canvas": [
+   64,
+   64
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": true
+ },
+ {
+  "id": "dim-sum-chef",
+  "family": "text2image",
+  "subject": "characters",
+  "title": "Dim Sum Chef",
+  "canvas": [
+   32,
+   32
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": true
+ },
+ {
+  "id": "e-scooter-rider",
+  "family": "text2image",
+  "subject": "characters",
+  "title": "Electric Scooter Rider",
+  "canvas": [
+   32,
+   32
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": true
+ },
+ {
+  "id": "female-elf-archer",
+  "family": "text2image",
+  "subject": "characters",
+  "title": "Female Elf Archer",
+  "canvas": [
+   64,
+   64
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "blue-cloak-girl-mage",
+  "family": "text2image",
+  "subject": "characters",
+  "title": "Blue-Cloak Girl Mage",
+  "canvas": [
+   64,
+   64
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "polar-researcher",
+  "family": "text2image",
+  "subject": "characters",
+  "title": "Polar Researcher",
+  "canvas": [
+   48,
+   48
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "two-character-standoff",
+  "family": "text2image",
+  "subject": "characters",
+  "title": "Two-Character Standoff",
+  "canvas": [
+   128,
+   128
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": true
+ },
+ {
+  "id": "swordsman-walk-animation",
+  "family": "text2image",
+  "subject": "characters",
+  "title": "Swordsman Walk Animation",
+  "canvas": [
+   64,
+   32
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false,
+  "judge_size": "64x32（单帧 32x32）"
+ },
+ {
+  "id": "character-4view",
+  "family": "text2image",
+  "subject": "characters",
+  "title": "Character Four Views",
+  "canvas": [
+   64,
+   64
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "character-emotion-set",
+  "family": "text2image",
+  "subject": "characters",
+  "title": "Character Emotion Set",
+  "canvas": [
+   64,
+   64
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": true
+ },
+ {
+  "id": "mad-cyborg-scientist",
+  "family": "text2image",
+  "subject": "characters",
+  "title": "Mad Cyborg Scientist",
+  "canvas": [
+   64,
+   64
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": true
+ },
+ {
+  "id": "east-hero-full-body",
+  "family": "text2image",
+  "subject": "characters",
+  "title": "Eastern Hero Full Body",
+  "canvas": [
+   256,
+   256
+  ],
+  "max_colors": 120,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": true
+ },
+ {
+  "id": "glow-jellyfish",
+  "family": "text2image",
+  "subject": "creatures",
+  "title": "Glow Jellyfish",
+  "canvas": [
+   16,
+   16
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": true
+ },
+ {
+  "id": "mushroomling",
+  "family": "text2image",
+  "subject": "creatures",
+  "title": "Mushroomling",
+  "canvas": [
+   16,
+   16
+  ],
+  "max_colors": 4,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "farm-chicken",
+  "family": "text2image",
+  "subject": "creatures",
+  "title": "Chicken (Farm Style)",
+  "canvas": [
+   32,
+   32
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "farm-sheep",
+  "family": "text2image",
+  "subject": "creatures",
+  "title": "Sheep (Farm Style)",
+  "canvas": [
+   32,
+   32
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": true
+ },
+ {
+  "id": "forest-slime-monster",
+  "family": "text2image",
+  "subject": "creatures",
+  "title": "Forest Slime Monster",
+  "canvas": [
+   32,
+   32
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "monarch-butterfly",
+  "family": "text2image",
+  "subject": "creatures",
+  "title": "Monarch Butterfly",
+  "canvas": [
+   32,
+   32
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "skeleton-grunt",
+  "family": "text2image",
+  "subject": "creatures",
+  "title": "Skeleton Grunt",
+  "canvas": [
+   32,
+   32
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "dragon-hatchling",
+  "family": "text2image",
+  "subject": "creatures",
+  "title": "Dragon Hatchling",
+  "canvas": [
+   64,
+   64
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": true
+ },
+ {
+  "id": "void-eye",
+  "family": "text2image",
+  "subject": "creatures",
+  "title": "Void Eye",
+  "canvas": [
+   64,
+   64
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "ancient-treant-boss",
+  "family": "text2image",
+  "subject": "creatures",
+  "title": "Ancient Treant Boss",
+  "canvas": [
+   256,
+   256
+  ],
+  "max_colors": 120,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": true
+ },
+ {
+  "id": "summer-seaside",
+  "family": "text2image",
+  "subject": "scenes",
+  "title": "Summer Seaside",
+  "canvas": [
+   128,
+   128
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "neighborhood-laundromat",
+  "family": "text2image",
+  "subject": "scenes",
+  "title": "Neighborhood Laundromat",
+  "canvas": [
+   64,
+   64
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "mountain-village-sunrise",
+  "family": "text2image",
+  "subject": "scenes",
+  "title": "Mountain Village at Sunrise",
+  "canvas": [
+   128,
+   128
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "red-roofed-forge-house",
+  "family": "text2image",
+  "subject": "scenes",
+  "title": "Red-Roofed Forge House",
+  "canvas": [
+   128,
+   128
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "rice-terraces-during-harvest",
+  "family": "text2image",
+  "subject": "scenes",
+  "title": "Rice Terraces During Harvest",
+  "canvas": [
+   64,
+   64
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "sunken-shipwreck",
+  "family": "text2image",
+  "subject": "scenes",
+  "title": "Sunken Shipwreck",
+  "canvas": [
+   64,
+   64
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": true
+ },
+ {
+  "id": "tavern-interior",
+  "family": "text2image",
+  "subject": "scenes",
+  "title": "Tavern Interior",
+  "canvas": [
+   64,
+   64
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": true
+ },
+ {
+  "id": "university-laboratory-workbench",
+  "family": "text2image",
+  "subject": "scenes",
+  "title": "University Laboratory Workbench",
+  "canvas": [
+   64,
+   64
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "castle-title-screen",
+  "family": "text2image",
+  "subject": "scenes",
+  "title": "Castle Title Screen",
+  "canvas": [
+   128,
+   128
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "cyberpunk-alley",
+  "family": "text2image",
+  "subject": "scenes",
+  "title": "Cyberpunk Alley",
+  "canvas": [
+   128,
+   128
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": true
+ },
+ {
+  "id": "poolcore-water-slide",
+  "family": "text2image",
+  "subject": "scenes",
+  "title": "Poolcore Water Slide",
+  "canvas": [
+   128,
+   128
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "convenience-store-on-a-rainy-night",
+  "family": "text2image",
+  "subject": "scenes",
+  "title": "Convenience Store on a Rainy Night",
+  "canvas": [
+   64,
+   64
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "subway-platform",
+  "family": "text2image",
+  "subject": "scenes",
+  "title": "Subway Platform",
+  "canvas": [
+   64,
+   64
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": true
+ },
+ {
+  "id": "magic-forest-cottage",
+  "family": "text2image",
+  "subject": "scenes",
+  "title": "Magic Forest Cottage",
+  "canvas": [
+   128,
+   128
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": true
+ },
+ {
+  "id": "offshore-wind-turbine-maintenance",
+  "family": "text2image",
+  "subject": "scenes",
+  "title": "Offshore Wind Turbine Maintenance",
+  "canvas": [
+   64,
+   64
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "ancient-dragon-battle",
+  "family": "text2image",
+  "subject": "scenes",
+  "title": "Ancient Dragon Battle",
+  "canvas": [
+   256,
+   256
+  ],
+  "max_colors": 140,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": true
+ },
+ {
+  "id": "minecraft-dirt-material",
+  "family": "text2image",
+  "subject": "materials",
+  "title": "Dirt Material (Minecraft Style)",
+  "canvas": [
+   16,
+   16
+  ],
+  "max_colors": 10,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "minecraft-stone-material",
+  "family": "text2image",
+  "subject": "materials",
+  "title": "Stone Material (Minecraft Style)",
+  "canvas": [
+   16,
+   16
+  ],
+  "max_colors": 10,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "rpg-grass-material",
+  "family": "text2image",
+  "subject": "materials",
+  "title": "Grass Material (RPG Style)",
+  "canvas": [
+   16,
+   16
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "rpg-wooden-planks-material",
+  "family": "text2image",
+  "subject": "materials",
+  "title": "Wooden Planks Material (RPG Style)",
+  "canvas": [
+   16,
+   16
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "seamless-carpet-pattern",
+  "family": "text2image",
+  "subject": "materials",
+  "title": "Seamless Carpet Pattern",
+  "canvas": [
+   32,
+   32
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "slash-effect",
+  "family": "text2image",
+  "subject": "effects",
+  "title": "Slash Effect",
+  "canvas": [
+   48,
+   48
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "teleport-portal",
+  "family": "text2image",
+  "subject": "effects",
+  "title": "Teleport Portal",
+  "canvas": [
+   48,
+   48
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": true
+ },
+ {
+  "id": "explosion-effect",
+  "family": "text2image",
+  "subject": "effects",
+  "title": "Explosion Effect",
+  "canvas": [
+   64,
+   64
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "rts-factory-icon",
+  "family": "text2image",
+  "subject": "icons",
+  "title": "RTS Factory Icon",
+  "canvas": [
+   32,
+   32
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "battery-status-set",
+  "family": "text2image",
+  "subject": "icons",
+  "title": "Battery Status Set",
+  "canvas": [
+   64,
+   64
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": true
+ },
+ {
+  "id": "item-icon",
+  "family": "text2image",
+  "subject": "icons",
+  "title": "Compass",
+  "canvas": [
+   32,
+   32
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "typography",
+  "family": "text2image",
+  "subject": "icons",
+  "title": "Typography",
+  "canvas": [
+   64,
+   64
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "chart-layout",
+  "family": "text2image",
+  "subject": "icons",
+  "title": "Chart Layout",
+  "canvas": [
+   128,
+   64
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "skill-icon-set",
+  "family": "text2image",
+  "subject": "icons",
+  "title": "Skill Icon Set",
+  "canvas": [
+   64,
+   64
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "public-transportation-icon-set",
+  "family": "text2image",
+  "subject": "icons",
+  "title": "Public Transportation Icon Set",
+  "canvas": [
+   64,
+   64
+  ],
+  "max_colors": 86,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "development_subset": false
+ },
+ {
+  "id": "bottle-potion",
+  "family": "edit",
+  "title": "Potion Bottle",
+  "canvas": [
+   64,
+   64
+  ],
+  "max_colors": null,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "first_frame_is_original": false,
+  "development_subset": false
+ },
+ {
+  "id": "yellow-bird-right",
+  "family": "edit",
+  "title": "Yellow Bird on the Right",
+  "canvas": [
+   64,
+   64
+  ],
+  "max_colors": null,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "first_frame_is_original": false,
+  "development_subset": false
+ },
+ {
+  "id": "durian-segment",
+  "family": "edit",
+  "title": "Durian",
+  "canvas": [
+   64,
+   64
+  ],
+  "max_colors": null,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "first_frame_is_original": false,
+  "development_subset": false
+ },
+ {
+  "id": "sword-to-staff",
+  "family": "edit",
+  "title": "Sword into Staff",
+  "canvas": [
+   64,
+   64
+  ],
+  "max_colors": null,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "first_frame_is_original": false,
+  "development_subset": false
+ },
+ {
+  "id": "bat-flapping-wings",
+  "family": "animation",
+  "title": "Bat Flapping Wings",
+  "canvas": [
+   27,
+   22
+  ],
+  "max_colors": null,
+  "frames": 2,
+  "reference": "source frames",
+  "first_frame_is_original": true,
+  "development_subset": false
+ },
+ {
+  "id": "melting-icecream",
+  "family": "edit",
+  "title": "Melting Ice Cream",
+  "canvas": [
+   64,
+   64
+  ],
+  "max_colors": null,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "first_frame_is_original": false,
+  "development_subset": false
+ },
+ {
+  "id": "bunny-hop",
+  "family": "animation",
+  "title": "BunnyHopping",
+  "canvas": [
+   26,
+   28
+  ],
+  "max_colors": null,
+  "frames": 2,
+  "reference": "source frames",
+  "first_frame_is_original": true,
+  "development_subset": false
+ },
+ {
+  "id": "fist-swing",
+  "family": "animation",
+  "title": "FistSwing",
+  "canvas": [
+   29,
+   44
+  ],
+  "max_colors": null,
+  "frames": 2,
+  "reference": "source frames",
+  "first_frame_is_original": true,
+  "development_subset": false
+ },
+ {
+  "id": "flag-wave",
+  "family": "animation",
+  "title": "Flag Waving",
+  "canvas": [
+   48,
+   56
+  ],
+  "max_colors": null,
+  "frames": 3,
+  "reference": "source frames",
+  "first_frame_is_original": true,
+  "development_subset": false
+ },
+ {
+  "id": "fountain-flow",
+  "family": "edit",
+  "title": "Fountain Water Flow",
+  "canvas": [
+   64,
+   76
+  ],
+  "max_colors": null,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "first_frame_is_original": false,
+  "development_subset": false
+ },
+ {
+  "id": "knife",
+  "family": "edit",
+  "title": "Knife",
+  "canvas": [
+   93,
+   128
+  ],
+  "max_colors": null,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "first_frame_is_original": false,
+  "development_subset": false
+ },
+ {
+  "id": "motorcycle-road",
+  "family": "edit",
+  "title": "Motorcycle on a Country Road",
+  "canvas": [
+   64,
+   64
+  ],
+  "max_colors": null,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "first_frame_is_original": false,
+  "development_subset": false
+ },
+ {
+  "id": "squid-red-idle",
+  "family": "animation",
+  "title": "SquidRed Idle",
+  "canvas": [
+   58,
+   57
+  ],
+  "max_colors": null,
+  "frames": 3,
+  "reference": "source frames",
+  "first_frame_is_original": true,
+  "development_subset": false
+ },
+ {
+  "id": "demon-cyclop-hit",
+  "family": "animation",
+  "title": "Demon Cyclops Hit",
+  "canvas": [
+   37,
+   33
+  ],
+  "max_colors": null,
+  "frames": 3,
+  "reference": "source frames",
+  "first_frame_is_original": true,
+  "development_subset": false
+ },
+ {
+  "id": "elf-archer-attack",
+  "family": "animation",
+  "title": "Elf Archer Attack",
+  "canvas": [
+   35,
+   47
+  ],
+  "max_colors": null,
+  "frames": 2,
+  "reference": "source frames",
+  "first_frame_is_original": true,
+  "development_subset": false
+ },
+ {
+  "id": "house-turn-2view",
+  "family": "multiview",
+  "title": "House Turnaround",
+  "canvas": [
+   112,
+   157
+  ],
+  "max_colors": null,
+  "frames": 2,
+  "reference": "source frames",
+  "first_frame_is_original": false,
+  "development_subset": false
+ },
+ {
+  "id": "paladin-attack",
+  "family": "animation",
+  "title": "Paladin Attack",
+  "canvas": [
+   43,
+   61
+  ],
+  "max_colors": null,
+  "frames": 2,
+  "reference": "source frames",
+  "first_frame_is_original": true,
+  "development_subset": false
+ },
+ {
+  "id": "char-turn-3view",
+  "family": "multiview",
+  "title": "Bride Turnaround (multi-view)",
+  "canvas": [
+   66,
+   119
+  ],
+  "max_colors": null,
+  "frames": 3,
+  "reference": "source frames",
+  "first_frame_is_original": false,
+  "development_subset": false
+ },
+ {
+  "id": "draw-sword-slash",
+  "family": "animation",
+  "title": "Draw Sword Slash",
+  "canvas": [
+   62,
+   72
+  ],
+  "max_colors": null,
+  "frames": 2,
+  "reference": "source frames",
+  "first_frame_is_original": true,
+  "development_subset": false
+ },
+ {
+  "id": "release-flames",
+  "family": "animation",
+  "title": "Release Flames",
+  "canvas": [
+   47,
+   63
+  ],
+  "max_colors": null,
+  "frames": 2,
+  "reference": "source frames",
+  "first_frame_is_original": true,
+  "development_subset": false
+ },
+ {
+  "id": "snowy-pine",
+  "family": "edit",
+  "title": "Snow on the Pine",
+  "canvas": [
+   82,
+   135
+  ],
+  "max_colors": null,
+  "frames": 1,
+  "reference": "source frames",
+  "first_frame_is_original": false,
+  "development_subset": false
+ },
+ {
+  "id": "big-250-147",
+  "family": "edit",
+  "title": "Forest and Mountains",
+  "canvas": [
+   250,
+   147
+  ],
+  "max_colors": null,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "first_frame_is_original": false,
+  "development_subset": false
+ },
+ {
+  "id": "big-144-256",
+  "family": "edit",
+  "title": "Magic Tower",
+  "canvas": [
+   144,
+   256
+  ],
+  "max_colors": null,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "first_frame_is_original": false,
+  "development_subset": false
+ },
+ {
+  "id": "big-170-170",
+  "family": "edit",
+  "title": "Motorcycle & Vending Machine Scene",
+  "canvas": [
+   170,
+   170
+  ],
+  "max_colors": null,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "first_frame_is_original": false,
+  "development_subset": false
+ },
+ {
+  "id": "big-256-128",
+  "family": "edit",
+  "title": "Demon King's Castle",
+  "canvas": [
+   256,
+   128
+  ],
+  "max_colors": null,
+  "frames": 1,
+  "reference": "gpt-image-2",
+  "first_frame_is_original": false,
+  "development_subset": false
+ }
+]

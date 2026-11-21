@@ -1,0 +1,48 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "battery-status-set",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0001",
+  "source_hashes": {
+   "main.py": "122df0ffe4f4f4ba5146715ff1d71c4b86958fb3c6244f5d5b6c7d88b0824cfd"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 18,
+ "writes": 1,
+ "model_rounds": 2,
+ "llm_calls": 2,
+ "retries": 0,
+ "prompt_tokens": 30540,
+ "cached_tokens": 0,
+ "completion_tokens": 869,
+ "reasoning_tokens": 14581,
+ "seconds": 171.3,
+ "llm_seconds": 167.9,
+ "tool_seconds": 0.5,
+ "calls_usage": [
+  [
+   7560,
+   0,
+   15418,
+   14569
+  ],
+  [
+   22980,
+   0,
+   32,
+   12
+  ]
+ ]
+}

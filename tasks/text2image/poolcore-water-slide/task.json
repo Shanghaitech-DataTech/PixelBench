@@ -1,0 +1,16 @@
+{
+  "id": "poolcore-water-slide",
+  "task_type": "agentic_creation",
+  "prompt": "pixel art, 128x128 resolution, poolcore liminal space, backrooms-style indoor pool hall, vast empty indoor pool room, crystal clear pale-blue water with gentle ripples and reflections, a curving white water slide descending into the water, floor and walls covered in pale-blue-and-white grid mosaic tiles, tiled columns, bright fluorescent ceiling lights casting even cool light, a girl seen from behind floating in a yellow swim ring in the middle of the pool, quiet dreamy uncanny atmosphere",
+  "width": 128,
+  "height": 128,
+  "constraints": {
+    "max_colors": 86,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 25,
+    "max_code_seconds": 120
+  }
+}

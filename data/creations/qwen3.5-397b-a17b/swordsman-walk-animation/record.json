@@ -1,0 +1,60 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "swordsman-walk-animation",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "60804e6e8ae436aa37dd1245c6724659ddb239500c558e17b480b5ed7606138e"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 22,
+ "writes": 1,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 51056,
+ "cached_tokens": 0,
+ "completion_tokens": 5540,
+ "reasoning_tokens": 424,
+ "seconds": 140.9,
+ "llm_seconds": 139.2,
+ "tool_seconds": 1.1,
+ "calls_usage": [
+  [
+   7778,
+   0,
+   5288,
+   406
+  ],
+  [
+   12679,
+   0,
+   58,
+   18
+  ],
+  [
+   12844,
+   0,
+   54,
+   0
+  ],
+  [
+   17755,
+   0,
+   140,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "config": "glm-5.3-flash@effort-high",
+ "task": "bat-flapping-wings",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "c6955223d618c947049a8463f4e36f63d5ff62e3e127312405b25f8970a71a06"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 9,
+ "writes": 7,
+ "model_rounds": 15,
+ "llm_calls": 15,
+ "retries": 0,
+ "prompt_tokens": 152641,
+ "cached_tokens": 0,
+ "completion_tokens": 30941,
+ "reasoning_tokens": 27646,
+ "seconds": 644.7,
+ "llm_seconds": 640.6,
+ "tool_seconds": 3.5,
+ "calls_usage": [
+  [
+   7520,
+   0,
+   24,
+   8
+  ],
+  [
+   7631,
+   0,
+   50,
+   0
+  ],
+  [
+   7689,
+   0,
+   12,
+   0
+  ],
+  [
+   8168,
+   0,
+   22443,
+   21885
+  ],
+  [
+   8734,
+   0,
+   12,
+   0
+  ],
+  [
+   9173,
+   0,
+   1544,
+   983
+  ],
+  [
+   9742,
+   0,
+   12,
+   0
+  ],
+  [
+   10135,
+   0,
+   2486,
+   1944
+  ],
+  [
+   10685,
+   0,
+   12,
+   0
+  ],
+  [
+   11061,
+   0,
+   939,
+   390
+  ],
+  [
+   11617,
+   0,
+   12,
+   0
+  ],
+  [
+   12008,
+   0,
+   816,
+   457
+  ],
+  [
+   12374,
+   0,
+   12,
+   0
+  ],
+  [
+   12763,
+   0,
+   2549,
+   1979
+  ],
+  [
+   13341,
+   0,
+   18,
+   0
+  ]
+ ]
+}

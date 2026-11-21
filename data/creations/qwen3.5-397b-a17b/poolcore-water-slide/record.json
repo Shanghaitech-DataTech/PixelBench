@@ -1,0 +1,90 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "poolcore-water-slide",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "20733c99c91142a94c898faa952ea6e3d36cfd0a2b42cf732cf54d1d65ed3e9e"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 29,
+ "writes": 4,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 117357,
+ "cached_tokens": 0,
+ "completion_tokens": 7800,
+ "reasoning_tokens": 1180,
+ "seconds": 191.3,
+ "llm_seconds": 186.8,
+ "tool_seconds": 3.7,
+ "calls_usage": [
+  [
+   7824,
+   0,
+   3858,
+   916
+  ],
+  [
+   10785,
+   0,
+   62,
+   22
+  ],
+  [
+   11069,
+   0,
+   174,
+   134
+  ],
+  [
+   11353,
+   0,
+   3020,
+   79
+  ],
+  [
+   14313,
+   0,
+   69,
+   29
+  ],
+  [
+   14597,
+   0,
+   239,
+   0
+  ],
+  [
+   14854,
+   0,
+   40,
+   0
+  ],
+  [
+   16123,
+   0,
+   298,
+   0
+  ],
+  [
+   16439,
+   0,
+   40,
+   0
+  ]
+ ]
+}

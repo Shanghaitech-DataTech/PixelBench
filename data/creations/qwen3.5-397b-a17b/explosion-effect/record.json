@@ -1,0 +1,66 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "explosion-effect",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "5a1333bab8794e0ceb9fb51980a6ac17e6b82beba48140d055a7f88b89aaaa2b"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 14,
+ "writes": 2,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 52299,
+ "cached_tokens": 0,
+ "completion_tokens": 3578,
+ "reasoning_tokens": 595,
+ "seconds": 84.8,
+ "llm_seconds": 82.5,
+ "tool_seconds": 1.7,
+ "calls_usage": [
+  [
+   7758,
+   0,
+   3142,
+   578
+  ],
+  [
+   10341,
+   0,
+   45,
+   17
+  ],
+  [
+   10831,
+   0,
+   179,
+   0
+  ],
+  [
+   11028,
+   0,
+   28,
+   0
+  ],
+  [
+   12341,
+   0,
+   184,
+   0
+  ]
+ ]
+}

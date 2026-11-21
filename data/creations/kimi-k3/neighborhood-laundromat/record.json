@@ -1,0 +1,72 @@
+{
+ "config": "kimi-k3",
+ "task": "neighborhood-laundromat",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "b88f186682f923e9c8c4e0d77092fd00ca435c648bc8765bf3704b34ae63b47c"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 37,
+ "writes": 3,
+ "model_rounds": 6,
+ "llm_calls": 6,
+ "retries": 0,
+ "prompt_tokens": 57876,
+ "cached_tokens": 53405,
+ "completion_tokens": 16708,
+ "reasoning_tokens": 14069,
+ "seconds": 368.0,
+ "llm_seconds": 365.6,
+ "tool_seconds": 1.8,
+ "calls_usage": [
+  [
+   7235,
+   6912,
+   14280,
+   12151
+  ],
+  [
+   9405,
+   7168,
+   45,
+   3
+  ],
+  [
+   9897,
+   9216,
+   2091,
+   1818
+  ],
+  [
+   10210,
+   9885,
+   99,
+   3
+  ],
+  [
+   10346,
+   9984,
+   45,
+   3
+  ],
+  [
+   10783,
+   10240,
+   148,
+   91
+  ]
+ ]
+}

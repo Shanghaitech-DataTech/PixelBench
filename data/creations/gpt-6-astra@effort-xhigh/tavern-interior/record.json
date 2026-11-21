@@ -1,0 +1,108 @@
+{
+ "config": "gpt-6-astra@effort-xhigh",
+ "task": "tavern-interior",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "c6e53171f93b9a7fa1edf0c54c96a8b69a5026ede711098068e0bab5c2458fa7"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 33,
+ "writes": 7,
+ "model_rounds": 12,
+ "llm_calls": 12,
+ "retries": 1,
+ "prompt_tokens": 196824,
+ "cached_tokens": 171392,
+ "completion_tokens": 8422,
+ "reasoning_tokens": 2782,
+ "seconds": 980.0,
+ "llm_seconds": 769.4,
+ "tool_seconds": 3.4,
+ "calls_usage": [
+  [
+   11144,
+   11008,
+   5062,
+   1036
+  ],
+  [
+   15185,
+   11008,
+   18,
+   0
+  ],
+  [
+   15628,
+   15104,
+   628,
+   516
+  ],
+  [
+   15752,
+   15488,
+   675,
+   516
+  ],
+  [
+   15923,
+   15744,
+   1417,
+   516
+  ],
+  [
+   16836,
+   15872,
+   38,
+   18
+  ],
+  [
+   17210,
+   0,
+   304,
+   163
+  ],
+  [
+   17363,
+   17152,
+   22,
+   0
+  ],
+  [
+   17665,
+   17280,
+   125,
+   17
+  ],
+  [
+   17785,
+   17152,
+   22,
+   0
+  ],
+  [
+   18115,
+   17536,
+   89,
+   0
+  ],
+  [
+   18218,
+   18048,
+   22,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,138 @@
+{
+ "config": "claude-opus-5",
+ "task": "ancient-treant-boss",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0017",
+  "source_hashes": {
+   "main.py": "f57be9d47ea26a0918eae3ed5c584f9bb69b29fe27a45bc36ff22bc4791245b8"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 35,
+ "writes": 24,
+ "model_rounds": 17,
+ "llm_calls": 17,
+ "retries": 4,
+ "prompt_tokens": 510362,
+ "cached_tokens": 459328,
+ "completion_tokens": 20505,
+ "reasoning_tokens": 0,
+ "seconds": 766.4,
+ "llm_seconds": 654.9,
+ "tool_seconds": 71.8,
+ "calls_usage": [
+  [
+   7873,
+   7086,
+   687,
+   0
+  ],
+  [
+   9279,
+   8351,
+   472,
+   0
+  ],
+  [
+   10353,
+   9318,
+   337,
+   0
+  ],
+  [
+   11144,
+   10030,
+   752,
+   0
+  ],
+  [
+   12345,
+   11111,
+   4841,
+   0
+  ],
+  [
+   19988,
+   17989,
+   6038,
+   0
+  ],
+  [
+   29262,
+   26336,
+   1214,
+   0
+  ],
+  [
+   31995,
+   28796,
+   1009,
+   0
+  ],
+  [
+   34109,
+   30698,
+   889,
+   0
+  ],
+  [
+   36277,
+   32649,
+   1031,
+   0
+  ],
+  [
+   38365,
+   34529,
+   1185,
+   0
+  ],
+  [
+   40813,
+   36732,
+   650,
+   0
+  ],
+  [
+   42639,
+   38375,
+   839,
+   0
+  ],
+  [
+   44717,
+   40245,
+   7,
+   0
+  ],
+  [
+   45671,
+   41104,
+   432,
+   0
+  ],
+  [
+   47289,
+   42560,
+   43,
+   0
+  ],
+  [
+   48243,
+   43419,
+   79,
+   0
+  ]
+ ]
+}

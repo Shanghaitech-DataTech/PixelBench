@@ -1,0 +1,54 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "dining-table",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "863fb08472424b7bc0dbba08f001fc73c37c625765ed516ed2716f6d64626eaa"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 18,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 32405,
+ "cached_tokens": 0,
+ "completion_tokens": 3706,
+ "reasoning_tokens": 287,
+ "seconds": 87.1,
+ "llm_seconds": 85.4,
+ "tool_seconds": 1.1,
+ "calls_usage": [
+  [
+   7763,
+   0,
+   3543,
+   272
+  ],
+  [
+   11053,
+   0,
+   43,
+   15
+  ],
+  [
+   13589,
+   0,
+   120,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "config": "kimi-k3",
+ "task": "magnifying-glass",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "952b520295efea38b9f89f694d41935d79b31a6d9d53704695522c303fb101b3"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 10,
+ "writes": 3,
+ "model_rounds": 6,
+ "llm_calls": 6,
+ "retries": 0,
+ "prompt_tokens": 51689,
+ "cached_tokens": 48577,
+ "completion_tokens": 19902,
+ "reasoning_tokens": 18310,
+ "seconds": 584.2,
+ "llm_seconds": 582.0,
+ "tool_seconds": 1.6,
+ "calls_usage": [
+  [
+   7207,
+   6912,
+   8269,
+   7667
+  ],
+  [
+   7840,
+   7168,
+   52,
+   0
+  ],
+  [
+   8332,
+   7680,
+   6256,
+   5631
+  ],
+  [
+   8988,
+   8320,
+   52,
+   0
+  ],
+  [
+   9549,
+   8960,
+   5206,
+   5012
+  ],
+  [
+   9773,
+   9537,
+   67,
+   0
+  ]
+ ]
+}

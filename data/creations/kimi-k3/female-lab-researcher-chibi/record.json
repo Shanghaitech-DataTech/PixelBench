@@ -1,0 +1,72 @@
+{
+ "config": "kimi-k3",
+ "task": "female-lab-researcher-chibi",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "c2f85757083e27b741cd1994eab0c39aaf36f39133df60d4e70ae69033ec53f4"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 13,
+ "writes": 4,
+ "model_rounds": 6,
+ "llm_calls": 6,
+ "retries": 1,
+ "prompt_tokens": 50510,
+ "cached_tokens": 47548,
+ "completion_tokens": 7582,
+ "reasoning_tokens": 6353,
+ "seconds": 197.5,
+ "llm_seconds": 167.0,
+ "tool_seconds": 1.7,
+ "calls_usage": [
+  [
+   7229,
+   6912,
+   6297,
+   5675
+  ],
+  [
+   7885,
+   7168,
+   75,
+   11
+  ],
+  [
+   8392,
+   7680,
+   842,
+   561
+  ],
+  [
+   8729,
+   8380,
+   174,
+   52
+  ],
+  [
+   8884,
+   8704,
+   64,
+   0
+  ],
+  [
+   9391,
+   8704,
+   130,
+   54
+  ]
+ ]
+}

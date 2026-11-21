@@ -1,0 +1,60 @@
+{
+ "config": "glm-5.3-flash@effort-low",
+ "task": "magic-staff",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "e8bca932608c9745d8a1409ff3faa7d3c166c2a7e036d1e3cddc3ad4b6400f15"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 11,
+ "writes": 1,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 32816,
+ "cached_tokens": 0,
+ "completion_tokens": 1325,
+ "reasoning_tokens": 154,
+ "seconds": 30.7,
+ "llm_seconds": 28.5,
+ "tool_seconds": 1.6,
+ "calls_usage": [
+  [
+   7277,
+   0,
+   1260,
+   137
+  ],
+  [
+   8408,
+   0,
+   12,
+   0
+  ],
+  [
+   8511,
+   0,
+   35,
+   17
+  ],
+  [
+   8620,
+   0,
+   18,
+   0
+  ]
+ ]
+}

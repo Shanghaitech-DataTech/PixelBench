@@ -1,0 +1,108 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "rpg-grass-material",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "ff3ed3321b9e2efd90855eb088f8eb2ec443c94cd6bf41e223333d170f18bc92"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 13,
+ "writes": 5,
+ "model_rounds": 12,
+ "llm_calls": 12,
+ "retries": 0,
+ "prompt_tokens": 150550,
+ "cached_tokens": 0,
+ "completion_tokens": 7750,
+ "reasoning_tokens": 228,
+ "seconds": 191.2,
+ "llm_seconds": 187.1,
+ "tool_seconds": 3.5,
+ "calls_usage": [
+  [
+   7770,
+   0,
+   1882,
+   200
+  ],
+  [
+   9471,
+   0,
+   58,
+   18
+  ],
+  [
+   9640,
+   0,
+   116,
+   0
+  ],
+  [
+   9885,
+   0,
+   1363,
+   0
+  ],
+  [
+   11267,
+   0,
+   50,
+   10
+  ],
+  [
+   11871,
+   0,
+   1505,
+   0
+  ],
+  [
+   13395,
+   0,
+   40,
+   0
+  ],
+  [
+   13562,
+   0,
+   1160,
+   0
+  ],
+  [
+   14741,
+   0,
+   40,
+   0
+  ],
+  [
+   15301,
+   0,
+   1226,
+   0
+  ],
+  [
+   16546,
+   0,
+   40,
+   0
+  ],
+  [
+   17101,
+   0,
+   270,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "config": "kimi-k3",
+ "task": "e-scooter-rider",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "cc23ec3a3613d9bb6148f9ca725e7935edaa0b771045649140eebd245b697baa"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 16,
+ "writes": 2,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 41668,
+ "cached_tokens": 39031,
+ "completion_tokens": 15045,
+ "reasoning_tokens": 13528,
+ "seconds": 492.1,
+ "llm_seconds": 490.4,
+ "tool_seconds": 1.1,
+ "calls_usage": [
+  [
+   7228,
+   6912,
+   5050,
+   4963
+  ],
+  [
+   7443,
+   7168,
+   8403,
+   7278
+  ],
+  [
+   8599,
+   7424,
+   52,
+   0
+  ],
+  [
+   9091,
+   8448,
+   1473,
+   1287
+  ],
+  [
+   9307,
+   9079,
+   67,
+   0
+  ]
+ ]
+}

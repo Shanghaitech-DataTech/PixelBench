@@ -1,0 +1,132 @@
+{
+ "config": "qwen3.8-max",
+ "task": "university-laboratory-workbench",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "7f8d6247d168e975977c1337ae4410186c1d6081a3a9986a5ca6a2358c7855e0"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 48,
+ "writes": 10,
+ "model_rounds": 16,
+ "llm_calls": 16,
+ "retries": 0,
+ "prompt_tokens": 334029,
+ "cached_tokens": 298368,
+ "completion_tokens": 99266,
+ "reasoning_tokens": 82850,
+ "seconds": 2082.3,
+ "llm_seconds": 2077.5,
+ "tool_seconds": 3.2,
+ "calls_usage": [
+  [
+   7811,
+   7552,
+   41065,
+   41026
+  ],
+  [
+   7868,
+   7168,
+   29355,
+   23581
+  ],
+  [
+   13661,
+   7168,
+   12525,
+   6218
+  ],
+  [
+   19987,
+   13312,
+   35,
+   7
+  ],
+  [
+   20392,
+   7168,
+   8167,
+   6969
+  ],
+  [
+   21607,
+   19584,
+   1442,
+   13
+  ],
+  [
+   23053,
+   21504,
+   228,
+   73
+  ],
+  [
+   23226,
+   23040,
+   370,
+   171
+  ],
+  [
+   23442,
+   23040,
+   710,
+   510
+  ],
+  [
+   23660,
+   23040,
+   181,
+   16
+  ],
+  [
+   23842,
+   23552,
+   100,
+   71
+  ],
+  [
+   24286,
+   23552,
+   1854,
+   1484
+  ],
+  [
+   24673,
+   24192,
+   367,
+   338
+  ],
+  [
+   25117,
+   24576,
+   1185,
+   839
+  ],
+  [
+   25480,
+   24576,
+   87,
+   58
+  ],
+  [
+   25924,
+   25344,
+   1595,
+   1476
+  ]
+ ]
+}

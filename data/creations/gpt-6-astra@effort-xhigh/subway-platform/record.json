@@ -1,0 +1,96 @@
+{
+ "config": "gpt-6-astra@effort-xhigh",
+ "task": "subway-platform",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0004",
+  "source_hashes": {
+   "main.py": "c49537a77c4f04930cf920870b763082f89ab0405e9bb06abf44345ca66c6a87"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 30,
+ "writes": 6,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 9,
+ "prompt_tokens": 151731,
+ "cached_tokens": 135936,
+ "completion_tokens": 7411,
+ "reasoning_tokens": 3129,
+ "seconds": 478.3,
+ "llm_seconds": 357.3,
+ "tool_seconds": 2.3,
+ "calls_usage": [
+  [
+   11139,
+   10752,
+   4900,
+   1554
+  ],
+  [
+   14500,
+   11008,
+   18,
+   0
+  ],
+  [
+   14943,
+   14336,
+   634,
+   516
+  ],
+  [
+   15073,
+   14720,
+   1055,
+   855
+  ],
+  [
+   15285,
+   11008,
+   324,
+   0
+  ],
+  [
+   15623,
+   15488,
+   18,
+   0
+  ],
+  [
+   15997,
+   15616,
+   350,
+   190
+  ],
+  [
+   16169,
+   15872,
+   22,
+   0
+  ],
+  [
+   16468,
+   10752,
+   68,
+   14
+  ],
+  [
+   16534,
+   16384,
+   22,
+   0
+  ]
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "weapon-set-icons",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "643fa4f8f3796f18890b142e569abf479c85f3e8cd9e4ff4817655b5748c6bc8"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 14,
+ "writes": 2,
+ "model_rounds": 2,
+ "llm_calls": 2,
+ "retries": 0,
+ "prompt_tokens": 17807,
+ "cached_tokens": 0,
+ "completion_tokens": 3393,
+ "reasoning_tokens": 29922,
+ "seconds": 309.1,
+ "llm_seconds": 307.1,
+ "tool_seconds": 1.4,
+ "calls_usage": [
+  [
+   7557,
+   0,
+   6618,
+   5044
+  ],
+  [
+   10250,
+   0,
+   26697,
+   24878
+  ]
+ ]
+}

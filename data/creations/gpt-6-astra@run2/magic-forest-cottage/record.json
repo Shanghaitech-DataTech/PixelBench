@@ -1,0 +1,60 @@
+{
+ "config": "gpt-6-astra@run2",
+ "task": "magic-forest-cottage",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "531feb9e46ecdfd6d7d8f6096fe65faa8e326d0ec0fbb7315e2da692c7890c74"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 181,
+ "writes": 2,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 4,
+ "prompt_tokens": 59670,
+ "cached_tokens": 57344,
+ "completion_tokens": 4993,
+ "reasoning_tokens": 106,
+ "seconds": 229.5,
+ "llm_seconds": 195.9,
+ "tool_seconds": 3.5,
+ "calls_usage": [
+  [
+   11169,
+   10752,
+   4246,
+   0
+  ],
+  [
+   15430,
+   15232,
+   18,
+   0
+  ],
+  [
+   16229,
+   15360,
+   707,
+   106
+  ],
+  [
+   16842,
+   16000,
+   22,
+   0
+  ]
+ ]
+}

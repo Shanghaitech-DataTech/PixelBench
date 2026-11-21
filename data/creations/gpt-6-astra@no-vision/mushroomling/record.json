@@ -1,0 +1,54 @@
+{
+ "config": "gpt-6-astra@no-vision",
+ "task": "mushroomling",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0001",
+  "source_hashes": {
+   "main.py": "149b85b24148c8cd866eda22130f9f5aa2042c8d728e55b04610190ff967bd3b"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 5,
+ "writes": 2,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 2,
+ "prompt_tokens": 46353,
+ "cached_tokens": 24269,
+ "completion_tokens": 1629,
+ "reasoning_tokens": 665,
+ "seconds": 79.0,
+ "llm_seconds": 53.9,
+ "tool_seconds": 0.5,
+ "calls_usage": [
+  [
+   15028,
+   7781,
+   1211,
+   518
+  ],
+  [
+   15560,
+   8244,
+   388,
+   147
+  ],
+  [
+   15765,
+   8244,
+   30,
+   0
+  ]
+ ]
+}

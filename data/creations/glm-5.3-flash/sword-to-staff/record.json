@@ -1,0 +1,163 @@
+{
+ "config": "glm-5.3-flash",
+ "task": "sword-to-staff",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0010",
+  "source_hashes": {
+   "check.py": "dcb553940adc24b48af70d19e431fe2597f6907f0adc02ddeb17bc6cf7790ac0",
+   "main.py": "ad0bc8bb6c6b653beace661a2084a97bf25425f30bc7576073b78a0b37807d2b"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 35,
+ "writes": 9,
+ "model_rounds": 21,
+ "llm_calls": 21,
+ "retries": 0,
+ "prompt_tokens": 262494,
+ "cached_tokens": 0,
+ "completion_tokens": 96987,
+ "reasoning_tokens": 93364,
+ "seconds": 1299.3,
+ "llm_seconds": 1292.2,
+ "tool_seconds": 5.4,
+ "calls_usage": [
+  [
+   7372,
+   0,
+   30,
+   0
+  ],
+  [
+   7496,
+   0,
+   69,
+   20
+  ],
+  [
+   7553,
+   0,
+   12,
+   0
+  ],
+  [
+   7659,
+   0,
+   64,
+   28
+  ],
+  [
+   7703,
+   0,
+   12,
+   0
+  ],
+  [
+   8548,
+   0,
+   45,
+   9
+  ],
+  [
+   8592,
+   0,
+   20,
+   0
+  ],
+  [
+   8708,
+   0,
+   12,
+   0
+  ],
+  [
+   9625,
+   0,
+   3229,
+   2856
+  ],
+  [
+   10006,
+   0,
+   12,
+   0
+  ],
+  [
+   12010,
+   0,
+   2185,
+   1854
+  ],
+  [
+   12349,
+   0,
+   12,
+   0
+  ],
+  [
+   13239,
+   0,
+   10053,
+   9841
+  ],
+  [
+   13459,
+   0,
+   12,
+   0
+  ],
+  [
+   15282,
+   0,
+   56585,
+   55458
+  ],
+  [
+   16417,
+   0,
+   12,
+   0
+  ],
+  [
+   17569,
+   0,
+   23275,
+   22152
+  ],
+  [
+   18700,
+   0,
+   12,
+   0
+  ],
+  [
+   19857,
+   0,
+   951,
+   875
+  ],
+  [
+   19941,
+   0,
+   12,
+   0
+  ],
+  [
+   20409,
+   0,
+   373,
+   271
+  ]
+ ]
+}

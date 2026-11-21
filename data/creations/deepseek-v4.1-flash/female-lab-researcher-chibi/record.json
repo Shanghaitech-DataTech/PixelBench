@@ -1,0 +1,120 @@
+{
+ "config": "deepseek-v4.1-flash",
+ "task": "female-lab-researcher-chibi",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "main.py": "d40be76b23c35d352e1015efd6f3588630bc79075c30ff3fb94c716389f0a702"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 13,
+ "writes": 6,
+ "model_rounds": 14,
+ "llm_calls": 14,
+ "retries": 0,
+ "prompt_tokens": 351067,
+ "cached_tokens": 342144,
+ "completion_tokens": 24970,
+ "reasoning_tokens": 23247,
+ "seconds": 195.5,
+ "llm_seconds": 191.9,
+ "tool_seconds": 3.0,
+ "calls_usage": [
+  [
+   7611,
+   7168,
+   34,
+   0
+  ],
+  [
+   7659,
+   7424,
+   12247,
+   11707
+  ],
+  [
+   19921,
+   15744,
+   38,
+   0
+  ],
+  [
+   20383,
+   19840,
+   4463,
+   4305
+  ],
+  [
+   24861,
+   24704,
+   38,
+   0
+  ],
+  [
+   25323,
+   24832,
+   1791,
+   1684
+  ],
+  [
+   27129,
+   26880,
+   38,
+   0
+  ],
+  [
+   27593,
+   27136,
+   2427,
+   2321
+  ],
+  [
+   30035,
+   29824,
+   38,
+   0
+  ],
+  [
+   30498,
+   29952,
+   1254,
+   1149
+  ],
+  [
+   31767,
+   31616,
+   60,
+   21
+  ],
+  [
+   32326,
+   31744,
+   402,
+   26
+  ],
+  [
+   32743,
+   32512,
+   38,
+   0
+  ],
+  [
+   33218,
+   32768,
+   2102,
+   2034
+  ]
+ ]
+}

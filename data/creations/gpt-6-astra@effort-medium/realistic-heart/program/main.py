@@ -1,0 +1,68 @@
+result = new_canvas(64,64,background='#151b26',name='heart')
+c=result
+# muted halo
+c.ellipse(32,34,26,28,'#1b2330')
+c.ellipse(33,36,23,25,'#202936')
+c.ellipse(33,57,17,3,'#111722')
+# vessels behind organ, dark silhouettes
+c.path('M 25 28 L 22 17 L 20 9 L 22 5 L 28 4 L 31 7 L 31 17 L 35 25 Z','#352536')
+c.path('M 25 25 L 24 15 L 22 8 L 24 6 L 28 6 L 29 9 L 29 19 L 32 25 Z','#6a7188')
+c.line(24,9,27,23,'#a0a0aa')
+# aortic arch and upper branches
+c.path('M 30 28 C 26 21 28 13 32 10 L 31 4 L 35 3 L 37 9 L 39 10 L 40 4 L 44 5 L 43 13 L 47 10 L 50 13 L 46 18 C 45 22 44 24 43 29 Z','#44202c')
+c.path('M 32 27 C 29 20 30 14 34 12 L 33 5 L 35 5 L 37 13 L 41 13 L 42 6 L 43 6 L 42 16 L 47 12 L 48 14 L 44 19 L 42 28 Z','#a64b55')
+c.path('M 33 26 C 31 19 33 15 37 15 C 43 14 44 20 40 26 Z','#d36c67')
+c.path('M 35 25 C 34 21 35 18 38 18 C 40 18 41 20 39 24 Z','#522a39')
+c.line(34,6,35,11,'#e58c79')
+c.line(33,14,36,13,'#ed9986')
+# veins to right
+c.poly([(42,25),(49,20),(54,20),(55,24),(48,27),(44,31)],'#442a39')
+c.poly([(46,25),(50,22),(54,22),(53,24),(47,28)],'#a35560')
+c.poly([(44,31),(52,28),(56,30),(55,34),(48,35)],'#492331')
+c.line(49,31,54,31,'#bd6268')
+# main organ silhouette, asymmetric apex
+c.path('M 29 23 C 20 18 14 24 13 32 C 11 41 19 49 28 54 C 33 58 37 60 40 57 C 46 52 49 41 48 33 C 48 26 43 22 38 23 Z','#3d202e')
+c.path('M 28 24 C 20 21 15 27 15 34 C 14 42 22 49 30 54 C 35 57 38 59 40 55 C 45 48 48 39 46 31 C 44 25 37 24 28 24 Z','#883641')
+c.path('M 27 25 C 20 24 16 29 17 35 C 18 42 24 45 30 48 L 39 55 C 44 47 46 39 44 31 C 42 27 35 26 27 25 Z','#b5484d')
+# right ventricular cool shaded mass
+c.path('M 26 26 C 20 25 16 29 17 36 C 19 43 26 48 31 51 L 34 47 C 28 41 28 35 30 30 Z','#a14652')
+c.path('M 22 26 C 17 29 18 35 21 39 L 27 43 L 25 35 L 28 29 Z','#c76768')
+c.path('M 21 28 L 19 31 L 20 36 L 22 37 L 22 32 L 26 29 Z','#df8a7e')
+# broad left ventricle lit musculature
+c.path('M 34 29 C 40 26 44 31 44 37 C 44 43 41 50 38 53 C 33 48 30 42 30 36 Z','#d25c59')
+c.path('M 36 30 C 40 29 42 33 42 37 L 39 44 L 35 43 L 33 37 Z','#e57b6a')
+c.poly([(37,31),(40,32),(41,35),(40,38),(37,39),(35,35)],'#f09b80')
+c.line(37,32,39,32,'#ffc3a0')
+c.line(36,33,36,35,'#f7b391')
+# muscle facets along taper
+c.poly([(42,42),(40,49),(38,54),(35,51),(38,49)],'#c25150')
+c.line(42,43,39,49,'#e16d60')
+c.line(32,48,36,53,'#e07668')
+c.line(23,45,29,49,'#c26160')
+c.line(18,39,21,42,'#dc7c71')
+# pulmonary trunk crossing upper face
+c.path('M 28 31 L 25 27 C 25 22 30 19 35 19 L 40 17 L 49 16 L 51 19 L 49 23 L 40 23 L 34 26 L 32 32 Z','#312c40')
+c.path('M 28 29 L 27 26 C 28 22 32 21 36 21 L 41 19 L 48 18 L 49 20 L 47 22 L 40 21 L 33 25 L 31 30 Z','#65778c')
+c.path('M 28 26 L 30 23 L 36 23 L 41 20 L 47 19 L 48 20 L 40 22 L 34 25 L 30 28 Z','#9ca4ae')
+c.line(30,23,34,22,'#c0b9b9')
+c.ellipse(49,19,2,3,'#444254')
+c.line(49,18,49,20,'#202636')
+# coronary groove and branching vessels
+c.path('M 32 29 L 29 33 L 30 39 L 33 45 L 35 50 L 38 55', '#602b39',fill=False)
+c.path('M 31 30 L 28 33 L 29 39 L 32 45 L 34 50 L 37 54', '#e28b79',fill=False)
+c.path('M 29 34 L 24 36 L 20 35 L 17 33', '#702e40',fill=False)
+c.path('M 28 33 L 24 35 L 20 34 L 18 32', '#ed9d84',fill=False)
+c.path('M 30 39 L 35 39 L 38 42 L 40 42 L 42 45', '#a23e49',fill=False)
+c.path('M 31 38 L 35 38 L 39 41 L 41 41', '#f2a182',fill=False)
+c.path('M 32 44 L 28 44 L 25 41 L 22 40', '#663246',fill=False)
+c.path('M 34 48 L 37 47 L 39 44', '#9c3b48',fill=False)
+c.line(24,36,24,39,'#e78c7d')
+c.line(35,39,35,42,'#f09b80')
+# small reflected edge accents
+c.line(14,32,14,36,'#665067')
+c.line(16,39,18,42,'#824352')
+c.line(44,47,42,51,'#7b3544')
+c.set(38,56,'#de7b6a')
+c.set(39,55,'#d56a5f')
+view(result)
+finish(result)

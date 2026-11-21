@@ -1,0 +1,90 @@
+{
+ "config": "kimi-k3",
+ "task": "release-flames",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "20bd171d5b9d3b8bab53b428f958cb1af87a830e0379795b133ce0b19f9f5f50"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 17,
+ "writes": 4,
+ "model_rounds": 9,
+ "llm_calls": 9,
+ "retries": 0,
+ "prompt_tokens": 97050,
+ "cached_tokens": 88692,
+ "completion_tokens": 19602,
+ "reasoning_tokens": 17155,
+ "seconds": 376.5,
+ "llm_seconds": 372.7,
+ "tool_seconds": 3.2,
+ "calls_usage": [
+  [
+   7474,
+   6912,
+   118,
+   16
+  ],
+  [
+   7633,
+   7424,
+   58,
+   9
+  ],
+  [
+   8936,
+   7424,
+   106,
+   12
+  ],
+  [
+   9063,
+   8704,
+   49,
+   0
+  ],
+  [
+   10662,
+   8960,
+   15839,
+   14396
+  ],
+  [
+   12139,
+   10650,
+   49,
+   0
+  ],
+  [
+   13030,
+   12032,
+   3149,
+   2601
+  ],
+  [
+   13611,
+   13018,
+   49,
+   0
+  ],
+  [
+   14502,
+   13568,
+   185,
+   121
+  ]
+ ]
+}

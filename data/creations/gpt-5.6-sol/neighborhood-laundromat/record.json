@@ -1,0 +1,54 @@
+{
+ "config": "gpt-5.6-sol",
+ "task": "neighborhood-laundromat",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "f295ecda233f4c8f3719619d8eed5697119a2b15686ae6d112f94d120d4620b1"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 33,
+ "writes": 1,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 38771,
+ "cached_tokens": 35328,
+ "completion_tokens": 2472,
+ "reasoning_tokens": 280,
+ "seconds": 56.9,
+ "llm_seconds": 55.1,
+ "tool_seconds": 1.1,
+ "calls_usage": [
+  [
+   11407,
+   11008,
+   2286,
+   213
+  ],
+  [
+   13493,
+   11008,
+   22,
+   0
+  ],
+  [
+   13871,
+   13312,
+   164,
+   67
+  ]
+ ]
+}

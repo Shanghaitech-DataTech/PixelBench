@@ -1,0 +1,16 @@
+{
+  "id": "cyberpunk-alley",
+  "task_type": "agentic_creation",
+  "prompt": "pixel art, 128x128 resolution, cyberpunk alley, rainy night, neon shop signs, reflective puddles, power cables, vending machines, one person with transparent umbrella, strong light contrast, readable silhouettes",
+  "width": 128,
+  "height": 128,
+  "constraints": {
+    "max_colors": 86,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 25,
+    "max_code_seconds": 120
+  }
+}

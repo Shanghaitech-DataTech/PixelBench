@@ -1,0 +1,60 @@
+{
+ "config": "deepseek-v4-flash-0731@run3",
+ "task": "chainmail-armor",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "eb778c6f7a3a5831916ebb464e5e65de78c3fda2636981977cc07578da2f2a90"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 10,
+ "writes": 2,
+ "model_rounds": 4,
+ "llm_calls": 4,
+ "retries": 0,
+ "prompt_tokens": 35895,
+ "cached_tokens": 0,
+ "completion_tokens": 15802,
+ "reasoning_tokens": 14356,
+ "seconds": 175.9,
+ "llm_seconds": 174.3,
+ "tool_seconds": 1.1,
+ "calls_usage": [
+  [
+   7663,
+   0,
+   11501,
+   10317
+  ],
+  [
+   8862,
+   0,
+   53,
+   8
+  ],
+  [
+   9600,
+   0,
+   4108,
+   3952
+  ],
+  [
+   9770,
+   0,
+   140,
+   79
+  ]
+ ]
+}

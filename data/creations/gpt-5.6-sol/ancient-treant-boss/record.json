@@ -1,0 +1,66 @@
+{
+ "config": "gpt-5.6-sol",
+ "task": "ancient-treant-boss",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0002",
+  "source_hashes": {
+   "main.py": "dd582351fad0b40f4edd010938abae55816419ef400c60ee4a921c744e9458b3"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 25,
+ "writes": 2,
+ "model_rounds": 5,
+ "llm_calls": 5,
+ "retries": 0,
+ "prompt_tokens": 72953,
+ "cached_tokens": 49408,
+ "completion_tokens": 5379,
+ "reasoning_tokens": 306,
+ "seconds": 130.8,
+ "llm_seconds": 116.3,
+ "tool_seconds": 3.9,
+ "calls_usage": [
+  [
+   11436,
+   11008,
+   101,
+   14
+  ],
+  [
+   11535,
+   11264,
+   4511,
+   154
+  ],
+  [
+   15905,
+   11392,
+   22,
+   0
+  ],
+  [
+   16740,
+   15744,
+   723,
+   138
+  ],
+  [
+   17337,
+   0,
+   22,
+   0
+  ]
+ ]
+}

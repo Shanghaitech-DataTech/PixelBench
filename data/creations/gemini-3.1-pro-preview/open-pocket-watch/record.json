@@ -1,0 +1,84 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "open-pocket-watch",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "9ca22d7fda512ea233a3e2d0e2bd2a8683845eec69a6d1c80672215175cd3ad4"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 20,
+ "writes": 6,
+ "model_rounds": 8,
+ "llm_calls": 8,
+ "retries": 1,
+ "prompt_tokens": 205938,
+ "cached_tokens": 88919,
+ "completion_tokens": 3994,
+ "reasoning_tokens": 17017,
+ "seconds": 223.9,
+ "llm_seconds": 208.4,
+ "tool_seconds": 4.6,
+ "calls_usage": [
+  [
+   7572,
+   0,
+   16064,
+   13028
+  ],
+  [
+   24088,
+   0,
+   156,
+   80
+  ],
+  [
+   24339,
+   0,
+   2635,
+   2463
+  ],
+  [
+   27069,
+   24226,
+   992,
+   829
+  ],
+  [
+   28452,
+   26433,
+   314,
+   29
+  ],
+  [
+   29165,
+   6042,
+   60,
+   42
+  ],
+  [
+   32304,
+   0,
+   549,
+   325
+  ],
+  [
+   32949,
+   32218,
+   241,
+   221
+  ]
+ ]
+}

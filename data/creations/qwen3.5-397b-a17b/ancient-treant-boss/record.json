@@ -1,0 +1,96 @@
+{
+ "config": "qwen3.5-397b-a17b",
+ "task": "ancient-treant-boss",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "5106a216dca5dbb5dfbd7f18c135eac06bd94e3c6ad30a7720ae48d751a31121"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 28,
+ "writes": 5,
+ "model_rounds": 10,
+ "llm_calls": 10,
+ "retries": 0,
+ "prompt_tokens": 135226,
+ "cached_tokens": 0,
+ "completion_tokens": 7753,
+ "reasoning_tokens": 302,
+ "seconds": 180.7,
+ "llm_seconds": 169.8,
+ "tool_seconds": 7.5,
+ "calls_usage": [
+  [
+   7796,
+   0,
+   4814,
+   253
+  ],
+  [
+   12376,
+   0,
+   45,
+   17
+  ],
+  [
+   12643,
+   0,
+   79,
+   0
+  ],
+  [
+   12961,
+   0,
+   603,
+   0
+  ],
+  [
+   13582,
+   0,
+   473,
+   0
+  ],
+  [
+   14073,
+   0,
+   28,
+   0
+  ],
+  [
+   14342,
+   0,
+   1007,
+   19
+  ],
+  [
+   15348,
+   0,
+   605,
+   13
+  ],
+  [
+   15958,
+   0,
+   28,
+   0
+  ],
+  [
+   16147,
+   0,
+   71,
+   0
+  ]
+ ]
+}

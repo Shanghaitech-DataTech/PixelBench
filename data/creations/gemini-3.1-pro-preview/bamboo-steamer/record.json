@@ -1,0 +1,54 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "bamboo-steamer",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "2832c95f764489b4ee16f77d90b114446733fd7fb9a962c8651178812d51c2cc"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 15,
+ "writes": 3,
+ "model_rounds": 3,
+ "llm_calls": 3,
+ "retries": 0,
+ "prompt_tokens": 32264,
+ "cached_tokens": 0,
+ "completion_tokens": 6890,
+ "reasoning_tokens": 34314,
+ "seconds": 364.2,
+ "llm_seconds": 362.1,
+ "tool_seconds": 1.5,
+ "calls_usage": [
+  [
+   7544,
+   0,
+   10972,
+   8954
+  ],
+  [
+   10681,
+   0,
+   5274,
+   3106
+  ],
+  [
+   14039,
+   0,
+   24958,
+   22254
+  ]
+ ]
+}

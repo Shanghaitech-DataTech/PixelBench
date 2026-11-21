@@ -1,0 +1,72 @@
+{
+ "config": "gpt-6-astra",
+ "task": "release-flames",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 2,
+  "actual_count": 2,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0003",
+  "source_hashes": {
+   "main.py": "a4eb0f352d4b23c57ef9127f858bb2ba79e4925f55b3eeea2f04b94fcbc8bd1b"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 2,
+ "colors": 18,
+ "writes": 3,
+ "model_rounds": 6,
+ "llm_calls": 6,
+ "retries": 0,
+ "prompt_tokens": 80195,
+ "cached_tokens": 75264,
+ "completion_tokens": 2829,
+ "reasoning_tokens": 1038,
+ "seconds": 144.5,
+ "llm_seconds": 141.9,
+ "tool_seconds": 1.8,
+ "calls_usage": [
+  [
+   11379,
+   10752,
+   98,
+   0
+  ],
+  [
+   11492,
+   11392,
+   18,
+   0
+  ],
+  [
+   12860,
+   11392,
+   2412,
+   941
+  ],
+  [
+   14344,
+   12672,
+   18,
+   0
+  ],
+  [
+   14972,
+   14208,
+   261,
+   97
+  ],
+  [
+   15148,
+   14848,
+   22,
+   0
+  ]
+ ]
+}

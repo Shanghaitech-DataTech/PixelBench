@@ -1,0 +1,126 @@
+{
+ "config": "qwen3.8-max",
+ "task": "polar-researcher",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0005",
+  "source_hashes": {
+   "main.py": "4a2bf3a084ff061cc3c3cc89ce13a913d7a23c72816ab41728ee1f65a34e00df"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 38,
+ "writes": 9,
+ "model_rounds": 15,
+ "llm_calls": 15,
+ "retries": 0,
+ "prompt_tokens": 230078,
+ "cached_tokens": 204672,
+ "completion_tokens": 56195,
+ "reasoning_tokens": 46690,
+ "seconds": 1394.3,
+ "llm_seconds": 1390.2,
+ "tool_seconds": 3.3,
+ "calls_usage": [
+  [
+   7804,
+   7168,
+   11894,
+   11864
+  ],
+  [
+   7852,
+   7552,
+   31259,
+   25350
+  ],
+  [
+   13780,
+   7168,
+   317,
+   159
+  ],
+  [
+   13956,
+   13312,
+   112,
+   84
+  ],
+  [
+   14259,
+   7168,
+   4265,
+   3329
+  ],
+  [
+   15212,
+   13824,
+   904,
+   372
+  ],
+  [
+   15762,
+   14336,
+   148,
+   119
+  ],
+  [
+   16103,
+   15360,
+   4385,
+   3321
+  ],
+  [
+   17184,
+   15360,
+   250,
+   25
+  ],
+  [
+   17426,
+   16384,
+   735,
+   558
+  ],
+  [
+   17620,
+   17408,
+   98,
+   69
+  ],
+  [
+   17962,
+   17408,
+   1098,
+   900
+  ],
+  [
+   18177,
+   17408,
+   116,
+   53
+  ],
+  [
+   18257,
+   17408,
+   87,
+   58
+  ],
+  [
+   18724,
+   17408,
+   527,
+   429
+  ]
+ ]
+}

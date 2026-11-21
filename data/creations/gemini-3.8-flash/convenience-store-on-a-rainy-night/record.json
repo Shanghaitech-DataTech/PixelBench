@@ -1,0 +1,189 @@
+{
+ "config": "gemini-3.8-flash",
+ "task": "convenience-store-on-a-rainy-night",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0012",
+  "source_hashes": {
+   "check_trans.py": "51d652bea7e74ee3ebe0b1c7f315b17889f66ba32d978958af2a422b54650174",
+   "find_bars.py": "a1a7c77dc86b17eb02b429e804a065b5cfb861006bf8fdc761e4d36b4d0214c4",
+   "inspect_door.py": "5cac7c6b8167d81e12c06e1da7c695ec03a971bafe9f7d34da6d7249865470b9",
+   "main.py": "595c2a0b4e352d2e3ebcaf0b740e8809e267411f676b8a258b51d12cba6adf67"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 78,
+ "writes": 12,
+ "model_rounds": 25,
+ "llm_calls": 25,
+ "retries": 0,
+ "prompt_tokens": 1155229,
+ "cached_tokens": 1009014,
+ "completion_tokens": 51425,
+ "reasoning_tokens": 0,
+ "seconds": 572.3,
+ "llm_seconds": 562.5,
+ "tool_seconds": 8.2,
+ "calls_usage": [
+  [
+   7690,
+   0,
+   141,
+   0
+  ],
+  [
+   7848,
+   5643,
+   1772,
+   0
+  ],
+  [
+   9638,
+   5817,
+   34,
+   0
+  ],
+  [
+   10804,
+   7403,
+   10513,
+   0
+  ],
+  [
+   21335,
+   10845,
+   34,
+   0
+  ],
+  [
+   21939,
+   19288,
+   148,
+   0
+  ],
+  [
+   22104,
+   19891,
+   29,
+   0
+  ],
+  [
+   23406,
+   0,
+   12956,
+   0
+  ],
+  [
+   36380,
+   23451,
+   33,
+   0
+  ],
+  [
+   37367,
+   34333,
+   179,
+   0
+  ],
+  [
+   37563,
+   35316,
+   173,
+   0
+  ],
+  [
+   37753,
+   35513,
+   30,
+   0
+  ],
+  [
+   39060,
+   36382,
+   15936,
+   0
+  ],
+  [
+   55014,
+   39112,
+   32,
+   0
+  ],
+  [
+   56328,
+   52956,
+   423,
+   0
+  ],
+  [
+   56771,
+   54278,
+   32,
+   0
+  ],
+  [
+   58175,
+   54715,
+   2894,
+   0
+  ],
+  [
+   61089,
+   58177,
+   32,
+   0
+  ],
+  [
+   63515,
+   61079,
+   11779,
+   0
+  ],
+  [
+   75312,
+   63552,
+   32,
+   0
+  ],
+  [
+   76627,
+   73255,
+   400,
+   0
+  ],
+  [
+   77047,
+   74577,
+   32,
+   0
+  ],
+  [
+   78722,
+   75514,
+   12473,
+   0
+  ],
+  [
+   91213,
+   78762,
+   33,
+   0
+  ],
+  [
+   92529,
+   89155,
+   562,
+   0
+  ]
+ ]
+}

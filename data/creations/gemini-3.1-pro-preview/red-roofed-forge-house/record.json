@@ -1,0 +1,78 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "red-roofed-forge-house",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0007",
+  "source_hashes": {
+   "main.py": "b556ebc46947bf00dafd28db3a9412efdd4ad61b20b54c86e3d83aa89be10d09"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 23,
+ "writes": 7,
+ "model_rounds": 7,
+ "llm_calls": 7,
+ "retries": 0,
+ "prompt_tokens": 112288,
+ "cached_tokens": 51908,
+ "completion_tokens": 15215,
+ "reasoning_tokens": 49282,
+ "seconds": 590.0,
+ "llm_seconds": 583.6,
+ "tool_seconds": 5.6,
+ "calls_usage": [
+  [
+   7572,
+   0,
+   6944,
+   5877
+  ],
+  [
+   15072,
+   0,
+   162,
+   98
+  ],
+  [
+   10373,
+   3964,
+   11514,
+   9700
+  ],
+  [
+   22453,
+   6038,
+   89,
+   0
+  ],
+  [
+   13956,
+   9923,
+   15759,
+   12129
+  ],
+  [
+   18780,
+   13965,
+   18100,
+   13917
+  ],
+  [
+   24082,
+   18018,
+   11929,
+   7561
+  ]
+ ]
+}

@@ -1,0 +1,5 @@
+c = canvas("village")
+print("== sun / centre house region ==")
+print(c.matrix_text(region=(48, 58, 82, 102)))
+print("== full scene stats ==")
+print(c.stats_text())

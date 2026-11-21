@@ -1,0 +1,156 @@
+{
+ "config": "glm-5.3-flash@effort-high",
+ "task": "usb-flash-drive",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0006",
+  "source_hashes": {
+   "main.py": "190f23fadc3f4a18a9085401c5b1d24b66b725f1156e522845edd6c897b83c9f"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 16,
+ "writes": 12,
+ "model_rounds": 20,
+ "llm_calls": 20,
+ "retries": 0,
+ "prompt_tokens": 239398,
+ "cached_tokens": 0,
+ "completion_tokens": 12689,
+ "reasoning_tokens": 9078,
+ "seconds": 207.6,
+ "llm_seconds": 203.9,
+ "tool_seconds": 3.0,
+ "calls_usage": [
+  [
+   7286,
+   0,
+   4201,
+   3471
+  ],
+  [
+   8024,
+   0,
+   12,
+   0
+  ],
+  [
+   8638,
+   0,
+   1383,
+   1131
+  ],
+  [
+   8897,
+   0,
+   514,
+   0
+  ],
+  [
+   9418,
+   0,
+   12,
+   0
+  ],
+  [
+   10019,
+   0,
+   666,
+   0
+  ],
+  [
+   10692,
+   0,
+   241,
+   0
+  ],
+  [
+   10949,
+   0,
+   13,
+   0
+  ],
+  [
+   11814,
+   0,
+   3737,
+   3469
+  ],
+  [
+   12089,
+   0,
+   12,
+   0
+  ],
+  [
+   12687,
+   0,
+   1030,
+   886
+  ],
+  [
+   12838,
+   0,
+   195,
+   0
+  ],
+  [
+   13040,
+   0,
+   12,
+   0
+  ],
+  [
+   13673,
+   0,
+   194,
+   0
+  ],
+  [
+   13874,
+   0,
+   12,
+   0
+  ],
+  [
+   14519,
+   0,
+   232,
+   121
+  ],
+  [
+   14646,
+   0,
+   96,
+   0
+  ],
+  [
+   14758,
+   0,
+   13,
+   0
+  ],
+  [
+   15717,
+   0,
+   96,
+   0
+  ],
+  [
+   15820,
+   0,
+   18,
+   0
+  ]
+ ]
+}

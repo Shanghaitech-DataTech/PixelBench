@@ -1,0 +1,42 @@
+{
+ "config": "deepseek-v4-flash-0731@direct",
+ "task": "swordsman-walk-animation",
+ "ok": false,
+ "error": "unparseable",
+ "termination": "format",
+ "frames": 0,
+ "colors": null,
+ "parse": {
+  "ok": false,
+  "reason": "21/32 rows beyond length tolerance",
+  "palette_size": 7,
+  "diags": [
+   {
+    "declared": [
+     64,
+     32
+    ],
+    "size": [
+     64,
+     32
+    ],
+    "rows": 32
+   }
+  ]
+ },
+ "max_tokens": 131072,
+ "time_limit_s": 3600.0,
+ "finish_reason": "stop",
+ "prompt_tokens": 502,
+ "completion_tokens": 54136,
+ "reasoning_tokens": 53653,
+ "seconds": 914.9,
+ "calls_usage": [
+  [
+   502,
+   0,
+   54136,
+   53653
+  ]
+ ]
+}

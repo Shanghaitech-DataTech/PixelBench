@@ -1,0 +1,23 @@
+{
+  "id": "big-250-147",
+  "task_type": "edit",
+  "prompt": "Set the time to noon on a clear day. Note: because it is noon, the sun should not appear in the picture.",
+  "width": 250,
+  "height": 147,
+  "constraints": {
+    "max_colors": null,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 15,
+    "max_code_seconds": 120
+  },
+  "input_size": {
+    "width": 250,
+    "height": 147
+  },
+  "output_size": "agent_defined",
+  "num_frames": 1,
+  "frames_visible": false
+}

@@ -1,0 +1,42 @@
+{
+ "config": "gemini-3.1-pro-preview",
+ "task": "rice-terraces-during-harvest",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0001",
+  "source_hashes": {
+   "main.py": "a7af84063ce227b86e8b5dc5687b46d098c3116789478ca026fc868ddb5fd310"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 32,
+ "writes": 1,
+ "model_rounds": 1,
+ "llm_calls": 1,
+ "retries": 0,
+ "prompt_tokens": 7558,
+ "cached_tokens": 0,
+ "completion_tokens": 1706,
+ "reasoning_tokens": 23634,
+ "seconds": 230.3,
+ "llm_seconds": 228.9,
+ "tool_seconds": 0.7,
+ "calls_usage": [
+  [
+   7558,
+   0,
+   25340,
+   23634
+  ]
+ ]
+}

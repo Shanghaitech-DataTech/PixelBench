@@ -1,0 +1,168 @@
+{
+ "config": "glm-5.3-flash",
+ "task": "swordsman-walk-animation",
+ "ok": true,
+ "error": null,
+ "termination": "submitted",
+ "submission": {
+  "source": "explicit",
+  "reason": "finish",
+  "expected_count": 1,
+  "actual_count": 1,
+  "count_match": true,
+  "accepted": true,
+  "run_id": "run_0010",
+  "source_hashes": {
+   "main.py": "51331c32a73c05250628623f5f2a906df484c93400a70c9a91d140dc5c8bd616"
+  },
+  "timed_out": false,
+  "path": "main.py"
+ },
+ "frames": 1,
+ "colors": 24,
+ "writes": 12,
+ "model_rounds": 22,
+ "llm_calls": 22,
+ "retries": 0,
+ "prompt_tokens": 659043,
+ "cached_tokens": 0,
+ "completion_tokens": 288553,
+ "reasoning_tokens": 264017,
+ "seconds": 3460.3,
+ "llm_seconds": 3453.7,
+ "tool_seconds": 5.9,
+ "calls_usage": [
+  [
+   7310,
+   0,
+   50053,
+   46627
+  ],
+  [
+   10744,
+   0,
+   21,
+   9
+  ],
+  [
+   12336,
+   0,
+   65830,
+   62209
+  ],
+  [
+   15965,
+   0,
+   12,
+   0
+  ],
+  [
+   17570,
+   0,
+   21085,
+   17239
+  ],
+  [
+   21424,
+   0,
+   12,
+   0
+  ],
+  [
+   22145,
+   0,
+   18630,
+   14716
+  ],
+  [
+   26067,
+   0,
+   12,
+   0
+  ],
+  [
+   27262,
+   0,
+   53152,
+   49544
+  ],
+  [
+   30878,
+   0,
+   12,
+   0
+  ],
+  [
+   31710,
+   0,
+   29615,
+   26003
+  ],
+  [
+   35330,
+   0,
+   12,
+   0
+  ],
+  [
+   36539,
+   0,
+   12231,
+   11667
+  ],
+  [
+   37110,
+   0,
+   12,
+   0
+  ],
+  [
+   38281,
+   0,
+   13035,
+   12842
+  ],
+  [
+   38481,
+   0,
+   791,
+   0
+  ],
+  [
+   39279,
+   0,
+   12,
+   0
+  ],
+  [
+   41090,
+   0,
+   15149,
+   14711
+  ],
+  [
+   41535,
+   0,
+   149,
+   0
+  ],
+  [
+   41691,
+   0,
+   166,
+   0
+  ],
+  [
+   41864,
+   0,
+   12,
+   0
+  ],
+  [
+   44432,
+   0,
+   8550,
+   8450
+  ]
+ ]
+}

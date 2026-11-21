@@ -1,0 +1,16 @@
+{
+  "id": "east-hero-full-body",
+  "task_type": "agentic_creation",
+  "prompt": "pixel art, 256x256 resolution, full body character portrait, oriental wuxia swordsman, wide bamboo conical hat (douli) tilted down covering the upper half of the face, long flowing dark robe with sash, loose hair, one hand resting on a straight jian sword, misty mountain backdrop, three-quarter view, heroic stance, flowing fabric details, dark outline",
+  "width": 256,
+  "height": 256,
+  "constraints": {
+    "max_colors": 120,
+    "transparent_background": true
+  },
+  "allow_reference": false,
+  "tool_budget": {
+    "max_steps": 25,
+    "max_code_seconds": 120
+  }
+}
