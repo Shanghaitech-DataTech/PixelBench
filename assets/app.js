@@ -66,17 +66,27 @@ function drawCell(cv, sheet, k) {
     0, 0, cv.width, cv.height);
 }
 
+/* one file carries every image, so a failed request is retried twice before giving up */
+function loadSheet(im, src, onload, onfail) {
+  let tries = 0;
+  im.onload = onload;
+  im.onerror = () => {
+    tries++;
+    if (tries < 3) setTimeout(() => { im.src = `${src}?retry=${tries}`; }, 1500 * tries);
+    else if (onfail) onfail();
+  };
+  im.src = src;
+}
+
 function preloadFrames() {
   if (!S || preloadStarted) return;   /* language switches re-render, not re-download */
   preloadStarted = true;
   frameSheet.decoding = 'sync';
-  frameSheet.onload = () => {
+  loadSheet(frameSheet, 'case/frames.png', () => {
     framesReady = frameCount;
     updateLoadBadge();
     drawStage(player.i, true);
-  };
-  frameSheet.onerror = () => { framesReady = frameCount; updateLoadBadge(); };
-  frameSheet.src = 'case/frames.png';
+  }, () => { framesReady = frameCount; updateLoadBadge(); });
   updateLoadBadge();
 }
 
@@ -128,8 +138,7 @@ function drawLayerThumb(box) {
 }
 function loadLayerSheet() {   /* first needed when a layer appears */
   if (layerSheet.src) return;
-  layerSheet.onload = () => $$('.lyr-thumb[data-src]', $('#layerStrip')).forEach(drawLayerThumb);
-  layerSheet.src = 'case/layers.png';
+  loadSheet(layerSheet, 'case/layers.png', () => $$('.lyr-thumb[data-src]', $('#layerStrip')).forEach(drawLayerThumb));
 }
 
 /* flat-code index helpers */
