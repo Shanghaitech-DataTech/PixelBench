@@ -43,52 +43,54 @@ const player = {
    The stage is a <canvas>, not an <img>: at the compressed loop pace frames
    are 5–20 ms apart, and re-assigning <img src> that fast aborts each decode
    before it paints, so the picture freezes.  Drawing pre-decoded images onto a
-   canvas is synchronous, so the stage always shows the newest frame we set. */
-const frameImg = new Map();      // frame index -> Image
+   canvas is synchronous, so the stage always shows the newest frame we set.
+   All frames come from one sprite sheet and the layer snapshots from another
+   (tools/build_case_sheets.py): cell k sits at column k % cols, row k / cols,
+   one canvas-sized cell each, so one request replaces hundreds. */
+const CELL_W = S ? S.meta.width : 0;
+const CELL_H = S ? S.meta.height : 0;
+const frameSheet = new Image();
 let framesReady = 0;
 let lastDrawn = -1;
 let preloadStarted = false;
 
+const sheetReady = (im) => im.complete && im.naturalWidth > 0;
+
+/* copy cell k of a sheet onto a canvas, scaled to the canvas size */
+function drawCell(cv, sheet, k) {
+  const cols = Math.floor(sheet.naturalWidth / CELL_W);
+  const ctx = cv.getContext('2d');
+  ctx.imageSmoothingEnabled = false;
+  ctx.clearRect(0, 0, cv.width, cv.height);
+  ctx.drawImage(sheet, (k % cols) * CELL_W, Math.floor(k / cols) * CELL_H, CELL_W, CELL_H,
+    0, 0, cv.width, cv.height);
+}
+
 function preloadFrames() {
   if (!S || preloadStarted) return;   /* language switches re-render, not re-download */
   preloadStarted = true;
-  S.frames.forEach((f) => {
-    const im = new Image();
-    im.decoding = 'sync';
-    im.onload = () => {
-      framesReady++;
-      updateLoadBadge();
-      if (player.i === f.i) drawStage(f.i, true);
-    };
-    im.onerror = () => { framesReady++; updateLoadBadge(); };
-    im.src = f.img;
-    frameImg.set(f.i, im);
-  });
+  frameSheet.decoding = 'sync';
+  frameSheet.onload = () => {
+    framesReady = frameCount;
+    updateLoadBadge();
+    drawStage(player.i, true);
+  };
+  frameSheet.onerror = () => { framesReady = frameCount; updateLoadBadge(); };
+  frameSheet.src = 'case/frames.png';
+  updateLoadBadge();
 }
 
 function updateLoadBadge() {
   const el = $('#stageLoad');
   if (!el) return;
-  const n = frameImg.size;
-  el.textContent = framesReady >= n ? '' : `${framesReady}/${n}`;
+  el.textContent = framesReady >= frameCount ? '' : `${framesReady}/${frameCount}`;
 }
 
 function drawStage(i, force) {
   const cv = $('#stageCanvas');
-  if (!cv) return;
-  const ctx = cv.getContext('2d');
-  const im = frameImg.get(i);
-  let src = im && im.complete && im.naturalWidth ? im : null;
-  if (!src) {
-    /* not decoded yet: keep the last good frame on screen instead of blanking */
-    const prev = frameImg.get(lastDrawn);
-    if (prev && prev.complete && prev.naturalWidth) src = prev;
-  }
-  if (!src) return;
+  if (!cv || !sheetReady(frameSheet)) return;   /* not decoded yet: its onload draws */
   if (!force && i === lastDrawn) return;
-  ctx.imageSmoothingEnabled = false;
-  ctx.clearRect(0, 0, cv.width, cv.height);
-  ctx.drawImage(src, 0, 0, cv.width, cv.height);
+  drawCell(cv, frameSheet, i);
   lastDrawn = i;
 }
 
@@ -108,6 +110,26 @@ function layerAt(name, frame) {
   let cur = null;
   for (const e of list) { if (e.frame <= frame) cur = e.img; else break; }
   return cur;
+}
+
+/* layer snapshot -> its cell in the layer sheet: order of first appearance, the
+   order tools/build_case_sheets.py packs them in */
+const layerCell = new Map();
+if (S) {
+  for (const f of S.frames) {
+    for (const img of Object.values(f.layers || {})) if (!layerCell.has(img)) layerCell.set(img, layerCell.size);
+  }
+}
+const layerSheet = new Image();
+function drawLayerThumb(box) {
+  const cv = $('canvas', box);
+  const k = layerCell.get(box.dataset.src);
+  if (cv && k != null && sheetReady(layerSheet)) drawCell(cv, layerSheet, k);
+}
+function loadLayerSheet() {   /* first needed when a layer appears */
+  if (layerSheet.src) return;
+  layerSheet.onload = () => $$('.lyr-thumb[data-src]', $('#layerStrip')).forEach(drawLayerThumb);
+  layerSheet.src = 'case/layers.png';
 }
 
 /* flat-code index helpers */
@@ -287,7 +309,11 @@ function setFrame(i, userAction) {
       const box = $('.lyr-thumb', el);
       if (src && box.dataset.src !== src) {
         box.dataset.src = src;
-        box.innerHTML = `<img src="${src}" alt="${esc(l.name)}" loading="lazy">`;
+        if (!$('canvas', box)) {
+          box.innerHTML = `<canvas width="${CELL_W}" height="${CELL_H}" role="img" aria-label="${esc(l.name)}"></canvas>`;
+        }
+        loadLayerSheet();
+        drawLayerThumb(box);
       }
       /* approximate live progress: scale total calls by how far this layer's own
          frames have progressed */
@@ -1207,7 +1233,7 @@ function boot() {
     fastLoops: () => fastLoops,
     state: () => ({ frame: player.i, playing: player.playing, stmtKey: player.stmtKey,
                     compressedFrames: player.compressedFrames }),
-    loaded: () => ({ ready: framesReady, total: frameImg.size, drawn: lastDrawn }),
+    loaded: () => ({ ready: framesReady, total: frameCount, drawn: lastDrawn }),
     stageSignature: () => { const cv = document.querySelector('#stageCanvas');
       const d = cv.getContext('2d').getImageData(0, 0, cv.width, cv.height).data;
       let h = 2166136261; for (let i = 0; i < d.length; i += 4) {

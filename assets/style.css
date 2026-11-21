@@ -278,7 +278,7 @@ html[data-lang="zh"] .hero-stats dd { max-width: 9em; word-break: keep-all; }
 .lyr.merged { border-color: #ff9c8c; }
 .lyr .lyr-thumb { position: relative; height: 62px; border-radius: 5px; background: var(--checker); overflow: hidden;
   display: flex; align-items: center; justify-content: center; }
-.lyr .lyr-thumb img { width: 58px; height: 58px; image-rendering: pixelated; }
+.lyr .lyr-thumb img, .lyr .lyr-thumb canvas { width: 58px; height: 58px; image-rendering: pixelated; }
 .lyr .lyr-thumb .ph { color: #55556a; font-size: .7rem; }
 .lyr .lyr-name { font-size: .68rem; color: #d5d5e0; margin-top: 6px; font-family: var(--mono);
   overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
